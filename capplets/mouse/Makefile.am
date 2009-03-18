@@ -3,6 +3,11 @@ cappletname = mouse
 
 bin_PROGRAMS = gnome-mouse-properties
 
+if HAVE_MOBLIN
+  GLADE_FILE=gnome-mouse-properties-moblin.glade
+else
+  GLADE_FILE=gnome-mouse-properties.glade
+endif
 gnome_mouse_properties_LDADD = $(GNOMECC_CAPPLETS_LIBS)
 gnome_mouse_properties_SOURCES =	\
 	gnome-mouse-properties.c	\
@@ -18,7 +23,7 @@ pixmap_DATA = \
 	double-click-maybe.png
 
 Gladedir   = $(pkgdatadir)/glade
-Glade_DATA = gnome-mouse-properties.glade
+Glade_DATA = $(GLADE_FILE)
 
 desktopdir = $(datadir)/applications
 Desktop_in_files = gnome-settings-mouse.desktop.in
