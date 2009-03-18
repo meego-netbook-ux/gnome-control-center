@@ -47,6 +47,12 @@
 
 #include "capplet-util.h"
 
+#ifdef HAVE_MOBLIN
+#define GLADE_FILE	"/gnome-about-me-moblin.glade"
+#else
+#define GLADE_FILE	"/gnome-about-me.glade"
+#endif
+
 #define MAX_HEIGHT 150
 #define MAX_WIDTH  150
 
@@ -98,8 +104,13 @@ enum {
 
 #define EMAIL_WORK              0
 #define EMAIL_HOME              1
+#ifndef HAVE_MOBLIN
 #define ADDRESS_HOME		21
 #define ADDRESS_WORK		27
+#else
+#define ADDRESS_HOME		14
+#define ADDRESS_WORK		20
+#endif
 
 struct WidToCid ids[] = {
 
@@ -113,21 +124,30 @@ struct WidToCid ids[] = {
 
 	{ "im-jabber-e",       E_CONTACT_IM_JABBER_HOME_1    }, /* 06 */
 	{ "im-msn-e",          E_CONTACT_IM_MSN_HOME_1       }, /* 07 */
+#ifndef HAVE_MOBLIN
 	{ "im-icq-e",          E_CONTACT_IM_ICQ_HOME_1       }, /* 08 */
+#endif
 	{ "im-yahoo-e",        E_CONTACT_IM_YAHOO_HOME_1     }, /* 09 */
 	{ "im-aim-e",          E_CONTACT_IM_AIM_HOME_1       }, /* 10 */
+#ifndef HAVE_MOBLIN
 	{ "im-groupwise-e",    E_CONTACT_IM_GROUPWISE_HOME_1 }, /* 11 */
+#endif
 
         { "web-homepage-e",    E_CONTACT_HOMEPAGE_URL        }, /* 12 */
         { "web-calendar-e",    E_CONTACT_CALENDAR_URI        }, /* 13 */
+#ifndef HAVE_MOBLIN
         { "web-weblog-e",      E_CONTACT_BLOG_URL            }, /* 14 */
+#endif
 
+/* the reordering should not matter */
+#ifndef HAVE_MOBLIN
         { "job-profession-e",  E_CONTACT_ROLE                }, /* 15 */
-        { "job-title-e",       E_CONTACT_TITLE               }, /* 16 */
         { "job-dept-e",        E_CONTACT_ORG_UNIT            }, /* 17 */
         { "job-assistant-e",   E_CONTACT_ASSISTANT           }, /* 18 */
-        { "job-company-e",     E_CONTACT_ORG                 }, /* 19 */
         { "job-manager-e",     E_CONTACT_MANAGER             }, /* 20 */
+#endif
+        { "job-company-e",     E_CONTACT_ORG                 }, /* 19 */
+        { "job-title-e",       E_CONTACT_TITLE               }, /* 16 */
 
 	{ "addr-street-1",     ADDRESS_STREET                }, /* 21 */
 	{ "addr-po-1", 	       ADDRESS_POBOX                 }, /* 22 */
@@ -917,7 +937,7 @@ about_me_setup_dialog (void)
 
 	me = g_new0 (GnomeAboutMe, 1);
 
-	dialog = glade_xml_new (GNOMECC_GLADE_DIR "/gnome-about-me.glade",
+	dialog = glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE,
 				"about-me-dialog", NULL);
 
 	if (dialog == NULL) {
