@@ -53,11 +53,17 @@ enum
 	DOUBLE_CLICK_TEST_ON
 };
 
+#ifdef HAVE_MOBLIN
+#define GLADE_FILE	"/gnome-mouse-properties-moblin.glade"
+#else
+#define GLADE_FILE	"/gnome-mouse-properties.glade"
+#endif
+
 /* We use this in at least half a dozen places, so it makes sense just to
  * define the macro */
-
 #define DOUBLE_CLICK_KEY "/desktop/gnome/peripherals/mouse/double_click"
 
+#ifndef HAVE_MOBLIN
 /* State in testing the double-click speed. Global for a great deal of
  * convenience
  */
@@ -76,6 +82,7 @@ double_click_from_gconf (GConfPropertyEditor *peditor, const GConfValue *value)
 	gconf_value_set_int (new_value, CLAMP ((int) floor ((gconf_value_get_int (value) + 50) / 100.0) * 100, 100, 1000));
 	return new_value;
 }
+#endif
 
 static void
 get_default_mouse_info (int *default_numerator, int *default_denominator, int *default_threshold)
@@ -169,6 +176,7 @@ threshold_from_gconf (GConfPropertyEditor *peditor,
 	return new_value;
 }
 
+#ifndef HAVE_MOBLIN
 static GConfValue *
 drag_threshold_from_gconf (GConfPropertyEditor *peditor,
 			   const GConfValue *value)
@@ -181,6 +189,7 @@ drag_threshold_from_gconf (GConfPropertyEditor *peditor,
 
 	return new_value;
 }
+#endif
 
 /* Double Click handling */
 
@@ -192,6 +201,7 @@ struct test_data_t
 
 /* Timeout for the double click test */
 
+#ifndef HAVE_MOBLIN
 static gboolean
 test_maybe_timeout (struct test_data_t *data)
 {
@@ -278,6 +288,7 @@ event_box_button_press_event (GtkWidget   *widget,
 
 	return TRUE;
 }
+#endif
 
 static void
 orientation_radio_button_release_event (GtkWidget   *widget,
@@ -331,6 +342,7 @@ setup_dialog (GladeXML *dialog, GConfChangeSet *changeset)
 	g_signal_connect (WID ("left_handed_radio"), "button_release_event",
 		G_CALLBACK (orientation_radio_button_release_event), NULL);
 
+#ifndef HAVE_MOBLIN
 	/* Locate pointer toggle */
 	peditor = gconf_peditor_new_boolean
 		(changeset, "/desktop/gnome/peripherals/mouse/locate_pointer", WID ("locate_pointer_toggle"), NULL);
@@ -344,6 +356,7 @@ setup_dialog (GladeXML *dialog, GConfChangeSet *changeset)
 	g_object_set_data (G_OBJECT (WID ("double_click_eventbox")), "image", WID ("double_click_image"));
 	g_signal_connect (WID ("double_click_eventbox"), "button_press_event",
 			  G_CALLBACK (event_box_button_press_event), changeset);
+#endif
 
 	/* speed */
       	gconf_peditor_new_numeric_range
@@ -357,11 +370,13 @@ setup_dialog (GladeXML *dialog, GConfChangeSet *changeset)
 		 "conv-to-widget-cb", threshold_from_gconf,
 		 NULL);
 
+#ifndef HAVE_MOBLIN
 	/* DnD threshold */
 	gconf_peditor_new_numeric_range
 		(changeset, "/desktop/gnome/peripherals/mouse/drag_threshold", WID ("drag_threshold_scale"),
 		 "conv-to-widget-cb", drag_threshold_from_gconf,
 		 NULL);
+#endif
 }
 
 /* Construct the dialog */
@@ -372,25 +387,30 @@ create_dialog (void)
 	GladeXML     *dialog;
 	GtkSizeGroup *size_group;
 
-	dialog = glade_xml_new (GNOMECC_GLADE_DIR "/gnome-mouse-properties.glade", "mouse_properties_dialog", NULL);
+	dialog = glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE, "mouse_properties_dialog", NULL);
 	if (!dialog)
 		return NULL;
 
 	size_group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
 	gtk_size_group_add_widget (size_group, WID ("acceleration_label"));
 	gtk_size_group_add_widget (size_group, WID ("sensitivity_label"));
+#ifndef HAVE_MOBLIN
 	gtk_size_group_add_widget (size_group, WID ("threshold_label"));
 	gtk_size_group_add_widget (size_group, WID ("timeout_label"));
+#endif
 
 	size_group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
 	gtk_size_group_add_widget (size_group, WID ("acceleration_fast_label"));
 	gtk_size_group_add_widget (size_group, WID ("sensitivity_high_label"));
+#ifndef HAVE_MOBLIN
 	gtk_size_group_add_widget (size_group, WID ("threshold_large_label"));
 	gtk_size_group_add_widget (size_group, WID ("timeout_long_label"));
+#endif
 
 	size_group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
 	gtk_size_group_add_widget (size_group, WID ("acceleration_slow_label"));
 	gtk_size_group_add_widget (size_group, WID ("sensitivity_low_label"));
+#ifndef HAVE_MOBLIN
 	gtk_size_group_add_widget (size_group, WID ("threshold_small_label"));
 	gtk_size_group_add_widget (size_group, WID ("timeout_short_label"));
 
@@ -408,6 +428,7 @@ create_dialog (void)
 	gtk_size_group_add_widget (size_group, WID ("simulated_delay_long_label"));
 	gtk_size_group_add_widget (size_group, WID ("dwell_delay_long_label"));
 	gtk_size_group_add_widget (size_group, WID ("dwell_threshold_large_label"));
+#endif
 
 	return dialog;
 }
@@ -458,7 +479,9 @@ main (int argc, char **argv)
 
 	if (dialog) {
 		setup_dialog (dialog, NULL);
+#ifndef HAVE_MOBLIN
 		setup_accessibility (dialog, client);
+#endif
 
 		dialog_win = WID ("mouse_properties_dialog");
 		g_signal_connect (dialog_win, "response",
