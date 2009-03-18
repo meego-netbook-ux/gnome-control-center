@@ -235,6 +235,16 @@ fi
 
 AC_SUBST(GLIB_GENMARSHAL)
 
+
+dnl ==============================================
+dnl Moblin specific tweaks
+dnl ==============================================
+AC_ARG_ENABLE(moblin, AC_HELP_STRING([--enable-moblin],[Build Moblin version]))
+if test x"$enable_moblin" = xyes; then
+  AC_DEFINE(HAVE_MOBLIN, 1, [Define if we are building for Moblin])
+  AM_CONDITIONAL(HAVE_MOBLIN, test "x$enable_moblin" = "xyes")
+fi
+
 dnl ==============================================
 dnl Special GConf section
 dnl ==============================================
