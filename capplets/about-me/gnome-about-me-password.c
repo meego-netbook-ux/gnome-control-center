@@ -27,6 +27,12 @@
 #  include <config.h>
 #endif
 
+#ifdef HAVE_MOBLIN
+#define GLADE_FILE	"/gnome-about-me-moblin.glade"
+#else
+#define GLADE_FILE	"/gnome-about-me.glade"
+#endif
+
 /* Are all of these needed? */
 #include <gdk/gdkkeysyms.h>
 #include <pwd.h>
@@ -1013,7 +1019,7 @@ passdlg_init (PasswordDialog *pdialog, GtkWindow *parent)
 	GtkAccelGroup	*group;
 
 	/* Initialize dialog */
-	dialog = glade_xml_new (GNOMECC_GLADE_DIR "/gnome-about-me.glade", "change-password", NULL);
+	dialog = glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE, "change-password", NULL);
 	pdialog->xml = dialog;
 
 	wpassdlg = WID ("change-password");

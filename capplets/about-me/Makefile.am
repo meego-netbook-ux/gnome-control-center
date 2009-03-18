@@ -1,7 +1,11 @@
 # This is used in GNOMECC_CAPPLETS_CFLAGS
 cappletname = about-me
 
-glade_files = gnome-about-me.glade gnome-about-me-fingerprint.glade
+if HAVE_MOBLIN
+  glade_files = gnome-about-me-moblin.glade gnome-about-me-fingerprint.glade
+else
+  glade_files = gnome-about-me.glade gnome-about-me-fingerprint.glade
+endif
 Desktop_in_files = gnome-about-me.desktop.in
 
 pixmap_files = 				\
