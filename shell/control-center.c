@@ -152,7 +152,7 @@ main (int argc, char *argv[])
 		handle_static_action_clicked);
 
 	g_signal_connect (bonobo_app, "new-instance", G_CALLBACK (apss_new_instance_cb), app_data);
-	create_main_window (app_data, "MyControlCenter", _("Control Center"),
+	create_main_window (app_data, "MyControlCenter", _("Settings"),
 		"gnome-control-center", 975, 600, hidden);
 
 	if (bonobo_app)
