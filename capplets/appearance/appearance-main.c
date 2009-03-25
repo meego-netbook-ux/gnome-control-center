@@ -30,6 +30,12 @@
 #include "activate-settings-daemon.h"
 #include "capplet-util.h"
 
+#ifdef HAVE_MOBLIN
+#define GLADE_FILE		"appearance-moblin.glade"
+#else
+#define GLADE_FILE		"appearance.glade"
+#endif
+
 static AppearanceData *
 init_appearance_data (int *argc, char ***argv, GOptionContext *context)
 {
@@ -38,12 +44,14 @@ init_appearance_data (int *argc, char ***argv, GOptionContext *context)
   GladeXML *ui;
 
   g_thread_init (NULL);
+#ifndef HAVE_MOBLIN
   theme_thumbnail_factory_init (*argc, *argv);
+#endif
   capplet_init (context, argc, argv);
   activate_settings_daemon ();
 
   /* set up the data */
-  gladefile = g_build_filename (GNOMECC_GLADE_DIR, "appearance.glade", NULL);
+  gladefile = g_build_filename (GNOMECC_GLADE_DIR, GLADE_FILE, NULL);
   ui = glade_xml_new (gladefile, NULL, NULL);
   g_free (gladefile);
 
@@ -67,8 +75,10 @@ main_window_response (GtkWidget *widget,
   {
     gtk_main_quit ();
 
+#ifndef HAVE_MOBLIN
     themes_shutdown (data);
     style_shutdown (data);
+#endif
     desktop_shutdown (data);
     font_shutdown (data);
 
@@ -157,12 +167,16 @@ main (int argc, char **argv)
   }
 
   /* init tabs */
+#ifndef HAVE_MOBLIN
   themes_init (data);
   style_init (data);
+#endif
   desktop_init (data, (const gchar **) wallpaper_files);
   g_strfreev (wallpaper_files);
   font_init (data);
+#ifndef HAVE_MOBLIN
   ui_init (data);
+#endif
 
   /* prepare the main window */
   w = glade_xml_get_widget (data->xml, "appearance_window");

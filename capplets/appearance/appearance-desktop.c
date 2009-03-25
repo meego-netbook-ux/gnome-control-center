@@ -49,6 +49,29 @@ static const GtkTargetEntry drag_types[] = {
 
 static void wp_update_preview (GtkFileChooser *chooser, AppearanceData *data);
 
+static gboolean
+increment (GtkTreeModel *model,
+           GtkTreePath  *path,
+           GtkTreeIter  *iter,
+           gpointer      data)
+{
+  int *nb = (int *)data; /* data can't be NULL see
+                            get_gtk_list_store_size */
+  (*nb)++;
+
+  return FALSE;
+}
+
+static int
+get_gtk_list_store_size (GtkListStore *store)
+{
+  int nb = 0;
+
+  gtk_tree_model_foreach (GTK_TREE_MODEL (store), increment, &nb);
+
+  return nb;
+}
+
 static void
 select_item (AppearanceData *data,
              GnomeWPItem * item,
@@ -179,10 +202,11 @@ wp_add_image (AppearanceData *data,
               const gchar *filename)
 {
   GnomeWPItem *item;
+  int nb_wps;
 
   if (!filename)
     return NULL;
-  
+
   item = g_hash_table_lookup (data->wp_hash, filename);
 
   if (item != NULL)
@@ -202,6 +226,10 @@ wp_add_image (AppearanceData *data,
       wp_props_load_wallpaper (item->filename, item, data);
     }
   }
+
+  nb_wps = get_gtk_list_store_size (GTK_LIST_STORE (data->wp_model));
+  if (nb_wps >= 2)
+    gtk_widget_set_sensitive (GTK_WIDGET (data->wp_rem_button), TRUE);
 
   return item;
 }
@@ -272,6 +300,7 @@ wp_set_sensitivities (AppearanceData *data)
   if (item != NULL)
     filename = item->filename;
 
+#ifndef HAVE_MOBLIN
   if (!gconf_client_key_is_writable (data->client, WP_OPTIONS_KEY, NULL)
       || (filename && !strcmp (filename, "(none)")))
     gtk_widget_set_sensitive (data->wp_style_menu, FALSE);
@@ -292,6 +321,7 @@ wp_set_sensitivities (AppearanceData *data)
     gtk_widget_set_sensitive (data->wp_scpicker, FALSE);
   else
     gtk_widget_set_sensitive (data->wp_scpicker, TRUE);
+#endif
 
   if (!filename || !strcmp (filename, "(none)"))
     gtk_widget_set_sensitive (data->wp_rem_button, FALSE);
@@ -397,6 +427,7 @@ wp_remove_wallpaper (GtkWidget *widget,
   GnomeWPItem *item;
   GtkTreeIter iter;
   GtkTreePath *path;
+  int nb_wps;
 
   item = get_selected_item (data, &iter);
 
@@ -412,6 +443,10 @@ wp_remove_wallpaper (GtkWidget *widget,
     gtk_icon_view_select_path (data->wp_view, path);
     gtk_tree_path_free (path);
   }
+
+  nb_wps = get_gtk_list_store_size (GTK_LIST_STORE (data->wp_model));
+  if (nb_wps == 1)
+    gtk_widget_set_sensitive (GTK_WIDGET (data->wp_rem_button), FALSE);
 }
 
 static void
@@ -599,6 +634,7 @@ wp_props_wp_selected (GtkTreeSelection *selection,
   {
     wp_set_sensitivities (data);
 
+#ifndef HAVE_MOBLIN
     if (strcmp (item->filename, "(none)") != 0)
       wp_option_menu_set (data, item->options, FALSE);
 
@@ -608,6 +644,7 @@ wp_props_wp_selected (GtkTreeSelection *selection,
                                 item->pcolor);
     gtk_color_button_set_color (GTK_COLOR_BUTTON (data->wp_scpicker),
                                 item->scolor);
+#endif
 
     if (data->wp_update_gconf)
       wp_props_wp_set (data, item);
@@ -755,7 +792,7 @@ wp_drag_get_data (GtkWidget *widget,
 
       uris[0] = g_filename_to_uri (item->filename, NULL, NULL);
       uris[1] = NULL;
-    
+
       gtk_selection_data_set_uris (selection_data, uris);
 
       g_free (uris[0]);
@@ -884,6 +921,7 @@ wp_load_stuffs (void *user_data)
   AppearanceData *data;
   gchar *imagepath, *uri, *style;
   GnomeWPItem *item;
+  int nb_wps;
 
   data = (AppearanceData *) user_data;
 
@@ -906,7 +944,7 @@ wp_load_stuffs (void *user_data)
     g_free (uri);
     uri = NULL;
   }
-  
+
   if (uri == NULL)
     uri = g_strdup ("(none)");
 
@@ -945,11 +983,13 @@ wp_load_stuffs (void *user_data)
   item = g_hash_table_lookup (data->wp_hash, "(none)");
   if (item == NULL)
   {
+#ifndef HAVE_MOBLIN
     item = gnome_wp_item_new ("(none)", data->wp_hash, data->thumb_factory);
     if (item != NULL)
     {
       wp_props_load_wallpaper (item->filename, item, data);
     }
+#endif
   }
   else
   {
@@ -962,7 +1002,9 @@ wp_load_stuffs (void *user_data)
     if (!strcmp (style, "none"))
     {
       select_item (data, item, FALSE);
+#ifndef HAVE_MOBLIN
       wp_option_menu_set (data, GNOME_BG_PLACEMENT_SCALED, FALSE);
+#endif
     }
   }
   g_free (imagepath);
@@ -972,6 +1014,10 @@ wp_load_stuffs (void *user_data)
     wp_add_images (data, data->wp_uris);
     data->wp_uris = NULL;
   }
+
+  nb_wps = get_gtk_list_store_size (GTK_LIST_STORE (data->wp_model));
+  if (nb_wps == 1)
+    gtk_widget_set_sensitive (GTK_WIDGET (data->wp_rem_button), FALSE);
 
   return FALSE;
 }
@@ -1016,6 +1062,7 @@ desktop_init (AppearanceData *data,
                            WP_FILE_KEY,
                            (GConfClientNotifyFunc) wp_file_changed,
                            data, NULL, NULL);
+#ifndef HAVE_MOBLIN
   gconf_client_notify_add (data->client,
                            WP_OPTIONS_KEY,
                            (GConfClientNotifyFunc) wp_options_changed,
@@ -1032,6 +1079,7 @@ desktop_init (AppearanceData *data,
                            WP_SCOLOR_KEY,
                            (GConfClientNotifyFunc) wp_color2_changed,
                            data, NULL, NULL);
+#endif
 
   data->wp_model = GTK_TREE_MODEL (gtk_list_store_new (3, GDK_TYPE_PIXBUF,
                                                  G_TYPE_STRING,
@@ -1070,6 +1118,7 @@ desktop_init (AppearanceData *data,
   g_signal_connect (data->wp_view, "drag-data-get",
 		    (GCallback) wp_drag_get_data, data);
 
+#ifndef HAVE_MOBLIN
   data->wp_style_menu = glade_xml_get_widget (data->xml, "wp_style_menu");
 
   g_signal_connect (data->wp_style_menu, "changed",
@@ -1089,6 +1138,7 @@ desktop_init (AppearanceData *data,
 
   g_signal_connect (data->wp_pcpicker, "color-set",
                     (GCallback) wp_scolor_changed, data);
+#endif
 
   add_button = glade_xml_get_widget (data->xml, "wp_add_button");
   gtk_button_set_image (GTK_BUTTON (add_button),
