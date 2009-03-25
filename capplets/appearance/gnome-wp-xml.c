@@ -131,9 +131,13 @@ static void gnome_wp_xml_load_xml (AppearanceData *data,
 	    const char * none = "(none)";
 	    gchar *content = g_strstrip ((gchar *)wpa->last->content);
 
-	    if (!strcmp (content, none))
+	    if (!strcmp (content, none)) {
+#ifdef HAVE_MOBLIN
+              continue;
+#else
 	      wp->filename = g_strdup (content);
-	    else if (g_utf8_validate (content, -1, NULL) &&
+#endif
+	    } else if (g_utf8_validate (content, -1, NULL) &&
 		     g_file_test (content, G_FILE_TEST_EXISTS))
 	      wp->filename = g_strdup (content);
 	    else

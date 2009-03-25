@@ -1,6 +1,11 @@
+if HAVE_MOBLIN
+  GLADE_FILE=appearance-moblin.glade
+else
+  GLADE_FILE=appearance.glade
+endif
 
 gladedir = $(pkgdatadir)/glade
-dist_glade_DATA = appearance.glade
+dist_glade_DATA = $(GLADE_FILE)
 
 pixmapdir = $(pkgdatadir)/pixmaps
 dist_pixmap_DATA = \
