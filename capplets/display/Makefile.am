@@ -2,7 +2,12 @@
 cappletname = display
 
 gladedir = $(pkgdatadir)/glade
-dist_glade_DATA = display-capplet.glade
+if HAVE_MOBLIN
+  GLADE_FILE = display-capplet-moblin.glade
+else
+  GLADE_FILE = display-capplet.glade
+endif
+dist_glade_DATA = $(GLADE_FILE)
 
 bin_PROGRAMS = gnome-display-properties
 
