@@ -36,6 +36,12 @@
 #include <dbus/dbus-glib.h>
 #include <dbus/dbus-glib-bindings.h>
 
+#if HAVE_MOBLIN
+#define GLADEFILE	"/display-capplet-moblin.glade"
+#else
+#define GLADEFILE	"/display-capplet.glade"
+#endif
+
 typedef struct App App;
 typedef struct GrabInfo GrabInfo;
 
@@ -622,7 +628,9 @@ rebuild_gui (App *app)
 #if 0
     g_debug ("sensitive: %d, on: %d", sensitive, app->current_output->on);
 #endif
+#ifndef HAVE_MOBLIN
     gtk_widget_set_sensitive (app->panel_checkbox, sensitive);
+#endif
 
     app->ignore_gui_changes = FALSE;
 
@@ -2116,7 +2124,7 @@ run_application (App *app)
 #ifndef GLADEDIR
 #define GLADEDIR "."
 #endif
-#define GLADE_FILE GLADEDIR "/display-capplet.glade"
+#define GLADE_FILE GLADEDIR GLADEFILE
     GladeXML *xml;
     GtkWidget *align;
     GError *error;
@@ -2178,20 +2186,26 @@ run_application (App *app)
     g_signal_connect (glade_xml_get_widget (xml, "detect_displays_button"),
 		      "clicked", G_CALLBACK (on_detect_displays), app);
 
+#ifndef HAVE_MOBLIN
     app->show_icon_checkbox = glade_xml_get_widget (xml, "show_notification_icon");
 
     gtk_toggle_button_set_active (GTK_TOGGLE_BUTTON (app->show_icon_checkbox),
 				  gconf_client_get_bool (app->client, SHOW_ICON_KEY, NULL));
 
     g_signal_connect (app->show_icon_checkbox, "toggled", G_CALLBACK (on_show_icon_toggled), app);
+#endif
 
+#ifndef HAVE_MOBLIN
     app->panel_checkbox = glade_xml_get_widget (xml, "panel_checkbox");
+#endif
 
     make_text_combo (app->resolution_combo, 4);
     make_text_combo (app->refresh_combo, 3);
     make_text_combo (app->rotation_combo, -1);
 
+#ifndef HAVE_MOBLIN
     g_assert (app->panel_checkbox);
+#endif
 
     /* Scroll Area */
     app->area = (GtkWidget *)foo_scroll_area_new ();
