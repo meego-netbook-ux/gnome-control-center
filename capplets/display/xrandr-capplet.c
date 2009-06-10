@@ -334,6 +334,13 @@ get_current_modes (App *app)
     }
 }
 
+#ifdef HAVE_MOBLIN
+static void
+rebuild_rotation_combo (App *app)
+{
+
+}
+#else
 static void
 rebuild_rotation_combo (App *app)
 {
@@ -384,6 +391,7 @@ rebuild_rotation_combo (App *app)
     if (!(selection && combo_select (app->rotation_combo, selection)))
 	combo_select (app->rotation_combo, _("Normal"));
 }
+#endif
 
 static void
 rebuild_rate_combo (App *app)
@@ -675,6 +683,7 @@ get_mode (GtkWidget *widget, int *width, int *height, int *freq, GnomeRRRotation
 
 }
 
+#ifndef HAVE_MOBLIN
 static void
 on_rotation_changed (GtkComboBox *box, gpointer data)
 {
@@ -689,6 +698,7 @@ on_rotation_changed (GtkComboBox *box, gpointer data)
 
     foo_scroll_area_invalidate (FOO_SCROLL_AREA (app->area));
 }
+#endif
 
 static void
 on_rate_changed (GtkComboBox *box, gpointer data)
@@ -2175,9 +2185,11 @@ run_application (App *app)
     g_signal_connect (app->refresh_combo, "changed",
 		      G_CALLBACK (on_rate_changed), app);
 
+#ifndef HAVE_MOBLIN
     app->rotation_combo = glade_xml_get_widget (xml, "rotation_combo");
     g_signal_connect (app->rotation_combo, "changed",
 		      G_CALLBACK (on_rotation_changed), app);
+#endif
 
     app->clone_checkbox = glade_xml_get_widget (xml, "clone_checkbox");
     g_signal_connect (app->clone_checkbox, "toggled",
@@ -2201,9 +2213,9 @@ run_application (App *app)
 
     make_text_combo (app->resolution_combo, 4);
     make_text_combo (app->refresh_combo, 3);
+#ifndef HAVE_MOBLIN
     make_text_combo (app->rotation_combo, -1);
 
-#ifndef HAVE_MOBLIN
     g_assert (app->panel_checkbox);
 #endif
 
