@@ -20,7 +20,11 @@ gnome_keyboard_properties_LDADD = $(GNOMECC_CAPPLETS_LIBS) $(LIBGNOMEKBDUI_LIBS)
 @INTLTOOL_DESKTOP_RULE@
 
 Gladedir   = $(pkgdatadir)/glade
+if HAVE_MOBLIN
+Glade_DATA = gnome-keyboard-properties-moblin.glade
+else
 Glade_DATA = gnome-keyboard-properties.glade
+endif
 
 desktopdir = $(datadir)/applications
 Desktop_in_files = keyboard.desktop.in

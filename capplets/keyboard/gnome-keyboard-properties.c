@@ -39,6 +39,12 @@
 #include "gnome-keyboard-properties-a11y.h"
 #include "gnome-keyboard-properties-xkb.h"
 
+#if HAVE_MOBLIN
+#define GLADE_FILE	"/gnome-keyboard-properties-moblin.glade"
+#else
+#define GLADE_FILE	"/gnome-keyboard-properties.glade"
+#endif
+
 enum {
 	RESPONSE_APPLY = 1,
 	RESPONSE_CLOSE
@@ -52,9 +58,8 @@ create_dialog (void)
 	GtkWidget *image;
 
 	dialog =
-	    glade_xml_new (GNOMECC_GLADE_DIR
-			   "/gnome-keyboard-properties.glade",
-			   "keyboard_dialog", NULL);
+	    glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE, "keyboard_dialog",
+			   NULL);
 
 	size_group = gtk_size_group_new (GTK_SIZE_GROUP_HORIZONTAL);
 	gtk_size_group_add_widget (size_group, WID ("repeat_slow_label"));
@@ -185,7 +190,9 @@ setup_dialog (GladeXML * dialog, GConfChangeSet * changeset)
 			  (GCallback) dialog_response, changeset);
 
 	setup_xkb_tabs (dialog, changeset);
+#if !HAVE_MOBLIN
 	setup_a11y_tabs (dialog, changeset);
+#endif
 }
 
 int
