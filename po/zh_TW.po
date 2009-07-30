@@ -12,8 +12,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.25.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-20 09:18+0000\n"
-"PO-Revision-Date: 2009-07-22 18:09-0800\n"
+"POT-Creation-Date: 2009-07-29 09:18+0000\n"
+"PO-Revision-Date: 2009-07-29 15:09-0800\n"
 "Last-Translator: Glscht_Wen <wen.hsinx.moh@intel.com>\n"
 "Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
 "MIME-Version: 1.0\n"
@@ -2087,7 +2087,7 @@ msgstr "aterm"
 
 #: ../capplets/display/display-capplet.glade.h:1
 #: ../capplets/display/display-capplet-moblin.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:487
+#: ../capplets/display/xrandr-capplet.c:549
 msgid "<b>Monitor</b>"
 msgstr "<b>顯示器</b>"
 
@@ -2167,38 +2167,38 @@ msgstr "變更螢幕解析度"
 msgid "Display"
 msgstr "顯示"
 
-#: ../capplets/display/xrandr-capplet.c:353
-#: ../capplets/display/xrandr-capplet.c:392
+#: ../capplets/display/xrandr-capplet.c:415
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Normal"
 msgstr "正常"
 
-#: ../capplets/display/xrandr-capplet.c:354
+#: ../capplets/display/xrandr-capplet.c:416
 msgid "Left"
 msgstr "左"
 
-#: ../capplets/display/xrandr-capplet.c:355
+#: ../capplets/display/xrandr-capplet.c:417
 msgid "Right"
 msgstr "右"
 
-#: ../capplets/display/xrandr-capplet.c:356
+#: ../capplets/display/xrandr-capplet.c:418
 msgid "Upside Down"
 msgstr "由上而下"
 
-#: ../capplets/display/xrandr-capplet.c:430
-#: ../capplets/display/xrandr-capplet.c:438
-#: ../capplets/display/xrandr-capplet.c:439
+#: ../capplets/display/xrandr-capplet.c:492
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:501
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:480
+#: ../capplets/display/xrandr-capplet.c:542
 #, c-format
 msgid "<b>Monitor: %s</b>"
 msgstr "<b>顯示器：%s</b>"
 
-#: ../capplets/display/xrandr-capplet.c:590
-#: ../capplets/display/xrandr-capplet.c:600
-#: ../capplets/display/xrandr-capplet.c:608
+#: ../capplets/display/xrandr-capplet.c:652
+#: ../capplets/display/xrandr-capplet.c:662
+#: ../capplets/display/xrandr-capplet.c:670
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2208,23 +2208,23 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1461
+#: ../capplets/display/xrandr-capplet.c:1523
 msgid "Mirror Screens"
 msgstr "鏡射螢幕"
 
-#: ../capplets/display/xrandr-capplet.c:1895
+#: ../capplets/display/xrandr-capplet.c:1957
 msgid "Could not save the monitor configuration"
 msgstr "無法儲存顯示器組態"
 
-#: ../capplets/display/xrandr-capplet.c:1906
+#: ../capplets/display/xrandr-capplet.c:1968
 msgid "Could not get session bus while applying display configuration"
 msgstr "在套用顯示組態時無法取得作業階段匯流排"
 
-#: ../capplets/display/xrandr-capplet.c:1948
+#: ../capplets/display/xrandr-capplet.c:2010
 msgid "Could not detect displays"
 msgstr "無法偵測顯示器"
 
-#: ../capplets/display/xrandr-capplet.c:2154
+#: ../capplets/display/xrandr-capplet.c:2216
 msgid "Could not get screen information"
 msgstr "無法取得螢幕資訊"
 
@@ -3021,7 +3021,7 @@ msgstr "使用者名稱(_S):"
 
 #: ../capplets/network/gnome-network-properties.glade.h:19
 msgid "_Delete Location"
-msgstr "冊除位置(_D)"
+msgstr "刪除位置(_D)"
 
 #: ../capplets/network/gnome-network-properties.glade.h:20
 msgid "_Details"
