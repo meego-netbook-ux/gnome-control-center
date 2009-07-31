@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-20 09:18+0000\n"
+"POT-Creation-Date: 2009-07-29 09:18+0000\n"
 "PO-Revision-Date: \n"
-"Last-Translator: \n"
+"Last-Translator: GLSKOR_SunKim <sunx.kim@intel.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -424,7 +424,7 @@ msgstr "회사(_O):"
 #: ../capplets/about-me/gnome-about-me.glade.h:16
 #: ../capplets/about-me/gnome-about-me-moblin.glade.h:14
 msgid "Cale_ndar:"
-msgstr "달력(_N):"
+msgstr "캘린더(_N):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:17
 #: ../capplets/about-me/gnome-about-me-moblin.glade.h:15
@@ -628,6 +628,7 @@ msgid "_Zip/Postal code:"
 msgstr "우편번호(_Z):"
 
 #: ../capplets/about-me/gnome-about-me-moblin.glade.h:2
+#, fuzzy
 msgid "<b>Home address</b>"
 msgstr "<b>집 주소</b>"
 
@@ -1365,7 +1366,7 @@ msgstr "테마 설치"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
 msgid "Gnome Theme Package"
-msgstr "그놈 테마 꾸러미"
+msgstr "Gnome 테마 패키지"
 
 #: ../capplets/appearance/gnome-wp-info.c:50
 msgid "No Desktop Background"
@@ -1450,7 +1451,7 @@ msgstr "새 테마 적용"
 #: ../capplets/appearance/theme-installer.c:446
 #, c-format
 msgid "GNOME Theme %s correctly installed"
-msgstr "%s 그놈 테마를 올바르게 설치했습니다"
+msgstr "%s GNOME 테마를 올바르게 설치했습니다"
 
 #: ../capplets/appearance/theme-installer.c:505
 msgid "Failed to create temporary directory"
@@ -1513,7 +1514,7 @@ msgid ""
 "Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
 msgstr ""
 "설정 관리자 'gnome2-settings-daemon'을 실행할 수 없습니다.\n"
-"그놈 설정 관리자를 실행하지 않고는, 몇몇 기본 설정 사항들이 적용되지 않습니다. 이는 보노보의 문제이거나, GNOME이 아닌 (예를 들어, KDE) 설정 관리자가 이미 실행중이어서 그놈 설정 관리자와 충돌하기 때문일 것입니다."
+"Gnome 설정 관리자를 실행하지 않고는, 몇몇 기본 설정 사항들이 적용되지 않습니다. 이는 보노보의 문제이거나, GNOME이 아닌 (예를 들어, KDE) 설정 관리자가 이미 실행중이어서 그놈 설정 관리자와 충돌하기 때문일 것입니다."
 
 #: ../capplets/common/capplet-stock-icons.c:66
 #, c-format
@@ -1779,7 +1780,7 @@ msgstr "보여줄 페이지 이름을 지정합니다 (internet|multimedia|syste
 
 #: ../capplets/default-applications/gnome-da-capplet.c:901
 msgid "- GNOME Default Applications"
-msgstr "- 그놈 기본 프로그램"
+msgstr "- GNOME 기본 프로그램"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
 msgid "<b>Image Viewer</b>"
@@ -1934,15 +1935,15 @@ msgstr "파이어폭스"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
 msgid "GNOME Magnifier without Screen Reader"
-msgstr "화면 읽어주기 프로그램이 없는 그놈 돋보기"
+msgstr "화면 읽어주기 프로그램이 없는 GNOME 돋보기"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
 msgid "GNOME OnScreen Keyboard"
-msgstr "그놈 화면 키보드"
+msgstr "GNOME 화면 키보드"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
 msgid "GNOME Terminal"
-msgstr "그놈 터미널"
+msgstr "GNOME 터미널"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
 msgid "Galeon"
@@ -2002,23 +2003,23 @@ msgstr "리슨"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:30
 msgid "Midori"
-msgstr "미도리"
+msgstr "Midori"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:31
 msgid "Mozilla"
-msgstr "모질라"
+msgstr "Mozilla"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:32
 msgid "Mozilla 1.6"
-msgstr "모질라 1.6"
+msgstr "Mozilla 1.6"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:33
 msgid "Mozilla Mail"
-msgstr "모질라 메일"
+msgstr "Mozilla Mai"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:34
 msgid "Mozilla Thunderbird"
-msgstr "모질라 썬더버드"
+msgstr "Mozilla Thunderbird"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:35
 msgid "Muine Music Player"
@@ -2034,7 +2035,7 @@ msgstr "NXterm"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:38
 msgid "Netscape Communicator"
-msgstr "넷스케이프 커뮤니케이터"
+msgstr "Netscape Communicator"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:39
 msgid "Opera"
@@ -2058,11 +2059,11 @@ msgstr "리듬박스 음악 플레이어"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:44
 msgid "SeaMonkey"
-msgstr "시몽키"
+msgstr "SeaMonkey"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:45
 msgid "SeaMonkey Mail"
-msgstr "시몽키 메일"
+msgstr "SeaMonkey 메일"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:46
 msgid "Standard XTerminal"
@@ -2070,23 +2071,23 @@ msgstr "표준 X터미널"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:47
 msgid "Sylpheed"
-msgstr "실피드"
+msgstr "Sylpheed"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:48
 msgid "Sylpheed-Claws"
-msgstr "실피드 클로즈"
+msgstr "Sylpheed-Claws"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:49
 msgid "Terminator"
-msgstr "터미네이터"
+msgstr "Terminator"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:50
 msgid "Thunderbird"
-msgstr "썬더버드"
+msgstr "Thunderbird"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:51
 msgid "Totem Movie Player"
-msgstr "토템 동영상 플레이어"
+msgstr "Totem Movie Player"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:52
 msgid "aterm"
@@ -2094,7 +2095,7 @@ msgstr "aterm"
 
 #: ../capplets/display/display-capplet.glade.h:1
 #: ../capplets/display/display-capplet-moblin.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:487
+#: ../capplets/display/xrandr-capplet.c:549
 msgid "<b>Monitor</b>"
 msgstr "<b>모니터</b>"
 
@@ -2175,38 +2176,38 @@ msgstr "화면 해상도 바꾸기"
 msgid "Display"
 msgstr "디스플레이"
 
-#: ../capplets/display/xrandr-capplet.c:353
-#: ../capplets/display/xrandr-capplet.c:392
+#: ../capplets/display/xrandr-capplet.c:415
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Normal"
 msgstr "보통"
 
-#: ../capplets/display/xrandr-capplet.c:354
+#: ../capplets/display/xrandr-capplet.c:416
 msgid "Left"
 msgstr "왼쪽"
 
-#: ../capplets/display/xrandr-capplet.c:355
+#: ../capplets/display/xrandr-capplet.c:417
 msgid "Right"
 msgstr "오른쪽"
 
-#: ../capplets/display/xrandr-capplet.c:356
+#: ../capplets/display/xrandr-capplet.c:418
 msgid "Upside Down"
 msgstr "위 아래"
 
-#: ../capplets/display/xrandr-capplet.c:430
-#: ../capplets/display/xrandr-capplet.c:438
-#: ../capplets/display/xrandr-capplet.c:439
+#: ../capplets/display/xrandr-capplet.c:492
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:501
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:480
+#: ../capplets/display/xrandr-capplet.c:542
 #, c-format
 msgid "<b>Monitor: %s</b>"
 msgstr "<b>모니터: %s</b>"
 
-#: ../capplets/display/xrandr-capplet.c:590
-#: ../capplets/display/xrandr-capplet.c:600
-#: ../capplets/display/xrandr-capplet.c:608
+#: ../capplets/display/xrandr-capplet.c:652
+#: ../capplets/display/xrandr-capplet.c:662
+#: ../capplets/display/xrandr-capplet.c:670
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2216,23 +2217,23 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1461
+#: ../capplets/display/xrandr-capplet.c:1523
 msgid "Mirror Screens"
 msgstr "동일한 화면"
 
-#: ../capplets/display/xrandr-capplet.c:1895
+#: ../capplets/display/xrandr-capplet.c:1957
 msgid "Could not save the monitor configuration"
 msgstr "모니터 설정을 저장할 수 없습니다"
 
-#: ../capplets/display/xrandr-capplet.c:1906
+#: ../capplets/display/xrandr-capplet.c:1968
 msgid "Could not get session bus while applying display configuration"
 msgstr "화면 설정을 적용할 때 세션 버스를 읽어 올 수 없습니다"
 
-#: ../capplets/display/xrandr-capplet.c:1948
+#: ../capplets/display/xrandr-capplet.c:2010
 msgid "Could not detect displays"
 msgstr "디스플레이를 검색할 수 없습니다"
 
-#: ../capplets/display/xrandr-capplet.c:2154
+#: ../capplets/display/xrandr-capplet.c:2216
 msgid "Could not get screen information"
 msgstr "화면 정보를 읽어 올 수 없습니다"
 
@@ -2788,7 +2789,7 @@ msgstr "보여줄 페이지 이름을 지정합니다 (general|accessibility)"
 
 #: ../capplets/mouse/gnome-mouse-properties.c:467
 msgid "- GNOME Mouse Preferences"
-msgstr "- 그놈 마우스 기본 설정"
+msgstr "- GNOME 마우스 기본 설정"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:1
 msgid "<b>Double-Click Timeout</b>"
@@ -3234,11 +3235,11 @@ msgstr "참이면 \"공통 작업\"을 활성화할 때 컨트롤 센터를 닫�
 #: ../shell/gnomecc.desktop.in.in.h:1
 #: ../shell/gnomecc.directory.in.h:1
 msgid "Control Center"
-msgstr "그놈 제어판"
+msgstr "제어판 센터"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
-msgstr "그놈 설정 도구"
+msgstr "GNOME 설정 도구"
 
 #: ../typing-break/drw-break-window.c:193
 msgid "_Postpone Break"
@@ -3626,998 +3627,776 @@ msgstr "<b>%s(으)로 열기</b>"
 msgid "Remove from System Items"
 msgstr "시스템 항목에서 제거"
 
-msgid "Could not apply the selected configuration"
-msgstr "선택한 설정을 적용할 수 없습니다"
-
-msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
-msgstr "org.gnome.SettingsDaemon.XRANDR 값을 읽어 올 수 없습니다"
-
-msgid "_Command:"
-msgstr "명령(_C):"
-
-msgid "<b>_Wallpaper</b>"
-msgstr "<b>바탕 화면 무늬(_W)</b>"
-
-msgid "No Wallpaper"
-msgstr "바탕 무늬 없음"
-
-msgid "Screen Resolution"
-msgstr "화면 해상도"
-
-msgid "Monitor Resolution Settings"
-msgstr "모니터 해상도 설정"
-
-msgid "Retrieve and store legacy settings"
-msgstr "물려받은 설정을 되찾아서 저장합니다"
-
-msgid "Enable sound and associate sounds with events"
-msgstr "사운드를 사용하고 사운드를 이벤트와 연결합니다"
-
-msgid "Unknown Volume Control %d"
-msgstr "알 수 없는 볼륨 컨트롤 %d"
-
-msgid "Failed to construct test pipeline for '%s'"
-msgstr "'%s'에 대한 테스트 파이프라인을 만드는 데 실패했습니다."
-
-msgid "Not connected"
-msgstr "연결되지 않음"
-
-msgid "Autodetect"
-msgstr "자동 인식"
-
-msgid "ALSA - Advanced Linux Sound Architecture"
-msgstr "ALSA - 고급 리눅스 사운드 구조"
-
-msgid "Artsd - ART Sound Daemon"
-msgstr "Artsd - ART 사운드 데몬"
-
-msgid "ESD - Enlightened Sound Daemon"
-msgstr "ESD - Enlightened 사운드 데몬"
-
-msgid "OSS - Open Sound System"
-msgstr "OSS - 오픈 사운드 시스템"
-
-msgid "PulseAudio Sound Server"
-msgstr "PulseAudio 사운드 서버"
-
-msgid "Test Sound"
-msgstr "소리 검사"
-
-msgid "Silence"
-msgstr "조용히"
-
-msgid "- GNOME Sound Preferences"
-msgstr "- 사운드 기본 설정"
-
-msgid "<b>Alerts and Sound Effects</b>"
-msgstr "<b>알림 및 사운드 이벤트</b>"
-
-msgid "<b>Audio Conferencing</b>"
-msgstr "<b>음성 회의</b>"
-
-msgid "<b>Default Mixer Tracks</b>"
-msgstr "<b>기본 믹서 트랙</b>"
-
-msgid "<b>Music and Movies</b>"
-msgstr "<b>음악 및 동영상</b>"
-
-msgid "<b>Sound Events</b>"
-msgstr "<b>사운드 이벤트</b>"
-
-msgid "<b>Sound Theme</b>"
-msgstr "<b>사운드 테마</b>"
-
-msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
-msgstr "<span weight=\"bold\" size=\"x-large\">테스트하는 중...</span>"
-
-msgid "Click OK to finish."
-msgstr "마치려면 확인을 누르십시오."
-
-msgid "Devices"
-msgstr "장치"
-
-msgid "Play _alert sound"
-msgstr "알림 사운드 재생(_A)"
-
-msgid "Play _sound effects when buttons are clicked"
-msgstr "단추를 누르면 효과음 재생(_S)"
-
-msgid "S_ound playback:"
-msgstr "소리 재생(_O):"
-
-msgid "Select the device and tracks to control with the keyboard. Use the Shift and Control keys to select multiple tracks if required."
-msgstr "키보드로 조정할 장치와 트랙을 선택합니다. 여러 트랙을 한꺼번에 조정하려면 Shift와 Control 키를 사용해 여러 트랙을 선택하십시오."
-
-msgid "So_und playback:"
-msgstr "소리 재생(_U):"
-
-msgid "Sou_nd capture:"
-msgstr "소리 캡쳐(_N):"
-
-msgid "Sound Preferences"
-msgstr "사운드 기본 설정"
-
-msgid "Sounds"
-msgstr "소리"
-
-msgid "Test"
-msgstr "테스트"
-
-msgid "Testing Pipeline"
-msgstr "파이프라인 테스트"
-
-msgid "_Device:"
-msgstr "장치(_D):"
-
-msgid "_Play alerts and sound effects"
-msgstr "알림 및 효과음 재생(_P)"
-
-msgid "_Sound playback:"
-msgstr "소리 재생(_S):"
-
-msgctxt "Sound event"
-msgid "Alert sound"
-msgstr "알림 사운드"
-
-msgctxt "Sound event"
-msgid "Visual alert"
-msgstr "시각 알림"
-
-msgctxt "Sound event"
-msgid "Windows and Buttons"
-msgstr "창 및 단추"
-
-msgctxt "Sound event"
-msgid "Button clicked"
-msgstr "단추 누름"
-
-msgctxt "Sound event"
-msgid "Toggle button clicked"
-msgstr "토글 단추 누름"
-
-msgctxt "Sound event"
-msgid "Window maximized"
-msgstr "창 최대화"
-
-msgctxt "Sound event"
-msgid "Window unmaximized"
-msgstr "창 최대화 해제"
-
-msgctxt "Sound event"
-msgid "Window minimised"
-msgstr "창 최소화"
-
-msgctxt "Sound event"
-msgid "Desktop"
-msgstr "바탕 화면"
-
-msgctxt "Sound event"
-msgid "Login"
-msgstr "로그인"
-
-msgctxt "Sound event"
-msgid "Logout"
-msgstr "로그아웃"
-
-msgctxt "Sound event"
-msgid "New e-mail"
-msgstr "새 메일"
-
-msgctxt "Sound event"
-msgid "Empty trash"
-msgstr "휴지통 비우기"
-
-msgctxt "Sound event"
-msgid "Long action completed (download, CD burning, etc.)"
-msgstr "오래 걸리는 동작 완료 (다운로드, CD 굽기 등)"
-
-msgctxt "Sound event"
-msgid "Alerts"
-msgstr "알림"
-
-msgctxt "Sound event"
-msgid "Information or question"
-msgstr "정보 혹은 물음"
-
-msgctxt "Sound event"
-msgid "Warning"
-msgstr "경고"
-
-msgctxt "Sound event"
-msgid "Error"
-msgstr "오류"
-
-msgctxt "Sound event"
-msgid "Battery warning"
-msgstr "배터리 경고"
-
-msgid "Testing event sound"
-msgstr "이벤트 사운드 검사"
-
-msgid "Select Sound File"
-msgstr "사운드 파일 선택"
-
-msgid "Sound files"
-msgstr "사운드 파일"
-
-msgid "Custom..."
-msgstr "사용자 설정..."
-
-msgid "Lock Screen"
-msgstr "화면 잠그기"
-
-msgid "Logout"
-msgstr "로그아웃"
-
-msgid "Shutdown"
-msgstr "끄기"
-
-msgid "Enable support for GNOME assistive technologies at login"
-msgstr "로그인할 때 그놈 보조 기술 기능을 사용합니다."
-
-msgid ""
-"Centered\n"
-"Fill screen\n"
-"Scaled\n"
-"Zoom\n"
-"Tiled"
-msgstr ""
-"가운데\n"
-"전체 화면\n"
-"크기 조정\n"
-"확대\n"
-"타일"
-
-msgid "%s is the path where the theme files will be installed. This can not be selected as the source location"
-msgstr "%s은(는) 테마 파일이 설치될 경로입니다. 이 경로는 소스 위치로 선택할 수 없습니다"
-
-msgid "Just apply settings and quit"
-msgstr "설정을 적용하고 마칩니다"
-
-msgid "Connecting..."
-msgstr "연결중..."
-
-msgid "Inverted"
-msgstr "반전"
-
-msgid "Screen %d Settings\n"
-msgstr "화면 %d 설정\n"
-
-msgid "Screen Resolution Preferences"
-msgstr "화면 해상도 설정"
-
-msgid "_Make default for this computer (%s) only"
-msgstr "이 컴퓨터(%s)의 경우에만 기본값으로 만들기(_M)"
-
-msgid "Options"
-msgstr "옵션"
-
-msgid "Testing the new settings. If you don't respond in %d second the previous settings will be restored."
-msgid_plural "Testing the new settings. If you don't respond in %d seconds the previous settings will be restored."
-msgstr[0] "새로운 설정을 테스트합니다. %d초 이내에 응답하지 않으면 이전 설정으로 다시 돌아갑니다."
-msgstr[1] "새로운 설정을 테스트합니다. %d초 이내에 응답하지 않으면 이전 설정으로 다시 돌아갑니다."
-
-msgid "Keep Resolution"
-msgstr "이 해상도 계속 사용"
-
-msgid "Do you want to keep this resolution?"
-msgstr "이 해상도를 계속 사용하시겠습니까?"
-
-msgid "Use _Previous Resolution"
-msgstr "이전 해상도 사용(_P)"
-
-msgid "_Keep Resolution"
-msgstr "이 해상도 계속 사용(_K)"
-
-msgid "The X server does not support the XRandR extension.  Runtime resolution changes to the display size are not available."
-msgstr "X 서버가 XRandR 확장 기능을 지원하지 않습니다.  실행 중에 화면 크기를 바꿀 수 없습니다."
-
-msgid "The version of the XRandR extension is incompatible with this program. Runtime changes to the display size are not available."
-msgstr "XRandR 확장 기능의 버전이 이 프로그램과 호환되지 않습니다. 실행 중에 해상도를 바꿀 수 없습니다."
-
-msgid "New accelerator..."
-msgstr "새 바로 가기 키..."
-
-msgid "Error setting new accelerator in configuration database: %s\n"
-msgstr "설정 데이터 베이스에서 새로운 단축키 설정 오류: %s\n"
-
-msgid "Keyboard Accessibility Notifications"
-msgstr "키보드 접근성 알림"
-
-msgid "_Layouts:"
-msgstr "키 배치(_L):"
-
-msgid "Advanced Configuration"
-msgstr "고급 설정"
-
-msgid "E_nable software sound mixing (ESD)"
-msgstr "소프트웨어 사운드 믹서(ESD) 사용(_N)"
-
-msgid "System Beep"
-msgstr "시스템 삑 소리"
-
-msgid "_Enable system beep"
-msgstr "시스템 삑 소리 사용(_E)"
-
-msgid "_Visual system beep"
-msgstr "눈에 보이는 시스템 삑 소리(_V)"
-
-msgid "Unexpected attribute '%s' for element '%s'"
-msgstr "예상치 못한 '%2$s' 요소의 '%1$s'속성"
-
-msgid "Attribute '%s' of element '%s' not found"
-msgstr "'%2$s' 요소의 '%1$s'속성을 찾을 수 없습니다"
-
-msgid "Unexpected tag '%s', tag '%s' expected"
-msgstr "예상치 못한 '%s'태그, '%s'태그여야 합니다"
-
-msgid "Unexpected tag '%s' inside '%s'"
-msgstr "예상치 못한 '%2$s'내에 '%1$s'태그"
-
-msgid "No valid bookmark file found in data dirs"
-msgstr "데이터 디렉터리에 올바른 책갈피 파일을 찾을 수 없습니다"
-
-msgid "A bookmark for URI '%s' already exists"
-msgstr "책갈피 URI '%s'(이)가 이미 있습니다"
-
-msgid "No bookmark found for URI '%s'"
-msgstr "URI '%s'에 대한 책갈피를 찾을 수 없습니다"
-
-msgid "No MIME type defined in the bookmark for URI '%s'"
-msgstr "URI '%s'에 대한 책갈피에 MIME형식이 지정되지 않았습니다"
-
-msgid "No private flag has been defined in bookmark for URI '%s'"
-msgstr "URI '%s'에 대한 책갈피에 개인 플래그가 지정되지 않았습니다"
-
-msgid "No groups set in bookmark for URI '%s'"
-msgstr "URI '%s'에 대한 책갈피에 그룹이 설정되지 않았습니다"
-
-msgid "No application with name '%s' registered a bookmark for '%s'"
-msgstr "'%2$s'에 대한 책갈피에 등록된 프로그램 이름 '%1$s'(이)가 없습니다"
-
-msgid "Boing"
-msgstr "깜짝"
-
-msgid "Siren"
-msgstr "사이렌"
-
-msgid "Clink"
-msgstr "짤랑짤랑"
-
-msgid "Beep"
-msgstr "삑"
-
-msgid "No sound"
-msgstr "소리 없음"
-
-msgid "Sound not set for this event."
-msgstr "상황에 따른 소리."
-
-msgid ""
-"The sound file for this event does not exist.\n"
-"You may want to install the gnome-audio package for a set of default sounds."
-msgstr ""
-"이 상황에 대한 사운드 파일이 없습니다.\n"
-"기본 사운드 파일은 gnome-audio 꾸러미에\n"
-"있습니다."
-
-msgid "The sound file for this event does not exist."
-msgstr "이 상황에 대한 사운드 파일이 존재하지 않습니다."
-
-msgid "The file %s is not a valid wav file"
-msgstr "%s 파일은 올바른 WAV 파일이 아닙니다"
-
-msgid "Select sound file..."
-msgstr "소리 파일 선택..."
-
-msgid "System Sounds"
-msgstr "시스템 소리"
-
-msgid "Set as Application Font"
-msgstr "프로그램 글꼴로 설정"
-
-msgid "Sets the default application font"
-msgstr "기본 프로그램 글꼴을 설정합니다"
-
-msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
-msgstr "<span weight=\"bold\" size=\"larger\">새 글꼴을 적용하시겠습니까?</span>"
-
-msgid "Do _not apply font"
-msgstr "글꼴 적용하지 않음(_N)"
-
-msgid "The theme you have selected suggests a new font. A preview of the font is shown below."
-msgstr "선택하신 테마는 새 글꼴이 들어 있습니다. 아래에서 글꼴을 미리 볼 수 있습니다."
-
-msgid "_Apply font"
-msgstr "글꼴 적용(_A)"
-
-msgid "Themes"
-msgstr "테마"
-
-msgid "Description"
-msgstr "설명"
-
-msgid "Control theme"
-msgstr "컨트롤 테마"
-
-msgid "Window border theme"
-msgstr "창 가장자리 테마"
-
-msgid "Icon theme"
-msgstr "아이콘 테마"
-
-msgid "If set to true, then installed themes will be thumbnailed."
-msgstr "참이면 설치된 테마의 미리보기를 만듭니다."
-
-msgid "If set to true, then themes will be thumbnailed."
-msgstr "참이면 테마의 미리보기를 만듭니다."
-
-msgid "Set this key to the command used to create thumbnails for installed themes."
-msgstr "이 키는 설치된 테마의 미리보기를 만드는데 쓰이는 명령입니다."
-
-msgid "Set this key to the command used to create thumbnails for themes."
-msgstr "이 키는 테마의 미리보기를 만드는데 쓰이는 명령입니다."
-
-msgid "Thumbnail command for installed themes"
-msgstr "설치된 테마의 미리보기 만들기 명령"
-
-msgid "Thumbnail command for themes"
-msgstr "테마의 미리보기 만들기 명령"
-
-msgid "Whether to thumbnail installed themes"
-msgstr "설치된 테마를 미리보기"
-
-msgid "Whether to thumbnail themes"
-msgstr "테마를 미리보기"
-
-msgid "ABCDEFG"
-msgstr "ABC가나다"
-
-msgid "[FILE]"
-msgstr "[파일]"
-
-msgid "Apply theme"
-msgstr "테마 적용"
-
-msgid "Sets the default theme"
-msgstr "기본 테마로 설정"
-
-msgid " "
-msgstr " "
-
-msgid "    "
-msgstr "    "
-
-msgid "There was an error launching the mouse preferences dialog: %s"
-msgstr "마우스 기본 설정을 시작하는 데 오류가 발생했습니다: %s"
-
-msgid "Unable to import AccessX settings from file '%s'"
-msgstr "AccessX 설정사항을 '%s' 파일에서 가져 올 수 없습니다"
-
-msgid "Import Feature Settings File"
-msgstr "기능 설정 파일 가져오기"
-
-msgid "_Import"
-msgstr "가져오기(_I)"
-
-msgid "Set your keyboard accessibility preferences"
-msgstr "키보드 접근성 기능 기본 설정을 설정합니다"
-
-msgid "This system does not seem to have the XKB extension.  The keyboard accessibility features will not operate without it."
-msgstr "시스템에 XKB확장 기능이 없습니다. 키보드 접근성 기능이 동작하지 않을 것입니다."
-
-msgid "<b>Enable _Mouse Keys</b>"
-msgstr "<b>마우스 키 사용(_M)</b>"
-
-msgid "<b>Enable _Repeat Keys</b>"
-msgstr "<b>반복 키 사용(_R)</b>"
-
-msgid "<b>Features</b>"
-msgstr "<b>기능</b>"
-
-msgid "<b>Toggle Keys</b>"
-msgstr "<b>토글 키</b>"
-
-msgid "Basic"
-msgstr "기본"
-
-msgid "Beep when an LED is turned on and two beeps when one is turned off."
-msgstr "LED가 켜질 때 삑 소리를 내고, LED가 꺼질 때 삑 소리 두번납니다."
-
-msgid "Delay between keypress and pointer mo_vement:"
-msgstr "키 누름과 포인터 움직임 사이의 지연시간(_V):"
-
-msgid "E_nable Toggle Keys"
-msgstr "토글 키 사용(_N)"
-
-msgid "Filters"
-msgstr "필터"
-
-msgid "Ignore all subsequent presses of the SAME key if they happen within a user selectable period of time."
-msgstr "지정한 시간 내에 같은 키가 연속해서 눌릴 경우 무시합니다."
-
-msgid "Keyboard Accessibility Preferences (AccessX)"
-msgstr "키보드 접근성 기능 설정 (AccessX)"
-
-msgid "Ma_ximum pointer speed:"
-msgstr "최대 포인터 속도(_X):"
-
-msgid "Mouse _Preferences..."
-msgstr "마우스 기본 설정(_P)..."
-
-msgid "Only accept keys after they have been pressed and held for a user adjustable amount of time."
-msgstr "키를 누른 후에 사용자가 설정한 만큼의 시간동안 누르고 있어야 그 키를 받아들입니다."
-
-msgid "Perform multiple simultaneous key press operations by pressing modifier keys in sequence."
-msgstr "변경 키를 눌러서 차례대로 누른 키가 동시에 눌려진 것처럼 처리합니다."
-
-msgid "Time to acce_lerate to maximum speed:"
-msgstr "최대 속도로 가속할 시간(_L):"
-
-msgid "Turn the numeric keypad into a mouse control pad."
-msgstr "숫자 키패드를 마우스 컨트롤 패드로 만듭니다."
-
-msgid "_Disable if unused for:"
-msgstr "이 시간동안 쓰지 않으면 끄기(_D):"
-
-msgid "_Enable keyboard accessibility features"
-msgstr "키보드 접근성 기능 사용(_E)"
-
-msgid "_Import Feature Settings..."
-msgstr "기능 설정 가져오기(_I)..."
-
-msgid "_accepted"
-msgstr "받아들일 때 삑 소리(_A)"
-
-msgid "_pressed"
-msgstr "눌러졌을 때 삑 소리(_P)"
-
-msgid "characters/second"
-msgstr "글자/초"
-
-msgid "milliseconds"
-msgstr "밀리초"
-
-msgid "pixels/second"
-msgstr "픽셀/초"
-
-msgid "Go _to Fonts Folder"
-msgstr "글꼴 폴더로 이동(_T)"
-
-msgid "Autostart the preferred AT"
-msgstr "기본 보조 기술 자동시작"
-
-msgid "Simple OnScreen Keyboard"
-msgstr "간단한 화면 키보드"
-
-msgid "There was an error launching the keyboard tool: %s"
-msgstr "키보드 도구를 시작하는 데 오류가 발생했습니다: %s"
-
-msgid "_Accessibility..."
-msgstr "접근성 기능(_A)..."
-
-msgid "%d millisecond"
-msgid_plural "%d milliseconds"
-msgstr[0] "%d 밀리초"
-msgstr[1] "%d 밀리초"
-
-msgid "<i>Fast</i>"
-msgstr "<i>빠르게</i>"
-
-msgid "<i>High</i>"
-msgstr "<i>높게</i>"
-
-msgid "<i>Large</i>"
-msgstr "<i>크게</i>"
-
-msgid "<i>Low</i>"
-msgstr "<i>낮게</i>"
-
-msgid "<i>Slow</i>"
-msgstr "<i>느리게</i>"
-
-msgid "<i>Small</i>"
-msgstr "<i>작게</i>"
-
-msgid "Buttons"
-msgstr "단추"
-
-msgid "Motion"
-msgstr "움직임"
-
-msgid "      "
-msgstr "      "
-
-msgid "Volume"
-msgstr "볼륨"
-
-msgid "Slow Keys Alert"
-msgstr "느린 키 알림"
-
-msgid "You just held down the Shift key for 8 seconds.  This is the shortcut for the Slow Keys feature, which affects the way your keyboard works."
-msgstr "<Shift> 키를 8초 동안 누르고 있었습니다.  느린 키 기능을 사용하게 됩니다.  느린 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
-
-msgid "Do you want to activate Slow Keys?"
-msgstr "느린 키를 사용하시겠습니까?"
-
-msgid "Do you want to deactivate Slow Keys?"
-msgstr "느린 키를 해제하시겠습니까?"
-
-msgid "_Activate"
-msgstr "활성(_A)"
-
-msgid "_Deactivate"
-msgstr "비활성(_D)"
-
-msgid "Do_n't activate"
-msgstr "활성하지 않기(_N)"
-
-msgid "Do_n't deactivate"
-msgstr "비활성하지 않기(_N)"
-
-msgid "Sticky Keys Alert"
-msgstr "고정 키 알림"
-
-msgid "You just pressed the Shift key 5 times in a row.  This is the shortcut for the Sticky Keys feature, which affects the way your keyboard works."
-msgstr "<Shift> 키를 5번 연속해서 눌렀습니다.  고정 키 기능을 사용하게 됩니다.  고정 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
-
-msgid "You just pressed two keys at once, or pressed the Shift key 5 times in a row.  This turns off the Sticky Keys feature, which affects the way your keyboard works."
-msgstr "키 두 개를 동시에 눌렀거나, <Shift> 키를 5번 연속해서 눌렀습니다.  고정 키 기능을 해제하게 됩니다.  고정 키를 해제하면 키보드가 동작하는 방식이 달라집니다."
-
-msgid "Do you want to activate Sticky Keys?"
-msgstr "고정 키를 사용하시겠습니까?"
-
-msgid "Do you want to deactivate Sticky Keys?"
-msgstr "고정 키를 해제하시겠습니까?"
-
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing the mouse pointer theme."
-msgstr ""
-"\"%s\" 디렉터리를 만들 수 없습니다.\n"
-"마우스 테마를 바꾸려면 이 디렉터리를 만들어야 합니다."
-
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing cursors."
-msgstr ""
-"\"%s\" 디렉터리를 만들 수 없습니다.\n"
-"커서를 바꾸려면 이 디렉터리를 만들어야 합니다."
-
-msgid "Key Binding (%s) has its action defined multiple times\n"
-msgstr "키 바인딩에 (%s) 대한 행동이 여러 번 정의되어 있습니다\n"
-
-msgid "Key Binding (%s) has its binding defined multiple times\n"
-msgstr "키 바인딩에 (%s) 대한 바인딩이 여러 번 정의되어 있습니다\n"
-
-msgid "Key Binding (%s) is incomplete\n"
-msgstr "키 바인딩이 (%s) 불완전합니다\n"
-
-msgid "Key Binding (%s) is invalid\n"
-msgstr "키 바인딩이 (%s) 잘못되었습니다\n"
-
-msgid "It seems that another application already has access to key '%u'."
-msgstr "다른 프로그램이 이미 '%u' 키를 접근하고 있습니다."
-
-msgid ""
-"Error while trying to run (%s)\n"
-"which is linked to the key (%s)"
-msgstr ""
-"실행하는 데 (%s) 오류가 발생했습니다\n"
-"(%s) 키와 연결되어 있습니다"
-
-msgid ""
-"Error activating XKB configuration.\n"
-"It can happen under various circumstances:\n"
-"- a bug in libxklavier library\n"
-"- a bug in X server (xkbcomp, xmodmap utilities)\n"
-"- X server with incompatible libxkbfile implementation\n"
-"\n"
-"X server version data:\n"
-"%s\n"
-"%d\n"
-"%s\n"
-"If you report this situation as a bug, please include:\n"
-"- The result of <b>%s</b>\n"
-"- The result of <b>%s</b>"
-msgstr ""
-"XKB 설정을 활성화하는 데 오류가 발생했습니다.\n"
-"여러가지 경우가 있을 수 있습니다:\n"
-"- libxklavier 라이브러리 버그\n"
-"- X 서버 버그 (xkbcomp, xmodmap 유틸리티)\n"
-"- 호환되지 않는 libxbfile 구현과 조합된 X 서버\n"
-"\n"
-"X 서버 버전 데이터:\n"
-"%s\n"
-"%d\n"
-"%s\n"
-"이 상황을 버그로 보고하시려면, 다음 정보를 포함해 주십시오:\n"
-"- <b>%s</b> 명령의 결과\n"
-"- <b>%s</b> 명령의 결과"
-
-msgid ""
-"You are using XFree 4.3.0.\n"
-"There are known problems with complex XKB configurations.\n"
-"Try using a simpler configuration or taking a fresher version of XFree software."
-msgstr ""
-"XFree 4.3.0을 사용하는 중입니다.\n"
-"이 버전에는 복잡한 XKB 설정에 관련해 알려진 문제점이 있습니다.\n"
-"좀 더 간단한 설정을 사용하거나 더 최신 버전의 XFree 소프트웨어를 사용하십시오."
-
-msgid "Could not get default terminal. Verify that your default terminal command is set and points to a valid application."
-msgstr "기본 터미널을 얻을 수 없습니다. 기본 터미널 명령이 설정되어 있고 올바른 프로그램인지 확인해보시기 바랍니다."
-
-msgid ""
-"Couldn't execute command: %s\n"
-"Verify that this is a valid command."
-msgstr ""
-"명령을 실행할 수 없습니다: %s\n"
-"명령이 있는지 확인해보십시오."
-
-msgid ""
-"Couldn't put the machine to sleep.\n"
-"Verify that the machine is correctly configured."
-msgstr ""
-"컴퓨터를 절전 모드로 바꿀 수 없습니다.\n"
-"컴퓨터가 올바르게 설정되어 있는 지 확인하십시오."
-
-msgid ""
-"There was an error starting up the screensaver:\n"
-"\n"
-"%s\n"
-"\n"
-"Screensaver functionality will not work in this session."
-msgstr ""
-"화면 보호기를 시작하는 데 오류가 발생했습니다:\n"
-"\n"
-"%s\n"
-"\n"
-"이 세션에서는 화면 보호기 기능이 동작하지 않을 것입니다."
-
-msgid "_Do not show this message again"
-msgstr "이 메시지를 다시 표시하지 않기(_D)"
-
-msgid "Couldn't load sound file %s as sample %s"
-msgstr "사운드 파일 %s을(를) 샘플 %s(으)로 읽어들일 수 없습니다"
-
-msgid "Cannot determine user's home directory"
-msgstr "사용자의 홈 디렉터리를 알 수가 없습니다"
-
-msgid "GConf key %s set to type %s but its expected type was %s\n"
-msgstr "GConf 키 %s이(가) %s 타입으로 지정되었지만 예상되는 타입은 %s입니다\n"
-
-msgid "A_vailable files:"
-msgstr "사용 가능한 파일(_V):"
-
-msgid "Do _not show this warning again."
-msgstr "이 경고를 다시 표시하지 않기(_N)."
-
-msgid "Load modmap files"
-msgstr "modmap 파일 읽어들이기"
-
-msgid "Would you like to load the modmap file(s)?"
-msgstr "modmap 파일을 읽어들이시겠습니까?"
-
-msgid "_Load"
-msgstr "읽어들이기(_L)"
-
-msgid "_Loaded files:"
-msgstr "읽어들인 파일(_L):"
-
-msgid "Error creating signal pipe."
-msgstr "시그날 파이프를 만드는 데 오류."
-
-msgid "Type"
-msgstr "형식"
-
-msgid "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW for preview"
-msgstr "bg_applier의 형식: 루트 윈도우의 BG_APPLIER_ROOT 혹은 미리 보기의 BG_APPLIER_PREVIEW"
-
-msgid "Preview Width"
-msgstr "미리 보기 너비"
-
-msgid "Width if applier is a preview: Defaults to 64."
-msgstr "미리 보기의 너비: 기본 값은 64입니다."
-
-msgid "Preview Height"
-msgstr "미리 보기 높이"
-
-msgid "Height if applier is a preview: Defaults to 48."
-msgstr "미리 보기의 높이: 기본 값은 48입니다."
-
-msgid "Screen on which BGApplier is to draw"
-msgstr "BGApplier가 그려지는 화면"
-
-msgid "Edited %m/%d/%Y"
-msgstr "%Y/%m/%d에 고쳐짐"
-
-msgid "If true, the mime handlers for text/plain and text/* will be kept in sync"
-msgstr "참이면 text/plain과 text/*의 mime처리기가 항상 동기화됨"
-
-msgid "Sync text/plain and text/* handlers"
-msgstr "text/plain과 text/* 처리기 동기화"
-
-msgid "E-mail"
-msgstr "전자 메일"
-
-msgid "E-mail's shortcut."
-msgstr "전자 메일 바로 가기."
-
-msgid "Eject"
-msgstr "꺼내기"
-
-msgid "Home folder"
-msgstr "홈 폴더"
-
-msgid "Home folder's shortcut."
-msgstr "홈 폴더 바로 가기."
-
-msgid "Launch help browser"
-msgstr "도움말 브라우저 실행"
-
-msgid "Launch help browser's shortcut."
-msgstr "도움말 브라우저 실행 바로 가기."
-
-msgid "Launch web browser"
-msgstr "웹 브라우저 실행"
-
-msgid "Launch web browser's shortcut."
-msgstr "웹 브라우저 실행 바로 가기."
-
-msgid "Lock screen's shortcut."
-msgstr "화면 잠그기 바로 가기."
-
-msgid "Log out"
-msgstr "로그아웃"
-
-msgid "Log out's shortcut."
-msgstr "로그아웃 바로 가기."
-
-msgid "Media player"
-msgstr "미디어 플레이어"
-
-msgid "Media player key's shortcut."
-msgstr "미디어 플레이어 바로 가기."
-
-msgid "Next track key's shortcut."
-msgstr "다음 트랙 바로 가기."
-
-msgid "Pause"
-msgstr "잠시 멈춤"
-
-msgid "Pause key's shortcut."
-msgstr "잠시 멈춤 바로 가기."
-
-msgid "Play (or play/pause)"
-msgstr "연주 (또는 잠시 멈춤)"
-
-msgid "Play (or play/pause) key's shortcut."
-msgstr "연주 (또는 잠시 멈춤) 바로 가기."
-
-msgid "Previous track key's shortcut."
-msgstr "이전 트랙 바로 가기."
-
-msgid "Search's shortcut."
-msgstr "찾기 바로 가기."
-
-msgid "Skip to next track"
-msgstr "다음 트랙 넘어가기"
-
-msgid "Skip to previous track"
-msgstr "이전 트랙 넘어가기"
-
-msgid "Sleep"
-msgstr "절전 모드"
-
-msgid "Sleep's shortcut."
-msgstr "절전 모드 바로 가기."
-
-msgid "Stop playback key"
-msgstr "연주 멈춤"
-
-msgid "Stop playback key's shortcut."
-msgstr "연주 멈춤 바로 가기."
-
-msgid "Volume down"
-msgstr "소리 낮춤"
-
-msgid "Volume down's shortcut."
-msgstr "소리 낮춤 바로 가기."
-
-msgid "Volume mute"
-msgstr "소리 끔"
-
-msgid "Volume mute's shortcut."
-msgstr "소리 끔 바로 가기."
-
-msgid "Volume step"
-msgstr "소리 단위"
-
-msgid "Volume step as percentage of volume."
-msgstr "소리 단위, 소리 높이의 퍼센트 비율."
-
-msgid "Volume up"
-msgstr "소리 높임"
-
-msgid "Volume up's shortcut."
-msgstr "소리 높임 바로 가기."
-
-msgid "Display a dialog when there are errors running the screensaver"
-msgstr "화면 보호기 실행 중에 오류가 생길 때 대화상자 보임"
-
-msgid "Run screensaver at login"
-msgstr "로그인할 때 화면 보호기 실행"
-
-msgid "Show Startup Errors"
-msgstr "시작 오류 보기"
-
-msgid "Start screensaver"
-msgstr "화면 보호기 시작"
-
-msgid "The theme is an engine. You need to compile it."
-msgstr "이 테마는 엔진입니다. 컴파일해야 합니다."
-
-msgid "The file format is invalid"
-msgstr "파일 포맷이 올바르지 않습니다"
-
-msgid "This theme is not in a supported format."
-msgstr "이 테마는 지원하는 형식이 아닙니다."
-
-msgid "The file format is invalid."
-msgstr "파일 포맷이 올바르지 않습니다."
-
-msgid "Evolution Mail Reader 1.4"
-msgstr "에볼루션 메일 읽기 1.4"
-
-msgid "Evolution Mail Reader 1.5"
-msgstr "에볼루션 메일 읽기 1.5"
-
-msgid "Evolution Mail Reader 1.6"
-msgstr "에볼루션 메일 읽기 1.6"
-
-msgid "Evolution Mail Reader 2.0"
-msgstr "에볼루션 메일 읽기 2.0"
-
-msgid "Evolution Mail Reader 2.2"
-msgstr "에볼루션 메일 읽기 2.2"
-
-msgid "Evolution Mail Reader 2.4"
-msgstr "에볼루션 메일 읽기 2.4"
-
-msgid "Links Text Browser"
-msgstr "Links 텍스트 브라우저"
-
-msgid "Lynx Text Browser"
-msgstr "Lynx 텍스트 브라우저"
-
-msgid "W3M Text Browser"
-msgstr "W3M 텍스트 브라우저"
-
-msgid "_Keep resolution"
-msgstr "이 해상도 계속 사용(_K)"
-
-msgid "Choose..."
-msgstr "고르기..."
-
-msgid "Microsoft Natural Keyboard"
-msgstr "마이크로소프트 내츄럴 키보드"
-
-msgid "Do _not show this warning again"
-msgstr "이 경고를 다시 표시하지 않기(_N)"
-
-msgid ""
-"<b>The X system keyboard settings differ from your current GNOME keyboard settings.</b>\n"
-"\n"
-"Expected was %s, but the the following settings were found: %s.\n"
-"\n"
-"Which set would you like to use?"
-msgstr ""
-"<b>X 시스템 키보드 설정이 현재 그놈 키보드 설정과 다릅니다.</b>\n"
-"\n"
-"%s 설정이 있어야 하지만, 다음 설정이 있습니다: %s\n"
-"\n"
-"어느 설정을 사용하시겠습니까?"
-
-msgid "Keep GNOME settings"
-msgstr "그놈 설정 유지"
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "선택한 설정을 적용할 수 없습니다"
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "org.gnome.SettingsDaemon.XRANDR 값을 읽어 올 수 없습니다"
+#~ msgid "_Command:"
+#~ msgstr "명령(_C):"
+#~ msgid "<b>_Wallpaper</b>"
+#~ msgstr "<b>바탕 화면 무늬(_W)</b>"
+#~ msgid "No Wallpaper"
+#~ msgstr "바탕 무늬 없음"
+#~ msgid "Screen Resolution"
+#~ msgstr "화면 해상도"
+#~ msgid "Monitor Resolution Settings"
+#~ msgstr "모니터 해상도 설정"
+#~ msgid "Retrieve and store legacy settings"
+#~ msgstr "물려받은 설정을 되찾아서 저장합니다"
+#~ msgid "Enable sound and associate sounds with events"
+#~ msgstr "사운드를 사용하고 사운드를 이벤트와 연결합니다"
+#~ msgid "Unknown Volume Control %d"
+#~ msgstr "알 수 없는 볼륨 컨트롤 %d"
+#~ msgid "Failed to construct test pipeline for '%s'"
+#~ msgstr "'%s'에 대한 테스트 파이프라인을 만드는 데 실패했습니다."
+#~ msgid "Not connected"
+#~ msgstr "연결되지 않음"
+#~ msgid "Autodetect"
+#~ msgstr "자동 인식"
+#~ msgid "ALSA - Advanced Linux Sound Architecture"
+#~ msgstr "ALSA - 고급 리눅스 사운드 구조"
+#~ msgid "Artsd - ART Sound Daemon"
+#~ msgstr "Artsd - ART 사운드 데몬"
+#~ msgid "ESD - Enlightened Sound Daemon"
+#~ msgstr "ESD - Enlightened 사운드 데몬"
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - 오픈 사운드 시스템"
+#~ msgid "PulseAudio Sound Server"
+#~ msgstr "PulseAudio 사운드 서버"
+#~ msgid "Test Sound"
+#~ msgstr "소리 검사"
+#~ msgid "Silence"
+#~ msgstr "조용히"
+#~ msgid "- GNOME Sound Preferences"
+#~ msgstr "- 사운드 기본 설정"
+#~ msgid "<b>Alerts and Sound Effects</b>"
+#~ msgstr "<b>알림 및 사운드 이벤트</b>"
+#~ msgid "<b>Audio Conferencing</b>"
+#~ msgstr "<b>음성 회의</b>"
+#~ msgid "<b>Default Mixer Tracks</b>"
+#~ msgstr "<b>기본 믹서 트랙</b>"
+#~ msgid "<b>Music and Movies</b>"
+#~ msgstr "<b>음악 및 동영상</b>"
+#~ msgid "<b>Sound Events</b>"
+#~ msgstr "<b>사운드 이벤트</b>"
+#~ msgid "<b>Sound Theme</b>"
+#~ msgstr "<b>사운드 테마</b>"
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">테스트하는 중...</span>"
+#~ msgid "Click OK to finish."
+#~ msgstr "마치려면 확인을 누르십시오."
+#~ msgid "Devices"
+#~ msgstr "장치"
+#~ msgid "Play _alert sound"
+#~ msgstr "알림 사운드 재생(_A)"
+#~ msgid "Play _sound effects when buttons are clicked"
+#~ msgstr "단추를 누르면 효과음 재생(_S)"
+#~ msgid "S_ound playback:"
+#~ msgstr "소리 재생(_O):"
+#~ msgid ""
+#~ "Select the device and tracks to control with the keyboard. Use the Shift "
+#~ "and Control keys to select multiple tracks if required."
+#~ msgstr ""
+#~ "키보드로 조정할 장치와 트랙을 선택합니다. 여러 트랙을 한꺼번에 조정하려면 "
+#~ "Shift와 Control 키를 사용해 여러 트랙을 선택하십시오."
+#~ msgid "So_und playback:"
+#~ msgstr "소리 재생(_U):"
+#~ msgid "Sou_nd capture:"
+#~ msgstr "소리 캡쳐(_N):"
+#~ msgid "Sound Preferences"
+#~ msgstr "사운드 기본 설정"
+#~ msgid "Sounds"
+#~ msgstr "소리"
+#~ msgid "Test"
+#~ msgstr "테스트"
+#~ msgid "Testing Pipeline"
+#~ msgstr "파이프라인 테스트"
+#~ msgid "_Device:"
+#~ msgstr "장치(_D):"
+#~ msgid "_Play alerts and sound effects"
+#~ msgstr "알림 및 효과음 재생(_P)"
+#~ msgid "_Sound playback:"
+#~ msgstr "소리 재생(_S):"
+#~ msgctxt "Sound event"
+#~ msgid "Alert sound"
+#~ msgstr "알림 사운드"
+#~ msgctxt "Sound event"
+#~ msgid "Visual alert"
+#~ msgstr "시각 알림"
+#~ msgctxt "Sound event"
+#~ msgid "Windows and Buttons"
+#~ msgstr "창 및 단추"
+#~ msgctxt "Sound event"
+#~ msgid "Button clicked"
+#~ msgstr "단추 누름"
+#~ msgctxt "Sound event"
+#~ msgid "Toggle button clicked"
+#~ msgstr "토글 단추 누름"
+#~ msgctxt "Sound event"
+#~ msgid "Window maximized"
+#~ msgstr "창 최대화"
+#~ msgctxt "Sound event"
+#~ msgid "Window unmaximized"
+#~ msgstr "창 최대화 해제"
+#~ msgctxt "Sound event"
+#~ msgid "Window minimised"
+#~ msgstr "창 최소화"
+#~ msgctxt "Sound event"
+#~ msgid "Desktop"
+#~ msgstr "바탕 화면"
+#~ msgctxt "Sound event"
+#~ msgid "Login"
+#~ msgstr "로그인"
+#~ msgctxt "Sound event"
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+#~ msgctxt "Sound event"
+#~ msgid "New e-mail"
+#~ msgstr "새 메일"
+#~ msgctxt "Sound event"
+#~ msgid "Empty trash"
+#~ msgstr "휴지통 비우기"
+#~ msgctxt "Sound event"
+#~ msgid "Long action completed (download, CD burning, etc.)"
+#~ msgstr "오래 걸리는 동작 완료 (다운로드, CD 굽기 등)"
+#~ msgctxt "Sound event"
+#~ msgid "Alerts"
+#~ msgstr "알림"
+#~ msgctxt "Sound event"
+#~ msgid "Information or question"
+#~ msgstr "정보 혹은 물음"
+#~ msgctxt "Sound event"
+#~ msgid "Warning"
+#~ msgstr "경고"
+#~ msgctxt "Sound event"
+#~ msgid "Error"
+#~ msgstr "오류"
+#~ msgctxt "Sound event"
+#~ msgid "Battery warning"
+#~ msgstr "배터리 경고"
+#~ msgid "Testing event sound"
+#~ msgstr "이벤트 사운드 검사"
+#~ msgid "Select Sound File"
+#~ msgstr "사운드 파일 선택"
+#~ msgid "Sound files"
+#~ msgstr "사운드 파일"
+#~ msgid "Custom..."
+#~ msgstr "사용자 설정..."
+#~ msgid "Lock Screen"
+#~ msgstr "화면 잠그기"
+#~ msgid "Logout"
+#~ msgstr "로그아웃"
+#~ msgid "Shutdown"
+#~ msgstr "끄기"
+#~ msgid "Enable support for GNOME assistive technologies at login"
+#~ msgstr "로그인할 때 그놈 보조 기술 기능을 사용합니다."
+#~ msgid ""
+#~ "Centered\n"
+#~ "Fill screen\n"
+#~ "Scaled\n"
+#~ "Zoom\n"
+#~ "Tiled"
+#~ msgstr ""
+#~ "가운데\n"
+#~ "전체 화면\n"
+#~ "크기 조정\n"
+#~ "확대\n"
+#~ "타일"
+#~ msgid ""
+#~ "%s is the path where the theme files will be installed. This can not be "
+#~ "selected as the source location"
+#~ msgstr ""
+#~ "%s은(는) 테마 파일이 설치될 경로입니다. 이 경로는 소스 위치로 선택할 수 없"
+#~ "습니다"
+#~ msgid "Just apply settings and quit"
+#~ msgstr "설정을 적용하고 마칩니다"
+#~ msgid "Connecting..."
+#~ msgstr "연결중..."
+#~ msgid "Inverted"
+#~ msgstr "반전"
+#~ msgid "Screen %d Settings\n"
+#~ msgstr "화면 %d 설정\n"
+#~ msgid "Screen Resolution Preferences"
+#~ msgstr "화면 해상도 설정"
+#~ msgid "_Make default for this computer (%s) only"
+#~ msgstr "이 컴퓨터(%s)의 경우에만 기본값으로 만들기(_M)"
+#~ msgid "Options"
+#~ msgstr "옵션"
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "새로운 설정을 테스트합니다. %d초 이내에 응답하지 않으면 이전 설정으로 다"
+#~ "시 돌아갑니다."
+#~ msgstr[1] ""
+#~ "새로운 설정을 테스트합니다. %d초 이내에 응답하지 않으면 이전 설정으로 다"
+#~ "시 돌아갑니다."
+#~ msgid "Keep Resolution"
+#~ msgstr "이 해상도 계속 사용"
+#~ msgid "Do you want to keep this resolution?"
+#~ msgstr "이 해상도를 계속 사용하시겠습니까?"
+#~ msgid "Use _Previous Resolution"
+#~ msgstr "이전 해상도 사용(_P)"
+#~ msgid "_Keep Resolution"
+#~ msgstr "이 해상도 계속 사용(_K)"
+#~ msgid ""
+#~ "The X server does not support the XRandR extension.  Runtime resolution "
+#~ "changes to the display size are not available."
+#~ msgstr ""
+#~ "X 서버가 XRandR 확장 기능을 지원하지 않습니다.  실행 중에 화면 크기를 바"
+#~ "꿀 수 없습니다."
+#~ msgid ""
+#~ "The version of the XRandR extension is incompatible with this program. "
+#~ "Runtime changes to the display size are not available."
+#~ msgstr ""
+#~ "XRandR 확장 기능의 버전이 이 프로그램과 호환되지 않습니다. 실행 중에 해상"
+#~ "도를 바꿀 수 없습니다."
+#~ msgid "New accelerator..."
+#~ msgstr "새 바로 가기 키..."
+#~ msgid "Error setting new accelerator in configuration database: %s\n"
+#~ msgstr "설정 데이터 베이스에서 새로운 단축키 설정 오류: %s\n"
+#~ msgid "Keyboard Accessibility Notifications"
+#~ msgstr "키보드 접근성 알림"
+#~ msgid "_Layouts:"
+#~ msgstr "키 배치(_L):"
+#~ msgid "Advanced Configuration"
+#~ msgstr "고급 설정"
+#~ msgid "E_nable software sound mixing (ESD)"
+#~ msgstr "소프트웨어 사운드 믹서(ESD) 사용(_N)"
+#~ msgid "System Beep"
+#~ msgstr "시스템 삑 소리"
+#~ msgid "_Enable system beep"
+#~ msgstr "시스템 삑 소리 사용(_E)"
+#~ msgid "_Visual system beep"
+#~ msgstr "눈에 보이는 시스템 삑 소리(_V)"
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "예상치 못한 '%2$s' 요소의 '%1$s'속성"
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "'%2$s' 요소의 '%1$s'속성을 찾을 수 없습니다"
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "예상치 못한 '%s'태그, '%s'태그여야 합니다"
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "예상치 못한 '%2$s'내에 '%1$s'태그"
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "데이터 디렉터리에 올바른 책갈피 파일을 찾을 수 없습니다"
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "책갈피 URI '%s'(이)가 이미 있습니다"
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "URI '%s'에 대한 책갈피를 찾을 수 없습니다"
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "URI '%s'에 대한 책갈피에 MIME형식이 지정되지 않았습니다"
+#~ msgid "No private flag has been defined in bookmark for URI '%s'"
+#~ msgstr "URI '%s'에 대한 책갈피에 개인 플래그가 지정되지 않았습니다"
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "URI '%s'에 대한 책갈피에 그룹이 설정되지 않았습니다"
+#~ msgid "No application with name '%s' registered a bookmark for '%s'"
+#~ msgstr "'%2$s'에 대한 책갈피에 등록된 프로그램 이름 '%1$s'(이)가 없습니다"
+#~ msgid "Boing"
+#~ msgstr "깜짝"
+#~ msgid "Siren"
+#~ msgstr "사이렌"
+#~ msgid "Clink"
+#~ msgstr "짤랑짤랑"
+#~ msgid "Beep"
+#~ msgstr "삑"
+#~ msgid "No sound"
+#~ msgstr "소리 없음"
+#~ msgid "Sound not set for this event."
+#~ msgstr "상황에 따른 소리."
+#~ msgid ""
+#~ "The sound file for this event does not exist.\n"
+#~ "You may want to install the gnome-audio package for a set of default "
+#~ "sounds."
+#~ msgstr ""
+#~ "이 상황에 대한 사운드 파일이 없습니다.\n"
+#~ "기본 사운드 파일은 gnome-audio 꾸러미에\n"
+#~ "있습니다."
+#~ msgid "The sound file for this event does not exist."
+#~ msgstr "이 상황에 대한 사운드 파일이 존재하지 않습니다."
+#~ msgid "The file %s is not a valid wav file"
+#~ msgstr "%s 파일은 올바른 WAV 파일이 아닙니다"
+#~ msgid "Select sound file..."
+#~ msgstr "소리 파일 선택..."
+#~ msgid "System Sounds"
+#~ msgstr "시스템 소리"
+#~ msgid "Set as Application Font"
+#~ msgstr "프로그램 글꼴로 설정"
+#~ msgid "Sets the default application font"
+#~ msgstr "기본 프로그램 글꼴을 설정합니다"
+#~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#~ msgstr ""
+#~ "<span weight=\"bold\" size=\"larger\">새 글꼴을 적용하시겠습니까?</span>"
+#~ msgid "Do _not apply font"
+#~ msgstr "글꼴 적용하지 않음(_N)"
+#~ msgid ""
+#~ "The theme you have selected suggests a new font. A preview of the font is "
+#~ "shown below."
+#~ msgstr ""
+#~ "선택하신 테마는 새 글꼴이 들어 있습니다. 아래에서 글꼴을 미리 볼 수 있습니"
+#~ "다."
+#~ msgid "_Apply font"
+#~ msgstr "글꼴 적용(_A)"
+#~ msgid "Themes"
+#~ msgstr "테마"
+#~ msgid "Description"
+#~ msgstr "설명"
+#~ msgid "Control theme"
+#~ msgstr "컨트롤 테마"
+#~ msgid "Window border theme"
+#~ msgstr "창 가장자리 테마"
+#~ msgid "Icon theme"
+#~ msgstr "아이콘 테마"
+#~ msgid "If set to true, then installed themes will be thumbnailed."
+#~ msgstr "참이면 설치된 테마의 미리보기를 만듭니다."
+#~ msgid "If set to true, then themes will be thumbnailed."
+#~ msgstr "참이면 테마의 미리보기를 만듭니다."
+#~ msgid ""
+#~ "Set this key to the command used to create thumbnails for installed "
+#~ "themes."
+#~ msgstr "이 키는 설치된 테마의 미리보기를 만드는데 쓰이는 명령입니다."
+#~ msgid "Set this key to the command used to create thumbnails for themes."
+#~ msgstr "이 키는 테마의 미리보기를 만드는데 쓰이는 명령입니다."
+#~ msgid "Thumbnail command for installed themes"
+#~ msgstr "설치된 테마의 미리보기 만들기 명령"
+#~ msgid "Thumbnail command for themes"
+#~ msgstr "테마의 미리보기 만들기 명령"
+#~ msgid "Whether to thumbnail installed themes"
+#~ msgstr "설치된 테마를 미리보기"
+#~ msgid "Whether to thumbnail themes"
+#~ msgstr "테마를 미리보기"
+#~ msgid "ABCDEFG"
+#~ msgstr "ABC가나다"
+#~ msgid "[FILE]"
+#~ msgstr "[파일]"
+#~ msgid "Apply theme"
+#~ msgstr "테마 적용"
+#~ msgid "Sets the default theme"
+#~ msgstr "기본 테마로 설정"
+#~ msgid " "
+#~ msgstr " "
+#~ msgid "    "
+#~ msgstr "    "
+#~ msgid "There was an error launching the mouse preferences dialog: %s"
+#~ msgstr "마우스 기본 설정을 시작하는 데 오류가 발생했습니다: %s"
+#~ msgid "Unable to import AccessX settings from file '%s'"
+#~ msgstr "AccessX 설정사항을 '%s' 파일에서 가져 올 수 없습니다"
+#~ msgid "Import Feature Settings File"
+#~ msgstr "기능 설정 파일 가져오기"
+#~ msgid "_Import"
+#~ msgstr "가져오기(_I)"
+#~ msgid "Set your keyboard accessibility preferences"
+#~ msgstr "키보드 접근성 기능 기본 설정을 설정합니다"
+#~ msgid ""
+#~ "This system does not seem to have the XKB extension.  The keyboard "
+#~ "accessibility features will not operate without it."
+#~ msgstr ""
+#~ "시스템에 XKB확장 기능이 없습니다. 키보드 접근성 기능이 동작하지 않을 것입"
+#~ "니다."
+#~ msgid "<b>Enable _Mouse Keys</b>"
+#~ msgstr "<b>마우스 키 사용(_M)</b>"
+#~ msgid "<b>Enable _Repeat Keys</b>"
+#~ msgstr "<b>반복 키 사용(_R)</b>"
+#~ msgid "<b>Features</b>"
+#~ msgstr "<b>기능</b>"
+#~ msgid "<b>Toggle Keys</b>"
+#~ msgstr "<b>토글 키</b>"
+#~ msgid "Basic"
+#~ msgstr "기본"
+#~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
+#~ msgstr "LED가 켜질 때 삑 소리를 내고, LED가 꺼질 때 삑 소리 두번납니다."
+#~ msgid "Delay between keypress and pointer mo_vement:"
+#~ msgstr "키 누름과 포인터 움직임 사이의 지연시간(_V):"
+#~ msgid "E_nable Toggle Keys"
+#~ msgstr "토글 키 사용(_N)"
+#~ msgid "Filters"
+#~ msgstr "필터"
+#~ msgid ""
+#~ "Ignore all subsequent presses of the SAME key if they happen within a "
+#~ "user selectable period of time."
+#~ msgstr "지정한 시간 내에 같은 키가 연속해서 눌릴 경우 무시합니다."
+#~ msgid "Keyboard Accessibility Preferences (AccessX)"
+#~ msgstr "키보드 접근성 기능 설정 (AccessX)"
+#~ msgid "Ma_ximum pointer speed:"
+#~ msgstr "최대 포인터 속도(_X):"
+#~ msgid "Mouse _Preferences..."
+#~ msgstr "마우스 기본 설정(_P)..."
+#~ msgid ""
+#~ "Only accept keys after they have been pressed and held for a user "
+#~ "adjustable amount of time."
+#~ msgstr ""
+#~ "키를 누른 후에 사용자가 설정한 만큼의 시간동안 누르고 있어야 그 키를 받아"
+#~ "들입니다."
+#~ msgid ""
+#~ "Perform multiple simultaneous key press operations by pressing modifier "
+#~ "keys in sequence."
+#~ msgstr ""
+#~ "변경 키를 눌러서 차례대로 누른 키가 동시에 눌려진 것처럼 처리합니다."
+#~ msgid "Time to acce_lerate to maximum speed:"
+#~ msgstr "최대 속도로 가속할 시간(_L):"
+#~ msgid "Turn the numeric keypad into a mouse control pad."
+#~ msgstr "숫자 키패드를 마우스 컨트롤 패드로 만듭니다."
+#~ msgid "_Disable if unused for:"
+#~ msgstr "이 시간동안 쓰지 않으면 끄기(_D):"
+#~ msgid "_Enable keyboard accessibility features"
+#~ msgstr "키보드 접근성 기능 사용(_E)"
+#~ msgid "_Import Feature Settings..."
+#~ msgstr "기능 설정 가져오기(_I)..."
+#~ msgid "_accepted"
+#~ msgstr "받아들일 때 삑 소리(_A)"
+#~ msgid "_pressed"
+#~ msgstr "눌러졌을 때 삑 소리(_P)"
+#~ msgid "characters/second"
+#~ msgstr "글자/초"
+#~ msgid "milliseconds"
+#~ msgstr "밀리초"
+#~ msgid "pixels/second"
+#~ msgstr "픽셀/초"
+#~ msgid "Go _to Fonts Folder"
+#~ msgstr "글꼴 폴더로 이동(_T)"
+#~ msgid "Autostart the preferred AT"
+#~ msgstr "기본 보조 기술 자동시작"
+#~ msgid "Simple OnScreen Keyboard"
+#~ msgstr "간단한 화면 키보드"
+#~ msgid "There was an error launching the keyboard tool: %s"
+#~ msgstr "키보드 도구를 시작하는 데 오류가 발생했습니다: %s"
+#~ msgid "_Accessibility..."
+#~ msgstr "접근성 기능(_A)..."
+#~ msgid "%d millisecond"
+#~ msgid_plural "%d milliseconds"
+#~ msgstr[0] "%d 밀리초"
+#~ msgstr[1] "%d 밀리초"
+#~ msgid "<i>Fast</i>"
+#~ msgstr "<i>빠르게</i>"
+#~ msgid "<i>High</i>"
+#~ msgstr "<i>높게</i>"
+#~ msgid "<i>Large</i>"
+#~ msgstr "<i>크게</i>"
+#~ msgid "<i>Low</i>"
+#~ msgstr "<i>낮게</i>"
+#~ msgid "<i>Slow</i>"
+#~ msgstr "<i>느리게</i>"
+#~ msgid "<i>Small</i>"
+#~ msgstr "<i>작게</i>"
+#~ msgid "Buttons"
+#~ msgstr "단추"
+#~ msgid "Motion"
+#~ msgstr "움직임"
+#~ msgid "      "
+#~ msgstr "      "
+#~ msgid "Volume"
+#~ msgstr "볼륨"
+#~ msgid "Slow Keys Alert"
+#~ msgstr "느린 키 알림"
+#~ msgid ""
+#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
+#~ "the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "<Shift> 키를 8초 동안 누르고 있었습니다.  느린 키 기능을 사용하게 됩니"
+#~ "다.  느린 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
+#~ msgid "Do you want to activate Slow Keys?"
+#~ msgstr "느린 키를 사용하시겠습니까?"
+#~ msgid "Do you want to deactivate Slow Keys?"
+#~ msgstr "느린 키를 해제하시겠습니까?"
+#~ msgid "_Activate"
+#~ msgstr "활성(_A)"
+#~ msgid "_Deactivate"
+#~ msgstr "비활성(_D)"
+#~ msgid "Do_n't activate"
+#~ msgstr "활성하지 않기(_N)"
+#~ msgid "Do_n't deactivate"
+#~ msgstr "비활성하지 않기(_N)"
+#~ msgid "Sticky Keys Alert"
+#~ msgstr "고정 키 알림"
+#~ msgid ""
+#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
+#~ "for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr ""
+#~ "<Shift> 키를 5번 연속해서 눌렀습니다.  고정 키 기능을 사용하게 됩니다.  고"
+#~ "정 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
+#~ msgid ""
+#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
+#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
+#~ "keyboard works."
+#~ msgstr ""
+#~ "키 두 개를 동시에 눌렀거나, <Shift> 키를 5번 연속해서 눌렀습니다.  고정 "
+#~ "키 기능을 해제하게 됩니다.  고정 키를 해제하면 키보드가 동작하는 방식이 달"
+#~ "라집니다."
+#~ msgid "Do you want to activate Sticky Keys?"
+#~ msgstr "고정 키를 사용하시겠습니까?"
+#~ msgid "Do you want to deactivate Sticky Keys?"
+#~ msgstr "고정 키를 해제하시겠습니까?"
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing the mouse pointer theme."
+#~ msgstr ""
+#~ "\"%s\" 디렉터리를 만들 수 없습니다.\n"
+#~ "마우스 테마를 바꾸려면 이 디렉터리를 만들어야 합니다."
+#~ msgid ""
+#~ "Cannot create the directory \"%s\".\n"
+#~ "This is needed to allow changing cursors."
+#~ msgstr ""
+#~ "\"%s\" 디렉터리를 만들 수 없습니다.\n"
+#~ "커서를 바꾸려면 이 디렉터리를 만들어야 합니다."
+#~ msgid "Key Binding (%s) has its action defined multiple times\n"
+#~ msgstr "키 바인딩에 (%s) 대한 행동이 여러 번 정의되어 있습니다\n"
+#~ msgid "Key Binding (%s) has its binding defined multiple times\n"
+#~ msgstr "키 바인딩에 (%s) 대한 바인딩이 여러 번 정의되어 있습니다\n"
+#~ msgid "Key Binding (%s) is incomplete\n"
+#~ msgstr "키 바인딩이 (%s) 불완전합니다\n"
+#~ msgid "Key Binding (%s) is invalid\n"
+#~ msgstr "키 바인딩이 (%s) 잘못되었습니다\n"
+#~ msgid "It seems that another application already has access to key '%u'."
+#~ msgstr "다른 프로그램이 이미 '%u' 키를 접근하고 있습니다."
+#~ msgid ""
+#~ "Error while trying to run (%s)\n"
+#~ "which is linked to the key (%s)"
+#~ msgstr ""
+#~ "실행하는 데 (%s) 오류가 발생했습니다\n"
+#~ "(%s) 키와 연결되어 있습니다"
+#~ msgid ""
+#~ "Error activating XKB configuration.\n"
+#~ "It can happen under various circumstances:\n"
+#~ "- a bug in libxklavier library\n"
+#~ "- a bug in X server (xkbcomp, xmodmap utilities)\n"
+#~ "- X server with incompatible libxkbfile implementation\n"
+#~ "\n"
+#~ "X server version data:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "If you report this situation as a bug, please include:\n"
+#~ "- The result of <b>%s</b>\n"
+#~ "- The result of <b>%s</b>"
+#~ msgstr ""
+#~ "XKB 설정을 활성화하는 데 오류가 발생했습니다.\n"
+#~ "여러가지 경우가 있을 수 있습니다:\n"
+#~ "- libxklavier 라이브러리 버그\n"
+#~ "- X 서버 버그 (xkbcomp, xmodmap 유틸리티)\n"
+#~ "- 호환되지 않는 libxbfile 구현과 조합된 X 서버\n"
+#~ "\n"
+#~ "X 서버 버전 데이터:\n"
+#~ "%s\n"
+#~ "%d\n"
+#~ "%s\n"
+#~ "이 상황을 버그로 보고하시려면, 다음 정보를 포함해 주십시오:\n"
+#~ "- <b>%s</b> 명령의 결과\n"
+#~ "- <b>%s</b> 명령의 결과"
+#~ msgid ""
+#~ "You are using XFree 4.3.0.\n"
+#~ "There are known problems with complex XKB configurations.\n"
+#~ "Try using a simpler configuration or taking a fresher version of XFree "
+#~ "software."
+#~ msgstr ""
+#~ "XFree 4.3.0을 사용하는 중입니다.\n"
+#~ "이 버전에는 복잡한 XKB 설정에 관련해 알려진 문제점이 있습니다.\n"
+#~ "좀 더 간단한 설정을 사용하거나 더 최신 버전의 XFree 소프트웨어를 사용하십"
+#~ "시오."
+#~ msgid ""
+#~ "Could not get default terminal. Verify that your default terminal command "
+#~ "is set and points to a valid application."
+#~ msgstr ""
+#~ "기본 터미널을 얻을 수 없습니다. 기본 터미널 명령이 설정되어 있고 올바른 프"
+#~ "로그램인지 확인해보시기 바랍니다."
+#~ msgid ""
+#~ "Couldn't execute command: %s\n"
+#~ "Verify that this is a valid command."
+#~ msgstr ""
+#~ "명령을 실행할 수 없습니다: %s\n"
+#~ "명령이 있는지 확인해보십시오."
+#~ msgid ""
+#~ "Couldn't put the machine to sleep.\n"
+#~ "Verify that the machine is correctly configured."
+#~ msgstr ""
+#~ "컴퓨터를 절전 모드로 바꿀 수 없습니다.\n"
+#~ "컴퓨터가 올바르게 설정되어 있는 지 확인하십시오."
+#~ msgid ""
+#~ "There was an error starting up the screensaver:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "Screensaver functionality will not work in this session."
+#~ msgstr ""
+#~ "화면 보호기를 시작하는 데 오류가 발생했습니다:\n"
+#~ "\n"
+#~ "%s\n"
+#~ "\n"
+#~ "이 세션에서는 화면 보호기 기능이 동작하지 않을 것입니다."
+#~ msgid "_Do not show this message again"
+#~ msgstr "이 메시지를 다시 표시하지 않기(_D)"
+#~ msgid "Couldn't load sound file %s as sample %s"
+#~ msgstr "사운드 파일 %s을(를) 샘플 %s(으)로 읽어들일 수 없습니다"
+#~ msgid "Cannot determine user's home directory"
+#~ msgstr "사용자의 홈 디렉터리를 알 수가 없습니다"
+#~ msgid "GConf key %s set to type %s but its expected type was %s\n"
+#~ msgstr ""
+#~ "GConf 키 %s이(가) %s 타입으로 지정되었지만 예상되는 타입은 %s입니다\n"
+#~ msgid "A_vailable files:"
+#~ msgstr "사용 가능한 파일(_V):"
+#~ msgid "Do _not show this warning again."
+#~ msgstr "이 경고를 다시 표시하지 않기(_N)."
+#~ msgid "Load modmap files"
+#~ msgstr "modmap 파일 읽어들이기"
+#~ msgid "Would you like to load the modmap file(s)?"
+#~ msgstr "modmap 파일을 읽어들이시겠습니까?"
+#~ msgid "_Load"
+#~ msgstr "읽어들이기(_L)"
+#~ msgid "_Loaded files:"
+#~ msgstr "읽어들인 파일(_L):"
+#~ msgid "Error creating signal pipe."
+#~ msgstr "시그날 파이프를 만드는 데 오류."
+#~ msgid "Type"
+#~ msgstr "형식"
+#~ msgid ""
+#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
+#~ "for preview"
+#~ msgstr ""
+#~ "bg_applier의 형식: 루트 윈도우의 BG_APPLIER_ROOT 혹은 미리 보기의 "
+#~ "BG_APPLIER_PREVIEW"
+#~ msgid "Preview Width"
+#~ msgstr "미리 보기 너비"
+#~ msgid "Width if applier is a preview: Defaults to 64."
+#~ msgstr "미리 보기의 너비: 기본 값은 64입니다."
+#~ msgid "Preview Height"
+#~ msgstr "미리 보기 높이"
+#~ msgid "Height if applier is a preview: Defaults to 48."
+#~ msgstr "미리 보기의 높이: 기본 값은 48입니다."
+#~ msgid "Screen on which BGApplier is to draw"
+#~ msgstr "BGApplier가 그려지는 화면"
+#~ msgid "Edited %m/%d/%Y"
+#~ msgstr "%Y/%m/%d에 고쳐짐"
+#~ msgid ""
+#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr "참이면 text/plain과 text/*의 mime처리기가 항상 동기화됨"
+#~ msgid "Sync text/plain and text/* handlers"
+#~ msgstr "text/plain과 text/* 처리기 동기화"
+#~ msgid "E-mail"
+#~ msgstr "전자 메일"
+#~ msgid "E-mail's shortcut."
+#~ msgstr "전자 메일 바로 가기."
+#~ msgid "Eject"
+#~ msgstr "꺼내기"
+#~ msgid "Home folder"
+#~ msgstr "홈 폴더"
+#~ msgid "Home folder's shortcut."
+#~ msgstr "홈 폴더 바로 가기."
+#~ msgid "Launch help browser"
+#~ msgstr "도움말 브라우저 실행"
+#~ msgid "Launch help browser's shortcut."
+#~ msgstr "도움말 브라우저 실행 바로 가기."
+#~ msgid "Launch web browser"
+#~ msgstr "웹 브라우저 실행"
+#~ msgid "Launch web browser's shortcut."
+#~ msgstr "웹 브라우저 실행 바로 가기."
+#~ msgid "Lock screen's shortcut."
+#~ msgstr "화면 잠그기 바로 가기."
+#~ msgid "Log out"
+#~ msgstr "로그아웃"
+#~ msgid "Log out's shortcut."
+#~ msgstr "로그아웃 바로 가기."
+#~ msgid "Media player"
+#~ msgstr "미디어 플레이어"
+#~ msgid "Media player key's shortcut."
+#~ msgstr "미디어 플레이어 바로 가기."
+#~ msgid "Next track key's shortcut."
+#~ msgstr "다음 트랙 바로 가기."
+#~ msgid "Pause"
+#~ msgstr "잠시 멈춤"
+#~ msgid "Pause key's shortcut."
+#~ msgstr "잠시 멈춤 바로 가기."
+#~ msgid "Play (or play/pause)"
+#~ msgstr "연주 (또는 잠시 멈춤)"
+#~ msgid "Play (or play/pause) key's shortcut."
+#~ msgstr "연주 (또는 잠시 멈춤) 바로 가기."
+#~ msgid "Previous track key's shortcut."
+#~ msgstr "이전 트랙 바로 가기."
+#~ msgid "Search's shortcut."
+#~ msgstr "찾기 바로 가기."
+#~ msgid "Skip to next track"
+#~ msgstr "다음 트랙 넘어가기"
+#~ msgid "Skip to previous track"
+#~ msgstr "이전 트랙 넘어가기"
+#~ msgid "Sleep"
+#~ msgstr "절전 모드"
+#~ msgid "Sleep's shortcut."
+#~ msgstr "절전 모드 바로 가기."
+#~ msgid "Stop playback key"
+#~ msgstr "연주 멈춤"
+#~ msgid "Stop playback key's shortcut."
+#~ msgstr "연주 멈춤 바로 가기."
+#~ msgid "Volume down"
+#~ msgstr "소리 낮춤"
+#~ msgid "Volume down's shortcut."
+#~ msgstr "소리 낮춤 바로 가기."
+#~ msgid "Volume mute"
+#~ msgstr "소리 끔"
+#~ msgid "Volume mute's shortcut."
+#~ msgstr "소리 끔 바로 가기."
+#~ msgid "Volume step"
+#~ msgstr "소리 단위"
+#~ msgid "Volume step as percentage of volume."
+#~ msgstr "소리 단위, 소리 높이의 퍼센트 비율."
+#~ msgid "Volume up"
+#~ msgstr "소리 높임"
+#~ msgid "Volume up's shortcut."
+#~ msgstr "소리 높임 바로 가기."
+#~ msgid "Display a dialog when there are errors running the screensaver"
+#~ msgstr "화면 보호기 실행 중에 오류가 생길 때 대화상자 보임"
+#~ msgid "Run screensaver at login"
+#~ msgstr "로그인할 때 화면 보호기 실행"
+#~ msgid "Show Startup Errors"
+#~ msgstr "시작 오류 보기"
+#~ msgid "Start screensaver"
+#~ msgstr "화면 보호기 시작"
+#~ msgid "The theme is an engine. You need to compile it."
+#~ msgstr "이 테마는 엔진입니다. 컴파일해야 합니다."
+#~ msgid "The file format is invalid"
+#~ msgstr "파일 포맷이 올바르지 않습니다"
+#~ msgid "This theme is not in a supported format."
+#~ msgstr "이 테마는 지원하는 형식이 아닙니다."
+#~ msgid "The file format is invalid."
+#~ msgstr "파일 포맷이 올바르지 않습니다."
+#~ msgid "Evolution Mail Reader 1.4"
+#~ msgstr "에볼루션 메일 읽기 1.4"
+#~ msgid "Evolution Mail Reader 1.5"
+#~ msgstr "에볼루션 메일 읽기 1.5"
+#~ msgid "Evolution Mail Reader 1.6"
+#~ msgstr "에볼루션 메일 읽기 1.6"
+#~ msgid "Evolution Mail Reader 2.0"
+#~ msgstr "에볼루션 메일 읽기 2.0"
+#~ msgid "Evolution Mail Reader 2.2"
+#~ msgstr "에볼루션 메일 읽기 2.2"
+#~ msgid "Evolution Mail Reader 2.4"
+#~ msgstr "에볼루션 메일 읽기 2.4"
+#~ msgid "Links Text Browser"
+#~ msgstr "Links 텍스트 브라우저"
+#~ msgid "Lynx Text Browser"
+#~ msgstr "Lynx 텍스트 브라우저"
+#~ msgid "W3M Text Browser"
+#~ msgstr "W3M 텍스트 브라우저"
+#~ msgid "_Keep resolution"
+#~ msgstr "이 해상도 계속 사용(_K)"
+#~ msgid "Choose..."
+#~ msgstr "고르기..."
+#~ msgid "Microsoft Natural Keyboard"
+#~ msgstr "마이크로소프트 내츄럴 키보드"
+#~ msgid "Do _not show this warning again"
+#~ msgstr "이 경고를 다시 표시하지 않기(_N)"
+#~ msgid ""
+#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
+#~ "settings.</b>\n"
+#~ "\n"
+#~ "Expected was %s, but the the following settings were found: %s.\n"
+#~ "\n"
+#~ "Which set would you like to use?"
+#~ msgstr ""
+#~ "<b>X 시스템 키보드 설정이 현재 그놈 키보드 설정과 다릅니다.</b>\n"
+#~ "\n"
+#~ "%s 설정이 있어야 하지만, 다음 설정이 있습니다: %s\n"
+#~ "\n"
+#~ "어느 설정을 사용하시겠습니까?"
+#~ msgid "Keep GNOME settings"
+#~ msgstr "그놈 설정 유지"
 
