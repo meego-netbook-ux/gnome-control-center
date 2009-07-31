@@ -14,9 +14,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-20 09:18+0000\n"
-"PO-Revision-Date: 2009-07-24 14:19-0800\n"
-"Last-Translator: Omar Antila <oantila@ptiglobal.com>\n"
+"POT-Creation-Date: 2009-07-29 09:18+0000\n"
+"PO-Revision-Date: 2009-07-29 17:53-0800\n"
+"Last-Translator: Omar Antila <omarx.s.antila@intel.com>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -216,7 +216,7 @@ msgstr "Tuntematon kirjautumistunniste, käyttäjätietokanta voi olla vioittunu
 #: ../capplets/about-me/gnome-about-me.c:1043
 #, c-format
 msgid "About %s"
-msgstr "%s tiedot"
+msgstr "%s - tiedot"
 
 #: ../capplets/about-me/gnome-about-me.c:1061
 #: ../capplets/about-me/gnome-about-me.glade.h:26
@@ -637,7 +637,7 @@ msgstr "<b>Työosoite</b>"
 
 #: ../capplets/about-me/gnome-about-me-moblin.glade.h:30
 msgid "Personal"
-msgstr "Henkilökohtainen"
+msgstr "Henk.koht."
 
 #: ../capplets/about-me/gnome-about-me-moblin.glade.h:38
 msgid "Work"
@@ -2094,7 +2094,7 @@ msgstr "aterm"
 
 #: ../capplets/display/display-capplet.glade.h:1
 #: ../capplets/display/display-capplet-moblin.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:487
+#: ../capplets/display/xrandr-capplet.c:549
 msgid "<b>Monitor</b>"
 msgstr "<b>Näyttö</b>"
 
@@ -2174,38 +2174,38 @@ msgstr "Muuta näytön tarkkuutta"
 msgid "Display"
 msgstr "Näyttö"
 
-#: ../capplets/display/xrandr-capplet.c:353
-#: ../capplets/display/xrandr-capplet.c:392
+#: ../capplets/display/xrandr-capplet.c:415
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Normal"
 msgstr "Tavallinen"
 
-#: ../capplets/display/xrandr-capplet.c:354
+#: ../capplets/display/xrandr-capplet.c:416
 msgid "Left"
 msgstr "Vasen"
 
-#: ../capplets/display/xrandr-capplet.c:355
+#: ../capplets/display/xrandr-capplet.c:417
 msgid "Right"
 msgstr "Oikea"
 
-#: ../capplets/display/xrandr-capplet.c:356
+#: ../capplets/display/xrandr-capplet.c:418
 msgid "Upside Down"
 msgstr "Ylösalaisin"
 
-#: ../capplets/display/xrandr-capplet.c:430
-#: ../capplets/display/xrandr-capplet.c:438
-#: ../capplets/display/xrandr-capplet.c:439
+#: ../capplets/display/xrandr-capplet.c:492
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:501
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:480
+#: ../capplets/display/xrandr-capplet.c:542
 #, c-format
 msgid "<b>Monitor: %s</b>"
 msgstr "<b>Näyttö: %s</b>"
 
-#: ../capplets/display/xrandr-capplet.c:590
-#: ../capplets/display/xrandr-capplet.c:600
-#: ../capplets/display/xrandr-capplet.c:608
+#: ../capplets/display/xrandr-capplet.c:652
+#: ../capplets/display/xrandr-capplet.c:662
+#: ../capplets/display/xrandr-capplet.c:670
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2215,23 +2215,23 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1461
+#: ../capplets/display/xrandr-capplet.c:1523
 msgid "Mirror Screens"
 msgstr "Peilaa näytöt"
 
-#: ../capplets/display/xrandr-capplet.c:1895
+#: ../capplets/display/xrandr-capplet.c:1957
 msgid "Could not save the monitor configuration"
 msgstr "Näyttöasetuksia ei voitu tallentaa"
 
-#: ../capplets/display/xrandr-capplet.c:1906
+#: ../capplets/display/xrandr-capplet.c:1968
 msgid "Could not get session bus while applying display configuration"
 msgstr "Istuntoväylään ei päästy käsiksi toteutettaessa näyttöasetuksia"
 
-#: ../capplets/display/xrandr-capplet.c:1948
+#: ../capplets/display/xrandr-capplet.c:2010
 msgid "Could not detect displays"
 msgstr "Näyttöjä ei havaittu"
 
-#: ../capplets/display/xrandr-capplet.c:2154
+#: ../capplets/display/xrandr-capplet.c:2216
 msgid "Could not get screen information"
 msgstr "Näytön tietoja ei saatu"
 
