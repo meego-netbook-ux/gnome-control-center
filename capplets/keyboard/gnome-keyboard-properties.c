@@ -157,6 +157,7 @@ setup_dialog (GladeXML * dialog, GConfChangeSet * changeset)
 					 "conv-from-widget-cb",
 					 blink_from_widget, NULL);
 
+#if !HAVE_MOBLIN
 	/* Ergonomics */
 	monitor = g_find_program_in_path ("gnome-typing-monitor");
 	if (monitor != NULL) {
@@ -185,6 +186,11 @@ setup_dialog (GladeXML * dialog, GConfChangeSet * changeset)
 		gint tb_page = gtk_notebook_page_num (nb, WID ("break_enabled_toggle"));
 		gtk_notebook_remove_page (nb, tb_page);
 	}
+#else
+    GtkNotebook *nb = GTK_NOTEBOOK (WID ("keyboard_notebook"));
+    gint tb_page = gtk_notebook_page_num (nb, WID ("break_enabled_toggle"));
+    gtk_notebook_remove_page (nb, tb_page);
+#endif
 
 	g_signal_connect (WID ("keyboard_dialog"), "response",
 			  (GCallback) dialog_response, changeset);
@@ -217,6 +223,7 @@ main (int argc, char **argv)
 		 N_
 		 ("Just apply settings and quit (compatibility only; now handled by daemon)"),
 		 NULL},
+#if !HAVE_MOBLIN
 		{"typing-break", 0, 0, G_OPTION_ARG_NONE,
 		 &switch_to_typing_break_page,
 		 N_
@@ -227,6 +234,7 @@ main (int argc, char **argv)
 		 N_
 		 ("Start the page with the accessibility settings showing"),
 		 NULL},
+#endif
 		{NULL}
 	};
 
@@ -250,6 +258,7 @@ main (int argc, char **argv)
 	changeset = NULL;
 	dialog = create_dialog ();
 	setup_dialog (dialog, changeset);
+#if !HAVE_MOBLIN
 	if (switch_to_typing_break_page) {
 		gtk_notebook_set_current_page (GTK_NOTEBOOK
 					       (WID
@@ -261,8 +270,8 @@ main (int argc, char **argv)
 					       (WID
 						("keyboard_notebook")),
 					       2);
-
 	}
+#endif
 
 	capplet_set_icon (WID ("keyboard_dialog"),
 			  "preferences-desktop-keyboard");
