@@ -34,6 +34,12 @@
 
 #include "gnome-keyboard-properties-xkb.h"
 
+#if HAVE_MOBLIN
+#define GLADE_FILE  "/gnome-keyboard-properties-moblin.glade"
+#else
+#define GLADE_FILE  "/gnome-keyboard-properties.glade"
+#endif
+
 static gchar *current_model_name = NULL;
 static gchar *current_vendor_name = NULL;
 
@@ -313,8 +319,7 @@ void
 choose_model (GladeXML * dialog)
 {
 	GladeXML *chooser_dialog =
-	    glade_xml_new (GNOMECC_GLADE_DIR
-			   "/gnome-keyboard-properties.glade",
+	    glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE,
 			   "xkb_model_chooser", NULL);
 	GtkWidget *chooser = CWID ("xkb_model_chooser");
 	gtk_window_set_transient_for (GTK_WINDOW (chooser),

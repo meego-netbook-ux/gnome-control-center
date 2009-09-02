@@ -39,6 +39,12 @@
 #define DEFAULT_GROUP_SWITCH "grp:alts_toggle"
 #define DEFAULT_VARIANT_ID "__default__"
 
+#if HAVE_MOBLIN
+#define GLADE_FILE  "/gnome-keyboard-properties-moblin.glade"
+#else
+#define GLADE_FILE  "/gnome-keyboard-properties.glade"
+#endif
+
 enum {
 	COMBO_BOX_MODEL_COL_DESCRIPTION,
 	COMBO_BOX_MODEL_COL_XKB_ID,
@@ -425,8 +431,7 @@ void
 xkb_layout_choose (GladeXML * dialog)
 {
 	GladeXML *chooser_dialog =
-	    glade_xml_new (GNOMECC_GLADE_DIR
-			   "/gnome-keyboard-properties.glade",
+	    glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE,
 			   "xkb_layout_chooser", NULL);
 	GtkWidget *chooser = CWID ("xkb_layout_chooser");
 	GtkWidget *lang_chooser = CWID ("xkb_languages_available");

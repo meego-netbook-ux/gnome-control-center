@@ -35,6 +35,12 @@
 
 #include "gnome-keyboard-properties-xkb.h"
 
+#if HAVE_MOBLIN
+#define GLADE_FILE  "/gnome-keyboard-properties-moblin.glade"
+#else
+#define GLADE_FILE  "/gnome-keyboard-properties.glade"
+#endif
+
 static GladeXML *chooser_dialog = NULL;
 static const char *current1st_level_id = NULL;
 static GSList *option_checks_list = NULL;
@@ -444,8 +450,7 @@ xkb_options_popup_dialog (GladeXML * dialog)
 	GtkWidget *chooser;
 
 	chooser_dialog =
-	    glade_xml_new (GNOMECC_GLADE_DIR
-			   "/gnome-keyboard-properties.glade",
+	    glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE,
 			   "xkb_options_dialog", NULL);
 
 	chooser = CWID ("xkb_options_dialog");

@@ -32,6 +32,12 @@
 #define CONFIG_ROOT "/desktop/gnome/accessibility/keyboard"
 #define NWID(s) glade_xml_get_widget (notifications_dialog, s)
 
+#if HAVE_MOBLIN
+#define GLADE_FILE  "/gnome-keyboard-properties-moblin.glade"
+#else
+#define GLADE_FILE  "/gnome-keyboard-properties.glade"
+#endif
+
 static GladeXML *notifications_dialog = NULL;
 
 static void
@@ -128,8 +134,7 @@ notifications_button_clicked_cb (GtkWidget *button, GladeXML *dialog)
 {
 	GtkWidget *w;
 
-	notifications_dialog = glade_xml_new (GNOMECC_GLADE_DIR
-					      "/gnome-keyboard-properties.glade",
+	notifications_dialog = glade_xml_new (GNOMECC_GLADE_DIR GLADE_FILE,
 					      "a11y_notifications_dialog", NULL);
 
 	stickykeys_enable_toggled_cb (WID ("stickykeys_enable"), dialog);
