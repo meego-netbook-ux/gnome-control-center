@@ -1,31 +1,25 @@
-# gnome-control-center Korean message translation
-# This file is distributed under the same license as the gnome-control-center package.
-# Young-Ho Cha <ganadist@chollian.net>, 2002, 2006.
-# Changwoo Ryu <cwryu@debian.org>, 2002-2006, 2007, 2008, 2009.
-#
-#
-# 새로 번역하신 분은 아래 "translator-credits"에 추가하세요.
-#
 msgid ""
 msgstr ""
-"Project-Id-Version: gnome-control-center\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-18 07:40+0900\n"
-"PO-Revision-Date: 2009-02-18 07:46+0900\n"
-"Last-Translator: Young-Ho Cha <ganadist@gmail.com>\n"
-"Language-Team: GNOME Korea <gnome-kr-hackers@lists.kldp.net>\n"
+"POT-Creation-Date: 2009-07-29 09:18+0000\n"
+"PO-Revision-Date: \n"
+"Last-Translator: GLSKOR_SunKim <sunx.kim@intel.com>\n"
+"Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n!=1;\n"
+"X-Poedit-Language: Korean\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
-msgstr "그림/레이블 가장자리"
+msgstr "이미지/레이블 가장자리"
 
 #: ../capplets/about-me/eel-alert-dialog.c:115
 msgid "Width of border around the label and image in the alert dialog"
-msgstr "경고 대화상자에서 레이블과 그림의 가장자리 두께"
+msgstr "경고 대화상자에서 레이블과 이미지의 가장자리 두께"
 
 #: ../capplets/about-me/eel-alert-dialog.c:124
 msgid "Alert Type"
@@ -184,25 +178,25 @@ msgstr "손가락이 중앙에 놓여 있지 않습니다. 다시 손가락을 �
 msgid "Remove your finger, and try swiping your finger again"
 msgstr "손가락을 떼고, 다시 손가락을 긁으십시오"
 
-#: ../capplets/about-me/gnome-about-me.c:776
+#: ../capplets/about-me/gnome-about-me.c:796
 msgid "Select Image"
-msgstr "그림 선택"
+msgstr "이미지 선택"
 
-#: ../capplets/about-me/gnome-about-me.c:778
+#: ../capplets/about-me/gnome-about-me.c:798
 msgid "No Image"
-msgstr "그림 없음"
+msgstr "이미지 없음"
 
-#: ../capplets/about-me/gnome-about-me.c:806
-#: ../capplets/appearance/appearance-desktop.c:660
+#: ../capplets/about-me/gnome-about-me.c:826
+#: ../capplets/appearance/appearance-desktop.c:698
 msgid "Images"
-msgstr "그림"
+msgstr "이미지 "
 
-#: ../capplets/about-me/gnome-about-me.c:810
-#: ../capplets/appearance/theme-installer.c:700
+#: ../capplets/about-me/gnome-about-me.c:830
+#: ../capplets/appearance/theme-installer.c:695
 msgid "All Files"
 msgstr "모든 파일"
 
-#: ../capplets/about-me/gnome-about-me.c:956
+#: ../capplets/about-me/gnome-about-me.c:976
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
@@ -210,32 +204,35 @@ msgstr ""
 "주소록 정보를 얻는데 오류가 생겼습니다\n"
 "Evolution 데이터 서버가 프로토콜을 처리할 수 없습니다"
 
-#: ../capplets/about-me/gnome-about-me.c:977
+#: ../capplets/about-me/gnome-about-me.c:997
 msgid "Unable to open address book"
 msgstr "주소록을 열 수 없습니다"
 
-#: ../capplets/about-me/gnome-about-me.c:991
+#: ../capplets/about-me/gnome-about-me.c:1011
 msgid "Unknown login ID, the user database might be corrupted"
 msgstr "알 수 없는 로그인 ID, 사용자 데이터베이스가 손상되었습니다"
 
-#: ../capplets/about-me/gnome-about-me.c:1021
-#: ../capplets/about-me/gnome-about-me.c:1023
+#: ../capplets/about-me/gnome-about-me.c:1041
+#: ../capplets/about-me/gnome-about-me.c:1043
 #, c-format
 msgid "About %s"
 msgstr "%s의 정보"
 
-#: ../capplets/about-me/gnome-about-me.c:1041
+#: ../capplets/about-me/gnome-about-me.c:1061
 #: ../capplets/about-me/gnome-about-me.glade.h:26
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:24
 msgid "Enable _Fingerprint Login..."
 msgstr "지문 로그인 사용(_F)..."
 
-#: ../capplets/about-me/gnome-about-me.c:1044
+#: ../capplets/about-me/gnome-about-me.c:1064
 #: ../capplets/about-me/gnome-about-me.glade.h:25
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:23
 msgid "Disable _Fingerprint Login..."
 msgstr "지문 로그인 사용하지 않기(_F)..."
 
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
 #: ../capplets/about-me/gnome-about-me.glade.h:12
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:11
 msgid "About Me"
 msgstr "내 정보"
 
@@ -244,8 +241,7 @@ msgid "Set your personal information"
 msgstr "개인 정보를 설정합니다"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
-msgid ""
-"You are not allowed to access the device. Contact your system administrator."
+msgid "You are not allowed to access the device. Contact your system administrator."
 msgstr "이 장치를 사용할 권한이 없습니다. 시스템 관리자에게 문의하십시오."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:101
@@ -265,9 +261,7 @@ msgid "_Delete Fingerprints"
 msgstr "지문 삭제(_D)"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:230
-msgid ""
-"Do you want to delete your registered fingerprints so fingerprint login is "
-"disabled?"
+msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
 msgstr "등록한 지문을 삭제하고 지문 로그인을 사용하지 않습니까?"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:343
@@ -314,9 +308,7 @@ msgstr "지문 선택"
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:555
 #, c-format
-msgid ""
-"To enable fingerprint login, you need to save one of your fingerprints, "
-"using the '%s' device."
+msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
 msgstr "지문 로그인을 사용하려면, '%s' 장치를 이용해 지문을 입력해야 합니다."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:568
@@ -360,14 +352,11 @@ msgid "Right index finger"
 msgstr "오른쪽 검지"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:12
-msgid ""
-"Your fingerprint was successfully saved. You should now be able to log in "
-"using your fingerprint reader."
-msgstr ""
-"지문을 성공적으로 저장했습니다. 이제 지문 인식 장치를 이용해 로그인할 수 있습"
-"니다."
+msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
+msgstr "지문을 성공적으로 저장했습니다. 이제 지문 인식 장치를 이용해 로그인할 수 있습니다."
 
 #: ../capplets/about-me/gnome-about-me.glade.h:1
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:1
 msgid "<b>Email</b>"
 msgstr "<b>전자 메일</b>"
 
@@ -376,18 +365,22 @@ msgid "<b>Home</b>"
 msgstr "<b>집</b>"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:3
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:3
 msgid "<b>Instant Messaging</b>"
 msgstr "<b>인스턴스 메시지</b>"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:4
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:4
 msgid "<b>Job</b>"
 msgstr "<b>직장</b>"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:5
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:5
 msgid "<b>Telephone</b>"
 msgstr "<b>전화</b>"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:6
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:6
 msgid "<b>Web</b>"
 msgstr "<b>웹</b>"
 
@@ -396,14 +389,17 @@ msgid "<b>Work</b>"
 msgstr "<b>직장</b>"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:8
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:8
 msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
 msgstr "<span size=\"larger\" weight=\"bold\">암호 바꾸기</span>"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:9
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:9
 msgid "A_IM/iChat:"
 msgstr "A_IM/iChat:"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:10
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:10
 msgid "A_ddress:"
 msgstr "주소(_D):"
 
@@ -416,54 +412,67 @@ msgid "Address"
 msgstr "주소"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:14
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:12
 msgid "C_ity:"
 msgstr "도시(_I):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:15
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:13
 msgid "C_ompany:"
 msgstr "회사(_O):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:16
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:14
 msgid "Cale_ndar:"
-msgstr "달력(_N):"
+msgstr "캘린더(_N):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:17
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:15
 msgid "Change Passwo_rd..."
 msgstr "암호 바꾸기(_R)..."
 
 #: ../capplets/about-me/gnome-about-me.glade.h:18
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:16
 msgid "Change pa_ssword"
 msgstr "암호 바꾸기(_S)"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:19
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:17
 msgid "Change password"
 msgstr "암호 바꾸기"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:20
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:18
 msgid "Ci_ty:"
 msgstr "도시(_T):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:21
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:19
 msgid "Co_untry:"
 msgstr "국가(_U):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:22
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:20
 msgid "Contact"
 msgstr "연락처"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:23
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:21
 msgid "Cou_ntry:"
 msgstr "국가(_N):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:24
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:22
 msgid "Current _password:"
 msgstr "현재 암호(_P):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:27
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:25
 msgid "Full Name"
 msgstr "전체 이름"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:28
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:26
 msgid "Hom_e:"
 msgstr "집(_E):"
 
@@ -472,14 +481,17 @@ msgid "IC_Q:"
 msgstr "IC_Q:"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:30
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:27
 msgid "M_SN:"
 msgstr "M_SN:"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:31
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:28
 msgid "P.O. _box:"
 msgstr "사서함(_B):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:32
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:29
 msgid "P._O. box:"
 msgstr "사서함(_O):"
 
@@ -488,31 +500,32 @@ msgid "Personal Info"
 msgstr "개인 정보"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:34
-#: ../capplets/about-me/gnome-about-me-password.c:938
-msgid ""
-"Please type your password again in the <b>Retype new password</b> field."
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:31
+#: ../capplets/about-me/gnome-about-me-password.c:944
+msgid "Please type your password again in the <b>Retype new password</b> field."
 msgstr "<b>암호 다시 입력</b>에서 암호를 다시 입력하십시오."
 
 #: ../capplets/about-me/gnome-about-me.glade.h:35
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:32
 msgid "Select your photo"
 msgstr "사진을 선택하십시오"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:36
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:33
 msgid "State/Pro_vince:"
 msgstr "시/도(_V):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:37
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:34
 msgid ""
-"To change your password, enter your current password in the field below and "
-"click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for "
-"verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
 msgstr ""
 "암호를 바꾸려면, 현재 암호를 아래 칸에 입력하고 <b>인증</b>을 누르십시오.\n"
-"인증한 후에, 새 암호를 입력하시고 확인을 위해 다시 입력한 다음 <b>암호 바꾸기"
-"</b>를 누르십시오."
+"인증한 후에, 새 암호를 입력하시고 확인을 위해 다시 입력한 다음 <b>암호 바꾸기</b>를 누르십시오."
 
 #: ../capplets/about-me/gnome-about-me.glade.h:39
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:36
 msgid "User name:"
 msgstr "사용자 이름:"
 
@@ -521,22 +534,27 @@ msgid "Web _log:"
 msgstr "웹로그(_L):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:41
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:37
 msgid "Wor_k:"
 msgstr "직장(_K):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:42
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:39
 msgid "Work _fax:"
 msgstr "직장 팩스(_F):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:43
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:40
 msgid "Zip/_Postal code:"
 msgstr "우편번호(_P):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:44
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:41
 msgid "_Address:"
 msgstr "주소(_A):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:45
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:42
 msgid "_Authenticate"
 msgstr "인증(_A)"
 
@@ -553,10 +571,12 @@ msgid "_Home page:"
 msgstr "홈페이지(_H):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:49
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:43
 msgid "_Home:"
 msgstr "집(_H):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:50
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:44
 msgid "_Jabber:"
 msgstr "_Jabber:"
 
@@ -565,10 +585,12 @@ msgid "_Manager:"
 msgstr "관리자(_M):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:52
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:46
 msgid "_Mobile:"
 msgstr "휴대 전화(_M):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:53
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:47
 msgid "_New password:"
 msgstr "새 암호(_N):"
 
@@ -577,10 +599,12 @@ msgid "_Profession:"
 msgstr "업무(_P):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:55
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:48
 msgid "_Retype new password:"
 msgstr "암호 다시 입력(_R):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:56
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:49
 msgid "_State/Province:"
 msgstr "시/도(_S):"
 
@@ -589,32 +613,60 @@ msgid "_Title:"
 msgstr "직위(_T):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:58
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:51
 msgid "_Work:"
 msgstr "직장(_W):"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:59
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:52
 msgid "_Yahoo:"
 msgstr "_Yahoo:"
 
 #: ../capplets/about-me/gnome-about-me.glade.h:60
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:53
 msgid "_Zip/Postal code:"
 msgstr "우편번호(_Z):"
 
-#: ../capplets/about-me/gnome-about-me-password.c:162
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:2
+#, fuzzy
+msgid "<b>Home address</b>"
+msgstr "<b>집 주소</b>"
+
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:7
+msgid "<b>Work address</b>"
+msgstr "<b>직장 주소</b>"
+
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:30
+msgid "Personal"
+msgstr "개인 "
+
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:38
+msgid "Work"
+msgstr "직장"
+
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:45
+msgid "_Job title:"
+msgstr "직업명(_J):"
+
+#: ../capplets/about-me/gnome-about-me-moblin.glade.h:50
+msgid "_Website:"
+msgstr "웹싸이트(_W):"
+
+#: ../capplets/about-me/gnome-about-me-password.c:168
 msgid "Child exited unexpectedly"
 msgstr "하위 프로세스가 갑자기 끝났습니다"
 
-#: ../capplets/about-me/gnome-about-me-password.c:297
+#: ../capplets/about-me/gnome-about-me-password.c:303
 #, c-format
 msgid "Could not shutdown backend_stdin IO channel: %s"
 msgstr "backend_stdin IO 채널을 끝내지 못했습니다: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:310
+#: ../capplets/about-me/gnome-about-me-password.c:316
 #, c-format
 msgid "Could not shutdown backend_stdout IO channel: %s"
 msgstr "backend_stdout IO 채널을 끝내지 못했습니다: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:409
+#: ../capplets/about-me/gnome-about-me-password.c:415
 msgid "Authenticated!"
 msgstr "인증했습니다!"
 
@@ -624,76 +676,74 @@ msgstr "인증했습니다!"
 #.
 #. Update status message and auth state
 #. Authentication failure
-#: ../capplets/about-me/gnome-about-me-password.c:475
-#: ../capplets/about-me/gnome-about-me-password.c:551
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
+#: ../capplets/about-me/gnome-about-me-password.c:481
+#: ../capplets/about-me/gnome-about-me-password.c:557
+msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
 msgstr "최초에 인증한 뒤에 암호를 바꿨습니다. 다시 인증하십시오."
 
-#: ../capplets/about-me/gnome-about-me-password.c:477
+#: ../capplets/about-me/gnome-about-me-password.c:483
 msgid "That password was incorrect."
 msgstr "암호가 올바르지 않습니다."
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:530
 msgid "Your password has been changed."
 msgstr "암호를 바꿨습니다."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:540
 #, c-format
 msgid "System error: %s."
 msgstr "시스템 오류: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:543
 msgid "The password is too short."
 msgstr "암호가 너무 짧습니다."
 
-#: ../capplets/about-me/gnome-about-me-password.c:540
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The password is too simple."
 msgstr "암호가 너무 간단합니다."
 
-#: ../capplets/about-me/gnome-about-me-password.c:543
+#: ../capplets/about-me/gnome-about-me-password.c:549
 msgid "The old and new passwords are too similar."
 msgstr "예전 암호와 새 암호가 너무 비슷합니다."
 
-#: ../capplets/about-me/gnome-about-me-password.c:545
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The new password must contain numeric or special character(s)."
 msgstr "숫자나 특수 문자가 들어있어야 합니다."
 
-#: ../capplets/about-me/gnome-about-me-password.c:548
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid "The old and new passwords are the same."
 msgstr "예전 암호와 새 암호가 같습니다."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:826
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "%s(을)를 실행할 수 없습니다: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:830
 msgid "Unable to launch backend"
 msgstr "백엔드를 실행할 수 없습니다"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:831
 msgid "A system error has occurred"
 msgstr "시스템 오류가 발생했습니다"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:851
 msgid "Checking password..."
 msgstr "암호를 검사하는 중입니다..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:938
 msgid "Click <b>Change password</b> to change your password."
 msgstr "암호를 바꾸려면 <b>암호 바꾸기</b>를 누르십시오."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:941
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "<b>새 암호</b>에서 암호를 입력하십시오."
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:947
 msgid "The two passwords are not equal."
 msgstr "두 암호가 같지 않습니다."
 
@@ -714,11 +764,8 @@ msgid "Assistive Technologies Preferences"
 msgstr "보조 기술 기본 설정"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:5
-msgid ""
-"Changes to enable assistive technologies will not take effect until your "
-"next log in."
-msgstr ""
-"보조 기술 사용 여부를 바꿔도 다음 번 로그인하기 전까지 아무 효과가 없습니다."
+msgid "Changes to enable assistive technologies will not take effect until your next log in."
+msgstr "보조 기술 사용 여부를 바꿔도 다음 번 로그인하기 전까지 아무 효과가 없습니다."
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:6
 msgid "Close and _Log Out"
@@ -764,80 +811,66 @@ msgstr "보조 기술"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "로그인할 때 어느 접근성 기능을 사용할 지 선택"
 
-#: ../capplets/appearance/appearance-desktop.c:628
+#: ../capplets/appearance/appearance-desktop.c:666
 msgid "Add Wallpaper"
 msgstr "바탕 무늬 추가"
 
-#: ../capplets/appearance/appearance-desktop.c:664
+#: ../capplets/appearance/appearance-desktop.c:702
 msgid "All files"
 msgstr "모든 파일"
 
-#: ../capplets/appearance/appearance-font.c:495
+#: ../capplets/appearance/appearance-font.c:494
 msgid "Font may be too large"
 msgstr "글꼴이 너무 큽니다"
 
-#: ../capplets/appearance/appearance-font.c:499
+#: ../capplets/appearance/appearance-font.c:498
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a size "
-"smaller than %d."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a size "
-"smaller than %d."
-msgstr[0] ""
-"선택한 글꼴이 %d포인트로 큽니다. 이러면 컴퓨터에서 효율적으로 사용하기 어렵습"
-"니다.  %d포인트보다 작은 크기를 선택하시길 권합니다."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
+msgstr[0] "선택한 글꼴이 %d포인트로 큽니다. 이러면 컴퓨터에서 효율적으로 사용하기 어렵습니다.  %d포인트보다 작은 크기를 선택하시길 권합니다."
+msgstr[1] "선택한 글꼴이 %d포인트로 큽니다. 이러면 컴퓨터에서 효율적으로 사용하기 어렵습니다.  %d포인트보다 작은 크기를 선택하시길 권합니다."
 
-#: ../capplets/appearance/appearance-font.c:512
+#: ../capplets/appearance/appearance-font.c:511
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a smaller "
-"sized font."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a smaller "
-"sized font."
-msgstr[0] ""
-"선택한 글꼴이 %d포인트로 큽니다. 이러면 컴퓨터에서 효율적으로 사용하기 어렵습"
-"니다.  더 작은 크기를 선택하시길 권합니다."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
+msgstr[0] "선택한 글꼴이 %d포인트로 큽니다. 이러면 컴퓨터에서 효율적으로 사용하기 어렵습니다.  더 작은 크기를 선택하시길 권합니다."
+msgstr[1] "선택한 글꼴이 %d포인트로 큽니다. 이러면 컴퓨터에서 효율적으로 사용하기 어렵습니다.  더 작은 크기를 선택하시길 권합니다."
 
-#: ../capplets/appearance/appearance-font.c:535
+#: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
 msgstr "이전 글꼴 사용"
 
-#: ../capplets/appearance/appearance-font.c:537
+#: ../capplets/appearance/appearance-font.c:536
 msgid "Use selected font"
 msgstr "선택한 글꼴 사용"
 
-#: ../capplets/appearance/appearance-main.c:124
+#: ../capplets/appearance/appearance-main.c:134
 msgid "Specify the filename of a theme to install"
 msgstr "설치할 테마 이름을 지정하십시오"
 
-#: ../capplets/appearance/appearance-main.c:125
+#: ../capplets/appearance/appearance-main.c:135
 msgid "filename"
 msgstr "파일 이름"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:132
+#: ../capplets/appearance/appearance-main.c:142
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "보여줄 페이지 이름을 지정합니다 (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:133
+#: ../capplets/appearance/appearance-main.c:143
 #: ../capplets/default-applications/gnome-da-capplet.c:897
-#: ../capplets/mouse/gnome-mouse-properties.c:442
+#: ../capplets/mouse/gnome-mouse-properties.c:463
 msgid "page"
 msgstr "탭이름"
 
-#: ../capplets/appearance/appearance-main.c:140
+#: ../capplets/appearance/appearance-main.c:150
 msgid "[WALLPAPER...]"
 msgstr "[바탕그림...]"
 
 #: ../capplets/appearance/appearance-style.c:173
-#: ../capplets/common/gnome-theme-info.c:445
-#: ../capplets/common/gnome-theme-info.c:637
+#: ../capplets/common/gnome-theme-info.c:446
+#: ../capplets/common/gnome-theme-info.c:638
 msgid "Default Pointer"
 msgstr "기본 포인터"
 
@@ -847,14 +880,10 @@ msgid "Install"
 msgstr "설치"
 
 #: ../capplets/appearance/appearance-style.c:255
-#: ../capplets/common/gnome-theme-info.c:1647
+#: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme engine "
-"'%s' is not installed."
-msgstr ""
-"필요한 '%s' GTK+ 테마 엔진을 설치하지 않았으므로 이 테마는 의도한 대로 보이"
-"지 않을 것입니다."
+msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
+msgstr "필요한 '%s' GTK+ 테마 엔진을 설치하지 않았으므로 이 테마는 의도한 대로 보이지 않을 것입니다."
 
 #: ../capplets/appearance/appearance-themes.c:675
 msgid "Apply Background"
@@ -869,30 +898,20 @@ msgid "Revert Font"
 msgstr "글꼴 되돌리기"
 
 #: ../capplets/appearance/appearance-themes.c:713
-msgid ""
-"The current theme suggests a background and a font. Also, the last applied "
-"font suggestion can be reverted."
-msgstr ""
-"이 테마는 배경과 글꼴이 있습니다. 또 마지막에 적용한 글꼴은 되돌릴 수 있습니"
-"다."
+msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
+msgstr "이 테마는 배경과 글꼴이 있습니다. 또 마지막에 적용한 글꼴은 되돌릴 수 있습니다."
 
 #: ../capplets/appearance/appearance-themes.c:715
-msgid ""
-"The current theme suggests a background. Also, the last applied font "
-"suggestion can be reverted."
-msgstr ""
-"이 테마는 배경이 있습니다. 또 마지막에 적용한 글꼴은 되돌릴 수 있습니다."
+msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
+msgstr "이 테마는 배경이 있습니다. 또 마지막에 적용한 글꼴은 되돌릴 수 있습니다."
 
 #: ../capplets/appearance/appearance-themes.c:717
 msgid "The current theme suggests a background and a font."
 msgstr "이 테마는 배경과 글꼴이 있습니다."
 
 #: ../capplets/appearance/appearance-themes.c:719
-msgid ""
-"The current theme suggests a font. Also, the last applied font suggestion "
-"can be reverted."
-msgstr ""
-"이 테마는 글꼴이 있습니다. 또 마지막에 적용한 글꼴은 되돌릴 수 있습니다."
+msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
+msgstr "이 테마는 글꼴이 있습니다. 또 마지막에 적용한 글꼴은 되돌릴 수 있습니다."
 
 #: ../capplets/appearance/appearance-themes.c:721
 msgid "The current theme suggests a background."
@@ -917,6 +936,7 @@ msgstr "<b>바탕 화면 색(_O)</b> "
 
 #. font hinting
 #: ../capplets/appearance/data/appearance.glade.h:3
+#: ../capplets/appearance/data/appearance-moblin.glade.h:2
 msgid "<b>Hinting</b>"
 msgstr "<b>힌팅</b>"
 
@@ -929,34 +949,42 @@ msgid "<b>Preview</b>"
 msgstr "<b>미리 보기</b>"
 
 #: ../capplets/appearance/data/appearance.glade.h:6
+#: ../capplets/appearance/data/appearance-moblin.glade.h:3
 msgid "<b>Rendering</b>"
 msgstr "<b>글꼴 그리기</b>"
 
 #: ../capplets/appearance/data/appearance.glade.h:7
+#: ../capplets/appearance/data/appearance-moblin.glade.h:4
 msgid "<b>Smoothing</b>"
 msgstr "<b>부드럽게 하기</b>:"
 
 #: ../capplets/appearance/data/appearance.glade.h:8
+#: ../capplets/appearance/data/appearance-moblin.glade.h:5
 msgid "<b>Subpixel Order</b>"
 msgstr "<b>내부 점 순서</b>:"
 
 #: ../capplets/appearance/data/appearance.glade.h:9
+#: ../capplets/appearance/data/appearance-moblin.glade.h:6
 msgid "<b>_Desktop Background</b>"
 msgstr "<b>바탕 화면 배경(_D)</b>"
 
 #: ../capplets/appearance/data/appearance.glade.h:10
+#: ../capplets/appearance/data/appearance-moblin.glade.h:7
 msgid "Appearance Preferences"
 msgstr "모양새 기본 설정"
 
 #: ../capplets/appearance/data/appearance.glade.h:11
+#: ../capplets/appearance/data/appearance-moblin.glade.h:8
 msgid "Background"
 msgstr "배경"
 
 #: ../capplets/appearance/data/appearance.glade.h:12
+#: ../capplets/appearance/data/appearance-moblin.glade.h:9
 msgid "Best _shapes"
 msgstr "모양 위주(_S)"
 
 #: ../capplets/appearance/data/appearance.glade.h:13
+#: ../capplets/appearance/data/appearance-moblin.glade.h:10
 msgid "Best co_ntrast"
 msgstr "밝기 위주(_N)"
 
@@ -969,26 +997,32 @@ msgid "C_ut"
 msgstr "잘라내기(_U)"
 
 #: ../capplets/appearance/data/appearance.glade.h:16
+#: ../capplets/appearance/data/appearance-moblin.glade.h:11
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr "커서 테마는 다음 로그인 할 때 적용됩니다."
 
 #: ../capplets/appearance/data/appearance.glade.h:17
+#: ../capplets/appearance/data/appearance-moblin.glade.h:12
 msgid "Colors"
 msgstr "색상"
 
 #: ../capplets/appearance/data/appearance.glade.h:18
+#: ../capplets/appearance/data/appearance-moblin.glade.h:13
 msgid "Controls"
 msgstr "컨트롤"
 
 #: ../capplets/appearance/data/appearance.glade.h:19
+#: ../capplets/appearance/data/appearance-moblin.glade.h:14
 msgid "Customize Theme"
 msgstr "사용자 테마"
 
 #: ../capplets/appearance/data/appearance.glade.h:20
+#: ../capplets/appearance/data/appearance-moblin.glade.h:15
 msgid "D_etails..."
 msgstr "자세히(_E)..."
 
 #: ../capplets/appearance/data/appearance.glade.h:21
+#: ../capplets/appearance/data/appearance-moblin.glade.h:16
 msgid "Des_ktop font:"
 msgstr "바탕 화면 글꼴(_K):"
 
@@ -997,18 +1031,22 @@ msgid "Edit"
 msgstr "편집"
 
 #: ../capplets/appearance/data/appearance.glade.h:23
+#: ../capplets/appearance/data/appearance-moblin.glade.h:17
 msgid "Font Rendering Details"
 msgstr "글꼴 그리기 손질하기"
 
 #: ../capplets/appearance/data/appearance.glade.h:24
+#: ../capplets/appearance/data/appearance-moblin.glade.h:18
 msgid "Fonts"
 msgstr "글꼴"
 
 #: ../capplets/appearance/data/appearance.glade.h:25
+#: ../capplets/appearance/data/appearance-moblin.glade.h:19
 msgid "Gra_yscale"
 msgstr "그레이 스케일(_Y)"
 
 #: ../capplets/appearance/data/appearance.glade.h:26
+#: ../capplets/appearance/data/appearance-moblin.glade.h:20
 msgid "Icons"
 msgstr "아이콘"
 
@@ -1017,10 +1055,12 @@ msgid "Interface"
 msgstr "모양새"
 
 #: ../capplets/appearance/data/appearance.glade.h:28
+#: ../capplets/appearance/data/appearance-moblin.glade.h:21
 msgid "Large"
 msgstr "크게"
 
 #: ../capplets/appearance/data/appearance.glade.h:29
+#: ../capplets/appearance/data/appearance-moblin.glade.h:22
 msgid "N_one"
 msgstr "없음(_O)"
 
@@ -1037,10 +1077,12 @@ msgid "Open a dialog to specify the color"
 msgstr "지정한 색으로 대화상자 열기"
 
 #: ../capplets/appearance/data/appearance.glade.h:33
+#: ../capplets/appearance/data/appearance-moblin.glade.h:23
 msgid "Pointer"
 msgstr "포인터"
 
 #: ../capplets/appearance/data/appearance.glade.h:34
+#: ../capplets/appearance/data/appearance-moblin.glade.h:24
 msgid "R_esolution:"
 msgstr "해상도(_E):"
 
@@ -1049,6 +1091,7 @@ msgid "Save File"
 msgstr "파일 저장"
 
 #: ../capplets/appearance/data/appearance.glade.h:36
+#: ../capplets/appearance/data/appearance-moblin.glade.h:25
 msgid "Save Theme As..."
 msgstr "다른 이름으로 테마 저장..."
 
@@ -1057,14 +1100,16 @@ msgid "Save _As..."
 msgstr "다른 이름으로 저장(_A)..."
 
 #: ../capplets/appearance/data/appearance.glade.h:38
+#: ../capplets/appearance/data/appearance-moblin.glade.h:26
 msgid "Save _background image"
-msgstr "배경 그림 저장(_B)"
+msgstr "배경 이미지 저장(_B)"
 
 #: ../capplets/appearance/data/appearance.glade.h:39
 msgid "Show _icons in menus"
 msgstr "메뉴에 아이콘 보이기(_I)"
 
 #: ../capplets/appearance/data/appearance.glade.h:40
+#: ../capplets/appearance/data/appearance-moblin.glade.h:27
 msgid "Small"
 msgstr "작게"
 
@@ -1079,14 +1124,17 @@ msgstr ""
 "세로 방향 그라데이션"
 
 #: ../capplets/appearance/data/appearance.glade.h:44
+#: ../capplets/appearance/data/appearance-moblin.glade.h:28
 msgid "Sub_pixel (LCDs)"
 msgstr "LCD용(_P)"
 
 #: ../capplets/appearance/data/appearance.glade.h:45
+#: ../capplets/appearance/data/appearance-moblin.glade.h:29
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "LCD용(_P)"
 
 #: ../capplets/appearance/data/appearance.glade.h:46
+#: ../capplets/appearance/data/appearance-moblin.glade.h:30
 msgid "Text"
 msgstr "텍스트"
 
@@ -1103,6 +1151,7 @@ msgstr ""
 "텍스트만"
 
 #: ../capplets/appearance/data/appearance.glade.h:51
+#: ../capplets/appearance/data/appearance-moblin.glade.h:31
 msgid "The current controls theme does not support color schemes."
 msgstr "현재 컨트롤 테마는 색상 변경 지원을 하지 않습니다."
 
@@ -1130,24 +1179,30 @@ msgstr "도구모음 단추 레이블(_B):"
 
 #. vertical hinting, pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.glade.h:60
+#: ../capplets/appearance/data/appearance-moblin.glade.h:33
 msgid "VB_GR"
 msgstr "VB_GR"
 
 #: ../capplets/appearance/data/appearance.glade.h:61
+#: ../capplets/appearance/data/appearance-moblin.glade.h:34
 msgid "Window Border"
 msgstr "창 가장자리"
 
 #: ../capplets/appearance/data/appearance.glade.h:62
+#: ../capplets/appearance/data/appearance-moblin.glade.h:35
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:54
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:49
 msgid "_Add..."
 msgstr "추가(_A)..."
 
 #: ../capplets/appearance/data/appearance.glade.h:63
+#: ../capplets/appearance/data/appearance-moblin.glade.h:36
 msgid "_Application font:"
 msgstr "응용프로그램 글꼴(_A):"
 
 #. pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.glade.h:65
+#: ../capplets/appearance/data/appearance-moblin.glade.h:38
 msgid "_BGR"
 msgstr "_BGR"
 
@@ -1156,10 +1211,12 @@ msgid "_Copy"
 msgstr "복사(_C)"
 
 #: ../capplets/appearance/data/appearance.glade.h:67
+#: ../capplets/appearance/data/appearance-moblin.glade.h:39
 msgid "_Description:"
 msgstr "설명(_D):"
 
 #: ../capplets/appearance/data/appearance.glade.h:68
+#: ../capplets/appearance/data/appearance-moblin.glade.h:40
 msgid "_Document font:"
 msgstr "문서 글꼴(_D):"
 
@@ -1172,14 +1229,17 @@ msgid "_File"
 msgstr "파일(_F)"
 
 #: ../capplets/appearance/data/appearance.glade.h:71
+#: ../capplets/appearance/data/appearance-moblin.glade.h:41
 msgid "_Fixed width font:"
 msgstr "고정폭 글꼴(_F):"
 
 #: ../capplets/appearance/data/appearance.glade.h:72
+#: ../capplets/appearance/data/appearance-moblin.glade.h:42
 msgid "_Full"
 msgstr "충분히(_F)"
 
 #: ../capplets/appearance/data/appearance.glade.h:73
+#: ../capplets/appearance/data/appearance-moblin.glade.h:43
 msgid "_Input boxes:"
 msgstr "입력 상자(_I):"
 
@@ -1188,14 +1248,17 @@ msgid "_Install..."
 msgstr "설치(_I)..."
 
 #: ../capplets/appearance/data/appearance.glade.h:75
+#: ../capplets/appearance/data/appearance-moblin.glade.h:44
 msgid "_Medium"
 msgstr "중간(_M)"
 
 #: ../capplets/appearance/data/appearance.glade.h:76
+#: ../capplets/appearance/data/appearance-moblin.glade.h:45
 msgid "_Monochrome"
 msgstr "흑백(_M)"
 
 #: ../capplets/appearance/data/appearance.glade.h:77
+#: ../capplets/appearance/data/appearance-moblin.glade.h:46
 #: ../capplets/keybindings/gnome-keybinding-properties.glade.h:5
 msgid "_Name:"
 msgstr "이름(_N):"
@@ -1205,6 +1268,7 @@ msgid "_New"
 msgstr "새로 만들기(_N)"
 
 #: ../capplets/appearance/data/appearance.glade.h:79
+#: ../capplets/appearance/data/appearance-moblin.glade.h:47
 msgid "_None"
 msgstr "없음(_N)"
 
@@ -1226,10 +1290,12 @@ msgstr "끝내기(_Q)"
 
 #. pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.glade.h:85
+#: ../capplets/appearance/data/appearance-moblin.glade.h:49
 msgid "_RGB"
 msgstr "_RGB"
 
 #: ../capplets/appearance/data/appearance.glade.h:86
+#: ../capplets/appearance/data/appearance-moblin.glade.h:50
 msgid "_Reset to Defaults"
 msgstr "기본값으로 초기화(_R)"
 
@@ -1238,14 +1304,17 @@ msgid "_Save"
 msgstr "저장(_S)"
 
 #: ../capplets/appearance/data/appearance.glade.h:88
+#: ../capplets/appearance/data/appearance-moblin.glade.h:51
 msgid "_Selected items:"
 msgstr "선택한 항목(_S):"
 
 #: ../capplets/appearance/data/appearance.glade.h:89
+#: ../capplets/appearance/data/appearance-moblin.glade.h:52
 msgid "_Size:"
 msgstr "크기(_S):"
 
 #: ../capplets/appearance/data/appearance.glade.h:90
+#: ../capplets/appearance/data/appearance-moblin.glade.h:53
 msgid "_Slight"
 msgstr "살짝(_S)"
 
@@ -1254,23 +1323,28 @@ msgid "_Style:"
 msgstr "모양새(_S):"
 
 #: ../capplets/appearance/data/appearance.glade.h:92
+#: ../capplets/appearance/data/appearance-moblin.glade.h:54
 msgid "_Tooltips:"
 msgstr "툴팁(_T):"
 
 #. vertical hinting, pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.glade.h:94
+#: ../capplets/appearance/data/appearance-moblin.glade.h:56
 msgid "_VRGB"
 msgstr "_VRGB"
 
 #: ../capplets/appearance/data/appearance.glade.h:95
+#: ../capplets/appearance/data/appearance-moblin.glade.h:57
 msgid "_Window title font:"
 msgstr "창 제목 글꼴(_W):"
 
 #: ../capplets/appearance/data/appearance.glade.h:96
+#: ../capplets/appearance/data/appearance-moblin.glade.h:58
 msgid "_Windows:"
 msgstr "창(_W):"
 
 #: ../capplets/appearance/data/appearance.glade.h:97
+#: ../capplets/appearance/data/appearance-moblin.glade.h:59
 msgid "dots per inch"
 msgstr "인치당 점 개수"
 
@@ -1292,7 +1366,7 @@ msgstr "테마 설치"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
 msgid "Gnome Theme Package"
-msgstr "그놈 테마 꾸러미"
+msgstr "Gnome 테마 패키지"
 
 #: ../capplets/appearance/gnome-wp-info.c:50
 msgid "No Desktop Background"
@@ -1322,6 +1396,7 @@ msgstr ""
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "픽셀"
+msgstr[1] "픽셀"
 
 #: ../capplets/appearance/theme-installer.c:174
 #: ../capplets/appearance/theme-installer.c:224
@@ -1348,53 +1423,49 @@ msgstr "\"%s\" 파일은 올바른 테마가 아닌 것으로 보입니다."
 
 #: ../capplets/appearance/theme-installer.c:251
 #, c-format
-msgid ""
-"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
-"you need to compile."
-msgstr ""
-"\"%s\" 파일은 올바른 테마가 아닌 것으로 보입니다. 컴파일해야 하는 테마 엔진"
-"일 수 있습니다."
+msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
+msgstr "\"%s\" 파일은 올바른 테마가 아닌 것으로 보입니다. 컴파일해야 하는 테마 엔진일 수 있습니다."
 
-#: ../capplets/appearance/theme-installer.c:290
-#, c-format
-msgid "GNOME Theme %s correctly installed"
-msgstr "%s 그놈 테마를 올바르게 설치했습니다"
-
-#: ../capplets/appearance/theme-installer.c:357
+#: ../capplets/appearance/theme-installer.c:354
 #, c-format
 msgid "Installation for theme \"%s\" failed."
 msgstr "\"%s\" 테마 설치가 실패했습니다."
 
-#: ../capplets/appearance/theme-installer.c:396
+#: ../capplets/appearance/theme-installer.c:393
 #, c-format
 msgid "The theme \"%s\" has been installed."
 msgstr "테마 \"%s\"(이)가 설치되었습니다."
 
-#: ../capplets/appearance/theme-installer.c:402
+#: ../capplets/appearance/theme-installer.c:398
 msgid "Would you like to apply it now, or keep your current theme?"
 msgstr "테마를 지금 사용하겠습니까? 아니면 현재 테마를 유지하겠습니까?"
 
-#: ../capplets/appearance/theme-installer.c:404
+#: ../capplets/appearance/theme-installer.c:400
 msgid "Keep Current Theme"
 msgstr "현재 테마 유지"
 
-#: ../capplets/appearance/theme-installer.c:406
+#: ../capplets/appearance/theme-installer.c:402
 msgid "Apply New Theme"
 msgstr "새 테마 적용"
 
-#: ../capplets/appearance/theme-installer.c:510
+#: ../capplets/appearance/theme-installer.c:446
+#, c-format
+msgid "GNOME Theme %s correctly installed"
+msgstr "%s GNOME 테마를 올바르게 설치했습니다"
+
+#: ../capplets/appearance/theme-installer.c:505
 msgid "Failed to create temporary directory"
 msgstr "임시 디렉터리를 만드는 데 실패했습니다"
 
-#: ../capplets/appearance/theme-installer.c:573
+#: ../capplets/appearance/theme-installer.c:568
 msgid "New themes have been successfully installed."
 msgstr "\"%s\" 테마를 새로 설치했습니다."
 
-#: ../capplets/appearance/theme-installer.c:598
+#: ../capplets/appearance/theme-installer.c:593
 msgid "No theme file location specified to install"
 msgstr "테마를 파일을 설치할 위치를 지정하지 않았습니다"
 
-#: ../capplets/appearance/theme-installer.c:619
+#: ../capplets/appearance/theme-installer.c:614
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
@@ -1403,11 +1474,11 @@ msgstr ""
 "다음에 테마를 설치하는 데 필요한 권한이 없습니다:\n"
 "%s"
 
-#: ../capplets/appearance/theme-installer.c:689
+#: ../capplets/appearance/theme-installer.c:684
 msgid "Select Theme"
 msgstr "테마 선택"
 
-#: ../capplets/appearance/theme-installer.c:693
+#: ../capplets/appearance/theme-installer.c:688
 msgid "Theme Packages"
 msgstr "테마 꾸러미"
 
@@ -1440,15 +1511,10 @@ msgstr "테마 엔진을 설치할 수 없습니다"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
-"settings manager."
+"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
 msgstr ""
 "설정 관리자 'gnome2-settings-daemon'을 실행할 수 없습니다.\n"
-"그놈 설정 관리자를 실행하지 않고는, 몇몇 기본 설정 사항들이 적용되지 않습니"
-"다. 이는 보노보의 문제이거나, GNOME이 아닌 (예를 들어, KDE) 설정 관리자가 이"
-"미 실행중이어서 그놈 설정 관리자와 충돌하기 때문일 것입니다."
+"Gnome 설정 관리자를 실행하지 않고는, 몇몇 기본 설정 사항들이 적용되지 않습니다. 이는 보노보의 문제이거나, GNOME이 아닌 (예를 들어, KDE) 설정 관리자가 이미 실행중이어서 그놈 설정 관리자와 충돌하기 때문일 것입니다."
 
 #: ../capplets/common/capplet-stock-icons.c:66
 #, c-format
@@ -1557,18 +1623,15 @@ msgid "Change set"
 msgstr "바뀜 설정"
 
 #: ../capplets/common/gconf-property-editor.c:148
-msgid ""
-"GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr ""
-"적용할 때 들어 있는 데이터를 gconf 클라이언트에 넘겨주도록 GConf 바뀜 설정"
+msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr "적용할 때 들어 있는 데이터를 gconf 클라이언트에 넘겨주도록 GConf 바뀜 설정"
 
 #: ../capplets/common/gconf-property-editor.c:153
 msgid "Conversion to widget callback"
 msgstr "위젯으로 변환 콜백"
 
 #: ../capplets/common/gconf-property-editor.c:154
-msgid ""
-"Callback to be issued when data are to be converted from GConf to the widget"
+msgid "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "데이터가 GConf에서 위젯으로 변환될 때 실행할 콜백"
 
 #: ../capplets/common/gconf-property-editor.c:159
@@ -1576,8 +1639,7 @@ msgid "Conversion from widget callback"
 msgstr "위젯에서 변환 콜백"
 
 #: ../capplets/common/gconf-property-editor.c:160
-msgid ""
-"Callback to be issued when data are to be converted to GConf from the widget"
+msgid "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "데이터가 위젯에서 GConf로 변환될 때 실행할 콜백"
 
 #: ../capplets/common/gconf-property-editor.c:165
@@ -1604,19 +1666,18 @@ msgstr "속성 편집기 데이터 free하는 콜백"
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr "속성 편집기 오브젝트의 데이터를 free할 때 실행할 콜백"
 
-#: ../capplets/common/gconf-property-editor.c:1404
+#: ../capplets/common/gconf-property-editor.c:1405
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
 "\n"
-"Please make sure it exists and try again, or choose a different background "
-"picture."
+"Please make sure it exists and try again, or choose a different background picture."
 msgstr ""
 "파일 '%s'(을)를 찾을 수 없습니다.\n"
 "\n"
 "파일이 있는지 확인하고 다시 시도하거나, 다른 배경 그림을 선택하십시오."
 
-#: ../capplets/common/gconf-property-editor.c:1412
+#: ../capplets/common/gconf-property-editor.c:1413
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1629,68 +1690,56 @@ msgstr ""
 "\n"
 "대신 다른 그림을 선택하십시오."
 
-#: ../capplets/common/gconf-property-editor.c:1532
+#: ../capplets/common/gconf-property-editor.c:1533
 msgid "Please select an image."
-msgstr "그림을 선택하십시오."
+msgstr "이미지를 선택하십시오."
 
-#: ../capplets/common/gconf-property-editor.c:1537
+#: ../capplets/common/gconf-property-editor.c:1538
 msgid "_Select"
 msgstr "선택(_S)"
 
-#: ../capplets/common/gnome-theme-info.c:638
+#: ../capplets/common/gnome-theme-info.c:639
 msgid "Default Pointer - Current"
 msgstr "기본 포인터 - 현재"
 
-#: ../capplets/common/gnome-theme-info.c:642
+#: ../capplets/common/gnome-theme-info.c:643
 msgid "White Pointer"
 msgstr "흰색 포인터"
 
-#: ../capplets/common/gnome-theme-info.c:643
+#: ../capplets/common/gnome-theme-info.c:644
 msgid "White Pointer - Current"
 msgstr "흰색 포인터 - 현재"
 
-#: ../capplets/common/gnome-theme-info.c:647
+#: ../capplets/common/gnome-theme-info.c:648
 msgid "Large Pointer"
 msgstr "큰 포인터"
 
-#: ../capplets/common/gnome-theme-info.c:648
+#: ../capplets/common/gnome-theme-info.c:649
 msgid "Large Pointer - Current"
 msgstr "큰 포인터 - 현재"
 
-#: ../capplets/common/gnome-theme-info.c:652
+#: ../capplets/common/gnome-theme-info.c:653
 msgid "Large White Pointer - Current"
 msgstr "큰 흰 색 포인터 - 현재"
 
-#: ../capplets/common/gnome-theme-info.c:653
+#: ../capplets/common/gnome-theme-info.c:654
 msgid "Large White Pointer"
 msgstr "큰 흰 색 포인터"
 
-#: ../capplets/common/gnome-theme-info.c:1623
+#: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme '%s' is "
-"not installed."
-msgstr ""
-"필요한 '%s' GTK+ 테마를 설치하지 않았으므로 이 테마는 의도한 대로 보이지 않"
-"을 것입니다."
+msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
+msgstr "필요한 '%s' GTK+ 테마를 설치하지 않았으므로 이 테마는 의도한 대로 보이지 않을 것입니다."
 
-#: ../capplets/common/gnome-theme-info.c:1631
+#: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
-msgid ""
-"This theme will not look as intended because the required window manager "
-"theme '%s' is not installed."
-msgstr ""
-"필요한 '%s' 창 관리자 테마를 설치하지 않았으므로 이 테마는 의도한 대로 보이"
-"지 않을 것입니다."
+msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
+msgstr "필요한 '%s' 창 관리자 테마를 설치하지 않았으므로 이 테마는 의도한 대로 보이지 않을 것입니다."
 
-#: ../capplets/common/gnome-theme-info.c:1638
+#: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
-msgid ""
-"This theme will not look as intended because the required icon theme '%s' is "
-"not installed."
-msgstr ""
-"필요한 '%s' 아이콘 테마를 설치하지 않았으므로 이 테마는 의도한 대로 보이지 않"
-"을 것입니다."
+msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
+msgstr "필요한 '%s' 아이콘 테마를 설치하지 않았으므로 이 테마는 의도한 대로 보이지 않을 것입니다."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:22
@@ -1731,11 +1780,11 @@ msgstr "보여줄 페이지 이름을 지정합니다 (internet|multimedia|syste
 
 #: ../capplets/default-applications/gnome-da-capplet.c:901
 msgid "- GNOME Default Applications"
-msgstr "- 그놈 기본 프로그램"
+msgstr "- GNOME 기본 프로그램"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
 msgid "<b>Image Viewer</b>"
-msgstr "<b>그림 보기</b>"
+msgstr "<b>이미지 보기</b>"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:2
 msgid "<b>Instant Messenger</b>"
@@ -1784,7 +1833,11 @@ msgstr "접근성 기능"
 msgid "All %s occurrences will be replaced with actual link"
 msgstr "모든 %s(은)는 실제 링크로 바뀝니다"
 
+#.
+#. * vim: sw=2 ts=8 cindent noai bs=2
+#.
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:14
+#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:1
 msgid "C_ommand:"
 msgstr "명령(_O):"
 
@@ -1882,15 +1935,15 @@ msgstr "파이어폭스"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
 msgid "GNOME Magnifier without Screen Reader"
-msgstr "화면 읽어주기 프로그램이 없는 그놈 돋보기"
+msgstr "화면 읽어주기 프로그램이 없는 GNOME 돋보기"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
 msgid "GNOME OnScreen Keyboard"
-msgstr "그놈 화면 키보드"
+msgstr "GNOME 화면 키보드"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
 msgid "GNOME Terminal"
-msgstr "그놈 터미널"
+msgstr "GNOME 터미널"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
 msgid "Galeon"
@@ -1950,23 +2003,23 @@ msgstr "리슨"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:30
 msgid "Midori"
-msgstr "미도리"
+msgstr "Midori"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:31
 msgid "Mozilla"
-msgstr "모질라"
+msgstr "Mozilla"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:32
 msgid "Mozilla 1.6"
-msgstr "모질라 1.6"
+msgstr "Mozilla 1.6"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:33
 msgid "Mozilla Mail"
-msgstr "모질라 메일"
+msgstr "Mozilla Mai"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:34
 msgid "Mozilla Thunderbird"
-msgstr "모질라 썬더버드"
+msgstr "Mozilla Thunderbird"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:35
 msgid "Muine Music Player"
@@ -1982,7 +2035,7 @@ msgstr "NXterm"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:38
 msgid "Netscape Communicator"
-msgstr "넷스케이프 커뮤니케이터"
+msgstr "Netscape Communicator"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:39
 msgid "Opera"
@@ -2006,11 +2059,11 @@ msgstr "리듬박스 음악 플레이어"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:44
 msgid "SeaMonkey"
-msgstr "시몽키"
+msgstr "SeaMonkey"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:45
 msgid "SeaMonkey Mail"
-msgstr "시몽키 메일"
+msgstr "SeaMonkey 메일"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:46
 msgid "Standard XTerminal"
@@ -2018,30 +2071,31 @@ msgstr "표준 X터미널"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:47
 msgid "Sylpheed"
-msgstr "실피드"
+msgstr "Sylpheed"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:48
 msgid "Sylpheed-Claws"
-msgstr "실피드 클로즈"
+msgstr "Sylpheed-Claws"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:49
 msgid "Terminator"
-msgstr "터미네이터"
+msgstr "Terminator"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:50
 msgid "Thunderbird"
-msgstr "썬더버드"
+msgstr "Thunderbird"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:51
 msgid "Totem Movie Player"
-msgstr "토템 동영상 플레이어"
+msgstr "Totem Movie Player"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:52
 msgid "aterm"
 msgstr "aterm"
 
 #: ../capplets/display/display-capplet.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:460
+#: ../capplets/display/display-capplet-moblin.glade.h:1
+#: ../capplets/display/xrandr-capplet.c:549
 msgid "<b>Monitor</b>"
 msgstr "<b>모니터</b>"
 
@@ -2050,10 +2104,12 @@ msgid "<b>Panel icon</b>"
 msgstr "<b>패널 아이콘</b>"
 
 #: ../capplets/display/display-capplet.glade.h:3
+#: ../capplets/display/display-capplet-moblin.glade.h:2
 msgid "<i>Drag the monitors to set their place</i>"
 msgstr "<i>모니터를 원하는 위치에 끌어 놓으십시오</i>"
 
 #: ../capplets/display/display-capplet.glade.h:4
+#: ../capplets/display/display-capplet-moblin.glade.h:3
 msgid "Display Preferences"
 msgstr "디스플레이 기본 설정"
 
@@ -2074,10 +2130,12 @@ msgstr ""
 "위-아래\n"
 
 #: ../capplets/display/display-capplet.glade.h:11
+#: ../capplets/display/display-capplet-moblin.glade.h:4
 msgid "Off"
 msgstr "끄기"
 
 #: ../capplets/display/display-capplet.glade.h:12
+#: ../capplets/display/display-capplet-moblin.glade.h:5
 msgid "On"
 msgstr "켜기"
 
@@ -2086,18 +2144,22 @@ msgid "R_otation:"
 msgstr "회전(_O):"
 
 #: ../capplets/display/display-capplet.glade.h:14
+#: ../capplets/display/display-capplet-moblin.glade.h:6
 msgid "Re_fresh rate:"
 msgstr "화면 주사율(_F):"
 
 #: ../capplets/display/display-capplet.glade.h:15
+#: ../capplets/display/display-capplet-moblin.glade.h:7
 msgid "_Detect Monitors"
 msgstr "모니터 검색(_D)"
 
 #: ../capplets/display/display-capplet.glade.h:16
+#: ../capplets/display/display-capplet-moblin.glade.h:8
 msgid "_Mirror screens"
 msgstr "동일한 화면(_M)"
 
 #: ../capplets/display/display-capplet.glade.h:17
+#: ../capplets/display/display-capplet-moblin.glade.h:9
 msgid "_Resolution:"
 msgstr "해상도(_R):"
 
@@ -2114,38 +2176,38 @@ msgstr "화면 해상도 바꾸기"
 msgid "Display"
 msgstr "디스플레이"
 
-#: ../capplets/display/xrandr-capplet.c:327
-#: ../capplets/display/xrandr-capplet.c:366
+#: ../capplets/display/xrandr-capplet.c:415
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Normal"
 msgstr "보통"
 
-#: ../capplets/display/xrandr-capplet.c:328
+#: ../capplets/display/xrandr-capplet.c:416
 msgid "Left"
 msgstr "왼쪽"
 
-#: ../capplets/display/xrandr-capplet.c:329
+#: ../capplets/display/xrandr-capplet.c:417
 msgid "Right"
 msgstr "오른쪽"
 
-#: ../capplets/display/xrandr-capplet.c:330
+#: ../capplets/display/xrandr-capplet.c:418
 msgid "Upside Down"
 msgstr "위 아래"
 
-#: ../capplets/display/xrandr-capplet.c:403
-#: ../capplets/display/xrandr-capplet.c:411
-#: ../capplets/display/xrandr-capplet.c:412
+#: ../capplets/display/xrandr-capplet.c:492
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:501
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:453
+#: ../capplets/display/xrandr-capplet.c:542
 #, c-format
 msgid "<b>Monitor: %s</b>"
 msgstr "<b>모니터: %s</b>"
 
-#: ../capplets/display/xrandr-capplet.c:545
-#: ../capplets/display/xrandr-capplet.c:555
-#: ../capplets/display/xrandr-capplet.c:563
+#: ../capplets/display/xrandr-capplet.c:652
+#: ../capplets/display/xrandr-capplet.c:662
+#: ../capplets/display/xrandr-capplet.c:670
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2155,31 +2217,23 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1410
+#: ../capplets/display/xrandr-capplet.c:1523
 msgid "Mirror Screens"
 msgstr "동일한 화면"
 
-#: ../capplets/display/xrandr-capplet.c:1729
-msgid "Could not apply the selected configuration"
-msgstr "선택한 설정을 적용할 수 없습니다"
-
-#: ../capplets/display/xrandr-capplet.c:1756
+#: ../capplets/display/xrandr-capplet.c:1957
 msgid "Could not save the monitor configuration"
 msgstr "모니터 설정을 저장할 수 없습니다"
 
-#: ../capplets/display/xrandr-capplet.c:1767
+#: ../capplets/display/xrandr-capplet.c:1968
 msgid "Could not get session bus while applying display configuration"
 msgstr "화면 설정을 적용할 때 세션 버스를 읽어 올 수 없습니다"
 
-#: ../capplets/display/xrandr-capplet.c:1777
-msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
-msgstr "org.gnome.SettingsDaemon.XRANDR 값을 읽어 올 수 없습니다"
-
-#: ../capplets/display/xrandr-capplet.c:1823
+#: ../capplets/display/xrandr-capplet.c:2010
 msgid "Could not detect displays"
 msgstr "디스플레이를 검색할 수 없습니다"
 
-#: ../capplets/display/xrandr-capplet.c:2021
+#: ../capplets/display/xrandr-capplet.c:2216
 msgid "Could not get screen information"
 msgstr "화면 정보를 읽어 올 수 없습니다"
 
@@ -2229,27 +2283,25 @@ msgstr "사용 않음"
 msgid "<Unknown Action>"
 msgstr "<알 수 없는 동작>"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:926
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1545
+#: ../capplets/keybindings/gnome-keybinding-properties.c:925
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1549
 msgid "Custom Shortcuts"
 msgstr "사용자 설정 바로 가기"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1065
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1064
 msgid "Error saving the new shortcut"
 msgstr "새 바로 가기 키를 저장하는 데 오류"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1144
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1143
 #, c-format
 msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type "
-"using this key.\n"
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
-"바로 가기 키 \"%s\"(은)는 사용할 수 없습니다. 이 키만으로는 입력할 수 없습니"
-"다.\n"
+"바로 가기 키 \"%s\"(은)는 사용할 수 없습니다. 이 키만으로는 입력할 수 없습니다.\n"
 "Control이나 Alt, Shift키와 동시에 사용해 보십시오."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1174
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1173
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2258,136 +2310,138 @@ msgstr ""
 "바로 가기 키 \"%s\"(은)는 \"%s\"에 쓰고\n"
 "있습니다"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1180
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1179
 #, c-format
-msgid ""
-"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "바로 가기 키를 \"%s\"에 다시 설정하면, \"%s\" 바로 가기는 없어집니다."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1188
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1187
 msgid "_Reassign"
 msgstr "다시 설정(_R)"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1308
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1307
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "설정 데이터 베이스에서 단축키 설정 해제하는 데 오류: %s"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1500
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1504
 msgid "Too many custom shortcuts"
 msgstr "사용자 설정 바로 가기 키가 너무 많습니다"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1785
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1797
 msgid "Action"
 msgstr "동작"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1807
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1819
 msgid "Shortcut"
 msgstr "바로 가기"
 
-#.
-#. * vim: sw=2 ts=8 cindent noai bs=2
-#.
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:1
+#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:2
 msgid "Custom Shortcut"
 msgstr "사용자 설정 바로 가기 키"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:2
+#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
 msgid "Keyboard Shortcuts"
 msgstr "키보드 바로 가기"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:3
-msgid ""
-"To edit a shortcut key, click on the corresponding row and type a new key "
-"combination, or press backspace to clear."
-msgstr ""
-"바로 가기를 편집하려면, 해당 줄에 클릭하고 새 바로 가기 키를 누르십시오. 지우"
-"려면 백스페이스를 누르십시오."
-
 #: ../capplets/keybindings/gnome-keybinding-properties.glade.h:4
-msgid "_Command:"
-msgstr "명령(_C):"
+msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
+msgstr "바로 가기를 편집하려면, 해당 줄에 클릭하고 새 바로 가기 키를 누르십시오. 지우려면 백스페이스를 누르십시오."
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
 msgstr "명령어에 단축 키를 지정합니다"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:209
-#: ../capplets/keyboard/gnome-keyboard-properties.c:214
-msgid ""
-"Just apply settings and quit (compatibility only; now handled by daemon)"
+#: ../capplets/keyboard/gnome-keyboard-properties.c:213
+#: ../capplets/keyboard/gnome-keyboard-properties.c:218
+msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "설정을 적용하고 마칩니다 (호환성; 이제 데몬이 처리합니다)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:223
 msgid "Start the page with the typing break settings showing"
 msgstr "타이핑 휴식 설정을 보여주는 페이지로 시작합니다"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:228
 msgid "Start the page with the accessibility settings showing"
 msgstr "접근성 설정을 보여주는 페이지로 시작합니다"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:230
+#: ../capplets/keyboard/gnome-keyboard-properties.c:234
 msgid "- GNOME Keyboard Preferences"
 msgstr "- 키보드 설정"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:1
 msgid "<b>Bounce Keys</b>"
 msgstr "<b>탄력 키</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:2
 msgid "<b>Cursor Blinking</b>"
 msgstr "<b>커서 깜빡이기</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:3
 msgid "<b>General</b>"
 msgstr "<b>일반</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:4
 msgid "<b>Repeat Keys</b>"
 msgstr "<b>반복 키</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:5
 msgid "<b>Slow Keys</b>"
 msgstr "<b>느린 키</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:6
 msgid "<b>Sticky Keys</b>"
 msgstr "<b>고정 키</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:7
 msgid "<b>Visual cues for sounds</b>"
 msgstr "<b>사운드에 시각 신호</b>"
 
 #. fast acceleration
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:8
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:13
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:4
 msgid "<small><i>Fast</i></small>"
 msgstr "<small><i>빠르게</i></small>"
 
 #. long delay
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:9
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:19
 msgid "<small><i>Long</i></small>"
 msgstr "<small><i>길게</i></small>"
 
 #. short delay
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:10
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:23
 msgid "<small><i>Short</i></small>"
 msgstr "<small><i>짧게</i></small>"
 
 #. slow acceleration
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:11
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:25
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:10
 msgid "<small><i>Slow</i></small>"
 msgstr "<small><i>느리게</i></small>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:12
 msgid "A_cceleration:"
 msgstr "가속(_C):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:13
 msgid "All_ow postponing of breaks"
 msgstr "휴식 시간 미루기 가능(_O)"
 
@@ -2396,58 +2450,72 @@ msgid "Audio _Feedback..."
 msgstr "오디오 피드백(_F)..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:14
 msgid "Beep when _accessibility features are turned on or off"
 msgstr "접근성 기능을 켜거나 끌 때 삑 소리(_A)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:15
 msgid "Beep when a _modifier key is pressed"
 msgstr "변경 키를 눌렀을 때 삑 소리(_M)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:16
 msgid "Beep when a _toggle key is pressed"
 msgstr "토글 키를 눌렀을 때 삑 소리(_T)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:17
 msgid "Beep when a key is pr_essed"
 msgstr "키를 눌렀을 때 삑 소리(_E)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:18
 msgid "Beep when a key is reje_cted"
 msgstr "키가 거부되었을 때 삑 소리(_C)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:19
 msgid "Beep when key is _accepted"
 msgstr "키를 받아들일 때 삑 소리(_A)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:20
 msgid "Beep when key is _rejected"
 msgstr "키가 거부되었을 때 삑 소리(_R)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:21
 msgid "By _country"
 msgstr "국가별(_C)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:22
 msgid "By _language"
 msgstr "언어별(_L)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:23
 msgid "Check if breaks are allowed to be postponed"
 msgstr "휴식 시간을 뒤로 미룰 수 있게 하려면 선택하십시오"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:24
 msgid "Choose a Keyboard Model"
 msgstr "키보드 모델 선택"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:25
 msgid "Choose a Layout"
 msgstr "키보드 배치 선택"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:26
 msgid "Cursor _blinks in text fields"
 msgstr "텍스트 입력란에서 커서 깜박이기(_B)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:27
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:31
 msgid "Cursor blinks speed"
 msgstr "커서 깜빡임 빠르기"
@@ -2462,90 +2530,108 @@ msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "키 두개를 같이 누르면 고정 키 쓰지 않기(_B)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:28
 msgid "Duration of the break when typing is disallowed"
 msgstr "타이핑이 금지된 휴식 시간 길이"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:29
 msgid "Duration of work before forcing a break"
 msgstr "강제로 휴식을 취하기 전의 작업 시간 길이"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:30
 msgid "Flash _window titlebar"
 msgstr "창 제목 표시줄 번쩍이기(_W)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:31
 msgid "Flash entire _screen"
 msgstr "전체 화면 번쩍이기(_S)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:36
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:32
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:36
 msgid "General"
 msgstr "일반"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:33
 msgid "Key presses _repeat when key is held down"
 msgstr "키를 누르고 있을 때 키 반복(_R)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:34
 msgid "Keyboard Accessibility Audio Feedback"
 msgstr "키보드 접근성 오디오 피드백"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:35
 msgid "Keyboard Layout Options"
 msgstr "키보드 배치 옵션"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:36
 msgid "Keyboard Preferences"
 msgstr "키보드 설정"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:37
 msgid "Keyboard _model:"
 msgstr "키보드 모델(_M):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:38
 msgid "Layout _Options..."
 msgstr "키 배치 옵션(_O)..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:39
 msgid "Layouts"
 msgstr "키 배치"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:44
-msgid ""
-"Lock screen after a certain duration to help prevent repetitive keyboard use "
-"injuries"
-msgstr ""
-"일정 기간동안 화면을 잠궈 실수로 키보드를 반복해서 누르는 걸 방지합니다"
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:40
+msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
+msgstr "일정 기간동안 화면을 잠궈 실수로 키보드를 반복해서 누르는 걸 방지합니다"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:41
 msgid "Mouse Keys"
 msgstr "마우스 키"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:42
 msgid "Preview:"
 msgstr "미리 보기:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:43
 msgid "Repeat keys speed"
 msgstr "반복 키 빠르기"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:44
 msgid "Reset to De_faults"
 msgstr "기본값으로 초기화(_F)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:45
 msgid "S_peed:"
 msgstr "속도(_P):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:50
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:46
 msgid "Separate _layout for each window"
 msgstr "각 창마다 별도 키배치(_L)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:51
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:47
 msgid "Show _visual feedback for the alert sound"
 msgstr "알림 사운드에 대해 시각적으로 표시(_V)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:52
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:48
 msgid "Typing Break"
 msgstr "타이핑 휴식 시간"
 
@@ -2554,14 +2640,17 @@ msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "키보드로 접근성 기능을 켜고 끌 수 있게 하기(_A)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:55
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:50
 msgid "_Break interval lasts:"
 msgstr "휴식 시간 지속(_B):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:56
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:51
 msgid "_Country:"
 msgstr "국가(_C):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:57
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:52
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:43
 msgid "_Delay:"
 msgstr "지연 시간(_D):"
@@ -2571,14 +2660,17 @@ msgid "_Ignore fast duplicate keypresses"
 msgstr "빠르게 중복된 키 누름 무시(_I)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:59
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:53
 msgid "_Language:"
 msgstr "언어(_L):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:60
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:54
 msgid "_Lock screen to enforce typing break"
 msgstr "화면을 잠궈 강제로 휴식 시간을 갖기(_L)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:61
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:55
 msgid "_Models:"
 msgstr "모델(_M):"
 
@@ -2587,10 +2679,12 @@ msgid "_Only accept long keypresses"
 msgstr "키를 길게 누를 경우에만 받아들이기(_O)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:63
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:56
 msgid "_Pointer can be controlled using the keypad"
 msgstr "키패드 키로 포인터 조종 가능(_P)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:64
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:57
 msgid "_Selected layouts:"
 msgstr "선택한 키 배치(_S):"
 
@@ -2599,26 +2693,32 @@ msgid "_Simulate simultaneous keypresses"
 msgstr "동시에 키 누르기 흉내 내기(_S)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:66
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:58
 msgid "_Speed:"
 msgstr "속도(_S):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:67
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:59
 msgid "_Type to test settings:"
 msgstr "키보드 설정 시험 하기(_T):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:68
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:60
 msgid "_Variants:"
 msgstr "변종(_V):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:69
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:61
 msgid "_Vendors:"
 msgstr "제조사(_V):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:70
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:62
 msgid "_Work interval lasts:"
 msgstr "작업 시간 지속(_W):"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.glade.h:71
+#: ../capplets/keyboard/gnome-keyboard-properties-moblin.glade.h:63
 msgid "minutes"
 msgstr "분"
 
@@ -2683,13 +2783,13 @@ msgid "gesture|Disabled"
 msgstr "사용 않음"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:441
+#: ../capplets/mouse/gnome-mouse-properties.c:462
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "보여줄 페이지 이름을 지정합니다 (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:446
+#: ../capplets/mouse/gnome-mouse-properties.c:467
 msgid "- GNOME Mouse Preferences"
-msgstr "- 그놈 마우스 기본 설정"
+msgstr "- GNOME 마우스 기본 설정"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:1
 msgid "<b>Double-Click Timeout</b>"
@@ -2709,10 +2809,12 @@ msgid "<b>Locate Pointer</b>"
 msgstr "<b>포인터 찾기</b>"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:6
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:1
 msgid "<b>Mouse Orientation</b>"
 msgstr "<b>마우스 방향</b>"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:7
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:2
 msgid "<b>Pointer Speed</b>"
 msgstr "<b>포인터 속도</b>"
 
@@ -2721,23 +2823,17 @@ msgid "<b>Simulated Secondary Click</b>"
 msgstr "<b>동시에 누르기 흉내 내기</b>"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:9
-msgid ""
-"<i>To test your double-click settings, try to double-click on the light bulb."
-"</i>"
-msgstr ""
-"<i>두 번 누르기 설정을 테스트하려면, 오른쪽 전구 위에서 두 번 눌러 보십시오."
-"</i>"
+msgid "<i>To test your double-click settings, try to double-click on the light bulb.</i>"
+msgstr "<i>두 번 누르기 설정을 테스트하려면, 오른쪽 전구 위에서 두 번 눌러 보십시오.</i>"
 
 #. Dwell Click = Clicking without hardware buttons (by letting the pointer sit on the click target for a certain amount of time)
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:11
-msgid ""
-"<i>You can also use the Dwell Click panel applet to choose the click type.</"
-"i>"
-msgstr ""
-"<i>누르는 방식을 선택하는데 자동 누르기 패널 애플릿을 사용할 수 있습니다.</i>"
+msgid "<i>You can also use the Dwell Click panel applet to choose the click type.</i>"
+msgstr "<i>누르는 방식을 선택하는데 자동 누르기 패널 애플릿을 사용할 수 있습니다.</i>"
 
 #. high sensitivity
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:15
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:6
 msgid "<small><i>High</i></small>"
 msgstr "<small><i>높게</i></small>"
 
@@ -2748,6 +2844,7 @@ msgstr "<small><i>크게</i></small>"
 
 #. low sensitivity
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:21
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:8
 msgid "<small><i>Low</i></small>"
 msgstr "<small><i>낮게</i></small>"
 
@@ -2774,6 +2871,7 @@ msgid "D_rag click:"
 msgstr "끌기 전에 누르기(_R):"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:37
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:11
 msgid "Mouse Preferences"
 msgstr "마우스 기본 설정"
 
@@ -2794,6 +2892,7 @@ msgid "Thr_eshold:"
 msgstr "임계값(_E):"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:42
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:12
 msgid "_Acceleration:"
 msgstr "가속(_A):"
 
@@ -2802,6 +2901,7 @@ msgid "_Initiate click when stopping pointer movement"
 msgstr "포인터 움직임을 멈추면 누른 것으로 취급(_I)"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:45
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:13
 msgid "_Left-handed"
 msgstr "왼손잡이(_L)"
 
@@ -2810,10 +2910,12 @@ msgid "_Motion threshold:"
 msgstr "움직임 임계값(_M):"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:47
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:14
 msgid "_Right-handed"
 msgstr "오른손잡이(_R)"
 
 #: ../capplets/mouse/gnome-mouse-properties.glade.h:48
+#: ../capplets/mouse/gnome-mouse-properties-moblin.glade.h:15
 msgid "_Sensitivity:"
 msgstr "민감도(_S):"
 
@@ -3027,6 +3129,342 @@ msgstr "창 속성을 설정합니다"
 msgid "Windows"
 msgstr "창"
 
+#: ../libwindow-settings/gnome-wm-manager.c:316
+#, c-format
+msgid "Window manager \"%s\" has not registered a configuration tool\n"
+msgstr "창 관리자 \"%s\"(이)가 설정 도구에 등록되지 않았습니다\n"
+
+#: ../libwindow-settings/metacity-window-manager.c:404
+msgid "Maximize"
+msgstr "최대화"
+
+#: ../libwindow-settings/metacity-window-manager.c:405
+msgid "Maximize Vertically"
+msgstr "세로 최대화"
+
+#: ../libwindow-settings/metacity-window-manager.c:406
+msgid "Maximize Horizontally"
+msgstr "가로 최대화"
+
+#: ../libwindow-settings/metacity-window-manager.c:407
+msgid "Minimize"
+msgstr "최소화"
+
+#: ../libwindow-settings/metacity-window-manager.c:408
+msgid "Roll up"
+msgstr "말아 올리기"
+
+#: ../libwindow-settings/metacity-window-manager.c:409
+msgid "None"
+msgstr "없음"
+
+#: ../shell/control-center.c:54
+#, c-format
+msgid "key not found [%s]\n"
+msgstr "[%s]키를 찾을 수 없습니다\n"
+
+#: ../shell/control-center.c:151
+msgid "Filter"
+msgstr "필터"
+
+#: ../shell/control-center.c:151
+msgid "Groups"
+msgstr "모음"
+
+#: ../shell/control-center.c:151
+msgid "Common Tasks"
+msgstr "일반 작업"
+
+#: ../shell/control-center.c:155
+msgid "Settings"
+msgstr "설정"
+
+#: ../shell/control-center.schemas.in.h:1
+msgid "Close the control-center when a task is activated"
+msgstr "태스크를 활성화할 때 컨트롤센터를 닫습니다"
+
+#: ../shell/control-center.schemas.in.h:2
+msgid "Exit shell on add or remove action performed"
+msgstr "추가 혹은 제거 동작을 수행할 때 쉘을 끝냅니다"
+
+#: ../shell/control-center.schemas.in.h:3
+msgid "Exit shell on help action performed"
+msgstr "도움말 동작을 수행할 때 쉘을 끝냅니다"
+
+#: ../shell/control-center.schemas.in.h:4
+msgid "Exit shell on start action performed"
+msgstr "시작 동작을 수행할 때 쉘을 끝냅니다"
+
+#: ../shell/control-center.schemas.in.h:5
+msgid "Exit shell on upgrade or uninstall action performed"
+msgstr "업그레이드 혹은 설치 해제 동작을 수행할 때 쉘을 끝냅니다"
+
+#: ../shell/control-center.schemas.in.h:6
+msgid "Indicates whether to close the shell when a help action is performed."
+msgstr "도움말 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
+
+#: ../shell/control-center.schemas.in.h:7
+msgid "Indicates whether to close the shell when a start action is performed."
+msgstr "시작 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
+
+#: ../shell/control-center.schemas.in.h:8
+msgid "Indicates whether to close the shell when an add or remove action is performed."
+msgstr "추가 혹은 제거 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
+
+#: ../shell/control-center.schemas.in.h:9
+msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
+msgstr "업그레이드 혹은 설치 해제 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
+
+#: ../shell/control-center.schemas.in.h:10
+msgid "Task names and associated .desktop files"
+msgstr "작업 이름과 관련 .desktop 파일"
+
+#: ../shell/control-center.schemas.in.h:11
+msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
+msgstr "컨트롤 센터에 표시하는 작업 이름, \";\" 표시 다음에 관련 해당 작업을 실행하는 데 사용할 관련 .desktop 파일의 파일 이름이 나옵니다."
+
+#. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
+#: ../shell/control-center.schemas.in.h:13
+msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr "[테마 바꾸기;gtk-theme-selector.desktop,기본 프로그램 설정;default-applications.desktop,프린터 추가;gnome-cups-manager.desktop]"
+
+#: ../shell/control-center.schemas.in.h:14
+msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgstr "참이면 \"공통 작업\"을 활성화할 때 컨트롤 센터를 닫습니다."
+
+#: ../shell/gnomecc.desktop.in.in.h:1
+#: ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "제어판 센터"
+
+#: ../shell/gnomecc.desktop.in.in.h:2
+msgid "The GNOME configuration tool"
+msgstr "GNOME 설정 도구"
+
+#: ../typing-break/drw-break-window.c:193
+msgid "_Postpone Break"
+msgstr "휴식 시간 미루기(_P)"
+
+#: ../typing-break/drw-break-window.c:249
+msgid "Take a break!"
+msgstr "휴식 시간!"
+
+#. { N_("/_Enabled"),      NULL, GIF_CB (popup_enabled_cb),     POPUP_ITEM_ENABLED, "<ToggleItem>", NULL },
+#. translators: keep the initial "/"
+#: ../typing-break/drwright.c:129
+msgid "/_Preferences"
+msgstr "/기본 설정(_P)"
+
+#: ../typing-break/drwright.c:130
+msgid "/_About"
+msgstr "/정보(_A)"
+
+#: ../typing-break/drwright.c:132
+msgid "/_Take a Break"
+msgstr "/휴식하기(_T)"
+
+#: ../typing-break/drwright.c:488
+#, c-format
+msgid "%d minute until the next break"
+msgid_plural "%d minutes until the next break"
+msgstr[0] "다음 휴식 시간까지 %d분"
+msgstr[1] "다음 휴식 시간까지 %d분"
+
+#: ../typing-break/drwright.c:492
+#, c-format
+msgid "Less than one minute until the next break"
+msgstr "다음 휴식 시간까지 1분도 안 남음"
+
+#: ../typing-break/drwright.c:579
+#, c-format
+msgid "Unable to bring up the typing break properties dialog with the following error: %s"
+msgstr "다음 오류 때문에 타이핑 휴식 속성 대화 상자를 실행할 수 없습니다: %s"
+
+#: ../typing-break/drwright.c:598
+msgid "Written by Richard Hult <richard@imendio.com>"
+msgstr "Richard Hult <richard@imendio.com> 만듦"
+
+#: ../typing-break/drwright.c:599
+msgid "Eye candy added by Anders Carlsson"
+msgstr "Anders Carlsson이 보기 좋은 것들 더함"
+
+#: ../typing-break/drwright.c:608
+msgid "A computer break reminder."
+msgstr "컴퓨터 휴식 시간 알려주기 프로그램."
+
+#: ../typing-break/drwright.c:610
+msgid "translator-credits"
+msgstr ""
+"차영호 <ganadist@gmail.com>, 2007.\n"
+"류창우 <cwryu@debian.org>, 2008."
+
+#: ../typing-break/main.c:61
+msgid "Enable debugging code"
+msgstr "디버깅 코드 사용"
+
+#: ../typing-break/main.c:63
+msgid "Don't check whether the notification area exists"
+msgstr "알림 영역이 있는지 확인하지 않습니다"
+
+#: ../typing-break/main.c:89
+msgid "Typing Monitor"
+msgstr "타이핑 정보"
+
+#: ../typing-break/main.c:105
+msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
+msgstr "타이핑 정보에서는 알림 영역에서 정보를 보여줍니다. 하지만 패널에 알림 영역이 없습니다. 패널에 오른쪽 클릭을 해서 '패널에 추가'를 선택한 다음 '알림 영역'을 선택하고 '추가'를 누르면 알림 영역을 추가할 수 있습니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:1
+msgid "If set to true, then OpenType fonts will be thumbnailed."
+msgstr "참이면 오픈타입 글꼴을 미리 볼 수 있습니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:2
+msgid "If set to true, then PCF fonts will be thumbnailed."
+msgstr "참이면 PCF 글꼴을 미리 볼 수 있습니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:3
+msgid "If set to true, then TrueType fonts will be thumbnailed."
+msgstr "참이면 트루타입 글꼴을 미리 볼 수 있습니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:4
+msgid "If set to true, then Type1 fonts will be thumbnailed."
+msgstr "참이면 Type1 글꼴을 미리 볼 수 있습니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:5
+msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr "오픈타입 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:6
+msgid "Set this key to the command used to create thumbnails for PCF fonts."
+msgstr "PCF 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:7
+msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr "트루타입 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:8
+msgid "Set this key to the command used to create thumbnails for Type1 fonts."
+msgstr "Type1 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
+
+#: ../font-viewer/fontilus.schemas.in.h:9
+msgid "Thumbnail command for OpenType fonts"
+msgstr "오픈타입 글꼴의 미리보기 명령"
+
+#: ../font-viewer/fontilus.schemas.in.h:10
+msgid "Thumbnail command for PCF fonts"
+msgstr "PCF 글꼴의 미리보기 명령"
+
+#: ../font-viewer/fontilus.schemas.in.h:11
+msgid "Thumbnail command for TrueType fonts"
+msgstr "트루타입 글꼴의 미리보기 명령"
+
+#: ../font-viewer/fontilus.schemas.in.h:12
+msgid "Thumbnail command for Type1 fonts"
+msgstr "Type1 글꼴의 미리보기 명령"
+
+#: ../font-viewer/fontilus.schemas.in.h:13
+msgid "Whether to thumbnail OpenType fonts"
+msgstr "오픈타입 글꼴을 미리보기"
+
+#: ../font-viewer/fontilus.schemas.in.h:14
+msgid "Whether to thumbnail PCF fonts"
+msgstr "PCF 글꼴을 미리보기"
+
+#: ../font-viewer/fontilus.schemas.in.h:15
+msgid "Whether to thumbnail TrueType fonts"
+msgstr "트루타입 글꼴을 미리보기"
+
+#: ../font-viewer/fontilus.schemas.in.h:16
+msgid "Whether to thumbnail Type1 fonts"
+msgstr "Type1 글꼴을 미리보기"
+
+#: ../font-viewer/font-view.c:113
+msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+msgstr "키스의 고유 조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다. 0123456789"
+
+#: ../font-viewer/font-view.c:275
+msgid "Name:"
+msgstr "이름:"
+
+#: ../font-viewer/font-view.c:278
+msgid "Style:"
+msgstr "모양:"
+
+#: ../font-viewer/font-view.c:291
+msgid "Type:"
+msgstr "형식:"
+
+#: ../font-viewer/font-view.c:295
+msgid "Size:"
+msgstr "크기:"
+
+#: ../font-viewer/font-view.c:339
+#: ../font-viewer/font-view.c:352
+msgid "Version:"
+msgstr "버전:"
+
+#: ../font-viewer/font-view.c:343
+#: ../font-viewer/font-view.c:354
+msgid "Copyright:"
+msgstr "저작권:"
+
+#: ../font-viewer/font-view.c:347
+msgid "Description:"
+msgstr "설명:"
+
+#: ../font-viewer/font-view.c:437
+#, c-format
+msgid "usage: %s fontfile\n"
+msgstr "사용법: %s 글꼴파일\n"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+msgid "Font Viewer"
+msgstr "글꼴 보기"
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+msgid "Preview fonts"
+msgstr "글꼴 미리 보기"
+
+#: ../font-viewer/font-thumbnailer.c:245
+msgid "Text to thumbnail (default: Aa)"
+msgstr "미리보기에 붙을 텍스트 (기본값: Aa)"
+
+#: ../font-viewer/font-thumbnailer.c:245
+msgid "TEXT"
+msgstr "<텍스트>"
+
+#: ../font-viewer/font-thumbnailer.c:247
+msgid "Font size (default: 64)"
+msgstr "글꼴 크기 (기본값: 64)"
+
+#: ../font-viewer/font-thumbnailer.c:247
+msgid "SIZE"
+msgstr "<크기>"
+
+#: ../font-viewer/font-thumbnailer.c:249
+msgid "FONT-FILE OUTPUT-FILE"
+msgstr "<글꼴파일> <출력파일>"
+
+#: ../font-viewer/font-thumbnailer.c:268
+#, c-format
+msgid "Error parsing arguments: %s\n"
+msgstr "인자 파싱하는 데 오류: %s\n"
+
+#: ../libslab/app-shell.c:753
+#, c-format
+msgid ""
+"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+"\n"
+" Your filter \"<b>%s</b>\" does not match any items.</span>"
+msgstr ""
+"<span size=\"large\"><b>일치하는 것이 없습니다.</b> </span><span>\n"
+"\n"
+" 필터 \"<b>%s</b>\"(은)는 일치하는 항목이 없습니다.</span>"
+
+#: ../libslab/app-shell.c:903
+msgid "Other"
+msgstr "기타"
+
 #. make start action
 #: ../libslab/application-tile.c:372
 #, c-format
@@ -3045,11 +3483,13 @@ msgstr "업그레이드"
 msgid "Uninstall"
 msgstr "설치 취소"
 
-#: ../libslab/application-tile.c:780 ../libslab/document-tile.c:715
+#: ../libslab/application-tile.c:780
+#: ../libslab/document-tile.c:715
 msgid "Remove from Favorites"
 msgstr "즐겨찾기에서 제거"
 
-#: ../libslab/application-tile.c:782 ../libslab/document-tile.c:717
+#: ../libslab/application-tile.c:782
+#: ../libslab/document-tile.c:717
 msgid "Add to Favorites"
 msgstr "즐겨찾기에 추가"
 
@@ -3060,21 +3500,6 @@ msgstr "시작 프로그램에서 제거"
 #: ../libslab/application-tile.c:869
 msgid "Add to Startup Programs"
 msgstr "시작 프로그램에 추가"
-
-#: ../libslab/app-shell.c:753
-#, c-format
-msgid ""
-"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
-"\n"
-" Your filter \"<b>%s</b>\" does not match any items.</span>"
-msgstr ""
-"<span size=\"large\"><b>일치하는 것이 없습니다.</b> </span><span>\n"
-"\n"
-" 필터 \"<b>%s</b>\"(은)는 일치하는 항목이 없습니다.</span>"
-
-#: ../libslab/app-shell.c:903
-msgid "Other"
-msgstr "기타"
 
 #: ../libslab/bookmark-agent.c:1077
 msgid "New Spreadsheet"
@@ -3111,31 +3536,39 @@ msgid "<b>Open</b>"
 msgstr "<b>열기</b>"
 
 #. make rename action
-#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:231
+#: ../libslab/directory-tile.c:190
+#: ../libslab/document-tile.c:231
 msgid "Rename..."
 msgstr "이름 바꾸기..."
 
-#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
-#: ../libslab/document-tile.c:245 ../libslab/document-tile.c:254
+#: ../libslab/directory-tile.c:204
+#: ../libslab/directory-tile.c:213
+#: ../libslab/document-tile.c:245
+#: ../libslab/document-tile.c:254
 msgid "Send To..."
 msgstr "보내기..."
 
 #. make move to trash action
-#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:280
+#: ../libslab/directory-tile.c:228
+#: ../libslab/document-tile.c:280
 msgid "Move to Trash"
 msgstr "휴지통에 버리기"
 
-#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
-#: ../libslab/document-tile.c:290 ../libslab/document-tile.c:831
+#: ../libslab/directory-tile.c:238
+#: ../libslab/directory-tile.c:457
+#: ../libslab/document-tile.c:290
+#: ../libslab/document-tile.c:831
 msgid "Delete"
 msgstr "삭제"
 
-#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:979
+#: ../libslab/directory-tile.c:533
+#: ../libslab/document-tile.c:979
 #, c-format
 msgid "Are you sure you want to permanently delete \"%s\"?"
 msgstr "정말로 \"%s\"을(를) 완전히 삭제하시겠습니까?"
 
-#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:980
+#: ../libslab/directory-tile.c:534
+#: ../libslab/document-tile.c:980
 msgid "If you delete an item, it is permanently lost."
 msgstr "항목을 삭제하면 영영 잃어버리게 됩니다."
 
@@ -3194,571 +3627,169 @@ msgstr "<b>%s(으)로 열기</b>"
 msgid "Remove from System Items"
 msgstr "시스템 항목에서 제거"
 
-#: ../libwindow-settings/gnome-wm-manager.c:316
-#, c-format
-msgid "Window manager \"%s\" has not registered a configuration tool\n"
-msgstr "창 관리자 \"%s\"(이)가 설정 도구에 등록되지 않았습니다\n"
-
-#: ../libwindow-settings/metacity-window-manager.c:404
-msgid "Maximize"
-msgstr "최대화"
-
-#: ../libwindow-settings/metacity-window-manager.c:405
-msgid "Maximize Vertically"
-msgstr "세로 최대화"
-
-#: ../libwindow-settings/metacity-window-manager.c:406
-msgid "Maximize Horizontally"
-msgstr "가로 최대화"
-
-#: ../libwindow-settings/metacity-window-manager.c:407
-msgid "Minimize"
-msgstr "최소화"
-
-#: ../libwindow-settings/metacity-window-manager.c:408
-msgid "Roll up"
-msgstr "말아 올리기"
-
-#: ../libwindow-settings/metacity-window-manager.c:409
-msgid "None"
-msgstr "없음"
-
-#: ../shell/control-center.c:54
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "[%s]키를 찾을 수 없습니다\n"
-
-#: ../shell/control-center.c:151
-msgid "Filter"
-msgstr "필터"
-
-#: ../shell/control-center.c:151
-msgid "Groups"
-msgstr "모음"
-
-#: ../shell/control-center.c:151
-msgid "Common Tasks"
-msgstr "일반 작업"
-
-#: ../shell/control-center.c:155 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "그놈 제어판"
-
-#: ../shell/control-center.schemas.in.h:1
-msgid "Close the control-center when a task is activated"
-msgstr "태스크를 활성화할 때 컨트롤센터를 닫습니다"
-
-#: ../shell/control-center.schemas.in.h:2
-msgid "Exit shell on add or remove action performed"
-msgstr "추가 혹은 제거 동작을 수행할 때 쉘을 끝냅니다"
-
-#: ../shell/control-center.schemas.in.h:3
-msgid "Exit shell on help action performed"
-msgstr "도움말 동작을 수행할 때 쉘을 끝냅니다"
-
-#: ../shell/control-center.schemas.in.h:4
-msgid "Exit shell on start action performed"
-msgstr "시작 동작을 수행할 때 쉘을 끝냅니다"
-
-#: ../shell/control-center.schemas.in.h:5
-msgid "Exit shell on upgrade or uninstall action performed"
-msgstr "업그레이드 혹은 설치 해제 동작을 수행할 때 쉘을 끝냅니다"
-
-#: ../shell/control-center.schemas.in.h:6
-msgid "Indicates whether to close the shell when a help action is performed."
-msgstr "도움말 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
-
-#: ../shell/control-center.schemas.in.h:7
-msgid "Indicates whether to close the shell when a start action is performed."
-msgstr "시작 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
-
-#: ../shell/control-center.schemas.in.h:8
-msgid ""
-"Indicates whether to close the shell when an add or remove action is "
-"performed."
-msgstr "추가 혹은 제거 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
-
-#: ../shell/control-center.schemas.in.h:9
-msgid ""
-"Indicates whether to close the shell when an upgrade or uninstall action is "
-"performed."
-msgstr ""
-"업그레이드 혹은 설치 해제 동작을 수행할 때 쉘을 닫을 지 여부를 나타냅니다."
-
-#: ../shell/control-center.schemas.in.h:10
-msgid "Task names and associated .desktop files"
-msgstr "작업 이름과 관련 .desktop 파일"
-
-#: ../shell/control-center.schemas.in.h:11
-msgid ""
-"The task name to be displayed in the control-center followed by a \";\" "
-"separator then the filename of an associated .desktop file to launch for "
-"that task."
-msgstr ""
-"컨트롤 센터에 표시하는 작업 이름, \";\" 표시 다음에 관련 해당 작업을 실행하"
-"는 데 사용할 관련 .desktop 파일의 파일 이름이 나옵니다."
-
-#. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
-#: ../shell/control-center.schemas.in.h:13
-msgid ""
-"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
-"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr ""
-"[테마 바꾸기;gtk-theme-selector.desktop,기본 프로그램 설정;default-"
-"applications.desktop,프린터 추가;gnome-cups-manager.desktop]"
-
-#: ../shell/control-center.schemas.in.h:14
-msgid ""
-"if true, the control-center will close when a \"Common Task\" is activated."
-msgstr "참이면 \"공통 작업\"을 활성화할 때 컨트롤 센터를 닫습니다."
-
-#: ../shell/gnomecc.desktop.in.in.h:2
-msgid "The GNOME configuration tool"
-msgstr "그놈 설정 도구"
-
-#: ../typing-break/drw-break-window.c:193
-msgid "_Postpone Break"
-msgstr "휴식 시간 미루기(_P)"
-
-#: ../typing-break/drw-break-window.c:249
-msgid "Take a break!"
-msgstr "휴식 시간!"
-
-#. { N_("/_Enabled"),      NULL, GIF_CB (popup_enabled_cb),     POPUP_ITEM_ENABLED, "<ToggleItem>", NULL },
-#. translators: keep the initial "/"
-#: ../typing-break/drwright.c:129
-msgid "/_Preferences"
-msgstr "/기본 설정(_P)"
-
-#: ../typing-break/drwright.c:130
-msgid "/_About"
-msgstr "/정보(_A)"
-
-#: ../typing-break/drwright.c:132
-msgid "/_Take a Break"
-msgstr "/휴식하기(_T)"
-
-#: ../typing-break/drwright.c:488
-#, c-format
-msgid "%d minute until the next break"
-msgid_plural "%d minutes until the next break"
-msgstr[0] "다음 휴식 시간까지 %d분"
-
-#: ../typing-break/drwright.c:492
-#, c-format
-msgid "Less than one minute until the next break"
-msgstr "다음 휴식 시간까지 1분도 안 남음"
-
-#: ../typing-break/drwright.c:579
-#, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr "다음 오류 때문에 타이핑 휴식 속성 대화 상자를 실행할 수 없습니다: %s"
-
-#: ../typing-break/drwright.c:598
-msgid "Written by Richard Hult <richard@imendio.com>"
-msgstr "Richard Hult <richard@imendio.com> 만듦"
-
-#: ../typing-break/drwright.c:599
-msgid "Eye candy added by Anders Carlsson"
-msgstr "Anders Carlsson이 보기 좋은 것들 더함"
-
-#: ../typing-break/drwright.c:608
-msgid "A computer break reminder."
-msgstr "컴퓨터 휴식 시간 알려주기 프로그램."
-
-#: ../typing-break/drwright.c:610
-msgid "translator-credits"
-msgstr ""
-"차영호 <ganadist@gmail.com>, 2007.\n"
-"류창우 <cwryu@debian.org>, 2008."
-
-#: ../typing-break/main.c:61
-msgid "Enable debugging code"
-msgstr "디버깅 코드 사용"
-
-#: ../typing-break/main.c:63
-msgid "Don't check whether the notification area exists"
-msgstr "알림 영역이 있는지 확인하지 않습니다"
-
-#: ../typing-break/main.c:89
-msgid "Typing Monitor"
-msgstr "타이핑 정보"
-
-#: ../typing-break/main.c:105
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"타이핑 정보에서는 알림 영역에서 정보를 보여줍니다. 하지만 패널에 알림 영역이 "
-"없습니다. 패널에 오른쪽 클릭을 해서 '패널에 추가'를 선택한 다음 '알림 영"
-"역'을 선택하고 '추가'를 누르면 알림 영역을 추가할 수 있습니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:1
-msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr "참이면 오픈타입 글꼴을 미리 볼 수 있습니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:2
-msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr "참이면 PCF 글꼴을 미리 볼 수 있습니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:3
-msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr "참이면 트루타입 글꼴을 미리 볼 수 있습니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:4
-msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr "참이면 Type1 글꼴을 미리 볼 수 있습니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr "오픈타입 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:6
-msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr "PCF 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr "트루타입 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:8
-msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr "Type1 글꼴의 미리보기를 만들 때 쓰이는 명령을 정합니다."
-
-#: ../font-viewer/fontilus.schemas.in.h:9
-msgid "Thumbnail command for OpenType fonts"
-msgstr "오픈타입 글꼴의 미리보기 명령"
-
-#: ../font-viewer/fontilus.schemas.in.h:10
-msgid "Thumbnail command for PCF fonts"
-msgstr "PCF 글꼴의 미리보기 명령"
-
-#: ../font-viewer/fontilus.schemas.in.h:11
-msgid "Thumbnail command for TrueType fonts"
-msgstr "트루타입 글꼴의 미리보기 명령"
-
-#: ../font-viewer/fontilus.schemas.in.h:12
-msgid "Thumbnail command for Type1 fonts"
-msgstr "Type1 글꼴의 미리보기 명령"
-
-#: ../font-viewer/fontilus.schemas.in.h:13
-msgid "Whether to thumbnail OpenType fonts"
-msgstr "오픈타입 글꼴을 미리보기"
-
-#: ../font-viewer/fontilus.schemas.in.h:14
-msgid "Whether to thumbnail PCF fonts"
-msgstr "PCF 글꼴을 미리보기"
-
-#: ../font-viewer/fontilus.schemas.in.h:15
-msgid "Whether to thumbnail TrueType fonts"
-msgstr "트루타입 글꼴을 미리보기"
-
-#: ../font-viewer/fontilus.schemas.in.h:16
-msgid "Whether to thumbnail Type1 fonts"
-msgstr "Type1 글꼴을 미리보기"
-
-#: ../font-viewer/font-view.c:113
-msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-msgstr ""
-"키스의 고유 조건은 입술끼리 만나야 하고 특별한 기술은 필요치 않다. 0123456789"
-
-#: ../font-viewer/font-view.c:275
-msgid "Name:"
-msgstr "이름:"
-
-#: ../font-viewer/font-view.c:278
-msgid "Style:"
-msgstr "모양:"
-
-#: ../font-viewer/font-view.c:291
-msgid "Type:"
-msgstr "형식:"
-
-#: ../font-viewer/font-view.c:295
-msgid "Size:"
-msgstr "크기:"
-
-#: ../font-viewer/font-view.c:339 ../font-viewer/font-view.c:352
-msgid "Version:"
-msgstr "버전:"
-
-#: ../font-viewer/font-view.c:343 ../font-viewer/font-view.c:354
-msgid "Copyright:"
-msgstr "저작권:"
-
-#: ../font-viewer/font-view.c:347
-msgid "Description:"
-msgstr "설명:"
-
-#: ../font-viewer/font-view.c:437
-#, c-format
-msgid "usage: %s fontfile\n"
-msgstr "사용법: %s 글꼴파일\n"
-
-#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
-msgid "Font Viewer"
-msgstr "글꼴 보기"
-
-#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
-msgid "Preview fonts"
-msgstr "글꼴 미리 보기"
-
-#: ../font-viewer/font-thumbnailer.c:243
-msgid "Text to thumbnail (default: Aa)"
-msgstr "미리보기에 붙을 텍스트 (기본값: Aa)"
-
-#: ../font-viewer/font-thumbnailer.c:243
-msgid "TEXT"
-msgstr "<텍스트>"
-
-#: ../font-viewer/font-thumbnailer.c:245
-msgid "Font size (default: 64)"
-msgstr "글꼴 크기 (기본값: 64)"
-
-#: ../font-viewer/font-thumbnailer.c:245
-msgid "SIZE"
-msgstr "<크기>"
-
-#: ../font-viewer/font-thumbnailer.c:247
-msgid "FONT-FILE OUTPUT-FILE"
-msgstr "<글꼴파일> <출력파일>"
-
-#: ../font-viewer/font-thumbnailer.c:263
-#, c-format
-msgid "Error parsing arguments: %s\n"
-msgstr "인자 파싱하는 데 오류: %s\n"
-
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "선택한 설정을 적용할 수 없습니다"
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "org.gnome.SettingsDaemon.XRANDR 값을 읽어 올 수 없습니다"
+#~ msgid "_Command:"
+#~ msgstr "명령(_C):"
 #~ msgid "<b>_Wallpaper</b>"
 #~ msgstr "<b>바탕 화면 무늬(_W)</b>"
-
 #~ msgid "No Wallpaper"
 #~ msgstr "바탕 무늬 없음"
-
 #~ msgid "Screen Resolution"
 #~ msgstr "화면 해상도"
-
 #~ msgid "Monitor Resolution Settings"
 #~ msgstr "모니터 해상도 설정"
-
 #~ msgid "Retrieve and store legacy settings"
 #~ msgstr "물려받은 설정을 되찾아서 저장합니다"
-
 #~ msgid "Enable sound and associate sounds with events"
 #~ msgstr "사운드를 사용하고 사운드를 이벤트와 연결합니다"
-
 #~ msgid "Unknown Volume Control %d"
 #~ msgstr "알 수 없는 볼륨 컨트롤 %d"
-
 #~ msgid "Failed to construct test pipeline for '%s'"
 #~ msgstr "'%s'에 대한 테스트 파이프라인을 만드는 데 실패했습니다."
-
 #~ msgid "Not connected"
 #~ msgstr "연결되지 않음"
-
 #~ msgid "Autodetect"
 #~ msgstr "자동 인식"
-
 #~ msgid "ALSA - Advanced Linux Sound Architecture"
 #~ msgstr "ALSA - 고급 리눅스 사운드 구조"
-
 #~ msgid "Artsd - ART Sound Daemon"
 #~ msgstr "Artsd - ART 사운드 데몬"
-
 #~ msgid "ESD - Enlightened Sound Daemon"
 #~ msgstr "ESD - Enlightened 사운드 데몬"
-
 #~ msgid "OSS - Open Sound System"
 #~ msgstr "OSS - 오픈 사운드 시스템"
-
 #~ msgid "PulseAudio Sound Server"
 #~ msgstr "PulseAudio 사운드 서버"
-
 #~ msgid "Test Sound"
 #~ msgstr "소리 검사"
-
 #~ msgid "Silence"
 #~ msgstr "조용히"
-
 #~ msgid "- GNOME Sound Preferences"
 #~ msgstr "- 사운드 기본 설정"
-
 #~ msgid "<b>Alerts and Sound Effects</b>"
 #~ msgstr "<b>알림 및 사운드 이벤트</b>"
-
 #~ msgid "<b>Audio Conferencing</b>"
 #~ msgstr "<b>음성 회의</b>"
-
 #~ msgid "<b>Default Mixer Tracks</b>"
 #~ msgstr "<b>기본 믹서 트랙</b>"
-
 #~ msgid "<b>Music and Movies</b>"
 #~ msgstr "<b>음악 및 동영상</b>"
-
 #~ msgid "<b>Sound Events</b>"
 #~ msgstr "<b>사운드 이벤트</b>"
-
 #~ msgid "<b>Sound Theme</b>"
 #~ msgstr "<b>사운드 테마</b>"
-
 #~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
 #~ msgstr "<span weight=\"bold\" size=\"x-large\">테스트하는 중...</span>"
-
 #~ msgid "Click OK to finish."
 #~ msgstr "마치려면 확인을 누르십시오."
-
 #~ msgid "Devices"
 #~ msgstr "장치"
-
 #~ msgid "Play _alert sound"
 #~ msgstr "알림 사운드 재생(_A)"
-
 #~ msgid "Play _sound effects when buttons are clicked"
 #~ msgstr "단추를 누르면 효과음 재생(_S)"
-
 #~ msgid "S_ound playback:"
 #~ msgstr "소리 재생(_O):"
-
 #~ msgid ""
 #~ "Select the device and tracks to control with the keyboard. Use the Shift "
 #~ "and Control keys to select multiple tracks if required."
 #~ msgstr ""
 #~ "키보드로 조정할 장치와 트랙을 선택합니다. 여러 트랙을 한꺼번에 조정하려면 "
 #~ "Shift와 Control 키를 사용해 여러 트랙을 선택하십시오."
-
 #~ msgid "So_und playback:"
 #~ msgstr "소리 재생(_U):"
-
 #~ msgid "Sou_nd capture:"
 #~ msgstr "소리 캡쳐(_N):"
-
 #~ msgid "Sound Preferences"
 #~ msgstr "사운드 기본 설정"
-
 #~ msgid "Sounds"
 #~ msgstr "소리"
-
 #~ msgid "Test"
 #~ msgstr "테스트"
-
 #~ msgid "Testing Pipeline"
 #~ msgstr "파이프라인 테스트"
-
 #~ msgid "_Device:"
 #~ msgstr "장치(_D):"
-
 #~ msgid "_Play alerts and sound effects"
 #~ msgstr "알림 및 효과음 재생(_P)"
-
 #~ msgid "_Sound playback:"
 #~ msgstr "소리 재생(_S):"
-
 #~ msgctxt "Sound event"
 #~ msgid "Alert sound"
 #~ msgstr "알림 사운드"
-
 #~ msgctxt "Sound event"
 #~ msgid "Visual alert"
 #~ msgstr "시각 알림"
-
 #~ msgctxt "Sound event"
 #~ msgid "Windows and Buttons"
 #~ msgstr "창 및 단추"
-
 #~ msgctxt "Sound event"
 #~ msgid "Button clicked"
 #~ msgstr "단추 누름"
-
 #~ msgctxt "Sound event"
 #~ msgid "Toggle button clicked"
 #~ msgstr "토글 단추 누름"
-
 #~ msgctxt "Sound event"
 #~ msgid "Window maximized"
 #~ msgstr "창 최대화"
-
 #~ msgctxt "Sound event"
 #~ msgid "Window unmaximized"
 #~ msgstr "창 최대화 해제"
-
 #~ msgctxt "Sound event"
 #~ msgid "Window minimised"
 #~ msgstr "창 최소화"
-
 #~ msgctxt "Sound event"
 #~ msgid "Desktop"
 #~ msgstr "바탕 화면"
-
 #~ msgctxt "Sound event"
 #~ msgid "Login"
 #~ msgstr "로그인"
-
 #~ msgctxt "Sound event"
 #~ msgid "Logout"
 #~ msgstr "로그아웃"
-
 #~ msgctxt "Sound event"
 #~ msgid "New e-mail"
 #~ msgstr "새 메일"
-
 #~ msgctxt "Sound event"
 #~ msgid "Empty trash"
 #~ msgstr "휴지통 비우기"
-
 #~ msgctxt "Sound event"
 #~ msgid "Long action completed (download, CD burning, etc.)"
 #~ msgstr "오래 걸리는 동작 완료 (다운로드, CD 굽기 등)"
-
 #~ msgctxt "Sound event"
 #~ msgid "Alerts"
 #~ msgstr "알림"
-
 #~ msgctxt "Sound event"
 #~ msgid "Information or question"
 #~ msgstr "정보 혹은 물음"
-
 #~ msgctxt "Sound event"
 #~ msgid "Warning"
 #~ msgstr "경고"
-
 #~ msgctxt "Sound event"
 #~ msgid "Error"
 #~ msgstr "오류"
-
 #~ msgctxt "Sound event"
 #~ msgid "Battery warning"
 #~ msgstr "배터리 경고"
-
 #~ msgid "Testing event sound"
 #~ msgstr "이벤트 사운드 검사"
-
 #~ msgid "Select Sound File"
 #~ msgstr "사운드 파일 선택"
-
 #~ msgid "Sound files"
 #~ msgstr "사운드 파일"
-
 #~ msgid "Custom..."
 #~ msgstr "사용자 설정..."
-
 #~ msgid "Lock Screen"
 #~ msgstr "화면 잠그기"
-
 #~ msgid "Logout"
 #~ msgstr "로그아웃"
-
 #~ msgid "Shutdown"
 #~ msgstr "끄기"
-
 #~ msgid "Enable support for GNOME assistive technologies at login"
 #~ msgstr "로그인할 때 그놈 보조 기술 기능을 사용합니다."
-
 #~ msgid ""
 #~ "Centered\n"
 #~ "Fill screen\n"
@@ -3771,35 +3802,26 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ "크기 조정\n"
 #~ "확대\n"
 #~ "타일"
-
 #~ msgid ""
 #~ "%s is the path where the theme files will be installed. This can not be "
 #~ "selected as the source location"
 #~ msgstr ""
 #~ "%s은(는) 테마 파일이 설치될 경로입니다. 이 경로는 소스 위치로 선택할 수 없"
 #~ "습니다"
-
 #~ msgid "Just apply settings and quit"
 #~ msgstr "설정을 적용하고 마칩니다"
-
 #~ msgid "Connecting..."
 #~ msgstr "연결중..."
-
 #~ msgid "Inverted"
 #~ msgstr "반전"
-
 #~ msgid "Screen %d Settings\n"
 #~ msgstr "화면 %d 설정\n"
-
 #~ msgid "Screen Resolution Preferences"
 #~ msgstr "화면 해상도 설정"
-
 #~ msgid "_Make default for this computer (%s) only"
 #~ msgstr "이 컴퓨터(%s)의 경우에만 기본값으로 만들기(_M)"
-
 #~ msgid "Options"
 #~ msgstr "옵션"
-
 #~ msgid ""
 #~ "Testing the new settings. If you don't respond in %d second the previous "
 #~ "settings will be restored."
@@ -3809,111 +3831,81 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ msgstr[0] ""
 #~ "새로운 설정을 테스트합니다. %d초 이내에 응답하지 않으면 이전 설정으로 다"
 #~ "시 돌아갑니다."
-
+#~ msgstr[1] ""
+#~ "새로운 설정을 테스트합니다. %d초 이내에 응답하지 않으면 이전 설정으로 다"
+#~ "시 돌아갑니다."
 #~ msgid "Keep Resolution"
 #~ msgstr "이 해상도 계속 사용"
-
 #~ msgid "Do you want to keep this resolution?"
 #~ msgstr "이 해상도를 계속 사용하시겠습니까?"
-
 #~ msgid "Use _Previous Resolution"
 #~ msgstr "이전 해상도 사용(_P)"
-
 #~ msgid "_Keep Resolution"
 #~ msgstr "이 해상도 계속 사용(_K)"
-
 #~ msgid ""
 #~ "The X server does not support the XRandR extension.  Runtime resolution "
 #~ "changes to the display size are not available."
 #~ msgstr ""
 #~ "X 서버가 XRandR 확장 기능을 지원하지 않습니다.  실행 중에 화면 크기를 바"
 #~ "꿀 수 없습니다."
-
 #~ msgid ""
 #~ "The version of the XRandR extension is incompatible with this program. "
 #~ "Runtime changes to the display size are not available."
 #~ msgstr ""
 #~ "XRandR 확장 기능의 버전이 이 프로그램과 호환되지 않습니다. 실행 중에 해상"
 #~ "도를 바꿀 수 없습니다."
-
 #~ msgid "New accelerator..."
 #~ msgstr "새 바로 가기 키..."
-
 #~ msgid "Error setting new accelerator in configuration database: %s\n"
 #~ msgstr "설정 데이터 베이스에서 새로운 단축키 설정 오류: %s\n"
-
 #~ msgid "Keyboard Accessibility Notifications"
 #~ msgstr "키보드 접근성 알림"
-
 #~ msgid "_Layouts:"
 #~ msgstr "키 배치(_L):"
-
 #~ msgid "Advanced Configuration"
 #~ msgstr "고급 설정"
-
 #~ msgid "E_nable software sound mixing (ESD)"
 #~ msgstr "소프트웨어 사운드 믹서(ESD) 사용(_N)"
-
 #~ msgid "System Beep"
 #~ msgstr "시스템 삑 소리"
-
 #~ msgid "_Enable system beep"
 #~ msgstr "시스템 삑 소리 사용(_E)"
-
 #~ msgid "_Visual system beep"
 #~ msgstr "눈에 보이는 시스템 삑 소리(_V)"
-
 #~ msgid "Unexpected attribute '%s' for element '%s'"
 #~ msgstr "예상치 못한 '%2$s' 요소의 '%1$s'속성"
-
 #~ msgid "Attribute '%s' of element '%s' not found"
 #~ msgstr "'%2$s' 요소의 '%1$s'속성을 찾을 수 없습니다"
-
 #~ msgid "Unexpected tag '%s', tag '%s' expected"
 #~ msgstr "예상치 못한 '%s'태그, '%s'태그여야 합니다"
-
 #~ msgid "Unexpected tag '%s' inside '%s'"
 #~ msgstr "예상치 못한 '%2$s'내에 '%1$s'태그"
-
 #~ msgid "No valid bookmark file found in data dirs"
 #~ msgstr "데이터 디렉터리에 올바른 책갈피 파일을 찾을 수 없습니다"
-
 #~ msgid "A bookmark for URI '%s' already exists"
 #~ msgstr "책갈피 URI '%s'(이)가 이미 있습니다"
-
 #~ msgid "No bookmark found for URI '%s'"
 #~ msgstr "URI '%s'에 대한 책갈피를 찾을 수 없습니다"
-
 #~ msgid "No MIME type defined in the bookmark for URI '%s'"
 #~ msgstr "URI '%s'에 대한 책갈피에 MIME형식이 지정되지 않았습니다"
-
 #~ msgid "No private flag has been defined in bookmark for URI '%s'"
 #~ msgstr "URI '%s'에 대한 책갈피에 개인 플래그가 지정되지 않았습니다"
-
 #~ msgid "No groups set in bookmark for URI '%s'"
 #~ msgstr "URI '%s'에 대한 책갈피에 그룹이 설정되지 않았습니다"
-
 #~ msgid "No application with name '%s' registered a bookmark for '%s'"
 #~ msgstr "'%2$s'에 대한 책갈피에 등록된 프로그램 이름 '%1$s'(이)가 없습니다"
-
 #~ msgid "Boing"
 #~ msgstr "깜짝"
-
 #~ msgid "Siren"
 #~ msgstr "사이렌"
-
 #~ msgid "Clink"
 #~ msgstr "짤랑짤랑"
-
 #~ msgid "Beep"
 #~ msgstr "삑"
-
 #~ msgid "No sound"
 #~ msgstr "소리 없음"
-
 #~ msgid "Sound not set for this event."
 #~ msgstr "상황에 따른 소리."
-
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
 #~ "You may want to install the gnome-audio package for a set of default "
@@ -3922,294 +3914,208 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ "이 상황에 대한 사운드 파일이 없습니다.\n"
 #~ "기본 사운드 파일은 gnome-audio 꾸러미에\n"
 #~ "있습니다."
-
 #~ msgid "The sound file for this event does not exist."
 #~ msgstr "이 상황에 대한 사운드 파일이 존재하지 않습니다."
-
 #~ msgid "The file %s is not a valid wav file"
 #~ msgstr "%s 파일은 올바른 WAV 파일이 아닙니다"
-
 #~ msgid "Select sound file..."
 #~ msgstr "소리 파일 선택..."
-
 #~ msgid "System Sounds"
 #~ msgstr "시스템 소리"
-
 #~ msgid "Set as Application Font"
 #~ msgstr "프로그램 글꼴로 설정"
-
 #~ msgid "Sets the default application font"
 #~ msgstr "기본 프로그램 글꼴을 설정합니다"
-
 #~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
 #~ msgstr ""
 #~ "<span weight=\"bold\" size=\"larger\">새 글꼴을 적용하시겠습니까?</span>"
-
 #~ msgid "Do _not apply font"
 #~ msgstr "글꼴 적용하지 않음(_N)"
-
 #~ msgid ""
 #~ "The theme you have selected suggests a new font. A preview of the font is "
 #~ "shown below."
 #~ msgstr ""
 #~ "선택하신 테마는 새 글꼴이 들어 있습니다. 아래에서 글꼴을 미리 볼 수 있습니"
 #~ "다."
-
 #~ msgid "_Apply font"
 #~ msgstr "글꼴 적용(_A)"
-
 #~ msgid "Themes"
 #~ msgstr "테마"
-
 #~ msgid "Description"
 #~ msgstr "설명"
-
 #~ msgid "Control theme"
 #~ msgstr "컨트롤 테마"
-
 #~ msgid "Window border theme"
 #~ msgstr "창 가장자리 테마"
-
 #~ msgid "Icon theme"
 #~ msgstr "아이콘 테마"
-
 #~ msgid "If set to true, then installed themes will be thumbnailed."
 #~ msgstr "참이면 설치된 테마의 미리보기를 만듭니다."
-
 #~ msgid "If set to true, then themes will be thumbnailed."
 #~ msgstr "참이면 테마의 미리보기를 만듭니다."
-
 #~ msgid ""
 #~ "Set this key to the command used to create thumbnails for installed "
 #~ "themes."
 #~ msgstr "이 키는 설치된 테마의 미리보기를 만드는데 쓰이는 명령입니다."
-
 #~ msgid "Set this key to the command used to create thumbnails for themes."
 #~ msgstr "이 키는 테마의 미리보기를 만드는데 쓰이는 명령입니다."
-
 #~ msgid "Thumbnail command for installed themes"
 #~ msgstr "설치된 테마의 미리보기 만들기 명령"
-
 #~ msgid "Thumbnail command for themes"
 #~ msgstr "테마의 미리보기 만들기 명령"
-
 #~ msgid "Whether to thumbnail installed themes"
 #~ msgstr "설치된 테마를 미리보기"
-
 #~ msgid "Whether to thumbnail themes"
 #~ msgstr "테마를 미리보기"
-
 #~ msgid "ABCDEFG"
 #~ msgstr "ABC가나다"
-
 #~ msgid "[FILE]"
 #~ msgstr "[파일]"
-
 #~ msgid "Apply theme"
 #~ msgstr "테마 적용"
-
 #~ msgid "Sets the default theme"
 #~ msgstr "기본 테마로 설정"
-
 #~ msgid " "
 #~ msgstr " "
-
 #~ msgid "    "
 #~ msgstr "    "
-
 #~ msgid "There was an error launching the mouse preferences dialog: %s"
 #~ msgstr "마우스 기본 설정을 시작하는 데 오류가 발생했습니다: %s"
-
 #~ msgid "Unable to import AccessX settings from file '%s'"
 #~ msgstr "AccessX 설정사항을 '%s' 파일에서 가져 올 수 없습니다"
-
 #~ msgid "Import Feature Settings File"
 #~ msgstr "기능 설정 파일 가져오기"
-
 #~ msgid "_Import"
 #~ msgstr "가져오기(_I)"
-
 #~ msgid "Set your keyboard accessibility preferences"
 #~ msgstr "키보드 접근성 기능 기본 설정을 설정합니다"
-
 #~ msgid ""
 #~ "This system does not seem to have the XKB extension.  The keyboard "
 #~ "accessibility features will not operate without it."
 #~ msgstr ""
 #~ "시스템에 XKB확장 기능이 없습니다. 키보드 접근성 기능이 동작하지 않을 것입"
 #~ "니다."
-
 #~ msgid "<b>Enable _Mouse Keys</b>"
 #~ msgstr "<b>마우스 키 사용(_M)</b>"
-
 #~ msgid "<b>Enable _Repeat Keys</b>"
 #~ msgstr "<b>반복 키 사용(_R)</b>"
-
 #~ msgid "<b>Features</b>"
 #~ msgstr "<b>기능</b>"
-
 #~ msgid "<b>Toggle Keys</b>"
 #~ msgstr "<b>토글 키</b>"
-
 #~ msgid "Basic"
 #~ msgstr "기본"
-
 #~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
 #~ msgstr "LED가 켜질 때 삑 소리를 내고, LED가 꺼질 때 삑 소리 두번납니다."
-
 #~ msgid "Delay between keypress and pointer mo_vement:"
 #~ msgstr "키 누름과 포인터 움직임 사이의 지연시간(_V):"
-
 #~ msgid "E_nable Toggle Keys"
 #~ msgstr "토글 키 사용(_N)"
-
 #~ msgid "Filters"
 #~ msgstr "필터"
-
 #~ msgid ""
 #~ "Ignore all subsequent presses of the SAME key if they happen within a "
 #~ "user selectable period of time."
 #~ msgstr "지정한 시간 내에 같은 키가 연속해서 눌릴 경우 무시합니다."
-
 #~ msgid "Keyboard Accessibility Preferences (AccessX)"
 #~ msgstr "키보드 접근성 기능 설정 (AccessX)"
-
 #~ msgid "Ma_ximum pointer speed:"
 #~ msgstr "최대 포인터 속도(_X):"
-
 #~ msgid "Mouse _Preferences..."
 #~ msgstr "마우스 기본 설정(_P)..."
-
 #~ msgid ""
 #~ "Only accept keys after they have been pressed and held for a user "
 #~ "adjustable amount of time."
 #~ msgstr ""
 #~ "키를 누른 후에 사용자가 설정한 만큼의 시간동안 누르고 있어야 그 키를 받아"
 #~ "들입니다."
-
 #~ msgid ""
 #~ "Perform multiple simultaneous key press operations by pressing modifier "
 #~ "keys in sequence."
 #~ msgstr ""
 #~ "변경 키를 눌러서 차례대로 누른 키가 동시에 눌려진 것처럼 처리합니다."
-
 #~ msgid "Time to acce_lerate to maximum speed:"
 #~ msgstr "최대 속도로 가속할 시간(_L):"
-
 #~ msgid "Turn the numeric keypad into a mouse control pad."
 #~ msgstr "숫자 키패드를 마우스 컨트롤 패드로 만듭니다."
-
 #~ msgid "_Disable if unused for:"
 #~ msgstr "이 시간동안 쓰지 않으면 끄기(_D):"
-
 #~ msgid "_Enable keyboard accessibility features"
 #~ msgstr "키보드 접근성 기능 사용(_E)"
-
 #~ msgid "_Import Feature Settings..."
 #~ msgstr "기능 설정 가져오기(_I)..."
-
 #~ msgid "_accepted"
 #~ msgstr "받아들일 때 삑 소리(_A)"
-
 #~ msgid "_pressed"
 #~ msgstr "눌러졌을 때 삑 소리(_P)"
-
 #~ msgid "characters/second"
 #~ msgstr "글자/초"
-
 #~ msgid "milliseconds"
 #~ msgstr "밀리초"
-
 #~ msgid "pixels/second"
 #~ msgstr "픽셀/초"
-
 #~ msgid "Go _to Fonts Folder"
 #~ msgstr "글꼴 폴더로 이동(_T)"
-
 #~ msgid "Autostart the preferred AT"
 #~ msgstr "기본 보조 기술 자동시작"
-
 #~ msgid "Simple OnScreen Keyboard"
 #~ msgstr "간단한 화면 키보드"
-
 #~ msgid "There was an error launching the keyboard tool: %s"
 #~ msgstr "키보드 도구를 시작하는 데 오류가 발생했습니다: %s"
-
 #~ msgid "_Accessibility..."
 #~ msgstr "접근성 기능(_A)..."
-
 #~ msgid "%d millisecond"
 #~ msgid_plural "%d milliseconds"
 #~ msgstr[0] "%d 밀리초"
-
+#~ msgstr[1] "%d 밀리초"
 #~ msgid "<i>Fast</i>"
 #~ msgstr "<i>빠르게</i>"
-
 #~ msgid "<i>High</i>"
 #~ msgstr "<i>높게</i>"
-
 #~ msgid "<i>Large</i>"
 #~ msgstr "<i>크게</i>"
-
 #~ msgid "<i>Low</i>"
 #~ msgstr "<i>낮게</i>"
-
 #~ msgid "<i>Slow</i>"
 #~ msgstr "<i>느리게</i>"
-
 #~ msgid "<i>Small</i>"
 #~ msgstr "<i>작게</i>"
-
 #~ msgid "Buttons"
 #~ msgstr "단추"
-
 #~ msgid "Motion"
 #~ msgstr "움직임"
-
 #~ msgid "      "
 #~ msgstr "      "
-
 #~ msgid "Volume"
 #~ msgstr "볼륨"
-
 #~ msgid "Slow Keys Alert"
 #~ msgstr "느린 키 알림"
-
 #~ msgid ""
 #~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
 #~ "the Slow Keys feature, which affects the way your keyboard works."
 #~ msgstr ""
 #~ "<Shift> 키를 8초 동안 누르고 있었습니다.  느린 키 기능을 사용하게 됩니"
 #~ "다.  느린 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
-
 #~ msgid "Do you want to activate Slow Keys?"
 #~ msgstr "느린 키를 사용하시겠습니까?"
-
 #~ msgid "Do you want to deactivate Slow Keys?"
 #~ msgstr "느린 키를 해제하시겠습니까?"
-
 #~ msgid "_Activate"
 #~ msgstr "활성(_A)"
-
 #~ msgid "_Deactivate"
 #~ msgstr "비활성(_D)"
-
 #~ msgid "Do_n't activate"
 #~ msgstr "활성하지 않기(_N)"
-
 #~ msgid "Do_n't deactivate"
 #~ msgstr "비활성하지 않기(_N)"
-
 #~ msgid "Sticky Keys Alert"
 #~ msgstr "고정 키 알림"
-
 #~ msgid ""
 #~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
 #~ "for the Sticky Keys feature, which affects the way your keyboard works."
 #~ msgstr ""
 #~ "<Shift> 키를 5번 연속해서 눌렀습니다.  고정 키 기능을 사용하게 됩니다.  고"
 #~ "정 키를 사용하면 키보드가 동작하는 방식이 달라집니다."
-
 #~ msgid ""
 #~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
 #~ "row.  This turns off the Sticky Keys feature, which affects the way your "
@@ -4218,49 +4124,38 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ "키 두 개를 동시에 눌렀거나, <Shift> 키를 5번 연속해서 눌렀습니다.  고정 "
 #~ "키 기능을 해제하게 됩니다.  고정 키를 해제하면 키보드가 동작하는 방식이 달"
 #~ "라집니다."
-
 #~ msgid "Do you want to activate Sticky Keys?"
 #~ msgstr "고정 키를 사용하시겠습니까?"
-
 #~ msgid "Do you want to deactivate Sticky Keys?"
 #~ msgstr "고정 키를 해제하시겠습니까?"
-
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing the mouse pointer theme."
 #~ msgstr ""
 #~ "\"%s\" 디렉터리를 만들 수 없습니다.\n"
 #~ "마우스 테마를 바꾸려면 이 디렉터리를 만들어야 합니다."
-
 #~ msgid ""
 #~ "Cannot create the directory \"%s\".\n"
 #~ "This is needed to allow changing cursors."
 #~ msgstr ""
 #~ "\"%s\" 디렉터리를 만들 수 없습니다.\n"
 #~ "커서를 바꾸려면 이 디렉터리를 만들어야 합니다."
-
 #~ msgid "Key Binding (%s) has its action defined multiple times\n"
 #~ msgstr "키 바인딩에 (%s) 대한 행동이 여러 번 정의되어 있습니다\n"
-
 #~ msgid "Key Binding (%s) has its binding defined multiple times\n"
 #~ msgstr "키 바인딩에 (%s) 대한 바인딩이 여러 번 정의되어 있습니다\n"
-
 #~ msgid "Key Binding (%s) is incomplete\n"
 #~ msgstr "키 바인딩이 (%s) 불완전합니다\n"
-
 #~ msgid "Key Binding (%s) is invalid\n"
 #~ msgstr "키 바인딩이 (%s) 잘못되었습니다\n"
-
 #~ msgid "It seems that another application already has access to key '%u'."
 #~ msgstr "다른 프로그램이 이미 '%u' 키를 접근하고 있습니다."
-
 #~ msgid ""
 #~ "Error while trying to run (%s)\n"
 #~ "which is linked to the key (%s)"
 #~ msgstr ""
 #~ "실행하는 데 (%s) 오류가 발생했습니다\n"
 #~ "(%s) 키와 연결되어 있습니다"
-
 #~ msgid ""
 #~ "Error activating XKB configuration.\n"
 #~ "It can happen under various circumstances:\n"
@@ -4289,7 +4184,6 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ "이 상황을 버그로 보고하시려면, 다음 정보를 포함해 주십시오:\n"
 #~ "- <b>%s</b> 명령의 결과\n"
 #~ "- <b>%s</b> 명령의 결과"
-
 #~ msgid ""
 #~ "You are using XFree 4.3.0.\n"
 #~ "There are known problems with complex XKB configurations.\n"
@@ -4300,28 +4194,24 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ "이 버전에는 복잡한 XKB 설정에 관련해 알려진 문제점이 있습니다.\n"
 #~ "좀 더 간단한 설정을 사용하거나 더 최신 버전의 XFree 소프트웨어를 사용하십"
 #~ "시오."
-
 #~ msgid ""
 #~ "Could not get default terminal. Verify that your default terminal command "
 #~ "is set and points to a valid application."
 #~ msgstr ""
 #~ "기본 터미널을 얻을 수 없습니다. 기본 터미널 명령이 설정되어 있고 올바른 프"
 #~ "로그램인지 확인해보시기 바랍니다."
-
 #~ msgid ""
 #~ "Couldn't execute command: %s\n"
 #~ "Verify that this is a valid command."
 #~ msgstr ""
 #~ "명령을 실행할 수 없습니다: %s\n"
 #~ "명령이 있는지 확인해보십시오."
-
 #~ msgid ""
 #~ "Couldn't put the machine to sleep.\n"
 #~ "Verify that the machine is correctly configured."
 #~ msgstr ""
 #~ "컴퓨터를 절전 모드로 바꿀 수 없습니다.\n"
 #~ "컴퓨터가 올바르게 설정되어 있는 지 확인하십시오."
-
 #~ msgid ""
 #~ "There was an error starting up the screensaver:\n"
 #~ "\n"
@@ -4334,244 +4224,166 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ "%s\n"
 #~ "\n"
 #~ "이 세션에서는 화면 보호기 기능이 동작하지 않을 것입니다."
-
 #~ msgid "_Do not show this message again"
 #~ msgstr "이 메시지를 다시 표시하지 않기(_D)"
-
 #~ msgid "Couldn't load sound file %s as sample %s"
 #~ msgstr "사운드 파일 %s을(를) 샘플 %s(으)로 읽어들일 수 없습니다"
-
 #~ msgid "Cannot determine user's home directory"
 #~ msgstr "사용자의 홈 디렉터리를 알 수가 없습니다"
-
 #~ msgid "GConf key %s set to type %s but its expected type was %s\n"
 #~ msgstr ""
 #~ "GConf 키 %s이(가) %s 타입으로 지정되었지만 예상되는 타입은 %s입니다\n"
-
 #~ msgid "A_vailable files:"
 #~ msgstr "사용 가능한 파일(_V):"
-
 #~ msgid "Do _not show this warning again."
 #~ msgstr "이 경고를 다시 표시하지 않기(_N)."
-
 #~ msgid "Load modmap files"
 #~ msgstr "modmap 파일 읽어들이기"
-
 #~ msgid "Would you like to load the modmap file(s)?"
 #~ msgstr "modmap 파일을 읽어들이시겠습니까?"
-
 #~ msgid "_Load"
 #~ msgstr "읽어들이기(_L)"
-
 #~ msgid "_Loaded files:"
 #~ msgstr "읽어들인 파일(_L):"
-
 #~ msgid "Error creating signal pipe."
 #~ msgstr "시그날 파이프를 만드는 데 오류."
-
 #~ msgid "Type"
 #~ msgstr "형식"
-
 #~ msgid ""
 #~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
 #~ "for preview"
 #~ msgstr ""
 #~ "bg_applier의 형식: 루트 윈도우의 BG_APPLIER_ROOT 혹은 미리 보기의 "
 #~ "BG_APPLIER_PREVIEW"
-
 #~ msgid "Preview Width"
 #~ msgstr "미리 보기 너비"
-
 #~ msgid "Width if applier is a preview: Defaults to 64."
 #~ msgstr "미리 보기의 너비: 기본 값은 64입니다."
-
 #~ msgid "Preview Height"
 #~ msgstr "미리 보기 높이"
-
 #~ msgid "Height if applier is a preview: Defaults to 48."
 #~ msgstr "미리 보기의 높이: 기본 값은 48입니다."
-
 #~ msgid "Screen on which BGApplier is to draw"
 #~ msgstr "BGApplier가 그려지는 화면"
-
 #~ msgid "Edited %m/%d/%Y"
 #~ msgstr "%Y/%m/%d에 고쳐짐"
-
 #~ msgid ""
 #~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
 #~ msgstr "참이면 text/plain과 text/*의 mime처리기가 항상 동기화됨"
-
 #~ msgid "Sync text/plain and text/* handlers"
 #~ msgstr "text/plain과 text/* 처리기 동기화"
-
 #~ msgid "E-mail"
 #~ msgstr "전자 메일"
-
 #~ msgid "E-mail's shortcut."
 #~ msgstr "전자 메일 바로 가기."
-
 #~ msgid "Eject"
 #~ msgstr "꺼내기"
-
 #~ msgid "Home folder"
 #~ msgstr "홈 폴더"
-
 #~ msgid "Home folder's shortcut."
 #~ msgstr "홈 폴더 바로 가기."
-
 #~ msgid "Launch help browser"
 #~ msgstr "도움말 브라우저 실행"
-
 #~ msgid "Launch help browser's shortcut."
 #~ msgstr "도움말 브라우저 실행 바로 가기."
-
 #~ msgid "Launch web browser"
 #~ msgstr "웹 브라우저 실행"
-
 #~ msgid "Launch web browser's shortcut."
 #~ msgstr "웹 브라우저 실행 바로 가기."
-
 #~ msgid "Lock screen's shortcut."
 #~ msgstr "화면 잠그기 바로 가기."
-
 #~ msgid "Log out"
 #~ msgstr "로그아웃"
-
 #~ msgid "Log out's shortcut."
 #~ msgstr "로그아웃 바로 가기."
-
 #~ msgid "Media player"
 #~ msgstr "미디어 플레이어"
-
 #~ msgid "Media player key's shortcut."
 #~ msgstr "미디어 플레이어 바로 가기."
-
 #~ msgid "Next track key's shortcut."
 #~ msgstr "다음 트랙 바로 가기."
-
 #~ msgid "Pause"
 #~ msgstr "잠시 멈춤"
-
 #~ msgid "Pause key's shortcut."
 #~ msgstr "잠시 멈춤 바로 가기."
-
 #~ msgid "Play (or play/pause)"
 #~ msgstr "연주 (또는 잠시 멈춤)"
-
 #~ msgid "Play (or play/pause) key's shortcut."
 #~ msgstr "연주 (또는 잠시 멈춤) 바로 가기."
-
 #~ msgid "Previous track key's shortcut."
 #~ msgstr "이전 트랙 바로 가기."
-
 #~ msgid "Search's shortcut."
 #~ msgstr "찾기 바로 가기."
-
 #~ msgid "Skip to next track"
 #~ msgstr "다음 트랙 넘어가기"
-
 #~ msgid "Skip to previous track"
 #~ msgstr "이전 트랙 넘어가기"
-
 #~ msgid "Sleep"
 #~ msgstr "절전 모드"
-
 #~ msgid "Sleep's shortcut."
 #~ msgstr "절전 모드 바로 가기."
-
 #~ msgid "Stop playback key"
 #~ msgstr "연주 멈춤"
-
 #~ msgid "Stop playback key's shortcut."
 #~ msgstr "연주 멈춤 바로 가기."
-
 #~ msgid "Volume down"
 #~ msgstr "소리 낮춤"
-
 #~ msgid "Volume down's shortcut."
 #~ msgstr "소리 낮춤 바로 가기."
-
 #~ msgid "Volume mute"
 #~ msgstr "소리 끔"
-
 #~ msgid "Volume mute's shortcut."
 #~ msgstr "소리 끔 바로 가기."
-
 #~ msgid "Volume step"
 #~ msgstr "소리 단위"
-
 #~ msgid "Volume step as percentage of volume."
 #~ msgstr "소리 단위, 소리 높이의 퍼센트 비율."
-
 #~ msgid "Volume up"
 #~ msgstr "소리 높임"
-
 #~ msgid "Volume up's shortcut."
 #~ msgstr "소리 높임 바로 가기."
-
 #~ msgid "Display a dialog when there are errors running the screensaver"
 #~ msgstr "화면 보호기 실행 중에 오류가 생길 때 대화상자 보임"
-
 #~ msgid "Run screensaver at login"
 #~ msgstr "로그인할 때 화면 보호기 실행"
-
 #~ msgid "Show Startup Errors"
 #~ msgstr "시작 오류 보기"
-
 #~ msgid "Start screensaver"
 #~ msgstr "화면 보호기 시작"
-
 #~ msgid "The theme is an engine. You need to compile it."
 #~ msgstr "이 테마는 엔진입니다. 컴파일해야 합니다."
-
 #~ msgid "The file format is invalid"
 #~ msgstr "파일 포맷이 올바르지 않습니다"
-
 #~ msgid "This theme is not in a supported format."
 #~ msgstr "이 테마는 지원하는 형식이 아닙니다."
-
 #~ msgid "The file format is invalid."
 #~ msgstr "파일 포맷이 올바르지 않습니다."
-
 #~ msgid "Evolution Mail Reader 1.4"
 #~ msgstr "에볼루션 메일 읽기 1.4"
-
 #~ msgid "Evolution Mail Reader 1.5"
 #~ msgstr "에볼루션 메일 읽기 1.5"
-
 #~ msgid "Evolution Mail Reader 1.6"
 #~ msgstr "에볼루션 메일 읽기 1.6"
-
 #~ msgid "Evolution Mail Reader 2.0"
 #~ msgstr "에볼루션 메일 읽기 2.0"
-
 #~ msgid "Evolution Mail Reader 2.2"
 #~ msgstr "에볼루션 메일 읽기 2.2"
-
 #~ msgid "Evolution Mail Reader 2.4"
 #~ msgstr "에볼루션 메일 읽기 2.4"
-
 #~ msgid "Links Text Browser"
 #~ msgstr "Links 텍스트 브라우저"
-
 #~ msgid "Lynx Text Browser"
 #~ msgstr "Lynx 텍스트 브라우저"
-
 #~ msgid "W3M Text Browser"
 #~ msgstr "W3M 텍스트 브라우저"
-
 #~ msgid "_Keep resolution"
 #~ msgstr "이 해상도 계속 사용(_K)"
-
 #~ msgid "Choose..."
 #~ msgstr "고르기..."
-
 #~ msgid "Microsoft Natural Keyboard"
 #~ msgstr "마이크로소프트 내츄럴 키보드"
-
 #~ msgid "Do _not show this warning again"
 #~ msgstr "이 경고를 다시 표시하지 않기(_N)"
-
 #~ msgid ""
 #~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
 #~ "settings.</b>\n"
@@ -4585,9 +4397,6 @@ msgstr "인자 파싱하는 데 오류: %s\n"
 #~ "%s 설정이 있어야 하지만, 다음 설정이 있습니다: %s\n"
 #~ "\n"
 #~ "어느 설정을 사용하시겠습니까?"
-
-#~ msgid "Use X settings"
-#~ msgstr "X 설정 사용"
-
 #~ msgid "Keep GNOME settings"
 #~ msgstr "그놈 설정 유지"
+
