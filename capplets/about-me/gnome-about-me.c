@@ -34,7 +34,6 @@
 #include <libgnomeui/gnome-desktop-thumbnail.h>
 
 #include "e-image-chooser.h"
-#include "gnome-about-me-password.h"
 #include "gnome-about-me-fingerprint.h"
 #include "marshal.h"
 
@@ -817,10 +816,7 @@ about_me_button_clicked_cb (GtkDialog *dialog, gint response_id, GnomeAboutMe *m
 static void
 about_me_passwd_clicked_cb (GtkWidget *button, GnomeAboutMe *me)
 {
-	GtkBuilder *dialog;
-
-	dialog = me->dialog;
-	gnome_about_me_password (GTK_WINDOW (WID ("about-me-dialog")));
+	g_spawn_command_line_async ("/usr/bin/userpasswd", NULL);
 }
 
 static void
