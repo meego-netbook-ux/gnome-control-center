@@ -17,9 +17,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-29 09:18+0000\n"
-"PO-Revision-Date: 2009-07-30 17:25-0800\n"
-"Last-Translator: GLSDEU_Andreas <andreasx.machoy@intel.com>\n"
+"POT-Creation-Date: 2009-09-16 05:44+0000\n"
+"PO-Revision-Date: 2009-09-18 10:24+0100\n"
+"Last-Translator: \n"
 "Language-Team: Deutsch <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -814,7 +814,7 @@ msgstr "Hilfstechnologien"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
 msgid "Choose which accessibility features to enable when you log in"
-msgstr "Die beim Anmelden zu startenden Hilfsmittel für Barrierefreiheit festlegen"
+msgstr "Barrierefreiheitshilfsmittel, die beim Anmelden zu starten sind, festlegen"
 
 #: ../capplets/appearance/appearance-desktop.c:666
 msgid "Add Wallpaper"
@@ -864,7 +864,7 @@ msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Der Name der anzuzeigenden Seite. Mögliche Werte: »theme« (Thema), »background« (Hintergrund), »fonts« (Schriftarten), »interface« (Oberfläche)"
 
 #: ../capplets/appearance/appearance-main.c:143
-#: ../capplets/default-applications/gnome-da-capplet.c:897
+#: ../capplets/default-applications/gnome-da-capplet.c:895
 #: ../capplets/mouse/gnome-mouse-properties.c:463
 msgid "page"
 msgstr "Seite"
@@ -931,7 +931,7 @@ msgid "The current theme suggests a font."
 msgstr "Dieses Thema empfiehlt eine Schriftart."
 
 #: ../capplets/appearance/appearance-themes.c:1046
-#: ../capplets/default-applications/gnome-da-capplet.c:648
+#: ../capplets/default-applications/gnome-da-capplet.c:646
 msgid "Custom"
 msgstr "Benutzerdefiniert"
 
@@ -1776,20 +1776,20 @@ msgstr "Visuelle Rückmeldung"
 msgid "Error saving configuration: %s"
 msgstr "Beim Speichern der Konfiguration ist ein Fehler aufgetreten: %s"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:668
+#: ../capplets/default-applications/gnome-da-capplet.c:666
 msgid "Could not load the main interface"
 msgstr "Haupt-Interface konnte nicht geladen werden"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:670
+#: ../capplets/default-applications/gnome-da-capplet.c:668
 msgid "Please make sure that the applet is properly installed"
 msgstr "Bitte stellen Sie sicher, dass dieses Applet korrekt installiert ist."
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:896
+#: ../capplets/default-applications/gnome-da-capplet.c:894
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr "Der Namen der anzuzeigenden Seite. Mögliche Werte: »internet«, »multimedia«, »system«, »a11y« (Barrierefreiheit)."
 
-#: ../capplets/default-applications/gnome-da-capplet.c:901
+#: ../capplets/default-applications/gnome-da-capplet.c:899
 msgid "- GNOME Default Applications"
 msgstr "- Vorgabe-Anwendungen von GNOME"
 
@@ -2368,20 +2368,20 @@ msgstr "Klicken Sie auf eine Zeile und geben Sie eine neue Tastenkombination ein
 msgid "Assign shortcut keys to commands"
 msgstr "Befehlen eine Tastenkombination zuweisen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:213
-#: ../capplets/keyboard/gnome-keyboard-properties.c:218
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Nur Einstellungen anwenden und beenden (Nur zur Kompatibilität; wird nun durch einen Dämon gehandhabt)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:223
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "Zu Beginn die Seite anzeigen, die die Einstellungen für Tipppausen enthält"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:228
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "Zu Beginn die Seite anzeigen, die die Einstellungen für Barrierefreiheit enthält"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "– GNOME-Tastatureinstellungen"
 
@@ -2743,7 +2743,7 @@ msgid "Unknown"
 msgstr "Unbekannt"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:241
 #: ../capplets/network/gnome-network-properties.c:561
 msgid "Default"
 msgstr "Vorgabe"
@@ -2752,11 +2752,11 @@ msgstr "Vorgabe"
 msgid "Layout"
 msgstr "Belegung"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:169
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:175
 msgid "Vendors"
 msgstr "Hersteller"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:241
 msgid "Models"
 msgstr "Modelle"
 
