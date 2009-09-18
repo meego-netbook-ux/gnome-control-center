@@ -12,9 +12,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center trunk\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-20 09:18+0000\n"
-"PO-Revision-Date: 2009-07-21 00:31-0800\n"
-"Last-Translator: GLSJPN_Yukari <yukarix.yamashita@intel.com>\n"
+"POT-Creation-Date: 2009-09-16 05:44+0000\n"
+"PO-Revision-Date: 2009-09-18 10:46-0800\n"
+"Last-Translator: GLS <tomas.galicia@intel.com>\n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -857,7 +857,7 @@ msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "表示するページの名前を指定する (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:143
-#: ../capplets/default-applications/gnome-da-capplet.c:897
+#: ../capplets/default-applications/gnome-da-capplet.c:895
 #: ../capplets/mouse/gnome-mouse-properties.c:463
 msgid "page"
 msgstr "PAGE"
@@ -924,7 +924,7 @@ msgid "The current theme suggests a font."
 msgstr "このテーマは推奨するフォントの情報を提供しています。"
 
 #: ../capplets/appearance/appearance-themes.c:1046
-#: ../capplets/default-applications/gnome-da-capplet.c:648
+#: ../capplets/default-applications/gnome-da-capplet.c:646
 msgid "Custom"
 msgstr "その他"
 
@@ -1763,20 +1763,20 @@ msgstr "視覚支援"
 msgid "Error saving configuration: %s"
 msgstr "設定情報を保存する際にエラーが発生しました：%s"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:668
+#: ../capplets/default-applications/gnome-da-capplet.c:666
 msgid "Could not load the main interface"
 msgstr "メインのインタフェースを読み込めませんでした"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:670
+#: ../capplets/default-applications/gnome-da-capplet.c:668
 msgid "Please make sure that the applet is properly installed"
 msgstr "そのアプレットが適切にインストールされているか確認して下さい"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:896
+#: ../capplets/default-applications/gnome-da-capplet.c:894
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr "表示するページの名前を指定する (internet|multimedia|system|a11y)"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:901
+#: ../capplets/default-applications/gnome-da-capplet.c:899
 msgid "- GNOME Default Applications"
 msgstr "- GNOME のデフォルトのアプリ"
 
@@ -2093,7 +2093,7 @@ msgstr "ATerm"
 
 #: ../capplets/display/display-capplet.glade.h:1
 #: ../capplets/display/display-capplet-moblin.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:487
+#: ../capplets/display/xrandr-capplet.c:549
 msgid "<b>Monitor</b>"
 msgstr "<b>モニター</b>"
 
@@ -2174,38 +2174,38 @@ msgstr "画面の解像度を変更します"
 msgid "Display"
 msgstr "ディスプレイ"
 
-#: ../capplets/display/xrandr-capplet.c:353
-#: ../capplets/display/xrandr-capplet.c:392
+#: ../capplets/display/xrandr-capplet.c:415
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Normal"
 msgstr "標準"
 
-#: ../capplets/display/xrandr-capplet.c:354
+#: ../capplets/display/xrandr-capplet.c:416
 msgid "Left"
 msgstr "左回り"
 
-#: ../capplets/display/xrandr-capplet.c:355
+#: ../capplets/display/xrandr-capplet.c:417
 msgid "Right"
 msgstr "右回り"
 
-#: ../capplets/display/xrandr-capplet.c:356
+#: ../capplets/display/xrandr-capplet.c:418
 msgid "Upside Down"
 msgstr "逆さま"
 
-#: ../capplets/display/xrandr-capplet.c:430
-#: ../capplets/display/xrandr-capplet.c:438
-#: ../capplets/display/xrandr-capplet.c:439
+#: ../capplets/display/xrandr-capplet.c:492
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:501
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:480
+#: ../capplets/display/xrandr-capplet.c:542
 #, c-format
 msgid "<b>Monitor: %s</b>"
 msgstr "<b>モニター：%s</b>"
 
-#: ../capplets/display/xrandr-capplet.c:590
-#: ../capplets/display/xrandr-capplet.c:600
-#: ../capplets/display/xrandr-capplet.c:608
+#: ../capplets/display/xrandr-capplet.c:652
+#: ../capplets/display/xrandr-capplet.c:662
+#: ../capplets/display/xrandr-capplet.c:670
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2215,23 +2215,23 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1461
+#: ../capplets/display/xrandr-capplet.c:1523
 msgid "Mirror Screens"
 msgstr "複数の画面をミラーする"
 
-#: ../capplets/display/xrandr-capplet.c:1895
+#: ../capplets/display/xrandr-capplet.c:1957
 msgid "Could not save the monitor configuration"
 msgstr "モニターの設定を保存できませんでした"
 
-#: ../capplets/display/xrandr-capplet.c:1906
+#: ../capplets/display/xrandr-capplet.c:1968
 msgid "Could not get session bus while applying display configuration"
 msgstr "ディスプレイの設定を適用するセッションバスの取得に失敗しました"
 
-#: ../capplets/display/xrandr-capplet.c:1948
+#: ../capplets/display/xrandr-capplet.c:2010
 msgid "Could not detect displays"
 msgstr "ディスプレイを検出できませんでした"
 
-#: ../capplets/display/xrandr-capplet.c:2154
+#: ../capplets/display/xrandr-capplet.c:2216
 msgid "Could not get screen information"
 msgstr "スクリーンの情報を取得できませんでした"
 
@@ -2341,7 +2341,7 @@ msgstr "独自のショートカット"
 #: ../capplets/keybindings/gnome-keybinding-properties.glade.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
 msgid "Keyboard Shortcuts"
-msgstr "キーボード・ショートカット"
+msgstr "ショートカット・キー"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.glade.h:4
 msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
@@ -2351,20 +2351,20 @@ msgstr "キーボード・ショートカットを編集する際は、対応す
 msgid "Assign shortcut keys to commands"
 msgstr "コマンドにショートカット・キーを割り当てます"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:213
-#: ../capplets/keyboard/gnome-keyboard-properties.c:218
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "設定を適用して終了する (互換性のみ; 現在はデーモン管理下)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:223
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "入力中断設定を表示させてページを開始します"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:228
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "アクセシビリティーの設定を表示させてページを開始します"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "- GNOME キーボードの設定"
 
@@ -2725,7 +2725,7 @@ msgid "Unknown"
 msgstr "不明"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:241
 #: ../capplets/network/gnome-network-properties.c:561
 msgid "Default"
 msgstr "デフォルト"
@@ -2734,11 +2734,11 @@ msgstr "デフォルト"
 msgid "Layout"
 msgstr "レイアウト"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:169
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:175
 msgid "Vendors"
 msgstr "ベンダー"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:241
 msgid "Models"
 msgstr "型式"
 
