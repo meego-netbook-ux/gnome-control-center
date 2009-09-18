@@ -15,7 +15,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-29 09:18+0000\n"
+"POT-Creation-Date: 2009-09-16 05:44+0000\n"
 "PO-Revision-Date: 2009-07-27 20:38-0800\n"
 "Last-Translator: Tomás Galicia <tomas.galicia@intel.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
@@ -243,7 +243,7 @@ msgstr "Acerca de mí"
 
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:2
 msgid "Set your personal information"
-msgstr "Escriba su información personal"
+msgstr "Mis datos personales"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid ""
@@ -839,7 +839,7 @@ msgstr "Aplicaciones _preferidas"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
 msgid "Assistive Technologies"
-msgstr "Tecnologías de asistencia"
+msgstr "Ayudas tecnológicas"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
 msgid "Choose which accessibility features to enable when you log in"
@@ -915,7 +915,7 @@ msgstr ""
 "interface)"
 
 #: ../capplets/appearance/appearance-main.c:143
-#: ../capplets/default-applications/gnome-da-capplet.c:897
+#: ../capplets/default-applications/gnome-da-capplet.c:895
 #: ../capplets/mouse/gnome-mouse-properties.c:463
 msgid "page"
 msgstr "página"
@@ -998,7 +998,7 @@ msgid "The current theme suggests a font."
 msgstr "El tema actual sugiere una tipografía."
 
 #: ../capplets/appearance/appearance-themes.c:1046
-#: ../capplets/default-applications/gnome-da-capplet.c:648
+#: ../capplets/default-applications/gnome-da-capplet.c:646
 msgid "Custom"
 msgstr "Personalizado"
 
@@ -1428,7 +1428,7 @@ msgstr "Apariencia"
 
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:2
 msgid "Customize the look of the desktop"
-msgstr "Personalice la apariencia del escritorio"
+msgstr "Personaliza tu escritorio"
 
 #: ../capplets/appearance/data/gnome-theme-installer.desktop.in.in.h:1
 msgid "Installs themes packages for various parts of the desktop"
@@ -1857,11 +1857,11 @@ msgstr ""
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:22
 msgid "Preferred Applications"
-msgstr "Aplicaciones preferidas"
+msgstr "Mis aplicaciones"
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:2
 msgid "Select your default applications"
-msgstr "Seleccione sus aplicaciones predeterminadas"
+msgstr "Elige tus preferidas"
 
 #: ../capplets/default-applications/gnome-at-session.desktop.in.in.h:1
 msgid "Start the preferred visual assistive technology"
@@ -1878,22 +1878,22 @@ msgstr "Asistencia visual"
 msgid "Error saving configuration: %s"
 msgstr "Error al guardar la configuración: %s"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:668
+#: ../capplets/default-applications/gnome-da-capplet.c:666
 msgid "Could not load the main interface"
 msgstr "No es posible cargar el interfaz principal"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:670
+#: ../capplets/default-applications/gnome-da-capplet.c:668
 msgid "Please make sure that the applet is properly installed"
 msgstr "Asegúrese de que la miniaplicación está instalada correctamente"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:896
+#: ../capplets/default-applications/gnome-da-capplet.c:894
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 "Especifique el nombre de la página para mostrar (internet|multimedia|system|"
 "a11y)"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:901
+#: ../capplets/default-applications/gnome-da-capplet.c:899
 msgid "- GNOME Default Applications"
 msgstr "- Aplicaciones predeterminadas de GNOME"
 
@@ -2465,7 +2465,7 @@ msgstr "Combinación personalizada"
 #: ../capplets/keybindings/gnome-keybinding-properties.glade.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
 msgid "Keyboard Shortcuts"
-msgstr "Combinaciones de teclas"
+msgstr "Atajos de teclado"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.glade.h:4
 msgid ""
@@ -2477,25 +2477,25 @@ msgstr ""
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
-msgstr "Asigne una combinación de teclas a comandos"
+msgstr "Crea combinaciones de teclas a comandos"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:213
-#: ../capplets/keyboard/gnome-keyboard-properties.c:218
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "Tan sólo aplicar la configuración y salir (sólo por compatibilidad; "
 "manipulado ahora por un demonio)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:223
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "Iniciar la página mostrando la configuración del descanso de escritura"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:228
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "Iniciar la página mostrando la configuración de accesibilidad"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Preferencias del teclado de GNOME"
 
@@ -2864,7 +2864,7 @@ msgid "Unknown"
 msgstr "Desconocido"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:241
 #: ../capplets/network/gnome-network-properties.c:561
 msgid "Default"
 msgstr "Predeterminado"
@@ -2873,11 +2873,11 @@ msgstr "Predeterminado"
 msgid "Layout"
 msgstr "Distribución"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:169
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:175
 msgid "Vendors"
 msgstr "Fabricantes"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:241
 msgid "Models"
 msgstr "Modelos"
 
@@ -2887,7 +2887,7 @@ msgstr "Teclado"
 
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
-msgstr "Establezca sus preferencias del teclado"
+msgstr "Establece tus preferencias del teclado"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -3084,7 +3084,7 @@ msgstr "Ratón"
 
 #: ../capplets/mouse/gnome-settings-mouse.desktop.in.in.h:2
 msgid "Set your mouse preferences"
-msgstr "Establezca sus preferencias del ratón"
+msgstr "Establece tus preferencias del ratón"
 
 #: ../capplets/network/gnome-network-properties.c:677
 #: ../capplets/network/gnome-network-properties.c:816
@@ -3101,7 +3101,7 @@ msgstr "Proxy de la red"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
-msgstr "Establezca sus preferencias del proxy de la red"
+msgstr "Establece tus preferencias del proxy de la red"
 
 #: ../capplets/network/gnome-network-properties.glade.h:1
 msgid "<b>Di_rect internet connection</b>"
@@ -3275,7 +3275,7 @@ msgstr "segundos"
 
 #: ../capplets/windows/window-properties.desktop.in.in.h:1
 msgid "Set your window properties"
-msgstr "Establezca sus propiedades de ventana"
+msgstr "Establece tus propiedades de ventana"
 
 #: ../capplets/windows/window-properties.desktop.in.in.h:2
 msgid "Windows"
