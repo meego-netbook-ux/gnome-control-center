@@ -28,9 +28,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-07-20 09:18+0000\n"
-"PO-Revision-Date: 2009-07-20 14:12-0800\n"
-"Last-Translator: Loïc Dufresne de Virel <loic.dufresne.de.virel@intel.com>\n"
+"POT-Creation-Date: 2009-09-16 05:44+0000\n"
+"PO-Revision-Date: 2009-09-18 15:38-0800\n"
+"Last-Translator: glsfra_Sophie <sophiex.marchese@intel.com>\n"
 "Language-Team: lpdufres <loic.dufresne.de.virel@intel.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -250,9 +250,10 @@ msgstr "Désactiver l'identification par _empreinte digitale..."
 msgid "About Me"
 msgstr "À propos de moi"
 
+# FRA QA : Personnel info
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:2
 msgid "Set your personal information"
-msgstr "Définir vos informations personnelles"
+msgstr "Infos personnelles"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid "You are not allowed to access the device. Contact your system administrator."
@@ -872,7 +873,7 @@ msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Indique le nom de la page à afficher (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:143
-#: ../capplets/default-applications/gnome-da-capplet.c:897
+#: ../capplets/default-applications/gnome-da-capplet.c:895
 #: ../capplets/mouse/gnome-mouse-properties.c:463
 msgid "page"
 msgstr "page"
@@ -939,7 +940,7 @@ msgid "The current theme suggests a font."
 msgstr "Le thème actuel propose une police."
 
 #: ../capplets/appearance/appearance-themes.c:1046
-#: ../capplets/default-applications/gnome-da-capplet.c:648
+#: ../capplets/default-applications/gnome-da-capplet.c:646
 msgid "Custom"
 msgstr "Personnalisé"
 
@@ -1366,9 +1367,10 @@ msgstr "points par pouce"
 msgid "Appearance"
 msgstr "Apparence"
 
+# Fra QA : Customize
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:2
 msgid "Customize the look of the desktop"
-msgstr "Personnaliser l'apparence du bureau"
+msgstr "Personnaliser"
 
 #: ../capplets/appearance/data/gnome-theme-installer.desktop.in.in.h:1
 msgid "Installs themes packages for various parts of the desktop"
@@ -1755,14 +1757,16 @@ msgstr "Ce thème n'aura pas l'aspect souhaité car le thème requis du gestionn
 msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
 msgstr "Ce thème n'aura pas l'aspect souhaité car l'icône requise du thème « %s » n'est pas installée."
 
+# FRA QA : My favorites
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.glade.h:22
 msgid "Preferred Applications"
-msgstr "Applications préférées"
+msgstr "Mes préférées"
 
+# FRA QA : Default selection
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:2
 msgid "Select your default applications"
-msgstr "Sélectionner vos applications par défaut"
+msgstr "Sélection par défaut"
 
 #: ../capplets/default-applications/gnome-at-session.desktop.in.in.h:1
 msgid "Start the preferred visual assistive technology"
@@ -1779,20 +1783,20 @@ msgstr "Aide visuelle"
 msgid "Error saving configuration: %s"
 msgstr "Erreur lors de l'enregistrement de la configuration : %s"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:668
+#: ../capplets/default-applications/gnome-da-capplet.c:666
 msgid "Could not load the main interface"
 msgstr "Impossible de charger l'interface principale"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:670
+#: ../capplets/default-applications/gnome-da-capplet.c:668
 msgid "Please make sure that the applet is properly installed"
 msgstr "Veuillez vérifier que l'applet est correctement installée"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:896
+#: ../capplets/default-applications/gnome-da-capplet.c:894
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr "Indique le nom de la page à afficher (internet|multimedia|system|a11y)"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:901
+#: ../capplets/default-applications/gnome-da-capplet.c:899
 msgid "- GNOME Default Applications"
 msgstr "- Applications par défaut de GNOME"
 
@@ -2109,7 +2113,7 @@ msgstr "aterm"
 
 #: ../capplets/display/display-capplet.glade.h:1
 #: ../capplets/display/display-capplet-moblin.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:487
+#: ../capplets/display/xrandr-capplet.c:549
 msgid "<b>Monitor</b>"
 msgstr "<b>Écran</b>"
 
@@ -2181,46 +2185,47 @@ msgstr "_Résolution :"
 msgid "_Show displays in panel"
 msgstr "_Afficher les écrans sur le tableau de bord"
 
+#    FRA QA : Change resolution
 #: ../capplets/display/display-properties.desktop.in.in.h:1
 msgid "Change screen resolution"
-msgstr "Modifier la résolution de l'écran"
+msgstr "Modifier résolution"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:2
 msgid "Display"
 msgstr "Affichage"
 
-#: ../capplets/display/xrandr-capplet.c:353
-#: ../capplets/display/xrandr-capplet.c:392
+#: ../capplets/display/xrandr-capplet.c:415
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Normal"
 msgstr "Normale"
 
-#: ../capplets/display/xrandr-capplet.c:354
+#: ../capplets/display/xrandr-capplet.c:416
 msgid "Left"
 msgstr "À gauche"
 
-#: ../capplets/display/xrandr-capplet.c:355
+#: ../capplets/display/xrandr-capplet.c:417
 msgid "Right"
 msgstr "À droite"
 
-#: ../capplets/display/xrandr-capplet.c:356
+#: ../capplets/display/xrandr-capplet.c:418
 msgid "Upside Down"
 msgstr "Inversée"
 
-#: ../capplets/display/xrandr-capplet.c:430
-#: ../capplets/display/xrandr-capplet.c:438
-#: ../capplets/display/xrandr-capplet.c:439
+#: ../capplets/display/xrandr-capplet.c:492
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:501
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:480
+#: ../capplets/display/xrandr-capplet.c:542
 #, c-format
 msgid "<b>Monitor: %s</b>"
 msgstr "<b>Écran : %s</b>"
 
-#: ../capplets/display/xrandr-capplet.c:590
-#: ../capplets/display/xrandr-capplet.c:600
-#: ../capplets/display/xrandr-capplet.c:608
+#: ../capplets/display/xrandr-capplet.c:652
+#: ../capplets/display/xrandr-capplet.c:662
+#: ../capplets/display/xrandr-capplet.c:670
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2230,23 +2235,23 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1461
+#: ../capplets/display/xrandr-capplet.c:1523
 msgid "Mirror Screens"
 msgstr "Écrans clones"
 
-#: ../capplets/display/xrandr-capplet.c:1895
+#: ../capplets/display/xrandr-capplet.c:1957
 msgid "Could not save the monitor configuration"
 msgstr "Impossible d'enregistrer la configuration de l'écran"
 
-#: ../capplets/display/xrandr-capplet.c:1906
+#: ../capplets/display/xrandr-capplet.c:1968
 msgid "Could not get session bus while applying display configuration"
 msgstr "Impossible d'obtenir le bus de session lors de l'application de la configuration d'affichage"
 
-#: ../capplets/display/xrandr-capplet.c:1948
+#: ../capplets/display/xrandr-capplet.c:2010
 msgid "Could not detect displays"
 msgstr "Impossible de détecter les écrans"
 
-#: ../capplets/display/xrandr-capplet.c:2154
+#: ../capplets/display/xrandr-capplet.c:2216
 msgid "Could not get screen information"
 msgstr "Impossible d'obtenir les informations de l'écran"
 
@@ -2366,20 +2371,20 @@ msgstr "Pour modifier un raccourci clavier, cliquez sur la ligne correspondante 
 msgid "Assign shortcut keys to commands"
 msgstr "Assigner des raccourcis clavier aux commandes"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:213
-#: ../capplets/keyboard/gnome-keyboard-properties.c:218
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Appliquer les paramètres et quitter (pour compatibilité uniquement ; maintenant géré par un démon)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:223
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "Démarrer la page en affichant les paramètres de pause de saisie"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:228
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "Démarrer la page en affichant les paramètres d'accessibilité"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Préférences du clavier GNOME"
 
@@ -2740,7 +2745,7 @@ msgid "Unknown"
 msgstr "Inconnu"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:241
 #: ../capplets/network/gnome-network-properties.c:561
 msgid "Default"
 msgstr "Par défaut"
@@ -2749,11 +2754,11 @@ msgstr "Par défaut"
 msgid "Layout"
 msgstr "Agencement"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:169
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:175
 msgid "Vendors"
 msgstr "Fabricants"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:241
 msgid "Models"
 msgstr "Modèles"
 
@@ -2965,9 +2970,10 @@ msgstr "Cet emplacement existe déjà"
 msgid "Network Proxy"
 msgstr "Serveur mandataire"
 
+# FRA QA : Set your proxy
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
-msgstr "Définir vos préférences de serveur mandataire (proxy)"
+msgstr "Définir votre proxy"
 
 #: ../capplets/network/gnome-network-properties.glade.h:1
 msgid "<b>Di_rect internet connection</b>"
