@@ -182,7 +182,7 @@ main (int argc, char *argv[])
 	layout_shell (app_data, _("Filter"), _("Groups"), _("Common Tasks"), actions,
 		handle_static_action_clicked);
 
-	create_main_window (app_data, "MyControlCenter", _("Control Center"),
+	create_main_window (app_data, "MyControlCenter", _("Settings"),
 		"gnome-control-center", 975, 600, hidden);
 
 	unique_app_watch_window (unique_app, GTK_WINDOW (app_data->main_app));
