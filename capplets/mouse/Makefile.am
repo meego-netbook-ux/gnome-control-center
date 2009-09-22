@@ -3,6 +3,12 @@ cappletname = mouse
 
 bin_PROGRAMS = gnome-mouse-properties
 
+if HAVE_MOBLIN
+  UI_FILE=gnome-mouse-properties-moblin.ui
+else
+  UI_FILE=gnome-mouse-properties.ui
+endif
+
 gnome_mouse_properties_LDADD = $(GNOMECC_CAPPLETS_LIBS)
 gnome_mouse_properties_SOURCES =	\
 	gnome-mouse-properties.c	\
@@ -18,7 +24,7 @@ pixmap_DATA = \
 	double-click-maybe.png
 
 uidir   = $(pkgdatadir)/ui
-ui_DATA = gnome-mouse-properties.ui
+ui_DATA = $(UI_FILE)
 
 desktopdir = $(datadir)/applications
 Desktop_in_files = gnome-settings-mouse.desktop.in
