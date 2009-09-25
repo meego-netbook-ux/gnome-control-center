@@ -39,6 +39,12 @@
 
 #include "capplet-util.h"
 
+#ifdef HAVE_MOBLIN
+#define UI_FILE "/gnome-about-me-dialog-moblin.ui"
+#else
+#define UI_FILE "/gnome-about-me-dialog.ui"
+#endif
+
 #define MAX_HEIGHT 150
 #define MAX_WIDTH  150
 
@@ -91,8 +97,13 @@ enum {
 
 #define EMAIL_WORK              0
 #define EMAIL_HOME              1
-#define ADDRESS_HOME		21
-#define ADDRESS_WORK		27
+#ifndef HAVE_MOBLIN
+#define ADDRESS_HOME       21
+#define ADDRESS_WORK       27
+#else
+#define ADDRESS_HOME       14
+#define ADDRESS_WORK       20
+#endif
 
 struct WidToCid ids[] = {
 
@@ -106,21 +117,29 @@ struct WidToCid ids[] = {
 
 	{ "im-jabber-e",       E_CONTACT_IM_JABBER_HOME_1    }, /* 06 */
 	{ "im-msn-e",          E_CONTACT_IM_MSN_HOME_1       }, /* 07 */
+#ifndef HAVE_MOBLIN
 	{ "im-icq-e",          E_CONTACT_IM_ICQ_HOME_1       }, /* 08 */
+#endif
 	{ "im-yahoo-e",        E_CONTACT_IM_YAHOO_HOME_1     }, /* 09 */
 	{ "im-aim-e",          E_CONTACT_IM_AIM_HOME_1       }, /* 10 */
+#ifndef HAVE_MOBLIN
 	{ "im-groupwise-e",    E_CONTACT_IM_GROUPWISE_HOME_1 }, /* 11 */
+#endif
 
         { "web-homepage-e",    E_CONTACT_HOMEPAGE_URL        }, /* 12 */
         { "web-calendar-e",    E_CONTACT_CALENDAR_URI        }, /* 13 */
+#ifndef HAVE_MOBLIN
         { "web-weblog-e",      E_CONTACT_BLOG_URL            }, /* 14 */
+#endif
 
+#ifndef HAVE_MOBLIN
         { "job-profession-e",  E_CONTACT_ROLE                }, /* 15 */
-        { "job-title-e",       E_CONTACT_TITLE               }, /* 16 */
         { "job-dept-e",        E_CONTACT_ORG_UNIT            }, /* 17 */
         { "job-assistant-e",   E_CONTACT_ASSISTANT           }, /* 18 */
-        { "job-company-e",     E_CONTACT_ORG                 }, /* 19 */
         { "job-manager-e",     E_CONTACT_MANAGER             }, /* 20 */
+#endif
+        { "job-title-e",       E_CONTACT_TITLE               }, /* 16 */
+        { "job-company-e",     E_CONTACT_ORG                 }, /* 19 */
 
 	{ "addr-street-1",     ADDRESS_STREET                }, /* 21 */
 	{ "addr-po-1", 	       ADDRESS_POBOX                 }, /* 22 */
@@ -841,7 +860,7 @@ about_me_setup_dialog (void)
 	me = g_new0 (GnomeAboutMe, 1);
 
 	dialog = gtk_builder_new ();
-	gtk_builder_add_from_file (dialog, GNOMECC_UI_DIR "/gnome-about-me-dialog.ui", NULL);
+	gtk_builder_add_from_file (dialog, GNOMECC_UI_DIR UI_FILE, NULL);
 
 	me->image_chooser = e_image_chooser_new ();
 	gtk_container_add (GTK_CONTAINER (WID ("button-image")), me->image_chooser);

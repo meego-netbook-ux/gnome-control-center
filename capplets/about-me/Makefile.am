@@ -3,7 +3,12 @@ SUBDIRS = icons
 # This is used in GNOMECC_CAPPLETS_CFLAGS
 cappletname = about-me
 
-ui_files = gnome-about-me-dialog.ui gnome-about-me-password.ui gnome-about-me-fingerprint.ui
+if HAVE_MOBLIN
+  ui_files = gnome-about-me-dialog-moblin.ui gnome-about-me-password.ui gnome-about-me-fingerprint.ui
+else
+  ui_files = gnome-about-me-dialog.ui gnome-about-me-password.ui gnome-about-me-fingerprint.ui
+endif
+
 Desktop_in_files = gnome-about-me.desktop.in
 
 gnome_about_me_SOURCES =	 	\
