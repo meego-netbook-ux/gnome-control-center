@@ -1066,6 +1066,7 @@ setup_dialog (GladeXML *dialog)
 	GType mode_type = 0;
 	GConfClient *client;
 	gint port_value;
+	gchar *current_location;
 	GtkWidget *location_box;
 	GtkCellRenderer *location_renderer;
 	GtkListStore *store;
@@ -1081,6 +1082,10 @@ setup_dialog (GladeXML *dialog)
 	location_box = WID ("location_combobox");
 	store = gtk_list_store_new (2, G_TYPE_STRING, G_TYPE_INT);
 	gtk_combo_box_set_model (GTK_COMBO_BOX (location_box), GTK_TREE_MODEL (store));
+
+	current_location = get_current_location (client);
+	gconf_client_set_string (client, CURRENT_LOCATION, current_location, NULL);
+	g_free (current_location);
 
 	update_locations (client, dialog);
 	gconf_client_add_dir (client, LOCATION_DIR, GCONF_CLIENT_PRELOAD_ONELEVEL, NULL);
