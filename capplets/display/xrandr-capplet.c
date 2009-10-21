@@ -310,67 +310,6 @@ combo_select (GtkWidget *widget, const char *text)
     return TRUE;
 }
 
-#ifdef HAVE_MOBLIN
-
-#define ALLOWED_MODES_NR	2
-
-static GnomeRRMode **
-get_current_modes (App *app)
-{
-    GnomeRROutput *output;
-    static GnomeRRMode *allowed_modes[3] = {NULL, NULL, NULL};
-    GnomeRRMode **modes;
-    int i, allowed_modes_nr = 0;
-
-    if (app->current_configuration->clone)
-    {
-	return gnome_rr_screen_list_clone_modes (app->screen);
-    }
-    else
-    {
-	if (!app->current_output)
-	    return NULL;
-
-	output = gnome_rr_screen_get_output_by_name (
-	    app->screen, app->current_output->name);
-
-	if (!output)
-	    return NULL;
-
-	modes = gnome_rr_output_list_modes (output);
-
-        /* That's quick and dirty, ooooh bleeeeh. Moblin 2.0 UI works well
-         * only with 1024x??? resolution, so let's only show this setting
-         * to the user. Well things are a bit more complicated than that.
-         * 1366x??? looks kind of allright and is the native size of some
-         * nettops and future netbooks LCDs so let's allow that too.
-         * If none of these resolution is available, don't filter modes
-         *
-         * This is of course a fugly distribution patch.
-         */
-        allowed_modes[0] = NULL;                /* reset at every call */
-        for (i = 0; modes[i] != NULL; i++)
-        {
-            GnomeRRMode *mode = modes[i];
-            int width;
-
-            width = gnome_rr_mode_get_width (mode);
-            if (width == 1024 || width == 1366)
-            {
-                allowed_modes[allowed_modes_nr] = mode;
-                allowed_modes_nr++;
-            }
-            if (allowed_modes_nr >= ALLOWED_MODES_NR)
-                break;
-        }
-
-        if (allowed_modes_nr == 0)
-            return modes;
-
-        return allowed_modes;
-    }
-}
-#else
 static GnomeRRMode **
 get_current_modes (App *app)
 {
@@ -394,7 +333,6 @@ get_current_modes (App *app)
 	return gnome_rr_output_list_modes (output);
     }
 }
-#endif
 
 #ifdef HAVE_MOBLIN
 static void
