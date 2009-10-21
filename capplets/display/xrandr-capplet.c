@@ -35,6 +35,12 @@
 #include <dbus/dbus-glib.h>
 #include <dbus/dbus-glib-bindings.h>
 
+#if HAVE_MOBLIN
+#define UIFILE "/display-capplet-moblin.ui"
+#else
+#define UIFILE "/display-capplet.ui"
+#endif
+
 typedef struct App App;
 typedef struct GrabInfo GrabInfo;
 
@@ -289,6 +295,13 @@ get_current_modes (App *app)
     }
 }
 
+#ifdef HAVE_MOBLIN
+static void
+rebuild_rotation_combo (App *app)
+{
+
+}
+#else
 static void
 rebuild_rotation_combo (App *app)
 {
@@ -339,6 +352,7 @@ rebuild_rotation_combo (App *app)
     if (!(selection && combo_select (app->rotation_combo, selection)))
 	combo_select (app->rotation_combo, _("Normal"));
 }
+#endif
 
 static char *
 make_rate_string (int hz)
@@ -578,7 +592,9 @@ rebuild_gui (App *app)
 #if 0
     g_debug ("sensitive: %d, on: %d", sensitive, app->current_output->on);
 #endif
+#ifndef HAVE_MOBLIN
     gtk_widget_set_sensitive (app->panel_checkbox, sensitive);
+#endif
 
     app->ignore_gui_changes = FALSE;
 
@@ -623,6 +639,7 @@ get_mode (GtkWidget *widget, int *width, int *height, int *freq, GnomeRRRotation
 
 }
 
+#ifndef HAVE_MOBLIN
 static void
 on_rotation_changed (GtkComboBox *box, gpointer data)
 {
@@ -637,6 +654,7 @@ on_rotation_changed (GtkComboBox *box, gpointer data)
 
     foo_scroll_area_invalidate (FOO_SCROLL_AREA (app->area));
 }
+#endif
 
 static void
 on_rate_changed (GtkComboBox *box, gpointer data)
@@ -2123,7 +2141,7 @@ run_application (App *app)
 #ifndef UIDIR
 #define UIDIR "."
 #endif
-#define UI_FILE UIDIR "/display-capplet.ui"
+#define UI_FILE UIDIR UIFILE
     GtkBuilder *builder;
     GtkWidget *align;
     GError *error;
@@ -2182,9 +2200,11 @@ run_application (App *app)
     g_signal_connect (app->refresh_combo, "changed",
 		      G_CALLBACK (on_rate_changed), app);
 
+#ifndef HAVE_MOBLIN
     app->rotation_combo = _gtk_builder_get_widget (builder, "rotation_combo");
     g_signal_connect (app->rotation_combo, "changed",
 		      G_CALLBACK (on_rotation_changed), app);
+#endif
 
     app->clone_checkbox = _gtk_builder_get_widget (builder, "clone_checkbox");
     g_signal_connect (app->clone_checkbox, "toggled",
@@ -2193,6 +2213,7 @@ run_application (App *app)
     g_signal_connect (_gtk_builder_get_widget (builder, "detect_displays_button"),
 		      "clicked", G_CALLBACK (on_detect_displays), app);
 
+#ifndef HAVE_MOBLIN
     app->show_icon_checkbox = _gtk_builder_get_widget (builder,
 						      "show_notification_icon");
 
@@ -2200,14 +2221,19 @@ run_application (App *app)
 				  gconf_client_get_bool (app->client, SHOW_ICON_KEY, NULL));
 
     g_signal_connect (app->show_icon_checkbox, "toggled", G_CALLBACK (on_show_icon_toggled), app);
+#endif
 
+#ifndef HAVE_MOBLIN
     app->panel_checkbox = _gtk_builder_get_widget (builder, "panel_checkbox");
+#endif
 
     make_text_combo (app->resolution_combo, 4);
     make_text_combo (app->refresh_combo, 3);
+#ifndef HAVE_MOBLIN
     make_text_combo (app->rotation_combo, -1);
 
     g_assert (app->panel_checkbox);
+#endif
 
     /* Scroll Area */
     app->area = (GtkWidget *)foo_scroll_area_new ();

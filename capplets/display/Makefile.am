@@ -2,7 +2,12 @@
 cappletname = display
 
 uidir = $(pkgdatadir)/ui
-dist_ui_DATA = display-capplet.ui
+if HAVE_MOBLIN
+  UI_FILE = display-capplet-moblin.ui
+else
+  UI_FILE = display-capplet.ui
+endif
+dist_ui_DATA = $(UI_FILE)
 
 bin_PROGRAMS = gnome-display-properties
 
