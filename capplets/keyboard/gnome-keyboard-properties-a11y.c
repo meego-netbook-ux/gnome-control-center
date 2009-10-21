@@ -32,6 +32,12 @@
 #define CONFIG_ROOT "/desktop/gnome/accessibility/keyboard"
 #define NWID(s) GTK_WIDGET (gtk_builder_get_object (notifications_dialog, s))
 
+#if HAVE_MOBLIN
+#define UI_FILE	"/gnome-keyboard-properties-a11y-notifications-moblin.ui"
+#else
+#define UI_FILE	"/gnome-keyboard-properties-a11y-notifications.ui"
+#endif
+
 static GtkBuilder *notifications_dialog = NULL;
 
 static void
@@ -130,7 +136,7 @@ notifications_button_clicked_cb (GtkWidget *button, GtkBuilder *dialog)
     
     notifications_dialog = gtk_builder_new ();
     gtk_builder_add_from_file (notifications_dialog, GNOMECC_UI_DIR
-                               "/gnome-keyboard-properties-a11y-notifications.ui",
+                               UI_FILE,
                                NULL);
 
 	stickykeys_enable_toggled_cb (WID ("stickykeys_enable"), dialog);

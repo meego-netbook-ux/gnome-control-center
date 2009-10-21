@@ -20,12 +20,20 @@ gnome_keyboard_properties_LDADD = $(GNOMECC_CAPPLETS_LIBS) $(LIBGNOMEKBDUI_LIBS)
 @INTLTOOL_DESKTOP_RULE@
 
 uidir   = $(pkgdatadir)/ui
-dist_ui_DATA = gnome-keyboard-properties-a11y-notifications.ui \
-               gnome-keyboard-properties-dialog.ui \
+if HAVE_MOBLIN
+ui_DATA = gnome-keyboard-properties-a11y-notifications-moblin.ui \
+               gnome-keyboard-properties-dialog-moblin.ui \
                gnome-keyboard-properties-layout-chooser.ui \
                gnome-keyboard-properties-model-chooser.ui \
                gnome-keyboard-properties-options-dialog.ui
 
+else
+ui_DATA = gnome-keyboard-properties-a11y-notifications.ui \
+               gnome-keyboard-properties-dialog.ui \
+               gnome-keyboard-properties-layout-chooser.ui \
+               gnome-keyboard-properties-model-chooser.ui \
+               gnome-keyboard-properties-options-dialog.ui
+endif
 desktopdir = $(datadir)/applications
 Desktop_in_files = keyboard.desktop.in
 desktop_DATA = $(Desktop_in_files:.desktop.in=.desktop)
