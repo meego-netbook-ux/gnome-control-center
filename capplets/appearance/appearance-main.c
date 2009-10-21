@@ -30,6 +30,12 @@
 #include "activate-settings-daemon.h"
 #include "capplet-util.h"
 
+#ifdef HAVE_MOBLIN
+#define UI_FILE		"appearance-moblin.ui"
+#else
+#define UI_FILE		"appearance.ui"
+#endif
+
 static AppearanceData *
 init_appearance_data (int *argc, char ***argv, GOptionContext *context)
 {
@@ -39,12 +45,14 @@ init_appearance_data (int *argc, char ***argv, GOptionContext *context)
   GError *err = NULL;
 
   g_thread_init (NULL);
+#ifndef HAVE_MOBLIN
   theme_thumbnail_factory_init (*argc, *argv);
+#endif
   capplet_init (context, argc, argv);
   activate_settings_daemon ();
 
   /* set up the data */
-  uifile = g_build_filename (GNOMECC_GTKBUILDER_DIR, "appearance.ui",
+  uifile = g_build_filename (GNOMECC_GTKBUILDER_DIR, UI_FILE,
                              NULL);
   ui = gtk_builder_new ();
   gtk_builder_add_from_file (ui, uifile, &err);
@@ -77,8 +85,10 @@ main_window_response (GtkWidget *widget,
   {
     gtk_main_quit ();
 
+#ifndef HAVE_MOBLIN
     themes_shutdown (data);
     style_shutdown (data);
+#endif
     desktop_shutdown (data);
     font_shutdown (data);
 
@@ -160,12 +170,16 @@ main (int argc, char **argv)
     return 1;
 
   /* init tabs */
+#ifndef HAVE_MOBLIN
   themes_init (data);
   style_init (data);
+#endif
   desktop_init (data, (const gchar **) wallpaper_files);
   g_strfreev (wallpaper_files);
   font_init (data);
+#ifndef HAVE_MOBLIN
   ui_init (data);
+#endif
 
   /* prepare the main window */
   w = appearance_capplet_get_widget (data, "appearance_window");

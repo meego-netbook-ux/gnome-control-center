@@ -1,6 +1,11 @@
+if HAVE_MOBLIN
+  UI_FILE=appearance-moblin.ui
+else
+  UI_FILE=appearance.ui
+endif
 
 gtkbuilderdir = $(pkgdatadir)/ui
-dist_gtkbuilder_DATA = appearance.ui
+dist_gtkbuilder_DATA = $(UI_FILE)
 
 pixmapdir = $(pkgdatadir)/pixmaps
 dist_pixmap_DATA = \
