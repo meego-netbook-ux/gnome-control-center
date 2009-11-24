@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-01 00:21+0200\n"
-"PO-Revision-Date: 2009-09-01 00:21+0100\n"
-"Last-Translator: Daniel Nylander <po@danielnylander.se>\n"
+"POT-Creation-Date: 2009-11-24 08:25+0000\n"
+"PO-Revision-Date: 2009-10-02 09:14-0800\n"
+"Last-Translator: GLSSVE_GMartinson <gmartinson@gmail.com>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -35,16 +35,28 @@ msgid "More themes URL"
 msgstr "URL för fler teman"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
-msgstr "Ställ in detta till namnet på din aktuella plats. Detta används för att bestämma lämplig konfiguration för nätverksproxyserver."
+msgid ""
+"Set this to your current location name. This is used to determine the "
+"appropriate network proxy configuration."
+msgstr ""
+"Ställ in detta till namnet på din aktuella plats. Detta används för att "
+"bestämma lämplig konfiguration för nätverksproxyserver."
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
-msgstr "URL där fler skrivbordsbakgrunder kan hämtas. Om inställd till en tom sträng så kommer länken inte att visas."
+msgid ""
+"URL for where to get more desktop backgrounds. If set to an empty string the "
+"link will not appear."
+msgstr ""
+"URL där fler skrivbordsbakgrunder kan hämtas. Om inställd till en tom sträng "
+"så kommer länken inte att visas."
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
-msgstr "URL där fler skrivbordsteman kan hämtas. Om inställd till en tom sträng så kommer länken inte att visas."
+msgid ""
+"URL for where to get more desktop themes. If set to an empty string the link "
+"will not appear."
+msgstr ""
+"URL där fler skrivbordsteman kan hämtas. Om inställd till en tom sträng så "
+"kommer länken inte att visas."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -199,25 +211,25 @@ msgstr "Ditt finger var inte centrerat. Prova att dra ditt finger igen"
 msgid "Remove your finger, and try swiping your finger again"
 msgstr "Ta bort ditt finger och prova att dra ditt finger igen"
 
-#: ../capplets/about-me/gnome-about-me.c:712
+#: ../capplets/about-me/gnome-about-me.c:730
 msgid "Select Image"
 msgstr "Välj bild"
 
-#: ../capplets/about-me/gnome-about-me.c:714
+#: ../capplets/about-me/gnome-about-me.c:732
 msgid "No Image"
 msgstr "Ingen bild"
 
-#: ../capplets/about-me/gnome-about-me.c:742
-#: ../capplets/appearance/appearance-desktop.c:654
+#: ../capplets/about-me/gnome-about-me.c:760
+#: ../capplets/appearance/appearance-desktop.c:691
 msgid "Images"
 msgstr "Bilder"
 
-#: ../capplets/about-me/gnome-about-me.c:746
+#: ../capplets/about-me/gnome-about-me.c:764
 #: ../capplets/appearance/theme-installer.c:763
 msgid "All Files"
 msgstr "Alla filer"
 
-#: ../capplets/about-me/gnome-about-me.c:886
+#: ../capplets/about-me/gnome-about-me.c:901
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
@@ -225,20 +237,22 @@ msgstr ""
 "Det inträffade ett fel vid försöket att hämta adressboksinformationen\n"
 "Evolution Data Server kan inte hantera protokollet"
 
-#: ../capplets/about-me/gnome-about-me.c:907
+#: ../capplets/about-me/gnome-about-me.c:922
 msgid "Unable to open address book"
 msgstr "Kan inte öppna adressboken"
 
-#: ../capplets/about-me/gnome-about-me.c:930
+#: ../capplets/about-me/gnome-about-me.c:945
 #, c-format
 msgid "About %s"
 msgstr "Om %s"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:8
 msgid "A_IM/iChat:"
 msgstr "A_IM/iChat:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:9
 msgid "A_ddress:"
 msgstr "A_dress:"
 
@@ -248,6 +262,7 @@ msgstr "A_ssistent:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:10
 msgid "About Me"
 msgstr "Om mig"
 
@@ -256,38 +271,47 @@ msgid "Address"
 msgstr "Adress"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:11
 msgid "C_ity:"
 msgstr "_Ort:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:12
 msgid "C_ompany:"
 msgstr "F_öretag:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:13
 msgid "Cale_ndar:"
 msgstr "Kale_nder:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:14
 msgid "Change Passwo_rd..."
 msgstr "Byt löseno_rd..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:15
 msgid "Ci_ty:"
 msgstr "_Ort:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:16
 msgid "Co_untry:"
 msgstr "_Land:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:17
 msgid "Contact"
 msgstr "Kontakt"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:18
 msgid "Cou_ntry:"
 msgstr "_Land:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:19
 msgid "Disable _Fingerprint Login..."
 msgstr "Inaktivera _fingeravtrycksinloggning..."
 
@@ -296,14 +320,17 @@ msgid "Email"
 msgstr "E-post"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:16
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:20
 msgid "Enable _Fingerprint Login..."
 msgstr "Aktivera _fingeravtrycksinloggning..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:17
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:21
 msgid "Full Name"
 msgstr "Fullständigt namn"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:18
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:22
 msgid "Hom_e:"
 msgstr "H_em:"
 
@@ -325,14 +352,17 @@ msgid "Job"
 msgstr "Jobb"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:24
 msgid "M_SN:"
 msgstr "M_SN:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:25
 msgid "P.O. _box:"
 msgstr "Bo_x:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:26
 msgid "P._O. box:"
 msgstr "Bo_x:"
 
@@ -341,10 +371,12 @@ msgid "Personal Info"
 msgstr "Personlig information"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:28
 msgid "Select your photo"
 msgstr "Välj ditt fotografi"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:29
 msgid "State/Pro_vince:"
 msgstr "_Delstat/Provins:"
 
@@ -353,6 +385,7 @@ msgid "Telephone"
 msgstr "Telefon"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:30
 msgid "User name:"
 msgstr "Användarnamn:"
 
@@ -365,22 +398,27 @@ msgid "Web _log:"
 msgstr "Webb_logg:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:31
 msgid "Wor_k:"
 msgstr "A_rbete:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:32
 msgid "Work"
 msgstr "Arbete"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:33
 msgid "Work _fax:"
 msgstr "Arbets_fax:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:34
 msgid "Zip/_Postal code:"
 msgstr "_Postnummer:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:35
 msgid "_Address:"
 msgstr "_Adress:"
 
@@ -397,10 +435,12 @@ msgid "_Home page:"
 msgstr "_Webbsida:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:36
 msgid "_Home:"
 msgstr "_Hem:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:37
 msgid "_Jabber:"
 msgstr "_Jabber:"
 
@@ -410,6 +450,7 @@ msgid "_Manager:"
 msgstr "_Chef:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:38
 msgid "_Mobile:"
 msgstr "_Mobiltelefon:"
 
@@ -418,6 +459,7 @@ msgid "_Profession:"
 msgstr "_Yrke:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:39
 msgid "_State/Province:"
 msgstr "_Län/Kommun:"
 
@@ -426,14 +468,17 @@ msgid "_Title:"
 msgstr "_Titel:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:41
 msgid "_Work:"
 msgstr "A_rbete:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:42
 msgid "_Yahoo:"
 msgstr "_Yahoo:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:43
 msgid "_Zip/Postal code:"
 msgstr "P_ostnummer:"
 
@@ -442,7 +487,8 @@ msgid "Set your personal information"
 msgstr "Ställ in din personliga information"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid "You are not allowed to access the device. Contact your system administrator."
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
 msgstr "Du tillåts inte komma åt enheten. Kontakta din systemadministratör."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
@@ -462,8 +508,12 @@ msgid "_Delete Fingerprints"
 msgstr "_Ta bort fingeravtryck"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
-msgstr "Vill du ta bort dina registrerade fingeravtryck så att fingeravtrycksinloggning inaktiveras?"
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Vill du ta bort dina registrerade fingeravtryck så att "
+"fingeravtrycksinloggning inaktiveras?"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:342
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
@@ -506,8 +556,12 @@ msgstr "Aktivera fingeravtrycksinloggning"
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:567
 #, c-format
-msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
-msgstr "Du behöver spara ett av dina fingeravtryck, med hjälp av enheten \"%s\", för att aktivera fingeravtrycksinloggning."
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Du behöver spara ett av dina fingeravtryck, med hjälp av enheten \"%s\", för "
+"att aktivera fingeravtrycksinloggning."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:576
 msgid "Swipe finger on reader"
@@ -566,8 +620,12 @@ msgid "Select finger"
 msgstr "Välj finger"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
-msgstr "Ditt fingeravtryck sparades. Du ska nu kunna logga in med hjälp av din fingeravtrycksläsare."
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Ditt fingeravtryck sparades. Du ska nu kunna logga in med hjälp av din "
+"fingeravtrycksläsare."
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
@@ -595,8 +653,12 @@ msgstr "Autentiserad!"
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
 #: ../capplets/about-me/gnome-about-me-password.c:550
-msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
-msgstr "Ditt lösenord har ändrats sedan du initialt autentiserades! Autentisera dig igen."
+msgid ""
+"Your password has been changed since you initially authenticated! Please re-"
+"authenticate."
+msgstr ""
+"Ditt lösenord har ändrats sedan du initialt autentiserades! Autentisera dig "
+"igen."
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
@@ -662,8 +724,10 @@ msgstr "Skriv in ditt lösenord i fältet <b>Nytt lösenord</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.c:936
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid "Please type your password again in the <b>Retype new password</b> field."
-msgstr "Skriv in ditt lösenord igen i fältet <b>Ange ditt nya lösenord igen</b>."
+msgid ""
+"Please type your password again in the <b>Retype new password</b> field."
+msgstr ""
+"Skriv in ditt lösenord igen i fältet <b>Ange ditt nya lösenord igen</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.c:939
 msgid "The two passwords are not equal."
@@ -687,11 +751,15 @@ msgstr "Aktuellt _lösenord:"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and "
+"click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for "
+"verification and click <b>Change password</b>."
 msgstr ""
-"För att ändra ditt lösenord, ange ditt aktuella lösenord i fältet nedan och klicka på <b>Autentisera</b>.\n"
-"Efter att du har blivit autentiserad, ange ditt nya lösenord, skriv in det igen för validering och klicka på <b>Byt lösenord</b>."
+"För att ändra ditt lösenord, ange ditt aktuella lösenord i fältet nedan och "
+"klicka på <b>Autentisera</b>.\n"
+"Efter att du har blivit autentiserad, ange ditt nya lösenord, skriv in det "
+"igen för validering och klicka på <b>Byt lösenord</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -719,8 +787,12 @@ msgid "Assistive Technologies Preferences"
 msgstr "Inställningar för hjälpmedelsfunktioner"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid "Changes to enable assistive technologies will not take effect until your next log in."
-msgstr "Ändringar för aktivering av hjälpmedelsteknik kommer att börja gälla nästa gång du loggar in."
+msgid ""
+"Changes to enable assistive technologies will not take effect until your "
+"next log in."
+msgstr ""
+"Ändringar för aktivering av hjälpmedelsteknik kommer att börja gälla nästa "
+"gång du loggar in."
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
@@ -766,11 +838,11 @@ msgstr "_Föredragna program"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Välj vilka hjälpmedelsfunktioner som ska aktiveras när du loggar in"
 
-#: ../capplets/appearance/appearance-desktop.c:623
+#: ../capplets/appearance/appearance-desktop.c:660
 msgid "Add Wallpaper"
 msgstr "Lägg till bakgrundsbild"
 
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:695
 msgid "All files"
 msgstr "Alla filer"
 
@@ -780,17 +852,41 @@ msgstr "Typsnittet kan vara för stort"
 
 #: ../capplets/appearance/appearance-font.c:498
 #, c-format
-msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
-msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
-msgstr[0] "Det valda typsnittet är %d punkt stort, och kan göra det svårt att effektivt använda datorn. Det rekommenderas att du väljer en storlek som är mindre än %d."
-msgstr[1] "Det valda typsnittet är %d punkter stort, och kan göra det svårt att effektivt använda datorn. Det rekommenderas att du väljer en storlek som är mindre än %d."
+msgid ""
+"The font selected is %d point large, and may make it difficult to "
+"effectively use the computer.  It is recommended that you select a size "
+"smaller than %d."
+msgid_plural ""
+"The font selected is %d points large, and may make it difficult to "
+"effectively use the computer. It is recommended that you select a size "
+"smaller than %d."
+msgstr[0] ""
+"Det valda typsnittet är %d punkt stort, och kan göra det svårt att effektivt "
+"använda datorn. Det rekommenderas att du väljer en storlek som är mindre än %"
+"d."
+msgstr[1] ""
+"Det valda typsnittet är %d punkter stort, och kan göra det svårt att "
+"effektivt använda datorn. Det rekommenderas att du väljer en storlek som är "
+"mindre än %d."
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
-msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
-msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
-msgstr[0] "Det valda typsnittet är %d punkter stort, och kan göra det svårt att effektivt använda datorn. Det rekommenderas att du väljer ett mindre typsnitt."
-msgstr[1] "Det valda typsnittet är %d punkter stort, och kan göra det svårt att effektivt använda datorn. Det rekommenderas att du väljer ett mindre typsnitt."
+msgid ""
+"The font selected is %d point large, and may make it difficult to "
+"effectively use the computer.  It is recommended that you select a smaller "
+"sized font."
+msgid_plural ""
+"The font selected is %d points large, and may make it difficult to "
+"effectively use the computer. It is recommended that you select a smaller "
+"sized font."
+msgstr[0] ""
+"Det valda typsnittet är %d punkter stort, och kan göra det svårt att "
+"effektivt använda datorn. Det rekommenderas att du väljer ett mindre "
+"typsnitt."
+msgstr[1] ""
+"Det valda typsnittet är %d punkter stort, och kan göra det svårt att "
+"effektivt använda datorn. Det rekommenderas att du väljer ett mindre "
+"typsnitt."
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -800,31 +896,31 @@ msgstr "Använd föregående typsnitt"
 msgid "Use selected font"
 msgstr "Använd valt typsnitt"
 
-#: ../capplets/appearance/appearance-main.c:55
+#: ../capplets/appearance/appearance-main.c:63
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Kunde inte läsa in användargränssnittsfilen: %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:144
 msgid "Specify the filename of a theme to install"
 msgstr "Ange filnamnet för det tema som ska installeras"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:145
 msgid "filename"
 msgstr "filnamn"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:152
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Ange namnet på sidan som ska visas (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:153
 #: ../capplets/default-applications/gnome-da-capplet.c:907
-#: ../capplets/mouse/gnome-mouse-properties.c:540
+#: ../capplets/mouse/gnome-mouse-properties.c:560
 msgid "page"
 msgstr "sida"
 
-#: ../capplets/appearance/appearance-main.c:150
+#: ../capplets/appearance/appearance-main.c:160
 msgid "[WALLPAPER...]"
 msgstr "[BAKGRUNDSBILD...]"
 
@@ -842,8 +938,12 @@ msgstr "Installera"
 #: ../capplets/appearance/appearance-style.c:255
 #: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
-msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
-msgstr "Detta tema kommer inte att se ut som det var tänkt därför att den nödvändiga GTK+-temamotorn \"%s\" inte är installerat."
+msgid ""
+"This theme will not look as intended because the required GTK+ theme engine "
+"'%s' is not installed."
+msgstr ""
+"Detta tema kommer inte att se ut som det var tänkt därför att den nödvändiga "
+"GTK+-temamotorn \"%s\" inte är installerat."
 
 #: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
@@ -858,20 +958,32 @@ msgid "Revert Font"
 msgstr "Återställ typsnitt"
 
 #: ../capplets/appearance/appearance-themes.c:711
-msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
-msgstr "Det aktuella temat föreslår en bakgrund och ett typsnitt. I tillägg kan det senaste tillämpade typsnittsförslaget återställas."
+msgid ""
+"The current theme suggests a background and a font. Also, the last applied "
+"font suggestion can be reverted."
+msgstr ""
+"Det aktuella temat föreslår en bakgrund och ett typsnitt. I tillägg kan det "
+"senaste tillämpade typsnittsförslaget återställas."
 
 #: ../capplets/appearance/appearance-themes.c:713
-msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
-msgstr "Det aktuella temat föreslår en bakgrund. I tillägg kan det senaste tillämpade typsnittsförslaget återställas."
+msgid ""
+"The current theme suggests a background. Also, the last applied font "
+"suggestion can be reverted."
+msgstr ""
+"Det aktuella temat föreslår en bakgrund. I tillägg kan det senaste "
+"tillämpade typsnittsförslaget återställas."
 
 #: ../capplets/appearance/appearance-themes.c:715
 msgid "The current theme suggests a background and a font."
 msgstr "Det aktuella temat föreslår en bakgrund och ett typsnitt."
 
 #: ../capplets/appearance/appearance-themes.c:717
-msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
-msgstr "Det aktuella temat föreslår ett typsnitt. I tillägg kan det senaste tillämpade typsnittsförslaget återställas."
+msgid ""
+"The current theme suggests a font. Also, the last applied font suggestion "
+"can be reverted."
+msgstr ""
+"Det aktuella temat föreslår ett typsnitt. I tillägg kan det senaste "
+"tillämpade typsnittsförslaget återställas."
 
 #: ../capplets/appearance/appearance-themes.c:719
 msgid "The current theme suggests a background."
@@ -891,18 +1003,22 @@ msgid "Custom"
 msgstr "Anpassat"
 
 #: ../capplets/appearance/data/appearance.ui.h:1
+#: ../capplets/appearance/data/appearance-moblin.ui.h:6
 msgid "Appearance Preferences"
 msgstr "Inställningar för utseende"
 
 #: ../capplets/appearance/data/appearance.ui.h:2
+#: ../capplets/appearance/data/appearance-moblin.ui.h:7
 msgid "Background"
 msgstr "Bakgrund"
 
 #: ../capplets/appearance/data/appearance.ui.h:3
+#: ../capplets/appearance/data/appearance-moblin.ui.h:8
 msgid "Best _shapes"
 msgstr "Bästa _former"
 
 #: ../capplets/appearance/data/appearance.ui.h:4
+#: ../capplets/appearance/data/appearance-moblin.ui.h:9
 msgid "Best co_ntrast"
 msgstr "Bästa ko_ntrast"
 
@@ -915,30 +1031,37 @@ msgid "C_ustomize..."
 msgstr "A_npassa..."
 
 #: ../capplets/appearance/data/appearance.ui.h:7
+#: ../capplets/appearance/data/appearance-moblin.ui.h:10
 msgid "Centered"
 msgstr "Centrerad"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
+#: ../capplets/appearance/data/appearance-moblin.ui.h:11
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr "Ändring av ditt markörtema blir aktiverad nästa gång du loggar in."
 
 #: ../capplets/appearance/data/appearance.ui.h:9
+#: ../capplets/appearance/data/appearance-moblin.ui.h:12
 msgid "Colors"
 msgstr "Färger"
 
 #: ../capplets/appearance/data/appearance.ui.h:10
+#: ../capplets/appearance/data/appearance-moblin.ui.h:13
 msgid "Controls"
 msgstr "Kontroller"
 
 #: ../capplets/appearance/data/appearance.ui.h:11
+#: ../capplets/appearance/data/appearance-moblin.ui.h:14
 msgid "Customize Theme"
 msgstr "Anpassa tema"
 
 #: ../capplets/appearance/data/appearance.ui.h:12
+#: ../capplets/appearance/data/appearance-moblin.ui.h:15
 msgid "D_etails..."
 msgstr "D_etaljer..."
 
 #: ../capplets/appearance/data/appearance.ui.h:13
+#: ../capplets/appearance/data/appearance-moblin.ui.h:16
 msgid "Des_ktop font:"
 msgstr "S_krivbordstypsnitt:"
 
@@ -947,18 +1070,22 @@ msgid "Edit"
 msgstr "Redigera"
 
 #: ../capplets/appearance/data/appearance.ui.h:15
+#: ../capplets/appearance/data/appearance-moblin.ui.h:17
 msgid "Fill screen"
 msgstr "Fyll skärmen"
 
 #: ../capplets/appearance/data/appearance.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:18
 msgid "Font Rendering Details"
 msgstr "Typsnittsrenderingsdetaljer"
 
 #: ../capplets/appearance/data/appearance.ui.h:17
+#: ../capplets/appearance/data/appearance-moblin.ui.h:19
 msgid "Fonts"
 msgstr "Typsnitt"
 
 #: ../capplets/appearance/data/appearance.ui.h:18
+#: ../capplets/appearance/data/appearance-moblin.ui.h:20
 msgid "Get more backgrounds online"
 msgstr "Hämta fler bakgrundsbilder på nätet"
 
@@ -967,6 +1094,7 @@ msgid "Get more themes online"
 msgstr "Hämta fler teman på nätet"
 
 #: ../capplets/appearance/data/appearance.ui.h:20
+#: ../capplets/appearance/data/appearance-moblin.ui.h:21
 msgid "Gra_yscale"
 msgstr "Gr_åskala"
 
@@ -976,14 +1104,17 @@ msgid "Hinting"
 msgstr "Hintning"
 
 #: ../capplets/appearance/data/appearance.ui.h:23
+#: ../capplets/appearance/data/appearance-moblin.ui.h:22
 msgid "Horizontal gradient"
 msgstr "Horisontell gradient"
 
 #: ../capplets/appearance/data/appearance.ui.h:24
+#: ../capplets/appearance/data/appearance-moblin.ui.h:23
 msgid "Icons"
 msgstr "Ikoner"
 
 #: ../capplets/appearance/data/appearance.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:24
 msgid "Icons only"
 msgstr "Endast ikoner"
 
@@ -993,6 +1124,7 @@ msgstr "Gränssnitt"
 
 #: ../capplets/appearance/data/appearance.ui.h:27
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:25
 msgid "Large"
 msgstr "Stor"
 
@@ -1001,6 +1133,7 @@ msgid "Menus and Toolbars"
 msgstr "Menyer och verktygsrader"
 
 #: ../capplets/appearance/data/appearance.ui.h:29
+#: ../capplets/appearance/data/appearance-moblin.ui.h:26
 msgid "N_one"
 msgstr "I_ngen"
 
@@ -1009,6 +1142,7 @@ msgid "Open a dialog to specify the color"
 msgstr "Öppna ett dialogfönster för att ange färgen"
 
 #: ../capplets/appearance/data/appearance.ui.h:31
+#: ../capplets/appearance/data/appearance-moblin.ui.h:27
 msgid "Pointer"
 msgstr "Muspekare"
 
@@ -1017,6 +1151,7 @@ msgid "Preview"
 msgstr "Förhandsgranska"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
+#: ../capplets/appearance/data/appearance-moblin.ui.h:28
 msgid "R_esolution:"
 msgstr "_Upplösning:"
 
@@ -1025,6 +1160,7 @@ msgid "Rendering"
 msgstr "Rendering"
 
 #: ../capplets/appearance/data/appearance.ui.h:35
+#: ../capplets/appearance/data/appearance-moblin.ui.h:29
 msgid "Save Theme As..."
 msgstr "Spara tema som..."
 
@@ -1033,10 +1169,12 @@ msgid "Save _As..."
 msgstr "Spara s_om..."
 
 #: ../capplets/appearance/data/appearance.ui.h:37
+#: ../capplets/appearance/data/appearance-moblin.ui.h:30
 msgid "Save _background image"
 msgstr "Spara _bakgrundsbild"
 
 #: ../capplets/appearance/data/appearance.ui.h:38
+#: ../capplets/appearance/data/appearance-moblin.ui.h:31
 msgid "Scaled"
 msgstr "Skalad"
 
@@ -1046,6 +1184,7 @@ msgstr "Visa _ikoner i menyer"
 
 #: ../capplets/appearance/data/appearance.ui.h:40
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/appearance/data/appearance-moblin.ui.h:32
 msgid "Small"
 msgstr "Liten"
 
@@ -1054,14 +1193,17 @@ msgid "Smoothing"
 msgstr "Utjämning"
 
 #: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance-moblin.ui.h:33
 msgid "Solid color"
 msgstr "Enfärgad"
 
 #: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance-moblin.ui.h:34
 msgid "Sub_pixel (LCDs)"
 msgstr "Del_bildpunkt (LCD-skärmar)"
 
 #: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance-moblin.ui.h:35
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Del_bildpunktsutjämning (LCD-skärmar)"
 
@@ -1070,22 +1212,27 @@ msgid "Subpixel Order"
 msgstr "Delbildpunktsordning"
 
 #: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance-moblin.ui.h:36
 msgid "Text"
 msgstr "Text"
 
 #: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance-moblin.ui.h:37
 msgid "Text below items"
 msgstr "Text under objekt"
 
 #: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance-moblin.ui.h:38
 msgid "Text beside items"
 msgstr "Text bredvid objekt"
 
 #: ../capplets/appearance/data/appearance.ui.h:49
+#: ../capplets/appearance/data/appearance-moblin.ui.h:39
 msgid "Text only"
 msgstr "Endast text"
 
 #: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance-moblin.ui.h:40
 msgid "The current controls theme does not support color schemes."
 msgstr "Det aktuella kontrollertemat saknar stöd för färgscheman."
 
@@ -1094,6 +1241,7 @@ msgid "Theme"
 msgstr "Tema"
 
 #: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance-moblin.ui.h:41
 msgid "Tiled"
 msgstr "Sida vid sida"
 
@@ -1103,40 +1251,50 @@ msgstr "Etiketter för verktygsrads_knappar:"
 
 #. vertical hinting, pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance-moblin.ui.h:43
 msgid "VB_GR"
 msgstr "VB_GR"
 
 #: ../capplets/appearance/data/appearance.ui.h:56
+#: ../capplets/appearance/data/appearance-moblin.ui.h:44
 msgid "Vertical gradient"
 msgstr "Vertikal gradient"
 
 #: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance-moblin.ui.h:45
 msgid "Window Border"
 msgstr "Fönsterram"
 
 #: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance-moblin.ui.h:46
 msgid "Zoom"
 msgstr "Zooma"
 
 #: ../capplets/appearance/data/appearance.ui.h:59
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:47
 msgid "_Add..."
 msgstr "_Lägg till..."
 
 #: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance-moblin.ui.h:48
 msgid "_Application font:"
 msgstr "_Programtypsnitt:"
 
 #. pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance-moblin.ui.h:50
 msgid "_BGR"
 msgstr "_BGR"
 
 #: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance-moblin.ui.h:51
 msgid "_Description:"
 msgstr "_Beskrivning:"
 
 #: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance-moblin.ui.h:52
 msgid "_Document font:"
 msgstr "_Dokumenttypsnitt:"
 
@@ -1149,14 +1307,17 @@ msgid "_File"
 msgstr "_Arkiv"
 
 #: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance-moblin.ui.h:53
 msgid "_Fixed width font:"
 msgstr "Typsnitt med _fast bredd:"
 
 #: ../capplets/appearance/data/appearance.ui.h:68
+#: ../capplets/appearance/data/appearance-moblin.ui.h:54
 msgid "_Full"
 msgstr "_Fullständig"
 
 #: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance-moblin.ui.h:55
 msgid "_Input boxes:"
 msgstr "_Inmatningsrutor:"
 
@@ -1165,41 +1326,50 @@ msgid "_Install..."
 msgstr "_Installera..."
 
 #: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance-moblin.ui.h:56
 msgid "_Medium"
 msgstr "_Mellan"
 
 #: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance-moblin.ui.h:57
 msgid "_Monochrome"
 msgstr "_Enfärgad"
 
 #: ../capplets/appearance/data/appearance.ui.h:73
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/appearance/data/appearance-moblin.ui.h:58
 msgid "_Name:"
 msgstr "_Namn:"
 
 #: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance-moblin.ui.h:59
 msgid "_None"
 msgstr "_Ingen"
 
 #. pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:76
+#: ../capplets/appearance/data/appearance-moblin.ui.h:61
 msgid "_RGB"
 msgstr "_RGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance-moblin.ui.h:62
 msgid "_Reset to Defaults"
 msgstr "Å_terställ till standardvärden"
 
 #: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance-moblin.ui.h:63
 msgid "_Selected items:"
 msgstr "_Markerade objekt:"
 
 #: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance-moblin.ui.h:64
 msgid "_Size:"
 msgstr "_Storlek:"
 
 # Osäker
 #: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance-moblin.ui.h:65
 msgid "_Slight"
 msgstr "_Lite"
 
@@ -1208,23 +1378,28 @@ msgid "_Style:"
 msgstr "_Stil:"
 
 #: ../capplets/appearance/data/appearance.ui.h:82
+#: ../capplets/appearance/data/appearance-moblin.ui.h:66
 msgid "_Tooltips:"
 msgstr "_Verktygstips:"
 
 #. vertical hinting, pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:84
+#: ../capplets/appearance/data/appearance-moblin.ui.h:68
 msgid "_VRGB"
 msgstr "_VRGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:85
+#: ../capplets/appearance/data/appearance-moblin.ui.h:69
 msgid "_Window title font:"
 msgstr "_Fönstertiteltypsnitt:"
 
 #: ../capplets/appearance/data/appearance.ui.h:86
+#: ../capplets/appearance/data/appearance-moblin.ui.h:70
 msgid "_Windows:"
 msgstr "_Fönster:"
 
 #: ../capplets/appearance/data/appearance.ui.h:87
+#: ../capplets/appearance/data/appearance-moblin.ui.h:71
 msgid "dots per inch"
 msgstr "punkter per tum"
 
@@ -1311,8 +1486,12 @@ msgstr "\"%s\" verkar inte vara ett giltigt tema."
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
-msgstr "\"%s\" verkar inte vara ett giltigt tema. Den kan vara en temamotor som du behöver kompilera."
+msgid ""
+"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
+"you need to compile."
+msgstr ""
+"\"%s\" verkar inte vara ett giltigt tema. Den kan vara en temamotor som du "
+"behöver kompilera."
 
 #: ../capplets/appearance/theme-installer.c:372
 #, c-format
@@ -1399,10 +1578,16 @@ msgstr "Kunde inte installera temamotor"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
+"Without the GNOME settings manager running, some preferences may not take "
+"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
+"settings manager may already be active and conflicting with the GNOME "
+"settings manager."
 msgstr ""
 "Kan inte starta inställningshanteraren \"gnome-settings-daemon\".\n"
-"Om inte GNOME-inställningshanteraren körs så kan en del inställningar inte aktiveras. Detta kan tyda på ett problem med DBus eller att en inställningshanterare från något annat än GNOME (t.ex. KDE) redan kör och är i konflikt med GNOME-inställningshanteraren."
+"Om inte GNOME-inställningshanteraren körs så kan en del inställningar inte "
+"aktiveras. Detta kan tyda på ett problem med DBus eller att en "
+"inställningshanterare från något annat än GNOME (t.ex. KDE) redan kör och är "
+"i konflikt med GNOME-inställningshanteraren."
 
 #: ../capplets/common/capplet-stock-icons.c:66
 #, c-format
@@ -1504,22 +1689,27 @@ msgstr "Återanrop"
 
 #: ../capplets/common/gconf-property-editor.c:142
 msgid "Issue this callback when the value associated with key gets changed"
-msgstr "Gör detta återanrop då värdet som är associerat med denna nyckel ändras"
+msgstr ""
+"Gör detta återanrop då värdet som är associerat med denna nyckel ändras"
 
 #: ../capplets/common/gconf-property-editor.c:147
 msgid "Change set"
 msgstr "Ändra grupp"
 
 #: ../capplets/common/gconf-property-editor.c:148
-msgid "GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr "GConf-ändringssamling som innehåller data att vidarebefordras till gconf-klienten vid verkställande"
+msgid ""
+"GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr ""
+"GConf-ändringssamling som innehåller data att vidarebefordras till gconf-"
+"klienten vid verkställande"
 
 #: ../capplets/common/gconf-property-editor.c:153
 msgid "Conversion to widget callback"
 msgstr "Konvertering till widgetåteranrop"
 
 #: ../capplets/common/gconf-property-editor.c:154
-msgid "Callback to be issued when data are to be converted from GConf to the widget"
+msgid ""
+"Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "Återanrop att utföras då data konverteras från GConf till widgeten"
 
 #: ../capplets/common/gconf-property-editor.c:159
@@ -1527,7 +1717,8 @@ msgid "Conversion from widget callback"
 msgstr "Konvertering från widgetåteranrop"
 
 #: ../capplets/common/gconf-property-editor.c:160
-msgid "Callback to be issued when data are to be converted to GConf from the widget"
+msgid ""
+"Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "Återanrop att utföras då data konverteras till GConf från widgeten"
 
 #: ../capplets/common/gconf-property-editor.c:165
@@ -1559,11 +1750,13 @@ msgstr "Återanrop att utföras då objektdata från egenskapsdata frigörs"
 msgid ""
 "Couldn't find the file '%s'.\n"
 "\n"
-"Please make sure it exists and try again, or choose a different background picture."
+"Please make sure it exists and try again, or choose a different background "
+"picture."
 msgstr ""
 "Kunde inte hitta filen \"%s\".\n"
 "\n"
-"Försäkra dig om att den finns och försök igen, eller välj en annan bakgrundsbild."
+"Försäkra dig om att den finns och försök igen, eller välj en annan "
+"bakgrundsbild."
 
 #: ../capplets/common/gconf-property-editor.c:1413
 #, c-format
@@ -1616,18 +1809,30 @@ msgstr "Stor vit muspekare"
 
 #: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
-msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
-msgstr "Detta tema kommer inte att se ut som det var tänkt därför att det nödvändiga GTK+-temat \"%s\" inte är installerat."
+msgid ""
+"This theme will not look as intended because the required GTK+ theme '%s' is "
+"not installed."
+msgstr ""
+"Detta tema kommer inte att se ut som det var tänkt därför att det nödvändiga "
+"GTK+-temat \"%s\" inte är installerat."
 
 #: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
-msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
-msgstr "Detta tema kommer inte att se ut som det var tänkt därför att det nödvändiga fönsterhanterartemat \"%s\" inte är installerat."
+msgid ""
+"This theme will not look as intended because the required window manager "
+"theme '%s' is not installed."
+msgstr ""
+"Detta tema kommer inte att se ut som det var tänkt därför att det nödvändiga "
+"fönsterhanterartemat \"%s\" inte är installerat."
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
-msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
-msgstr "Detta tema kommer inte att se ut som det var tänkt därför att det nödvändiga ikontemat \"%s\" inte är installerat."
+msgid ""
+"This theme will not look as intended because the required icon theme '%s' is "
+"not installed."
+msgstr ""
+"Detta tema kommer inte att se ut som det var tänkt därför att det nödvändiga "
+"ikontemat \"%s\" inte är installerat."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
@@ -1982,6 +2187,7 @@ msgid "aterm"
 msgstr "aterm"
 
 #: ../capplets/display/display-capplet.ui.h:1
+#: ../capplets/display/display-capplet-moblin.ui.h:3
 msgid "Display Preferences"
 msgstr "Skärminställningar"
 
@@ -1994,26 +2200,30 @@ msgid "Include _panel"
 msgstr "Inkludera _panel"
 
 #: ../capplets/display/display-capplet.ui.h:4
-#: ../capplets/display/xrandr-capplet.c:302
+#: ../capplets/display/xrandr-capplet.c:315
+#: ../capplets/display/display-capplet-moblin.ui.h:4
 msgid "Left"
 msgstr "Vänster"
 
 #: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:440
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Monitor"
 msgstr "Skärm"
 
 #: ../capplets/display/display-capplet.ui.h:6
-#: ../capplets/display/xrandr-capplet.c:301
-#: ../capplets/display/xrandr-capplet.c:340
+#: ../capplets/display/xrandr-capplet.c:314
+#: ../capplets/display/xrandr-capplet.c:353
+#: ../capplets/display/display-capplet-moblin.ui.h:5
 msgid "Normal"
 msgstr "Normal"
 
 #: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet-moblin.ui.h:6
 msgid "Off"
 msgstr "Av"
 
 #: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet-moblin.ui.h:7
 msgid "On"
 msgstr "På"
 
@@ -2026,27 +2236,33 @@ msgid "R_otation:"
 msgstr "R_otation:"
 
 #: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/display-capplet-moblin.ui.h:8
 msgid "Re_fresh rate:"
 msgstr "Uppdater_ingsfrekvens:"
 
 #: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:303
+#: ../capplets/display/xrandr-capplet.c:316
+#: ../capplets/display/display-capplet-moblin.ui.h:9
 msgid "Right"
 msgstr "Höger"
 
 #: ../capplets/display/display-capplet.ui.h:13
+#: ../capplets/display/display-capplet-moblin.ui.h:10
 msgid "Upside-down"
 msgstr "Upp och ned"
 
 #: ../capplets/display/display-capplet.ui.h:14
+#: ../capplets/display/display-capplet-moblin.ui.h:11
 msgid "_Detect Monitors"
 msgstr "_Detektera skärmar"
 
 #: ../capplets/display/display-capplet.ui.h:15
+#: ../capplets/display/display-capplet-moblin.ui.h:12
 msgid "_Mirror screens"
 msgstr "Sp_egla skärmar"
 
 #: ../capplets/display/display-capplet.ui.h:16
+#: ../capplets/display/display-capplet-moblin.ui.h:13
 msgid "_Resolution:"
 msgstr "_Upplösning:"
 
@@ -2062,21 +2278,21 @@ msgstr "Ändra skärmupplösning"
 msgid "Display"
 msgstr "Skärm"
 
-#: ../capplets/display/xrandr-capplet.c:304
+#: ../capplets/display/xrandr-capplet.c:317
 msgid "Upside Down"
 msgstr "Upp och ned"
 
-#: ../capplets/display/xrandr-capplet.c:346
+#: ../capplets/display/xrandr-capplet.c:360
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:432
+#: ../capplets/display/xrandr-capplet.c:446
 #, c-format
 msgid "Monitor: %s"
 msgstr "Skärm: %s"
 
-#: ../capplets/display/xrandr-capplet.c:511
+#: ../capplets/display/xrandr-capplet.c:525
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2086,23 +2302,25 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1458
+#: ../capplets/display/xrandr-capplet.c:1476
 msgid "Mirror Screens"
 msgstr "Spegla skärmar"
 
-#: ../capplets/display/xrandr-capplet.c:1878
+#: ../capplets/display/xrandr-capplet.c:1896
 msgid "Could not save the monitor configuration"
 msgstr "Kunde inte spara skärmkonfigurationen"
 
-#: ../capplets/display/xrandr-capplet.c:1889
+#: ../capplets/display/xrandr-capplet.c:1907
 msgid "Could not get session bus while applying display configuration"
-msgstr "Kunde inte få tag på sessionsbussen under verkställning av skärmkonfigurationen"
+msgstr ""
+"Kunde inte få tag på sessionsbussen under verkställning av "
+"skärmkonfigurationen"
 
-#: ../capplets/display/xrandr-capplet.c:1931
+#: ../capplets/display/xrandr-capplet.c:1949
 msgid "Could not detect displays"
 msgstr "Kunde inte detektera display"
 
-#: ../capplets/display/xrandr-capplet.c:2146
+#: ../capplets/display/xrandr-capplet.c:2164
 msgid "Could not get screen information"
 msgstr "Kunde inte få tag på skärminformation"
 
@@ -2152,25 +2370,28 @@ msgstr "Inaktiverad"
 msgid "<Unknown Action>"
 msgstr "<Okänd åtgärd>"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:942
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1566
+#: ../capplets/keybindings/gnome-keybinding-properties.c:954
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1581
 msgid "Custom Shortcuts"
 msgstr "Anpassade genvägar"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1081
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1096
 msgid "Error saving the new shortcut"
 msgstr "Fel vid sparande av ny genväg"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1160
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1175
 #, c-format
 msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
-"Genvägen \"%s\" kan inte användas på grund av att den kommer att bli omöjlig att ange med\n"
-"den här tangenten. Prova med en tangent såsom Control, Alt eller Skift på samma gång."
+"Genvägen \"%s\" kan inte användas på grund av att den kommer att bli omöjlig "
+"att ange med\n"
+"den här tangenten. Prova med en tangent såsom Control, Alt eller Skift på "
+"samma gång."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1190
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1205
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2179,29 +2400,32 @@ msgstr ""
 "Genvägen \"%s\" används redan för\n"
 " \"%s\""
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1196
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1211
 #, c-format
-msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr "Om du omtilldelar genvägen till \"%s\" kommer genvägen \"%s\" att inaktiveras."
+msgid ""
+"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgstr ""
+"Om du omtilldelar genvägen till \"%s\" kommer genvägen \"%s\" att "
+"inaktiveras."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1204
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1219
 msgid "_Reassign"
 msgstr "_Omtilldela"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1324
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1339
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "Fel vid borttagning av snabbtangent i konfigurationsdatabasen: %s"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1521
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1536
 msgid "Too many custom shortcuts"
 msgstr "För många anpassade genvägar"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1818
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1832
 msgid "Action"
 msgstr "Åtgärd"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1840
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1854
 msgid "Shortcut"
 msgstr "Genväg"
 
@@ -2215,55 +2439,69 @@ msgid "Keyboard Shortcuts"
 msgstr "Tangentbordsgenvägar"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
-msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
-msgstr "För att redigera en genvägstangent så klickar du på motsvarande rad och trycker en ny tangentkombination, eller trycker på backsteg för att tömma."
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new key "
+"combination, or press backspace to clear."
+msgstr ""
+"För att redigera en genvägstangent så klickar du på motsvarande rad och "
+"trycker en ny tangentkombination, eller trycker på backsteg för att tömma."
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
 msgstr "Associera snabbtangenter med kommandon"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
-msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr "Verkställ bara ändringar och avsluta (endast för kompatibilitet; hanteras nu av demon)"
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+msgid ""
+"Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr ""
+"Verkställ bara ändringar och avsluta (endast för kompatibilitet; hanteras nu "
+"av demon)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "Starta sidan utan att inställningarna för skrivandepaus visas"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "Starta sidan med visade hjälpmedelsinställningar"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Tangentbordsinställningar för GNOME"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:6
 msgid "Beep when _accessibility features are turned on or off"
 msgstr "Pip när _hjälpmedelsfunktioner slås på eller av"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:7
 msgid "Beep when a _modifier key is pressed"
 msgstr "Pip när en _modifierartangent trycks ned"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:8
 msgid "Beep when a _toggle key is pressed"
 msgstr "Pip när en _växlingstangent trycks ned"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:9
 msgid "Beep when a key is pr_essed"
 msgstr "Pip när en tangent tr_ycks ned"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:10
 msgid "Beep when a key is reje_cted"
 msgstr "Pip när en tangent för_kastas"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:11
 msgid "Beep when key is _accepted"
 msgstr "Pip när tangent a_ccepteras"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:12
 msgid "Beep when key is _rejected"
 msgstr "Pip när tangent f_örkastas"
 
@@ -2273,24 +2511,30 @@ msgid "Bounce Keys"
 msgstr "Studsande tangenter"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:13
 msgid "Flash _window titlebar"
 msgstr "Blinka _fönstrets titellist"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:14
 msgid "Flash entire _screen"
 msgstr "Blinka hela _skärmen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:9
 msgid "General"
 msgstr "Allmänt"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:15
 msgid "Keyboard Accessibility Audio Feedback"
 msgstr "Ljudåterkoppling för tangentbordshjälpmedel"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:16
 msgid "Show _visual feedback for the alert sound"
 msgstr "Visa _visuell återkoppling för larmljudet"
 
@@ -2313,6 +2557,7 @@ msgid "A_cceleration:"
 msgstr "A_cceleration:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:1
 msgid "All_ow postponing of breaks"
 msgstr "Till_åt uppskjutning av pauser"
 
@@ -2321,19 +2566,23 @@ msgid "Audio _Feedback..."
 msgstr "Ljud_återkoppling..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:2
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Kryssa i om pauser ska tillåtas att avbrytas"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:3
 msgid "Cursor Blinking"
 msgstr "Markörblinkning"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:4
 msgid "Cursor _blinks in text fields"
 msgstr "Markören _blinkar i textfält"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:5
 msgid "Cursor blinks speed"
 msgstr "Hastighet för markörblinkning"
 
@@ -2347,44 +2596,58 @@ msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "Inakti_vera klistriga tangenter om två tangenter trycks ned samtidigt"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:6
 msgid "Duration of the break when typing is disallowed"
 msgstr "Längd på paus när skrivande inte tillåts"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:7
 msgid "Duration of work before forcing a break"
 msgstr "Längd på arbete innan paus"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:8
 msgid "Fast"
 msgstr "Snabb"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:10
 msgid "Key presses _repeat when key is held down"
 msgstr "Tangenttryckningar _upprepar då tangent hålls ned"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:11
 msgid "Keyboard Preferences"
 msgstr "Tangentbordsinställningar"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:12
 msgid "Keyboard _model:"
 msgstr "Tangentbords_modell:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:13
 msgid "Layout _Options..."
 msgstr "Layouta_lternativ..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:14
 msgid "Layouts"
 msgstr "Layouter"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
-msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
-msgstr "Lås skärmen efter en viss tid för att förhindra förslitningsskador från tangentbordsanvändning"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:15
+msgid ""
+"Lock screen after a certain duration to help prevent repetitive keyboard use "
+"injuries"
+msgstr ""
+"Lås skärmen efter en viss tid för att förhindra förslitningsskador från "
+"tangentbordsanvändning"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:16
 msgid "Long"
 msgstr "Lång"
 
@@ -2393,36 +2656,44 @@ msgid "Mouse Keys"
 msgstr "Mustangenter"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:17
 msgid "Repeat Keys"
 msgstr "Upprepningstangenter"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:18
 msgid "Repeat keys speed"
 msgstr "Tangentupprepnings_hastighet:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:19
 msgid "Reset to De_faults"
 msgstr "Återställ till s_tandardvärden"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:20
 msgid "S_peed:"
 msgstr "Hasti_ghet:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:21
 msgid "Separate _layout for each window"
 msgstr "Separat _layout för varje fönster"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:22
 msgid "Short"
 msgstr "Kort"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:23
 msgid "Slow"
 msgstr "Långsam"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:24
 msgid "Typing Break"
 msgstr "Paus i skrivande"
 
@@ -2431,11 +2702,13 @@ msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "_Hjälpmedelsfunktioner kan växlas på och av med tangentbordsgenvägar"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:26
 msgid "_Break interval lasts:"
 msgstr "_Pausen varar:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:27
 msgid "_Delay:"
 msgstr "_Fördröjning:"
 
@@ -2444,6 +2717,7 @@ msgid "_Ignore fast duplicate keypresses"
 msgstr "I_gnorera snabba dublettangenttryckningar"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:28
 msgid "_Lock screen to enforce typing break"
 msgstr "_Lås skärmen för att tvinga fram paus i skrivandet"
 
@@ -2456,6 +2730,7 @@ msgid "_Pointer can be controlled using the keypad"
 msgstr "Tillåt styrning av _muspekaren med tangentbordet"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:29
 msgid "_Selected layouts:"
 msgstr "_Valda layouter:"
 
@@ -2464,18 +2739,22 @@ msgid "_Simulate simultaneous keypresses"
 msgstr "_Simulera samtidiga tangenttryckningar"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:30
 msgid "_Speed:"
 msgstr "_Hastighet:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:31
 msgid "_Type to test settings:"
 msgstr "_Skriv för att testa inställningar:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:32
 msgid "_Work interval lasts:"
 msgstr "_Arbetsintervallet varar:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:33
 msgid "minutes"
 msgstr "minuter"
 
@@ -2585,11 +2864,11 @@ msgid "gesture|Disabled"
 msgstr "Inaktiverad"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:539
+#: ../capplets/mouse/gnome-mouse-properties.c:559
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Ange namnet på sidan som ska visas (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:544
+#: ../capplets/mouse/gnome-mouse-properties.c:564
 msgid "- GNOME Mouse Preferences"
 msgstr "- Musinställningar för GNOME"
 
@@ -2622,10 +2901,12 @@ msgid "Dwell Click"
 msgstr "Uppehållsklick"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:13
 msgid "Enable _horizontal scrolling"
 msgstr "Aktivera _horisontell rullning"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:14
 msgid "Enable mouse _clicks with touchpad"
 msgstr "Aktivera mus_klick med pekplatta"
 
@@ -2646,6 +2927,7 @@ msgid "Mouse Orientation"
 msgstr "Musorientering"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:16
 msgid "Mouse Preferences"
 msgstr "Musinställningar"
 
@@ -2678,34 +2960,43 @@ msgid "Thr_eshold:"
 msgstr "Trös_kelvärde:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:32
-msgid "To test your double-click settings, try to double-click on the light bulb."
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
 msgstr "Prova att dubbelklicka på glödlampan för att testa dina inställningar."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:17
 msgid "Touchpad"
 msgstr "Pekplatta"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:18
 msgid "Two-_finger scrolling"
 msgstr "Två_fingersrullning"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:35
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr "Du kan även använda panelprogrammet för Uppehållsklick för att välja klicktypen."
+msgstr ""
+"Du kan även använda panelprogrammet för Uppehållsklick för att välja "
+"klicktypen."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:19
 msgid "_Acceleration:"
 msgstr "_Acceleration:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:20
 msgid "_Disable touchpad while typing"
 msgstr "_Inaktivera pekplatta vid skrivning"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:21
 msgid "_Disabled"
 msgstr "_Inaktiverad"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:40
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:22
 msgid "_Edge scrolling"
 msgstr "_Kantrullning"
 
@@ -2714,6 +3005,7 @@ msgid "_Initiate click when stopping pointer movement"
 msgstr "_Initiera klick när pekaren stannar"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:42
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:23
 msgid "_Left-handed"
 msgstr "_Vänsterhänt"
 
@@ -2722,10 +3014,12 @@ msgid "_Motion threshold:"
 msgstr "Tröskelvärde för _rörelse:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:44
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:24
 msgid "_Right-handed"
 msgstr "_Högerhänt"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:45
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:25
 msgid "_Sensitivity:"
 msgstr "_Känslighet:"
 
@@ -2901,7 +3195,9 @@ msgstr "Titelliståtgärd"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
-msgstr "För att flytta ett fönster trycker du på och håller ned denna tangent och tar sedan tag i fönstret:"
+msgstr ""
+"För att flytta ett fönster trycker du på och håller ned denna tangent och "
+"tar sedan tag i fönstret:"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
@@ -2942,7 +3238,8 @@ msgstr "Fönster"
 #: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
 msgid "Window manager \"%s\" has not registered a configuration tool\n"
-msgstr "Fönsterhanteraren \"%s\" har inte registrerat ett konfigurationsverktyg\n"
+msgstr ""
+"Fönsterhanteraren \"%s\" har inte registrerat ett konfigurationsverktyg\n"
 
 #: ../libwindow-settings/metacity-window-manager.c:404
 msgid "Maximize"
@@ -2991,10 +3288,8 @@ msgid "Common Tasks"
 msgstr "Allmänna funktioner"
 
 #: ../shell/control-center.c:185
-#: ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Kontrollpanel"
+msgid "Settings"
+msgstr "Inställningar"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3014,7 +3309,8 @@ msgstr "Avsluta skalet när en startåtgärd genomförs"
 
 #: ../shell/control-center.schemas.in.h:5
 msgid "Exit shell on upgrade or uninstall action performed"
-msgstr "Avsluta skalet när en uppgraderings- eller avinstallationsåtgärd genomförs"
+msgstr ""
+"Avsluta skalet när en uppgraderings- eller avinstallationsåtgärd genomförs"
 
 #: ../shell/control-center.schemas.in.h:6
 msgid "Indicates whether to close the shell when a help action is performed."
@@ -3025,29 +3321,54 @@ msgid "Indicates whether to close the shell when a start action is performed."
 msgstr "Indikerar huruvida skalet ska stängas när en startåtgärd genomförs."
 
 #: ../shell/control-center.schemas.in.h:8
-msgid "Indicates whether to close the shell when an add or remove action is performed."
-msgstr "Indikerar huruvida skalet ska stängas när en lägg till- eller ta bort-åtgärd genomförs."
+msgid ""
+"Indicates whether to close the shell when an add or remove action is "
+"performed."
+msgstr ""
+"Indikerar huruvida skalet ska stängas när en lägg till- eller ta bort-åtgärd "
+"genomförs."
 
 #: ../shell/control-center.schemas.in.h:9
-msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
-msgstr "Indikerar huruvida skalet ska stängas när en uppgradering- eller avinstallationsåtgärd genomförs."
+msgid ""
+"Indicates whether to close the shell when an upgrade or uninstall action is "
+"performed."
+msgstr ""
+"Indikerar huruvida skalet ska stängas när en uppgradering- eller "
+"avinstallationsåtgärd genomförs."
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
 msgstr "Funktionsnamnen och associerade .desktop-filer"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
-msgstr "Funktionsnamnet som visas i kontrollpanelen, följt av avgränsaren \";\" och sedan filnamnet för en associerad .desktop-fil som ska startas för den funktionen."
+msgid ""
+"The task name to be displayed in the control-center followed by a \";\" "
+"separator then the filename of an associated .desktop file to launch for "
+"that task."
+msgstr ""
+"Funktionsnamnet som visas i kontrollpanelen, följt av avgränsaren \";\" och "
+"sedan filnamnet för en associerad .desktop-fil som ska startas för den "
+"funktionen."
 
 #. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr "[Ändra tema;gtk-theme-selector.desktop,Ställ in föredragna program;default-applications.desktop,Lägg till skrivare;gnome-cups-manager.desktop]"
+msgid ""
+"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
+"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr ""
+"[Ändra tema;gtk-theme-selector.desktop,Ställ in föredragna program;default-"
+"applications.desktop,Lägg till skrivare;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid "if true, the control-center will close when a \"Common Task\" is activated."
-msgstr "Om sant kommer kontrollpanelen att stängas när en \"Allmän funktion\" aktiveras."
+msgid ""
+"if true, the control-center will close when a \"Common Task\" is activated."
+msgstr ""
+"Om sant kommer kontrollpanelen att stängas när en \"Allmän funktion\" "
+"aktiveras."
+
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Kontrollpanel"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
@@ -3079,8 +3400,11 @@ msgstr "Mindre än en minut till nästa paus"
 
 #: ../typing-break/drwright.c:563
 #, c-format
-msgid "Unable to bring up the typing break properties dialog with the following error: %s"
-msgstr "Kan inte visa dialogfönstret för skrivandepausegenskaper med följande fel: %s"
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"Kan inte visa dialogfönstret för skrivandepausegenskaper med följande fel: %s"
 
 #: ../typing-break/drwright.c:580
 msgid "Written by Richard Hult <richard@imendio.com>"
@@ -3119,12 +3443,21 @@ msgstr "Skrivandeövervakare"
 
 # Osäker
 #: ../typing-break/main.c:105
-msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
-msgstr "Skrivandeövervakaren använder notifieringsytan för att visa information. Du verkar inte ha en sådan i din panel. Du kan lägga till den genom att högerklicka på panelen och välja \"Lägg till i panelen\", välja \"Notifieringsyta\" och klicka på \"Lägg till\"."
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"Skrivandeövervakaren använder notifieringsytan för att visa information. Du "
+"verkar inte ha en sådan i din panel. Du kan lägga till den genom att "
+"högerklicka på panelen och välja \"Lägg till i panelen\", välja "
+"\"Notifieringsyta\" och klicka på \"Lägg till\"."
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr "Om detta är sant kommer miniatyrbilder för OpenType-typsnitt att skapas."
+msgstr ""
+"Om detta är sant kommer miniatyrbilder för OpenType-typsnitt att skapas."
 
 #: ../font-viewer/fontilus.schemas.in.h:2
 msgid "If set to true, then PCF fonts will be thumbnailed."
@@ -3132,27 +3465,38 @@ msgstr "Om detta är sant kommer miniatyrbilder för PCF-typsnitt att skapas."
 
 #: ../font-viewer/fontilus.schemas.in.h:3
 msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr "Om detta är sant kommer miniatyrbilder för TrueType-typsnitt att skapas."
+msgstr ""
+"Om detta är sant kommer miniatyrbilder för TrueType-typsnitt att skapas."
 
 #: ../font-viewer/fontilus.schemas.in.h:4
 msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "Om detta är sant kommer miniatyrbilder för Type1-typsnitt att skapas."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr "Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för OpenType-typsnitt."
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr ""
+"Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för "
+"OpenType-typsnitt."
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr "Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för PCF-typsnitt."
+msgstr ""
+"Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för PCF-"
+"typsnitt."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr "Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för TrueType-typsnitt."
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr ""
+"Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för "
+"TrueType-typsnitt."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr "Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för Type1-typsnitt."
+msgstr ""
+"Ställ in denna nyckel till kommandot för att skapa miniatyrbilder för Type1-"
+"typsnitt."
 
 #: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
@@ -3206,13 +3550,11 @@ msgstr "Typ:"
 msgid "Size:"
 msgstr "Storlek:"
 
-#: ../font-viewer/font-view.c:353
-#: ../font-viewer/font-view.c:366
+#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "Version:"
 
-#: ../font-viewer/font-view.c:357
-#: ../font-viewer/font-view.c:368
+#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr "Copyright:"
 
@@ -3301,13 +3643,11 @@ msgstr "Uppgradera"
 msgid "Uninstall"
 msgstr "Avinstallera"
 
-#: ../libslab/application-tile.c:784
-#: ../libslab/document-tile.c:721
+#: ../libslab/application-tile.c:784 ../libslab/document-tile.c:721
 msgid "Remove from Favorites"
 msgstr "Ta bort från favoriter"
 
-#: ../libslab/application-tile.c:786
-#: ../libslab/document-tile.c:723
+#: ../libslab/application-tile.c:786 ../libslab/document-tile.c:723
 msgid "Add to Favorites"
 msgstr "Lägg till i favoriter"
 
@@ -3350,39 +3690,31 @@ msgid "<b>Open</b>"
 msgstr "<b>Öppna</b>"
 
 #. make rename action
-#: ../libslab/directory-tile.c:190
-#: ../libslab/document-tile.c:234
+#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:234
 msgid "Rename..."
 msgstr "Byt namn..."
 
-#: ../libslab/directory-tile.c:204
-#: ../libslab/directory-tile.c:213
-#: ../libslab/document-tile.c:248
-#: ../libslab/document-tile.c:257
+#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
+#: ../libslab/document-tile.c:248 ../libslab/document-tile.c:257
 msgid "Send To..."
 msgstr "Skicka till..."
 
 #. make move to trash action
-#: ../libslab/directory-tile.c:228
-#: ../libslab/document-tile.c:283
+#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:283
 msgid "Move to Trash"
 msgstr "Flytta till papperskorg"
 
-#: ../libslab/directory-tile.c:238
-#: ../libslab/directory-tile.c:457
-#: ../libslab/document-tile.c:293
-#: ../libslab/document-tile.c:837
+#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
+#: ../libslab/document-tile.c:293 ../libslab/document-tile.c:837
 msgid "Delete"
 msgstr "Ta bort"
 
-#: ../libslab/directory-tile.c:533
-#: ../libslab/document-tile.c:985
+#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:985
 #, c-format
 msgid "Are you sure you want to permanently delete \"%s\"?"
 msgstr "Är du säker på att du vill ta bort \"%s\" permanent?"
 
-#: ../libslab/directory-tile.c:534
-#: ../libslab/document-tile.c:986
+#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:986
 msgid "If you delete an item, it is permanently lost."
 msgstr "Om du tar bort ett objekt så går det inte att få tillbaka igen."
 
@@ -3441,8 +3773,146 @@ msgstr "<b>Öppna %s</b>"
 msgid "Remove from System Items"
 msgstr "Ta bort från systemobjekt"
 
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:2
+msgid "<b>General</b>"
+msgstr "<b>Allmänt</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Mouse Orientation</b>"
+msgstr "Musorientering"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Pointer Speed</b>"
+msgstr "Pekarhastighet"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Scrolling</b>"
+msgstr "Rullning"
+
+#. fast acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:6
+msgid "<small><i>Fast</i></small>"
+msgstr "<small><i>Snabb</i></small>"
+
+#. high sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:8
+msgid "<small><i>High</i></small>"
+msgstr "<small><i>Hög</i></small>"
+
+#. low sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:10
+msgid "<small><i>Low</i></small>"
+msgstr "<small><i>Låg</i></small>"
+
+#. slow acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:12
+msgid "<small><i>Slow</i></small>"
+msgstr "<small><i>Långsam</i></small>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:1
+msgid "<b>Bounce Keys</b>"
+msgstr "<b>Studsande tangenter</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Slow Keys</b>"
+msgstr "<b>Aktivera l_ångsamma tangenter</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Sticky Keys</b>"
+msgstr "<b>Aktivera _klistriga tangenter</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Visual cues for sounds</b>"
+msgstr "Visuell representation av ljud"
+
+#. font hinting
+#: ../capplets/appearance/data/appearance-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "Hintning"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Rendering</b>"
+msgstr "<b>Allmänt</b>"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Smoothing</b>"
+msgstr "Utjämning"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Subpixel Order</b>"
+msgstr "Delbildpunktsordning"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Drag the monitors to set their place</b>"
+msgstr "Dra skärmarna för att ange deras placering"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Monitor</b>"
+msgstr "<b>Arbete</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:1
+msgid "<b>Email</b>"
+msgstr "<b>E-post</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Home address</b>"
+msgstr "<b>Hem</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Instant Messaging</b>"
+msgstr "Snabbmeddelanden"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:4
+msgid "<b>Job</b>"
+msgstr "<b>Arbete</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Telephone</b>"
+msgstr "Telefon"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:6
+msgid "<b>Web</b>"
+msgstr "<b>Webb</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:7
+#, fuzzy
+msgid "<b>Work address</b>"
+msgstr "<b>Arbete</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:23
+#, fuzzy
+msgid "Job _title:"
+msgstr "_Titel:"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:27
+#, fuzzy
+msgid "Personal"
+msgstr "Personlig information"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:40
+#, fuzzy
+msgid "_Website:"
+msgstr "_Titel:"
+
 #~ msgid "_Desktop Background"
 #~ msgstr "S_krivbordsbakgrund"
+
 #~ msgid ""
 #~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
 #~ "\n"
@@ -3451,8 +3921,10 @@ msgstr "Ta bort från systemobjekt"
 #~ "<span size=\"large\"><b>Inga sökträffar hittades.</b> </span><span>\n"
 #~ "\n"
 #~ " Ditt filter \"<b>%s</b>\" matchar inga objekt.</span>"
+
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr "Okänt inloggningsid, användardatabasen kan vara trasig"
+
 #~ msgid ""
 #~ "Left thumb\n"
 #~ "Left middle finger\n"
@@ -3471,62 +3943,58 @@ msgstr "Ta bort från systemobjekt"
 #~ "Höger långfinger\n"
 #~ "Höger ringfinger\n"
 #~ "Höger lillfinger"
-#~ msgid "<b>Email</b>"
-#~ msgstr "<b>E-post</b>"
-#~ msgid "<b>Home</b>"
-#~ msgstr "<b>Hem</b>"
-#~ msgid "<b>Job</b>"
-#~ msgstr "<b>Arbete</b>"
-#~ msgid "<b>Web</b>"
-#~ msgstr "<b>Webb</b>"
-#~ msgid "<b>Work</b>"
-#~ msgstr "<b>Arbete</b>"
+
 #~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
 #~ msgstr "<span size=\"larger\" weight=\"bold\">Byt ditt lösenord</span>"
+
 #~ msgid "<b>Assistive Technologies</b>"
 #~ msgstr "<b>Hjälpmedelsteknik</b>"
+
 #~ msgid "<b>Preferences</b>"
 #~ msgstr "<b>Inställningar</b>"
+
 #~ msgid "<b>C_olors</b>"
 #~ msgstr "<b>Fä_rger</b>"
+
 #~ msgid "<b>Preview</b>"
 #~ msgstr "<b>Förhandsvisning</b>"
+
 #~ msgid "<b>_Desktop Background</b>"
 #~ msgstr "<b>S_krivbordsbakgrund</b>"
+
 #~ msgid "<b>Visual</b>"
 #~ msgstr "<b>Visuell</b>"
-#~ msgid "<b>Bounce Keys</b>"
-#~ msgstr "<b>Studsande tangenter</b>"
-#~ msgid "<b>General</b>"
-#~ msgstr "<b>Allmänt</b>"
-#~ msgid "<small><i>Fast</i></small>"
-#~ msgstr "<small><i>Snabb</i></small>"
+
 #~ msgid "<small><i>Long</i></small>"
 #~ msgstr "<small><i>Lång</i></small>"
+
 #~ msgid "<small><i>Short</i></small>"
 #~ msgstr "<small><i>Kort</i></small>"
-#~ msgid "<small><i>Slow</i></small>"
-#~ msgstr "<small><i>Långsam</i></small>"
+
 #~ msgid "<b>Locate Pointer</b>"
 #~ msgstr "<b>Hitta pekare</b>"
-#~ msgid "<small><i>High</i></small>"
-#~ msgstr "<small><i>Hög</i></small>"
+
 #~ msgid "<small><i>Large</i></small>"
 #~ msgstr "<small><i>Stor</i></small>"
-#~ msgid "<small><i>Low</i></small>"
-#~ msgstr "<small><i>Låg</i></small>"
+
 #~ msgid "<small><i>Small</i></small>"
 #~ msgstr "<small><i>Liten</i></small>"
+
 #~ msgid "<b>Ignore Host List</b>"
 #~ msgstr "<b>Ignorera värdlista</b>"
+
 #~ msgid "C_ut"
 #~ msgstr "Klipp _ut"
+
 #~ msgid "New File"
 #~ msgstr "Ny fil"
+
 #~ msgid "Open File"
 #~ msgstr "Öppna fil"
+
 #~ msgid "Save File"
 #~ msgstr "Spara fil"
+
 #~ msgid ""
 #~ "Solid color\n"
 #~ "Horizontal gradient\n"
@@ -3535,6 +4003,7 @@ msgstr "Ta bort från systemobjekt"
 #~ "Enfärgad\n"
 #~ "Horisontell toning\n"
 #~ "Vertikal toning"
+
 #~ msgid ""
 #~ "Text below items\n"
 #~ "Text beside items\n"
@@ -3545,6 +4014,7 @@ msgstr "Ta bort från systemobjekt"
 #~ "Text bredvid objekt\n"
 #~ "Endast ikoner\n"
 #~ "Endast text"
+
 #~ msgid ""
 #~ "Tiled\n"
 #~ "Zoom\n"
@@ -3557,18 +4027,25 @@ msgstr "Ta bort från systemobjekt"
 #~ "Centrerad\n"
 #~ "Skalad\n"
 #~ "Fyll skärm"
+
 #~ msgid "_Copy"
 #~ msgstr "_Kopiera"
+
 #~ msgid "_New"
 #~ msgstr "_Ny"
+
 #~ msgid "_Open"
 #~ msgstr "_Öppna"
+
 #~ msgid "_Print"
 #~ msgstr "Skriv _ut"
+
 #~ msgid "_Quit"
 #~ msgstr "_Avsluta"
+
 #~ msgid "_Save"
 #~ msgstr "_Spara"
+
 #~ msgid ""
 #~ "Normal\n"
 #~ "Left\n"
@@ -3579,225 +4056,318 @@ msgstr "Ta bort från systemobjekt"
 #~ "Vänster\n"
 #~ "Höger\n"
 #~ "Upp och ned\n"
+
 #~ msgid "/_About"
 #~ msgstr "/_Om"
+
 #~ msgid "Could not apply the selected configuration"
 #~ msgstr "Kunde inte verkställa vald konfiguration"
+
 #~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
 #~ msgstr "Kunde inte få tag på org.gnome.SettingsDaemon.XRANDR"
+
 #~ msgid "_Command:"
 #~ msgstr "_Kommando:"
+
 #~ msgid "Screen Resolution"
 #~ msgstr "Skärmupplösning"
+
 #~ msgid "<b>_Wallpaper</b>"
 #~ msgstr "<b>_Bakgrundsbild</b>"
+
 #~ msgid "No Wallpaper"
 #~ msgstr "Ingen bakgrundsbild"
+
 #~ msgid "Monitor Resolution Settings"
 #~ msgstr "Inställningar för skärmupplösning"
+
 #~ msgid ""
 #~ "The X server does not support the XRANDR extension.  Runtime resolution "
 #~ "changes to the display size are not available."
 #~ msgstr ""
 #~ "X-servern saknar stöd för XRANDR-tillägget. Ändring av displaystorleken "
 #~ "under körning är inte möjligt."
+
 #~ msgid "Retrieve and store legacy settings"
 #~ msgstr "Hämta och lagra föråldrade inställningar"
+
 #~ msgid "Enable sound and associate sounds with events"
 #~ msgstr "Aktivera ljud och associera ljud med händelser"
+
 #~ msgid "Unknown Volume Control %d"
 #~ msgstr "Okänd volymkontroll %d"
+
 #~ msgid "Failed to construct test pipeline for '%s'"
 #~ msgstr "Misslyckades med att konstruera teströrledning för \"%s\""
+
 #~ msgid "Not connected"
 #~ msgstr "Inte ansluten"
+
 #~ msgid "Autodetect"
 #~ msgstr "Detektera automatiskt"
+
 #~ msgid "ALSA - Advanced Linux Sound Architecture"
 #~ msgstr "ALSA - Advanced Linux Sound Architecture"
+
 #~ msgid "Artsd - ART Sound Daemon"
 #~ msgstr "Artsd - ART Sound Daemon"
+
 #~ msgid "ESD - Enlightened Sound Daemon"
 #~ msgstr "ESD - Enlightened Sound Daemon"
+
 #~ msgid "OSS - Open Sound System"
 #~ msgstr "OSS - Open Sound System"
+
 #~ msgid "PulseAudio Sound Server"
 #~ msgstr "PulseAudio Sound Server"
+
 #~ msgid "Silence"
 #~ msgstr "Tystnad"
+
 #~ msgid "- GNOME Sound Preferences"
 #~ msgstr "- Ljudinställningar för GNOME"
+
 #~ msgid "<b>Alerts and Sound Effects</b>"
 #~ msgstr "<b>Larm och ljudeffekter</b>"
+
 #~ msgid "<b>Audio Conferencing</b>"
 #~ msgstr "<b>Ljudkonferens</b>"
+
 #~ msgid "<b>Default Mixer Tracks</b>"
 #~ msgstr "<b>Standardmixerspår</b>"
+
 #~ msgid "<b>Music and Movies</b>"
 #~ msgstr "<b>Musik och filmer</b>"
+
 #~ msgid "<b>Sound Events</b>"
 #~ msgstr "<b>Ljudhändelser</b>"
+
 #~ msgid "<b>Sound Theme</b>"
 #~ msgstr "<b>Ljudtema</b>"
+
 #~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
 #~ msgstr "<span weight=\"bold\" size=\"x-large\">Testar...</span>"
+
 #~ msgid "Click OK to finish."
 #~ msgstr "Klicka OK för att färdigställa."
+
 #~ msgid "Devices"
 #~ msgstr "Enheter"
+
 #~ msgid "Play _alert sound"
 #~ msgstr "Spela upp l_armljud"
+
 #~ msgid "Play _sound effects when buttons are clicked"
 #~ msgstr "Spela upp _ljudeffekter när knappar trycks ned"
+
 #~ msgid "S_ound playback:"
 #~ msgstr "Ljud_uppspelning:"
+
 #~ msgid ""
 #~ "Select the device and tracks to control with the keyboard. Use the Shift "
 #~ "and Control keys to select multiple tracks if required."
 #~ msgstr ""
 #~ "Välj enheten och spåren att kontrollera med tangentbordet. Använd "
 #~ "tangenterna Skift och Control för att välja flera spår om det behövs."
+
 #~ msgid "So_und playback:"
 #~ msgstr "Ljudupps_pelning:"
+
 #~ msgid "Sou_nd capture:"
 #~ msgstr "Ljudfå_ngst:"
+
 #~ msgid "Sound Preferences"
 #~ msgstr "Ljudinställningar"
+
 #~ msgid "Sounds"
 #~ msgstr "Ljud"
+
 #~ msgid "Test"
 #~ msgstr "Testa"
+
 #~ msgid "Testing Pipeline"
 #~ msgstr "Testar rörledning"
+
 #~ msgid "_Device:"
 #~ msgstr "_Enhet:"
+
 #~ msgid "_Play alerts and sound effects"
 #~ msgstr "_Spela upp larm och ljudeffekter"
+
 #~ msgid "_Sound playback:"
 #~ msgstr "_Ljuduppspelning:"
+
 #~ msgctxt "Sound event"
 #~ msgid "Alert sound"
 #~ msgstr "Larmljud"
+
 #~ msgctxt "Sound event"
 #~ msgid "Windows and Buttons"
 #~ msgstr "Fönster och knappar"
+
 #~ msgctxt "Sound event"
 #~ msgid "Button clicked"
 #~ msgstr "Knapp nedtryckt"
+
 #~ msgctxt "Sound event"
 #~ msgid "Toggle button clicked"
 #~ msgstr "Växlingsknapp nedtryckt"
+
 #~ msgctxt "Sound event"
 #~ msgid "Window maximized"
 #~ msgstr "Fönster maximerat"
+
 #~ msgctxt "Sound event"
 #~ msgid "Window unmaximized"
 #~ msgstr "Fönster avmaximerat"
+
 #~ msgctxt "Sound event"
 #~ msgid "Window minimised"
 #~ msgstr "Fönster minimerat"
+
 #~ msgctxt "Sound event"
 #~ msgid "Desktop"
 #~ msgstr "Skrivbord"
+
 #~ msgctxt "Sound event"
 #~ msgid "Login"
 #~ msgstr "Inloggning"
+
 #~ msgctxt "Sound event"
 #~ msgid "Logout"
 #~ msgstr "Utloggning"
+
 #~ msgctxt "Sound event"
 #~ msgid "New e-mail"
 #~ msgstr "Ny e-post"
+
 #~ msgctxt "Sound event"
 #~ msgid "Empty trash"
 #~ msgstr "Töm papperskorg"
+
 #~ msgctxt "Sound event"
 #~ msgid "Long action completed (download, CD burning, etc.)"
 #~ msgstr "Lång åtgärd är färdig (hämtning, skivbränning, etc.)"
+
 #~ msgctxt "Sound event"
 #~ msgid "Alerts"
 #~ msgstr "Larm"
+
 #~ msgctxt "Sound event"
 #~ msgid "Information or question"
 #~ msgstr "Information eller fråga"
+
 #~ msgctxt "Sound event"
 #~ msgid "Warning"
 #~ msgstr "Varning"
+
 #~ msgctxt "Sound event"
 #~ msgid "Error"
 #~ msgstr "Fel"
+
 #~ msgctxt "Sound event"
 #~ msgid "Battery warning"
 #~ msgstr "Batterivarning"
+
 #~ msgid "Testing event sound"
 #~ msgstr "Testar händelseljud"
+
 #~ msgid "Select Sound File"
 #~ msgstr "Välj ljudfil"
+
 #~ msgid "Sound files"
 #~ msgstr "Ljudfiler"
+
 #~ msgid "Custom..."
 #~ msgstr "Anpassad..."
+
 #~ msgid "Lock Screen"
 #~ msgstr "Lås skärmen"
+
 #~ msgid "Logout"
 #~ msgstr "Logga ut"
+
 #~ msgid "Shutdown"
 #~ msgstr "Stäng av"
+
 #~ msgid "Enable support for GNOME assistive technologies at login"
 #~ msgstr "Aktivera stöd för GNOME-hjälpmedelsfunktioner vid inloggning"
+
 #~ msgid "Cloned Output"
 #~ msgstr "Klonad utmatning"
+
 #~ msgid "New accelerator..."
 #~ msgstr "Ny snabbtangent..."
 
 #, fuzzy
 #~ msgid "_Play system beep sound"
 #~ msgstr "_Spela upp systemljud"
+
 #~ msgid "Unexpected attribute '%s' for element '%s'"
 #~ msgstr "Oväntat attribut \"%s\" för elementet \"%s\""
+
 #~ msgid "Attribute '%s' of element '%s' not found"
 #~ msgstr "Attributet \"%s\" för elementet \"%s\" hittades inte"
+
 #~ msgid "Unexpected tag '%s', tag '%s' expected"
 #~ msgstr "Oväntad tagg \"%s\", taggen \"%s\" förväntades"
+
 #~ msgid "Unexpected tag '%s' inside '%s'"
 #~ msgstr "Oväntad tagg \"%s\" inne i \"%s\""
+
 #~ msgid "No valid bookmark file found in data dirs"
 #~ msgstr "Ingen giltig bokmärkesfil hittades i datakatalogerna"
+
 #~ msgid "A bookmark for URI '%s' already exists"
 #~ msgstr "Ett bokmärke för uri:n \"%s\" finns redan"
+
 #~ msgid "No bookmark found for URI '%s'"
 #~ msgstr "Inget bokmärke hittades för uri:n \"%s\""
+
 #~ msgid "No MIME type defined in the bookmark for URI '%s'"
 #~ msgstr "Ingen mime-typ definierad i bokmärket för uri:n \"%s\""
+
 #~ msgid "No private flag has been defined in bookmark for URI '%s'"
 #~ msgstr "Ingen privat flagga har definierats i bokmärket för uri:n \"%s\""
+
 #~ msgid "No groups set in bookmark for URI '%s'"
 #~ msgstr "Inga grupper inställda i bokmärket för uri:n \"%s\""
+
 #~ msgid "No application with name '%s' registered a bookmark for '%s'"
 #~ msgstr ""
 #~ "Inget program med namnet \"%s\" har registrerat ett bokmärke för \"%s\""
+
 #~ msgid ""
 #~ "%s is the path where the theme files will be installed. This can not be "
 #~ "selected as the source location"
 #~ msgstr ""
 #~ "%s är sökvägen där temafilerna kommer att installeras. Detta kan inte "
 #~ "väljas som källplatsen"
+
 #~ msgid "E_nable software sound mixing"
 #~ msgstr "A_ktivera ljudmixning via programvara"
+
 #~ msgid "System Beep"
 #~ msgstr "Systemsignal"
+
 #~ msgid "_Enable system beep"
 #~ msgstr "_Aktivera systemsignal"
+
 #~ msgid "_Visual system beep"
 #~ msgstr "_Visuell systemsignal"
+
 #~ msgid "Siren"
 #~ msgstr "Siren"
+
 #~ msgid "Clink"
 #~ msgstr "Klink"
+
 #~ msgid "Beep"
 #~ msgstr "Pip"
+
 #~ msgid "Sound not set for this event."
 #~ msgstr "Inget ljud är inställt för den här händelsen."
+
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
 #~ "You may want to install the gnome-audio package for a set of default "
@@ -3806,23 +4376,31 @@ msgstr "Ta bort från systemobjekt"
 #~ "Ljudfilen för denna händelse existerar inte.\n"
 #~ "Du kanske vill installera paketet gnome-audio för att få en uppsättning "
 #~ "med standardljud."
+
 #~ msgid "The sound file for this event does not exist."
 #~ msgstr "Ljudfilen för denna händelse finns inte."
+
 #~ msgid "The file %s is not a valid wav file"
 #~ msgstr "Filen %s är inte en giltig wav-fil"
+
 #~ msgid "Select sound file..."
 #~ msgstr "Välj ljudfil..."
+
 #~ msgid ""
 #~ "<i>Region and language changes take effect the next time you log in.</i>"
 #~ msgstr ""
 #~ "<i>Ändringar av region och språk blir aktiverade nästa gång du loggar in."
 #~ "</i>"
+
 #~ msgid "Localization Preferences"
 #~ msgstr "Inställningar för lokalanpassning"
+
 #~ msgid "Region:"
 #~ msgstr "Region:"
+
 #~ msgid "Selected languages:"
 #~ msgstr "Valda språk:"
+
 #~ msgid ""
 #~ "Centered\n"
 #~ "Fill screen\n"
@@ -3835,20 +4413,28 @@ msgstr "Ta bort från systemobjekt"
 #~ "Skalad\n"
 #~ "Zoomad\n"
 #~ "Sida-vid-sida"
+
 #~ msgid "Just apply settings and quit"
 #~ msgstr "Verkställ ändringarna och avsluta"
+
 #~ msgid "Connecting..."
 #~ msgstr "Ansluter..."
+
 #~ msgid "Inverted"
 #~ msgstr "Inverterad"
+
 #~ msgid "Screen %d Settings\n"
 #~ msgstr "Inställningar för skärm %d\n"
+
 #~ msgid "Screen Resolution Preferences"
 #~ msgstr "Inställningar för skärmupplösning"
+
 #~ msgid "_Make default for this computer (%s) only"
 #~ msgstr "_Gör till standard endast för denna dator (%s)"
+
 #~ msgid "Options"
 #~ msgstr "Alternativ"
+
 #~ msgid ""
 #~ "Testing the new settings. If you don't respond in %d second the previous "
 #~ "settings will be restored."
@@ -3861,253 +4447,355 @@ msgstr "Ta bort från systemobjekt"
 #~ msgstr[1] ""
 #~ "Testar de nya inställningarna. Om du inte svarar inom %d sekunder kommer "
 #~ "de föregående inställningarna att återställas."
+
 #~ msgid "Keep Resolution"
 #~ msgstr "Behåll upplösning"
+
 #~ msgid "Do you want to keep this resolution?"
 #~ msgstr "Vill du behålla denna upplösning?"
+
 #~ msgid "Use _Previous Resolution"
 #~ msgstr "Använd _föregående upplösning"
+
 #~ msgid "_Keep Resolution"
 #~ msgstr "_Behåll upplösning"
+
 #~ msgid ""
 #~ "The version of the XRandR extension is incompatible with this program. "
 #~ "Runtime changes to the display size are not available."
 #~ msgstr ""
 #~ "Versionen av XRandR-tillägget är inkompatibelt med detta program. "
 #~ "Ändringar av displaystorleken under körning är inte möjligt."
+
 #~ msgid "Error setting new accelerator in configuration database: %s\n"
 #~ msgstr ""
 #~ "Fel vid inställning av ny snabbtangent i konfigurationsdatabasen: %s\n"
+
 #~ msgid "Keyboard Accessibility Notifications"
 #~ msgstr "Notifieringar för tangentbordstillgänglighet"
+
 #~ msgid "_Layouts:"
 #~ msgstr "_Layouter:"
+
 #~ msgid "Advanced Configuration"
 #~ msgstr "Avancerad konfiguration"
+
 #~ msgid "Set as Application Font"
 #~ msgstr "Ställ in som programtypsnitt"
+
 #~ msgid "Sets the default application font"
 #~ msgstr "Ställer in standardprogramtypsnittet"
+
 #~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">Använda nytt typsnitt?</span>"
+
 #~ msgid "Do _not apply font"
 #~ msgstr "Använd i_nte typsnitt"
+
 #~ msgid ""
 #~ "The theme you have selected suggests a new font. A preview of the font is "
 #~ "shown below."
 #~ msgstr ""
 #~ "Temat du valt föreslår ett nytt typsnitt. En förhandsvisning av "
 #~ "typsnittet visas nedan."
+
 #~ msgid "_Apply font"
 #~ msgstr "_Använd typsnitt"
+
 #~ msgid "Themes"
 #~ msgstr "Teman"
+
 #~ msgid "Description"
 #~ msgstr "Beskrivning"
+
 #~ msgid "Control theme"
 #~ msgstr "Kontrolltema"
+
 #~ msgid "Window border theme"
 #~ msgstr "Fönsterramstema"
+
 #~ msgid "Icon theme"
 #~ msgstr "Ikontema"
+
 #~ msgid "If set to true, then installed themes will be thumbnailed."
 #~ msgstr "Om detta är sant kommer installerade teman att få miniatyrbilder."
+
 #~ msgid "If set to true, then themes will be thumbnailed."
 #~ msgstr "Om detta är sant kommer teman att få miniatyrbilder."
+
 #~ msgid ""
 #~ "Set this key to the command used to create thumbnails for installed "
 #~ "themes."
 #~ msgstr ""
 #~ "Ställ in denna nyckel till kommandot som ska användas för att skapa "
 #~ "miniatyrbilder för installerade teman."
+
 #~ msgid "Set this key to the command used to create thumbnails for themes."
 #~ msgstr ""
 #~ "Ställ in denna nyckel till kommandot som ska användas för att skapa "
 #~ "miniatyrbilder för teman."
+
 #~ msgid "Thumbnail command for installed themes"
 #~ msgstr "Miniatyrbildskommando för installerade teman"
+
 #~ msgid "Thumbnail command for themes"
 #~ msgstr "Miniatyrbildskommando för teman"
+
 #~ msgid "Whether to thumbnail installed themes"
 #~ msgstr "Huruvida det ska skapas miniatyrbilder för installerade teman"
+
 #~ msgid "Whether to thumbnail themes"
 #~ msgstr "Huruvida det ska skapas miniatyrbilder för teman"
+
 #~ msgid "ABCDEFG"
 #~ msgstr "ABCDEFGÅÄÖ"
+
 #~ msgid "[FILE]"
 #~ msgstr "[FIL]"
+
 #~ msgid "Apply theme"
 #~ msgstr "Använd tema"
+
 #~ msgid "Sets the default theme"
 #~ msgstr "Ställer in standardtemat"
+
 #~ msgid "Go _to Fonts Folder"
 #~ msgstr "Gå _till typsnittsmappen"
+
 #~ msgid "Autostart the preferred AT"
 #~ msgstr "Starta automatiskt den föredragna hjälptekniken"
+
 #~ msgid "    "
 #~ msgstr "    "
+
 #~ msgid "      "
 #~ msgstr "      "
+
 #~ msgid "Set your language and location preferences"
 #~ msgstr "Inställningar för ditt språk och plats"
+
 #~ msgid ""
 #~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
 #~ msgstr ""
 #~ "Om sant kommer mime-hanterarna för text/plain och text/* att hållas "
 #~ "synkroniserade"
+
 #~ msgid "Sync text/plain and text/* handlers"
 #~ msgstr "Synkronisera text/plain- och /text/*-hanterare"
+
 #~ msgid "E-mail's shortcut."
 #~ msgstr "Genvägen för e-post."
+
 #~ msgid "Eject"
 #~ msgstr "Mata ut"
+
 #~ msgid "Home folder"
 #~ msgstr "Hemmapp"
+
 #~ msgid "Home folder's shortcut."
 #~ msgstr "Genvägen till hemmappen."
+
 #~ msgid "Launch calculator"
 #~ msgstr "Starta miniräknare"
+
 #~ msgid "Launch calculator's shortcut"
 #~ msgstr "Genvägen för starta miniräknare"
+
 #~ msgid "Launch help browser"
 #~ msgstr "Starta hjälpläsare"
+
 #~ msgid "Launch help browser's shortcut."
 #~ msgstr "Genvägen för starta hjälpläsare."
+
 #~ msgid "Launch web browser"
 #~ msgstr "Starta webbläsare"
+
 #~ msgid "Launch web browser's shortcut."
 #~ msgstr "Genvägen för starta webbläsare."
+
 #~ msgid "Lock screen's shortcut."
 #~ msgstr "Genvägen för lås skärmen."
+
 #~ msgid "Log out"
 #~ msgstr "Logga ut"
+
 #~ msgid "Log out's shortcut."
 #~ msgstr "Genvägen för logga ut."
+
 #~ msgid "Media player"
 #~ msgstr "Mediaspelare"
+
 #~ msgid "Media player key's shortcut."
 #~ msgstr "Genvägen för mediaspelarens tangent."
+
 #~ msgid "Next track key's shortcut."
 #~ msgstr "Genvägen för tangenten nästa spår."
+
 #~ msgid "Pause"
 #~ msgstr "Gör paus"
+
 #~ msgid "Pause key's shortcut."
 #~ msgstr "Genvägen för tangenten gör paus."
+
 #~ msgid "Play (or play/pause)"
 #~ msgstr "Spela (eller spela/gör paus)"
+
 #~ msgid "Play (or play/pause) key's shortcut."
 #~ msgstr "Genvägen för tangenten spela (eller spela/gör paus)."
+
 #~ msgid "Previous track key's shortcut."
 #~ msgstr "Genvägen för tangenten föregående spår."
+
 #~ msgid "Search's shortcut."
 #~ msgstr "Genvägen för sök."
+
 #~ msgid "Skip to next track"
 #~ msgstr "Hoppa till nästa spår"
+
 #~ msgid "Skip to previous track"
 #~ msgstr "Hoppa till föregående spår"
+
 #~ msgid "Sleep"
 #~ msgstr "Sov"
+
 #~ msgid "Sleep's shortcut."
 #~ msgstr "Genvägen för sov."
+
 #~ msgid "Stop playback key"
 #~ msgstr "Tangenten stoppa uppspelning"
+
 #~ msgid "Stop playback key's shortcut."
 #~ msgstr "Genvägen för tangenten stoppa uppspelning."
+
 #~ msgid "Volume down"
 #~ msgstr "Volym ned"
+
 #~ msgid "Volume down's shortcut."
 #~ msgstr "Genvägen för volym ned."
+
 #~ msgid "Volume mute"
 #~ msgstr "Tysta volym"
+
 #~ msgid "Volume mute's shortcut."
 #~ msgstr "Genvägen för att tysta volymen."
+
 #~ msgid "Volume step"
 #~ msgstr "Volymsteg"
+
 #~ msgid "Volume step as percentage of volume."
 #~ msgstr "Volymsteg som procentandel av volymen."
+
 #~ msgid "Volume up"
 #~ msgstr "Volym upp"
+
 #~ msgid "Volume up's shortcut."
 #~ msgstr "Genvägen för volym upp."
+
 #~ msgid "Display a dialog when there are errors running the screensaver"
 #~ msgstr ""
 #~ "Visa ett dialogfönster när det uppstår fel vid körandet av skärmsläckaren"
+
 #~ msgid "Run screensaver at login"
 #~ msgstr "Kör skärmsläckaren vid inloggning"
+
 #~ msgid "Show Startup Errors"
 #~ msgstr "Visa uppstartsfel"
+
 #~ msgid "Start screensaver"
 #~ msgstr "Starta skärmsläckaren"
+
 #~ msgid "There was an error launching the mouse preferences dialog: %s"
 #~ msgstr "Ett fel inträffade vid visning av musinställningsdialogen: %s"
+
 #~ msgid "Unable to import AccessX settings from file '%s'"
 #~ msgstr "Kan inte importera AccessX-inställningar från filen \"%s\""
+
 #~ msgid "Import Feature Settings File"
 #~ msgstr "Importera funktionsinställningsfil"
+
 #~ msgid "_Import"
 #~ msgstr "_Importera"
+
 #~ msgid "Set your keyboard accessibility preferences"
 #~ msgstr "Ställ in dina inställningar för tangentbordstillgänglighet"
+
 #~ msgid ""
 #~ "This system does not seem to have the XKB extension.  The keyboard "
 #~ "accessibility features will not operate without it."
 #~ msgstr ""
 #~ "Detta system verkar inte ha tillägget XKB. Funktionerna för "
 #~ "tangentbordstillgänglighet fungerar inte utan det."
+
 #~ msgid "<b>Enable Bo_unce Keys</b>"
 #~ msgstr "<b>Aktivera st_udsande tangenter</b>"
-#~ msgid "<b>Enable Slo_w Keys</b>"
-#~ msgstr "<b>Aktivera l_ångsamma tangenter</b>"
+
 #~ msgid "<b>Enable _Mouse Keys</b>"
 #~ msgstr "<b>Aktivera _mustangenter</b>"
+
 #~ msgid "<b>Enable _Repeat Keys</b>"
 #~ msgstr "<b>Aktivera _repeteringstangenter</b>"
-#~ msgid "<b>Enable _Sticky Keys</b>"
-#~ msgstr "<b>Aktivera _klistriga tangenter</b>"
+
 #~ msgid "<b>Features</b>"
 #~ msgstr "<b>Funktioner</b>"
+
 #~ msgid "<b>Toggle Keys</b>"
 #~ msgstr "<b>Växlingsknappar</b>"
+
 #~ msgid "Basic"
 #~ msgstr "Grundläggande"
+
 #~ msgid "Beep if key is re_jected"
 #~ msgstr "Pip om tangenten för_kastas"
+
 #~ msgid "Beep when _features turned on or off from keyboard"
 #~ msgstr "Pip då _funktioner slogs på eller av från tangentbordet"
+
 #~ msgid "Beep when _modifier is pressed"
 #~ msgstr "Pip då _modifierare trycks ned"
+
 #~ msgid "Beep when an LED is turned on and two beeps when one is turned off."
 #~ msgstr "Pip när en lysdiod sätts på och pip två gånger när en stängs av."
+
 #~ msgid "Beep when key is:"
 #~ msgstr "Pip när tangenten är:"
+
 #~ msgid "Del_ay:"
 #~ msgstr "_Fördröjning:"
+
 #~ msgid "Delay between keypress and pointer mo_vement:"
 #~ msgstr "Fördröjning mellan tangenttryckning och pekarfl_ytt:"
+
 #~ msgid "Disa_ble if two keys pressed together"
 #~ msgstr "_Inaktivera om två tangenter trycks samtidigt"
+
 #~ msgid "E_nable Toggle Keys"
 #~ msgstr "Aktivera _växlingsknappar"
+
 #~ msgid "Filters"
 #~ msgstr "Filter"
+
 #~ msgid "I_gnore duplicate keypresses within:"
 #~ msgstr "I_gnorera dublettangenttryckningar inom:"
+
 #~ msgid ""
 #~ "Ignore all subsequent presses of the SAME key if they happen within a "
 #~ "user selectable period of time."
 #~ msgstr ""
 #~ "Ignorera alla efterföljande nedtryckningar av SAMMA tangent om de sker "
 #~ "inom en användardefinierbar tidsperiod."
+
 #~ msgid "Keyboard Accessibility Preferences (AccessX)"
 #~ msgstr "Inställningar för tangentbordstillgänglighet (AccessX)"
+
 #~ msgid "Ma_ximum pointer speed:"
 #~ msgstr "Ma_ximal pekarhastighet:"
+
 #~ msgid "Mouse _Preferences..."
 #~ msgstr "Mus_inställningar..."
+
 #~ msgid ""
 #~ "Only accept keys after they have been pressed and held for a user "
 #~ "adjustable amount of time."
 #~ msgstr ""
 #~ "Godtag endast tangenter då de har tryckts ned och hållits nedtryckta "
 #~ "under en användardefinierad tid."
-

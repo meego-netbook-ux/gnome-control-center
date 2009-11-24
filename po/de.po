@@ -18,11 +18,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"control-center&component=general\n"
-"POT-Creation-Date: 2009-09-02 16:00+0000\n"
-"PO-Revision-Date: 2009-09-03 10:43+0200\n"
-"Last-Translator: Christian Kirbach <Christian.Kirbach@googlemail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-24 08:25+0000\n"
+"PO-Revision-Date: 2009-11-03 13:55-0800\n"
+"Last-Translator: Clara <steiner-jay.clarax@intel.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -222,25 +221,25 @@ msgid "Remove your finger, and try swiping your finger again"
 msgstr ""
 "Entfernen Sie Ihren Finger und versuchen Sie erneut Ihren Finger abzustreifen"
 
-#: ../capplets/about-me/gnome-about-me.c:712
+#: ../capplets/about-me/gnome-about-me.c:730
 msgid "Select Image"
 msgstr "Bild auswählen"
 
-#: ../capplets/about-me/gnome-about-me.c:714
+#: ../capplets/about-me/gnome-about-me.c:732
 msgid "No Image"
 msgstr "Kein Bild"
 
-#: ../capplets/about-me/gnome-about-me.c:742
-#: ../capplets/appearance/appearance-desktop.c:654
+#: ../capplets/about-me/gnome-about-me.c:760
+#: ../capplets/appearance/appearance-desktop.c:691
 msgid "Images"
 msgstr "Bilder"
 
-#: ../capplets/about-me/gnome-about-me.c:746
+#: ../capplets/about-me/gnome-about-me.c:764
 #: ../capplets/appearance/theme-installer.c:763
 msgid "All Files"
 msgstr "Alle Dateien"
 
-#: ../capplets/about-me/gnome-about-me.c:886
+#: ../capplets/about-me/gnome-about-me.c:901
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
@@ -248,20 +247,22 @@ msgstr ""
 "Beim Auslesen der Adressbuch-Informationen ist ein Fehler aufgetreten\n"
 "Evolution-Data-Server kann dieses Protokoll nicht verarbeiten"
 
-#: ../capplets/about-me/gnome-about-me.c:907
+#: ../capplets/about-me/gnome-about-me.c:922
 msgid "Unable to open address book"
 msgstr "Adressbuch konnte nicht geöffnet werden"
 
-#: ../capplets/about-me/gnome-about-me.c:930
+#: ../capplets/about-me/gnome-about-me.c:945
 #, c-format
 msgid "About %s"
 msgstr "Persönliche Angaben von %s"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:8
 msgid "A_IM/iChat:"
 msgstr "A_IM/iChat:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:9
 msgid "A_ddress:"
 msgstr "A_dresse:"
 
@@ -271,6 +272,7 @@ msgstr "A_ssistent:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:10
 msgid "About Me"
 msgstr "Persönliche Angaben"
 
@@ -279,38 +281,47 @@ msgid "Address"
 msgstr "Adresse"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:11
 msgid "C_ity:"
 msgstr "S_tadt:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:12
 msgid "C_ompany:"
 msgstr "F_irma:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:13
 msgid "Cale_ndar:"
 msgstr "Ka_lender:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:14
 msgid "Change Passwo_rd..."
 msgstr "Passwo_rt ändern …"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:15
 msgid "Ci_ty:"
 msgstr "S_tadt:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:16
 msgid "Co_untry:"
 msgstr "La_nd:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:17
 msgid "Contact"
 msgstr "Kontakt"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:18
 msgid "Cou_ntry:"
 msgstr "La_nd:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:19
 msgid "Disable _Fingerprint Login..."
 msgstr "Anmeldung per _Fingerabdruck abschalten …"
 
@@ -319,14 +330,17 @@ msgid "Email"
 msgstr "E-Mail"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:16
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:20
 msgid "Enable _Fingerprint Login..."
 msgstr "Anmeldung per _Fingerabdruck freischalten …"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:17
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:21
 msgid "Full Name"
 msgstr "Vollständiger Name"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:18
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:22
 msgid "Hom_e:"
 msgstr "_Privat:"
 
@@ -348,14 +362,17 @@ msgid "Job"
 msgstr "Beruf"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:24
 msgid "M_SN:"
 msgstr "M_SN:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:25
 msgid "P.O. _box:"
 msgstr "_Postfach:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:26
 msgid "P._O. box:"
 msgstr "P_ostfach:"
 
@@ -364,10 +381,12 @@ msgid "Personal Info"
 msgstr "Persönliche Informationen"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:28
 msgid "Select your photo"
 msgstr "Wählen Sie Ihr Foto aus"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:29
 msgid "State/Pro_vince:"
 msgstr "_Bundesland/Kanton:"
 
@@ -376,6 +395,7 @@ msgid "Telephone"
 msgstr "Telefon"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:30
 msgid "User name:"
 msgstr "Benutzername:"
 
@@ -388,22 +408,27 @@ msgid "Web _log:"
 msgstr "Internet-Tage_buch:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:31
 msgid "Wor_k:"
 msgstr "Be_ruflich:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:32
 msgid "Work"
 msgstr "Beruflich"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:33
 msgid "Work _fax:"
 msgstr "_Fax beruflich:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:34
 msgid "Zip/_Postal code:"
 msgstr "Postleit_zahl:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:35
 msgid "_Address:"
 msgstr "_Adresse:"
 
@@ -420,10 +445,12 @@ msgid "_Home page:"
 msgstr "Homepa_ge:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:36
 msgid "_Home:"
 msgstr "_Privat:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:37
 msgid "_Jabber:"
 msgstr "_Jabber:"
 
@@ -432,6 +459,7 @@ msgid "_Manager:"
 msgstr "_Vorgesetzter:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:38
 msgid "_Mobile:"
 msgstr "_Mobil:"
 
@@ -440,6 +468,7 @@ msgid "_Profession:"
 msgstr "Ber_uf:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:39
 msgid "_State/Province:"
 msgstr "Bun_desland/Kanton:"
 
@@ -448,14 +477,17 @@ msgid "_Title:"
 msgstr "_Titel:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:41
 msgid "_Work:"
 msgstr "_Beruflich:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:42
 msgid "_Yahoo:"
 msgstr "_Yahoo:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:43
 msgid "_Zip/Postal code:"
 msgstr "Postleit_zahl:"
 
@@ -822,11 +854,11 @@ msgid "Choose which accessibility features to enable when you log in"
 msgstr ""
 "Die beim Anmelden zu startenden Hilfsmittel für Barrierefreiheit festlegen"
 
-#: ../capplets/appearance/appearance-desktop.c:623
+#: ../capplets/appearance/appearance-desktop.c:660
 msgid "Add Wallpaper"
 msgstr "Hintergrund hinzufügen"
 
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:695
 msgid "All files"
 msgstr "Alle Dateien"
 
@@ -880,33 +912,33 @@ msgstr "Vorherige Schrift verwenden"
 msgid "Use selected font"
 msgstr "Ausgewählte Schrift verwenden"
 
-#: ../capplets/appearance/appearance-main.c:55
+#: ../capplets/appearance/appearance-main.c:63
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Datei der Benutzeroberfläche konnte nicht geladen werden: %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:144
 msgid "Specify the filename of a theme to install"
 msgstr "Dateiname des zu installierenden Themas"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:145
 msgid "filename"
 msgstr "Dateiname"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:152
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr ""
 "Der Name der anzuzeigenden Seite. Mögliche Werte: »theme« (Thema), "
 "»background« (Hintergrund), »fonts« (Schriftarten), »interface« (Oberfläche)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:153
 #: ../capplets/default-applications/gnome-da-capplet.c:907
-#: ../capplets/mouse/gnome-mouse-properties.c:540
+#: ../capplets/mouse/gnome-mouse-properties.c:560
 msgid "page"
 msgstr "Seite"
 
-#: ../capplets/appearance/appearance-main.c:150
+#: ../capplets/appearance/appearance-main.c:160
 msgid "[WALLPAPER...]"
 msgstr "[Hintergrund …]"
 
@@ -990,18 +1022,22 @@ msgid "Custom"
 msgstr "Benutzerdefiniert"
 
 #: ../capplets/appearance/data/appearance.ui.h:1
+#: ../capplets/appearance/data/appearance-moblin.ui.h:6
 msgid "Appearance Preferences"
 msgstr "Erscheinungsbild-Einstellungen"
 
 #: ../capplets/appearance/data/appearance.ui.h:2
+#: ../capplets/appearance/data/appearance-moblin.ui.h:7
 msgid "Background"
 msgstr "Hintergrund"
 
 #: ../capplets/appearance/data/appearance.ui.h:3
+#: ../capplets/appearance/data/appearance-moblin.ui.h:8
 msgid "Best _shapes"
 msgstr "Beste Fo_rm"
 
 #: ../capplets/appearance/data/appearance.ui.h:4
+#: ../capplets/appearance/data/appearance-moblin.ui.h:9
 msgid "Best co_ntrast"
 msgstr "Bester _Kontrast"
 
@@ -1014,31 +1050,38 @@ msgid "C_ustomize..."
 msgstr "A_npassen …"
 
 #: ../capplets/appearance/data/appearance.ui.h:7
+#: ../capplets/appearance/data/appearance-moblin.ui.h:10
 msgid "Centered"
 msgstr "Zentrieren"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
+#: ../capplets/appearance/data/appearance-moblin.ui.h:11
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr ""
 "Änderungen am Mauszeigerthema wirken sich erst beim nächsten Anmelden aus"
 
 #: ../capplets/appearance/data/appearance.ui.h:9
+#: ../capplets/appearance/data/appearance-moblin.ui.h:12
 msgid "Colors"
 msgstr "Farben"
 
 #: ../capplets/appearance/data/appearance.ui.h:10
+#: ../capplets/appearance/data/appearance-moblin.ui.h:13
 msgid "Controls"
 msgstr "Fensterinhalt"
 
 #: ../capplets/appearance/data/appearance.ui.h:11
+#: ../capplets/appearance/data/appearance-moblin.ui.h:14
 msgid "Customize Theme"
 msgstr "Thema anpassen"
 
 #: ../capplets/appearance/data/appearance.ui.h:12
+#: ../capplets/appearance/data/appearance-moblin.ui.h:15
 msgid "D_etails..."
 msgstr "De_tails …"
 
 #: ../capplets/appearance/data/appearance.ui.h:13
+#: ../capplets/appearance/data/appearance-moblin.ui.h:16
 msgid "Des_ktop font:"
 msgstr "Schriftart der _Arbeitsfläche:"
 
@@ -1047,18 +1090,22 @@ msgid "Edit"
 msgstr "Bearbeiten"
 
 #: ../capplets/appearance/data/appearance.ui.h:15
+#: ../capplets/appearance/data/appearance-moblin.ui.h:17
 msgid "Fill screen"
 msgstr "Bildschirme füllen"
 
 #: ../capplets/appearance/data/appearance.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:18
 msgid "Font Rendering Details"
 msgstr "Details zur Schriftwiedergabe"
 
 #: ../capplets/appearance/data/appearance.ui.h:17
+#: ../capplets/appearance/data/appearance-moblin.ui.h:19
 msgid "Fonts"
 msgstr "Schriftarten"
 
 #: ../capplets/appearance/data/appearance.ui.h:18
+#: ../capplets/appearance/data/appearance-moblin.ui.h:20
 msgid "Get more backgrounds online"
 msgstr "Weitere Hintergründe online erhalten"
 
@@ -1067,6 +1114,7 @@ msgid "Get more themes online"
 msgstr "Weitere Themen online erhalten"
 
 #: ../capplets/appearance/data/appearance.ui.h:20
+#: ../capplets/appearance/data/appearance-moblin.ui.h:21
 msgid "Gra_yscale"
 msgstr "_Graustufen"
 
@@ -1076,14 +1124,17 @@ msgid "Hinting"
 msgstr "Tipps"
 
 #: ../capplets/appearance/data/appearance.ui.h:23
+#: ../capplets/appearance/data/appearance-moblin.ui.h:22
 msgid "Horizontal gradient"
 msgstr "Horizontaler Verlauf"
 
 #: ../capplets/appearance/data/appearance.ui.h:24
+#: ../capplets/appearance/data/appearance-moblin.ui.h:23
 msgid "Icons"
 msgstr "Symbole"
 
 #: ../capplets/appearance/data/appearance.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:24
 msgid "Icons only"
 msgstr "Nur Symbole"
 
@@ -1093,6 +1144,7 @@ msgstr "Oberfläche"
 
 #: ../capplets/appearance/data/appearance.ui.h:27
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:25
 msgid "Large"
 msgstr "Groß"
 
@@ -1101,6 +1153,7 @@ msgid "Menus and Toolbars"
 msgstr "Menüs und Werkzeugleisten"
 
 #: ../capplets/appearance/data/appearance.ui.h:29
+#: ../capplets/appearance/data/appearance-moblin.ui.h:26
 msgid "N_one"
 msgstr "D_eaktivieren"
 
@@ -1109,6 +1162,7 @@ msgid "Open a dialog to specify the color"
 msgstr "Einen Dialog zum Festlegen der Farbe öffnen"
 
 #: ../capplets/appearance/data/appearance.ui.h:31
+#: ../capplets/appearance/data/appearance-moblin.ui.h:27
 msgid "Pointer"
 msgstr "Zeiger"
 
@@ -1117,6 +1171,7 @@ msgid "Preview"
 msgstr "Vorschau"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
+#: ../capplets/appearance/data/appearance-moblin.ui.h:28
 msgid "R_esolution:"
 msgstr "_Auflösung:"
 
@@ -1125,6 +1180,7 @@ msgid "Rendering"
 msgstr "Schriftwiedergabe"
 
 #: ../capplets/appearance/data/appearance.ui.h:35
+#: ../capplets/appearance/data/appearance-moblin.ui.h:29
 msgid "Save Theme As..."
 msgstr "Thema _speichern unter …"
 
@@ -1133,10 +1189,12 @@ msgid "Save _As..."
 msgstr "Speichern _unter …"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
+#: ../capplets/appearance/data/appearance-moblin.ui.h:30
 msgid "Save _background image"
 msgstr "_Hintergrundbild speichern"
 
 #: ../capplets/appearance/data/appearance.ui.h:38
+#: ../capplets/appearance/data/appearance-moblin.ui.h:31
 msgid "Scaled"
 msgstr "Skalieren"
 
@@ -1146,6 +1204,7 @@ msgstr "_Symbole in den Menüs anzeigen"
 
 #: ../capplets/appearance/data/appearance.ui.h:40
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/appearance/data/appearance-moblin.ui.h:32
 msgid "Small"
 msgstr "Klein"
 
@@ -1154,14 +1213,17 @@ msgid "Smoothing"
 msgstr "Kantenglättung"
 
 #: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance-moblin.ui.h:33
 msgid "Solid color"
 msgstr "Einfarbig"
 
 #: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance-moblin.ui.h:34
 msgid "Sub_pixel (LCDs)"
 msgstr "_Subpixel (LCDs)"
 
 #: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance-moblin.ui.h:35
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Glättung mittels Sub_pixel (LCDs)"
 
@@ -1170,22 +1232,27 @@ msgid "Subpixel Order"
 msgstr "Reihenfolge der Subpixel"
 
 #: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance-moblin.ui.h:36
 msgid "Text"
 msgstr "Text"
 
 #: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance-moblin.ui.h:37
 msgid "Text below items"
 msgstr "Text unter Symbolen"
 
 #: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance-moblin.ui.h:38
 msgid "Text beside items"
 msgstr "Text neben Symbolen"
 
 #: ../capplets/appearance/data/appearance.ui.h:49
+#: ../capplets/appearance/data/appearance-moblin.ui.h:39
 msgid "Text only"
 msgstr "Nur Text"
 
 #: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance-moblin.ui.h:40
 msgid "The current controls theme does not support color schemes."
 msgstr "Das derzeitige Thema unterstützt keine Farbschemata."
 
@@ -1194,6 +1261,7 @@ msgid "Theme"
 msgstr "Thema"
 
 #: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance-moblin.ui.h:41
 msgid "Tiled"
 msgstr "Kacheln"
 
@@ -1203,40 +1271,50 @@ msgstr "_Knopfbeschriftungen in Werkzeugleisten:"
 
 #. vertical hinting, pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance-moblin.ui.h:43
 msgid "VB_GR"
 msgstr "VB_GR"
 
 #: ../capplets/appearance/data/appearance.ui.h:56
+#: ../capplets/appearance/data/appearance-moblin.ui.h:44
 msgid "Vertical gradient"
 msgstr "Vertikaler Verlauf"
 
 #: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance-moblin.ui.h:45
 msgid "Window Border"
 msgstr "Fensterrahmen"
 
 #: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance-moblin.ui.h:46
 msgid "Zoom"
 msgstr "Zoom"
 
 #: ../capplets/appearance/data/appearance.ui.h:59
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:47
 msgid "_Add..."
 msgstr "Hin_zufügen …"
 
 #: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance-moblin.ui.h:48
 msgid "_Application font:"
 msgstr "Schriftart in _Anwendungen:"
 
 #. pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance-moblin.ui.h:50
 msgid "_BGR"
 msgstr "_BGR"
 
 #: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance-moblin.ui.h:51
 msgid "_Description:"
 msgstr "_Beschreibung:"
 
 #: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance-moblin.ui.h:52
 msgid "_Document font:"
 msgstr "D_okumenten-Schrift:"
 
@@ -1249,14 +1327,17 @@ msgid "_File"
 msgstr "_Datei"
 
 #: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance-moblin.ui.h:53
 msgid "_Fixed width font:"
 msgstr "Dickten_gleiche Schrift:"
 
 #: ../capplets/appearance/data/appearance.ui.h:68
+#: ../capplets/appearance/data/appearance-moblin.ui.h:54
 msgid "_Full"
 msgstr "S_tark"
 
 #: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance-moblin.ui.h:55
 msgid "_Input boxes:"
 msgstr "_Eingabefelder:"
 
@@ -1265,40 +1346,49 @@ msgid "_Install..."
 msgstr "_Installieren …"
 
 #: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance-moblin.ui.h:56
 msgid "_Medium"
 msgstr "_Mittel"
 
 #: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance-moblin.ui.h:57
 msgid "_Monochrome"
 msgstr "_Schwarz-Weiß"
 
 #: ../capplets/appearance/data/appearance.ui.h:73
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/appearance/data/appearance-moblin.ui.h:58
 msgid "_Name:"
 msgstr "_Name:"
 
 #: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance-moblin.ui.h:59
 msgid "_None"
 msgstr "_Deaktivieren"
 
 #. pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:76
+#: ../capplets/appearance/data/appearance-moblin.ui.h:61
 msgid "_RGB"
 msgstr "_RGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance-moblin.ui.h:62
 msgid "_Reset to Defaults"
 msgstr "Auf Vor_gabewerte zurücksetzen"
 
 #: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance-moblin.ui.h:63
 msgid "_Selected items:"
 msgstr "_Gewählte Einträge:"
 
 #: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance-moblin.ui.h:64
 msgid "_Size:"
 msgstr "G_röße:"
 
 #: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance-moblin.ui.h:65
 msgid "_Slight"
 msgstr "Geri_ng"
 
@@ -1307,23 +1397,28 @@ msgid "_Style:"
 msgstr "_Stil:"
 
 #: ../capplets/appearance/data/appearance.ui.h:82
+#: ../capplets/appearance/data/appearance-moblin.ui.h:66
 msgid "_Tooltips:"
 msgstr "_Minihilfen:"
 
 #. vertical hinting, pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:84
+#: ../capplets/appearance/data/appearance-moblin.ui.h:68
 msgid "_VRGB"
 msgstr "_VRGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:85
+#: ../capplets/appearance/data/appearance-moblin.ui.h:69
 msgid "_Window title font:"
 msgstr "Schrift in _Fenstertiteln:"
 
 #: ../capplets/appearance/data/appearance.ui.h:86
+#: ../capplets/appearance/data/appearance-moblin.ui.h:70
 msgid "_Windows:"
 msgstr "_Fenster:"
 
 #: ../capplets/appearance/data/appearance.ui.h:87
+#: ../capplets/appearance/data/appearance-moblin.ui.h:71
 msgid "dots per inch"
 msgstr "Pixel pro Zoll"
 
@@ -1859,7 +1954,7 @@ msgstr "Mobilität"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:12
 msgid "Multimedia"
-msgstr "Multimedia"
+msgstr "Medien"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:13
 msgid "Multimedia Player"
@@ -2125,6 +2220,7 @@ msgid "aterm"
 msgstr "aterm"
 
 #: ../capplets/display/display-capplet.ui.h:1
+#: ../capplets/display/display-capplet-moblin.ui.h:3
 msgid "Display Preferences"
 msgstr "Anzeige-Einstellungen"
 
@@ -2137,26 +2233,30 @@ msgid "Include _panel"
 msgstr "Panel _einschließen"
 
 #: ../capplets/display/display-capplet.ui.h:4
-#: ../capplets/display/xrandr-capplet.c:302
+#: ../capplets/display/xrandr-capplet.c:315
+#: ../capplets/display/display-capplet-moblin.ui.h:4
 msgid "Left"
 msgstr "Links"
 
 #: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:440
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Monitor"
 msgstr "Monitor"
 
 #: ../capplets/display/display-capplet.ui.h:6
-#: ../capplets/display/xrandr-capplet.c:301
-#: ../capplets/display/xrandr-capplet.c:340
+#: ../capplets/display/xrandr-capplet.c:314
+#: ../capplets/display/xrandr-capplet.c:353
+#: ../capplets/display/display-capplet-moblin.ui.h:5
 msgid "Normal"
 msgstr "Normal"
 
 #: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet-moblin.ui.h:6
 msgid "Off"
 msgstr "Aus"
 
 #: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet-moblin.ui.h:7
 msgid "On"
 msgstr "Ein"
 
@@ -2170,27 +2270,33 @@ msgid "R_otation:"
 msgstr "R_otation:"
 
 #: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/display-capplet-moblin.ui.h:8
 msgid "Re_fresh rate:"
 msgstr "Wiederhol_rate:"
 
 #: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:303
+#: ../capplets/display/xrandr-capplet.c:316
+#: ../capplets/display/display-capplet-moblin.ui.h:9
 msgid "Right"
 msgstr "Rechts"
 
 #: ../capplets/display/display-capplet.ui.h:13
+#: ../capplets/display/display-capplet-moblin.ui.h:10
 msgid "Upside-down"
 msgstr "Kopfüber"
 
 #: ../capplets/display/display-capplet.ui.h:14
+#: ../capplets/display/display-capplet-moblin.ui.h:11
 msgid "_Detect Monitors"
 msgstr "_Bildschirme erkennen"
 
 #: ../capplets/display/display-capplet.ui.h:15
+#: ../capplets/display/display-capplet-moblin.ui.h:12
 msgid "_Mirror screens"
 msgstr "Bildschirme _spiegeln"
 
 #: ../capplets/display/display-capplet.ui.h:16
+#: ../capplets/display/display-capplet-moblin.ui.h:13
 msgid "_Resolution:"
 msgstr "_Auflösung:"
 
@@ -2206,21 +2312,21 @@ msgstr "Bildschirmauflösung ändern"
 msgid "Display"
 msgstr "Anzeige"
 
-#: ../capplets/display/xrandr-capplet.c:304
+#: ../capplets/display/xrandr-capplet.c:317
 msgid "Upside Down"
 msgstr "Kopfüber"
 
-#: ../capplets/display/xrandr-capplet.c:346
+#: ../capplets/display/xrandr-capplet.c:360
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:432
+#: ../capplets/display/xrandr-capplet.c:446
 #, c-format
 msgid "Monitor: %s"
 msgstr "Monitor: %s"
 
-#: ../capplets/display/xrandr-capplet.c:511
+#: ../capplets/display/xrandr-capplet.c:525
 #, c-format
 msgid "%d x %d"
 msgstr "%d × %d"
@@ -2230,25 +2336,25 @@ msgstr "%d × %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1458
+#: ../capplets/display/xrandr-capplet.c:1476
 msgid "Mirror Screens"
 msgstr "Bildschirme spiegeln"
 
-#: ../capplets/display/xrandr-capplet.c:1878
+#: ../capplets/display/xrandr-capplet.c:1896
 msgid "Could not save the monitor configuration"
 msgstr "Die Bildschirmkonfiguration konnte nicht gespeichert werden"
 
-#: ../capplets/display/xrandr-capplet.c:1889
+#: ../capplets/display/xrandr-capplet.c:1907
 msgid "Could not get session bus while applying display configuration"
 msgstr ""
 "Beim Anwenden der Bildschirmeinstellungen konnte der Sitzungsbus nicht "
 "angefordert werden"
 
-#: ../capplets/display/xrandr-capplet.c:1931
+#: ../capplets/display/xrandr-capplet.c:1949
 msgid "Could not detect displays"
 msgstr "Anzeigen konnten nicht erkannt werden"
 
-#: ../capplets/display/xrandr-capplet.c:2146
+#: ../capplets/display/xrandr-capplet.c:2164
 msgid "Could not get screen information"
 msgstr "Bildschirminformationen konnten nicht ausgelesen werden"
 
@@ -2298,16 +2404,16 @@ msgstr "Deaktiviert"
 msgid "<Unknown Action>"
 msgstr "<Unbekannte Aktion>"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:942
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1566
+#: ../capplets/keybindings/gnome-keybinding-properties.c:954
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1581
 msgid "Custom Shortcuts"
 msgstr "Eigene Tastenkombinationen"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1081
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1096
 msgid "Error saving the new shortcut"
 msgstr "Beim Speichern der neuen Tastenkombination ist ein Fehler aufgetreten"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1160
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1175
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2319,7 +2425,7 @@ msgstr ""
 "Bitte versuchen Sie eine Kombination mit einer Taste wie Strg, Alt oder der "
 "Umschalttaste."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1190
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1205
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2329,7 +2435,7 @@ msgstr ""
 "»%s«\n"
 "verwendet."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1196
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1211
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
@@ -2337,26 +2443,26 @@ msgstr ""
 "Wenn Sie diese Tastenkombination »%s« zuweisen, wird die Tastenkombination "
 "für »%s« deaktiviert."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1204
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1219
 msgid "_Reassign"
 msgstr "_Zuweisen"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1324
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1339
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr ""
 "Beim Entfernen der Tastenkombination aus der Konfigurations-Datenbank ist "
 "ein Fehler aufgetreten: %s"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1521
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1536
 msgid "Too many custom shortcuts"
 msgstr "Zu viele individuelle Tastenkombinationen"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1818
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1832
 msgid "Action"
 msgstr "Aktion"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1840
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1854
 msgid "Shortcut"
 msgstr "Tastenkombination"
 
@@ -2382,56 +2488,63 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "Befehlen eine Tastenkombination zuweisen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "Nur Einstellungen anwenden und beenden (Nur zur Kompatibilität; wird nun "
 "durch einen Dämon gehandhabt)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr ""
 "Zu Beginn die Seite anzeigen, die die Einstellungen für Tipppausen enthält"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr ""
 "Zu Beginn die Seite anzeigen, die die Einstellungen für Barrierefreiheit "
 "enthält"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "– GNOME-Tastatureinstellungen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:6
 msgid "Beep when _accessibility features are turned on or off"
 msgstr ""
 "Signalton ausgeben, wenn Funktionen zur _Barrierefreiheit aktiviert oder "
 "deaktiviert werden"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:7
 msgid "Beep when a _modifier key is pressed"
 msgstr "Signalton ausgeben, wenn eine _Zusatztaste gedrückt wird"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:8
 msgid "Beep when a _toggle key is pressed"
 msgstr "Signalton ausgeben, wenn eine _Umschalttaste gedrückt wird"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:9
 msgid "Beep when a key is pr_essed"
 msgstr "Signalton ausgeben, wenn eine _Taste gedrückt wird"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:10
 msgid "Beep when a key is reje_cted"
 msgstr "Signalton ausgeben, wenn eine Taste a_bgewiesen wird"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:11
 msgid "Beep when key is _accepted"
 msgstr "Signalton ausgeben, wenn eine Taste ak_zeptiert wird"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:12
 msgid "Beep when key is _rejected"
 msgstr "Signalton ausgeben, wenn Taste ab_gewiesen wird"
 
@@ -2441,24 +2554,30 @@ msgid "Bounce Keys"
 msgstr "Springende Tasten"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:13
 msgid "Flash _window titlebar"
 msgstr "Fensterleiste _blinken"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:14
 msgid "Flash entire _screen"
 msgstr "Ganzen Bildschirm b_linken"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:9
 msgid "General"
 msgstr "Allgemein"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:15
 msgid "Keyboard Accessibility Audio Feedback"
 msgstr "Tastatur-Barrierefreiheit – Signaltöne"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:16
 msgid "Show _visual feedback for the alert sound"
 msgstr "_Visuelle Rückmeldungen bei Alarmklängen geben"
 
@@ -2482,6 +2601,7 @@ msgid "A_cceleration:"
 msgstr "_Beschleunigung:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:1
 msgid "All_ow postponing of breaks"
 msgstr "_Verschieben von Pausen zulassen"
 
@@ -2490,19 +2610,23 @@ msgid "Audio _Feedback..."
 msgstr "_Signaltöne …"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:2
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Legt fest, ob Pausen verschoben werden dürfen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:3
 msgid "Cursor Blinking"
 msgstr "Blinkender Cursor"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:4
 msgid "Cursor _blinks in text fields"
 msgstr "B_linkender Cursor in Textfeldern"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:5
 msgid "Cursor blinks speed"
 msgstr "Blinkgeschwindigkeit des Cursors"
 
@@ -2516,39 +2640,48 @@ msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "Dea_ktivieren, wenn zwei Tasten zusammen gedrückt werden"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:6
 msgid "Duration of the break when typing is disallowed"
 msgstr "Dauer der Pause, während der das Tippen unterbunden wird"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:7
 msgid "Duration of work before forcing a break"
 msgstr "Arbeitsdauer, bevor eine Pause erzwungen wird"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:8
 msgid "Fast"
 msgstr "Schnell"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:10
 msgid "Key presses _repeat when key is held down"
 msgstr "Tasten _wiederholt auslösen, wenn sie heruntergedrückt werden"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:11
 msgid "Keyboard Preferences"
 msgstr "Tastatureinstellungen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:12
 msgid "Keyboard _model:"
 msgstr "Tastatur_modell:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:13
 msgid "Layout _Options..."
 msgstr "Bele_gungseinstellungen …"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:14
 msgid "Layouts"
 msgstr "Belegungen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:15
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2558,6 +2691,7 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:16
 msgid "Long"
 msgstr "Lang"
 
@@ -2566,36 +2700,44 @@ msgid "Mouse Keys"
 msgstr "Maustasten"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:17
 msgid "Repeat Keys"
 msgstr "Tastenwiederholung"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:18
 msgid "Repeat keys speed"
 msgstr "Geschwindigkeit der Tastenwiederholung"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:19
 msgid "Reset to De_faults"
 msgstr "Auf Vor_gabewerte zurücksetzen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:20
 msgid "S_peed:"
 msgstr "Ge_schwindigkeit:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:21
 msgid "Separate _layout for each window"
 msgstr "Separate _Belegung für jedes Fenster"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:22
 msgid "Short"
 msgstr "Kurz"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:23
 msgid "Slow"
 msgstr "Langsam"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:24
 msgid "Typing Break"
 msgstr "Tipppause"
 
@@ -2604,11 +2746,13 @@ msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "Funktionen zur _Barrierefreiheit mittels Tastatur ein- und ausschalten"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:26
 msgid "_Break interval lasts:"
 msgstr "_Pausenintervall dauert:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:27
 msgid "_Delay:"
 msgstr "_Verzögerung:"
 
@@ -2617,6 +2761,7 @@ msgid "_Ignore fast duplicate keypresses"
 msgstr "Schnelle _doppelte Tastenanschläge ignorieren"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:28
 msgid "_Lock screen to enforce typing break"
 msgstr "Bildschirm sperren und so eine _Tipppause erzwingen"
 
@@ -2629,6 +2774,7 @@ msgid "_Pointer can be controlled using the keypad"
 msgstr "_Mauszeiger per Tastatur steuern"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:29
 msgid "_Selected layouts:"
 msgstr "_Gewählte Belegungen:"
 
@@ -2637,18 +2783,22 @@ msgid "_Simulate simultaneous keypresses"
 msgstr "Gleich_zeitige Tastenanschläge simulieren"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:30
 msgid "_Speed:"
 msgstr "_Geschwindigkeit:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:31
 msgid "_Type to test settings:"
 msgstr "Einstellungen über_prüfen:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:32
 msgid "_Work interval lasts:"
 msgstr "_Arbeitsintervall dauert:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:33
 msgid "minutes"
 msgstr "Minuten"
 
@@ -2757,13 +2907,13 @@ msgid "gesture|Disabled"
 msgstr "Deaktiviert"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:539
+#: ../capplets/mouse/gnome-mouse-properties.c:559
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr ""
 "Der Name der anzuzeigenden Seite. Mögliche Werte: »general« (Allgemein), "
 "»accessibility« (Barrierefreiheit)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:544
+#: ../capplets/mouse/gnome-mouse-properties.c:564
 msgid "- GNOME Mouse Preferences"
 msgstr "– GNOME Maus-Einstellungen"
 
@@ -2798,10 +2948,12 @@ msgid "Dwell Click"
 msgstr "Verzögerter Klick"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:13
 msgid "Enable _horizontal scrolling"
 msgstr "_Horizontalen Bildlauf einschalten"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:14
 msgid "Enable mouse _clicks with touchpad"
 msgstr "Maus_klicks per Touchpad freischalten"
 
@@ -2822,6 +2974,7 @@ msgid "Mouse Orientation"
 msgstr "Mausposition"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:16
 msgid "Mouse Preferences"
 msgstr "Mauseinstellungen"
 
@@ -2861,10 +3014,12 @@ msgstr ""
 "Doppelklickeinstellungen zu testen."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:17
 msgid "Touchpad"
 msgstr "Touchpad"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:18
 msgid "Two-_finger scrolling"
 msgstr "Bildlauf mit zwei _Fingern"
 
@@ -2875,18 +3030,22 @@ msgstr ""
 "Klicktyp auszuwählen."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:19
 msgid "_Acceleration:"
 msgstr "_Beschleunigung:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:20
 msgid "_Disable touchpad while typing"
 msgstr "Touchpad beim Tippen sperren"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:21
 msgid "_Disabled"
 msgstr "_Deaktiviert"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:40
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:22
 msgid "_Edge scrolling"
 msgstr "Bildlauf am _Rand"
 
@@ -2895,18 +3054,21 @@ msgid "_Initiate click when stopping pointer movement"
 msgstr "_Klick ausführen, wenn sich der Mauszeiger nicht mehr bewegt"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:42
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:23
 msgid "_Left-handed"
-msgstr "Mit _links bediente Maus"
+msgstr "Mit _links bedient"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:43
 msgid "_Motion threshold:"
 msgstr "_Schwellenwert der Bewegung:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:44
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:24
 msgid "_Right-handed"
-msgstr "Mit _rechts bediente Maus"
+msgstr "Mit _rechts bedient"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:45
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:25
 msgid "_Sensitivity:"
 msgstr "_Empfindlichkeit:"
 
@@ -3174,10 +3336,9 @@ msgstr "Gruppen"
 msgid "Common Tasks"
 msgstr "Häufige Aktionen"
 
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Kontrollzentrum"
+#: ../shell/control-center.c:185
+msgid "Settings"
+msgstr "Einstellungen"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3260,6 +3421,10 @@ msgid ""
 msgstr ""
 "Legt fest, ob das Kontrollzentrum nach dem Aktivieren einer »Häufigen Aktion« "
 "beendet wird."
+
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Kontrollzentrum"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
@@ -3667,6 +3832,146 @@ msgstr "<b>»%s« öffnen</b>"
 msgid "Remove from System Items"
 msgstr "Aus den Systemelementen entfernen"
 
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:2
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>Öffnen</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Mouse Orientation</b>"
+msgstr "Mausposition"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Pointer Speed</b>"
+msgstr "Zeigergeschwindigkeit"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Scrolling</b>"
+msgstr "Bildlauf"
+
+#. fast acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:6
+msgid "<small><i>Fast</i></small>"
+msgstr ""
+
+#. high sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:8
+msgid "<small><i>High</i></small>"
+msgstr ""
+
+#. low sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:10
+msgid "<small><i>Low</i></small>"
+msgstr ""
+
+#. slow acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:12
+msgid "<small><i>Slow</i></small>"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Bounce Keys</b>"
+msgstr "Springende Tasten"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Slow Keys</b>"
+msgstr "Tastenverzögerung"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Sticky Keys</b>"
+msgstr "Klebrige Tasten"
+
+# CHECK
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Visual cues for sounds</b>"
+msgstr "Visuelle Hinweise für Klänge"
+
+#. font hinting
+#: ../capplets/appearance/data/appearance-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "Tipps"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Rendering</b>"
+msgstr "Schriftwiedergabe"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Smoothing</b>"
+msgstr "Kantenglättung"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Subpixel Order</b>"
+msgstr "Reihenfolge der Subpixel"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Drag the monitors to set their place</b>"
+msgstr "Ziehen Sie die Monitore, um ihre Lage festzulegen"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Monitor</b>"
+msgstr "<b>Arbeitsplatz</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:1
+msgid "<b>Email</b>"
+msgstr "<b>E-Mail</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Home address</b>"
+msgstr "<b>Wohnort</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Instant Messaging</b>"
+msgstr "Sofortnachrichten"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:4
+msgid "<b>Job</b>"
+msgstr "<b>Beruf</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Telephone</b>"
+msgstr "Telefon"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:6
+msgid "<b>Web</b>"
+msgstr "<b>Netz</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:7
+#, fuzzy
+msgid "<b>Work address</b>"
+msgstr "<b>Arbeitsplatz</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:23
+#, fuzzy
+msgid "Job _title:"
+msgstr "_Titel:"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:27
+#, fuzzy
+msgid "Personal"
+msgstr "Persönliche Informationen"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:40
+#, fuzzy
+msgid "_Website:"
+msgstr "_Titel:"
+
 #~ msgid "_Desktop Background"
 #~ msgstr "_Arbeitsflächen-Hintergrund"
 
@@ -3682,21 +3987,6 @@ msgstr "Aus den Systemelementen entfernen"
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr ""
 #~ "Unbekannte Anmeldekennung - die Benutzerdatenbank ist womöglich beschädigt"
-
-#~ msgid "<b>Email</b>"
-#~ msgstr "<b>E-Mail</b>"
-
-#~ msgid "<b>Home</b>"
-#~ msgstr "<b>Wohnort</b>"
-
-#~ msgid "<b>Job</b>"
-#~ msgstr "<b>Beruf</b>"
-
-#~ msgid "<b>Web</b>"
-#~ msgstr "<b>Netz</b>"
-
-#~ msgid "<b>Work</b>"
-#~ msgstr "<b>Arbeitsplatz</b>"
 
 #~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
 #~ msgstr "<span size=\"larger\" weight=\"bold\">Passwort ändern</span>"

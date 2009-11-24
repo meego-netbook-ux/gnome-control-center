@@ -21,15 +21,51 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-03-16 21:10+0100\n"
-"PO-Revision-Date: 2009-03-16 19:00+0900\n"
-"Last-Translator: Tino Meinen <tino.meinen@gmail.com>\n"
+"POT-Creation-Date: 2009-11-24 08:25+0000\n"
+"PO-Revision-Date: 2009-10-05 10:36-0800\n"
+"Last-Translator: Auke Kok <auke-jan.h.kok@intel.com>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Poedit-Language: Dutch\n"
+
+#: ../gnome-control-center.schemas.in.h:1
+msgid "Current network location"
+msgstr "Huidige netwerk lokatie"
+
+#: ../gnome-control-center.schemas.in.h:2
+msgid "More backgrounds URL"
+msgstr "Meer achtergrondafbeeldingen URL"
+
+#: ../gnome-control-center.schemas.in.h:3
+msgid "More themes URL"
+msgstr "Meer thema's URL"
+
+#: ../gnome-control-center.schemas.in.h:4
+msgid ""
+"Set this to your current location name. This is used to determine the "
+"appropriate network proxy configuration."
+msgstr ""
+"Zet dit als je huidige lokatie naam. Dit wordt gebruikt om de juiste netwerk "
+"proxy in te stellen."
+
+#: ../gnome-control-center.schemas.in.h:5
+msgid ""
+"URL for where to get more desktop backgrounds. If set to an empty string the "
+"link will not appear."
+msgstr ""
+"URL waar je meer bureaublad achtergrondafbeeldingen kunt krijgen. Laat dit "
+"leeg om de koppelin niet weer te geven."
+
+#: ../gnome-control-center.schemas.in.h:6
+msgid ""
+"URL for where to get more desktop themes. If set to an empty string the link "
+"will not appear."
+msgstr ""
+"URL waar je meer bureaublad thema's kunt krijgen. Laat dit leeg om de "
+"koppelin niet weer te geven."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -189,25 +225,25 @@ msgstr ""
 msgid "Remove your finger, and try swiping your finger again"
 msgstr "Haal uw vinger weg en veeg uw vinger opnieuw over het apparaat"
 
-#: ../capplets/about-me/gnome-about-me.c:776
+#: ../capplets/about-me/gnome-about-me.c:730
 msgid "Select Image"
 msgstr "Afbeelding selecteren"
 
-#: ../capplets/about-me/gnome-about-me.c:778
+#: ../capplets/about-me/gnome-about-me.c:732
 msgid "No Image"
 msgstr "Geen afbeelding"
 
-#: ../capplets/about-me/gnome-about-me.c:806
-#: ../capplets/appearance/appearance-desktop.c:660
+#: ../capplets/about-me/gnome-about-me.c:760
+#: ../capplets/appearance/appearance-desktop.c:691
 msgid "Images"
 msgstr "Afbeeldingen"
 
-#: ../capplets/about-me/gnome-about-me.c:810
-#: ../capplets/appearance/theme-installer.c:695
+#: ../capplets/about-me/gnome-about-me.c:764
+#: ../capplets/appearance/theme-installer.c:763
 msgid "All Files"
 msgstr "Alle bestanden"
 
-#: ../capplets/about-me/gnome-about-me.c:956
+#: ../capplets/about-me/gnome-about-me.c:901
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
@@ -215,63 +251,278 @@ msgstr ""
 "Er is een fout opgetreden bij het ophalen van de adresboekinformatie.\n"
 "Evolution Data Server kan niet omgaan met het protocol."
 
-#: ../capplets/about-me/gnome-about-me.c:977
+#: ../capplets/about-me/gnome-about-me.c:922
 msgid "Unable to open address book"
 msgstr "Kan adresboek niet openen"
 
-#: ../capplets/about-me/gnome-about-me.c:991
-msgid "Unknown login ID, the user database might be corrupted"
-msgstr "Onbekend aanmeldings-ID, de gebruikersdatabase is misschien beschadigd"
-
-#: ../capplets/about-me/gnome-about-me.c:1021
-#: ../capplets/about-me/gnome-about-me.c:1023
+#: ../capplets/about-me/gnome-about-me.c:945
 #, c-format
 msgid "About %s"
 msgstr "Over %s"
 
-#: ../capplets/about-me/gnome-about-me.c:1041
-#: ../capplets/about-me/gnome-about-me.glade.h:26
-msgid "Enable _Fingerprint Login..."
-msgstr "Aanmelden via _vingerafdruk aanzetten…"
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:8
+msgid "A_IM/iChat:"
+msgstr "A_IM/iChat:"
 
-#: ../capplets/about-me/gnome-about-me.c:1044
-#: ../capplets/about-me/gnome-about-me.glade.h:25
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:9
+msgid "A_ddress:"
+msgstr "_Adres:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:3
+msgid "A_ssistant:"
+msgstr "A_ssistent:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
+#: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:10
+msgid "About Me"
+msgstr "Over mij"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:5
+msgid "Address"
+msgstr "Adres"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:11
+msgid "C_ity:"
+msgstr "S_tad:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:12
+msgid "C_ompany:"
+msgstr "_Bedrijf:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:13
+msgid "Cale_ndar:"
+msgstr "Kale_nder:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:14
+msgid "Change Passwo_rd..."
+msgstr "Wachtw_oord wijzigen…"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:15
+msgid "Ci_ty:"
+msgstr "S_tad:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:16
+msgid "Co_untry:"
+msgstr "_Land:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:17
+msgid "Contact"
+msgstr "Contactinformatie"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:18
+msgid "Cou_ntry:"
+msgstr "_Land:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:19
 msgid "Disable _Fingerprint Login..."
 msgstr "Aanmelden via _vingerafdruk uitzetten…"
 
-#: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
-#: ../capplets/about-me/gnome-about-me.glade.h:12
-msgid "About Me"
-msgstr "Over mij"
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:15
+msgid "Email"
+msgstr "e-mail"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:16
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:20
+msgid "Enable _Fingerprint Login..."
+msgstr "Aanmelden via _vingerafdruk aanzetten…"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:17
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:21
+msgid "Full Name"
+msgstr "Volledige naam"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:18
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:22
+msgid "Hom_e:"
+msgstr "_Thuis:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:19
+#: ../libslab/bookmark-agent.c:1135
+msgid "Home"
+msgstr "Persoonlijke map"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:20
+msgid "IC_Q:"
+msgstr "IC_Q:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:21
+msgid "Instant Messaging"
+msgstr "Expresberichten"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:22
+msgid "Job"
+msgstr "Werk"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:24
+msgid "M_SN:"
+msgstr "_MSN:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:25
+msgid "P.O. _box:"
+msgstr "_Postbus:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:26
+msgid "P._O. box:"
+msgstr "P_ostbus:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:26
+msgid "Personal Info"
+msgstr "Persoonlijke gegevens"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:28
+msgid "Select your photo"
+msgstr "Selecteer uw foto"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:29
+msgid "State/Pro_vince:"
+msgstr "Staat/Pro_vincie:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:29
+msgid "Telephone"
+msgstr "Telefoon"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:30
+msgid "User name:"
+msgstr "Gebruikersnaam:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:31
+msgid "Web"
+msgstr "Web"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
+msgid "Web _log:"
+msgstr "_Weblog:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:31
+msgid "Wor_k:"
+msgstr "_Werk:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:32
+msgid "Work"
+msgstr "Werk"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:33
+msgid "Work _fax:"
+msgstr "_Fax werk:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:34
+msgid "Zip/_Postal code:"
+msgstr "Post_code:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:35
+msgid "_Address:"
+msgstr "_Adres:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:38
+msgid "_Department:"
+msgstr "Af_deling:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:39
+msgid "_Groupwise:"
+msgstr "_Groupwise:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
+msgid "_Home page:"
+msgstr "T_huispagina:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:36
+msgid "_Home:"
+msgstr "_Thuis:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:37
+msgid "_Jabber:"
+msgstr "_Jabber:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:43
+msgid "_Manager:"
+msgstr "_Manager:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:38
+msgid "_Mobile:"
+msgstr "_Mobiel:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:45
+msgid "_Profession:"
+msgstr "B_eroep:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:39
+msgid "_State/Province:"
+msgstr "Staat/Pro_vincie:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:47
+msgid "_Title:"
+msgstr "_Titel:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:41
+msgid "_Work:"
+msgstr "_Werk:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:42
+msgid "_Yahoo:"
+msgstr "_Yahoo:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:43
+msgid "_Zip/Postal code:"
+msgstr "Post_code:"
 
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:2
 msgid "Set your personal information"
 msgstr "Persoonlijk informatie instellen"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:99
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:97
 msgid ""
 "You are not allowed to access the device. Contact your system administrator."
 msgstr ""
 "U heeft geen toegang tot het apparaat. Neem contact op met systeembeheerder."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:101
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid "The device is already in use."
 msgstr "Het apparaat is al in gebruik."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:103
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:101
 msgid "An internal error occured"
 msgstr "Er is een interne fout opgetreden"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:220
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:218
 msgid "Delete registered fingerprints?"
 msgstr "Geregistreerde vingerafdrukken verwijderen?"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:223
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:221
 msgid "_Delete Fingerprints"
 msgstr "_Vingerafdrukken verwijdern"
 
 # geregistreerde/opgeslagen
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:230
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:228
 msgid ""
 "Do you want to delete your registered fingerprints so fingerprint login is "
 "disabled?"
@@ -279,8 +530,8 @@ msgstr ""
 "Wilt u uw geregistreerde vingerafdruk verwijderen zodat "
 "vingerafdrukaanmelding uitgeschakeld wordt?"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:343
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:583
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:342
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
 msgid "Done!"
 msgstr "Voltooid!"
 
@@ -296,32 +547,29 @@ msgstr "Kon geen toegang krijgen tot het ‘%s’-apparaat"
 #. translators:
 #. * The variable is the name of the device, for example:
 #. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:444
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:459
 #, c-format
 msgid "Could not start finger capture on '%s' device"
 msgstr "Kon vingerafdruk nemen op het ‘%s’-apparaat niet starten"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:491
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:506
 msgid "Could not access any fingerprint readers"
 msgstr "Kon tot geen enkele vingerafdruklezer toegang krijgen"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:492
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:507
 msgid "Please contact your system administrator for help."
 msgstr "Neem contact op met uw systeembeheerder voor hulp."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:518
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:537
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:2
 msgid "Enable Fingerprint Login"
 msgstr "Vingerafdrukaanmelding aanzetten"
-
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:534
-msgid "Select finger"
-msgstr "Vinger selecteren"
 
 #. translators:
 #. * The variable is the name of the device, for example:
 #. * "To enable fingerprint login, you need to save one of your fingerprints, using the
 #. * 'Digital Persona U.are.U 4000/4000B' device."
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:555
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:567
 #, c-format
 msgid ""
 "To enable fingerprint login, you need to save one of your fingerprints, "
@@ -330,194 +578,203 @@ msgstr ""
 "Om vingerafdrukaanmelding aan te zetten moet u een van uw vingerafdrukken "
 "opslaan met het ‘%s’-apparaat."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:568
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:576
 msgid "Swipe finger on reader"
 msgstr "Veeg de vinger over de lezer"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:570
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:578
 msgid "Place finger on reader"
 msgstr "Plaats vinger op de lezer"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:1
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:3
 msgid "Left index finger"
 msgstr "Linker wijsvinger"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:2
-msgid ""
-"Left thumb\n"
-"Left middle finger\n"
-"Left ring finger\n"
-"Left little finger\n"
-"Right thumb\n"
-"Right middle finger\n"
-"Right ring finger\n"
-"Right little finger"
-msgstr ""
-"Linker duim\n"
-"Linker middelvinger\n"
-"Linker ringvinger\n"
-"Linker pink\n"
-"Rechter duim\n"
-"Rechter middelvinger\n"
-"Rechter ringvinger\n"
-"Rechter pink"
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:4
+msgid "Left little finger"
+msgstr "Linker pink"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:10
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:5
+msgid "Left middle finger"
+msgstr "Linker middelvinger"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:6
+msgid "Left ring finger"
+msgstr "Linker ringvinger"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:7
+msgid "Left thumb"
+msgstr "Linker duim"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:8
 msgid "Other finger: "
 msgstr "Andere vinger: "
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:11
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:9
 msgid "Right index finger"
 msgstr "Rechter wijsvinger"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:12
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:10
+msgid "Right little finger"
+msgstr "Rechter pink"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:11
+msgid "Right middle finger"
+msgstr "Rechter middelvinger"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:12
+msgid "Right ring finger"
+msgstr "Rechter ringvinger"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:13
+msgid "Right thumb"
+msgstr "Rechter duim"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:14
+msgid "Select finger"
+msgstr "Vinger selecteren"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
 msgid ""
 "Your fingerprint was successfully saved. You should now be able to log in "
 "using your fingerprint reader."
 msgstr ""
 "Uw vingerafdruk is opgeslagen. U kunt nu aanmelden via uw vingerafdruklezer."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:1
-msgid "<b>Email</b>"
-msgstr "<b>E-mail</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:161
+msgid "Child exited unexpectedly"
+msgstr "Dochterproces is onverwacht afgesloten"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:2
-msgid "<b>Home</b>"
-msgstr "<b>Thuis</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:296
+#, c-format
+msgid "Could not shutdown backend_stdin IO channel: %s"
+msgstr "Kon het IO-kanaal backend_stdin niet afsluiten: %s"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:3
-msgid "<b>Instant Messaging</b>"
-msgstr "<b>Expresberichten</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:309
+#, c-format
+msgid "Could not shutdown backend_stdout IO channel: %s"
+msgstr "Kon het IO-kanaal backend_stdout niet afsluiten: %s"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:4
-msgid "<b>Job</b>"
-msgstr "<b>Werk</b>"
+# dit verschijnt onderaan het 'Change password' dialoog
+# wanneer het juiste huidige wachtwoord is ingetypt en
+# gecontroleerd. De vertaling mag ook wat langer zijn (tino)
+# Het huidige wachtwoord was juist/gecontroleerd/
+# U heeft het juiste wachtwoord ingevuld/Correct!/
+# Aanmeldingscontrole uitgevoerd/Controle voltooid/
+# Wachtwoordcontrole correct!/
+#: ../capplets/about-me/gnome-about-me-password.c:408
+msgid "Authenticated!"
+msgstr "Wachtwoordcontrole voltooid!"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:5
-msgid "<b>Telephone</b>"
-msgstr "<b>Telefoon</b>"
+#. This is a re-auth, and it failed.
+#. * The password must have been changed in the meantime!
+#. * Ask the user to re-authenticate
+#.
+#. Update status message and auth state
+#. Authentication failure
+#: ../capplets/about-me/gnome-about-me-password.c:474
+#: ../capplets/about-me/gnome-about-me-password.c:550
+msgid ""
+"Your password has been changed since you initially authenticated! Please re-"
+"authenticate."
+msgstr ""
+"Uw wachtwoord is gewijzigd sinds de vorige wachtwoordcontrole! Voer de "
+"wachtwoordcontrole opnieuw uit."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:6
-msgid "<b>Web</b>"
-msgstr "<b>Web</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:476
+msgid "That password was incorrect."
+msgstr "Dat wachtwoord was onjuist."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:7
-msgid "<b>Work</b>"
-msgstr "<b>Werk</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:523
+msgid "Your password has been changed."
+msgstr "Uw wachtwoord is gewijzigd."
 
-# Dit verschijnt als titel in het dialoog Wachtwoord wijzigen.
-# Daaronder komt de uitleg hoe je het moet doen (tino)
-#: ../capplets/about-me/gnome-about-me.glade.h:8
-msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
-msgstr "<span size=\"larger\" weight=\"bold\">Uw wachtwoord wijzigen</span>"
+#. What does this indicate?
+#. * "Authentication information cannot be recovered?" from libpam?
+#: ../capplets/about-me/gnome-about-me-password.c:533
+#, c-format
+msgid "System error: %s."
+msgstr "Systeemfout: %s."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:9
-msgid "A_IM/iChat:"
-msgstr "A_IM/iChat:"
+#: ../capplets/about-me/gnome-about-me-password.c:536
+msgid "The password is too short."
+msgstr "het wachtwoord is te kort."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:10
-msgid "A_ddress:"
-msgstr "_Adres:"
+#: ../capplets/about-me/gnome-about-me-password.c:539
+msgid "The password is too simple."
+msgstr "Het wachtwoord is te eenvoudig."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:11
-msgid "A_ssistant:"
-msgstr "A_ssistent:"
+#: ../capplets/about-me/gnome-about-me-password.c:542
+msgid "The old and new passwords are too similar."
+msgstr "Het oude en nieuwe wachtwoord lijken teveel op elkaar."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:13
-msgid "Address"
-msgstr "Adres"
+#: ../capplets/about-me/gnome-about-me-password.c:544
+msgid "The new password must contain numeric or special character(s)."
+msgstr "Het nieuwe wachtwoord moet numerieke of speciale tekens bevatten."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:14
-msgid "C_ity:"
-msgstr "S_tad:"
+#: ../capplets/about-me/gnome-about-me-password.c:547
+msgid "The old and new passwords are the same."
+msgstr "Het oude en nieuwe wachtwoord zijn hetzelfde."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:15
-msgid "C_ompany:"
-msgstr "_Bedrijf:"
+#. translators: Unable to launch <program>: <error message>
+#: ../capplets/about-me/gnome-about-me-password.c:818
+#, c-format
+msgid "Unable to launch %s: %s"
+msgstr "Kan %s niet uitvoeren: %s"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:16
-msgid "Cale_ndar:"
-msgstr "Kale_nder:"
+#: ../capplets/about-me/gnome-about-me-password.c:822
+msgid "Unable to launch backend"
+msgstr "Kan back-end niet opstarten"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:17
-msgid "Change Passwo_rd..."
-msgstr "Wachtw_oord wijzigen…"
+#: ../capplets/about-me/gnome-about-me-password.c:823
+msgid "A system error has occurred"
+msgstr "Er is een systeemfout opgetreden"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:18
-msgid "Change pa_ssword"
-msgstr "_Wachtwoord wijzigen"
+#. Update status message
+#: ../capplets/about-me/gnome-about-me-password.c:843
+msgid "Checking password..."
+msgstr "Wachtwoord controleren…"
 
-# venstertitel
-#: ../capplets/about-me/gnome-about-me.glade.h:19
-msgid "Change password"
-msgstr "Wachtwoord wijzigen"
+#: ../capplets/about-me/gnome-about-me-password.c:930
+msgid "Click <b>Change password</b> to change your password."
+msgstr "Klik op <b>Wachtwoord wijzigen</b> om het wachtwoord te wijzigen."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:20
-msgid "Ci_ty:"
-msgstr "S_tad:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:21
-msgid "Co_untry:"
-msgstr "_Land:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:22
-msgid "Contact"
-msgstr "Contactinformatie"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:23
-msgid "Cou_ntry:"
-msgstr "_Land:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:24
-msgid "Current _password:"
-msgstr "_Huidige wachtwoord:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:27
-msgid "Full Name"
-msgstr "Volledige naam"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:28
-msgid "Hom_e:"
-msgstr "_Thuis:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:29
-msgid "IC_Q:"
-msgstr "IC_Q:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:30
-msgid "M_SN:"
-msgstr "_MSN:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:31
-msgid "P.O. _box:"
-msgstr "_Postbus:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:32
-msgid "P._O. box:"
-msgstr "P_ostbus:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:33
-msgid "Personal Info"
-msgstr "Persoonlijke gegevens"
+#: ../capplets/about-me/gnome-about-me-password.c:933
+msgid "Please type your password in the <b>New password</b> field."
+msgstr "Vul uw wachtwoord in bij het veld <b>Nieuw wachtwoord</b>."
 
 # intypen/invoeren
-#: ../capplets/about-me/gnome-about-me.glade.h:34
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:936
+#: ../capplets/about-me/gnome-about-me-password.ui.h:5
 msgid ""
 "Please type your password again in the <b>Retype new password</b> field."
 msgstr ""
 "Vul het wachtwoord opnieuw in bij het veld <b>Wachtwoord nogmaals intypen</"
 "b>."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:35
-msgid "Select your photo"
-msgstr "Selecteer uw foto"
+#: ../capplets/about-me/gnome-about-me-password.c:939
+msgid "The two passwords are not equal."
+msgstr "De twee wachtwoorden zijn niet gelijk."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:36
-msgid "State/Pro_vince:"
-msgstr "Staat/Pro_vincie:"
+#: ../capplets/about-me/gnome-about-me-password.ui.h:1
+msgid "Change pa_ssword"
+msgstr "_Wachtwoord wijzigen"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:37
+# venstertitel
+#: ../capplets/about-me/gnome-about-me-password.ui.h:2
+msgid "Change password"
+msgstr "Wachtwoord wijzigen"
+
+# venstertitel
+#: ../capplets/about-me/gnome-about-me-password.ui.h:3
+msgid "Change your password"
+msgstr "Wachtwoord wijzigen"
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:4
+msgid "Current _password:"
+msgstr "_Huidige wachtwoord:"
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
 "To change your password, enter your current password in the field below and "
 "click <b>Authenticate</b>.\n"
@@ -530,223 +787,38 @@ msgstr ""
 "nog een tweede keer voor verificatie, en klikt u op <b>Wachtwoord wijzigen</"
 "b>."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:39
-msgid "User name:"
-msgstr "Gebruikersnaam:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:40
-msgid "Web _log:"
-msgstr "_Weblog:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:41
-msgid "Wor_k:"
-msgstr "_Werk:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:42
-msgid "Work _fax:"
-msgstr "_Fax werk:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:43
-msgid "Zip/_Postal code:"
-msgstr "Post_code:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:44
-msgid "_Address:"
-msgstr "_Adres:"
-
 # dit is de knop die naast het veld 'huidige wachtwoord' staat
 # als je je huidige wachtwoord hebt ingevuld en op 'Authenticate'
 # klikt (en het wachtwoord is juist) kun je je huidige wachtwoord
 # gaan wijzigen.
 # Dus letterlijke vertaling is 'Aanmeldingscontrole' maar in dit
 # geval houden we het kort en gebruiken we alleen 'Controle' (tino)
-#: ../capplets/about-me/gnome-about-me.glade.h:45
+#: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
 msgstr "_Controleren"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:46
-msgid "_Department:"
-msgstr "Af_deling:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:47
-msgid "_Groupwise:"
-msgstr "_Groupwise:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:48
-msgid "_Home page:"
-msgstr "T_huispagina:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:49
-msgid "_Home:"
-msgstr "_Thuis:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:50
-msgid "_Jabber:"
-msgstr "_Jabber:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:51
-msgid "_Manager:"
-msgstr "_Manager:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:52
-msgid "_Mobile:"
-msgstr "_Mobiel:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:53
+#: ../capplets/about-me/gnome-about-me-password.ui.h:9
 msgid "_New password:"
 msgstr "_Nieuw wachtwoord:"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:54
-msgid "_Profession:"
-msgstr "B_eroep:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:55
+#: ../capplets/about-me/gnome-about-me-password.ui.h:10
 msgid "_Retype new password:"
 msgstr "Wachtwoord no_gmaals intypen:"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:56
-msgid "_State/Province:"
-msgstr "Staat/Pro_vincie:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:57
-msgid "_Title:"
-msgstr "_Titel:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:58
-msgid "_Work:"
-msgstr "_Werk:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:59
-msgid "_Yahoo:"
-msgstr "_Yahoo:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:60
-msgid "_Zip/Postal code:"
-msgstr "Post_code:"
-
-#: ../capplets/about-me/gnome-about-me-password.c:162
-msgid "Child exited unexpectedly"
-msgstr "Dochterproces is onverwacht afgesloten"
-
-#: ../capplets/about-me/gnome-about-me-password.c:297
-#, c-format
-msgid "Could not shutdown backend_stdin IO channel: %s"
-msgstr "Kon het IO-kanaal backend_stdin niet afsluiten: %s"
-
-#: ../capplets/about-me/gnome-about-me-password.c:310
-#, c-format
-msgid "Could not shutdown backend_stdout IO channel: %s"
-msgstr "Kon het IO-kanaal backend_stdout niet afsluiten: %s"
-
-# dit verschijnt onderaan het 'Change password' dialoog
-# wanneer het juiste huidige wachtwoord is ingetypt en
-# gecontroleerd. De vertaling mag ook wat langer zijn (tino)
-# Het huidige wachtwoord was juist/gecontroleerd/
-# U heeft het juiste wachtwoord ingevuld/Correct!/
-# Aanmeldingscontrole uitgevoerd/Controle voltooid/
-# Wachtwoordcontrole correct!/
-#: ../capplets/about-me/gnome-about-me-password.c:409
-msgid "Authenticated!"
-msgstr "Wachtwoordcontrole voltooid!"
-
-#. This is a re-auth, and it failed.
-#. * The password must have been changed in the meantime!
-#. * Ask the user to re-authenticate
-#.
-#. Update status message and auth state
-#. Authentication failure
-#: ../capplets/about-me/gnome-about-me-password.c:475
-#: ../capplets/about-me/gnome-about-me-password.c:551
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
-msgstr ""
-"Uw wachtwoord is gewijzigd sinds de vorige wachtwoordcontrole! Voer de "
-"wachtwoordcontrole opnieuw uit."
-
-#: ../capplets/about-me/gnome-about-me-password.c:477
-msgid "That password was incorrect."
-msgstr "Dat wachtwoord was onjuist."
-
-#: ../capplets/about-me/gnome-about-me-password.c:524
-msgid "Your password has been changed."
-msgstr "Uw wachtwoord is gewijzigd."
-
-#. What does this indicate?
-#. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
-#, c-format
-msgid "System error: %s."
-msgstr "Systeemfout: %s."
-
-#: ../capplets/about-me/gnome-about-me-password.c:537
-msgid "The password is too short."
-msgstr "het wachtwoord is te kort."
-
-#: ../capplets/about-me/gnome-about-me-password.c:540
-msgid "The password is too simple."
-msgstr "Het wachtwoord is te eenvoudig."
-
-#: ../capplets/about-me/gnome-about-me-password.c:543
-msgid "The old and new passwords are too similar."
-msgstr "Het oude en nieuwe wachtwoord lijken teveel op elkaar."
-
-#: ../capplets/about-me/gnome-about-me-password.c:545
-msgid "The new password must contain numeric or special character(s)."
-msgstr "Het nieuwe wachtwoord moet numerieke of speciale tekens bevatten."
-
-#: ../capplets/about-me/gnome-about-me-password.c:548
-msgid "The old and new passwords are the same."
-msgstr "Het oude en nieuwe wachtwoord zijn hetzelfde."
-
-#. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
-#, c-format
-msgid "Unable to launch %s: %s"
-msgstr "Kan %s niet uitvoeren: %s"
-
-#: ../capplets/about-me/gnome-about-me-password.c:824
-msgid "Unable to launch backend"
-msgstr "Kan back-end niet opstarten"
-
-#: ../capplets/about-me/gnome-about-me-password.c:825
-msgid "A system error has occurred"
-msgstr "Er is een systeemfout opgetreden"
-
-#. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
-msgid "Checking password..."
-msgstr "Wachtwoord controleren…"
-
-#: ../capplets/about-me/gnome-about-me-password.c:932
-msgid "Click <b>Change password</b> to change your password."
-msgstr "Klik op <b>Wachtwoord wijzigen</b> om het wachtwoord te wijzigen."
-
-#: ../capplets/about-me/gnome-about-me-password.c:935
-msgid "Please type your password in the <b>New password</b> field."
-msgstr "Vul uw wachtwoord in bij het veld <b>Nieuw wachtwoord</b>."
-
-#: ../capplets/about-me/gnome-about-me-password.c:941
-msgid "The two passwords are not equal."
-msgstr "De twee wachtwoorden zijn niet gelijk."
-
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:1
-msgid "<b>Assistive Technologies</b>"
-msgstr "<b>Assisterende technologieën</b>"
-
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:2
-msgid "<b>Preferences</b>"
-msgstr "<b>Voorkeuren</b>"
-
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:3
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:1
 msgid "Accessible Lo_gin"
 msgstr "Toe_gankelijk aanmelden"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:4
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:2
+#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
+msgid "Assistive Technologies"
+msgstr "Assisterende technologieën"
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:3
 msgid "Assistive Technologies Preferences"
 msgstr "Assisterende technologie-voorkeuren"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:5
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
 msgid ""
 "Changes to enable assistive technologies will not take effect until your "
 "next log in."
@@ -754,56 +826,56 @@ msgstr ""
 "Wijzigingen die assisterende technologie inschakelen hebben geen effect "
 "totdat u zich opnieuw aanmeldt."
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:6
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
 msgstr "Sluiten en a_fmelden"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:7
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:6
 msgid "Jump to Preferred Applications dialog"
 msgstr "Naar Standaardtoepassingen-dialoogvenster"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:8
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:7
 msgid "Jump to the Accessible Login dialog"
 msgstr "Naar Toegankelijk aanmelden-dialoogvenster"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:9
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:8
 msgid "Jump to the Keyboard Accessibility dialog"
 msgstr "Naar dialoogvenster Toetsenbordtoegankelijkheid"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:10
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:9
 msgid "Jump to the Mouse Accessibility dialog"
 msgstr "Naar dialoogvenster Muistoegankelijkheid"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:11
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:10
+msgid "Preferences"
+msgstr "_Voorkeuren"
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:11
 msgid "_Enable assistive technologies"
 msgstr "Assisterende _technologieën inschakelen"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:12
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:12
 msgid "_Keyboard Accessibility"
 msgstr "Toetsen_bord-toegankelijkheid"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:13
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:13
 msgid "_Mouse Accessibility"
 msgstr "_Muistoegankelijkheid"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:14
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:14
 msgid "_Preferred Applications"
 msgstr "Standaard_toepassingen"
-
-#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
-msgid "Assistive Technologies"
-msgstr "Assisterende technologieën"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
 msgid "Choose which accessibility features to enable when you log in"
 msgstr ""
 "Welke toegankelijkheidsfunctionaliteit in te schakelen bij het aanmelden"
 
-#: ../capplets/appearance/appearance-desktop.c:628
+#: ../capplets/appearance/appearance-desktop.c:660
 msgid "Add Wallpaper"
 msgstr "Achtergrond toevoegen"
 
-#: ../capplets/appearance/appearance-desktop.c:664
+#: ../capplets/appearance/appearance-desktop.c:695
 msgid "All files"
 msgstr "Alle bestanden"
 
@@ -857,44 +929,49 @@ msgstr "Vorig lettertype gebruiken"
 msgid "Use selected font"
 msgstr "Geselecteerde lettertype gebruiken"
 
-#: ../capplets/appearance/appearance-main.c:124
+#: ../capplets/appearance/appearance-main.c:63
+#, c-format
+msgid "Could not load user interface file: %s"
+msgstr "Kon niet gebruikersinterface bestand laden: %s"
+
+#: ../capplets/appearance/appearance-main.c:144
 msgid "Specify the filename of a theme to install"
 msgstr "Geef de bestandsnaam van een thema dat geïnstalleerd moet worden"
 
-#: ../capplets/appearance/appearance-main.c:125
+#: ../capplets/appearance/appearance-main.c:145
 msgid "filename"
 msgstr "bestandsnaam"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:132
+#: ../capplets/appearance/appearance-main.c:152
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr ""
 "De naam aangeven van de te tonen pagina (thema|achtergrond|lettertypen|"
 "bedieningsoppervlak)"
 
-#: ../capplets/appearance/appearance-main.c:133
-#: ../capplets/default-applications/gnome-da-capplet.c:897
-#: ../capplets/mouse/gnome-mouse-properties.c:442
+#: ../capplets/appearance/appearance-main.c:153
+#: ../capplets/default-applications/gnome-da-capplet.c:907
+#: ../capplets/mouse/gnome-mouse-properties.c:560
 msgid "page"
 msgstr "pagina"
 
-#: ../capplets/appearance/appearance-main.c:140
+#: ../capplets/appearance/appearance-main.c:160
 msgid "[WALLPAPER...]"
 msgstr "[WERKBLADACHTERGROND...]"
 
 #: ../capplets/appearance/appearance-style.c:173
-#: ../capplets/common/gnome-theme-info.c:445
-#: ../capplets/common/gnome-theme-info.c:637
+#: ../capplets/common/gnome-theme-info.c:446
+#: ../capplets/common/gnome-theme-info.c:638
 msgid "Default Pointer"
 msgstr "Standaard muisaanwijzer"
 
 #: ../capplets/appearance/appearance-style.c:235
-#: ../capplets/appearance/appearance-themes.c:687
+#: ../capplets/appearance/appearance-themes.c:685
 msgid "Install"
 msgstr "Installeren"
 
 #: ../capplets/appearance/appearance-style.c:255
-#: ../capplets/common/gnome-theme-info.c:1647
+#: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
 msgid ""
 "This theme will not look as intended because the required GTK+ theme engine "
@@ -903,19 +980,19 @@ msgstr ""
 "Dit thema zal er niet uitzien zoals bedoeld omdat de vereiste GTK+-"
 "themamodule ‘%s’ niet is geïnstalleerd."
 
-#: ../capplets/appearance/appearance-themes.c:675
+#: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
 msgstr "Achtergrond toepassen"
 
-#: ../capplets/appearance/appearance-themes.c:679
+#: ../capplets/appearance/appearance-themes.c:677
 msgid "Apply Font"
 msgstr "Lettertype toepassen"
 
-#: ../capplets/appearance/appearance-themes.c:683
+#: ../capplets/appearance/appearance-themes.c:681
 msgid "Revert Font"
 msgstr "Lettertype terugzetten"
 
-#: ../capplets/appearance/appearance-themes.c:713
+#: ../capplets/appearance/appearance-themes.c:711
 msgid ""
 "The current theme suggests a background and a font. Also, the last applied "
 "font suggestion can be reverted."
@@ -923,7 +1000,7 @@ msgstr ""
 "Het huidige thema adviseert een achtergrond en een lettertype. U kunt ook "
 "het laatst toegepaste lettertype-advies terugzetten."
 
-#: ../capplets/appearance/appearance-themes.c:715
+#: ../capplets/appearance/appearance-themes.c:713
 msgid ""
 "The current theme suggests a background. Also, the last applied font "
 "suggestion can be reverted."
@@ -931,11 +1008,11 @@ msgstr ""
 "Het huidige thema adviseert een achtergrond en een lettertype. U kunt ook "
 "het laatst toegepaste lettertype-advies terugzetten."
 
-#: ../capplets/appearance/appearance-themes.c:717
+#: ../capplets/appearance/appearance-themes.c:715
 msgid "The current theme suggests a background and a font."
 msgstr "Het huidige thema adviseert een achtergrond en een lettertype."
 
-#: ../capplets/appearance/appearance-themes.c:719
+#: ../capplets/appearance/appearance-themes.c:717
 msgid ""
 "The current theme suggests a font. Also, the last applied font suggestion "
 "can be reverted."
@@ -943,387 +1020,424 @@ msgstr ""
 "Het huidige thema adviseert een lettertype. U kunt ook het laatst toegepaste "
 "lettertype-advies terugzetten."
 
-#: ../capplets/appearance/appearance-themes.c:721
+#: ../capplets/appearance/appearance-themes.c:719
 msgid "The current theme suggests a background."
 msgstr "Het huidige thema adviseert een achtergrond."
 
-#: ../capplets/appearance/appearance-themes.c:723
+#: ../capplets/appearance/appearance-themes.c:721
 msgid "The last applied font suggestion can be reverted."
 msgstr "U kunt het laatst toegepaste lettertype-advies terugzetten."
 
-#: ../capplets/appearance/appearance-themes.c:725
+#: ../capplets/appearance/appearance-themes.c:723
 msgid "The current theme suggests a font."
 msgstr "Het huidige thema adviseert een lettertype."
 
-#: ../capplets/appearance/appearance-themes.c:1046
-#: ../capplets/default-applications/gnome-da-capplet.c:648
+#: ../capplets/appearance/appearance-themes.c:1045
+#: ../capplets/default-applications/gnome-da-capplet.c:646
 msgid "Custom"
 msgstr "Aangepast"
 
-#: ../capplets/appearance/data/appearance.glade.h:1
-msgid "<b>C_olors</b>"
-msgstr "<b>_Kleuren</b>"
-
-#. font hinting
-#: ../capplets/appearance/data/appearance.glade.h:3
-msgid "<b>Hinting</b>"
-msgstr "<b>Vormhints</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:4
-msgid "<b>Menus and Toolbars</b>"
-msgstr "<b>Menu's en werkbalken</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:5
-msgid "<b>Preview</b>"
-msgstr "<b>Voorbeeld</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:6
-msgid "<b>Rendering</b>"
-msgstr "<b>Weergave</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:7
-msgid "<b>Smoothing</b>"
-msgstr "<b>Gladmaken</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:8
-msgid "<b>Subpixel Order</b>"
-msgstr "<b>Subpixel-volgorde</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:9
-msgid "<b>_Desktop Background</b>"
-msgstr "<b>_Werkbladachtergrond</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:10
+#: ../capplets/appearance/data/appearance.ui.h:1
+#: ../capplets/appearance/data/appearance-moblin.ui.h:6
 msgid "Appearance Preferences"
 msgstr "Uiterlijk-voorkeuren"
 
-#: ../capplets/appearance/data/appearance.glade.h:11
+#: ../capplets/appearance/data/appearance.ui.h:2
+#: ../capplets/appearance/data/appearance-moblin.ui.h:7
 msgid "Background"
 msgstr "Achtergrond"
 
-#: ../capplets/appearance/data/appearance.glade.h:12
+#: ../capplets/appearance/data/appearance.ui.h:3
+#: ../capplets/appearance/data/appearance-moblin.ui.h:8
 msgid "Best _shapes"
 msgstr "Beste v_ormen"
 
-#: ../capplets/appearance/data/appearance.glade.h:13
+#: ../capplets/appearance/data/appearance.ui.h:4
+#: ../capplets/appearance/data/appearance-moblin.ui.h:9
 msgid "Best co_ntrast"
 msgstr "Beste co_ntrast"
 
-#: ../capplets/appearance/data/appearance.glade.h:14
+#: ../capplets/appearance/data/appearance.ui.h:5
+msgid "C_olors:"
+msgstr "_Kleuren"
+
+#: ../capplets/appearance/data/appearance.ui.h:6
 msgid "C_ustomize..."
 msgstr "_Aanpassen…"
 
-#: ../capplets/appearance/data/appearance.glade.h:15
-msgid "C_ut"
-msgstr "K_nippen"
+#: ../capplets/appearance/data/appearance.ui.h:7
+#: ../capplets/appearance/data/appearance-moblin.ui.h:10
+msgid "Centered"
+msgstr "Gecentreerd"
 
-#: ../capplets/appearance/data/appearance.glade.h:16
+#: ../capplets/appearance/data/appearance.ui.h:8
+#: ../capplets/appearance/data/appearance-moblin.ui.h:11
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr ""
 "Het wijzigen van uw cursorthema heeft pas effect vanaf de volgende keer dat "
 "u zich aanmeldt."
 
-#: ../capplets/appearance/data/appearance.glade.h:17
+#: ../capplets/appearance/data/appearance.ui.h:9
+#: ../capplets/appearance/data/appearance-moblin.ui.h:12
 msgid "Colors"
 msgstr "Kleuren"
 
 # Bedieningselementen
-#: ../capplets/appearance/data/appearance.glade.h:18
+#: ../capplets/appearance/data/appearance.ui.h:10
+#: ../capplets/appearance/data/appearance-moblin.ui.h:13
 msgid "Controls"
 msgstr "Elementen"
 
-#: ../capplets/appearance/data/appearance.glade.h:19
+#: ../capplets/appearance/data/appearance.ui.h:11
+#: ../capplets/appearance/data/appearance-moblin.ui.h:14
 msgid "Customize Theme"
 msgstr "Thema aanpassen"
 
-#: ../capplets/appearance/data/appearance.glade.h:20
+#: ../capplets/appearance/data/appearance.ui.h:12
+#: ../capplets/appearance/data/appearance-moblin.ui.h:15
 msgid "D_etails..."
 msgstr "_Details…"
 
-#: ../capplets/appearance/data/appearance.glade.h:21
+#: ../capplets/appearance/data/appearance.ui.h:13
+#: ../capplets/appearance/data/appearance-moblin.ui.h:16
 msgid "Des_ktop font:"
 msgstr "_Bureaubladlettertype:"
 
-#: ../capplets/appearance/data/appearance.glade.h:22
+#: ../capplets/appearance/data/appearance.ui.h:14
 msgid "Edit"
 msgstr "Bewerken"
 
-#: ../capplets/appearance/data/appearance.glade.h:23
+#: ../capplets/appearance/data/appearance.ui.h:15
+#: ../capplets/appearance/data/appearance-moblin.ui.h:17
+msgid "Fill screen"
+msgstr "Vul scherm"
+
+#: ../capplets/appearance/data/appearance.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:18
 msgid "Font Rendering Details"
 msgstr "Details van lettertypenweergave"
 
-#: ../capplets/appearance/data/appearance.glade.h:24
+#: ../capplets/appearance/data/appearance.ui.h:17
+#: ../capplets/appearance/data/appearance-moblin.ui.h:19
 msgid "Fonts"
 msgstr "Lettertypen"
 
-#: ../capplets/appearance/data/appearance.glade.h:25
+#: ../capplets/appearance/data/appearance.ui.h:18
+#: ../capplets/appearance/data/appearance-moblin.ui.h:20
+msgid "Get more backgrounds online"
+msgstr "Meer achtergrondafbeelding ophalen"
+
+#: ../capplets/appearance/data/appearance.ui.h:19
+msgid "Get more themes online"
+msgstr "Meer thema's ophalen van het internet"
+
+#: ../capplets/appearance/data/appearance.ui.h:20
+#: ../capplets/appearance/data/appearance-moblin.ui.h:21
 msgid "Gra_yscale"
 msgstr "G_rijswaarden"
 
-#: ../capplets/appearance/data/appearance.glade.h:26
+#. font hinting
+#: ../capplets/appearance/data/appearance.ui.h:22
+msgid "Hinting"
+msgstr "Vormhints"
+
+#: ../capplets/appearance/data/appearance.ui.h:23
+#: ../capplets/appearance/data/appearance-moblin.ui.h:22
+msgid "Horizontal gradient"
+msgstr "Horizontale gradient"
+
+#: ../capplets/appearance/data/appearance.ui.h:24
+#: ../capplets/appearance/data/appearance-moblin.ui.h:23
 msgid "Icons"
 msgstr "Pictogrammen"
 
-#: ../capplets/appearance/data/appearance.glade.h:27
+#: ../capplets/appearance/data/appearance.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:24
+msgid "Icons only"
+msgstr "Alleen pictogrammen"
+
+#: ../capplets/appearance/data/appearance.ui.h:26
 msgid "Interface"
 msgstr "Bedieningsoppervlak"
 
-#: ../capplets/appearance/data/appearance.glade.h:28
+#: ../capplets/appearance/data/appearance.ui.h:27
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:25
 msgid "Large"
 msgstr "Groot"
 
-#: ../capplets/appearance/data/appearance.glade.h:29
+#: ../capplets/appearance/data/appearance.ui.h:28
+msgid "Menus and Toolbars"
+msgstr "Menu's en werkbalken"
+
+#: ../capplets/appearance/data/appearance.ui.h:29
+#: ../capplets/appearance/data/appearance-moblin.ui.h:26
 msgid "N_one"
 msgstr "_Geen"
 
-#: ../capplets/appearance/data/appearance.glade.h:30
-msgid "New File"
-msgstr "Nieuw bestand"
-
-#: ../capplets/appearance/data/appearance.glade.h:31
-msgid "Open File"
-msgstr "Bestand openen"
-
-#: ../capplets/appearance/data/appearance.glade.h:32
+#: ../capplets/appearance/data/appearance.ui.h:30
 msgid "Open a dialog to specify the color"
 msgstr "Een kleurkeuzevenster openen"
 
-#: ../capplets/appearance/data/appearance.glade.h:33
+#: ../capplets/appearance/data/appearance.ui.h:31
+#: ../capplets/appearance/data/appearance-moblin.ui.h:27
 msgid "Pointer"
 msgstr "Muisaanwijzer"
 
-#: ../capplets/appearance/data/appearance.glade.h:34
+#: ../capplets/appearance/data/appearance.ui.h:32
+msgid "Preview"
+msgstr "Voorbeeld"
+
+#: ../capplets/appearance/data/appearance.ui.h:33
+#: ../capplets/appearance/data/appearance-moblin.ui.h:28
 msgid "R_esolution:"
 msgstr "_Resolutie:"
 
-#: ../capplets/appearance/data/appearance.glade.h:35
-msgid "Save File"
-msgstr "Bestand opslaan"
+#: ../capplets/appearance/data/appearance.ui.h:34
+msgid "Rendering"
+msgstr "Weergave"
 
-#: ../capplets/appearance/data/appearance.glade.h:36
+#: ../capplets/appearance/data/appearance.ui.h:35
+#: ../capplets/appearance/data/appearance-moblin.ui.h:29
 msgid "Save Theme As..."
 msgstr "Thema opslaan als…"
 
-#: ../capplets/appearance/data/appearance.glade.h:37
+#: ../capplets/appearance/data/appearance.ui.h:36
 msgid "Save _As..."
 msgstr "Opslaan _als…"
 
-#: ../capplets/appearance/data/appearance.glade.h:38
+#: ../capplets/appearance/data/appearance.ui.h:37
+#: ../capplets/appearance/data/appearance-moblin.ui.h:30
 msgid "Save _background image"
 msgstr "_Achtergrondafbeelding opslaan"
 
-#: ../capplets/appearance/data/appearance.glade.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
+#: ../capplets/appearance/data/appearance-moblin.ui.h:31
+msgid "Scaled"
+msgstr "Geschaald"
+
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Show _icons in menus"
 msgstr "P_ictogrammen in menu's tonen"
 
-#: ../capplets/appearance/data/appearance.glade.h:40
+#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/appearance/data/appearance-moblin.ui.h:32
 msgid "Small"
 msgstr "Klein"
 
-#: ../capplets/appearance/data/appearance.glade.h:41
-msgid ""
-"Solid color\n"
-"Horizontal gradient\n"
-"Vertical gradient"
-msgstr ""
-"Effen kleur\n"
-"Horizontaal verloop\n"
-"Verticaal verloop"
+#: ../capplets/appearance/data/appearance.ui.h:41
+msgid "Smoothing"
+msgstr "Gladmaken"
 
-#: ../capplets/appearance/data/appearance.glade.h:44
+#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance-moblin.ui.h:33
+msgid "Solid color"
+msgstr "Kleur"
+
+#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance-moblin.ui.h:34
 msgid "Sub_pixel (LCDs)"
 msgstr "Sub_pixel (lcd's)"
 
-#: ../capplets/appearance/data/appearance.glade.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance-moblin.ui.h:35
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Sub_pixels gladmaken (lcd's)"
 
-#: ../capplets/appearance/data/appearance.glade.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
+msgid "Subpixel Order"
+msgstr "Subpixel-volgorde"
+
+#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance-moblin.ui.h:36
 msgid "Text"
 msgstr "Tekst"
 
-#: ../capplets/appearance/data/appearance.glade.h:47
-msgid ""
-"Text below items\n"
-"Text beside items\n"
-"Icons only\n"
-"Text only"
-msgstr ""
-"Tekst onder pictogrammen\n"
-"Tekst naast pictogrammen\n"
-"Alleen pictogrammen\n"
-"Alleen tekst"
+#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance-moblin.ui.h:37
+msgid "Text below items"
+msgstr "Tekst onder items"
 
-#: ../capplets/appearance/data/appearance.glade.h:51
+#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance-moblin.ui.h:38
+msgid "Text beside items"
+msgstr "Tekst naast items"
+
+#: ../capplets/appearance/data/appearance.ui.h:49
+#: ../capplets/appearance/data/appearance-moblin.ui.h:39
+msgid "Text only"
+msgstr "Alleen tekst"
+
+#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance-moblin.ui.h:40
 msgid "The current controls theme does not support color schemes."
 msgstr ""
 "Het huidige thema voor bedieningselementen ondersteunt geen kleurenschema's."
 
-#: ../capplets/appearance/data/appearance.glade.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Theme"
 msgstr "Thema"
 
-#: ../capplets/appearance/data/appearance.glade.h:53
-msgid ""
-"Tiled\n"
-"Zoom\n"
-"Centered\n"
-"Scaled\n"
-"Fill screen"
-msgstr ""
-"Tegels\n"
-"Ingezoomd\n"
-"Gecentreerd\n"
-"Op schaal\n"
-"Schermvullend"
+#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance-moblin.ui.h:41
+msgid "Tiled"
+msgstr "Gestaoeld"
 
-#: ../capplets/appearance/data/appearance.glade.h:58
+#: ../capplets/appearance/data/appearance.ui.h:53
 msgid "Toolbar _button labels:"
 msgstr "Werkbalkkno_p-opschriften:"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.glade.h:60
+#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance-moblin.ui.h:43
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.glade.h:61
+#: ../capplets/appearance/data/appearance.ui.h:56
+#: ../capplets/appearance/data/appearance-moblin.ui.h:44
+msgid "Vertical gradient"
+msgstr "Vertikale gradient"
+
+#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance-moblin.ui.h:45
 msgid "Window Border"
 msgstr "Vensterkader"
 
-#: ../capplets/appearance/data/appearance.glade.h:62
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:54
+#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance-moblin.ui.h:46
+msgid "Zoom"
+msgstr "Vergrotingsfactor"
+
+#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:47
 msgid "_Add..."
 msgstr "_Toevoegen…"
 
-#: ../capplets/appearance/data/appearance.glade.h:63
+#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance-moblin.ui.h:48
 msgid "_Application font:"
 msgstr "_Toepassingslettertype:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.glade.h:65
+#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance-moblin.ui.h:50
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.glade.h:66
-msgid "_Copy"
-msgstr "_Kopiëren"
-
-#: ../capplets/appearance/data/appearance.glade.h:67
+#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance-moblin.ui.h:51
 msgid "_Description:"
 msgstr "_Omschrijving:"
 
-#: ../capplets/appearance/data/appearance.glade.h:68
+#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance-moblin.ui.h:52
 msgid "_Document font:"
 msgstr "_Documentenlettertype:"
 
-#: ../capplets/appearance/data/appearance.glade.h:69
+#: ../capplets/appearance/data/appearance.ui.h:65
 msgid "_Editable menu shortcut keys"
 msgstr "Be_werkbare menusneltoetsen"
 
-#: ../capplets/appearance/data/appearance.glade.h:70
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_File"
 msgstr "_Bestand"
 
-#: ../capplets/appearance/data/appearance.glade.h:71
+#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance-moblin.ui.h:53
 msgid "_Fixed width font:"
 msgstr "_Vaste breedte-lettertype:"
 
-#: ../capplets/appearance/data/appearance.glade.h:72
+#: ../capplets/appearance/data/appearance.ui.h:68
+#: ../capplets/appearance/data/appearance-moblin.ui.h:54
 msgid "_Full"
 msgstr "Vo_lledig"
 
-#: ../capplets/appearance/data/appearance.glade.h:73
+#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance-moblin.ui.h:55
 msgid "_Input boxes:"
 msgstr "I_nvoervelden:"
 
-#: ../capplets/appearance/data/appearance.glade.h:74
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Install..."
 msgstr "I_nstalleren"
 
-#: ../capplets/appearance/data/appearance.glade.h:75
+#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance-moblin.ui.h:56
 msgid "_Medium"
 msgstr "_Medium"
 
-#: ../capplets/appearance/data/appearance.glade.h:76
+#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance-moblin.ui.h:57
 msgid "_Monochrome"
 msgstr "_Monochroom"
 
-#: ../capplets/appearance/data/appearance.glade.h:77
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:5
+#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/appearance/data/appearance-moblin.ui.h:58
 msgid "_Name:"
 msgstr "_Naam:"
 
-#: ../capplets/appearance/data/appearance.glade.h:78
-msgid "_New"
-msgstr "_Nieuw"
-
-#: ../capplets/appearance/data/appearance.glade.h:79
+#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance-moblin.ui.h:59
 msgid "_None"
 msgstr "Gee_n"
 
-#: ../capplets/appearance/data/appearance.glade.h:80
-msgid "_Open"
-msgstr "_Openen"
-
-#: ../capplets/appearance/data/appearance.glade.h:81
-msgid "_Paste"
-msgstr "_Plakken"
-
-#: ../capplets/appearance/data/appearance.glade.h:82
-msgid "_Print"
-msgstr "Af_drukken"
-
-#: ../capplets/appearance/data/appearance.glade.h:83
-msgid "_Quit"
-msgstr "A_fsluiten"
-
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.glade.h:85
+#: ../capplets/appearance/data/appearance.ui.h:76
+#: ../capplets/appearance/data/appearance-moblin.ui.h:61
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.glade.h:86
+#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance-moblin.ui.h:62
 msgid "_Reset to Defaults"
 msgstr "Teru_g naar standaardinstellingen"
 
-#: ../capplets/appearance/data/appearance.glade.h:87
-msgid "_Save"
-msgstr "Op_slaan"
-
-#: ../capplets/appearance/data/appearance.glade.h:88
+#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance-moblin.ui.h:63
 msgid "_Selected items:"
 msgstr "_Gekozen items:"
 
-#: ../capplets/appearance/data/appearance.glade.h:89
+#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance-moblin.ui.h:64
 msgid "_Size:"
 msgstr "Gr_ootte:"
 
-#: ../capplets/appearance/data/appearance.glade.h:90
+#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance-moblin.ui.h:65
 msgid "_Slight"
 msgstr "Li_cht"
 
-#: ../capplets/appearance/data/appearance.glade.h:91
+#: ../capplets/appearance/data/appearance.ui.h:81
 msgid "_Style:"
 msgstr "_Stijl:"
 
-#: ../capplets/appearance/data/appearance.glade.h:92
+#: ../capplets/appearance/data/appearance.ui.h:82
+#: ../capplets/appearance/data/appearance-moblin.ui.h:66
 msgid "_Tooltips:"
 msgstr "_Zwevende tips:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.glade.h:94
+#: ../capplets/appearance/data/appearance.ui.h:84
+#: ../capplets/appearance/data/appearance-moblin.ui.h:68
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.glade.h:95
+#: ../capplets/appearance/data/appearance.ui.h:85
+#: ../capplets/appearance/data/appearance-moblin.ui.h:69
 msgid "_Window title font:"
 msgstr "Venstertitel-lettert_ype:"
 
-#: ../capplets/appearance/data/appearance.glade.h:96
+#: ../capplets/appearance/data/appearance.ui.h:86
+#: ../capplets/appearance/data/appearance-moblin.ui.h:70
 msgid "_Windows:"
 msgstr "_Vensters:"
 
-#: ../capplets/appearance/data/appearance.glade.h:97
+#: ../capplets/appearance/data/appearance.ui.h:87
+#: ../capplets/appearance/data/appearance-moblin.ui.h:71
 msgid "dots per inch"
 msgstr "dots per inch"
 
@@ -1352,58 +1466,66 @@ msgstr "Gnome themapakket"
 msgid "No Desktop Background"
 msgstr "Geen werkbladachtergrond"
 
-#: ../capplets/appearance/gnome-wp-item.c:208
+#: ../capplets/appearance/gnome-wp-item.c:258
 msgid "Slide Show"
 msgstr "Diavoorstelling"
 
-#. translators: <b>wallpaper name</b>
-#. * mime type, x pixel(s) by y pixel(s)
-#. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:216
-#, c-format
-msgid ""
-"<b>%s</b>\n"
-"%s, %d %s by %d %s\n"
-"Folder: %s"
-msgstr ""
-"<b>%s</b>\n"
-"%s, %d %s bij %d %s\n"
-"Map: %s"
+#: ../capplets/appearance/gnome-wp-item.c:260
+msgid "Image"
+msgstr "Afbeelding"
 
-#: ../capplets/appearance/gnome-wp-item.c:222
-#: ../capplets/appearance/gnome-wp-item.c:224
+#: ../capplets/appearance/gnome-wp-item.c:266
+msgid "multiple sizes"
+msgstr "Meerdere groottes"
+
+#: ../capplets/appearance/gnome-wp-item.c:271
+#: ../capplets/appearance/gnome-wp-item.c:273
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "beeldpunt"
 msgstr[1] "beeldpunten"
 
-#: ../capplets/appearance/theme-installer.c:174
-#: ../capplets/appearance/theme-installer.c:224
+#. translators: <b>wallpaper name</b>
+#. * mime type, size
+#. * Folder: /path/to/file
+#.
+#: ../capplets/appearance/gnome-wp-item.c:279
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"Folder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"Map: %s"
+
+#: ../capplets/appearance/theme-installer.c:178
+#: ../capplets/appearance/theme-installer.c:234
 msgid "Cannot install theme"
 msgstr "Kan thema niet installeren"
 
-#: ../capplets/appearance/theme-installer.c:176
+#: ../capplets/appearance/theme-installer.c:180
 #, c-format
 msgid "The %s utility is not installed."
 msgstr "Het hulpprogramma %s is niet geïnstalleerd."
 
 # met extra punt aan het einde van de zin.
-#: ../capplets/appearance/theme-installer.c:226
+#: ../capplets/appearance/theme-installer.c:236
 msgid "There was a problem while extracting the theme."
 msgstr "Er trad een probleem op bij uitpakken van het thema."
 
-#: ../capplets/appearance/theme-installer.c:249
+#: ../capplets/appearance/theme-installer.c:264
 msgid "There was an error installing the selected file"
 msgstr ""
 "Er is een fout opgetreden bij het installeren van het geselecteerde bestand"
 
-#: ../capplets/appearance/theme-installer.c:250
+#: ../capplets/appearance/theme-installer.c:265
 #, c-format
 msgid "\"%s\" does not appear to be a valid theme."
 msgstr "‘%s’ lijkt geen geldig thema te zijn."
 
-#: ../capplets/appearance/theme-installer.c:251
+#: ../capplets/appearance/theme-installer.c:266
 #, c-format
 msgid ""
 "\"%s\" does not appear to be a valid theme. It may be a theme engine which "
@@ -1412,46 +1534,46 @@ msgstr ""
 "‘%s’ lijkt geen geldig thema te zijn. Het zou een thema-engine kunnen zijn "
 "die u eerst dient te compileren."
 
-#: ../capplets/appearance/theme-installer.c:354
+#: ../capplets/appearance/theme-installer.c:372
 #, c-format
 msgid "Installation for theme \"%s\" failed."
 msgstr "Installatie voor thema ‘%s’ is mislukt."
 
-#: ../capplets/appearance/theme-installer.c:393
+#: ../capplets/appearance/theme-installer.c:411
 #, c-format
 msgid "The theme \"%s\" has been installed."
 msgstr "Het thema ‘%s’ is geïnstalleerd."
 
-#: ../capplets/appearance/theme-installer.c:398
+#: ../capplets/appearance/theme-installer.c:421
 msgid "Would you like to apply it now, or keep your current theme?"
 msgstr "Wilt u dit thema nu gebruiken of wilt u uw huidige thema behouden?"
 
-#: ../capplets/appearance/theme-installer.c:400
+#: ../capplets/appearance/theme-installer.c:424
 msgid "Keep Current Theme"
 msgstr "Huidige thema behouden"
 
-#: ../capplets/appearance/theme-installer.c:402
+#: ../capplets/appearance/theme-installer.c:427
 msgid "Apply New Theme"
 msgstr "Nieuwe thema toepassen"
 
-#: ../capplets/appearance/theme-installer.c:446
+#: ../capplets/appearance/theme-installer.c:471
 #, c-format
 msgid "GNOME Theme %s correctly installed"
 msgstr "Gnome-thema %s correct geïnstalleerd"
 
-#: ../capplets/appearance/theme-installer.c:505
+#: ../capplets/appearance/theme-installer.c:533
 msgid "Failed to create temporary directory"
 msgstr "Aanmaken tijdelijke map mislukt"
 
-#: ../capplets/appearance/theme-installer.c:568
+#: ../capplets/appearance/theme-installer.c:596
 msgid "New themes have been successfully installed."
 msgstr "De nieuwe thema's zijn met succes geïnstalleerd."
 
-#: ../capplets/appearance/theme-installer.c:593
+#: ../capplets/appearance/theme-installer.c:643
 msgid "No theme file location specified to install"
 msgstr "Geen locatie voor installatie themabestand opgegeven"
 
-#: ../capplets/appearance/theme-installer.c:614
+#: ../capplets/appearance/theme-installer.c:667
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
@@ -1460,11 +1582,11 @@ msgstr ""
 "Rechten ontoereikend om het thema te installeren in:\n"
 " %s"
 
-#: ../capplets/appearance/theme-installer.c:684
+#: ../capplets/appearance/theme-installer.c:745
 msgid "Select Theme"
 msgstr "Thema selecteren"
 
-#: ../capplets/appearance/theme-installer.c:688
+#: ../capplets/appearance/theme-installer.c:756
 msgid "Theme Packages"
 msgstr "Thema-pakketten"
 
@@ -1498,14 +1620,14 @@ msgstr "Kan themamodule niet installeren"
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
+"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
 "Niet in staat het instellingenbeheer 'gnome-settings-daemon' te starten.\n"
 "Wanneer het Gnome instellingenbeheer niet actief is, zouden sommige "
 "voorkeuren geen invloed kunnen hebben. Dit kan wijzen op een probleem met "
-"Bonobo, of een niet-Gnome (bijvoorbeeld KDE) instellingenbeheer zou reeds "
+"DBus, of een niet-Gnome (bijvoorbeeld KDE) instellingenbeheer zou reeds "
 "actief kunnen zijn en conflicteren met het Gnome instellingenbeheer."
 
 #: ../capplets/common/capplet-stock-icons.c:66
@@ -1670,7 +1792,7 @@ msgstr ""
 "Callback die wordt gestuurd wanneer de objectgegevens van de eigenschappen-"
 "editor vrijgegeven moeten worden"
 
-#: ../capplets/common/gconf-property-editor.c:1404
+#: ../capplets/common/gconf-property-editor.c:1405
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1683,7 +1805,7 @@ msgstr ""
 "Zorgt u ervoor dat het bestaat en probeer het opnieuw, of kies een andere "
 "achtergrondafbeelding."
 
-#: ../capplets/common/gconf-property-editor.c:1412
+#: ../capplets/common/gconf-property-editor.c:1413
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1697,43 +1819,43 @@ msgstr ""
 "\n"
 "Gelieve een andere afbeelding te selecteren."
 
-#: ../capplets/common/gconf-property-editor.c:1532
+#: ../capplets/common/gconf-property-editor.c:1533
 msgid "Please select an image."
 msgstr "Selecteer een afbeelding."
 
-#: ../capplets/common/gconf-property-editor.c:1537
+#: ../capplets/common/gconf-property-editor.c:1538
 msgid "_Select"
 msgstr "_Selecteren"
 
-#: ../capplets/common/gnome-theme-info.c:638
+#: ../capplets/common/gnome-theme-info.c:639
 msgid "Default Pointer - Current"
 msgstr "Standaard muisaanwijzer - huidige"
 
-#: ../capplets/common/gnome-theme-info.c:642
+#: ../capplets/common/gnome-theme-info.c:643
 msgid "White Pointer"
 msgstr "Witte muisaanwijzer"
 
-#: ../capplets/common/gnome-theme-info.c:643
+#: ../capplets/common/gnome-theme-info.c:644
 msgid "White Pointer - Current"
 msgstr "Witte muisaanwijzer - huidige"
 
-#: ../capplets/common/gnome-theme-info.c:647
+#: ../capplets/common/gnome-theme-info.c:648
 msgid "Large Pointer"
 msgstr "Grote muisaanwijzer"
 
-#: ../capplets/common/gnome-theme-info.c:648
+#: ../capplets/common/gnome-theme-info.c:649
 msgid "Large Pointer - Current"
 msgstr "Grote muisaanwijzer - huidige"
 
-#: ../capplets/common/gnome-theme-info.c:652
+#: ../capplets/common/gnome-theme-info.c:653
 msgid "Large White Pointer - Current"
 msgstr "Grote witte muisaanwijzer - huidige"
 
-#: ../capplets/common/gnome-theme-info.c:653
+#: ../capplets/common/gnome-theme-info.c:654
 msgid "Large White Pointer"
 msgstr "Grote witte muisaanwijzer"
 
-#: ../capplets/common/gnome-theme-info.c:1623
+#: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
 msgid ""
 "This theme will not look as intended because the required GTK+ theme '%s' is "
@@ -1742,7 +1864,7 @@ msgstr ""
 "Dit thema zal er niet uitzien zoals bedoeld omdat het vereiste GTK+-thema ‘%"
 "s’ niet is geïnstalleerd"
 
-#: ../capplets/common/gnome-theme-info.c:1631
+#: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
 msgid ""
 "This theme will not look as intended because the required window manager "
@@ -1751,7 +1873,7 @@ msgstr ""
 "Dit thema zal er niet uitzien zoals bedoeld omdat het vereiste windowmanager-"
 "thema ‘%s’ niet is geïnstalleerd."
 
-#: ../capplets/common/gnome-theme-info.c:1638
+#: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
 msgid ""
 "This theme will not look as intended because the required icon theme '%s' is "
@@ -1761,7 +1883,7 @@ msgstr ""
 "pictogramthema ‘%s’ niet is geïnstalleerd."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:22
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
 msgid "Preferred Applications"
 msgstr "Standaardtoepassingen"
 
@@ -1784,71 +1906,31 @@ msgstr "Visuele assistentie"
 msgid "Error saving configuration: %s"
 msgstr "Fout bij het opslaan van configuratie: %s"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:668
+#: ../capplets/default-applications/gnome-da-capplet.c:677
 msgid "Could not load the main interface"
 msgstr "Niet mogelijk om hoofdinterface te laden"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:670
+#: ../capplets/default-applications/gnome-da-capplet.c:679
 msgid "Please make sure that the applet is properly installed"
 msgstr "Zorg ervoor dat het applet correct is geïnstalleerd"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:896
+#: ../capplets/default-applications/gnome-da-capplet.c:906
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 "Specificeer de naam van de te tonen pagina (internet|multimedia|system|a11y)"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:901
+#: ../capplets/default-applications/gnome-da-capplet.c:911
 msgid "- GNOME Default Applications"
 msgstr "- Gnome standaardprogrammas"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
-msgid "<b>Image Viewer</b>"
-msgstr "<b>Afbeeldingsweergave</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:2
-msgid "<b>Instant Messenger</b>"
-msgstr "<b>Expresberichten</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:3
-msgid "<b>Mail Reader</b>"
-msgstr "<b>E-mailprogramma</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:4
-msgid "<b>Mobility</b>"
-msgstr "<b>Mobiliteit</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:5
-msgid "<b>Multimedia Player</b>"
-msgstr "<b>Multimediaspeler</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:6
-msgid "<b>Terminal Emulator</b>"
-msgstr "<b>Terminal-emulator</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:7
-msgid "<b>Text Editor</b>"
-msgstr "<b>Tekst-editor</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:8
-msgid "<b>Video Player</b>"
-msgstr "<b>Video-afspeelprogramma</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:9
-msgid "<b>Visual</b>"
-msgstr "<b>Visueel</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:10
-msgid "<b>Web Browser</b>"
-msgstr "<b>Webbrowser</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:13
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:28
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:2
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:1
 msgid "Accessibility"
 msgstr "Toegankelijkheid"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:13
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:3
 #, no-c-format
 msgid "All %s occurrences will be replaced with actual link"
 msgstr ""
@@ -1857,52 +1939,92 @@ msgstr ""
 #.
 #. * vim: sw=2 ts=8 cindent noai bs=2
 #.
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:14
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:1
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
 msgid "C_ommand:"
 msgstr "O_pdracht:"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:15
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:5
 msgid "Co_mmand:"
 msgstr "O_pdracht:"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:16
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:6
 msgid "E_xecute flag:"
 msgstr "Uivoeren-vlag:"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:17
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:7
+msgid "Image Viewer"
+msgstr "Afbeeldingsweergave"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:8
+msgid "Instant Messenger"
+msgstr "Expresberichten"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:9
 msgid "Internet"
 msgstr "Internet"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:18
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:10
+msgid "Mail Reader"
+msgstr "E-mailprogramma"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:11
+msgid "Mobility"
+msgstr "Mobiliteit"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:12
 msgid "Multimedia"
 msgstr "Multimedia"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:19
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:13
+msgid "Multimedia Player"
+msgstr "Multimediaspeler"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:14
 msgid "Open link in new _tab"
 msgstr "Verwijzing openen in nieuw _tabblad"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:20
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:15
 msgid "Open link in new _window"
 msgstr "Verwijzing openen in _nieuw venster"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:21
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:16
 msgid "Open link with web browser _default"
 msgstr "Verwijzing openen met standaard _webbrowser"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:23
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:18
 msgid "Run at st_art"
 msgstr "Activeren bij _aanmelden"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:24
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:19
 msgid "Run in t_erminal"
 msgstr "Uitvoeren in _terminalvenster"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:25
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:20
 msgid "System"
 msgstr "Systeem"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:26
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:21
+msgid "Terminal Emulator"
+msgstr "Terminal-emulator"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:22
+msgid "Text Editor"
+msgstr "Tekst-editor"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:23
+msgid "Video Player"
+msgstr "Video-afspeelprogramma"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:24
+msgid "Visual"
+msgstr "Visueel"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:25
+msgid "Web Browser"
+msgstr "Webbrowser"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:26
 msgid "_Run at start"
 msgstr "Active_ren bij start"
 
@@ -2114,72 +2236,92 @@ msgstr "Totem mediaspeler"
 msgid "aterm"
 msgstr "aterm"
 
-#: ../capplets/display/display-capplet.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:461
-msgid "<b>Monitor</b>"
-msgstr "<b>Beeldscherm</b>"
-
-#: ../capplets/display/display-capplet.glade.h:2
-msgid "<b>Panel icon</b>"
-msgstr "<b>Paneelpictogram</b>"
-
-# vrij vertaald (tino)
-#: ../capplets/display/display-capplet.glade.h:3
-msgid "<i>Drag the monitors to set their place</i>"
-msgstr "<i>Versleep de schermen naar hun eigen plek</i>"
-
-#: ../capplets/display/display-capplet.glade.h:4
+#: ../capplets/display/display-capplet.ui.h:1
+#: ../capplets/display/display-capplet-moblin.ui.h:3
 msgid "Display Preferences"
 msgstr "Schermvoorkeuren"
 
+# vrij vertaald (tino)
+#: ../capplets/display/display-capplet.ui.h:2
+msgid "Drag the monitors to set their place"
+msgstr "Versleep de schermen naar hun eigen plek"
+
 # Onduidelijk wat hier bedoeld wordt (RvS)
-#: ../capplets/display/display-capplet.glade.h:5
+#: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
 msgstr "Inclusief _paneel"
 
-#: ../capplets/display/display-capplet.glade.h:6
-msgid ""
-"Normal\n"
-"Left\n"
-"Right\n"
-"Upside-down\n"
-msgstr ""
-"Normaal\n"
-"Links\n"
-"Rechts\n"
-"Ondersteboven\n"
+#: ../capplets/display/display-capplet.ui.h:4
+#: ../capplets/display/xrandr-capplet.c:315
+#: ../capplets/display/display-capplet-moblin.ui.h:4
+msgid "Left"
+msgstr "Links"
 
-#: ../capplets/display/display-capplet.glade.h:11
+#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/xrandr-capplet.c:454
+msgid "Monitor"
+msgstr "Beeldscherm"
+
+# algemeen/normaal
+#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/xrandr-capplet.c:314
+#: ../capplets/display/xrandr-capplet.c:353
+#: ../capplets/display/display-capplet-moblin.ui.h:5
+msgid "Normal"
+msgstr "Normaal"
+
+#: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet-moblin.ui.h:6
 msgid "Off"
 msgstr "Uit"
 
-#: ../capplets/display/display-capplet.glade.h:12
+#: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet-moblin.ui.h:7
 msgid "On"
 msgstr "Aan"
 
+#: ../capplets/display/display-capplet.ui.h:9
+msgid "Panel icon"
+msgstr "Paneelpictogram"
+
 # draaiing/rotatie
-#: ../capplets/display/display-capplet.glade.h:13
+#: ../capplets/display/display-capplet.ui.h:10
 msgid "R_otation:"
 msgstr "R_otatie:"
 
-#: ../capplets/display/display-capplet.glade.h:14
+#: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/display-capplet-moblin.ui.h:8
 msgid "Re_fresh rate:"
 msgstr "Verversings_frequentie:"
 
+#: ../capplets/display/display-capplet.ui.h:12
+#: ../capplets/display/xrandr-capplet.c:316
+#: ../capplets/display/display-capplet-moblin.ui.h:9
+msgid "Right"
+msgstr "Rechts"
+
+#: ../capplets/display/display-capplet.ui.h:13
+#: ../capplets/display/display-capplet-moblin.ui.h:10
+msgid "Upside-down"
+msgstr "Ondersteboven"
+
 # 'display' hier ook maar als scherm vertaald (RvS)
-#: ../capplets/display/display-capplet.glade.h:15
+#: ../capplets/display/display-capplet.ui.h:14
+#: ../capplets/display/display-capplet-moblin.ui.h:11
 msgid "_Detect Monitors"
 msgstr "Schermen _detecteren"
 
-#: ../capplets/display/display-capplet.glade.h:16
+#: ../capplets/display/display-capplet.ui.h:15
+#: ../capplets/display/display-capplet-moblin.ui.h:12
 msgid "_Mirror screens"
 msgstr "_Gespiegelde schermen"
 
-#: ../capplets/display/display-capplet.glade.h:17
+#: ../capplets/display/display-capplet.ui.h:16
+#: ../capplets/display/display-capplet-moblin.ui.h:13
 msgid "_Resolution:"
 msgstr "_Resolutie:"
 
-#: ../capplets/display/display-capplet.glade.h:18
+#: ../capplets/display/display-capplet.ui.h:17
 msgid "_Show displays in panel"
 msgstr "_Schermen tonen in paneel"
 
@@ -2192,39 +2334,21 @@ msgstr "Schermresolutie wijzigen"
 msgid "Display"
 msgstr "Scherm"
 
-# algemeen/normaal
-#: ../capplets/display/xrandr-capplet.c:328
-#: ../capplets/display/xrandr-capplet.c:367
-msgid "Normal"
-msgstr "Normaal"
-
-#: ../capplets/display/xrandr-capplet.c:329
-msgid "Left"
-msgstr "Links"
-
-#: ../capplets/display/xrandr-capplet.c:330
-msgid "Right"
-msgstr "Rechts"
-
-#: ../capplets/display/xrandr-capplet.c:331
+#: ../capplets/display/xrandr-capplet.c:317
 msgid "Upside Down"
 msgstr "Ondersteboven"
 
-#: ../capplets/display/xrandr-capplet.c:404
-#: ../capplets/display/xrandr-capplet.c:412
-#: ../capplets/display/xrandr-capplet.c:413
+#: ../capplets/display/xrandr-capplet.c:360
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:454
+#: ../capplets/display/xrandr-capplet.c:446
 #, c-format
-msgid "<b>Monitor: %s</b>"
-msgstr "<b>Beeldscherm: %s</b>"
+msgid "Monitor: %s"
+msgstr "Beeldscherm: %s"
 
-#: ../capplets/display/xrandr-capplet.c:546
-#: ../capplets/display/xrandr-capplet.c:556
-#: ../capplets/display/xrandr-capplet.c:564
+#: ../capplets/display/xrandr-capplet.c:525
 #, c-format
 msgid "%d x %d"
 msgstr "%d × %d"
@@ -2234,34 +2358,26 @@ msgstr "%d × %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1411
+#: ../capplets/display/xrandr-capplet.c:1476
 msgid "Mirror Screens"
 msgstr "Gespiegelde schermen"
 
-#: ../capplets/display/xrandr-capplet.c:1730
-msgid "Could not apply the selected configuration"
-msgstr "Kon de geselecteerde configuratie niet toepassen"
-
-#: ../capplets/display/xrandr-capplet.c:1757
+#: ../capplets/display/xrandr-capplet.c:1896
 msgid "Could not save the monitor configuration"
 msgstr "Kon de schermconfiguratie niet opslaan"
 
-#: ../capplets/display/xrandr-capplet.c:1768
+#: ../capplets/display/xrandr-capplet.c:1907
 msgid "Could not get session bus while applying display configuration"
 msgstr ""
 "Kon de sessiebus niet krijgen bij het toepassen van de schermconfiguratie"
 
-#: ../capplets/display/xrandr-capplet.c:1778
-msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
-msgstr "Kon org.gnome.SettingsDaemon.XRANDR niet verkrijgen"
-
 # 'display' hier ook maar als scherm vertaald (RvS)
-#: ../capplets/display/xrandr-capplet.c:1824
+#: ../capplets/display/xrandr-capplet.c:1949
 msgid "Could not detect displays"
 msgstr "Kon schermen niet detecteren"
 
 # beeldscherm
-#: ../capplets/display/xrandr-capplet.c:2017
+#: ../capplets/display/xrandr-capplet.c:2164
 msgid "Could not get screen information"
 msgstr "Kon informatie over het scherm niet verkrijgen"
 
@@ -2302,25 +2418,25 @@ msgid "The type of accelerator."
 msgstr "Het type sneltoets"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
-#: ../capplets/keybindings/gnome-keybinding-properties.c:103
-#: ../typing-break/drwright.c:479
+#: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../typing-break/drwright.c:467
 msgid "Disabled"
 msgstr "Uitgeschakeld"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:184
+#: ../capplets/keybindings/gnome-keybinding-properties.c:200
 msgid "<Unknown Action>"
 msgstr "<Onbekende actie>"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:925
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1548
+#: ../capplets/keybindings/gnome-keybinding-properties.c:954
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1581
 msgid "Custom Shortcuts"
 msgstr "Aangepaste sneltoets"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1064
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1096
 msgid "Error saving the new shortcut"
 msgstr "Fout bij het opslaan van de nieuwe sneltoets"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1143
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1175
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2331,7 +2447,7 @@ msgstr ""
 "deze toets te gebruiken om te typen.\n"
 "Probeer het eens met een toets als Control, Alt of Shift tegelijkertijd."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1173
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1205
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2340,7 +2456,7 @@ msgstr ""
 "De sneltoets ‘%s’ is reeds in gebruik voor:\n"
 "‘%s’"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1179
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1211
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
@@ -2349,37 +2465,37 @@ msgstr ""
 "uitgeschakeld zijn."
 
 # Geen aparte vertaling voor assign/reassign
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1187
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1219
 msgid "_Reassign"
 msgstr "_Toewijzen"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1307
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1339
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "Fout bij het uitzetten van sneltoets in configuratiedatabase: %s"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1503
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1536
 msgid "Too many custom shortcuts"
 msgstr "Te veel aangepaste sneltoetsen"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1788
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1832
 msgid "Action"
 msgstr "Actie"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1810
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1854
 msgid "Shortcut"
 msgstr "Sneltoets"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:2
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
 msgid "Custom Shortcut"
 msgstr "Aangepaste sneltoets"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:3
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
 msgid "Keyboard Shortcuts"
 msgstr "Sneltoetsen"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:4
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2391,8 +2507,8 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "Sneltoetsen toewijzen aan opdrachten"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:206
-#: ../capplets/keyboard/gnome-keyboard-properties.c:211
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
@@ -2400,203 +2516,192 @@ msgstr ""
 "door een automatische voorziening gedaan)"
 
 # What is this message about?
-#: ../capplets/keyboard/gnome-keyboard-properties.c:216
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "De pagina beginnen met de tikpauze-instellingen zichtbaar"
 
 # What is this message about?
-#: ../capplets/keyboard/gnome-keyboard-properties.c:221
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "De pagina beginnen met de toegankelijkheidsinstellingen zichtbaar"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:227
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Gnome Toetsenbordeigenschappen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
-msgid "<b>Bounce Keys</b>"
-msgstr "<b>KaatsToetsen</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:2
-msgid "<b>Cursor Blinking</b>"
-msgstr "<b>Knipperen van de cursor</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:3
-msgid "<b>General</b>"
-msgstr "<b>Algemeen</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:4
-msgid "<b>Repeat Keys</b>"
-msgstr "<b>HerhaalToetsen</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:5
-msgid "<b>Slow Keys</b>"
-msgstr "<b>Trage Toetsen</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:6
-msgid "<b>Sticky Keys</b>"
-msgstr "<b>PlakToetsen</b>"
-
-# feedback/hints
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:7
-msgid "<b>Visual cues for sounds</b>"
-msgstr "<b>Visuele hints voor geluiden</b>"
-
-#. fast acceleration
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:8
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:13
-msgid "<small><i>Fast</i></small>"
-msgstr "<small><i>Snel</i></small>"
-
-#. long delay
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:9
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:19
-msgid "<small><i>Long</i></small>"
-msgstr "<small><i>Lang</i></small>"
-
-#. short delay
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:10
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:23
-msgid "<small><i>Short</i></small>"
-msgstr "<small><i>Kort</i></small>"
-
-#. slow acceleration
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:11
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:25
-msgid "<small><i>Slow</i></small>"
-msgstr "<small><i>Traag</i></small>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:12
-msgid "A_cceleration:"
-msgstr "Ver_snelling:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:14
-msgid "All_ow postponing of breaks"
-msgstr "Uit_stellen van pauzes toestaan"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:15
-msgid "Audio _Feedback..."
-msgstr "Audioterug_koppeling…"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:6
 msgid "Beep when _accessibility features are turned on or off"
 msgstr "Piepen wanneer _toegankelijkheidsfuncties aan- of uitgezet worden"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:7
 msgid "Beep when a _modifier key is pressed"
 msgstr "_Piepen wanneer optietoets wordt ingedrukt"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:8
 msgid "Beep when a _toggle key is pressed"
 msgstr "Piepen wanneer scha_keltoets wordt ingedrukt"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:9
 msgid "Beep when a key is pr_essed"
 msgstr "Piepen wanneer een t_oets wordt ingedrukt"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:10
 msgid "Beep when a key is reje_cted"
 msgstr "Piepen wanneer toets is ge_weigerd"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:11
 msgid "Beep when key is _accepted"
 msgstr "Piepen wanneer toets is _geaccepteerd"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:12
 msgid "Beep when key is _rejected"
 msgstr "Piepen wanneer toets is ge_weigerd"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:23
-msgid "By _country"
-msgstr "Op la_nd:"
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+msgid "Bounce Keys"
+msgstr "Langzame toetsen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:24
-msgid "By _language"
-msgstr "Op _taal"
+# laten knipperen/oplichten
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:13
+msgid "Flash _window titlebar"
+msgstr "_Titelbalk laten knipperen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:14
+msgid "Flash entire _screen"
+msgstr "Hele _scherm laten knipperen"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:9
+msgid "General"
+msgstr "Algemeen"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:15
+msgid "Keyboard Accessibility Audio Feedback"
+msgstr "Audio-terugkoppeling voor toetsenbordtoegankelijkheid"
+
+# alarmgeluid/waarschuwingsgeluid
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:16
+msgid "Show _visual feedback for the alert sound"
+msgstr "_Visuele feedback tonen bij het waarschuwingsgeluid"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+msgid "Slow Keys"
+msgstr "Trage Toetsen"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+msgid "Sticky Keys"
+msgstr "PlakToetsen"
+
+# feedback/hints
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:16
+msgid "Visual cues for sounds"
+msgstr "Visuele hints voor geluiden"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:1
+msgid "A_cceleration:"
+msgstr "Ver_snelling:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:1
+msgid "All_ow postponing of breaks"
+msgstr "Uit_stellen van pauzes toestaan"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:4
+msgid "Audio _Feedback..."
+msgstr "Audioterug_koppeling…"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:2
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Nagaan of pauzes uitstellen is toegestaan"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:26
-msgid "Choose a Keyboard Model"
-msgstr "Kies een toetsenbordmodel"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:3
+msgid "Cursor Blinking"
+msgstr "Knipperen van de cursor"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:27
-msgid "Choose a Layout"
-msgstr "Kies een indeling"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:4
 msgid "Cursor _blinks in text fields"
 msgstr "Cursor _knippert in tekstvelden"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:29
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:5
 msgid "Cursor blinks speed"
 msgstr "Cursorknippersnelheid"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:30
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "Vertra_ging:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr ""
 "PlakToetsen uitschake_len wanneer twee toetsen tegelijkertijd worden "
 "ingedrukt"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:6
 msgid "Duration of the break when typing is disallowed"
 msgstr "Tijdsduur van de pauze waarin typen niet is toegestaan"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:7
 msgid "Duration of work before forcing a break"
 msgstr "Tijdsduur om te werken vóór een verplichte pauze"
 
-# laten knipperen/oplichten
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:34
-msgid "Flash _window titlebar"
-msgstr "_Titelbalk laten knipperen"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:8
+msgid "Fast"
+msgstr "Snel"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:35
-msgid "Flash entire _screen"
-msgstr "Hele _scherm laten knipperen"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:36
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:36
-msgid "General"
-msgstr "Algemeen"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:10
 msgid "Key presses _repeat when key is held down"
 msgstr "Toetsaanslagen _herhalen zich wanneer de toets ingedrukt blijft"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:38
-msgid "Keyboard Accessibility Audio Feedback"
-msgstr "Audio-terugkoppeling voor toetsenbordtoegankelijkheid"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:39
-msgid "Keyboard Layout Options"
-msgstr "Toetsenbordindelingsopties"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:11
 msgid "Keyboard Preferences"
 msgstr "Toetsenbordeigenschappen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:12
 msgid "Keyboard _model:"
 msgstr "Toetsenbord_model:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:13
 msgid "Layout _Options..."
 msgstr "Indelings_opties…"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:14
 msgid "Layouts"
 msgstr "Indelingen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:15
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2604,134 +2709,185 @@ msgstr ""
 "Schermbeveiliging activeren na een bepaalde periode om blessures als gevolg "
 "van langdurig toetsenbordgebruik te voorkomen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:16
+msgid "Long"
+msgstr "Lang"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "MuisToetsen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:46
-msgid "Preview:"
-msgstr "Voorbeeld:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:17
+msgid "Repeat Keys"
+msgstr "HerhaalToetsen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:18
 msgid "Repeat keys speed"
 msgstr "Toetsherhaalsnelheid"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:19
 msgid "Reset to De_faults"
 msgstr "Terug naar stan_daardinstellingen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:20
 msgid "S_peed:"
 msgstr "S_nelheid"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:50
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:21
 msgid "Separate _layout for each window"
 msgstr "Aparte _groep voor elk venster"
 
-# alarmgeluid/waarschuwingsgeluid
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:51
-msgid "Show _visual feedback for the alert sound"
-msgstr "_Visuele feedback tonen bij het waarschuwingsgeluid"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:22
+msgid "Short"
+msgstr "Kort"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:52
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:23
+msgid "Slow"
+msgstr "Langzaam"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:24
 msgid "Typing Break"
 msgstr "Tikpauze"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr ""
 "_Toegankelijkheidsfunctionaliteit kan worden aan- en uitgezet met sneltoetsen"
 
 # betere vertaling nodig?
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:55
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:26
 msgid "_Break interval lasts:"
 msgstr "_Pauzeduur:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:56
-msgid "_Country:"
-msgstr "_Land:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:57
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:27
 msgid "_Delay:"
 msgstr "Ver_traging:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:58
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Ignore fast duplicate keypresses"
 msgstr "Snel opeenvolgende dubbele toetsaanslagen ne_geren"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:59
-msgid "_Language:"
-msgstr "_Taal:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:60
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:28
 msgid "_Lock screen to enforce typing break"
 msgstr "Scherm ve_rgrendelen om tikpauze af te dwingen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:61
-msgid "_Models:"
-msgstr "_Modellen:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:62
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Only accept long keypresses"
 msgstr "Alleen la_nge toetsaanslagen accepteren"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:63
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 msgid "_Pointer can be controlled using the keypad"
 msgstr "De _muisaanwijzer is bestuurbaar met het nummerblok"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:64
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:29
 msgid "_Selected layouts:"
 msgstr "_Gekozen indelingen:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:65
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Simulate simultaneous keypresses"
 msgstr "_Gelijktijdige toetsaanslagen simuleren"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:66
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:30
 msgid "_Speed:"
 msgstr "Sn_elheid:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:67
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:31
 msgid "_Type to test settings:"
 msgstr "_Tik iets in om de instellingen te testen:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:68
-msgid "_Variants:"
-msgstr "Va_rianten:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:69
-msgid "_Vendors:"
-msgstr "_Fabrikanten:"
-
 # betere vertaling nodig?
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:70
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:32
 msgid "_Work interval lasts:"
 msgstr "_Werkduur:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:71
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:33
 msgid "minutes"
 msgstr "minuten"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:1
+msgid "By _country"
+msgstr "Op la_nd:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:2
+msgid "By _language"
+msgstr "Op _taal"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:3
+msgid "Choose a Layout"
+msgstr "Kies een indeling"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:4
+msgid "Preview:"
+msgstr "Voorbeeld:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:5
+msgid "_Country:"
+msgstr "_Land:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:6
+msgid "_Language:"
+msgstr "_Taal:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:7
+msgid "_Variants:"
+msgstr "Va_rianten:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:1
+msgid "Choose a Keyboard Model"
+msgstr "Kies een toetsenbordmodel"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:2
+msgid "_Models:"
+msgstr "_Modellen:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:3
+msgid "_Vendors:"
+msgstr "_Fabrikanten:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Toetsenbordindelingsopties"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkb.c:82
 msgid "Unknown"
 msgstr "Onbekend"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
-#: ../capplets/network/gnome-network-properties.c:561
+#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:214
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
+#: ../capplets/network/gnome-network-properties.c:583
 msgid "Default"
 msgstr "Standaard"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:333
+#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:332
 msgid "Layout"
 msgstr "Indeling"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:169
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:168
 msgid "Vendors"
 msgstr "Fabrikanten"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:234
 msgid "Models"
 msgstr "Modellen"
 
@@ -2745,180 +2901,206 @@ msgstr "Uw toetsenbordvoorkeuren instellen"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:90
+#: ../capplets/mouse/gnome-mouse-accessibility.c:89
 msgid "gesture|Move left"
 msgstr "Beweging naar links"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:95
+#: ../capplets/mouse/gnome-mouse-accessibility.c:94
 msgid "gesture|Move right"
 msgstr "Beweging naar rechts"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:100
+#: ../capplets/mouse/gnome-mouse-accessibility.c:99
 msgid "gesture|Move up"
 msgstr "Beweging omhoog"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:105
+#: ../capplets/mouse/gnome-mouse-accessibility.c:104
 msgid "gesture|Move down"
 msgstr "Beweging omlaag"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:110
+#: ../capplets/mouse/gnome-mouse-accessibility.c:109
 msgid "gesture|Disabled"
 msgstr "Uitgeschakeld"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:441
+#: ../capplets/mouse/gnome-mouse-properties.c:559
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "De naam aangeven van de te tonen pagina (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:446
+#: ../capplets/mouse/gnome-mouse-properties.c:564
 msgid "- GNOME Mouse Preferences"
 msgstr "- Gnome muisvoorkeuren"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:1
-msgid "<b>Double-Click Timeout</b>"
-msgstr "<b>Intervaltijd voor dubbelklik</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:2
-msgid "<b>Drag and Drop</b>"
-msgstr "<b>Slepen en Neerzetten</b>"
-
-#. Dwell Click = Clicking without hardware buttons (by letting the pointer sit on the click target for a certain amount of time)
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:4
-msgid "<b>Dwell Click</b>"
-msgstr "<b>ZweefKlik</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:5
-msgid "<b>Locate Pointer</b>"
-msgstr "<b>Aanwijzer lokaliseren</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:6
-msgid "<b>Mouse Orientation</b>"
-msgstr "<b>Muis-oriëntatie</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:7
-msgid "<b>Pointer Speed</b>"
-msgstr "<b>Aanwijzersnelheid</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:8
-msgid "<b>Simulated Secondary Click</b>"
-msgstr "<b>Gesimuleerde secundaire klik</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:9
-msgid ""
-"<i>To test your double-click settings, try to double-click on the light bulb."
-"</i>"
-msgstr ""
-"<i>Probeer op het lampje te dubbelklikken om uw dubbelklikinstellingen te "
-"testen.</i>"
-
-#. Dwell Click = Clicking without hardware buttons (by letting the pointer sit on the click target for a certain amount of time)
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:11
-msgid ""
-"<i>You can also use the Dwell Click panel applet to choose the click type.</"
-"i>"
-msgstr ""
-"<i>U kunt ook het Zwevende klik-paneelapplet gebruiken om het kliktype te "
-"kiezen.</i>"
-
-#. high sensitivity
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:15
-msgid "<small><i>High</i></small>"
-msgstr "<small><i>Hoog</i></small>"
-
-#. large threshold
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:17
-msgid "<small><i>Large</i></small>"
-msgstr "<small><i>Groot</i></small>"
-
-#. low sensitivity
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:21
-msgid "<small><i>Low</i></small>"
-msgstr "<small><i>Laag</i></small>"
-
-#. small threshold
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:27
-msgid "<small><i>Small</i></small>"
-msgstr "<small><i>Klein</i></small>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:29
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:2
 msgid "Choose type of click _beforehand"
 msgstr "Vooraf een t_ype klik kiezen"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:30
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:3
 msgid "Choose type of click with mo_use gestures"
 msgstr "Type klik met _muisgebaren kiezen"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:33
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:6
 msgid "D_ouble click:"
 msgstr "_Dubbelklik:"
 
-#. click to initiate drag-and-drop (like normally click and hold)
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:35
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:7
 msgid "D_rag click:"
 msgstr "Slee_pklik:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:8
+msgid "Double-Click Timeout"
+msgstr "Intervaltijd voor dubbelklik"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
+msgid "Drag and Drop"
+msgstr "Slepen en Neerzetten"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
+msgid "Dwell Click"
+msgstr "ZweefKlik"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:13
+msgid "Enable _horizontal scrolling"
+msgstr "Zet _horizontaal scrollen aan"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:14
+msgid "Enable mouse _clicks with touchpad"
+msgstr "Zet muis_klikken met touchpad aan"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
+msgid "High"
+msgstr "Hoog"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
+msgid "Locate Pointer"
+msgstr "Vind de muisaanwijzer"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
+msgid "Low"
+msgstr "Laag"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
+msgid "Mouse Orientation"
+msgstr "Muis-oriëntatie"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:16
 msgid "Mouse Preferences"
 msgstr "Muisvoorkeuren"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:38
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
+msgid "Pointer Speed"
+msgstr "Aanwijzersnelheid"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
+msgid "Scrolling"
+msgstr "Scrollen"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
 msgid "Seco_ndary click:"
 msgstr "Secundaire klik:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:39
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
 msgid "Sh_ow position of pointer when the Control key is pressed"
 msgstr "P_ositie van muisaanwijzer tonen wanneer de Ctrl-toets is ingedrukt"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:40
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Show click type _window"
 msgstr "Kliktype_venster tonen"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:41
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
+msgid "Simulated Secondary Click"
+msgstr "Gesimuleerde secundaire klik"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
 msgid "Thr_eshold:"
 msgstr "_Drempelwaarde:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:42
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
+msgstr ""
+"Probeer op het lampje te dubbelklikken om uw dubbelklikinstellingen te "
+"testen."
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:17
+msgid "Touchpad"
+msgstr "Touchpad"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:18
+msgid "Two-_finger scrolling"
+msgstr "Twee-vinger scrollen"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
+msgid "You can also use the Dwell Click panel applet to choose the click type."
+msgstr ""
+"U kunt ook het Zwevende klik-paneelapplet gebruiken om het kliktype te "
+"kiezen."
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:19
 msgid "_Acceleration:"
 msgstr "Ver_snelling:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:44
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:20
+msgid "_Disable touchpad while typing"
+msgstr "_Zet touchpad uit tijdens typen"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:39
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:21
+msgid "_Disabled"
+msgstr "Uitgeschakel_d"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:40
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:22
+msgid "_Edge scrolling"
+msgstr "_Rand scrollen"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:41
 msgid "_Initiate click when stopping pointer movement"
 msgstr "_Klik beginnen bij stoppen van muisbeweging"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:45
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:42
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:23
 msgid "_Left-handed"
 msgstr "_Linkshandig"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:46
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:43
 msgid "_Motion threshold:"
 msgstr "Be_wegingsdrempel:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:47
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:44
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:24
 msgid "_Right-handed"
 msgstr "_Rechtshandig"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:48
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:45
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:25
 msgid "_Sensitivity:"
 msgstr "_Gevoeligheid:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:49
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:46
 msgid "_Single click:"
 msgstr "_Enkele klik:"
 
 # Is dit intervaltijd uit de dubbelklik-pref of iets anders?
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:50
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:47
 msgid "_Timeout:"
 msgstr "In_tervaltijd:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:51
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:48
 msgid "_Trigger secondary click by holding down the primary button"
 msgstr "Se_cundaire klik activeren door de primaire knop ingedrukt te houden"
 
@@ -2930,12 +3112,12 @@ msgstr "Muis"
 msgid "Set your mouse preferences"
 msgstr "Uw muisvoorkeuren instellen"
 
-#: ../capplets/network/gnome-network-properties.c:677
-#: ../capplets/network/gnome-network-properties.c:816
+#: ../capplets/network/gnome-network-properties.c:701
+#: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "Nieuwe locatie…"
 
-#: ../capplets/network/gnome-network-properties.c:782
+#: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "Locatie bestaat al"
 
@@ -2947,170 +3129,170 @@ msgstr "Netwerkproxy"
 msgid "Set your network proxy preferences"
 msgstr "Netwerkproxy-voorkeuren instellen"
 
-#: ../capplets/network/gnome-network-properties.glade.h:1
+#: ../capplets/network/gnome-network-properties.ui.h:1
 msgid "<b>Di_rect internet connection</b>"
 msgstr "<b>_Directe internetverbinding</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:2
-msgid "<b>Ignore Host List</b>"
-msgstr "<b>Lijst met genegeerde hostcomputers</b>"
-
-#: ../capplets/network/gnome-network-properties.glade.h:3
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "<b>_Automatic proxy configuration</b>"
 msgstr "<b>_Automatische proxyconfiguratie</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:4
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "<b>_Manual proxy configuration</b>"
 msgstr "<b>Hand_matige proxyconfiguratie</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:5
+#: ../capplets/network/gnome-network-properties.ui.h:4
 msgid "<b>_Use authentication</b>"
 msgstr "<b>_Verificatie gebruiken</b>"
 
-#: ../capplets/network/gnome-network-properties.glade.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "Autoconfiguratie-_URL:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "C_reate"
 msgstr "Aan_maken"
 
-#: ../capplets/network/gnome-network-properties.glade.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Create New Location"
 msgstr "Nieuwe locatie aanmaken"
 
-#: ../capplets/network/gnome-network-properties.glade.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "HTTP Proxy Details"
 msgstr "Details HTTP-proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "H_TTP proxy:"
 msgstr "HTT_P-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:10
+msgid "Ignore Host List"
+msgstr "Genegeerde hostcomputers"
+
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Ignored Hosts"
 msgstr "Genegeerde hostcomputers"
 
-#: ../capplets/network/gnome-network-properties.glade.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Location:"
 msgstr "Locatie:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "Network Proxy Preferences"
 msgstr "Netwerkproxy-voorkeuren"
 
-#: ../capplets/network/gnome-network-properties.glade.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "Port:"
 msgstr "Poort:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "Proxy Configuration"
 msgstr "Proxyconfiguratie"
 
-#: ../capplets/network/gnome-network-properties.glade.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:16
 msgid "S_ocks host:"
 msgstr "S_ocks-hostnaam:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "The location already exists."
 msgstr "De locatie bestaat al."
 
-#: ../capplets/network/gnome-network-properties.glade.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "U_sername:"
 msgstr "_Gebruikersnaam:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_Delete Location"
 msgstr "Locatie _verwijderen"
 
-#: ../capplets/network/gnome-network-properties.glade.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Details"
 msgstr "_Details"
 
-#: ../capplets/network/gnome-network-properties.glade.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:21
 msgid "_FTP proxy:"
 msgstr "_FTP-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Location name:"
 msgstr "_Locatienaam:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Password:"
 msgstr "_Wachtwoord:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:24
 msgid "_Secure HTTP proxy:"
 msgstr "Beve_iligde HTTP proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:25
+#: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "Dezelfde pro_xy gebruiken voor alle protocollen"
 
-#: ../capplets/windows/gnome-window-properties.c:346
+#: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
 msgstr "Kan het voorkeurenvenster voor uw window manager niet starten"
 
 #. translators: this is the Control key
-#: ../capplets/windows/gnome-window-properties.c:600
+#: ../capplets/windows/gnome-window-properties.c:608
 msgid "C_ontrol"
 msgstr "C_ontrol"
 
-#: ../capplets/windows/gnome-window-properties.c:605
+#: ../capplets/windows/gnome-window-properties.c:613
 msgid "_Alt"
 msgstr "Al_t"
 
-#: ../capplets/windows/gnome-window-properties.c:611
+#: ../capplets/windows/gnome-window-properties.c:619
 msgid "H_yper"
 msgstr "H_yper"
 
-#: ../capplets/windows/gnome-window-properties.c:618
+#: ../capplets/windows/gnome-window-properties.c:626
 msgid "S_uper (or \"Windows logo\")"
 msgstr "Supe_r (of “Windows-logo”)"
 
-#: ../capplets/windows/gnome-window-properties.c:625
+#: ../capplets/windows/gnome-window-properties.c:633
 msgid "_Meta"
 msgstr "_Meta"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:1
-msgid "<b>Movement Key</b>"
-msgstr "<b>Verplaatstoets</b>"
+#: ../capplets/windows/gnome-window-properties.ui.h:1
+msgid "Movement Key"
+msgstr "Verplaatstoets"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:2
-msgid "<b>Titlebar Action</b>"
-msgstr "<b>Titelbalkactie</b>"
+#: ../capplets/windows/gnome-window-properties.ui.h:2
+msgid "Titlebar Action"
+msgstr "Titelbalkactie"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:3
-msgid "<b>Window Selection</b>"
-msgstr "<b>Vensterselectie</b>"
-
-#: ../capplets/windows/gnome-window-properties.glade.h:4
+#: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
 msgstr ""
 "Om een venster te verplaatsen, houdt deze toets ingedrukt en grijp het "
 "venster:"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:5
+#: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
 msgstr "Venstervoorkeuren"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:6
+#: ../capplets/windows/gnome-window-properties.ui.h:5
+msgid "Window Selection"
+msgstr "Vensterselectie"
+
+#: ../capplets/windows/gnome-window-properties.ui.h:6
 msgid "_Double-click titlebar to perform this action:"
 msgstr "Op titelbalk _dubbelklikken voert deze actie uit:"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:7
+#: ../capplets/windows/gnome-window-properties.ui.h:7
 msgid "_Interval before raising:"
 msgstr "Tijds_interval vóór verhogen:"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:8
+#: ../capplets/windows/gnome-window-properties.ui.h:8
 msgid "_Raise selected windows after an interval"
 msgstr "Geselecteerde venste_rs verhogen na een tijdsinterval"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:9
+#: ../capplets/windows/gnome-window-properties.ui.h:9
 msgid "_Select windows when the mouse moves over them"
 msgstr "Vensters _selecteren wanneer de muis eroverheen beweegt"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:10
+#: ../capplets/windows/gnome-window-properties.ui.h:10
 msgid "seconds"
 msgstr "seconden"
 
@@ -3121,176 +3303,6 @@ msgstr "Venstereigenschappen instellen"
 #: ../capplets/windows/window-properties.desktop.in.in.h:2
 msgid "Windows"
 msgstr "Vensters"
-
-#. make start action
-#: ../libslab/application-tile.c:372
-#, c-format
-msgid "<b>Start %s</b>"
-msgstr "<b>%s opstarten</b>"
-
-#: ../libslab/application-tile.c:391
-msgid "Help"
-msgstr "Hulp"
-
-#: ../libslab/application-tile.c:438
-msgid "Upgrade"
-msgstr "Upgraden"
-
-#: ../libslab/application-tile.c:453
-msgid "Uninstall"
-msgstr "Deïnstalleren"
-
-# bij een browser is dit bladwijzers, maar hier is
-# favorieten/favoriet beter (favoriete programma's) (tino)
-#: ../libslab/application-tile.c:780 ../libslab/document-tile.c:715
-msgid "Remove from Favorites"
-msgstr "Verwijderen uit favorieten"
-
-#: ../libslab/application-tile.c:782 ../libslab/document-tile.c:717
-msgid "Add to Favorites"
-msgstr "toevoegen aan favorieten"
-
-#: ../libslab/application-tile.c:867
-msgid "Remove from Startup Programs"
-msgstr "Verwijderen uit de opstartprogramma's"
-
-#: ../libslab/application-tile.c:869
-msgid "Add to Startup Programs"
-msgstr "Toevoegen aan opstartprogramma's"
-
-#: ../libslab/app-shell.c:753
-#, c-format
-msgid ""
-"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
-"\n"
-" Your filter \"<b>%s</b>\" does not match any items.</span>"
-msgstr ""
-"<span size=\"large\"><b>Geen overeenkomsten.</b> </span><span>\n"
-"\n"
-" Uw filter ‘<b>%s</b>’ komt met geen enkel item overeen.</span>"
-
-#: ../libslab/app-shell.c:903
-msgid "Other"
-msgstr "Overige"
-
-#: ../libslab/bookmark-agent.c:1077
-msgid "New Spreadsheet"
-msgstr "Nieuw rekenblad"
-
-#: ../libslab/bookmark-agent.c:1082
-msgid "New Document"
-msgstr "Nieuw document"
-
-#: ../libslab/bookmark-agent.c:1135
-msgid "Home"
-msgstr "Persoonlijke map"
-
-#: ../libslab/bookmark-agent.c:1140
-msgid "Documents"
-msgstr "Documenten"
-
-#: ../libslab/bookmark-agent.c:1153
-msgid "File System"
-msgstr "Bestandssysteem"
-
-#: ../libslab/bookmark-agent.c:1157
-msgid "Network Servers"
-msgstr "Netwerkservers"
-
-#: ../libslab/bookmark-agent.c:1186
-msgid "Search"
-msgstr "Zoeken"
-
-#. make open with default action
-#: ../libslab/directory-tile.c:171
-#, c-format
-msgid "<b>Open</b>"
-msgstr "<b>Openen</b>"
-
-#. make rename action
-#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:231
-msgid "Rename..."
-msgstr "Hernoemen…"
-
-# aan/naar
-#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
-#: ../libslab/document-tile.c:245 ../libslab/document-tile.c:254
-msgid "Send To..."
-msgstr "Verzenden naar…"
-
-#. make move to trash action
-#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:280
-msgid "Move to Trash"
-msgstr "In prullenbak gooien"
-
-#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
-#: ../libslab/document-tile.c:290 ../libslab/document-tile.c:831
-msgid "Delete"
-msgstr "Verwijderen"
-
-#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:979
-#, c-format
-msgid "Are you sure you want to permanently delete \"%s\"?"
-msgstr "Weet u zeker dat u ‘%s’ blijvend wilt verwijderen?"
-
-#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:980
-msgid "If you delete an item, it is permanently lost."
-msgstr "Als u een item verwijdert, is het voorgoed verloren."
-
-#: ../libslab/document-tile.c:192
-#, c-format
-msgid "<b>Open with \"%s\"</b>"
-msgstr "<b>Openen met ‘%s’</b>"
-
-#: ../libslab/document-tile.c:204
-msgid "Open with Default Application"
-msgstr "Openen met standaardprogramma"
-
-#: ../libslab/document-tile.c:215
-msgid "Open in File Manager"
-msgstr "Openen in bestandsbeheer"
-
-#: ../libslab/document-tile.c:611
-msgid "?"
-msgstr "?"
-
-#: ../libslab/document-tile.c:618
-msgid "%l:%M %p"
-msgstr "%k:%M"
-
-#: ../libslab/document-tile.c:626
-msgid "Today %l:%M %p"
-msgstr "Vandaag %k:%M"
-
-#: ../libslab/document-tile.c:636
-msgid "Yesterday %l:%M %p"
-msgstr "Gisteren %k:%M"
-
-#: ../libslab/document-tile.c:648
-msgid "%a %l:%M %p"
-msgstr "%a %k:%M"
-
-#: ../libslab/document-tile.c:656
-msgid "%b %d %l:%M %p"
-msgstr "%d %b %k:%M"
-
-#: ../libslab/document-tile.c:658
-msgid "%b %d %Y"
-msgstr "%d %b %Y"
-
-#: ../libslab/search-bar.c:255
-msgid "Find Now"
-msgstr "Nu zoeken"
-
-#: ../libslab/system-tile.c:128
-#, c-format
-msgid "<b>Open %s</b>"
-msgstr "<b>%s openen</b>"
-
-#: ../libslab/system-tile.c:141
-#, c-format
-msgid "Remove from System Items"
-msgstr "Uit Systeemitems verwijderen"
 
 #: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
@@ -3321,27 +3333,30 @@ msgstr "Oprollen"
 msgid "None"
 msgstr "Geen"
 
-#: ../shell/control-center.c:54
+#: ../shell/control-center.c:49
 #, c-format
 msgid "key not found [%s]\n"
 msgstr "sleutel niet gevonden [%s]\n"
 
-#: ../shell/control-center.c:151
+#: ../shell/control-center.c:143
+msgid "Hide on start (useful to preload the shell)"
+msgstr "Verberg tijdens starten (handig om de shell sneller te laden)"
+
+#: ../shell/control-center.c:182
 msgid "Filter"
 msgstr "Filteren"
 
-#: ../shell/control-center.c:151
+#: ../shell/control-center.c:182
 msgid "Groups"
 msgstr "Groepen"
 
-#: ../shell/control-center.c:151
+#: ../shell/control-center.c:182
 msgid "Common Tasks"
 msgstr "Algemene taken"
 
-#: ../shell/control-center.c:155 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Configuratiecentrum"
+#: ../shell/control-center.c:185
+msgid "Settings"
+msgstr "Instellingen"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3425,6 +3440,10 @@ msgstr ""
 "als ingesteld op waar, dan zal het configuratieprogramma sluiten wanneer een "
 "“algemene taak” wordt geactiveerd."
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Configuratiecentrum"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "Het Gnome-configuratieprogramma"
@@ -3437,33 +3456,23 @@ msgstr "_Pauze uitstellen"
 msgid "Take a break!"
 msgstr "Neem even pauze!"
 
-#. { N_("/_Enabled"),      NULL, GIF_CB (popup_enabled_cb),     POPUP_ITEM_ENABLED, "<ToggleItem>", NULL },
-#. translators: keep the initial "/"
-#: ../typing-break/drwright.c:129
-msgid "/_Preferences"
-msgstr "/_Voorkeuren"
+#: ../typing-break/drwright.c:120
+msgid "_Take a Break"
+msgstr "_Pauze nemen"
 
-#: ../typing-break/drwright.c:130
-msgid "/_About"
-msgstr "/I_nfo"
-
-#: ../typing-break/drwright.c:132
-msgid "/_Take a Break"
-msgstr "/_Pauze nemen"
-
-#: ../typing-break/drwright.c:488
+#: ../typing-break/drwright.c:476
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "%d minuut tot de volgende pauze"
 msgstr[1] "%d minuten tot de volgende pauze"
 
-#: ../typing-break/drwright.c:492
+#: ../typing-break/drwright.c:480
 #, c-format
 msgid "Less than one minute until the next break"
 msgstr "Minder dan een minuut tot de volgende pauze"
 
-#: ../typing-break/drwright.c:579
+#: ../typing-break/drwright.c:563
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -3472,19 +3481,19 @@ msgstr ""
 "Niet in staat het tikpauze-eigenschappenvenster te tonen, als gevolg van de "
 "volgende foutmelding: %s"
 
-#: ../typing-break/drwright.c:598
+#: ../typing-break/drwright.c:580
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Geschreven door Richard Hult <richard@imendio.com>"
 
-#: ../typing-break/drwright.c:599
+#: ../typing-break/drwright.c:581
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Tierelantijntjes toegevoegd door Anders Carlsson"
 
-#: ../typing-break/drwright.c:608
+#: ../typing-break/drwright.c:590
 msgid "A computer break reminder."
 msgstr "Een programma dat u herinnert te pauzeren bij computergebruik"
 
-#: ../typing-break/drwright.c:610
+#: ../typing-break/drwright.c:592
 msgid "translator-credits"
 msgstr ""
 "Tino Meinen\n"
@@ -3601,38 +3610,50 @@ msgstr "Of Type1-lettertypes een miniatuur moeten krijgen"
 msgid "The quick brown fox jumps over the lazy dog. 0123456789"
 msgstr "Pa's wijze lynx bezag vroom het fikse aquaduct. 0123456789"
 
-#: ../font-viewer/font-view.c:275
+#: ../font-viewer/font-view.c:289
 msgid "Name:"
 msgstr "Naam:"
 
-#: ../font-viewer/font-view.c:278
+#: ../font-viewer/font-view.c:292
 msgid "Style:"
 msgstr "Stijl:"
 
-#: ../font-viewer/font-view.c:291
+#: ../font-viewer/font-view.c:305
 msgid "Type:"
 msgstr "Type:"
 
-#: ../font-viewer/font-view.c:295
+#: ../font-viewer/font-view.c:309
 msgid "Size:"
 msgstr "Grootte:"
 
-#: ../font-viewer/font-view.c:339 ../font-viewer/font-view.c:352
+#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "Versie:"
 
-#: ../font-viewer/font-view.c:343 ../font-viewer/font-view.c:354
+#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr "Copyright:"
 
-#: ../font-viewer/font-view.c:347
+#: ../font-viewer/font-view.c:361
 msgid "Description:"
 msgstr "Beschrijving:"
 
-#: ../font-viewer/font-view.c:437
+#: ../font-viewer/font-view.c:441
+msgid "Installed"
+msgstr "Geinstalleerd"
+
+#: ../font-viewer/font-view.c:444
+msgid "Install Failed"
+msgstr "Installeren mislukt"
+
+#: ../font-viewer/font-view.c:516
 #, c-format
 msgid "usage: %s fontfile\n"
 msgstr "gebruik: %s lettertypebestand\n"
+
+#: ../font-viewer/font-view.c:591
+msgid "I_nstall Font"
+msgstr "I_nstalleer Font"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
 msgid "Font Viewer"
@@ -3667,6 +3688,568 @@ msgstr "LETTERTYPEBESTAND OUTVOERBESTAND"
 #, c-format
 msgid "Error parsing arguments: %s\n"
 msgstr "Fout bij het ontleden van argumenten: %s\n"
+
+#: ../libslab/app-shell.c:754
+#, c-format
+msgid "Your filter \"%s\" does not match any items."
+msgstr "Je filter \"%s\" komt niet overeen met een item."
+
+# geen/zonder
+#: ../libslab/app-shell.c:756
+msgid "No matches found."
+msgstr "Niks gevonden."
+
+#: ../libslab/app-shell.c:905
+msgid "Other"
+msgstr "Overige"
+
+#. make start action
+#: ../libslab/application-tile.c:374
+#, c-format
+msgid "Start %s"
+msgstr "%s opstarten"
+
+#: ../libslab/application-tile.c:395
+msgid "Help"
+msgstr "Hulp"
+
+#: ../libslab/application-tile.c:442
+msgid "Upgrade"
+msgstr "Upgraden"
+
+#: ../libslab/application-tile.c:457
+msgid "Uninstall"
+msgstr "Deïnstalleren"
+
+# bij een browser is dit bladwijzers, maar hier is
+# favorieten/favoriet beter (favoriete programma's) (tino)
+#: ../libslab/application-tile.c:784 ../libslab/document-tile.c:721
+msgid "Remove from Favorites"
+msgstr "Verwijderen uit favorieten"
+
+#: ../libslab/application-tile.c:786 ../libslab/document-tile.c:723
+msgid "Add to Favorites"
+msgstr "toevoegen aan favorieten"
+
+#: ../libslab/application-tile.c:871
+msgid "Remove from Startup Programs"
+msgstr "Verwijderen uit de opstartprogramma's"
+
+#: ../libslab/application-tile.c:873
+msgid "Add to Startup Programs"
+msgstr "Toevoegen aan opstartprogramma's"
+
+#: ../libslab/bookmark-agent.c:1077
+msgid "New Spreadsheet"
+msgstr "Nieuw rekenblad"
+
+#: ../libslab/bookmark-agent.c:1082
+msgid "New Document"
+msgstr "Nieuw document"
+
+#: ../libslab/bookmark-agent.c:1140
+msgid "Documents"
+msgstr "Documenten"
+
+#: ../libslab/bookmark-agent.c:1153
+msgid "File System"
+msgstr "Bestandssysteem"
+
+#: ../libslab/bookmark-agent.c:1157
+msgid "Network Servers"
+msgstr "Netwerkservers"
+
+#: ../libslab/bookmark-agent.c:1186
+msgid "Search"
+msgstr "Zoeken"
+
+#. make open with default action
+#: ../libslab/directory-tile.c:171
+#, c-format
+msgid "<b>Open</b>"
+msgstr "<b>Openen</b>"
+
+#. make rename action
+#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:234
+msgid "Rename..."
+msgstr "Hernoemen…"
+
+# aan/naar
+#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
+#: ../libslab/document-tile.c:248 ../libslab/document-tile.c:257
+msgid "Send To..."
+msgstr "Verzenden naar…"
+
+#. make move to trash action
+#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:283
+msgid "Move to Trash"
+msgstr "In prullenbak gooien"
+
+#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
+#: ../libslab/document-tile.c:293 ../libslab/document-tile.c:837
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:985
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "Weet u zeker dat u ‘%s’ blijvend wilt verwijderen?"
+
+#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:986
+msgid "If you delete an item, it is permanently lost."
+msgstr "Als u een item verwijdert, is het voorgoed verloren."
+
+#: ../libslab/document-tile.c:193
+#, c-format
+msgid "Open with \"%s\""
+msgstr "Openen met \"%s\""
+
+#: ../libslab/document-tile.c:207
+msgid "Open with Default Application"
+msgstr "Openen met standaardprogramma"
+
+#: ../libslab/document-tile.c:218
+msgid "Open in File Manager"
+msgstr "Openen in bestandsbeheer"
+
+#: ../libslab/document-tile.c:617
+msgid "?"
+msgstr "?"
+
+#: ../libslab/document-tile.c:624
+msgid "%l:%M %p"
+msgstr "%k:%M"
+
+#: ../libslab/document-tile.c:632
+msgid "Today %l:%M %p"
+msgstr "Vandaag %k:%M"
+
+#: ../libslab/document-tile.c:642
+msgid "Yesterday %l:%M %p"
+msgstr "Gisteren %k:%M"
+
+#: ../libslab/document-tile.c:654
+msgid "%a %l:%M %p"
+msgstr "%a %k:%M"
+
+#: ../libslab/document-tile.c:662
+msgid "%b %d %l:%M %p"
+msgstr "%d %b %k:%M"
+
+#: ../libslab/document-tile.c:664
+msgid "%b %d %Y"
+msgstr "%d %b %Y"
+
+#: ../libslab/search-bar.c:255
+msgid "Find Now"
+msgstr "Nu zoeken"
+
+#: ../libslab/system-tile.c:127
+#, c-format
+msgid "<b>Open %s</b>"
+msgstr "<b>%s openen</b>"
+
+#: ../libslab/system-tile.c:140
+#, c-format
+msgid "Remove from System Items"
+msgstr "Uit Systeemitems verwijderen"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:2
+msgid "<b>General</b>"
+msgstr "<b>Algemeen</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:2
+msgid "<b>Mouse Orientation</b>"
+msgstr "<b>Muis-oriëntatie</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:3
+msgid "<b>Pointer Speed</b>"
+msgstr "<b>Aanwijzersnelheid</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Scrolling</b>"
+msgstr "<b>Gladmaken</b>"
+
+#. fast acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:6
+msgid "<small><i>Fast</i></small>"
+msgstr "<small><i>Snel</i></small>"
+
+#. high sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:8
+msgid "<small><i>High</i></small>"
+msgstr "<small><i>Hoog</i></small>"
+
+#. low sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:10
+msgid "<small><i>Low</i></small>"
+msgstr "<small><i>Laag</i></small>"
+
+#. slow acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:12
+msgid "<small><i>Slow</i></small>"
+msgstr "<small><i>Traag</i></small>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:1
+msgid "<b>Bounce Keys</b>"
+msgstr "<b>KaatsToetsen</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:3
+msgid "<b>Slow Keys</b>"
+msgstr "<b>Trage Toetsen</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:4
+msgid "<b>Sticky Keys</b>"
+msgstr "<b>PlakToetsen</b>"
+
+# feedback/hints
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:5
+msgid "<b>Visual cues for sounds</b>"
+msgstr "<b>Visuele hints voor geluiden</b>"
+
+#. font hinting
+#: ../capplets/appearance/data/appearance-moblin.ui.h:2
+msgid "<b>Hinting</b>"
+msgstr "<b>Vormhints</b>"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:3
+msgid "<b>Rendering</b>"
+msgstr "<b>Weergave</b>"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:4
+msgid "<b>Smoothing</b>"
+msgstr "<b>Gladmaken</b>"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:5
+msgid "<b>Subpixel Order</b>"
+msgstr "<b>Subpixel-volgorde</b>"
+
+# vrij vertaald (tino)
+#: ../capplets/display/display-capplet-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Drag the monitors to set their place</b>"
+msgstr "<i>Versleep de schermen naar hun eigen plek</i>"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:2
+msgid "<b>Monitor</b>"
+msgstr "<b>Beeldscherm</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:1
+msgid "<b>Email</b>"
+msgstr "<b>E-mail</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Home address</b>"
+msgstr "<b>Thuis</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:3
+msgid "<b>Instant Messaging</b>"
+msgstr "<b>Expresberichten</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:4
+msgid "<b>Job</b>"
+msgstr "<b>Werk</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:5
+msgid "<b>Telephone</b>"
+msgstr "<b>Telefoon</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:6
+msgid "<b>Web</b>"
+msgstr "<b>Web</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:7
+#, fuzzy
+msgid "<b>Work address</b>"
+msgstr "<b>Werk</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:23
+#, fuzzy
+msgid "Job _title:"
+msgstr "_Titel:"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:27
+#, fuzzy
+msgid "Personal"
+msgstr "Persoonlijke gegevens"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:40
+#, fuzzy
+msgid "_Website:"
+msgstr "_Titel:"
+
+# Dit verschijnt als titel in het dialoog Wachtwoord wijzigen.
+# Daaronder komt de uitleg hoe je het moet doen (tino)
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Uw wachtwoord wijzigen</span>"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Assisterende technologieën</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Voorkeuren</b>"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>_Kleuren</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Menu's en werkbalken</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Voorbeeld</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>_Werkbladachtergrond</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "K_nippen"
+
+#~ msgid "New File"
+#~ msgstr "Nieuw bestand"
+
+#~ msgid "Open File"
+#~ msgstr "Bestand openen"
+
+#~ msgid "Save File"
+#~ msgstr "Bestand opslaan"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "Effen kleur\n"
+#~ "Horizontaal verloop\n"
+#~ "Verticaal verloop"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "Tekst onder pictogrammen\n"
+#~ "Tekst naast pictogrammen\n"
+#~ "Alleen pictogrammen\n"
+#~ "Alleen tekst"
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "Tegels\n"
+#~ "Ingezoomd\n"
+#~ "Gecentreerd\n"
+#~ "Op schaal\n"
+#~ "Schermvullend"
+
+#~ msgid "_Copy"
+#~ msgstr "_Kopiëren"
+
+#~ msgid "_New"
+#~ msgstr "_Nieuw"
+
+#~ msgid "_Open"
+#~ msgstr "_Openen"
+
+#~ msgid "_Paste"
+#~ msgstr "_Plakken"
+
+#~ msgid "_Print"
+#~ msgstr "Af_drukken"
+
+#~ msgid "_Quit"
+#~ msgstr "A_fsluiten"
+
+#~ msgid "_Save"
+#~ msgstr "Op_slaan"
+
+#~ msgid ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s by %d %s\n"
+#~ "Folder: %s"
+#~ msgstr ""
+#~ "<b>%s</b>\n"
+#~ "%s, %d %s bij %d %s\n"
+#~ "Map: %s"
+
+#~ msgid ""
+#~ "Unable to start the settings manager 'gnome-settings-daemon'.\n"
+#~ "Without the GNOME settings manager running, some preferences may not take "
+#~ "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
+#~ "KDE) settings manager may already be active and conflicting with the "
+#~ "GNOME settings manager."
+#~ msgstr ""
+#~ "Niet in staat het instellingenbeheer 'gnome-settings-daemon' te starten.\n"
+#~ "Wanneer het Gnome instellingenbeheer niet actief is, zouden sommige "
+#~ "voorkeuren geen invloed kunnen hebben. Dit kan wijzen op een probleem met "
+#~ "Bonobo, of een niet-Gnome (bijvoorbeeld KDE) instellingenbeheer zou reeds "
+#~ "actief kunnen zijn en conflicteren met het Gnome instellingenbeheer."
+
+#~ msgid "<b>Image Viewer</b>"
+#~ msgstr "<b>Afbeeldingsweergave</b>"
+
+#~ msgid "<b>Instant Messenger</b>"
+#~ msgstr "<b>Expresberichten</b>"
+
+#~ msgid "<b>Mail Reader</b>"
+#~ msgstr "<b>E-mailprogramma</b>"
+
+#~ msgid "<b>Mobility</b>"
+#~ msgstr "<b>Mobiliteit</b>"
+
+#~ msgid "<b>Multimedia Player</b>"
+#~ msgstr "<b>Multimediaspeler</b>"
+
+#~ msgid "<b>Terminal Emulator</b>"
+#~ msgstr "<b>Terminal-emulator</b>"
+
+#~ msgid "<b>Text Editor</b>"
+#~ msgstr "<b>Tekst-editor</b>"
+
+#~ msgid "<b>Video Player</b>"
+#~ msgstr "<b>Video-afspeelprogramma</b>"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Visueel</b>"
+
+#~ msgid "<b>Web Browser</b>"
+#~ msgstr "<b>Webbrowser</b>"
+
+#~ msgid "<b>Panel icon</b>"
+#~ msgstr "<b>Paneelpictogram</b>"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "Normaal\n"
+#~ "Links\n"
+#~ "Rechts\n"
+#~ "Ondersteboven\n"
+
+#~ msgid "<b>Monitor: %s</b>"
+#~ msgstr "<b>Beeldscherm: %s</b>"
+
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "Kon de geselecteerde configuratie niet toepassen"
+
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "Kon org.gnome.SettingsDaemon.XRANDR niet verkrijgen"
+
+#~ msgid "<b>Cursor Blinking</b>"
+#~ msgstr "<b>Knipperen van de cursor</b>"
+
+#~ msgid "<b>Repeat Keys</b>"
+#~ msgstr "<b>HerhaalToetsen</b>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Lang</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Kort</i></small>"
+
+#~ msgid "<b>Double-Click Timeout</b>"
+#~ msgstr "<b>Intervaltijd voor dubbelklik</b>"
+
+#~ msgid "<b>Drag and Drop</b>"
+#~ msgstr "<b>Slepen en Neerzetten</b>"
+
+#~ msgid "<b>Dwell Click</b>"
+#~ msgstr "<b>ZweefKlik</b>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Aanwijzer lokaliseren</b>"
+
+#~ msgid "<b>Simulated Secondary Click</b>"
+#~ msgstr "<b>Gesimuleerde secundaire klik</b>"
+
+#~ msgid ""
+#~ "<i>To test your double-click settings, try to double-click on the light "
+#~ "bulb.</i>"
+#~ msgstr ""
+#~ "<i>Probeer op het lampje te dubbelklikken om uw dubbelklikinstellingen te "
+#~ "testen.</i>"
+
+#~ msgid ""
+#~ "<i>You can also use the Dwell Click panel applet to choose the click type."
+#~ "</i>"
+#~ msgstr ""
+#~ "<i>U kunt ook het Zwevende klik-paneelapplet gebruiken om het kliktype te "
+#~ "kiezen.</i>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>Groot</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>Klein</i></small>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Lijst met genegeerde hostcomputers</b>"
+
+#~ msgid "<b>Movement Key</b>"
+#~ msgstr "<b>Verplaatstoets</b>"
+
+#~ msgid "<b>Titlebar Action</b>"
+#~ msgstr "<b>Titelbalkactie</b>"
+
+#~ msgid "<b>Window Selection</b>"
+#~ msgstr "<b>Vensterselectie</b>"
+
+#~ msgid "<b>Start %s</b>"
+#~ msgstr "<b>%s opstarten</b>"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Geen overeenkomsten.</b> </span><span>\n"
+#~ "\n"
+#~ " Uw filter ‘<b>%s</b>’ komt met geen enkel item overeen.</span>"
+
+#~ msgid "<b>Open with \"%s\"</b>"
+#~ msgstr "<b>Openen met ‘%s’</b>"
+
+#~ msgid "/_Preferences"
+#~ msgstr "/_Voorkeuren"
+
+#~ msgid "/_About"
+#~ msgstr "/I_nfo"
+
+#~ msgid "/_Take a Break"
+#~ msgstr "/_Pauze nemen"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "Onbekend aanmeldings-ID, de gebruikersdatabase is misschien beschadigd"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "Linker duim\n"
+#~ "Linker middelvinger\n"
+#~ "Linker ringvinger\n"
+#~ "Linker pink\n"
+#~ "Rechter duim\n"
+#~ "Rechter middelvinger\n"
+#~ "Rechter ringvinger\n"
+#~ "Rechter pink"
 
 #~ msgid "<b>_Wallpaper</b>"
 #~ msgstr "<b>Werkblad_achtergrond</b>"

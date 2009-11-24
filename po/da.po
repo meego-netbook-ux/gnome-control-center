@@ -1,4 +1,4 @@
-# Danish translation of the Gnome Control Center.
+# Danish translation of the Gnome Control Center - moblin-branch.
 # Copyright (C) 1998-2009
 # This file is distributed under the same license as the gnome-control-center package.
 # Kenneth Christiansen <kenneth@ripen.dk>, 1998-2000.
@@ -8,6 +8,7 @@
 # Martin Willemoes Hansen <mwh@sysrq.dk>, 2004, 05.
 # Lasse Bang Mikkelsen <lbm@fatalerror.dk>, 2006.
 # Ask Hjorth Larsen <asklarsen@gmail.com>, 2007, 08, 09.
+# Kris Thomsen <lakristho@gmail.com>, 2009.
 #
 # Konventioner:
 #
@@ -43,9 +44,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-09-13 03:20+0200\n"
-"PO-Revision-Date: 2009-09-12 18:29+0200\n"
-"Last-Translator: Ask Hjorth Larsen <asklarsen@gmail.com>\n"
+"POT-Creation-Date: 2009-11-24 08:25+0000\n"
+"PO-Revision-Date: 2009-11-06 13:46+0100\n"
+"Last-Translator: Kris Thomsen <lakristho@gmail.com>\n"
 "Language-Team: Danish <dansk@dansk-gruppen.dk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -241,25 +242,25 @@ msgstr "Fingeren var ikke centreret, prøv at stryge fingeren igen"
 msgid "Remove your finger, and try swiping your finger again"
 msgstr "Fjern fingeren, og prøv at stryge med den igen"
 
-#: ../capplets/about-me/gnome-about-me.c:712
+#: ../capplets/about-me/gnome-about-me.c:730
 msgid "Select Image"
 msgstr "Vælg billede"
 
-#: ../capplets/about-me/gnome-about-me.c:714
+#: ../capplets/about-me/gnome-about-me.c:732
 msgid "No Image"
 msgstr "Intet billede"
 
-#: ../capplets/about-me/gnome-about-me.c:742
-#: ../capplets/appearance/appearance-desktop.c:654
+#: ../capplets/about-me/gnome-about-me.c:760
+#: ../capplets/appearance/appearance-desktop.c:691
 msgid "Images"
 msgstr "Billeder"
 
-#: ../capplets/about-me/gnome-about-me.c:746
+#: ../capplets/about-me/gnome-about-me.c:764
 #: ../capplets/appearance/theme-installer.c:763
 msgid "All Files"
 msgstr "Alle filer"
 
-#: ../capplets/about-me/gnome-about-me.c:886
+#: ../capplets/about-me/gnome-about-me.c:901
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
@@ -267,20 +268,22 @@ msgstr ""
 "Der opstod en fejl i forsøget på at hente informationer fra adressebogen\n"
 "Evolution Data Server kan ikke håndtere protokollen"
 
-#: ../capplets/about-me/gnome-about-me.c:907
+#: ../capplets/about-me/gnome-about-me.c:922
 msgid "Unable to open address book"
 msgstr "Kunne ikke åbne adressebogen"
 
-#: ../capplets/about-me/gnome-about-me.c:930
+#: ../capplets/about-me/gnome-about-me.c:945
 #, c-format
 msgid "About %s"
 msgstr "Om %s"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:8
 msgid "A_IM/iChat:"
 msgstr "A_IM/iChat:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:9
 msgid "A_ddress:"
 msgstr "_Adresse:"
 
@@ -290,6 +293,7 @@ msgstr "M_edhjælper:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:10
 msgid "About Me"
 msgstr "Om mig"
 
@@ -298,38 +302,47 @@ msgid "Address"
 msgstr "Adresse"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:11
 msgid "C_ity:"
 msgstr "_By:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:12
 msgid "C_ompany:"
 msgstr "Virks_omhed:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:13
 msgid "Cale_ndar:"
 msgstr "Kale_nder:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:14
 msgid "Change Passwo_rd..."
 msgstr "Skift adgangsko_de..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:15
 msgid "Ci_ty:"
 msgstr "_By:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:16
 msgid "Co_untry:"
 msgstr "_Land:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:17
 msgid "Contact"
 msgstr "Kontakt"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:18
 msgid "Cou_ntry:"
 msgstr "_Land:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:19
 msgid "Disable _Fingerprint Login..."
 msgstr "Deaktivér logind med _fingeraftryk..."
 
@@ -338,14 +351,17 @@ msgid "Email"
 msgstr "E-post"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:16
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:20
 msgid "Enable _Fingerprint Login..."
 msgstr "Aktivér logind med _fingeraftryk..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:17
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:21
 msgid "Full Name"
 msgstr "Fulde navn"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:18
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:22
 msgid "Hom_e:"
 msgstr "Hjemm_e:"
 
@@ -367,14 +383,17 @@ msgid "Job"
 msgstr "Arbejde"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:24
 msgid "M_SN:"
 msgstr "M_SN:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:25
 msgid "P.O. _box:"
 msgstr "Post_boks:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:26
 msgid "P._O. box:"
 msgstr "P_ostboks:"
 
@@ -383,10 +402,12 @@ msgid "Personal Info"
 msgstr "Personlig information"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:28
 msgid "Select your photo"
 msgstr "Vælg dit billede"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:29
 msgid "State/Pro_vince:"
 msgstr "Stat/pro_vins:"
 
@@ -395,6 +416,7 @@ msgid "Telephone"
 msgstr "Telefon"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:30
 msgid "User name:"
 msgstr "Brugernavn:"
 
@@ -407,22 +429,27 @@ msgid "Web _log:"
 msgstr "Web_log:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:31
 msgid "Wor_k:"
 msgstr "Arbej_de:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:32
 msgid "Work"
 msgstr "Arbejde"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:33
 msgid "Work _fax:"
 msgstr "Arb. _fax:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:34
 msgid "Zip/_Postal code:"
 msgstr "_Postnummer:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:35
 msgid "_Address:"
 msgstr "_Adresse:"
 
@@ -439,10 +466,12 @@ msgid "_Home page:"
 msgstr "_Hjemmeside:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:36
 msgid "_Home:"
 msgstr "_Hjem:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:37
 msgid "_Jabber:"
 msgstr "_Jabber:"
 
@@ -451,6 +480,7 @@ msgid "_Manager:"
 msgstr "_Bestyrer:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:38
 msgid "_Mobile:"
 msgstr "_Mobil:"
 
@@ -459,6 +489,7 @@ msgid "_Profession:"
 msgstr "_Erhverv:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:39
 msgid "_State/Province:"
 msgstr "_Stat/provins:"
 
@@ -467,14 +498,17 @@ msgid "_Title:"
 msgstr "_Titel:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:41
 msgid "_Work:"
 msgstr "_Arbejde:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:42
 msgid "_Yahoo:"
 msgstr "_Yahoo:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:43
 msgid "_Zip/Postal code:"
 msgstr "Po_stnummer:"
 
@@ -838,11 +872,11 @@ msgid "Choose which accessibility features to enable when you log in"
 msgstr ""
 "Vælg hvilke tilgængelighedsfaciliteter der skal aktiveres når der logges ind"
 
-#: ../capplets/appearance/appearance-desktop.c:623
+#: ../capplets/appearance/appearance-desktop.c:660
 msgid "Add Wallpaper"
 msgstr "Tilføj skrivebordsbaggrund"
 
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:695
 msgid "All files"
 msgstr "Alle filer"
 
@@ -892,33 +926,33 @@ msgstr "Benyt forrige skrifttype"
 msgid "Use selected font"
 msgstr "Brug markeret skrifttype"
 
-#: ../capplets/appearance/appearance-main.c:55
+#: ../capplets/appearance/appearance-main.c:63
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Kunne ikke indlæse brugergrænsefladefil: %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:144
 msgid "Specify the filename of a theme to install"
 msgstr "Angiv filnavnet på et tema der ønskes installeret"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:145
 msgid "filename"
 msgstr "filnavn"
 
 # ????
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:152
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr ""
 "Angiv navnet på siden der skal vises (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:153
 #: ../capplets/default-applications/gnome-da-capplet.c:907
-#: ../capplets/mouse/gnome-mouse-properties.c:540
+#: ../capplets/mouse/gnome-mouse-properties.c:560
 msgid "page"
 msgstr "side"
 
-#: ../capplets/appearance/appearance-main.c:150
+#: ../capplets/appearance/appearance-main.c:160
 msgid "[WALLPAPER...]"
 msgstr "[SKRIVEBORDSBAGGRUND...]"
 
@@ -1001,18 +1035,22 @@ msgid "Custom"
 msgstr "Tilpasset"
 
 #: ../capplets/appearance/data/appearance.ui.h:1
+#: ../capplets/appearance/data/appearance-moblin.ui.h:6
 msgid "Appearance Preferences"
 msgstr "Indstillinger for udseende"
 
 #: ../capplets/appearance/data/appearance.ui.h:2
+#: ../capplets/appearance/data/appearance-moblin.ui.h:7
 msgid "Background"
 msgstr "Baggrund"
 
 #: ../capplets/appearance/data/appearance.ui.h:3
+#: ../capplets/appearance/data/appearance-moblin.ui.h:8
 msgid "Best _shapes"
 msgstr "Bedste _former"
 
 #: ../capplets/appearance/data/appearance.ui.h:4
+#: ../capplets/appearance/data/appearance-moblin.ui.h:9
 msgid "Best co_ntrast"
 msgstr "Bedste _kontrast"
 
@@ -1025,30 +1063,37 @@ msgid "C_ustomize..."
 msgstr "_Tilpas..."
 
 #: ../capplets/appearance/data/appearance.ui.h:7
+#: ../capplets/appearance/data/appearance-moblin.ui.h:10
 msgid "Centered"
 msgstr "Centreret"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
+#: ../capplets/appearance/data/appearance-moblin.ui.h:11
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr "Ændring af markørtema træder i kraft næste gang du logger ind."
 
 #: ../capplets/appearance/data/appearance.ui.h:9
+#: ../capplets/appearance/data/appearance-moblin.ui.h:12
 msgid "Colors"
 msgstr "Farver"
 
 #: ../capplets/appearance/data/appearance.ui.h:10
+#: ../capplets/appearance/data/appearance-moblin.ui.h:13
 msgid "Controls"
 msgstr "Kontroller"
 
 #: ../capplets/appearance/data/appearance.ui.h:11
+#: ../capplets/appearance/data/appearance-moblin.ui.h:14
 msgid "Customize Theme"
 msgstr "Tilpas tema"
 
 #: ../capplets/appearance/data/appearance.ui.h:12
+#: ../capplets/appearance/data/appearance-moblin.ui.h:15
 msgid "D_etails..."
 msgstr "D_etaljer..."
 
 #: ../capplets/appearance/data/appearance.ui.h:13
+#: ../capplets/appearance/data/appearance-moblin.ui.h:16
 msgid "Des_ktop font:"
 msgstr "Skrifttype for _skrivebordet:"
 
@@ -1057,18 +1102,22 @@ msgid "Edit"
 msgstr "Redigér"
 
 #: ../capplets/appearance/data/appearance.ui.h:15
+#: ../capplets/appearance/data/appearance-moblin.ui.h:17
 msgid "Fill screen"
 msgstr "Fyld skærmen"
 
 #: ../capplets/appearance/data/appearance.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:18
 msgid "Font Rendering Details"
 msgstr "Skriftvisningsdetaljer"
 
 #: ../capplets/appearance/data/appearance.ui.h:17
+#: ../capplets/appearance/data/appearance-moblin.ui.h:19
 msgid "Fonts"
 msgstr "Skrifttyper"
 
 #: ../capplets/appearance/data/appearance.ui.h:18
+#: ../capplets/appearance/data/appearance-moblin.ui.h:20
 msgid "Get more backgrounds online"
 msgstr "Hent flere baggrundsbilleder på nettet"
 
@@ -1077,6 +1126,7 @@ msgid "Get more themes online"
 msgstr "Hent flere temaer på nettet"
 
 #: ../capplets/appearance/data/appearance.ui.h:20
+#: ../capplets/appearance/data/appearance-moblin.ui.h:21
 msgid "Gra_yscale"
 msgstr "_Gråtone"
 
@@ -1087,14 +1137,17 @@ msgid "Hinting"
 msgstr "Skrifttype-hinting"
 
 #: ../capplets/appearance/data/appearance.ui.h:23
+#: ../capplets/appearance/data/appearance-moblin.ui.h:22
 msgid "Horizontal gradient"
 msgstr "Vandret farveovergang"
 
 #: ../capplets/appearance/data/appearance.ui.h:24
+#: ../capplets/appearance/data/appearance-moblin.ui.h:23
 msgid "Icons"
 msgstr "Ikoner"
 
 #: ../capplets/appearance/data/appearance.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:24
 msgid "Icons only"
 msgstr "Kun ikoner"
 
@@ -1104,6 +1157,7 @@ msgstr "Grænseflade"
 
 #: ../capplets/appearance/data/appearance.ui.h:27
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:25
 msgid "Large"
 msgstr "Stor"
 
@@ -1112,6 +1166,7 @@ msgid "Menus and Toolbars"
 msgstr "Menuer og værktøjslinjer"
 
 #: ../capplets/appearance/data/appearance.ui.h:29
+#: ../capplets/appearance/data/appearance-moblin.ui.h:26
 msgid "N_one"
 msgstr "_Ingen"
 
@@ -1120,6 +1175,7 @@ msgid "Open a dialog to specify the color"
 msgstr "Åbn et dialogvindue til farvevalg"
 
 #: ../capplets/appearance/data/appearance.ui.h:31
+#: ../capplets/appearance/data/appearance-moblin.ui.h:27
 msgid "Pointer"
 msgstr "Markør"
 
@@ -1128,6 +1184,7 @@ msgid "Preview"
 msgstr "Forhåndsvisning"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
+#: ../capplets/appearance/data/appearance-moblin.ui.h:28
 msgid "R_esolution:"
 msgstr "_Opløsning:"
 
@@ -1137,6 +1194,7 @@ msgid "Rendering"
 msgstr "Gengivelse"
 
 #: ../capplets/appearance/data/appearance.ui.h:35
+#: ../capplets/appearance/data/appearance-moblin.ui.h:29
 msgid "Save Theme As..."
 msgstr "Gem tema som..."
 
@@ -1145,10 +1203,12 @@ msgid "Save _As..."
 msgstr "Gem _som..."
 
 #: ../capplets/appearance/data/appearance.ui.h:37
+#: ../capplets/appearance/data/appearance-moblin.ui.h:30
 msgid "Save _background image"
 msgstr "Gem _baggrundsbillede"
 
 #: ../capplets/appearance/data/appearance.ui.h:38
+#: ../capplets/appearance/data/appearance-moblin.ui.h:31
 msgid "Scaled"
 msgstr "Skaleret"
 
@@ -1158,6 +1218,7 @@ msgstr "Vis _ikoner i menuer"
 
 #: ../capplets/appearance/data/appearance.ui.h:40
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/appearance/data/appearance-moblin.ui.h:32
 msgid "Small"
 msgstr "Lille"
 
@@ -1166,14 +1227,17 @@ msgid "Smoothing"
 msgstr "Udjævning"
 
 #: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance-moblin.ui.h:33
 msgid "Solid color"
 msgstr "Ensfarvet"
 
 #: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance-moblin.ui.h:34
 msgid "Sub_pixel (LCDs)"
 msgstr "Del_punkt (LCD-skærme)"
 
 #: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance-moblin.ui.h:35
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Del_punktsudjævning (LCD-skærme)"
 
@@ -1182,22 +1246,27 @@ msgid "Subpixel Order"
 msgstr "Delpunktsorden"
 
 #: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance-moblin.ui.h:36
 msgid "Text"
 msgstr "Tekst"
 
 #: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance-moblin.ui.h:37
 msgid "Text below items"
 msgstr "Tekst under elementer"
 
 #: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance-moblin.ui.h:38
 msgid "Text beside items"
 msgstr "Tekst ved siden af elementer"
 
 #: ../capplets/appearance/data/appearance.ui.h:49
+#: ../capplets/appearance/data/appearance-moblin.ui.h:39
 msgid "Text only"
 msgstr "Kun tekst"
 
 #: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance-moblin.ui.h:40
 msgid "The current controls theme does not support color schemes."
 msgstr "Det nuværende kontroltema understøtter ikke farveskemaer."
 
@@ -1206,6 +1275,7 @@ msgid "Theme"
 msgstr "Tema"
 
 #: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance-moblin.ui.h:41
 msgid "Tiled"
 msgstr "Side-om-side"
 
@@ -1215,40 +1285,50 @@ msgstr "_Knapetiketter på værktøjslinjer:"
 
 #. vertical hinting, pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance-moblin.ui.h:43
 msgid "VB_GR"
 msgstr "VB_GR"
 
 #: ../capplets/appearance/data/appearance.ui.h:56
+#: ../capplets/appearance/data/appearance-moblin.ui.h:44
 msgid "Vertical gradient"
 msgstr "Lodret farveovergang"
 
 #: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance-moblin.ui.h:45
 msgid "Window Border"
 msgstr "Vindueskant"
 
 #: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance-moblin.ui.h:46
 msgid "Zoom"
 msgstr "Zoom"
 
 #: ../capplets/appearance/data/appearance.ui.h:59
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:47
 msgid "_Add..."
 msgstr "_Tilføj..."
 
 #: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance-moblin.ui.h:48
 msgid "_Application font:"
 msgstr "Skrifttype for _programmer:"
 
 #. pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance-moblin.ui.h:50
 msgid "_BGR"
 msgstr "_BGR"
 
 #: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance-moblin.ui.h:51
 msgid "_Description:"
 msgstr "_Beskrivelse:"
 
 #: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance-moblin.ui.h:52
 msgid "_Document font:"
 msgstr "Skrifttype for _dokumenter:"
 
@@ -1261,14 +1341,17 @@ msgid "_File"
 msgstr "_Fil"
 
 #: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance-moblin.ui.h:53
 msgid "_Fixed width font:"
 msgstr "_Fastbredde skrifttype:"
 
 #: ../capplets/appearance/data/appearance.ui.h:68
+#: ../capplets/appearance/data/appearance-moblin.ui.h:54
 msgid "_Full"
 msgstr "_Fuld"
 
 #: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance-moblin.ui.h:55
 msgid "_Input boxes:"
 msgstr "_Inputkasser:"
 
@@ -1277,40 +1360,49 @@ msgid "_Install..."
 msgstr "_Installér..."
 
 #: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance-moblin.ui.h:56
 msgid "_Medium"
 msgstr "_Mellem"
 
 #: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance-moblin.ui.h:57
 msgid "_Monochrome"
 msgstr "_Monokrom"
 
 #: ../capplets/appearance/data/appearance.ui.h:73
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/appearance/data/appearance-moblin.ui.h:58
 msgid "_Name:"
 msgstr "_Navn:"
 
 #: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance-moblin.ui.h:59
 msgid "_None"
 msgstr "_Ingen"
 
 #. pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:76
+#: ../capplets/appearance/data/appearance-moblin.ui.h:61
 msgid "_RGB"
 msgstr "_RGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance-moblin.ui.h:62
 msgid "_Reset to Defaults"
 msgstr "Nulstil til _standardværdier"
 
 #: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance-moblin.ui.h:63
 msgid "_Selected items:"
 msgstr "_Markerede objekter:"
 
 #: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance-moblin.ui.h:64
 msgid "_Size:"
 msgstr "_Størrelse:"
 
 #: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance-moblin.ui.h:65
 msgid "_Slight"
 msgstr "_Let"
 
@@ -1319,23 +1411,28 @@ msgid "_Style:"
 msgstr "_Stil:"
 
 #: ../capplets/appearance/data/appearance.ui.h:82
+#: ../capplets/appearance/data/appearance-moblin.ui.h:66
 msgid "_Tooltips:"
 msgstr "_Værktøjstip:"
 
 #. vertical hinting, pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:84
+#: ../capplets/appearance/data/appearance-moblin.ui.h:68
 msgid "_VRGB"
 msgstr "_VRGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:85
+#: ../capplets/appearance/data/appearance-moblin.ui.h:69
 msgid "_Window title font:"
 msgstr "Skrifttype for _vinduestitler:"
 
 #: ../capplets/appearance/data/appearance.ui.h:86
+#: ../capplets/appearance/data/appearance-moblin.ui.h:70
 msgid "_Windows:"
 msgstr "_Vinduer:"
 
 #: ../capplets/appearance/data/appearance.ui.h:87
+#: ../capplets/appearance/data/appearance-moblin.ui.h:71
 msgid "dots per inch"
 msgstr "punkter pr. tomme"
 
@@ -2132,6 +2229,7 @@ msgid "aterm"
 msgstr "aterm"
 
 #: ../capplets/display/display-capplet.ui.h:1
+#: ../capplets/display/display-capplet-moblin.ui.h:3
 msgid "Display Preferences"
 msgstr "Skærmindstillinger"
 
@@ -2144,26 +2242,30 @@ msgid "Include _panel"
 msgstr "Inkludér _panel"
 
 #: ../capplets/display/display-capplet.ui.h:4
-#: ../capplets/display/xrandr-capplet.c:302
+#: ../capplets/display/xrandr-capplet.c:315
+#: ../capplets/display/display-capplet-moblin.ui.h:4
 msgid "Left"
 msgstr "Venstre"
 
 #: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:440
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Monitor"
 msgstr "Monitor"
 
 #: ../capplets/display/display-capplet.ui.h:6
-#: ../capplets/display/xrandr-capplet.c:301
-#: ../capplets/display/xrandr-capplet.c:340
+#: ../capplets/display/xrandr-capplet.c:314
+#: ../capplets/display/xrandr-capplet.c:353
+#: ../capplets/display/display-capplet-moblin.ui.h:5
 msgid "Normal"
 msgstr "Normal"
 
 #: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet-moblin.ui.h:6
 msgid "Off"
 msgstr "Slået fra"
 
 #: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet-moblin.ui.h:7
 msgid "On"
 msgstr "Slået til"
 
@@ -2176,27 +2278,33 @@ msgid "R_otation:"
 msgstr "R_otation:"
 
 #: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/display-capplet-moblin.ui.h:8
 msgid "Re_fresh rate:"
 msgstr "Optegnings_frekvens:"
 
 #: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:303
+#: ../capplets/display/xrandr-capplet.c:316
+#: ../capplets/display/display-capplet-moblin.ui.h:9
 msgid "Right"
 msgstr "Højre"
 
 #: ../capplets/display/display-capplet.ui.h:13
+#: ../capplets/display/display-capplet-moblin.ui.h:10
 msgid "Upside-down"
 msgstr "På hovedet"
 
 #: ../capplets/display/display-capplet.ui.h:14
+#: ../capplets/display/display-capplet-moblin.ui.h:11
 msgid "_Detect Monitors"
 msgstr "_Detektér skærme"
 
 #: ../capplets/display/display-capplet.ui.h:15
+#: ../capplets/display/display-capplet-moblin.ui.h:12
 msgid "_Mirror screens"
 msgstr "_Klonede skærme"
 
 #: ../capplets/display/display-capplet.ui.h:16
+#: ../capplets/display/display-capplet-moblin.ui.h:13
 msgid "_Resolution:"
 msgstr "_Opløsning:"
 
@@ -2212,21 +2320,21 @@ msgstr "Skift skærmopløsning"
 msgid "Display"
 msgstr "Skærm"
 
-#: ../capplets/display/xrandr-capplet.c:304
+#: ../capplets/display/xrandr-capplet.c:317
 msgid "Upside Down"
 msgstr "På hovedet"
 
-#: ../capplets/display/xrandr-capplet.c:346
+#: ../capplets/display/xrandr-capplet.c:360
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:432
+#: ../capplets/display/xrandr-capplet.c:446
 #, c-format
 msgid "Monitor: %s"
 msgstr "Skærm: %s"
 
-#: ../capplets/display/xrandr-capplet.c:511
+#: ../capplets/display/xrandr-capplet.c:525
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2236,23 +2344,23 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1458
+#: ../capplets/display/xrandr-capplet.c:1476
 msgid "Mirror Screens"
 msgstr "Klonede skærme"
 
-#: ../capplets/display/xrandr-capplet.c:1878
+#: ../capplets/display/xrandr-capplet.c:1896
 msgid "Could not save the monitor configuration"
 msgstr "Kunne ikke gemme monitorkonfigurationen"
 
-#: ../capplets/display/xrandr-capplet.c:1889
+#: ../capplets/display/xrandr-capplet.c:1907
 msgid "Could not get session bus while applying display configuration"
 msgstr "Kunne ikke hente sessionsbus under anvendelse af displaykonfiguration"
 
-#: ../capplets/display/xrandr-capplet.c:1931
+#: ../capplets/display/xrandr-capplet.c:1949
 msgid "Could not detect displays"
 msgstr "Kunne ikke detektere displays"
 
-#: ../capplets/display/xrandr-capplet.c:2146
+#: ../capplets/display/xrandr-capplet.c:2164
 msgid "Could not get screen information"
 msgstr "Kunne ikke finde skærminformation"
 
@@ -2380,52 +2488,59 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "Tildel genvejstaster til kommandoer"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "Anvend blot indstillingerne og afslut (for kompatibilitet kun; nu håndteret "
 "af dæmon)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "Start siden med tastepauseindstillingerne"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "Start siden med tilgængeligedsindstillinger synlige"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Gnome tastaturindstillinger"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:6
 msgid "Beep when _accessibility features are turned on or off"
 msgstr "Bip når _tilgængelighedsfaciliteter aktiveres/deaktiveres"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:7
 msgid "Beep when a _modifier key is pressed"
 msgstr "Bip når der trykkes på en _modifikationstast"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:8
 msgid "Beep when a _toggle key is pressed"
 msgstr "Bip når der trykkes på en _skiftetast"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:9
 msgid "Beep when a key is pr_essed"
 msgstr "Bip når der t_rykkes på en tast"
 
 # Gad vide hvad dette betyder.  Når man giver slip på tasten?
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:10
 msgid "Beep when a key is reje_cted"
 msgstr "Bip når en tast af_vises"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:11
 msgid "Beep when key is _accepted"
 msgstr "Bip når tast _accepteres"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:12
 msgid "Beep when key is _rejected"
 msgstr "Bip når tast af_vises"
 
@@ -2435,24 +2550,30 @@ msgid "Bounce Keys"
 msgstr "Rystetaster"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:13
 msgid "Flash _window titlebar"
 msgstr "Blink titellinje i _vindue"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:14
 msgid "Flash entire _screen"
 msgstr "Blink med hele _skærmen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:9
 msgid "General"
 msgstr "Generelt"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:15
 msgid "Keyboard Accessibility Audio Feedback"
 msgstr "Lydtilbagemelding for tastaturtilgængelighed"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:16
 msgid "Show _visual feedback for the alert sound"
 msgstr "Vis _visuel tilbagemelding for påmindelseslyden"
 
@@ -2475,6 +2596,7 @@ msgid "A_cceleration:"
 msgstr "A_cceleration:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:1
 msgid "All_ow postponing of breaks"
 msgstr "Tillad _udsættelse af pauser"
 
@@ -2483,19 +2605,23 @@ msgid "Audio _Feedback..."
 msgstr "Lyd_tilbagemelding..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:2
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Om pauser må udskydes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:3
 msgid "Cursor Blinking"
 msgstr "Markørblink"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:4
 msgid "Cursor _blinks in text fields"
 msgstr "Markør _blinker i tekstfelter"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:5
 msgid "Cursor blinks speed"
 msgstr "Markør blinke-hastighed"
 
@@ -2509,39 +2635,48 @@ msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "_Deaktivér blivende taster hvis to taster holdes nede samtidig"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:6
 msgid "Duration of the break when typing is disallowed"
 msgstr "Varighed af pausen når tastetryk ikke er tilladt"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:7
 msgid "Duration of work before forcing a break"
 msgstr "Varighed af arbejdstiden før en pause gennemtvinges"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:8
 msgid "Fast"
 msgstr "Hurtig"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:10
 msgid "Key presses _repeat when key is held down"
 msgstr "_Gentag tastetryk når en tast holdes ned"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:11
 msgid "Keyboard Preferences"
 msgstr "Indstillinger for tastatur"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:12
 msgid "Keyboard _model:"
 msgstr "Tastatur_model:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:13
 msgid "Layout _Options..."
 msgstr "Layout_valg..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:14
 msgid "Layouts"
 msgstr "Layout"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:15
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2551,6 +2686,7 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:16
 msgid "Long"
 msgstr "Lang"
 
@@ -2559,36 +2695,44 @@ msgid "Mouse Keys"
 msgstr "Musetaster"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:17
 msgid "Repeat Keys"
 msgstr "Gentagende taster"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:18
 msgid "Repeat keys speed"
 msgstr "Taste-gentagelseshastighed"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:19
 msgid "Reset to De_faults"
 msgstr "Nulstil til _standardværdier"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:20
 msgid "S_peed:"
 msgstr "_Fart:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:21
 msgid "Separate _layout for each window"
 msgstr "Separat _layout for hvert vindue"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:22
 msgid "Short"
 msgstr "Kort"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:23
 msgid "Slow"
 msgstr "Langsom"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:24
 msgid "Typing Break"
 msgstr "Tastepause"
 
@@ -2598,11 +2742,13 @@ msgstr ""
 "_Tilgængelighedsfunktionalitet kan aktiveres/deaktiveres med tastaturgenveje"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:26
 msgid "_Break interval lasts:"
 msgstr "_Pauseinterval tager:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:27
 msgid "_Delay:"
 msgstr "_Ventetid:"
 
@@ -2611,6 +2757,7 @@ msgid "_Ignore fast duplicate keypresses"
 msgstr "_Ignorér hurtige dobbelte tastetryk"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:28
 msgid "_Lock screen to enforce typing break"
 msgstr "_Lås skærm for at gennemtvinge tastepauser"
 
@@ -2623,6 +2770,7 @@ msgid "_Pointer can be controlled using the keypad"
 msgstr "_Markøren kan styres med numerisk tastatur"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:29
 msgid "_Selected layouts:"
 msgstr "_Valgte layout:"
 
@@ -2631,18 +2779,22 @@ msgid "_Simulate simultaneous keypresses"
 msgstr "_Simulér samtidige tastetryk"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:30
 msgid "_Speed:"
 msgstr "_Fart:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:31
 msgid "_Type to test settings:"
 msgstr "_Tast for at teste indstillinger:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:32
 msgid "_Work interval lasts:"
 msgstr "_Arbejdsinterval tager:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:33
 msgid "minutes"
 msgstr "minutter"
 
@@ -2751,11 +2903,11 @@ msgid "gesture|Disabled"
 msgstr "Deaktiveret"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:539
+#: ../capplets/mouse/gnome-mouse-properties.c:559
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Angiv navnet på siden der skal vises (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:544
+#: ../capplets/mouse/gnome-mouse-properties.c:564
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME-museindstillinger"
 
@@ -2788,10 +2940,12 @@ msgid "Dwell Click"
 msgstr "Hvileklik"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:13
 msgid "Enable _horizontal scrolling"
 msgstr "Aktivér _vandret rulning"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:14
 msgid "Enable mouse _clicks with touchpad"
 msgstr "Aktivér muse_klik med pegeplade"
 
@@ -2812,6 +2966,7 @@ msgid "Mouse Orientation"
 msgstr "Museorientering"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:16
 msgid "Mouse Preferences"
 msgstr "Indstillinger for mus"
 
@@ -2849,10 +3004,12 @@ msgid ""
 msgstr "Dobbeltklik på glødepæren for at afprøve dobbeltklik-indstillingerne."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:17
 msgid "Touchpad"
 msgstr "Pegeplade"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:18
 msgid "Two-_finger scrolling"
 msgstr "To_fingerrulning"
 
@@ -2861,18 +3018,22 @@ msgid "You can also use the Dwell Click panel applet to choose the click type."
 msgstr "Du kan også bruge hvileklik-panelprogrammet til at vælge kliktype."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:19
 msgid "_Acceleration:"
 msgstr "_Acceleration:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:20
 msgid "_Disable touchpad while typing"
 msgstr "_Deaktivér pegeplade når der skrives"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:21
 msgid "_Disabled"
 msgstr "_Deaktiveret"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:40
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:22
 msgid "_Edge scrolling"
 msgstr "_Kantrulning"
 
@@ -2881,6 +3042,7 @@ msgid "_Initiate click when stopping pointer movement"
 msgstr "_Foretag klik når markørbevægelsen stopper"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:42
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:23
 msgid "_Left-handed"
 msgstr "_Venstrehåndet"
 
@@ -2889,10 +3051,12 @@ msgid "_Motion threshold:"
 msgstr "_Bevægelsestærskel:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:44
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:24
 msgid "_Right-handed"
 msgstr "_Højrehåndet"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:45
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:25
 msgid "_Sensitivity:"
 msgstr "_Følsomhed:"
 
@@ -3161,10 +3325,9 @@ msgstr "Grupper"
 msgid "Common Tasks"
 msgstr "Almindelige opgaver"
 
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Kontrolcenter"
+#: ../shell/control-center.c:185
+msgid "Settings"
+msgstr "Indstillinger"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3240,6 +3403,10 @@ msgid ""
 msgstr ""
 "hvis sat til \"true\", vil kontrolcentret afslutte når en \"Almindelig opgave"
 "\" aktiveres."
+
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Kontrolcenter"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
@@ -3653,6 +3820,142 @@ msgstr "<b>Åbn %s</b>"
 msgid "Remove from System Items"
 msgstr "Fjern fra systemelementer"
 
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:2
+msgid "<b>General</b>"
+msgstr "<b>Generelt</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Mouse Orientation</b>"
+msgstr "Museorientering"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Pointer Speed</b>"
+msgstr "Markørfart"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Scrolling</b>"
+msgstr "Rulning"
+
+#. fast acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:6
+msgid "<small><i>Fast</i></small>"
+msgstr "<small><i>Hurtig</i></small>"
+
+#. high sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:8
+msgid "<small><i>High</i></small>"
+msgstr "<small><i>Høj</i></small>"
+
+#. low sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:10
+msgid "<small><i>Low</i></small>"
+msgstr "<small><i>Lav</i></small>"
+
+#. slow acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:12
+msgid "<small><i>Slow</i></small>"
+msgstr "<small><i>Langsom</i></small>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:1
+msgid "<b>Bounce Keys</b>"
+msgstr "<b>Rystetaster</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:3
+msgid "<b>Slow Keys</b>"
+msgstr "<b>Langsomme taster</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:4
+msgid "<b>Sticky Keys</b>"
+msgstr "<b>Blivende taster</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Visual cues for sounds</b>"
+msgstr "Visuelle signaler til lyde"
+
+# hinting er svært at oversætte. Font hinting, also known as grid-fitting, is the process of adjusting an outline font to make it line up with the grid to which it is being rasterized. At small sizes or without antialiasing, hinting is critical for producing a legible image.
+#. font hinting
+#: ../capplets/appearance/data/appearance-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "Skrifttype-hinting"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Rendering</b>"
+msgstr "<b>Generelt</b>"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Smoothing</b>"
+msgstr "Udjævning"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Subpixel Order</b>"
+msgstr "Delpunktsorden"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Drag the monitors to set their place</b>"
+msgstr "Træk skærmene for at indstille deres placering"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Monitor</b>"
+msgstr "<b>Arbejde</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:1
+msgid "<b>Email</b>"
+msgstr "<b>E-post</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Home address</b>"
+msgstr "<b>Hjem</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Instant Messaging</b>"
+msgstr "Kvikbeskeder"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:4
+msgid "<b>Job</b>"
+msgstr "<b>Arbejde</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Telephone</b>"
+msgstr "Telefon"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:6
+msgid "<b>Web</b>"
+msgstr "<b>Web</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:7
+#, fuzzy
+msgid "<b>Work address</b>"
+msgstr "<b>Arbejde</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:23
+#, fuzzy
+msgid "Job _title:"
+msgstr "_Titel:"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:27
+#, fuzzy
+msgid "Personal"
+msgstr "Personlig information"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:40
+#, fuzzy
+msgid "_Website:"
+msgstr "_Titel:"
+
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr "Ukendt logind-id, bruger-databasen kan være ødelagt"
 
@@ -3687,21 +3990,6 @@ msgstr "Fjern fra systemelementer"
 #~ "Højre langefinger\n"
 #~ "Højre ringfinger\n"
 #~ "Højre lillefinger"
-
-#~ msgid "<b>Email</b>"
-#~ msgstr "<b>E-post</b>"
-
-#~ msgid "<b>Home</b>"
-#~ msgstr "<b>Hjem</b>"
-
-#~ msgid "<b>Job</b>"
-#~ msgstr "<b>Arbejde</b>"
-
-#~ msgid "<b>Web</b>"
-#~ msgstr "<b>Web</b>"
-
-#~ msgid "<b>Work</b>"
-#~ msgstr "<b>Arbejde</b>"
 
 #~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
 #~ msgstr "<span size=\"larger\" weight=\"bold\">Skift din adgangskode</span>"
@@ -3808,41 +4096,17 @@ msgstr "Fjern fra systemelementer"
 #~ msgid "_Command:"
 #~ msgstr "_Kommando:"
 
-#~ msgid "<b>Bounce Keys</b>"
-#~ msgstr "<b>Rystetaster</b>"
-
-#~ msgid "<b>General</b>"
-#~ msgstr "<b>Generelt</b>"
-
-#~ msgid "<b>Slow Keys</b>"
-#~ msgstr "<b>Langsomme taster</b>"
-
-#~ msgid "<b>Sticky Keys</b>"
-#~ msgstr "<b>Blivende taster</b>"
-
-#~ msgid "<small><i>Fast</i></small>"
-#~ msgstr "<small><i>Hurtig</i></small>"
-
 #~ msgid "<small><i>Long</i></small>"
 #~ msgstr "<small><i>Lang</i></small>"
 
 #~ msgid "<small><i>Short</i></small>"
 #~ msgstr "<small><i>Kort</i></small>"
 
-#~ msgid "<small><i>Slow</i></small>"
-#~ msgstr "<small><i>Langsom</i></small>"
-
 #~ msgid "<b>Locate Pointer</b>"
 #~ msgstr "<b>Lokalisér markør</b>"
 
-#~ msgid "<small><i>High</i></small>"
-#~ msgstr "<small><i>Høj</i></small>"
-
 #~ msgid "<small><i>Large</i></small>"
 #~ msgstr "<small><i>Stor</i></small>"
-
-#~ msgid "<small><i>Low</i></small>"
-#~ msgstr "<small><i>Lav</i></small>"
 
 #~ msgid "<small><i>Small</i></small>"
 #~ msgstr "<small><i>Lille</i></small>"
@@ -4108,9 +4372,6 @@ msgstr "Fjern fra systemelementer"
 
 #~ msgid "Inverted"
 #~ msgstr "Omvendt"
-
-#~ msgid "Default Settings"
-#~ msgstr "Forvalgte indstillinger"
 
 #~ msgid "Screen %d Settings\n"
 #~ msgstr "Indstillinger for skærm %d\n"
@@ -5321,3 +5582,6 @@ msgstr "Fjern fra systemelementer"
 
 #~ msgid "_Select:"
 #~ msgstr "_Vælg:"
+
+#~ msgid "Default Settings"
+#~ msgstr "Forvalgte indstillinger"

@@ -9,11 +9,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"control-center&component=general\n"
-"POT-Creation-Date: 2009-10-02 07:04+0000\n"
-"PO-Revision-Date: 2009-10-11 15:07+0300\n"
-"Last-Translator: Lucian Adrian Grijincu <lucian.grijincu@gmail.com>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2009-11-24 08:25+0000\n"
+"PO-Revision-Date: 2009-10-03 20:13+0200\n"
+"Last-Translator: Cosmin Bordeianu <elloxar@gmail.com>\n"
 "Language-Team: Gnome Romanian Team <gnomero-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -84,7 +83,7 @@ msgstr "Butoanele afișate în dialogul de alertă"
 
 #: ../capplets/about-me/eel-alert-dialog.c:198
 msgid "Show more _details"
-msgstr "Arată mai multe _detalii"
+msgstr "Arată mai multe de_talii"
 
 #: ../capplets/about-me/fingerprint-strings.h:28
 #, c-format
@@ -189,7 +188,7 @@ msgstr "Treceți degetul mic de la mâna dreaptă peste %s"
 #: ../capplets/about-me/fingerprint-strings.h:72
 #: ../capplets/about-me/fingerprint-strings.h:98
 msgid "Place your finger on the reader again"
-msgstr "Puneți din nou degetul pe cititorul de amprente"
+msgstr "Puneți din nou degetul  pe cititorul de amprente"
 
 #: ../capplets/about-me/fingerprint-strings.h:74
 #: ../capplets/about-me/fingerprint-strings.h:100
@@ -199,7 +198,7 @@ msgstr "Treceți din nou degetul"
 #: ../capplets/about-me/fingerprint-strings.h:77
 #: ../capplets/about-me/fingerprint-strings.h:103
 msgid "Swipe was too short, try again"
-msgstr "Trecerea a fost prea scurtă, mai încercați o dată"
+msgstr "Trecerea a fost prea scurtă, încercați încă o dată"
 
 #: ../capplets/about-me/fingerprint-strings.h:79
 #: ../capplets/about-me/fingerprint-strings.h:105
@@ -209,48 +208,50 @@ msgstr "Degetul nu a fost centrat, încercați să treceți din nou degetul"
 #: ../capplets/about-me/fingerprint-strings.h:81
 #: ../capplets/about-me/fingerprint-strings.h:107
 msgid "Remove your finger, and try swiping your finger again"
-msgstr "Retrageți degetul și încercați să îl mai treceți o dată"
+msgstr "Retrăgeți degetul și încercați să îl treceți iar"
 
-#: ../capplets/about-me/gnome-about-me.c:712
+#: ../capplets/about-me/gnome-about-me.c:730
 msgid "Select Image"
 msgstr "Selectează imaginea"
 
-#: ../capplets/about-me/gnome-about-me.c:714
+#: ../capplets/about-me/gnome-about-me.c:732
 msgid "No Image"
 msgstr "Fără imagine"
 
-#: ../capplets/about-me/gnome-about-me.c:742
-#: ../capplets/appearance/appearance-desktop.c:654
+#: ../capplets/about-me/gnome-about-me.c:760
+#: ../capplets/appearance/appearance-desktop.c:691
 msgid "Images"
 msgstr "Imagini"
 
-#: ../capplets/about-me/gnome-about-me.c:746
+#: ../capplets/about-me/gnome-about-me.c:764
 #: ../capplets/appearance/theme-installer.c:763
 msgid "All Files"
 msgstr "Toate fișierele"
 
-#: ../capplets/about-me/gnome-about-me.c:886
+#: ../capplets/about-me/gnome-about-me.c:901
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
 msgstr ""
-"S-a produs o eroare la preluarea informațiilor de agendă\n"
+"S-a produs o eroare la preluarea informațiilor\n"
 "Serverul de date Evolution nu poate gestiona acest protocol"
 
-#: ../capplets/about-me/gnome-about-me.c:907
+#: ../capplets/about-me/gnome-about-me.c:922
 msgid "Unable to open address book"
 msgstr "Nu se poate deschide agenda"
 
-#: ../capplets/about-me/gnome-about-me.c:930
+#: ../capplets/about-me/gnome-about-me.c:945
 #, c-format
 msgid "About %s"
 msgstr "Despre %s"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:8
 msgid "A_IM/iChat:"
 msgstr "A_IM/iChat:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:9
 msgid "A_ddress:"
 msgstr "A_dresă:"
 
@@ -260,6 +261,7 @@ msgstr "A_sistent:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:10
 msgid "About Me"
 msgstr "Despre mine"
 
@@ -268,38 +270,47 @@ msgid "Address"
 msgstr "Adresă"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:11
 msgid "C_ity:"
 msgstr "Or_aș:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:12
 msgid "C_ompany:"
 msgstr "C_ompanie:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:13
 msgid "Cale_ndar:"
 msgstr "Cale_ndar:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:14
 msgid "Change Passwo_rd..."
 msgstr "Schimbă pa_rola..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:15
 msgid "Ci_ty:"
 msgstr "_Oraș:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:16
 msgid "Co_untry:"
 msgstr "Ța_ră:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:17
 msgid "Contact"
 msgstr "Contact"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:18
 msgid "Cou_ntry:"
 msgstr "Ța_ră:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:19
 msgid "Disable _Fingerprint Login..."
 msgstr "Dezactivează autenti_ficarea pe bază de amprentă..."
 
@@ -308,14 +319,17 @@ msgid "Email"
 msgstr "Email"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:16
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:20
 msgid "Enable _Fingerprint Login..."
 msgstr "Activează autenti_ficarea pe bază de amprentă..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:17
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:21
 msgid "Full Name"
 msgstr "Nume complet"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:18
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:22
 msgid "Hom_e:"
 msgstr "_Acasă:"
 
@@ -337,14 +351,17 @@ msgid "Job"
 msgstr "Sarcină"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:24
 msgid "M_SN:"
-msgstr "MS_N:"
+msgstr "M_SN:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:25
 msgid "P.O. _box:"
-msgstr "Căs_uță poștală:"
+msgstr "Căsuță _poștală:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:26
 msgid "P._O. box:"
 msgstr "Căsuță p_oștală:"
 
@@ -353,10 +370,12 @@ msgid "Personal Info"
 msgstr "Informații personale"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:28
 msgid "Select your photo"
 msgstr "Alegeți fotografia dumneavoastră"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:29
 msgid "State/Pro_vince:"
 msgstr "Stat/Pro_vincie:"
 
@@ -365,6 +384,7 @@ msgid "Telephone"
 msgstr "Telefon"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:30
 msgid "User name:"
 msgstr "Nume utilizator:"
 
@@ -374,25 +394,30 @@ msgstr "Internet"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
 msgid "Web _log:"
-msgstr "B_log:"
+msgstr "Jurna_l Web :"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:31
 msgid "Wor_k:"
-msgstr "_Serviciu:"
+msgstr "_Servici:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:32
 msgid "Work"
 msgstr "Serviciu"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:33
 msgid "Work _fax:"
-msgstr "_Fax serviciu:"
+msgstr "_Fax servici:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:34
 msgid "Zip/_Postal code:"
 msgstr "Cod _poștal:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:35
 msgid "_Address:"
 msgstr "_Adresă:"
 
@@ -406,13 +431,15 @@ msgstr "_Groupwise:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
 msgid "_Home page:"
-msgstr "Pa_gină personală:"
+msgstr "Pagină _personală:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:36
 msgid "_Home:"
 msgstr "_Acasă:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:37
 msgid "_Jabber:"
 msgstr "_Jabber:"
 
@@ -421,6 +448,7 @@ msgid "_Manager:"
 msgstr "_Manager:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:38
 msgid "_Mobile:"
 msgstr "_Mobil:"
 
@@ -429,6 +457,7 @@ msgid "_Profession:"
 msgstr "_Profesie:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:39
 msgid "_State/Province:"
 msgstr "_Stat/Provincie:"
 
@@ -437,16 +466,19 @@ msgid "_Title:"
 msgstr "_Titlu:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:41
 msgid "_Work:"
-msgstr "S_ervici:"
+msgstr "_Servici:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:42
 msgid "_Yahoo:"
 msgstr "_Yahoo:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:43
 msgid "_Zip/Postal code:"
-msgstr "Cod poș_tal:"
+msgstr "Co_d poștal:"
 
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:2
 msgid "Set your personal information"
@@ -597,7 +629,7 @@ msgstr ""
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
-msgstr "Procesul copil și-a încheiat execuția neașteptat"
+msgstr "Procesul copil a fost terminat fără motiv"
 
 #: ../capplets/about-me/gnome-about-me-password.c:296
 #, c-format
@@ -625,8 +657,8 @@ msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
 msgstr ""
-"Vi s-a modificat parola de la autentificarea inițială! E nevoie să vă "
-"reautentificați."
+"Parola dumneavoastră a fost modificată de la autentificarea inițială! Vă "
+"rugăm să vă reautentificați."
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
@@ -734,7 +766,7 @@ msgstr "_Autentifică"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:9
 msgid "_New password:"
-msgstr "Parola _nouă:"
+msgstr "Parolă _nouă:"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:10
 msgid "_Retype new password:"
@@ -805,11 +837,11 @@ msgstr "Aplicații _preferate"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Alegeți ce opțiuni de accesibilitate să fie activate la autentificare"
 
-#: ../capplets/appearance/appearance-desktop.c:623
+#: ../capplets/appearance/appearance-desktop.c:660
 msgid "Add Wallpaper"
 msgstr "Adăugă imagine de fundal"
 
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:695
 msgid "All files"
 msgstr "Toate fișierele"
 
@@ -865,32 +897,32 @@ msgstr "Folosește font anterior"
 msgid "Use selected font"
 msgstr "Folosește font ales"
 
-#: ../capplets/appearance/appearance-main.c:55
+#: ../capplets/appearance/appearance-main.c:63
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Nu s-a putut încărca fișierul de interfață al utilizatorului: %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:144
 msgid "Specify the filename of a theme to install"
 msgstr "Alegeți numele de fișier al temei ce doriți să fie instalată"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:145
 msgid "filename"
 msgstr "nume fișier"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:152
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr ""
 "Specifică numele pagini pentru afișare (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:153
 #: ../capplets/default-applications/gnome-da-capplet.c:907
-#: ../capplets/mouse/gnome-mouse-properties.c:540
+#: ../capplets/mouse/gnome-mouse-properties.c:560
 msgid "page"
 msgstr "pagină"
 
-#: ../capplets/appearance/appearance-main.c:150
+#: ../capplets/appearance/appearance-main.c:160
 msgid "[WALLPAPER...]"
 msgstr "[FUNDAL...]"
 
@@ -903,7 +935,7 @@ msgstr "Cursor implicit"
 #: ../capplets/appearance/appearance-style.c:235
 #: ../capplets/appearance/appearance-themes.c:685
 msgid "Install"
-msgstr "Instalează"
+msgstr "Instalare"
 
 #: ../capplets/appearance/appearance-style.c:255
 #: ../capplets/common/gnome-theme-info.c:1646
@@ -932,40 +964,40 @@ msgid ""
 "The current theme suggests a background and a font. Also, the last applied "
 "font suggestion can be reverted."
 msgstr ""
-"Tema curentă propune o imagine de fundal și un font. De asemenea, se poate "
-"anula ultima propunere de font aplicată."
+"Tema curentă sugerează un fundal și un font. Deasemenea, puteți reveni la "
+"ultima sugestie aplicată fontului."
 
 #: ../capplets/appearance/appearance-themes.c:713
 msgid ""
 "The current theme suggests a background. Also, the last applied font "
 "suggestion can be reverted."
 msgstr ""
-"Tema curentă propune o imagine de fundal. De asemenea, se poate anula ultima "
-"propunere de font aplicată."
+"Tema curentă sugerează un fundal. De asemenea, se poate reveni la ultima "
+"sugestie aplicată fontului."
 
 #: ../capplets/appearance/appearance-themes.c:715
 msgid "The current theme suggests a background and a font."
-msgstr "Tema curentă propune o imagine de fundal și un font."
+msgstr "Tema curentă face o sugestie pentru un fundal și un font."
 
 #: ../capplets/appearance/appearance-themes.c:717
 msgid ""
 "The current theme suggests a font. Also, the last applied font suggestion "
 "can be reverted."
 msgstr ""
-"Tema curentă propune un font. De asemenea, se poate anula ultima propunere "
-"de font aplicată."
+"Tema curentă sugerează un font. De asemenea, se poate reveni la ultima "
+"sugestie aplicată fontului."
 
 #: ../capplets/appearance/appearance-themes.c:719
 msgid "The current theme suggests a background."
-msgstr "Tema curentă propune o imagine de fundal."
+msgstr "Tema curentă face o sugestie pentru un fundal."
 
 #: ../capplets/appearance/appearance-themes.c:721
 msgid "The last applied font suggestion can be reverted."
-msgstr "Se poate anula ultima propunere de font aplicată."
+msgstr "Se poate reveni la ultima sugestie aplicată fontului."
 
 #: ../capplets/appearance/appearance-themes.c:723
 msgid "The current theme suggests a font."
-msgstr "Tema curentă propune un font."
+msgstr "Tema curente face o sugestie pentru un font."
 
 #: ../capplets/appearance/appearance-themes.c:1045
 #: ../capplets/default-applications/gnome-da-capplet.c:646
@@ -973,18 +1005,22 @@ msgid "Custom"
 msgstr "Personalizat"
 
 #: ../capplets/appearance/data/appearance.ui.h:1
+#: ../capplets/appearance/data/appearance-moblin.ui.h:6
 msgid "Appearance Preferences"
 msgstr "Preferințe aspect"
 
 #: ../capplets/appearance/data/appearance.ui.h:2
+#: ../capplets/appearance/data/appearance-moblin.ui.h:7
 msgid "Background"
 msgstr "Fundal"
 
 #: ../capplets/appearance/data/appearance.ui.h:3
+#: ../capplets/appearance/data/appearance-moblin.ui.h:8
 msgid "Best _shapes"
-msgstr "Cele mai bune for_me"
+msgstr "Cele mai bun_e forme"
 
 #: ../capplets/appearance/data/appearance.ui.h:4
+#: ../capplets/appearance/data/appearance-moblin.ui.h:9
 msgid "Best co_ntrast"
 msgstr "Cel mai bun co_ntrast"
 
@@ -997,50 +1033,61 @@ msgid "C_ustomize..."
 msgstr "_Personalizează..."
 
 #: ../capplets/appearance/data/appearance.ui.h:7
+#: ../capplets/appearance/data/appearance-moblin.ui.h:10
 msgid "Centered"
 msgstr "Centrată"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
+#: ../capplets/appearance/data/appearance-moblin.ui.h:11
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr "Modificarea temei cursorului se va activa la următoarea autentificare."
 
 #: ../capplets/appearance/data/appearance.ui.h:9
+#: ../capplets/appearance/data/appearance-moblin.ui.h:12
 msgid "Colors"
 msgstr "Culori"
 
 #: ../capplets/appearance/data/appearance.ui.h:10
+#: ../capplets/appearance/data/appearance-moblin.ui.h:13
 msgid "Controls"
 msgstr "Controale"
 
 #: ../capplets/appearance/data/appearance.ui.h:11
+#: ../capplets/appearance/data/appearance-moblin.ui.h:14
 msgid "Customize Theme"
 msgstr "Personaliare temă"
 
 #: ../capplets/appearance/data/appearance.ui.h:12
+#: ../capplets/appearance/data/appearance-moblin.ui.h:15
 msgid "D_etails..."
 msgstr "D_etalii..."
 
 #: ../capplets/appearance/data/appearance.ui.h:13
+#: ../capplets/appearance/data/appearance-moblin.ui.h:16
 msgid "Des_ktop font:"
-msgstr "Font des_ktop:"
+msgstr "Font _desktop:"
 
 #: ../capplets/appearance/data/appearance.ui.h:14
 msgid "Edit"
 msgstr "Editare"
 
 #: ../capplets/appearance/data/appearance.ui.h:15
+#: ../capplets/appearance/data/appearance-moblin.ui.h:17
 msgid "Fill screen"
 msgstr "Umple ecranul"
 
 #: ../capplets/appearance/data/appearance.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:18
 msgid "Font Rendering Details"
 msgstr "Detalii afișare fonturi"
 
 #: ../capplets/appearance/data/appearance.ui.h:17
+#: ../capplets/appearance/data/appearance-moblin.ui.h:19
 msgid "Fonts"
 msgstr "Fonturi"
 
 #: ../capplets/appearance/data/appearance.ui.h:18
+#: ../capplets/appearance/data/appearance-moblin.ui.h:20
 msgid "Get more backgrounds online"
 msgstr "Descarcă imagini de fundal de pe internet"
 
@@ -1049,6 +1096,7 @@ msgid "Get more themes online"
 msgstr "Descarcă teme de pe internet"
 
 #: ../capplets/appearance/data/appearance.ui.h:20
+#: ../capplets/appearance/data/appearance-moblin.ui.h:21
 msgid "Gra_yscale"
 msgstr "_Scală de gri"
 
@@ -1058,14 +1106,17 @@ msgid "Hinting"
 msgstr "Hinting"
 
 #: ../capplets/appearance/data/appearance.ui.h:23
+#: ../capplets/appearance/data/appearance-moblin.ui.h:22
 msgid "Horizontal gradient"
 msgstr "Degrade orizontal"
 
 #: ../capplets/appearance/data/appearance.ui.h:24
+#: ../capplets/appearance/data/appearance-moblin.ui.h:23
 msgid "Icons"
 msgstr "Iconițe"
 
 #: ../capplets/appearance/data/appearance.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:24
 msgid "Icons only"
 msgstr "Doar iconițe"
 
@@ -1075,6 +1126,7 @@ msgstr "Interfață"
 
 #: ../capplets/appearance/data/appearance.ui.h:27
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/appearance/data/appearance-moblin.ui.h:25
 msgid "Large"
 msgstr "Mare"
 
@@ -1083,14 +1135,16 @@ msgid "Menus and Toolbars"
 msgstr "Meniuri și bare de unelte"
 
 #: ../capplets/appearance/data/appearance.ui.h:29
+#: ../capplets/appearance/data/appearance-moblin.ui.h:26
 msgid "N_one"
-msgstr "Del_oc"
+msgstr "N_iciuna"
 
 #: ../capplets/appearance/data/appearance.ui.h:30
 msgid "Open a dialog to specify the color"
 msgstr "Deschide un dialog pentru a specifica culoarea"
 
 #: ../capplets/appearance/data/appearance.ui.h:31
+#: ../capplets/appearance/data/appearance-moblin.ui.h:27
 msgid "Pointer"
 msgstr "Indicator"
 
@@ -1099,6 +1153,7 @@ msgid "Preview"
 msgstr "Previzualizare"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
+#: ../capplets/appearance/data/appearance-moblin.ui.h:28
 msgid "R_esolution:"
 msgstr "Re_zoluție:"
 
@@ -1107,6 +1162,7 @@ msgid "Rendering"
 msgstr "Randare"
 
 #: ../capplets/appearance/data/appearance.ui.h:35
+#: ../capplets/appearance/data/appearance-moblin.ui.h:29
 msgid "Save Theme As..."
 msgstr "Salvează tema ca..."
 
@@ -1115,10 +1171,12 @@ msgid "Save _As..."
 msgstr "Salvează c_a..."
 
 #: ../capplets/appearance/data/appearance.ui.h:37
+#: ../capplets/appearance/data/appearance-moblin.ui.h:30
 msgid "Save _background image"
 msgstr "Salvează _imaginea de fundal"
 
 #: ../capplets/appearance/data/appearance.ui.h:38
+#: ../capplets/appearance/data/appearance-moblin.ui.h:31
 msgid "Scaled"
 msgstr "Scalată"
 
@@ -1128,6 +1186,7 @@ msgstr "Arată iconițe în _meniuri"
 
 #: ../capplets/appearance/data/appearance.ui.h:40
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/appearance/data/appearance-moblin.ui.h:32
 msgid "Small"
 msgstr "Mică"
 
@@ -1136,14 +1195,17 @@ msgid "Smoothing"
 msgstr "Netezire"
 
 #: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance-moblin.ui.h:33
 msgid "Solid color"
 msgstr "Culoare uniformă"
 
 #: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance-moblin.ui.h:34
 msgid "Sub_pixel (LCDs)"
 msgstr "Subpi_xel (LCD-uri)"
 
 #: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance-moblin.ui.h:35
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Netezire subpi_xel (LCD-uri)"
 
@@ -1152,22 +1214,27 @@ msgid "Subpixel Order"
 msgstr "Ordine subpixeli"
 
 #: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance-moblin.ui.h:36
 msgid "Text"
 msgstr "Text"
 
 #: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance-moblin.ui.h:37
 msgid "Text below items"
 msgstr "Text sub elemente"
 
 #: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance-moblin.ui.h:38
 msgid "Text beside items"
 msgstr "Text lângă elemente"
 
 #: ../capplets/appearance/data/appearance.ui.h:49
+#: ../capplets/appearance/data/appearance-moblin.ui.h:39
 msgid "Text only"
 msgstr "Doar text"
 
 #: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance-moblin.ui.h:40
 msgid "The current controls theme does not support color schemes."
 msgstr "Controalele temei curente nu suportă scheme de culori."
 
@@ -1176,6 +1243,7 @@ msgid "Theme"
 msgstr "Teme"
 
 #: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance-moblin.ui.h:41
 msgid "Tiled"
 msgstr "Mozaic"
 
@@ -1185,40 +1253,50 @@ msgstr "Etichete _butoane bară de unelete:"
 
 #. vertical hinting, pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance-moblin.ui.h:43
 msgid "VB_GR"
 msgstr "VB_GR"
 
 #: ../capplets/appearance/data/appearance.ui.h:56
+#: ../capplets/appearance/data/appearance-moblin.ui.h:44
 msgid "Vertical gradient"
 msgstr "Degrade vertical"
 
 #: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance-moblin.ui.h:45
 msgid "Window Border"
 msgstr "Margine fereastră"
 
 #: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance-moblin.ui.h:46
 msgid "Zoom"
 msgstr "Zoom"
 
 #: ../capplets/appearance/data/appearance.ui.h:59
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:25
+#: ../capplets/appearance/data/appearance-moblin.ui.h:47
 msgid "_Add..."
 msgstr "_Adaugă..."
 
 #: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance-moblin.ui.h:48
 msgid "_Application font:"
 msgstr "Font _aplicații:"
 
 #. pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance-moblin.ui.h:50
 msgid "_BGR"
 msgstr "_BGR"
 
 #: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance-moblin.ui.h:51
 msgid "_Description:"
 msgstr "_Descriere:"
 
 #: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance-moblin.ui.h:52
 msgid "_Document font:"
 msgstr "Font _document:"
 
@@ -1231,14 +1309,17 @@ msgid "_File"
 msgstr "_Fișier"
 
 #: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance-moblin.ui.h:53
 msgid "_Fixed width font:"
 msgstr "Font de dimensiune _fixă:"
 
 #: ../capplets/appearance/data/appearance.ui.h:68
+#: ../capplets/appearance/data/appearance-moblin.ui.h:54
 msgid "_Full"
-msgstr "C_omplet"
+msgstr "C_ompletă"
 
 #: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance-moblin.ui.h:55
 msgid "_Input boxes:"
 msgstr "Casuțe _intrare:"
 
@@ -1247,65 +1328,79 @@ msgid "_Install..."
 msgstr "_Instalare..."
 
 #: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance-moblin.ui.h:56
 msgid "_Medium"
-msgstr "M_ediu"
+msgstr "M_edie"
 
 #: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance-moblin.ui.h:57
 msgid "_Monochrome"
 msgstr "M_onocromă"
 
 #: ../capplets/appearance/data/appearance.ui.h:73
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/appearance/data/appearance-moblin.ui.h:58
 msgid "_Name:"
 msgstr "_Nume:"
 
 #: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance-moblin.ui.h:59
 msgid "_None"
 msgstr "_Niciuna"
 
 #. pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:76
+#: ../capplets/appearance/data/appearance-moblin.ui.h:61
 msgid "_RGB"
 msgstr "_RGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance-moblin.ui.h:62
 msgid "_Reset to Defaults"
 msgstr "Anulează la valo_rile Implicite"
 
 #: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance-moblin.ui.h:63
 msgid "_Selected items:"
 msgstr "Elemente _selectate:"
 
 #: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance-moblin.ui.h:64
 msgid "_Size:"
 msgstr "Dimen_siune:"
 
 #: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance-moblin.ui.h:65
 msgid "_Slight"
-msgstr "_Ușor"
+msgstr "_Ușoară"
 
 #: ../capplets/appearance/data/appearance.ui.h:81
 msgid "_Style:"
 msgstr "_Stil:"
 
 #: ../capplets/appearance/data/appearance.ui.h:82
+#: ../capplets/appearance/data/appearance-moblin.ui.h:66
 msgid "_Tooltips:"
 msgstr "_Indicii:"
 
 #. vertical hinting, pixel order red, green, blue
 #: ../capplets/appearance/data/appearance.ui.h:84
+#: ../capplets/appearance/data/appearance-moblin.ui.h:68
 msgid "_VRGB"
 msgstr "_VRGB"
 
 #: ../capplets/appearance/data/appearance.ui.h:85
+#: ../capplets/appearance/data/appearance-moblin.ui.h:69
 msgid "_Window title font:"
 msgstr "Font tit_lu fereastră:"
 
 #: ../capplets/appearance/data/appearance.ui.h:86
+#: ../capplets/appearance/data/appearance-moblin.ui.h:70
 msgid "_Windows:"
 msgstr "_Ferestre:"
 
 #: ../capplets/appearance/data/appearance.ui.h:87
+#: ../capplets/appearance/data/appearance-moblin.ui.h:71
 msgid "dots per inch"
 msgstr "puncte/țol (dpi)"
 
@@ -1319,7 +1414,7 @@ msgstr "Personalizează aspectul spațiului de lucru"
 
 #: ../capplets/appearance/data/gnome-theme-installer.desktop.in.in.h:1
 msgid "Installs themes packages for various parts of the desktop"
-msgstr "Instalează pachete cu teme pentru diverse părți ale desktopului"
+msgstr "Instalează pachete cu teme pentru diverse parți ale calculatorului"
 
 #: ../capplets/appearance/data/gnome-theme-installer.desktop.in.in.h:2
 msgid "Theme Installer"
@@ -1376,7 +1471,7 @@ msgstr "Tema nu poate fi instalată"
 #: ../capplets/appearance/theme-installer.c:180
 #, c-format
 msgid "The %s utility is not installed."
-msgstr "Utilitarul %s nu este instalat."
+msgstr "Utilitarul %s nu este instalată."
 
 #: ../capplets/appearance/theme-installer.c:236
 msgid "There was a problem while extracting the theme."
@@ -1412,7 +1507,7 @@ msgstr "Tema „%s” a fost instalată."
 
 #: ../capplets/appearance/theme-installer.c:421
 msgid "Would you like to apply it now, or keep your current theme?"
-msgstr "Doriți activarea imediată sau păstrați tema curentă?"
+msgstr "Doriți activarea imediată sau păstrați tema curente?"
 
 #: ../capplets/appearance/theme-installer.c:424
 msgid "Keep Current Theme"
@@ -1429,7 +1524,7 @@ msgstr "Tema GNOME %s a fost instalată corect"
 
 #: ../capplets/appearance/theme-installer.c:533
 msgid "Failed to create temporary directory"
-msgstr "Eșec la crearea directorului temporar"
+msgstr "Eșec la crearea dosar temporar"
 
 #: ../capplets/appearance/theme-installer.c:596
 msgid "New themes have been successfully installed."
@@ -1450,11 +1545,11 @@ msgstr ""
 
 #: ../capplets/appearance/theme-installer.c:745
 msgid "Select Theme"
-msgstr "Alegeți tema"
+msgstr "Alegere temă"
 
 #: ../capplets/appearance/theme-installer.c:756
 msgid "Theme Packages"
-msgstr "Pachete de teme"
+msgstr "Pachete cu teme"
 
 #: ../capplets/appearance/theme-save.c:93
 #, c-format
@@ -1463,7 +1558,7 @@ msgstr "Numele temei trebuie specificat"
 
 #: ../capplets/appearance/theme-save.c:156
 msgid "The theme already exists. Would you like to replace it?"
-msgstr "Această temă există deja. Doriți să o suprascrieți?"
+msgstr "Această temă există deja. Doriți să o înlocuiți?"
 
 #: ../capplets/appearance/theme-save.c:157
 #: ../capplets/common/file-transfer-dialog.c:450
@@ -1472,7 +1567,7 @@ msgstr "_Suprascrie"
 
 #: ../capplets/appearance/theme-util.c:75
 msgid "Would you like to delete this theme?"
-msgstr "Doriți să ștergi această temă?"
+msgstr "Dorești să ștergi această temă?"
 
 #: ../capplets/appearance/theme-util.c:125
 msgid "Theme cannot be deleted"
@@ -1480,7 +1575,7 @@ msgstr "Nu s-a putut șterge tema"
 
 #: ../capplets/appearance/theme-util.c:252
 msgid "Could not install theme engine"
-msgstr "Nu s-a putut instala motorului temei"
+msgstr "Nu s-a reușit instalarea motorului temei"
 
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
@@ -1509,7 +1604,7 @@ msgstr "A intervenit o eroare la afișarea ajutorului: %s"
 #: ../capplets/common/file-transfer-dialog.c:98
 #, c-format
 msgid "Copying file: %u of %u"
-msgstr "Se copiază fișierul: %u din %u"
+msgstr "Se copiază fișier: %u din %u"
 
 #: ../capplets/common/file-transfer-dialog.c:145
 #, c-format
@@ -1567,7 +1662,7 @@ msgstr "Total URI-uri"
 
 #: ../capplets/common/file-transfer-dialog.c:264
 msgid "Total number of URIs"
-msgstr "Număr total de URI-uri"
+msgstr "Număr total de URI"
 
 #: ../capplets/common/file-transfer-dialog.c:444
 #, c-format
@@ -1687,7 +1782,7 @@ msgstr "_Alege"
 
 #: ../capplets/common/gnome-theme-info.c:639
 msgid "Default Pointer - Current"
-msgstr "Cursor implicit - activ"
+msgstr "Cursor implicit - Activ"
 
 #: ../capplets/common/gnome-theme-info.c:643
 msgid "White Pointer"
@@ -1729,7 +1824,7 @@ msgid ""
 "theme '%s' is not installed."
 msgstr ""
 "Această temă nu va arăta așa se dorește deoarece tema „%s” necesară a "
-"administratorului de ferestre nu este instalată."
+"gestionarului de ferestre nu este instalată."
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
@@ -1798,7 +1893,7 @@ msgstr "Toate aparițiile %s vor fi înlocuite cu legătura propriu-zisă"
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
 msgid "C_ommand:"
-msgstr "C_omandă:"
+msgstr "C_ommandă:"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:5
 msgid "Co_mmand:"
@@ -1854,7 +1949,7 @@ msgstr "Pornește la st_art"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:19
 msgid "Run in t_erminal"
-msgstr "Pornește în t_erminal"
+msgstr "Pornește în _terminal"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:20
 msgid "System"
@@ -2093,8 +2188,9 @@ msgid "aterm"
 msgstr "aterm"
 
 #: ../capplets/display/display-capplet.ui.h:1
+#: ../capplets/display/display-capplet-moblin.ui.h:3
 msgid "Display Preferences"
-msgstr "Preferințe monitor"
+msgstr "Preferințe afișare"
 
 #: ../capplets/display/display-capplet.ui.h:2
 msgid "Drag the monitors to set their place"
@@ -2105,26 +2201,30 @@ msgid "Include _panel"
 msgstr "Include _panou"
 
 #: ../capplets/display/display-capplet.ui.h:4
-#: ../capplets/display/xrandr-capplet.c:302
+#: ../capplets/display/xrandr-capplet.c:315
+#: ../capplets/display/display-capplet-moblin.ui.h:4
 msgid "Left"
 msgstr "Stânga"
 
 #: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:440
+#: ../capplets/display/xrandr-capplet.c:454
 msgid "Monitor"
 msgstr "Monitor"
 
 #: ../capplets/display/display-capplet.ui.h:6
-#: ../capplets/display/xrandr-capplet.c:301
-#: ../capplets/display/xrandr-capplet.c:340
+#: ../capplets/display/xrandr-capplet.c:314
+#: ../capplets/display/xrandr-capplet.c:353
+#: ../capplets/display/display-capplet-moblin.ui.h:5
 msgid "Normal"
 msgstr "Normal"
 
 #: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet-moblin.ui.h:6
 msgid "Off"
 msgstr "Oprit"
 
 #: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet-moblin.ui.h:7
 msgid "On"
 msgstr "Pornit"
 
@@ -2137,57 +2237,63 @@ msgid "R_otation:"
 msgstr "R_otire:"
 
 #: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/display-capplet-moblin.ui.h:8
 msgid "Re_fresh rate:"
-msgstr "_Frecvență de reîmprospătare:"
+msgstr "Rată re_fresh:"
 
 #: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:303
+#: ../capplets/display/xrandr-capplet.c:316
+#: ../capplets/display/display-capplet-moblin.ui.h:9
 msgid "Right"
 msgstr "Dreapta"
 
 #: ../capplets/display/display-capplet.ui.h:13
+#: ../capplets/display/display-capplet-moblin.ui.h:10
 msgid "Upside-down"
 msgstr "Inversat"
 
 #: ../capplets/display/display-capplet.ui.h:14
+#: ../capplets/display/display-capplet-moblin.ui.h:11
 msgid "_Detect Monitors"
-msgstr "_Detectează monitoarele"
+msgstr "_Detectare monitoare"
 
 #: ../capplets/display/display-capplet.ui.h:15
+#: ../capplets/display/display-capplet-moblin.ui.h:12
 msgid "_Mirror screens"
-msgstr "Og_lindește ecranele"
+msgstr "_Ecrane identice"
 
 #: ../capplets/display/display-capplet.ui.h:16
+#: ../capplets/display/display-capplet-moblin.ui.h:13
 msgid "_Resolution:"
 msgstr "_Rezoluție:"
 
 #: ../capplets/display/display-capplet.ui.h:17
 msgid "_Show displays in panel"
-msgstr "Afișea_ză în panou o iconiță pentru configurarea monitoarelor"
+msgstr "Arată ecrane în _panou"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:1
 msgid "Change screen resolution"
-msgstr "Schimbă rezoluția ecranului"
+msgstr "Schimbă rezoluție ecran"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:2
 msgid "Display"
 msgstr "Afișare"
 
-#: ../capplets/display/xrandr-capplet.c:304
+#: ../capplets/display/xrandr-capplet.c:317
 msgid "Upside Down"
 msgstr "Răsturnat"
 
-#: ../capplets/display/xrandr-capplet.c:346
+#: ../capplets/display/xrandr-capplet.c:360
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/xrandr-capplet.c:432
+#: ../capplets/display/xrandr-capplet.c:446
 #, c-format
 msgid "Monitor: %s"
 msgstr "Monitor: %s"
 
-#: ../capplets/display/xrandr-capplet.c:511
+#: ../capplets/display/xrandr-capplet.c:525
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
@@ -2197,24 +2303,25 @@ msgstr "%d x %d"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1458
+#: ../capplets/display/xrandr-capplet.c:1476
 msgid "Mirror Screens"
 msgstr "Oglindire ecrane"
 
-#: ../capplets/display/xrandr-capplet.c:1878
+#: ../capplets/display/xrandr-capplet.c:1896
 msgid "Could not save the monitor configuration"
 msgstr "Nu s-a putut salva configurația monitorului"
 
-#: ../capplets/display/xrandr-capplet.c:1889
+#: ../capplets/display/xrandr-capplet.c:1907
 msgid "Could not get session bus while applying display configuration"
-msgstr "Nu s-a putut obține magistrala sesiunii în timp ce se aplica "
-"configurația monitoarelor"
+msgstr ""
+"Nu s-a putut obține magistrala sesiunii în timp ce se aplica configurația "
+"ecranului"
 
-#: ../capplets/display/xrandr-capplet.c:1931
+#: ../capplets/display/xrandr-capplet.c:1949
 msgid "Could not detect displays"
 msgstr "Nu s-au putut detecta monitoarele"
 
-#: ../capplets/display/xrandr-capplet.c:2146
+#: ../capplets/display/xrandr-capplet.c:2164
 msgid "Could not get screen information"
 msgstr "Nu s-au putut obține informații despre ecran"
 
@@ -2229,7 +2336,7 @@ msgstr "Desktop"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
 msgid "New shortcut..."
-msgstr "Scurtătură nouă..."
+msgstr "Scurtătură noua..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
@@ -2244,7 +2351,7 @@ msgstr "Acceleratori"
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
-msgstr "Codul cheii de accelerare"
+msgstr "Cod cheii de accelerare"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
 msgid "Accel Mode"
@@ -2282,7 +2389,7 @@ msgid ""
 msgstr ""
 "Scurtătura „%s” nu se poate folosi deoarece nu se va putea scrie folosind "
 "această tastă.\n"
-"Încercați în combinație cu una din tastele Control, Alt sau Shift în același "
+"Încercați în combinație cu o tastă ca și Control, Alt sau Shift în același "
 "timp."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1205
@@ -2298,11 +2405,12 @@ msgstr ""
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr "Dacă reasociați scurtătura la „%s”, scurtătura „%s” va fi dezactivată."
+msgstr ""
+"Dacă reatribuiți scurtătura la „%s”, scurtătura „%s” va fi dezactivată."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1219
 msgid "_Reassign"
-msgstr "_Reasociază"
+msgstr "_Reatribuire"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1339
 #, c-format
@@ -2338,58 +2446,64 @@ msgid ""
 "combination, or press backspace to clear."
 msgstr ""
 "Pentru a modifica o scurtătură, faceți clic pe rândul corespunzător și "
-"tastați o nouă combinație de taste, sau apăsați „backspace” pentru a șterge "
-"combinația de taste."
+"tastați o nouă combinație de taste, sau apăsați „backspace” pentru a șterge."
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
 msgstr "Asociați combinații comenzilor des utilizate"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:224
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "Aplică configurările și ieși (doar pentru compatibilitate, un serviciu "
 "monitorizează orice schimbare)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:230
 msgid "Start the page with the typing break settings showing"
 msgstr "Deschide fereastra cu configurările pauzelor de lucru"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:235
 msgid "Start the page with the accessibility settings showing"
 msgstr "Pornește pagina afișând configurările pentru accesibilitate"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:242
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Preferințe tastatură GNOME"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:6
 msgid "Beep when _accessibility features are turned on or off"
 msgstr "Sună când facilitățile pentru _accesibilitate sunt pornite sau oprite"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:7
 msgid "Beep when a _modifier key is pressed"
 msgstr "Sună când o tastă _modificatoare a fost apăsată"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:8
 msgid "Beep when a _toggle key is pressed"
 msgstr "Sună când o _tastă comutațională a fost apăsată"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:9
 msgid "Beep when a key is pr_essed"
 msgstr "Sună când o tastă _este apăsată"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:10
 msgid "Beep when a key is reje_cted"
 msgstr "Sună _când o tastă a fost respinsă"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:11
 msgid "Beep when key is _accepted"
 msgstr "Sună când o tastă a fost _acceptată"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:12
 msgid "Beep when key is _rejected"
 msgstr "Sună când tastă este _respinsă"
 
@@ -2399,24 +2513,30 @@ msgid "Bounce Keys"
 msgstr "Taste fără repetiție"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:13
 msgid "Flash _window titlebar"
 msgstr "Licărește titlul _ferestrei"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:14
 msgid "Flash entire _screen"
 msgstr "Licărește tot _ecranul"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:9
 msgid "General"
 msgstr "Generale"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:15
 msgid "Keyboard Accessibility Audio Feedback"
 msgstr "Reacție audio pentru accesibilitatea tastaturii"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:16
 msgid "Show _visual feedback for the alert sound"
 msgstr "Afișează reacții _vizuale pentru alertele de sunet"
 
@@ -2439,27 +2559,32 @@ msgid "A_cceleration:"
 msgstr "A_celerație:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:1
 msgid "All_ow postponing of breaks"
 msgstr "Pe_rmite amânarea pauzelor de lucru"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:4
 msgid "Audio _Feedback..."
-msgstr "_Reacție audio..."
+msgstr "Reacție _audio..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:2
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Bifați pentru a permite amânările pauzelor de lucru"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:3
 msgid "Cursor Blinking"
 msgstr "Cursor clipitor"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:4
 msgid "Cursor _blinks in text fields"
 msgstr "Cursorul clipește într-un câm_p text"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:5
 msgid "Cursor blinks speed"
 msgstr "Viteză de clipire a cursorului"
 
@@ -2475,39 +2600,48 @@ msgstr ""
 "timp"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:6
 msgid "Duration of the break when typing is disallowed"
 msgstr "Durata pauzei de lucru în care nu se permite tastarea"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:7
 msgid "Duration of work before forcing a break"
 msgstr "Durata perioadei de lucru înainte de începerea unei pauze"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:8
 msgid "Fast"
 msgstr "Rapid"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:10
 msgid "Key presses _repeat when key is held down"
 msgstr "Tastele apăsate se _repetă până la eliberare"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:11
 msgid "Keyboard Preferences"
 msgstr "Preferințe tastatură"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:12
 msgid "Keyboard _model:"
 msgstr "_Model tastatură:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:13
 msgid "Layout _Options..."
 msgstr "_Opțiuni aranjament..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:14
 msgid "Layouts"
 msgstr "Aranjamente"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:15
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2517,6 +2651,7 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:16
 msgid "Long"
 msgstr "Lungă"
 
@@ -2525,36 +2660,44 @@ msgid "Mouse Keys"
 msgstr "Taste maus"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:17
 msgid "Repeat Keys"
 msgstr "Repetare taste"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:18
 msgid "Repeat keys speed"
 msgstr "Viteză repetare taste"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:19
 msgid "Reset to De_faults"
 msgstr "Resetează la _valorile implicite"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:20
 msgid "S_peed:"
 msgstr "Vite_ză:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:21
 msgid "Separate _layout for each window"
 msgstr "Aran_jamente separate pentru fiecare fereastră"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:22
 msgid "Short"
 msgstr "Scurtă"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:23
 msgid "Slow"
 msgstr "Încet"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:24
 msgid "Typing Break"
 msgstr "Pauze de lucru"
 
@@ -2564,11 +2707,13 @@ msgstr ""
 "_Caracteristicile de accesibilitate pot fi comutate cu scurături de taste"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:26
 msgid "_Break interval lasts:"
 msgstr "Pau_za de lucru durează:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:27
 msgid "_Delay:"
 msgstr "Î_ntârziere:"
 
@@ -2577,6 +2722,7 @@ msgid "_Ignore fast duplicate keypresses"
 msgstr "_Ignoră apăsările repetate și rapide de taste"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:28
 msgid "_Lock screen to enforce typing break"
 msgstr "B_lochează ecran pentru a forța pauzele de scriere"
 
@@ -2589,6 +2735,7 @@ msgid "_Pointer can be controlled using the keypad"
 msgstr "Cursorul _poate fi controlat folosind tastele numerice"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:29
 msgid "_Selected layouts:"
 msgstr "Aranjamente ale_se:"
 
@@ -2597,18 +2744,22 @@ msgid "_Simulate simultaneous keypresses"
 msgstr "_Simulează apăsări de taste simultane"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:30
 msgid "_Speed:"
 msgstr "_Viteză:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:31
 msgid "_Type to test settings:"
 msgstr "_Tastați pentru a testa configurările:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:32
 msgid "_Work interval lasts:"
 msgstr "_Perioada de lucru durează:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog-moblin.ui.h:33
 msgid "minutes"
 msgstr "minute"
 
@@ -2717,11 +2868,11 @@ msgid "gesture|Disabled"
 msgstr "Dezactivat"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:539
+#: ../capplets/mouse/gnome-mouse-properties.c:559
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Specificați numele paginii de afișat (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:544
+#: ../capplets/mouse/gnome-mouse-properties.c:564
 msgid "- GNOME Mouse Preferences"
 msgstr "- Preferințe maus GNOME"
 
@@ -2754,10 +2905,12 @@ msgid "Dwell Click"
 msgstr "Clic staționar"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:13
 msgid "Enable _horizontal scrolling"
 msgstr "Activare derulare _orizontală"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:14
 msgid "Enable mouse _clicks with touchpad"
 msgstr "Activare _clic cu touchpad"
 
@@ -2778,6 +2931,7 @@ msgid "Mouse Orientation"
 msgstr "Orientarea maus"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:16
 msgid "Mouse Preferences"
 msgstr "Preferințe maus"
 
@@ -2816,10 +2970,12 @@ msgstr ""
 "Pentru a testa configurațiile, încercați să efectuați un dublu-clic pe bec."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:17
 msgid "Touchpad"
 msgstr "Touchpad"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:18
 msgid "Two-_finger scrolling"
 msgstr "Derulare cu două dege_te"
 
@@ -2830,18 +2986,22 @@ msgstr ""
 "alege tipul clicului."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:19
 msgid "_Acceleration:"
 msgstr "_Acclerare:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:20
 msgid "_Disable touchpad while typing"
 msgstr "_Dezactivează toughpadul în timpul tastării"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:21
 msgid "_Disabled"
 msgstr "_Dezactivat"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:40
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:22
 msgid "_Edge scrolling"
 msgstr "D_erulare la margine"
 
@@ -2850,6 +3010,7 @@ msgid "_Initiate click when stopping pointer movement"
 msgstr "_Inițiază clic când oprește mișcarea indicatorului"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:42
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:23
 msgid "_Left-handed"
 msgstr "_Stângaci"
 
@@ -2858,10 +3019,12 @@ msgid "_Motion threshold:"
 msgstr "Prag de _mișcare:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:44
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:24
 msgid "_Right-handed"
 msgstr "D_reptaci"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:45
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:25
 msgid "_Sensitivity:"
 msgstr "_Sensibilitate:"
 
@@ -3064,7 +3227,7 @@ msgstr "_Ridică ferestrele alese după un interval de timp"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:9
 msgid "_Select windows when the mouse moves over them"
-msgstr "_Selectează ferestrele când ajung sub maus"
+msgstr "_Selectează ferestrele când ajung sub mouse"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:10
 msgid "seconds"
@@ -3130,10 +3293,9 @@ msgstr "Grupuri"
 msgid "Common Tasks"
 msgstr "Sarcini uzuale"
 
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Centru de control"
+#: ../shell/control-center.c:185
+msgid "Settings"
+msgstr "Setări"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3210,6 +3372,10 @@ msgstr ""
 "dacă este „true”, control-center va fi închis la activarea unei „Sarcini "
 "comune”"
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Centru de control"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "Unealtă de configurare GNOME"
@@ -3263,8 +3429,6 @@ msgstr "Un program pentru pauzele de lucru în munca cu calculatorul."
 #: ../typing-break/drwright.c:592
 msgid "translator-credits"
 msgstr ""
-"Lucian Adrian Grijincu\n"
-"\n"
 "Launchpad Contributions:\n"
 "  Adi Roiban https://launchpad.net/~adiroiban\n"
 "  Cracknel https://launchpad.net/~cracknel-org\n"
@@ -3378,7 +3542,7 @@ msgstr "Specifică dacă fonturile Type1 vor fi previzualizate."
 
 #: ../font-viewer/font-view.c:113
 msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-msgstr "Muzicologă în bej, vând whisky şi tequila, preţ fix. 0123456789"
+msgstr "Vulpița înceată sare peste câinele leneș. 0123456789"
 
 #: ../font-viewer/font-view.c:289
 msgid "Name:"
@@ -3618,3 +3782,144 @@ msgstr "<b>Deschide %s</b>"
 #, c-format
 msgid "Remove from System Items"
 msgstr "Șterge din elemente sistem"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:2
+#, fuzzy
+msgid "<b>General</b>"
+msgstr "<b>Deschide</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Mouse Orientation</b>"
+msgstr "Orientarea maus"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Pointer Speed</b>"
+msgstr "Viteza indicatorului"
+
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Scrolling</b>"
+msgstr "Derulare"
+
+#. fast acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:6
+msgid "<small><i>Fast</i></small>"
+msgstr ""
+
+#. high sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:8
+msgid "<small><i>High</i></small>"
+msgstr ""
+
+#. low sensitivity
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:10
+msgid "<small><i>Low</i></small>"
+msgstr ""
+
+#. slow acceleration
+#: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:12
+msgid "<small><i>Slow</i></small>"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Bounce Keys</b>"
+msgstr "Taste fără repetiție"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Slow Keys</b>"
+msgstr "Taste încete"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Sticky Keys</b>"
+msgstr "Taste lipicioase"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Visual cues for sounds</b>"
+msgstr "Indicații vizuale pentru sunete"
+
+#. font hinting
+#: ../capplets/appearance/data/appearance-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Hinting</b>"
+msgstr "Hinting"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Rendering</b>"
+msgstr "Randare"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Smoothing</b>"
+msgstr "Netezire"
+
+#: ../capplets/appearance/data/appearance-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Subpixel Order</b>"
+msgstr "Ordine subpixeli"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Drag the monitors to set their place</b>"
+msgstr "Trage monitoarele pentru a le poziționa"
+
+#: ../capplets/display/display-capplet-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Monitor</b>"
+msgstr "Monitor"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:1
+#, fuzzy
+msgid "<b>Email</b>"
+msgstr "<b>Deschide</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:2
+#, fuzzy
+msgid "<b>Home address</b>"
+msgstr "<b>Deschide %s</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:3
+#, fuzzy
+msgid "<b>Instant Messaging</b>"
+msgstr "Mesagerie instant"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:4
+#, fuzzy
+msgid "<b>Job</b>"
+msgstr "<b>Deschide</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:5
+#, fuzzy
+msgid "<b>Telephone</b>"
+msgstr "Telefon"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:6
+#, fuzzy
+msgid "<b>Web</b>"
+msgstr "<b>Deschide</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:7
+msgid "<b>Work address</b>"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:23
+#, fuzzy
+msgid "Job _title:"
+msgstr "_Titlu:"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:27
+#, fuzzy
+msgid "Personal"
+msgstr "Informații personale"
+
+#: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:40
+#, fuzzy
+msgid "_Website:"
+msgstr "_Titlu:"
