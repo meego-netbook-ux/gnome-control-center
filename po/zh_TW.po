@@ -1,25 +1,27 @@
 # Chinese (Taiwan) translation of gnome-control-center.
 # Copyright (C) 1999, 2001-07 Free Software Foundation, Inc.
 # GNOME 1.x:
+# GNOME 2.x:
+#
+#
 # S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999.
 # Abel Cheung <abel@oaka.org>, 2001-2002.
-# GNOME 2.x:
 # Abel Cheung <abel@oaka.org>, 2001-2003, 2005.
 # Woodman Tuen <wmtuen@gmail.com>, 2004-07.
-#
-#
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2009.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.27.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-11-24 08:25+0000\n"
-"PO-Revision-Date: 2009-09-29 22:55+0800\n"
+"POT-Creation-Date: 2009-11-24 09:03+0000\n"
+"PO-Revision-Date: 2009-11-28 01:19+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
+"Language-Team: 正體中文 <>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -854,8 +856,7 @@ msgid_plural ""
 "The font selected is %d points large, and may make it difficult to "
 "effectively use the computer. It is recommended that you select a smaller "
 "sized font."
-msgstr[0] ""
-"您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取較小的字型。"
+msgstr[0] "您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取較小的字型。"
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -928,8 +929,7 @@ msgstr "還原字型"
 msgid ""
 "The current theme suggests a background and a font. Also, the last applied "
 "font suggestion can be reverted."
-msgstr ""
-"目前的佈景主題建議使用指定的背景與字型。同時，上次套用的建議字型會被還原。"
+msgstr "目前的佈景主題建議使用指定的背景與字型。同時，上次套用的建議字型會被還原。"
 
 #: ../capplets/appearance/appearance-themes.c:713
 msgid ""
@@ -1772,8 +1772,7 @@ msgstr "這個佈景主題無法正確顯示，因為要求的 GTK+ 佈景主題
 msgid ""
 "This theme will not look as intended because the required window manager "
 "theme '%s' is not installed."
-msgstr ""
-"這個佈景主題無法正確顯示，因為要求的視窗管理程式佈景主題「%s」尚未安裝。"
+msgstr "這個佈景主題無法正確顯示，因為要求的視窗管理程式佈景主題「%s」尚未安裝。"
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
@@ -2384,8 +2383,7 @@ msgstr "鍵盤捷徑鍵"
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
-msgstr ""
-"要編輯捷徑鍵，點選相應的行並按下新的按鍵組合，或以 backspace 鍵來清除。"
+msgstr "要編輯捷徑鍵，點選相應的行並按下新的按鍵組合，或以 backspace 鍵來清除。"
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
@@ -3685,19 +3683,16 @@ msgid "<b>General</b>"
 msgstr "<b>一般</b>"
 
 #: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:2
-#, fuzzy
 msgid "<b>Mouse Orientation</b>"
-msgstr "左右手模式"
+msgstr "<b>左右手模式</b>"
 
 #: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:3
-#, fuzzy
 msgid "<b>Pointer Speed</b>"
-msgstr "指標速度"
+msgstr "<b>指標速度</b>"
 
 #: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:4
-#, fuzzy
 msgid "<b>Scrolling</b>"
-msgstr "捲動方式"
+msgstr "<b>捲動方式</b>"
 
 #. fast acceleration
 #: ../capplets/mouse/gnome-mouse-properties-moblin.ui.h:6
@@ -3724,97 +3719,81 @@ msgid "<b>Bounce Keys</b>"
 msgstr "<b>啟用回鍵</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:3
-#, fuzzy
 msgid "<b>Slow Keys</b>"
-msgstr "<b>啟用回鍵</b>"
+msgstr "<b>緩遲按鍵</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:4
-#, fuzzy
 msgid "<b>Sticky Keys</b>"
-msgstr "黏性特殊鍵"
+msgstr "<b>黏性特殊鍵</b>"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications-moblin.ui.h:5
-#, fuzzy
 msgid "<b>Visual cues for sounds</b>"
-msgstr "音效的視覺化提示"
+msgstr "<b>音效的視覺化提示</b>"
 
 #. font hinting
 #: ../capplets/appearance/data/appearance-moblin.ui.h:2
-#, fuzzy
 msgid "<b>Hinting</b>"
-msgstr "字型提示"
+msgstr "<b>字型提示</b>"
 
 #: ../capplets/appearance/data/appearance-moblin.ui.h:3
-#, fuzzy
 msgid "<b>Rendering</b>"
-msgstr "<b>一般</b>"
+msgstr "<b>繪製方式</b>"
 
 #: ../capplets/appearance/data/appearance-moblin.ui.h:4
-#, fuzzy
 msgid "<b>Smoothing</b>"
-msgstr "平滑化"
+msgstr "<b>平滑化</b>"
 
 #: ../capplets/appearance/data/appearance-moblin.ui.h:5
-#, fuzzy
 msgid "<b>Subpixel Order</b>"
-msgstr "次像素排列次序"
+msgstr "<b>次像素排列次序</b>"
 
 #: ../capplets/display/display-capplet-moblin.ui.h:1
-#, fuzzy
 msgid "<b>Drag the monitors to set their place</b>"
-msgstr "拖曳顯示器來設定它們的位置"
+msgstr "<b>拖曳顯示器來設定它們的位置</b>"
 
 #: ../capplets/display/display-capplet-moblin.ui.h:2
-#, fuzzy
 msgid "<b>Monitor</b>"
-msgstr "<b>工作</b>"
+msgstr "<b>顯示器</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:1
 msgid "<b>Email</b>"
 msgstr "<b>電子郵件</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:2
-#, fuzzy
 msgid "<b>Home address</b>"
-msgstr "<b>住家</b>"
+msgstr "<b>住家地址</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:3
-#, fuzzy
 msgid "<b>Instant Messaging</b>"
-msgstr "即時訊息"
+msgstr "<b>即時訊息</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:4
 msgid "<b>Job</b>"
 msgstr "<b>職業</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:5
-#, fuzzy
 msgid "<b>Telephone</b>"
-msgstr "電話"
+msgstr "<b>電話</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:6
 msgid "<b>Web</b>"
 msgstr "<b>Web</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:7
-#, fuzzy
 msgid "<b>Work address</b>"
-msgstr "<b>工作</b>"
+msgstr "<b>工作地址</b>"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:23
-#, fuzzy
 msgid "Job _title:"
-msgstr "職稱(_T):"
+msgstr "職稱 (_T):"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:27
-#, fuzzy
 msgid "Personal"
-msgstr "個人資訊"
+msgstr "個人"
 
 #: ../capplets/about-me/gnome-about-me-dialog-moblin.ui.h:40
-#, fuzzy
 msgid "_Website:"
-msgstr "職稱(_T):"
+msgstr "網站 (_W):"
 
 #~ msgid "_Desktop Background"
 #~ msgstr "桌面背景(_D)"
