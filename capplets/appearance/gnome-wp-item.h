@@ -37,6 +37,11 @@
 #define WP_PCOLOR_KEY WP_PATH_KEY "/primary_color"
 #define WP_SCOLOR_KEY WP_PATH_KEY "/secondary_color"
 
+#ifdef HAVE_MOBLIN
+#define PRM_WP_PATH_KEY "/desktop/moblin/background"
+#define PRM_WP_FILE_KEY PRM_WP_PATH_KEY "/picture_filename"
+#endif
+
 typedef struct _GnomeWPItem GnomeWPItem;
 
 struct _GnomeWPItem {

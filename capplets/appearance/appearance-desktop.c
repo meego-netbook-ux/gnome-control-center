@@ -31,6 +31,16 @@
 #include <libgnomeui/gnome-desktop-thumbnail.h>
 #include <libgnomeui/gnome-bg.h>
 
+#ifdef HAVE_MOBLIN
+typedef enum
+{
+  BG_TYPE_PRIMARY,
+  BG_TYPE_MYZONE
+} BackgroundType;
+
+static BackgroundType bg_type = BG_TYPE_PRIMARY;
+#endif
+
 enum {
   TARGET_URI_LIST,
   TARGET_BGIMAGE
@@ -451,6 +461,14 @@ wp_uri_changed (const gchar *uri,
   GnomeWPItem *item, *selected;
 
   item = g_hash_table_lookup (data->wp_hash, uri);
+#ifdef HAVE_MOBLIN
+  if (bg_type == BG_TYPE_PRIMARY)
+  {
+    if (item == NULL)
+      item = wp_add_image (data, uri);
+    return;
+  }
+#endif
   selected = get_selected_item (data, NULL);
 
   if (selected != NULL && strcmp (selected->filename, uri) != 0)
@@ -577,8 +595,18 @@ wp_props_wp_set (AppearanceData *data, GnomeWPItem *item)
 
   if (!strcmp (item->filename, "(none)"))
   {
+#ifndef HAVE_MOBLIN
     gconf_change_set_set_string (cs, WP_OPTIONS_KEY, "none");
     gconf_change_set_set_string (cs, WP_FILE_KEY, "");
+#else
+    if (bg_type == BG_TYPE_MYZONE)
+    {
+      gconf_change_set_set_string (cs, WP_OPTIONS_KEY, "none");
+      gconf_change_set_set_string (cs, WP_FILE_KEY, "");
+    }
+    else
+      gconf_change_set_set_string (cs, PRM_WP_FILE_KEY, "");
+#endif
   }
   else
   {
@@ -592,7 +620,13 @@ wp_props_wp_set (AppearanceData *data, GnomeWPItem *item)
     if (uri == NULL) {
       g_warning ("Failed to convert filename to UTF-8: %s", item->filename);
     } else {
+#ifndef HAVE_MOBLIN
       gconf_change_set_set_string (cs, WP_FILE_KEY, uri);
+#else
+      gconf_change_set_set_string (cs,
+                                   bg_type == BG_TYPE_PRIMARY ? PRM_WP_FILE_KEY : WP_FILE_KEY,
+                                   uri);
+#endif
       g_free (uri);
     }
 
@@ -918,6 +952,9 @@ wp_load_stuffs (void *user_data)
   gchar *imagepath, *uri, *style;
   GnomeWPItem *item;
   int nb_wps;
+#ifdef HAVE_MOBLIN
+  int i;
+#endif
 
   data = (AppearanceData *) user_data;
 
@@ -935,6 +972,12 @@ wp_load_stuffs (void *user_data)
                                  WP_FILE_KEY,
                                  NULL);
 
+#ifdef HAVE_MOBLIN
+  bg_type = BG_TYPE_MYZONE;
+
+  for (i = 0; i < 2; i++)
+  {
+#endif
   if (uri && *uri == '\0')
   {
     g_free (uri);
@@ -1004,6 +1047,15 @@ wp_load_stuffs (void *user_data)
     }
   }
   g_free (imagepath);
+#ifdef HAVE_MOBLIN
+  if (i == 0)
+    uri = gconf_client_get_string (data->client,
+                                   PRM_WP_FILE_KEY,
+                                   NULL);
+    bg_type = BG_TYPE_PRIMARY;
+  } /* for */
+#endif
+
   g_free (style);
 
   if (data->wp_uris) {
@@ -1186,11 +1238,55 @@ buttons_cell_data_func (GtkCellLayout   *layout,
   gtk_tree_path_free (path);
 }
 
+#ifdef HAVE_MOBLIN
+static void
+bg_type_radio_toggled (GtkToggleButton *toggle_button,
+                       AppearanceData *data)
+{
+  gchar *imagepath, *uri;
+  GnomeWPItem *item;
+
+  if (gtk_toggle_button_get_active (toggle_button))
+    bg_type = BG_TYPE_PRIMARY;
+  else
+    bg_type = BG_TYPE_MYZONE;
+
+  uri = gconf_client_get_string (data->client,
+                                 bg_type == BG_TYPE_PRIMARY ? PRM_WP_FILE_KEY : WP_FILE_KEY,
+                                 NULL);
+
+  if (uri && *uri == '\0')
+  {
+    g_free (uri);
+    uri = NULL;
+  }
+
+  if (uri == NULL)
+    uri = g_strdup ("(none)");
+
+  if (g_utf8_validate (uri, -1, NULL) && g_file_test (uri, G_FILE_TEST_EXISTS))
+    imagepath = g_strdup (uri);
+  else
+    imagepath = g_filename_from_utf8 (uri, -1, NULL, NULL, NULL);
+
+  item = g_hash_table_lookup (data->wp_hash, imagepath);
+
+  if (item != NULL)
+    select_item (data, item, FALSE);
+
+  g_free (uri);
+  g_free (imagepath);
+}
+#endif
+
 void
 desktop_init (AppearanceData *data,
 	      const gchar **uris)
 {
   GtkWidget *add_button, *w;
+#ifdef HAVE_MOBLIN
+  GtkWidget *bg;
+#endif
   GtkCellRenderer *cr;
   char *url;
 
@@ -1205,6 +1301,12 @@ desktop_init (AppearanceData *data,
       uris++;
     }
   }
+
+#ifdef HAVE_MOBLIN
+  bg = appearance_capplet_get_widget (data, "primary_radio");
+  g_signal_connect (bg, "toggled",
+                    (GCallback) bg_type_radio_toggled, data);
+#endif
 
   w = appearance_capplet_get_widget (data, "more_backgrounds_linkbutton");
   url = gconf_client_get_string (data->client, MORE_BACKGROUNDS_URL_KEY, NULL);
