@@ -525,6 +525,26 @@ main (int argc, char **argv)
 
   g_signal_connect (widget, "icon-release", G_CALLBACK (search_entry_clear_cb), data);
 
+
+#ifdef HAVE_MOBLIN
+    {
+      GtkWidget *close_button = gtk_button_new ();
+      gtk_container_add (GTK_CONTAINER (close_button),
+                         gtk_image_new_from_icon_name ("window-close",
+                                                       GTK_ICON_SIZE_BUTTON));
+      gtk_widget_set_name (gtk_builder_get_object (data->builder, "toolbar1"),
+                           "moblin-toolbar");
+      gtk_box_pack_end (GTK_BOX (gtk_builder_get_object (data->builder, "hbox1")),
+                        close_button, FALSE, TRUE, 6);
+
+      g_signal_connect (close_button, "clicked", G_CALLBACK (gtk_main_quit),
+                        NULL);
+
+      gtk_window_maximize (GTK_WINDOW (data->window));
+      gtk_window_set_decorated (GTK_WINDOW (data->window), FALSE);
+    }
+#endif
+
   gtk_widget_show_all (data->window);
 
   if (argc == 2)
