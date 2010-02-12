@@ -145,6 +145,7 @@ setup_panel (CcAppearancePanel *panel)
         gtk_container_add (GTK_CONTAINER (panel), panel->priv->notebook);
         gtk_widget_show (panel->priv->notebook);
 
+#ifndef HAVE_MOBLIN
         panel->priv->theme_page = cc_theme_page_new ();
         g_object_get (panel->priv->theme_page,
                       "display-name", &display_name,
@@ -153,6 +154,7 @@ setup_panel (CcAppearancePanel *panel)
         g_free (display_name);
         gtk_notebook_append_page (GTK_NOTEBOOK (panel->priv->notebook), GTK_WIDGET (panel->priv->theme_page), label);
         gtk_widget_show (GTK_WIDGET (panel->priv->theme_page));
+#endif
 
         panel->priv->background_page = cc_background_page_new ();
         g_object_get (panel->priv->background_page,
@@ -172,9 +174,15 @@ setup_panel (CcAppearancePanel *panel)
         gtk_notebook_append_page (GTK_NOTEBOOK (panel->priv->notebook), GTK_WIDGET (panel->priv->font_page), label);
         gtk_widget_show (GTK_WIDGET (panel->priv->font_page));
 
+#ifndef HAVE_MOBLIN
         g_object_set (panel,
                       "current-page", panel->priv->theme_page,
                       NULL);
+#else
+        g_object_set (panel,
+                      "current-page", panel->priv->background_page,
+                      NULL);
+#endif
 }
 
 static GObject *
