@@ -5,6 +5,7 @@ SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
+	security		\
 	$(NULL)
 
 DIST_SUBDIRS = \
@@ -14,6 +15,7 @@ DIST_SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
+	security		\
 	windows			\
 	display 		\
 	about-me
