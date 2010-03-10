@@ -542,7 +542,8 @@ main (int argc, char **argv)
       gtk_container_add (GTK_CONTAINER (close_button),
                          gtk_image_new_from_icon_name ("window-close-hover",
                                                        GTK_ICON_SIZE_DIALOG));
-      gtk_widget_set_name (gtk_builder_get_object (data->builder, "toolbar1"),
+      gtk_widget_set_name (GTK_WIDGET (gtk_builder_get_object (data->builder,
+                                                               "toolbar1")),
                            "moblin-toolbar");
       gtk_box_pack_end (GTK_BOX (gtk_builder_get_object (data->builder, "hbox1")),
                         close_button, FALSE, TRUE, 6);
