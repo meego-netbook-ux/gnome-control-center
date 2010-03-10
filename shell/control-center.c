@@ -249,7 +249,16 @@ fill_model (ShellData *data)
 
           gtk_icon_view_set_pixbuf_column (GTK_ICON_VIEW (iconview), COL_PIXBUF);
           gtk_icon_view_set_text_column (GTK_ICON_VIEW (iconview), COL_NAME);
+
+#if HAVE_MOBLIN
+          gtk_icon_view_set_orientation (GTK_ICON_VIEW (iconview),
+                                         GTK_ORIENTATION_HORIZONTAL);
+          gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 150);
+          gtk_icon_view_set_spacing (GTK_ICON_VIEW (iconview), 6);
+#else
           gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 120);
+#endif
+
           g_signal_connect (iconview, "item-activated",
                             G_CALLBACK (item_activated_cb), data);
           g_signal_connect (iconview, "button-release-event",
