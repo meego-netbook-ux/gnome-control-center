@@ -251,10 +251,22 @@ fill_model (ShellData *data)
           gtk_icon_view_set_text_column (GTK_ICON_VIEW (iconview), COL_NAME);
 
 #if HAVE_MOBLIN
-          gtk_icon_view_set_orientation (GTK_ICON_VIEW (iconview),
-                                         GTK_ORIENTATION_HORIZONTAL);
-          gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 150);
-          gtk_icon_view_set_spacing (GTK_ICON_VIEW (iconview), 6);
+            {
+              GList *renderers, *l;
+
+              gtk_icon_view_set_orientation (GTK_ICON_VIEW (iconview),
+                                             GTK_ORIENTATION_HORIZONTAL);
+              gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 150);
+              gtk_icon_view_set_spacing (GTK_ICON_VIEW (iconview), 6);
+
+              /* set cell renderer yalign */
+              renderers = gtk_cell_layout_get_cells (GTK_CELL_LAYOUT (iconview));
+              for (l = renderers; l; l = g_list_next (l))
+                {
+                  g_object_set (l->data, "yalign", 0.0, "xalign", 0.0, "ypad", 0, NULL);
+                }
+              g_list_free (renderers);
+            }
 #else
           gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 120);
 #endif
