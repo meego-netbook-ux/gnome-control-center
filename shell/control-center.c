@@ -280,7 +280,7 @@ fill_model (ShellData *data)
 
           data->icon_views = g_slist_prepend (data->icon_views, iconview);
 
-          header_name = g_strdup_printf ("<b>%s</b>", dir_name);
+          header_name = g_strdup_printf ("<big><b>%s</b></big>", dir_name);
 
           header = g_object_new (GTK_TYPE_LABEL,
                                  "use-markup", TRUE,
