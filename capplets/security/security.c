@@ -26,11 +26,16 @@
 #endif
 
 #include <stdlib.h>
-#include <glib/gi18n.h>
 #include <string.h>
+#include <glib/gi18n.h>
+#include <gconf/gconf-client.h>
+#include <gtk/gtk.h>
 
 #include "capplet-util.h"
 #include "run-passwd.h"
+
+#define SCREEN_LOCK_DIR "/apps/gnome-screensaver"
+#define SCREEN_LOCK_KEY SCREEN_LOCK_DIR"/lock_enabled"
 
 #define GET_WIDGET(b,s) GTK_WIDGET (gtk_builder_get_object (b, s))
 
@@ -196,6 +201,24 @@ security_change_password (SecurityData *data)
 }
 
 static void
+security_update_password_toggle (SecurityData *data, GConfClient *gconf)
+{
+        GError *error = NULL;
+        gboolean lock = FALSE;
+
+        lock = gconf_client_get_bool (gconf, SCREEN_LOCK_KEY, &error);
+        if (error) {
+                g_warning ("Could not read key %s: %s",
+                           SCREEN_LOCK_KEY, error->message);
+                g_error_free (error);
+        }
+
+        g_object_set (data->password_toggle,
+                      "active", lock,
+                      NULL);
+}
+
+static void
 current_entry_activate (GtkEntry *entry, SecurityData *data)
 {
         data->grab_after_validation = TRUE;
@@ -258,9 +281,34 @@ new_or_verify_entry_notify_text (GtkEntry     *entry,
 }
 
 static void
+password_toggle_notify_active (GtkWidget    *widget,
+                               GParamSpec   *pspec,
+                               SecurityData *data)
+{
+        gboolean lock;
+        GConfClient *gconf;
+
+        g_object_get (widget, "active", &lock, NULL);
+        gconf = gconf_client_get_default ();
+        gconf_client_set_bool (gconf,
+                               SCREEN_LOCK_KEY, lock,
+                               NULL);
+        g_object_unref (gconf);
+}
+
+static void
 save_button_clicked (GtkButton *button, SecurityData *data)
 {
         security_change_password (data);
+}
+
+static void
+gconf_notify (GConfClient *gconf,
+              guint id,
+              GConfEntry *entry,
+              SecurityData *data)
+{
+        security_update_password_toggle (data, gconf);
 }
 
 static SecurityData*
@@ -269,6 +317,7 @@ security_new ()
         SecurityData *data;
         GtkWidget *box, *c_area, *label;
         GtkBuilder *builder;
+        GConfClient *gconf;
         GError *error = NULL;
 
         builder = gtk_builder_new ();
@@ -285,12 +334,25 @@ security_new ()
 
         data = g_new0 (SecurityData, 1);    
 
+        gconf = gconf_client_get_default ();
+        gconf_client_add_dir (gconf,
+                              SCREEN_LOCK_DIR,
+                              GCONF_CLIENT_PRELOAD_ONELEVEL,
+                              NULL);
+        gconf_client_notify_add (gconf,
+                                 SCREEN_LOCK_DIR,
+                                 (GConfClientNotifyFunc) gconf_notify,
+                                 data, NULL, NULL);
+
         data->main_window = GET_WIDGET (builder, "main_window");
         g_object_ref (data->main_window);
         g_signal_connect_swapped (data->main_window, "destroy",
                                   G_CALLBACK (gtk_main_quit), NULL);
 
         data->password_toggle = GET_WIDGET (builder, "password_toggle");
+        security_update_password_toggle (data, gconf);
+        g_signal_connect (data->password_toggle, "notify::active",
+                          G_CALLBACK (password_toggle_notify_active), data);
 
         data->current_entry = GET_WIDGET (builder, "current_entry");
         g_signal_connect (data->current_entry, "activate",
@@ -347,6 +409,7 @@ security_new ()
         gtk_widget_show (data->main_window);
 
         g_object_unref (builder);
+        g_object_unref (gconf);
 
         data->passwd_handler = passwd_init ();
 
