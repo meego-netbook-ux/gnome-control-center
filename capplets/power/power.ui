@@ -56,6 +56,9 @@
               <object class="GtkHScale" id="idle_scale">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="update_policy">discontinuous</property>
+                <property name="restrict_to_fill_level">False</property>
+                <property name="digits">0</property>
                 <property name="value_pos">bottom</property>
               </object>
               <packing>
@@ -113,6 +116,9 @@
               <object class="GtkHScale" id="sleep_scale">
                 <property name="visible">True</property>
                 <property name="can_focus">True</property>
+                <property name="update_policy">discontinuous</property>
+                <property name="restrict_to_fill_level">False</property>
+                <property name="digits">o</property>
                 <property name="value_pos">bottom</property>
               </object>
               <packing>
@@ -146,7 +152,7 @@
               <object class="GtkLabel" id="label8">
                 <property name="visible">True</property>
                 <property name="xalign">0</property>
-                <property name="label" translatable="yes">Sleep</property>
+                <property name="label" translatable="yes">Brightness</property>
                 <attributes>
                   <attribute name="weight" value="bold"/>
                   <attribute name="scale" value="1.200000"/>
