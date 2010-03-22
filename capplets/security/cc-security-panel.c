@@ -22,8 +22,6 @@
  */
 
 /* TODO:
- * * handle the login case: currently the toggle only controls 
- *   /apps/gnome-screensaver/lock_enabled
  * * there is currently no indication that the current passwd is being
  *   checked when unfocusing the entry. A busy-interactive cursor might
  *   work
@@ -42,6 +40,7 @@
 #include <stdlib.h>
 #include <string.h>
 #include <glib/gi18n.h>
+#include <glib/gstdio.h>
 #include <gconf/gconf-client.h>
 #include <gtk/gtk.h>
 
@@ -58,6 +57,7 @@
 
 struct CcSecurityPanelPrivate {
         GtkWidget *password_toggle;
+        guint toggle_id;
 
         GtkWidget *current_entry;
         GtkWidget *current_info_bar;
@@ -72,6 +72,7 @@ struct CcSecurityPanelPrivate {
         GtkWidget *save_button;
 
         PasswdHandler *passwd_handler;
+        GConfClient *gconf;
 };
 
 G_DEFINE_DYNAMIC_TYPE (CcSecurityPanel, cc_security_panel, CC_TYPE_PANEL)
@@ -237,23 +238,25 @@ cc_security_panel_change_password (CcSecurityPanel *panel)
 }
 
 static void
-cc_security_panel_update_password_toggle (CcSecurityPanel *panel, GConfClient *gconf)
+cc_security_panel_update_password_toggle (CcSecurityPanel *panel)
 {
         CcSecurityPanelPrivate *priv = GET_PRIVATE (panel);
-
         GError *error = NULL;
         gboolean lock = FALSE;
 
-        lock = gconf_client_get_bool (gconf, SCREEN_LOCK_KEY, &error);
+        lock = gconf_client_get_bool (priv->gconf, SCREEN_LOCK_KEY, &error);
         if (error) {
                 g_warning ("Could not read key %s: %s",
                            SCREEN_LOCK_KEY, error->message);
                 g_error_free (error);
         }
 
+        g_signal_handler_block (priv->password_toggle, priv->toggle_id);
         g_object_set (priv->password_toggle,
                       "active", lock,
                       NULL);
+        g_signal_handler_unblock (priv->password_toggle, priv->toggle_id);
+
 }
 
 static void
@@ -331,15 +334,22 @@ password_toggle_notify_active (GtkWidget    *widget,
                                GParamSpec   *pspec,
                                CcSecurityPanel *panel)
 {
+        char *lockfile;
         gboolean lock;
-        GConfClient *gconf;
 
         g_object_get (widget, "active", &lock, NULL);
-        gconf = gconf_client_get_default ();
-        gconf_client_set_bool (gconf,
+        gconf_client_set_bool (panel->priv->gconf,
                                SCREEN_LOCK_KEY, lock,
                                NULL);
-        g_object_unref (gconf);
+
+        /* touch or remove a file to set lock-on-boot status */
+        lockfile = g_strdup_printf ("%s/lock-screen", g_get_user_config_dir ());
+        if (lock) {
+                g_file_set_contents (lockfile, "", -1, NULL);
+        } else {
+                g_remove (lockfile);
+        }
+        g_free (lockfile);
 }
 
 static void
@@ -354,7 +364,8 @@ gconf_notify (GConfClient *gconf,
               GConfEntry *entry,
               CcSecurityPanel *panel)
 {
-        cc_security_panel_update_password_toggle (panel, gconf);
+g_debug ("notify...");
+        cc_security_panel_update_password_toggle (panel);
 }
 
 static void
@@ -363,7 +374,6 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
         CcSecurityPanelPrivate *priv = GET_PRIVATE (panel);
         GtkWidget *main_window, *box, *c_area, *label;
         GtkBuilder *builder;
-        GConfClient *gconf;
         GError *error = NULL;
 
         builder = gtk_builder_new ();
@@ -378,13 +388,13 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
                 return;
         }
 
-        gconf = gconf_client_get_default ();
-        gconf_client_add_dir (gconf,
+        priv->gconf = gconf_client_get_default ();
+        gconf_client_add_dir (priv->gconf,
                               SCREEN_LOCK_DIR,
                               GCONF_CLIENT_PRELOAD_ONELEVEL,
                               NULL);
-        gconf_client_notify_add (gconf,
-                                 SCREEN_LOCK_DIR,
+        gconf_client_notify_add (priv->gconf,
+                                 SCREEN_LOCK_KEY,
                                  (GConfClientNotifyFunc) gconf_notify,
                                  panel, NULL, NULL);
 
@@ -393,9 +403,11 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
                              GTK_WIDGET (panel));
 
         priv->password_toggle = GET_WIDGET (builder, "password_toggle");
-        cc_security_panel_update_password_toggle (panel, gconf);
-        g_signal_connect (priv->password_toggle, "notify::active",
-                          G_CALLBACK (password_toggle_notify_active), panel);
+        cc_security_panel_update_password_toggle (panel);
+        priv->toggle_id = g_signal_connect (priv->password_toggle,
+                                            "notify::active",
+                                            G_CALLBACK (password_toggle_notify_active),
+                                            panel);
 
         priv->current_entry = GET_WIDGET (builder, "current_entry");
         g_signal_connect (priv->current_entry, "activate",
@@ -447,7 +459,6 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
                           G_CALLBACK (save_button_clicked), panel);
 
         g_object_unref (builder);
-        g_object_unref (gconf);
 
         priv->passwd_handler = passwd_init ();
 }
@@ -499,6 +510,11 @@ cc_security_panel_dispose (GObject *object)
         if (priv->passwd_handler) {
                 passwd_destroy (priv->passwd_handler);
                 priv->passwd_handler = NULL;
+        }
+
+        if (priv->gconf) {
+                g_object_unref (priv->gconf);
+                priv->gconf = NULL;
         }
 }
 
