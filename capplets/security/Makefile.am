@@ -2,8 +2,10 @@ cappletname = security
 
 NULL =
 
-security_SOURCES = \
-	security.c \
+libsecurity_la_SOURCES = \
+	security-module.c \
+	cc-security-panel.c \
+	cc-security-panel.h \
 	run-passwd.h \
 	run-passwd.c \
 	$(NULL)
@@ -15,12 +17,17 @@ ui_files = \
 
 if BUILD_SECURITY
 
-bin_PROGRAMS = security
+libsecurity_la_CFLAGS = \
+	$(EXTENSION_CFLAGS) \
+	$(EXTENSION_COMMON_CFLAGS)
 
-security_LDADD = \
-	$(GNOMECC_CAPPLETS_LIBS) \
+libsecurity_la_LDFLAGS = \
+	$(EXTENSION_LIBTOOL_FLAGS)
+
+libsecurity_la_LIBADD = \
+	$(EXTENSION_LIBS) \
+	$(EXTENSION_COMMON_LIBS)
 	$(MX_GTK_LIBS) \
-	$(top_builddir)/libgnome-control-center-extension/libcommon.la \
 	$(NULL)
 
 @INTLTOOL_DESKTOP_RULE@
@@ -40,7 +47,11 @@ INCLUDES = \
 	-DGNOMELOCALEDIR="\"$(datadir)/locale\"" \
 	$(NULL)
 
+ccmodulesdir = $(EXTENSIONSDIR)
+ccmodules_LTLIBRARIES = libsecurity.la
+
 endif # BUILD_SECURITY
+
 
 CLEANFILES = \
 	$(GNOMECC_CAPPLETS_CLEANFILES) \
