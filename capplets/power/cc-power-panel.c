@@ -42,7 +42,7 @@
 
 
 #define GPM_DIR "/apps/gnome-power-manager"
-#define GSS_DIR "/apps/gnome-screensaver"
+#define SESSION_DIR "/desktop/gnome/session"
 
 /* values are "hibernate", "suspend" or "nothing" */
 #define SLEEP_TYPE_BATTERY_KEY GPM_DIR"/actions/sleep_type_battery"
@@ -54,7 +54,7 @@
 #define SLEEP_BATTERY_KEY GPM_DIR"/timeout/sleep_computer_battery"
 
 /* minutes until idle */
-#define IDLE_KEY GSS_DIR"/idle_delay"
+#define IDLE_KEY SESSION_DIR"/idle_delay"
 
 #define CC_POWER_PANEL_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CC_TYPE_POWER_PANEL, CcPowerPanelPrivate))
 
@@ -143,7 +143,7 @@ idle_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
         if (secs < IDLE_NEVER) {
                 gconf_client_set_int (priv->gconf, IDLE_KEY, (secs+30)/60, NULL);
         } else {
-                gconf_client_set_int (priv->gconf, IDLE_KEY, G_MAXINT, NULL);
+                gconf_client_set_int (priv->gconf, IDLE_KEY, 0, NULL);
         }
 }
 
@@ -199,6 +199,8 @@ update_idle_toggle (CcPowerPanel *panel)
                 g_error_free (error);
                 error = NULL;
                 idle_secs = IDLE_NEVER;
+        } else if (idle == 0) {
+                idle_secs = IDLE_NEVER;
         } else {
                 idle_secs = 60 * CLAMP (idle, 1, (IDLE_NEVER + 30)/60);
         }
@@ -253,7 +255,7 @@ setup_panel (CcPowerPanel *panel)
                               GCONF_CLIENT_PRELOAD_NONE,
                               NULL);
         gconf_client_add_dir (priv->gconf,
-                              GSS_DIR,
+                              SESSION_DIR,
                               GCONF_CLIENT_PRELOAD_NONE,
                               NULL);
 
