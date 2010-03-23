@@ -34,8 +34,8 @@
 #include "cc-power-panel.h"
 
 /* largest numeric value shown */
-#define SLEEP_MAX 30 * 60
-#define IDLE_MAX 30 * 60
+#define SLEEP_MAX 45 * 60
+#define IDLE_MAX 45 * 60
 
 #define SLEEP_NEVER SLEEP_MAX + 31
 #define IDLE_NEVER IDLE_MAX + 31
