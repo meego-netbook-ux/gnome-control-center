@@ -364,7 +364,6 @@ gconf_notify (GConfClient *gconf,
               GConfEntry *entry,
               CcSecurityPanel *panel)
 {
-g_debug ("notify...");
         cc_security_panel_update_password_toggle (panel);
 }
 
