@@ -283,7 +283,7 @@ setup_panel (CcPowerPanel *panel)
                                           panel);
 
         priv->sleep_scale = WID ("sleep_scale");
-        gtk_range_set_range (GTK_RANGE (priv->sleep_scale), 1, SLEEP_NEVER);
+        gtk_range_set_range (GTK_RANGE (priv->sleep_scale), 60, SLEEP_NEVER);
         gtk_range_set_increments (GTK_RANGE (priv->sleep_scale), 60, 300);
         g_signal_connect (priv->sleep_scale, "format-value",
                           G_CALLBACK (scale_format_value), panel);
