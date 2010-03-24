@@ -42,9 +42,10 @@ capplets/default-applications/gnome-at-session.desktop.in.in
 capplets/default-applications/gnome-da-capplet.c
 [type: gettext/glade]capplets/default-applications/gnome-default-applications-properties.ui
 capplets/default-applications/gnome-default-applications.xml.in
-capplets/display/cc-display-page.c
+capplets/display/cc-display-minimal-page.c
 capplets/display/cc-display-panel.c
 [type: gettext/glade]capplets/display/display-capplet.ui
+[type: gettext/glade]capplets/display/display-minimal.ui
 capplets/display/display-properties.desktop.in.in
 capplets/display/xrandr-capplet.c
 capplets/keyboard/gnome-keyboard-properties.c
@@ -77,9 +78,12 @@ capplets/network/gnome-network-properties.c
 capplets/network/gnome-network-properties.desktop.in.in
 [type: gettext/glade]capplets/network/gnome-network-properties.ui
 capplets/security/run-passwd.c
-capplets/security/security.c
+capplets/security/cc-security-panel.c
 capplets/security/security.desktop.in.in
 [type: gettext/glade]capplets/security/security.ui
+capplets/power/power-properties.desktop.in.in
+capplets/power/cc-power-panel.c
+[type: gettext/glade]capplets/power/power.ui
 
 capplets/windows/gnome-window-properties.c
 [type: gettext/glade]capplets/windows/gnome-window-properties.ui
