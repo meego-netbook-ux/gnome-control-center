@@ -15,8 +15,6 @@ ui_files = \
 	$(NULL)
 
 
-if BUILD_SECURITY
-
 libsecurity_la_CFLAGS = \
 	$(EXTENSION_CFLAGS) \
 	$(EXTENSION_COMMON_CFLAGS)
@@ -49,9 +47,6 @@ INCLUDES = \
 
 ccmodulesdir = $(EXTENSIONSDIR)
 ccmodules_LTLIBRARIES = libsecurity.la
-
-endif # BUILD_SECURITY
-
 
 CLEANFILES = \
 	$(GNOMECC_CAPPLETS_CLEANFILES) \

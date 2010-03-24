@@ -5,7 +5,6 @@ SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
-	security		\
 	power			\
 	$(NULL)
 
@@ -29,6 +28,10 @@ endif
 
 if BUILD_ABOUTME
 SUBDIRS += about-me
+endif
+
+if BUILD_SECURITY
+SUBDIRS += security
 endif
 
 -include $(top_srcdir)/git.mk
