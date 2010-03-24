@@ -37,8 +37,8 @@
 #define SLEEP_MAX 45 * 60
 #define IDLE_MAX 45 * 60
 
-#define SLEEP_NEVER SLEEP_MAX + 31
-#define IDLE_NEVER IDLE_MAX + 31
+#define SLEEP_NEVER SLEEP_MAX + 30
+#define IDLE_NEVER IDLE_MAX + 30
 
 
 #define GPM_DIR "/apps/gnome-power-manager"
@@ -59,6 +59,7 @@
 #define CC_POWER_PANEL_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CC_TYPE_POWER_PANEL, CcPowerPanelPrivate))
 
 #define WID(s) GTK_WIDGET (gtk_builder_get_object (builder, s))
+#define ROUND_MINUTES(sec) ((sec + 30) / 60)
 
 struct CcPowerPanelPrivate
 {
@@ -69,6 +70,9 @@ struct CcPowerPanelPrivate
         guint sleep_id;
 
         GConfClient *gconf;
+        int gconf_idle;               /* minutes of inactivity until idle */
+        int gconf_sleep;              /* seconds of idle-state until sleep */
+        gboolean gconf_sleep_enabled; /* sleep mode != "nothing" */
 };
 
 G_DEFINE_DYNAMIC_TYPE (CcPowerPanel, cc_power_panel, CC_TYPE_PANEL)
@@ -76,7 +80,7 @@ G_DEFINE_DYNAMIC_TYPE (CcPowerPanel, cc_power_panel, CC_TYPE_PANEL)
 static char*
 scale_format_value (GtkScale *scale, gdouble value, CcPowerPanel *panel)
 {
-        int secs = (int) value;
+        int secs = (int)value;
         int max;
 
         if (scale == GTK_SCALE (panel->priv->idle_scale)) {
@@ -89,24 +93,23 @@ scale_format_value (GtkScale *scale, gdouble value, CcPowerPanel *panel)
                 /* TRANSLATORS: texts below idle/sleep scales */
                 return g_strdup_printf (ngettext ("%d minute",
                                                   "%d minutes",
-                                                  (secs+30)/60),
-                                        (secs+30)/60);
+                                                  ROUND_MINUTES (secs)),
+                                        ROUND_MINUTES (secs));
         } else {
                 return g_strdup (_("Never"));
         }
 }
 
 static void
-sleep_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
+save_gconf (CcPowerPanel *panel)
 {
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
         GConfChangeSet *set;
-        int secs;
-        
-        secs = (int)gtk_range_get_value (range);
+
         set = gconf_change_set_new ();
 
-
-        if (secs < SLEEP_NEVER) {
+        gconf_change_set_set_int (set, IDLE_KEY, priv->gconf_idle);
+        if (priv->gconf_sleep_enabled) {
                 gconf_change_set_set_string (set, 
                                              SLEEP_TYPE_BATTERY_KEY,
                                              SLEEP_TYPE);
@@ -115,10 +118,10 @@ sleep_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
                                              SLEEP_TYPE);
                 gconf_change_set_set_int (set, 
                                           SLEEP_BATTERY_KEY,
-                                          secs);
+                                          priv->gconf_sleep);
                 gconf_change_set_set_int (set, 
                                           SLEEP_AC_KEY,
-                                          secs);
+                                          priv->gconf_sleep);
         } else {
                 gconf_change_set_set_string (set, 
                                              SLEEP_TYPE_BATTERY_KEY,
@@ -134,28 +137,71 @@ sleep_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
 }
 
 static void
-idle_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
+sleep_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        int secs;
+        int sleep;
+        int sleep_mins;
 
-        secs = (int)gtk_range_get_value (range);
-        if (secs < IDLE_NEVER) {
-                gconf_client_set_int (priv->gconf, IDLE_KEY, (secs+30)/60, NULL);
-        } else {
-                gconf_client_set_int (priv->gconf, IDLE_KEY, 0, NULL);
+        sleep = (int)gtk_range_get_value (range);
+        sleep_mins = ROUND_MINUTES (sleep);
+
+        if (sleep != SLEEP_NEVER &&
+            priv->gconf_idle != 0 &&
+            sleep_mins <= priv->gconf_idle) {
+                /* need to move idle time to make space for sleep */
+                if (sleep_mins <= 1) {
+                        priv->gconf_idle = 0;
+                } else {
+                        priv->gconf_idle = CLAMP (sleep_mins - 1,
+                                                  1, IDLE_MAX);
+                }
         }
+
+        if (sleep == SLEEP_NEVER) {
+                priv->gconf_sleep_enabled = FALSE;
+        } else {
+                priv->gconf_sleep_enabled = TRUE;
+                priv->gconf_sleep = sleep - priv->gconf_idle * 60;
+        }
+
+        save_gconf (panel);
 }
 
 static void
-update_sleep_toggle (CcPowerPanel *panel)
+idle_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        int sleep = SLEEP_NEVER;
-        char *sleep_type = "nothing";
+        int idle, diff, idle_mins;
+
+        idle = (int)gtk_range_get_value (range);
+        idle_mins = ROUND_MINUTES (idle);
+
+        if (idle == IDLE_NEVER) {
+                diff = - 60 * priv->gconf_idle;
+                priv->gconf_idle = 0;
+        } else {
+                diff = 60 * (idle_mins - priv->gconf_idle);
+                priv->gconf_idle = idle_mins;
+        }
+
+        if (priv->gconf_sleep_enabled) {
+                priv->gconf_sleep = CLAMP (priv->gconf_sleep - diff,
+                                           60, SLEEP_NEVER - 1);
+        }
+
+        save_gconf (panel);
+}
+
+static void
+get_sleep_from_gconf (CcPowerPanel *panel)
+{
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        char *sleep_type;
         GError *error = NULL;
 
-        sleep_type = gconf_client_get_string (priv->gconf, SLEEP_TYPE_BATTERY_KEY,
+        sleep_type = gconf_client_get_string (priv->gconf,
+                                              SLEEP_TYPE_BATTERY_KEY,
                                               &error);
         if (error) {
                 g_warning ("Could not read key %s: %s",
@@ -165,53 +211,79 @@ update_sleep_toggle (CcPowerPanel *panel)
         }
 
         if (!sleep_type || strcmp (sleep_type, "nothing") == 0) {
-                sleep = SLEEP_NEVER;
+                priv->gconf_sleep_enabled = FALSE;
         } else {
-                sleep = gconf_client_get_int (priv->gconf, SLEEP_BATTERY_KEY,
-                                              &error);
+                priv->gconf_sleep_enabled = TRUE;
+                priv->gconf_sleep = gconf_client_get_int (priv->gconf,
+                                                          SLEEP_BATTERY_KEY,
+                                                          &error);
                 if (error) {
                         g_warning ("Could not read key %s: %s",
                                    SLEEP_BATTERY_KEY, error->message);
                         g_error_free (error);
                         error = NULL;
+                        priv->gconf_sleep_enabled = FALSE;
                 }
-                g_free (sleep_type);
         }
-
-        sleep = CLAMP (sleep, 60, SLEEP_NEVER);
-
-        g_signal_handler_block (priv->sleep_scale, priv->sleep_id);
-        gtk_range_set_value (GTK_RANGE (priv->sleep_scale), sleep);
-        g_signal_handler_unblock (priv->sleep_scale, priv->sleep_id);
+        g_free (sleep_type);
 }
 
 static void
-update_idle_toggle (CcPowerPanel *panel)
+get_idle_from_gconf (CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        int idle_secs, current_secs, idle;
         GError *error = NULL;
 
-        idle = gconf_client_get_int (priv->gconf, IDLE_KEY, &error);
+        priv->gconf_idle = gconf_client_get_int (priv->gconf,
+                                                 IDLE_KEY,
+                                                 &error);
         if (error) {
                 g_warning ("Could not read key %s: %s",
                            IDLE_KEY, error->message);
                 g_error_free (error);
                 error = NULL;
-                idle_secs = IDLE_NEVER;
-        } else if (idle == 0) {
-                idle_secs = IDLE_NEVER;
+                priv->gconf_idle = 0;
+        }
+}
+
+static void
+update_sleep_range (CcPowerPanel *panel)
+{
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        int sleep;
+
+        if (priv->gconf_sleep_enabled) {
+                sleep = CLAMP (priv->gconf_sleep + priv->gconf_idle * 60,
+                               60, SLEEP_NEVER - 1);
         } else {
-                idle_secs = 60 * CLAMP (idle, 1, (IDLE_NEVER + 30)/60);
+                sleep = SLEEP_NEVER;
         }
 
+        gtk_range_set_value (GTK_RANGE (priv->sleep_scale), sleep);
+}
+
+static void
+update_idle_range (CcPowerPanel *panel)
+{
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        int idle, idle_mins;
+
         /* no need to move the slider if we're on the right minute */
-        current_secs = (int)gtk_range_get_value (
-                GTK_RANGE (panel->priv->idle_scale));
-        if (idle != (current_secs+30)/60) {
-                g_signal_handler_block (priv->idle_scale, priv->idle_id);
-                gtk_range_set_value (GTK_RANGE (priv->idle_scale), idle_secs);
-                g_signal_handler_unblock (priv->idle_scale, priv->idle_id);
+        idle = (int)gtk_range_get_value (GTK_RANGE (priv->idle_scale));
+        if (idle == IDLE_NEVER) {
+                idle_mins = 0;
+        } else {
+                idle_mins = ROUND_MINUTES (idle);
+        }
+
+        if (priv->gconf_idle != idle_mins) {
+                if (priv->gconf_idle == 0) {
+                        idle = IDLE_NEVER;
+                } else {
+                        idle = CLAMP (priv->gconf_idle * 60,
+                                      60, IDLE_MAX);
+                }
+                gtk_range_set_value (GTK_RANGE (priv->idle_scale), idle);
         }
 }
 
@@ -219,14 +291,26 @@ static void
 gconf_notify_gpm (GConfClient *gconf, guint id,
                   GConfEntry *entry, CcPowerPanel *panel)
 {
-        update_sleep_toggle (panel);
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+
+        get_sleep_from_gconf (panel);
+
+        g_signal_handler_block (priv->sleep_scale, priv->sleep_id);
+        update_sleep_range (panel);
+        g_signal_handler_unblock (priv->sleep_scale, priv->sleep_id);
 }
 
 static void
-gconf_notify_gss (GConfClient *gconf, guint id,
-                  GConfEntry *entry, CcPowerPanel *panel)
+gconf_notify_session (GConfClient *gconf, guint id,
+                      GConfEntry *entry, CcPowerPanel *panel)
 {
-        update_idle_toggle (panel);
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+
+        get_idle_from_gconf (panel);
+
+        g_signal_handler_block (priv->idle_scale, priv->idle_id);
+        update_idle_range (panel);
+        g_signal_handler_unblock (priv->idle_scale, priv->idle_id);
 }
 
 static void
@@ -266,7 +350,7 @@ setup_panel (CcPowerPanel *panel)
                                  (GConfClientNotifyFunc) gconf_notify_gpm,
                                  panel, NULL, NULL);
         gconf_client_notify_add (priv->gconf, IDLE_KEY,
-                                 (GConfClientNotifyFunc) gconf_notify_gss,
+                                 (GConfClientNotifyFunc) gconf_notify_session,
                                  panel, NULL, NULL);
 
         widget = WID ("main_vbox");
@@ -277,6 +361,8 @@ setup_panel (CcPowerPanel *panel)
         gtk_range_set_increments (GTK_RANGE (priv->idle_scale), 60, 300);
         g_signal_connect (priv->idle_scale, "format-value",
                           G_CALLBACK (scale_format_value), panel);
+        get_idle_from_gconf (panel);
+        update_idle_range (panel);
         priv->idle_id = g_signal_connect (priv->idle_scale,
                                           "value-changed",
                                           G_CALLBACK (idle_scale_value_changed),
@@ -287,13 +373,12 @@ setup_panel (CcPowerPanel *panel)
         gtk_range_set_increments (GTK_RANGE (priv->sleep_scale), 60, 300);
         g_signal_connect (priv->sleep_scale, "format-value",
                           G_CALLBACK (scale_format_value), panel);
+        get_sleep_from_gconf (panel);
+        update_sleep_range (panel);
         priv->sleep_id = g_signal_connect (priv->sleep_scale,
                                            "value-changed",
                                            G_CALLBACK (sleep_scale_value_changed),
                                            panel);
-
-        update_idle_toggle (panel);
-        update_sleep_toggle (panel);
 
         g_object_unref (builder);
 }
