@@ -1,25 +1,27 @@
 # Chinese (Taiwan) translation of gnome-control-center.
 # Copyright (C) 1999, 2001-07 Free Software Foundation, Inc.
 # GNOME 1.x:
+# GNOME 2.x:
+#
+#
 # S.J. Luo <crystal@mickey.ee.nctu.edu.tw>, 1999.
 # Abel Cheung <abel@oaka.org>, 2001-2002.
-# GNOME 2.x:
 # Abel Cheung <abel@oaka.org>, 2001-2003, 2005.
 # Woodman Tuen <wmtuen@gmail.com>, 2004-07.
-#
-#
+# Cheng-Chia Tseng <pswo10680@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.27.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-19 17:00+0000\n"
-"PO-Revision-Date: 2010-03-20 11:58+0800\n"
+"POT-Creation-Date: 2010-03-27 09:39+0000\n"
+"PO-Revision-Date: 2010-03-28 22:22+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
+"Language-Team: 正體中文 <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -698,6 +700,7 @@ msgid "Change pa_ssword"
 msgstr "變更密碼(_S)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "變更密碼"
 
@@ -839,10 +842,11 @@ msgstr "使用已選字型"
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
 #: ../capplets/appearance/cc-theme-page.c:1350
 #: ../capplets/appearance/cc-theme-save-dialog.c:456
-#: ../capplets/display/cc-display-page.c:2454
+#: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
 #: ../capplets/network/cc-network-proxy-page.c:1287
+#: ../capplets/power/cc-power-panel.c:331
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "無法載入使用者介面檔案：%s"
@@ -947,7 +951,7 @@ msgstr "本佈景主題建議使用指定的字型。"
 msgid "Custom"
 msgstr "自訂"
 
-#: ../capplets/appearance/cc-appearance-panel.c:200
+#: ../capplets/appearance/cc-appearance-panel.c:209
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "外觀"
@@ -1809,92 +1813,40 @@ msgstr "Totem 影片播放程式"
 msgid "aterm"
 msgstr "aterm"
 
-#: ../capplets/display/cc-display-page.c:325
-#: ../capplets/display/cc-display-page.c:371
-#: ../capplets/display/display-capplet.ui.h:6
-#: ../capplets/display/xrandr-capplet.c:307
-#: ../capplets/display/xrandr-capplet.c:346
-msgid "Normal"
-msgstr "正常"
-
-#: ../capplets/display/cc-display-page.c:326
-#: ../capplets/display/display-capplet.ui.h:4
-#: ../capplets/display/xrandr-capplet.c:308
-msgid "Left"
-msgstr "左"
-
-#: ../capplets/display/cc-display-page.c:327
-#: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:309
-msgid "Right"
-msgstr "右"
-
-#: ../capplets/display/cc-display-page.c:328
-#: ../capplets/display/xrandr-capplet.c:310
-msgid "Upside Down"
-msgstr "由上而下"
-
-#: ../capplets/display/cc-display-page.c:377
-#: ../capplets/display/xrandr-capplet.c:352
-#, c-format
-msgid "%d Hz"
-msgstr "%d Hz"
-
-#. Translators:  this is the feature where what you see on your laptop's
-#. * screen is the same as your external monitor.  Here, "Mirror" is being
-#. * used as an adjective, not as a verb.  For example, the Spanish
-#. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#.
-#: ../capplets/display/cc-display-page.c:550
-#: ../capplets/display/cc-display-page.c:1719
-#: ../capplets/display/xrandr-capplet.c:500
-#: ../capplets/display/xrandr-capplet.c:1607
-msgid "Mirror Screens"
-msgstr "鏡射螢幕"
-
-#: ../capplets/display/cc-display-page.c:552
-#: ../capplets/display/xrandr-capplet.c:502
-#, c-format
-msgid "Monitor: %s"
-msgstr "顯示器：%s"
-
-#: ../capplets/display/cc-display-page.c:563
-#: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:511
-msgid "Monitor"
-msgstr "顯示器"
-
-#: ../capplets/display/cc-display-page.c:644
-#: ../capplets/display/xrandr-capplet.c:580
-#, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
-
-#: ../capplets/display/cc-display-page.c:2174
+#: ../capplets/display/cc-display-minimal-page.c:330
 #: ../capplets/display/xrandr-capplet.c:2027
 msgid "Could not save the monitor configuration"
 msgstr "無法儲存顯示器組態"
 
-#: ../capplets/display/cc-display-page.c:2187
+#: ../capplets/display/cc-display-minimal-page.c:343
 #: ../capplets/display/xrandr-capplet.c:2038
 msgid "Could not get session bus while applying display configuration"
 msgstr "在套用顯示組態時無法取得作業階段匯流排"
 
-#: ../capplets/display/cc-display-page.c:2238
-#: ../capplets/display/xrandr-capplet.c:2080
-msgid "Could not detect displays"
-msgstr "無法偵測顯示器"
+#: ../capplets/display/cc-display-minimal-page.c:478
+#: ../capplets/display/cc-display-minimal-page.c:487
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "您目前只在您的電腦螢幕上顯示您的桌面。請插入另一個顯示器來分享您的檢視內容，接著在每個顯示器上開啟顯示分享功能。"
 
-#: ../capplets/display/cc-display-page.c:2574
+#: ../capplets/display/cc-display-minimal-page.c:496
+#: ../capplets/display/display-minimal.ui.h:4
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr "您正在外接螢幕或投影機上顯示您的桌面。"
+
+#: ../capplets/display/cc-display-minimal-page.c:652
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr "顯示與投影機"
+
+#: ../capplets/display/cc-display-minimal-page.c:672
+#: ../capplets/display/xrandr-capplet.c:2297
+msgid "Could not get screen information"
+msgstr "無法取得螢幕資訊"
+
 #: ../capplets/display/cc-display-panel.c:121
 #: ../capplets/display/display-properties.desktop.in.in.h:2
 msgid "Display"
 msgstr "顯示"
-
-#: ../capplets/display/cc-display-page.c:2595
-#: ../capplets/display/xrandr-capplet.c:2297
-msgid "Could not get screen information"
-msgstr "無法取得螢幕資訊"
 
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Display Preferences"
@@ -1907,6 +1859,22 @@ msgstr "拖曳顯示器來設定它們的位置"
 #: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
 msgstr "包含面板(_P)"
+
+#: ../capplets/display/display-capplet.ui.h:4
+#: ../capplets/display/xrandr-capplet.c:308
+msgid "Left"
+msgstr "左"
+
+#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/xrandr-capplet.c:511
+msgid "Monitor"
+msgstr "顯示器"
+
+#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:346
+msgid "Normal"
+msgstr "正常"
 
 #: ../capplets/display/display-capplet.ui.h:7
 msgid "Off"
@@ -1928,6 +1896,11 @@ msgstr "旋轉(_O):"
 msgid "Re_fresh rate:"
 msgstr "更新頻率(_F):"
 
+#: ../capplets/display/display-capplet.ui.h:12
+#: ../capplets/display/xrandr-capplet.c:309
+msgid "Right"
+msgstr "右"
+
 #: ../capplets/display/display-capplet.ui.h:13
 msgid "Upside-down"
 msgstr "由上而下"
@@ -1948,9 +1921,50 @@ msgstr "解析度(_R):"
 msgid "_Show displays in panel"
 msgstr "在面板顯示螢幕(_S)"
 
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr "外接顯示"
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr "外接顯示解析度"
+
 #: ../capplets/display/display-properties.desktop.in.in.h:1
 msgid "Change screen resolution"
 msgstr "變更螢幕解析度"
+
+#: ../capplets/display/xrandr-capplet.c:310
+msgid "Upside Down"
+msgstr "由上而下"
+
+#: ../capplets/display/xrandr-capplet.c:352
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#. Translators:  this is the feature where what you see on your laptop's
+#. * screen is the same as your external monitor.  Here, "Mirror" is being
+#. * used as an adjective, not as a verb.  For example, the Spanish
+#. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
+#.
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:1607
+msgid "Mirror Screens"
+msgstr "鏡射螢幕"
+
+#: ../capplets/display/xrandr-capplet.c:502
+#, c-format
+msgid "Monitor: %s"
+msgstr "顯示器：%s"
+
+#: ../capplets/display/xrandr-capplet.c:580
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: ../capplets/display/xrandr-capplet.c:2080
+msgid "Could not detect displays"
+msgstr "無法偵測顯示器"
 
 #: ../capplets/display/xrandr-capplet.c:2443
 msgid "- GNOME Display Preferences"
@@ -2274,7 +2288,7 @@ msgstr "製造商(_V):"
 msgid "Keyboard Layout Options"
 msgstr "鍵盤配置選項"
 
-#: ../capplets/keyboard/cc-keyboard-panel.c:156
+#: ../capplets/keyboard/cc-keyboard-panel.c:163
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
@@ -2521,7 +2535,7 @@ msgstr "第二次點擊(_N):"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:25
 msgid "Sh_ow position of pointer when the Control key is pressed"
-msgstr "當按下 Control 時顯示游標的位置(_O)"
+msgstr "當按下 Control 鍵時顯示游標的位置(_O)"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Show click type _window"
@@ -2739,6 +2753,144 @@ msgstr "使用認證(_U)"
 msgid "_Use the same proxy for all protocols"
 msgstr "所有協定皆使用相同的代理伺服器(_U)"
 
+#: ../capplets/security/run-passwd.c:427
+msgid "Authentication failed"
+msgstr "認證失敗"
+
+#: ../capplets/security/run-passwd.c:503
+#, c-format
+msgid "The new password is too short"
+msgstr "新的密碼過短"
+
+#: ../capplets/security/run-passwd.c:508
+#, c-format
+msgid "The new password is too simple"
+msgstr "新的密碼過度簡單"
+
+#: ../capplets/security/run-passwd.c:512
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "舊密碼與新密碼太相似"
+
+#: ../capplets/security/run-passwd.c:515
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "新的密碼必須包含數字或特殊字元"
+
+#: ../capplets/security/run-passwd.c:519
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "舊密碼與新的密碼是相同的"
+
+#: ../capplets/security/run-passwd.c:523
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "在通過認證後您的密碼已被變更！"
+
+#: ../capplets/security/run-passwd.c:527
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "新的密碼未包含足夠的不同字元"
+
+#: ../capplets/security/run-passwd.c:531
+#, c-format
+msgid "Unknown error"
+msgstr "不明的錯誤"
+
+#: ../capplets/security/cc-security-panel.c:153
+msgid "Sorry, the passwords do not match"
+msgstr "很抱歉，密碼不相符"
+
+#: ../capplets/security/cc-security-panel.c:178
+msgid "The new password is now saved"
+msgstr "新的密碼現在已儲存"
+
+#: ../capplets/security/cc-security-panel.c:209
+msgid "Sorry, the password could not be changed"
+msgstr "很抱歉，您的密碼無法變更"
+
+#: ../capplets/security/cc-security-panel.c:425
+msgid "Sorry, that password is incorrect"
+msgstr "很抱歉，密碼不正確"
+
+#: ../capplets/security/cc-security-panel.c:476
+msgid "Security"
+msgstr "安全性"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#: ../capplets/security/security.ui.h:7
+msgid "Security and passwords"
+msgstr "安全性與密碼"
+
+#: ../capplets/security/security.ui.h:2
+msgid "Current password:"
+msgstr "目前密碼："
+
+#: ../capplets/security/security.ui.h:3
+msgid "New password:"
+msgstr "新的密碼："
+
+#: ../capplets/security/security.ui.h:4
+msgid "Repeat password:"
+msgstr "重複密碼："
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr "啟動或喚醒我的電腦需要密碼"
+
+#: ../capplets/security/security.ui.h:6
+msgid "Save new password"
+msgstr "儲存新密碼"
+
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+#: ../capplets/power/cc-power-panel.c:397
+#: ../capplets/power/power.ui.h:2
+msgid "Power and brightness"
+msgstr "電源與亮度"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:94
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分鐘"
+
+#: ../capplets/power/cc-power-panel.c:99
+msgid "Never"
+msgstr "永不"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "亮度"
+
+#: ../capplets/power/power.ui.h:3
+msgid "Put computer to sleep when inactive for:"
+msgstr "當電腦不活動多久時間便讓它進入睡眠："
+
+#: ../capplets/power/power.ui.h:4
+msgid "Set computer as idle when inactive for:"
+msgstr "當電腦不活動多久時間便設為閒置："
+
+#: ../capplets/power/power.ui.h:5
+msgid "Sleep"
+msgstr "睡眠"
+
+#: ../capplets/power/power.ui.h:6
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr "這會讓螢幕轉黑，並將您的訊息狀態設為「離開」。"
+
+#: ../capplets/power/power.ui.h:7
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "這會暫停您電腦上的每件事。它會被喚醒回它之前的狀態。"
+
+#: ../capplets/power/power.ui.h:8
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "要變更您的亮度，您可以使用您電腦上的按鍵。"
+
+#: ../capplets/power/power.ui.h:9
+msgid "ldle"
+msgstr "閒置"
+
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
 msgstr "無法啟動視窗總管的偏好設定"
@@ -2753,7 +2905,7 @@ msgstr "H_yper"
 
 #: ../capplets/windows/gnome-window-properties.c:617
 msgid "S_uper (or \"Windows logo\")"
-msgstr "S_uper (或者「視窗標誌」)"
+msgstr "S_uper (或者「視窗圖標 」)"
 
 #: ../capplets/windows/gnome-window-properties.c:624
 msgid "_Meta"
@@ -3635,8 +3787,6 @@ msgstr "分析參數時發生錯誤：%s\n"
 #~ msgstr "OSS - 開放音效系統"
 #~ msgid "PulseAudio Sound Server"
 #~ msgstr "Polypaudio 音效伺服器"
-#~ msgid "Silence"
-#~ msgstr "無聲"
 #~ msgid "- GNOME Sound Preferences"
 #~ msgstr " - GNOME 音效偏好設定"
 #~ msgid "<b>Alerts and Sound Effects</b>"
