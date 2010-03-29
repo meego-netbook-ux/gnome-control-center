@@ -20,7 +20,7 @@ msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-03-27 09:39+0000\n"
-"PO-Revision-Date: 2010-03-28 02:49-0800\n"
+"PO-Revision-Date: 2010-03-28 21:18-0800\n"
 "Last-Translator: Andreas Machoy <amachoy@hotmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -251,7 +251,6 @@ msgstr "Persönliche Angaben von %s"
 #: ../capplets/keyboard/gnome-keyboard-properties.c:243
 #: ../capplets/mouse/gnome-mouse-properties.c:599
 #: ../capplets/network/gnome-network-properties.c:1380
-#, fuzzy
 msgid "ID of the socket to embed in"
 msgstr "Kennung des Sockets zum Einbetten"
 
@@ -261,14 +260,12 @@ msgstr "Kennung des Sockets zum Einbetten"
 #: ../capplets/keyboard/gnome-keyboard-properties.c:244
 #: ../capplets/mouse/gnome-mouse-properties.c:600
 #: ../capplets/network/gnome-network-properties.c:1381
-#, fuzzy
 msgid "socket"
 msgstr "Socket"
 
 #: ../capplets/about-me/gnome-about-me.c:1023
-#, fuzzy
 msgid "- GNOME About Me"
-msgstr "Melde mich an"
+msgstr "- GNOME Über mich"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
 msgid "A_IM/iChat:"
@@ -732,6 +729,7 @@ msgstr ""
 "Nachdem Sie sich legitimiert haben, geben Sie bitte Ihr neues Passwort ein, wiederholen Sie es zur Bestätigung und klicken Sie dann auf <b>Passwort ändern</b>."
 
 # Sollte hier nicht auch »Legitimieren« stehen?
+# --- Wahrscheinlich ja, aber ist 'Legitimieren' wirklich das bessere Wort? Klingt für mich irgendwie schrecklich...
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
 msgstr "_Authentifizieren"
@@ -803,12 +801,11 @@ msgstr "_Bevorzugte Anwendungen"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
 msgid "Change settings in order to make the system easier to use"
-msgstr ""
+msgstr "Einstellungen ändern, um den Gebrauch des Systems zu erleichtern"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-#, fuzzy
 msgid "Universal Access"
-msgstr "Auf Gerät »%s« konnte nicht zugegriffen werden"
+msgstr "Universeller Zugriff"
 
 #: ../capplets/appearance/appearance-desktop.c:628
 #: ../capplets/appearance/cc-background-page.c:1133
@@ -1847,18 +1844,17 @@ msgstr "Beim Anwenden der Bildschirmeinstellungen konnte der Sitzungsbus nicht a
 #: ../capplets/display/cc-display-minimal-page.c:478
 #: ../capplets/display/cc-display-minimal-page.c:487
 msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
-msgstr ""
+msgstr "Ihr Desktop wird nur auf dem Bildschirm Ihres Computers angezeigt. Schließen Sie ein weiteres Display an und schalten Sie Display-Sharing ein, um Ihre Anzeige zu teilen."
 
 #: ../capplets/display/cc-display-minimal-page.c:496
 #: ../capplets/display/display-minimal.ui.h:4
 msgid "You are showing your desktop on an external monitor or projector."
-msgstr ""
+msgstr "Ihr Desktop wird auf einem externen Monitor oder Projektor angezeigt."
 
 #: ../capplets/display/cc-display-minimal-page.c:652
 #: ../capplets/display/display-minimal.ui.h:1
-#, fuzzy
 msgid "Displays and projectors"
-msgstr "und %d andere Aktualisierung"
+msgstr "Displays und Projektoren"
 
 #: ../capplets/display/cc-display-minimal-page.c:672
 #: ../capplets/display/xrandr-capplet.c:2297
@@ -1945,14 +1941,12 @@ msgid "_Show displays in panel"
 msgstr "Bildschirme im _Panel anzeigen"
 
 #: ../capplets/display/display-minimal.ui.h:2
-#, fuzzy
 msgid "External display"
-msgstr "Bildschirmhelligkeit"
+msgstr "Externer Bildschirm"
 
 #: ../capplets/display/display-minimal.ui.h:3
-#, fuzzy
 msgid "External display resolution"
-msgstr "Auflösen der Abhängigkeit fehlgeschlagen"
+msgstr "Auflösung des externen Bildschirms"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:1
 msgid "Change screen resolution"
@@ -1992,9 +1986,8 @@ msgid "Could not detect displays"
 msgstr "Anzeigen konnten nicht erkannt werden"
 
 #: ../capplets/display/xrandr-capplet.c:2443
-#, fuzzy
 msgid "- GNOME Display Preferences"
-msgstr "– GNOME-Tastatureinstellungen"
+msgstr "- GNOME Bildschirmeinstellungen"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:219
 #: ../capplets/keyboard/gnome-keyboard-properties.c:224
@@ -2452,9 +2445,8 @@ msgid "Set your keyboard preferences"
 msgstr "Die Tastatureinstellungen festlegen"
 
 #: ../capplets/mouse/cc-pointer-panel.c:95
-#, fuzzy
 msgid "Pointing Devices"
-msgstr "Geräte ignorieren"
+msgstr "Zeigegeräte"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2671,14 +2663,12 @@ msgid "Delete Location"
 msgstr "Ort löschen"
 
 #: ../capplets/network/cc-network-proxy-page.c:1546
-#, fuzzy
 msgid "Proxy"
 msgstr "Netzwerk-Proxy"
 
 #: ../capplets/network/gnome-network-properties.c:1386
-#, fuzzy
 msgid "- GNOME Network Preferences"
-msgstr "Netzwerk-Proxy-Einstellungen"
+msgstr "- GNOME Netzwerk-Einstellungen"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2701,9 +2691,8 @@ msgid "Create New Location"
 msgstr "Neuen Ort erstellen"
 
 #: ../capplets/network/gnome-network-properties.ui.h:4
-#, fuzzy
 msgid "Di_rect internet connection"
-msgstr "<b>Di_rekte Internet-Verbindung</b>"
+msgstr "Di_rekte Internet-Verbindung"
 
 #: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
@@ -2750,9 +2739,8 @@ msgid "U_sername:"
 msgstr "_Benutzername:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:16
-#, fuzzy
 msgid "_Automatic proxy configuration"
-msgstr "Paketquellenkonfiguration ungültig"
+msgstr "_Automatische Proxy-Konfiguration"
 
 #: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
@@ -2771,9 +2759,8 @@ msgid "_Location name:"
 msgstr "Name des _Orts:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:21
-#, fuzzy
 msgid "_Manual proxy configuration"
-msgstr "Manuelle TCP/IP-Konfiguration"
+msgstr "_Manuelle Proxy-Konfiguration"
 
 #: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
@@ -2784,16 +2771,14 @@ msgid "_Secure HTTP proxy:"
 msgstr "_Sicherer HTTP-Proxy:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:24
-#, fuzzy
 msgid "_Use authentication"
-msgstr "Verschlüsselung benutzen:"
+msgstr "Legitimier_ung benutzen"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "Den se_lben Proxy für alle Protokolle verwenden"
 
 #: ../capplets/security/run-passwd.c:427
-#, fuzzy
 msgid "Authentication failed"
 msgstr "Legitimierung gescheitert"
 
@@ -2823,9 +2808,9 @@ msgid "The old and new passwords are the same"
 msgstr "Altes und neues Passwort stimmen überein"
 
 #: ../capplets/security/run-passwd.c:523
-#, fuzzy, c-format
+#, c-format
 msgid "Your password has been changed since you initially authenticated!"
-msgstr "Ihr Passwort wurde geändert, nachdem Sie sich legitimiert haben! Bitte legitimieren Sie sich erneut."
+msgstr "Ihr Passwort wurde seit Ihrer ursprünglichen Legitimierung geändert!"
 
 #: ../capplets/security/run-passwd.c:527
 #, c-format
@@ -2878,7 +2863,7 @@ msgstr "Passwort wiederholen:"
 
 #: ../capplets/security/security.ui.h:5
 msgid "Require a password to turn on or wake up my computer"
-msgstr ""
+msgstr "Passwort zum Einschalten oder Aufwecken des Computers erforderlich"
 
 #: ../capplets/security/security.ui.h:6
 msgid "Save new password"
@@ -2887,9 +2872,8 @@ msgstr "Neues Passwort speichern"
 #: ../capplets/power/power-properties.desktop.in.in.h:1
 #: ../capplets/power/cc-power-panel.c:397
 #: ../capplets/power/power.ui.h:2
-#, fuzzy
 msgid "Power and brightness"
-msgstr "und %d andere Aktualisierung"
+msgstr "Energie und Helligkeit"
 
 #. TRANSLATORS: texts below idle/sleep scales
 #: ../capplets/power/cc-power-panel.c:94
@@ -2908,13 +2892,12 @@ msgid "Brightness"
 msgstr "Bildschirmhelligkeit"
 
 #: ../capplets/power/power.ui.h:3
-#, fuzzy
 msgid "Put computer to sleep when inactive for:"
 msgstr "Den Computer in Sleep-Mode versetzen, wenn er nicht aktiv ist für:"
 
 #: ../capplets/power/power.ui.h:4
 msgid "Set computer as idle when inactive for:"
-msgstr ""
+msgstr "Den Computer auf Leerlauf setzen, wenn er nicht aktiv ist für:"
 
 #: ../capplets/power/power.ui.h:5
 msgid "Sleep"
@@ -2922,19 +2905,19 @@ msgstr "Sleep-Mode"
 
 #: ../capplets/power/power.ui.h:6
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr ""
+msgstr "Damit wird der Bildschirm abgedunkelt und Ihr IM-Status auf 'abwesend' gesetzt."
 
 #: ../capplets/power/power.ui.h:7
 msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
-msgstr ""
+msgstr "Damit wird Ihr Computer in the Standby-Modus versetzt. Nach dem Aufwachen befindet er sich im selben Zustand als zuvor."
 
 #: ../capplets/power/power.ui.h:8
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr ""
+msgstr "Sie können die Helligkeit mit Hilfe der Tastatur des Computers verändern."
 
 #: ../capplets/power/power.ui.h:9
 msgid "ldle"
-msgstr ""
+msgstr "Inaktiv"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
