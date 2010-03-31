@@ -63,6 +63,8 @@ typedef struct
 
   guint32 last_time;
 
+  gboolean ignore_release;
+
 } ShellData;
 
 enum
@@ -79,13 +81,23 @@ enum
 
 static void item_activated_cb (GtkIconView *icon_view, GtkTreePath *path, ShellData *data);
 
+static gboolean
+button_press_cb (GtkWidget *view,
+                 GdkEventButton *event,
+                 ShellData *data)
+{
+  /* ignore releases after double or tripple clicks */
+  data->ignore_release = (event->type != GDK_BUTTON_PRESS);
+
+  return FALSE;
+}
 
 static gboolean
 button_release_cb (GtkWidget      *view,
                    GdkEventButton *event,
                    ShellData      *data)
 {
-  if (event->button == 1)
+  if (event->button == 1 && !data->ignore_release)
     {
       GList *selection;
 
@@ -101,6 +113,7 @@ button_release_cb (GtkWidget      *view,
       g_list_free (selection);
       return TRUE;
     }
+
   return FALSE;
 }
 
@@ -229,8 +242,8 @@ fill_model (ShellData *data)
   gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (w), data->search_renderer,
                                  "search-target", COL_SEARCH_TARGET);
 
-  g_signal_connect (w, "item-activated",
-                    G_CALLBACK (item_activated_cb), data);
+  g_signal_connect (w, "button-press-event",
+                    G_CALLBACK (button_press_cb), data);
   g_signal_connect (w, "button-release-event",
                     G_CALLBACK (button_release_cb), data);
   g_signal_connect (w, "selection-changed",
@@ -283,8 +296,8 @@ fill_model (ShellData *data)
           gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 120);
 #endif
 
-          g_signal_connect (iconview, "item-activated",
-                            G_CALLBACK (item_activated_cb), data);
+          g_signal_connect (iconview, "button-press-event",
+                            G_CALLBACK (button_press_cb), data);
           g_signal_connect (iconview, "button-release-event",
                             G_CALLBACK (button_release_cb), data);
           g_signal_connect (iconview, "selection-changed",
