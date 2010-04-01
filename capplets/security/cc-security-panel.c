@@ -368,6 +368,21 @@ gconf_notify (GConfClient *gconf,
 }
 
 static void
+panel_active_changed (CcSecurityPanel *panel, gboolean active)
+{
+        CcSecurityPanelPrivate *priv = GET_PRIVATE (panel);
+
+        if (active) {
+                gtk_entry_set_text (GTK_ENTRY (priv->current_entry), "");
+                gtk_entry_set_text (GTK_ENTRY (priv->new_entry), "");
+                gtk_entry_set_text (GTK_ENTRY (priv->verify_entry), "");
+
+                gtk_widget_hide (priv->verify_info_bar);
+                gtk_widget_hide (priv->current_info_bar);
+        }
+}
+
+static void
 cc_security_panel_setup_panel (CcSecurityPanel *panel)
 {
         CcSecurityPanelPrivate *priv = GET_PRIVATE (panel);
@@ -419,6 +434,7 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
         /* no infobar in glade yet... */
         box = GET_WIDGET (builder, "current_warning_box");
         priv->current_info_bar = gtk_info_bar_new ();
+        gtk_widget_set_no_show_all (priv->current_info_bar, TRUE);
         gtk_info_bar_set_message_type (GTK_INFO_BAR (priv->current_info_bar),
                                        GTK_MESSAGE_WARNING);
         gtk_box_pack_start_defaults (GTK_BOX (box), priv->current_info_bar);
@@ -430,6 +446,7 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
 
         box = GET_WIDGET (builder, "verify_warning_box");
         priv->verify_info_bar = gtk_info_bar_new ();
+        gtk_widget_set_no_show_all (priv->verify_info_bar, TRUE);
         gtk_box_pack_start_defaults (GTK_BOX (box), priv->verify_info_bar);
         priv->verify_info_label = gtk_label_new ("");
         gtk_widget_show (priv->verify_info_label);
@@ -460,6 +477,9 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
         g_object_unref (builder);
 
         priv->passwd_handler = passwd_init ();
+
+        g_signal_connect (panel, "active-changed",
+                          G_CALLBACK (panel_active_changed), NULL);
 }
 
 static GObject *
