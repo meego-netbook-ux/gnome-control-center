@@ -43,15 +43,19 @@
 
 #define GPM_DIR "/apps/gnome-power-manager"
 #define SESSION_DIR "/desktop/gnome/session"
+#define MOBLIN_DIR "/desktop/moblin"
 
 /* values are "hibernate", "suspend" or "nothing" */
-#define SLEEP_TYPE_BATTERY_KEY GPM_DIR"/actions/sleep_type_battery"
-#define SLEEP_TYPE_AC_KEY GPM_DIR"/actions/sleep_type_ac"
-#define SLEEP_TYPE "suspend"
+#define GPM_SLEEP_TYPE_BATTERY_KEY GPM_DIR"/actions/sleep_type_battery"
+#define GPM_SLEEP_TYPE_AC_KEY GPM_DIR"/actions/sleep_type_ac"
+#define GPM_SLEEP_TYPE "suspend"
 
 /* seconds until going to sleep */
-#define SLEEP_AC_KEY GPM_DIR"/timeout/sleep_computer_ac"
-#define SLEEP_BATTERY_KEY GPM_DIR"/timeout/sleep_computer_battery"
+#define GPM_SLEEP_AC_KEY GPM_DIR"/timeout/sleep_computer_ac"
+#define GPM_SLEEP_BATTERY_KEY GPM_DIR"/timeout/sleep_computer_battery"
+
+/* sleep for moblin, seconds until going to sleep */
+#define MOBLIN_SLEEP_KEY MOBLIN_DIR"/suspend_idle_time"
 
 /* minutes until idle */
 #define IDLE_KEY SESSION_DIR"/idle_delay"
@@ -109,27 +113,39 @@ save_gconf (CcPowerPanel *panel)
         set = gconf_change_set_new ();
 
         gconf_change_set_set_int (set, IDLE_KEY, priv->gconf_idle);
+#ifdef HAVE_MOBLIN
         if (priv->gconf_sleep_enabled) {
-                gconf_change_set_set_string (set, 
-                                             SLEEP_TYPE_BATTERY_KEY,
-                                             SLEEP_TYPE);
-                gconf_change_set_set_string (set, 
-                                             SLEEP_TYPE_AC_KEY,
-                                             SLEEP_TYPE);
-                gconf_change_set_set_int (set, 
-                                          SLEEP_BATTERY_KEY,
-                                          priv->gconf_sleep);
-                gconf_change_set_set_int (set, 
-                                          SLEEP_AC_KEY,
+                gconf_change_set_set_int (set,
+                                          MOBLIN_SLEEP_KEY,
                                           priv->gconf_sleep);
         } else {
-                gconf_change_set_set_string (set, 
-                                             SLEEP_TYPE_BATTERY_KEY,
+                gconf_change_set_set_int (set,
+                                          MOBLIN_SLEEP_KEY,
+                                          0);
+        }
+#else
+        if (priv->gconf_sleep_enabled) {
+                gconf_change_set_set_string (set,
+                                             GPM_SLEEP_TYPE_BATTERY_KEY,
+                                             GPM_SLEEP_TYPE);
+                gconf_change_set_set_string (set,
+                                             GPM_SLEEP_TYPE_AC_KEY,
+                                             GPM_SLEEP_TYPE);
+                gconf_change_set_set_int (set,
+                                          GPM_SLEEP_BATTERY_KEY,
+                                          priv->gconf_sleep);
+                gconf_change_set_set_int (set,
+                                          GPM_SLEEP_AC_KEY,
+                                          priv->gconf_sleep);
+        } else {
+                gconf_change_set_set_string (set,
+                                             GPM_SLEEP_TYPE_BATTERY_KEY,
                                              "nothing");
-                gconf_change_set_set_string (set, 
-                                             SLEEP_TYPE_AC_KEY,
+                gconf_change_set_set_string (set,
+                                             GPM_SLEEP_TYPE_AC_KEY,
                                              "nothing");
         }
+#endif
 
         gconf_client_commit_change_set (panel->priv->gconf,
                                         set, TRUE, NULL);
@@ -197,15 +213,33 @@ static void
 get_sleep_from_gconf (CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        char *sleep_type;
         GError *error = NULL;
 
+#ifdef HAVE_MOBLIN
+        priv->gconf_sleep = gconf_client_get_int (priv->gconf,
+                                                  MOBLIN_SLEEP_KEY,
+                                                  &error);
+        if (error) {
+                g_warning ("Could not read key %s: %s",
+                           MOBLIN_SLEEP_KEY, error->message);
+                g_error_free (error);
+                error = NULL;
+                priv->gconf_sleep_enabled = FALSE;
+        } else if (priv->gconf_sleep == 0) {
+                priv->gconf_sleep_enabled = FALSE;
+        } else {
+                priv->gconf_sleep_enabled = TRUE;
+        }
+#else
+{
+        char *sleep_type;
+
         sleep_type = gconf_client_get_string (priv->gconf,
-                                              SLEEP_TYPE_BATTERY_KEY,
+                                              GPM_SLEEP_TYPE_BATTERY_KEY,
                                               &error);
         if (error) {
                 g_warning ("Could not read key %s: %s",
-                           SLEEP_TYPE_BATTERY_KEY, error->message);
+                           GPM_SLEEP_TYPE_BATTERY_KEY, error->message);
                 g_error_free (error);
                 error = NULL;
         }
@@ -215,17 +249,19 @@ get_sleep_from_gconf (CcPowerPanel *panel)
         } else {
                 priv->gconf_sleep_enabled = TRUE;
                 priv->gconf_sleep = gconf_client_get_int (priv->gconf,
-                                                          SLEEP_BATTERY_KEY,
+                                                          GPM_SLEEP_BATTERY_KEY,
                                                           &error);
                 if (error) {
                         g_warning ("Could not read key %s: %s",
-                                   SLEEP_BATTERY_KEY, error->message);
+                                   GPM_SLEEP_BATTERY_KEY, error->message);
                         g_error_free (error);
                         error = NULL;
                         priv->gconf_sleep_enabled = FALSE;
                 }
         }
         g_free (sleep_type);
+}
+#endif
 }
 
 static void
@@ -334,21 +370,30 @@ setup_panel (CcPowerPanel *panel)
         }
 
         priv->gconf = gconf_client_get_default ();
+#ifdef HAVE_MOBLIN
+        gconf_client_add_dir (priv->gconf,
+                              MOBLIN_DIR,
+                              GCONF_CLIENT_PRELOAD_NONE,
+                              NULL);
+        gconf_client_notify_add (priv->gconf, MOBLIN_SLEEP_KEY,
+                                 (GConfClientNotifyFunc) gconf_notify_gpm,
+                                 panel, NULL, NULL);
+#else
         gconf_client_add_dir (priv->gconf,
                               GPM_DIR,
                               GCONF_CLIENT_PRELOAD_NONE,
                               NULL);
+        gconf_client_notify_add (priv->gconf, GPM_SLEEP_TYPE_BATTERY_KEY,
+                                 (GConfClientNotifyFunc) gconf_notify_gpm,
+                                 panel, NULL, NULL);
+        gconf_client_notify_add (priv->gconf, GPM_SLEEP_BATTERY_KEY,
+                                 (GConfClientNotifyFunc) gconf_notify_gpm,
+                                 panel, NULL, NULL);
+#endif
         gconf_client_add_dir (priv->gconf,
                               SESSION_DIR,
                               GCONF_CLIENT_PRELOAD_NONE,
                               NULL);
-
-        gconf_client_notify_add (priv->gconf, SLEEP_TYPE_BATTERY_KEY,
-                                 (GConfClientNotifyFunc) gconf_notify_gpm,
-                                 panel, NULL, NULL);
-        gconf_client_notify_add (priv->gconf, SLEEP_BATTERY_KEY,
-                                 (GConfClientNotifyFunc) gconf_notify_gpm,
-                                 panel, NULL, NULL);
         gconf_client_notify_add (priv->gconf, IDLE_KEY,
                                  (GConfClientNotifyFunc) gconf_notify_session,
                                  panel, NULL, NULL);
