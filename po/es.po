@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-22 09:32+0000\n"
-"PO-Revision-Date: 2010-03-22 10:07-0800\n"
-"Last-Translator: Tomás Galicia <tomas.galicia@intel.com>\n"
+"POT-Creation-Date: 2010-04-05 09:36+0000\n"
+"PO-Revision-Date: 2010-04-06 14:00-0800\n"
+"Last-Translator: Gonzalo Velasquez <gonzalox.e.velasquez@intel.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -707,6 +707,7 @@ msgid "Change pa_ssword"
 msgstr "Cambiar _contraseña"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "Cambiar contraseña"
 
@@ -850,10 +851,11 @@ msgstr "Usar la tipografía seleccionada"
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
 #: ../capplets/appearance/cc-theme-page.c:1350
 #: ../capplets/appearance/cc-theme-save-dialog.c:456
-#: ../capplets/display/cc-display-page.c:2454
+#: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
 #: ../capplets/network/cc-network-proxy-page.c:1287
+#: ../capplets/power/cc-power-panel.c:367
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "No se pudo cargar el archivo de interfaz de usuario: %s"
@@ -958,7 +960,7 @@ msgstr "El tema actual sugiere una tipografía."
 msgid "Custom"
 msgstr "Personalizado"
 
-#: ../capplets/appearance/cc-appearance-panel.c:200
+#: ../capplets/appearance/cc-appearance-panel.c:209
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "Apariencia"
@@ -1821,92 +1823,40 @@ msgstr "Reproductor de películas Totem"
 msgid "aterm"
 msgstr "aterm"
 
-#: ../capplets/display/cc-display-page.c:325
-#: ../capplets/display/cc-display-page.c:371
-#: ../capplets/display/display-capplet.ui.h:6
-#: ../capplets/display/xrandr-capplet.c:307
-#: ../capplets/display/xrandr-capplet.c:346
-msgid "Normal"
-msgstr "Normal"
-
-#: ../capplets/display/cc-display-page.c:326
-#: ../capplets/display/display-capplet.ui.h:4
-#: ../capplets/display/xrandr-capplet.c:308
-msgid "Left"
-msgstr "Izquierda"
-
-#: ../capplets/display/cc-display-page.c:327
-#: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:309
-msgid "Right"
-msgstr "Derecha"
-
-#: ../capplets/display/cc-display-page.c:328
-#: ../capplets/display/xrandr-capplet.c:310
-msgid "Upside Down"
-msgstr "Hacia abajo"
-
-#: ../capplets/display/cc-display-page.c:377
-#: ../capplets/display/xrandr-capplet.c:352
-#, c-format
-msgid "%d Hz"
-msgstr "%d Hz"
-
-#. Translators:  this is the feature where what you see on your laptop's
-#. * screen is the same as your external monitor.  Here, "Mirror" is being
-#. * used as an adjective, not as a verb.  For example, the Spanish
-#. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#.
-#: ../capplets/display/cc-display-page.c:550
-#: ../capplets/display/cc-display-page.c:1719
-#: ../capplets/display/xrandr-capplet.c:500
-#: ../capplets/display/xrandr-capplet.c:1607
-msgid "Mirror Screens"
-msgstr "Espejar pantallas"
-
-#: ../capplets/display/cc-display-page.c:552
-#: ../capplets/display/xrandr-capplet.c:502
-#, c-format
-msgid "Monitor: %s"
-msgstr "Monitor: %s"
-
-#: ../capplets/display/cc-display-page.c:563
-#: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:511
-msgid "Monitor"
-msgstr "Monitor"
-
-#: ../capplets/display/cc-display-page.c:644
-#: ../capplets/display/xrandr-capplet.c:580
-#, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
-
-#: ../capplets/display/cc-display-page.c:2174
+#: ../capplets/display/cc-display-minimal-page.c:330
 #: ../capplets/display/xrandr-capplet.c:2027
 msgid "Could not save the monitor configuration"
 msgstr "No se pudo guardar la configuración del monitor"
 
-#: ../capplets/display/cc-display-page.c:2187
+#: ../capplets/display/cc-display-minimal-page.c:343
 #: ../capplets/display/xrandr-capplet.c:2038
 msgid "Could not get session bus while applying display configuration"
 msgstr "No se pudo obtener la sesión del bus al aplicar la configuración de la pantalla"
 
-#: ../capplets/display/cc-display-page.c:2238
-#: ../capplets/display/xrandr-capplet.c:2080
-msgid "Could not detect displays"
-msgstr "No se pudieron detectar las pantallas"
+#: ../capplets/display/cc-display-minimal-page.c:478
+#: ../capplets/display/cc-display-minimal-page.c:487
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "Estás mostrando tu escritorio en la pantalla del ordenador. Conecta otro medio para compartir lo que ves y luego enciende la opción para compartir pantalla."
 
-#: ../capplets/display/cc-display-page.c:2574
+#: ../capplets/display/cc-display-minimal-page.c:496
+#: ../capplets/display/display-minimal.ui.h:4
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr "Estás mostrando tu escritorio en un monitor o proyector externo."
+
+#: ../capplets/display/cc-display-minimal-page.c:652
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr "Pantallas y proyectores"
+
+#: ../capplets/display/cc-display-minimal-page.c:672
+#: ../capplets/display/xrandr-capplet.c:2297
+msgid "Could not get screen information"
+msgstr "No se pudo obtener la información de la pantalla"
+
 #: ../capplets/display/cc-display-panel.c:121
 #: ../capplets/display/display-properties.desktop.in.in.h:2
 msgid "Display"
 msgstr "Pantalla"
-
-#: ../capplets/display/cc-display-page.c:2595
-#: ../capplets/display/xrandr-capplet.c:2297
-msgid "Could not get screen information"
-msgstr "No se pudo obtener la información de la pantalla"
 
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Display Preferences"
@@ -1919,6 +1869,22 @@ msgstr "Arrastre los monitores para ajustar su ubicación"
 #: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
 msgstr "Incluir pa_nel"
+
+#: ../capplets/display/display-capplet.ui.h:4
+#: ../capplets/display/xrandr-capplet.c:308
+msgid "Left"
+msgstr "Izquierda"
+
+#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/xrandr-capplet.c:511
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:346
+msgid "Normal"
+msgstr "Normal"
 
 #: ../capplets/display/display-capplet.ui.h:7
 msgid "Off"
@@ -1940,6 +1906,11 @@ msgstr "R_otación:"
 msgid "Re_fresh rate:"
 msgstr "Tasa de re_fresco:"
 
+#: ../capplets/display/display-capplet.ui.h:12
+#: ../capplets/display/xrandr-capplet.c:309
+msgid "Right"
+msgstr "Derecha"
+
 #: ../capplets/display/display-capplet.ui.h:13
 msgid "Upside-down"
 msgstr "Hacia abajo"
@@ -1960,9 +1931,50 @@ msgstr "_Resolución:"
 msgid "_Show displays in panel"
 msgstr "_Mostrar pantallas en el panel"
 
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr "Pantalla externa"
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr "Resolución de pantalla externa"
+
 #: ../capplets/display/display-properties.desktop.in.in.h:1
 msgid "Change screen resolution"
 msgstr "Cambie la resolución de la pantalla"
+
+#: ../capplets/display/xrandr-capplet.c:310
+msgid "Upside Down"
+msgstr "Hacia abajo"
+
+#: ../capplets/display/xrandr-capplet.c:352
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#. Translators:  this is the feature where what you see on your laptop's
+#. * screen is the same as your external monitor.  Here, "Mirror" is being
+#. * used as an adjective, not as a verb.  For example, the Spanish
+#. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
+#.
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:1607
+msgid "Mirror Screens"
+msgstr "Espejar pantallas"
+
+#: ../capplets/display/xrandr-capplet.c:502
+#, c-format
+msgid "Monitor: %s"
+msgstr "Monitor: %s"
+
+#: ../capplets/display/xrandr-capplet.c:580
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: ../capplets/display/xrandr-capplet.c:2080
+msgid "Could not detect displays"
+msgstr "No se pudieron detectar las pantallas"
 
 # There are 2 interpretations possible. The correct one is number 2 (by looking at context and similar strings)
 # 1) To display the current preferences
@@ -2289,7 +2301,7 @@ msgstr "_Fabricantes:"
 msgid "Keyboard Layout Options"
 msgstr "Opciones de distribución del teclado"
 
-#: ../capplets/keyboard/cc-keyboard-panel.c:156
+#: ../capplets/keyboard/cc-keyboard-panel.c:163
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
@@ -2754,6 +2766,145 @@ msgstr "_Usar autenticación"
 msgid "_Use the same proxy for all protocols"
 msgstr "_Usar el mismo proxy para todos los protocolos"
 
+#: ../capplets/security/run-passwd.c:427
+msgid "Authentication failed"
+msgstr "Autenticación falló"
+
+#: ../capplets/security/run-passwd.c:503
+#, c-format
+msgid "The new password is too short"
+msgstr "La contraseña es demasiado corta"
+
+#: ../capplets/security/run-passwd.c:508
+#, c-format
+msgid "The new password is too simple"
+msgstr "La contraseña es demasiado simple"
+
+#: ../capplets/security/run-passwd.c:512
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "La contraseña antigua y la nueva son demasiado similares"
+
+#: ../capplets/security/run-passwd.c:515
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "La nueva contraseña debe contener caracteres numéricos o especiales"
+
+#: ../capplets/security/run-passwd.c:519
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "La contraseña nueva y la antigua son la misma."
+
+#: ../capplets/security/run-passwd.c:523
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Su contraseña ha sido cambiada desde que se autenticó por primera vez."
+
+#: ../capplets/security/run-passwd.c:527
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "La nueva contraseña no contiene suficientes caracteres diferentes."
+
+#: ../capplets/security/run-passwd.c:531
+#, c-format
+msgid "Unknown error"
+msgstr "Error desconocido"
+
+#: ../capplets/security/cc-security-panel.c:153
+msgid "Sorry, the passwords do not match"
+msgstr "Lo sentimos, las contraseñas no concuerdan"
+
+#: ../capplets/security/cc-security-panel.c:178
+msgid "The new password is now saved"
+msgstr "La nueva contraseña se ha guardado"
+
+#: ../capplets/security/cc-security-panel.c:209
+msgid "Sorry, the password could not be changed"
+msgstr "Lo sentimos, la contraseña no se pudo cambiar."
+
+#: ../capplets/security/cc-security-panel.c:441
+msgid "Sorry, that password is incorrect"
+msgstr "Lo sentimos, esa contraseña es  incorrecta."
+
+#: ../capplets/security/cc-security-panel.c:496
+msgid "Security"
+msgstr "Seguridad"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#: ../capplets/security/security.ui.h:7
+msgid "Security and passwords"
+msgstr "Seguridad y contraseñas"
+
+#: ../capplets/security/security.ui.h:2
+msgid "Current password:"
+msgstr "Contraseña actual:"
+
+#: ../capplets/security/security.ui.h:3
+msgid "New password:"
+msgstr "Nueva contraseña:"
+
+#: ../capplets/security/security.ui.h:4
+msgid "Repeat password:"
+msgstr "Repetir la contraseña:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr "Requiere una contraseña para encender o reactivar mi ordenador"
+
+#: ../capplets/security/security.ui.h:6
+msgid "Save new password"
+msgstr "Guardar nueva contraseña"
+
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+#: ../capplets/power/cc-power-panel.c:442
+#: ../capplets/power/power.ui.h:2
+msgid "Power and brightness"
+msgstr "Energía y brillo"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:98
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minuto %d "
+msgstr[1] "minutos %d"
+
+#: ../capplets/power/cc-power-panel.c:103
+msgid "Never"
+msgstr "Nunca"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "Brillo"
+
+#: ../capplets/power/power.ui.h:3
+msgid "Put computer to sleep when inactive for:"
+msgstr "Poner el ordenador en modo suspendido cuando este inactivo por:"
+
+#: ../capplets/power/power.ui.h:4
+msgid "Set computer as idle when inactive for:"
+msgstr "Vuelva al ordenador a modo Inactivo cuando no se use por:"
+
+#: ../capplets/power/power.ui.h:5
+msgid "Sleep"
+msgstr "Suspender"
+
+#: ../capplets/power/power.ui.h:6
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr "Esto apagará tu pantalla y configurará tu estado de mensajería como  'ausente'."
+
+#: ../capplets/power/power.ui.h:7
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Esto suspenderá todo en tu ordenador. Se reactivará en el mismo estado en el que estaba."
+
+#: ../capplets/power/power.ui.h:8
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "Para cambiar el brillo, puedes usar el teclado del ordenador."
+
+#: ../capplets/power/power.ui.h:9
+msgid "ldle"
+msgstr "Inactivo"
+
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
 msgstr "No se puede iniciar la aplicación de preferencias para su gestor de ventanas"
@@ -3043,7 +3194,7 @@ msgstr "Puntero blanco grande"
 #: ../libgnome-control-center-extension/gnome-theme-info.c:1622
 #, c-format
 msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
-msgstr "Este tema no se mostrará como se pretende porque el el tema GTK+ necesario «%s» no está instalado."
+msgstr "Este tema no se mostrará como se pretende porque el tema GTK+ necesario «%s» no está instalado."
 
 #: ../libgnome-control-center-extension/gnome-theme-info.c:1630
 #, c-format
@@ -3663,8 +3814,6 @@ msgstr "Error al analizar los argumentos: %s\n"
 #~ msgstr "OSS - Open Sound System"
 #~ msgid "PulseAudio Sound Server"
 #~ msgstr "PulseAudio Sound Server"
-#~ msgid "Silence"
-#~ msgstr "Silencio"
 #~ msgid "- GNOME Sound Preferences"
 #~ msgstr "- Preferencias de sonido de GNOME"
 #~ msgid "<b>Alerts and Sound Effects</b>"
