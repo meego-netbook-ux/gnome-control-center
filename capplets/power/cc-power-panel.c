@@ -73,10 +73,9 @@ struct CcPowerPanelPrivate
         GtkWidget *sleep_scale;
         guint sleep_id;
 
+        int clamp;
+
         GConfClient *gconf;
-        int gconf_idle;               /* minutes of inactivity until idle */
-        int gconf_sleep;              /* seconds of idle-state until sleep */
-        gboolean gconf_sleep_enabled; /* sleep mode != "nothing" */
 };
 
 G_DEFINE_DYNAMIC_TYPE (CcPowerPanel, cc_power_panel, CC_TYPE_PANEL)
@@ -109,22 +108,38 @@ save_gconf (CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
         GConfChangeSet *set;
+        int idle, idle_mins, sleep;
+        gboolean sleep_enabled;
+
+        idle = (int)gtk_range_get_value (GTK_RANGE (priv->idle_scale));
+        sleep = (int)gtk_range_get_value (GTK_RANGE (priv->sleep_scale));
+
+        if (idle == IDLE_NEVER) {
+                idle = 0;
+        }
+        /* round values to nearest minute: idle gconf key is in minutes
+         * and sleep looks visually better if it's "in sync" with idle */
+        idle_mins = ROUND_MINUTES (idle);
+
+        if (sleep == SLEEP_NEVER) {
+                sleep = -1;
+                sleep_enabled = FALSE;
+        } else {
+                sleep = MAX (0, sleep - idle);
+                sleep = ROUND_MINUTES (sleep) * 60;
+                sleep_enabled = TRUE;
+        }
 
         set = gconf_change_set_new ();
 
-        gconf_change_set_set_int (set, IDLE_KEY, priv->gconf_idle);
+        gconf_change_set_set_int (set, IDLE_KEY, idle_mins);
+
 #ifdef HAVE_MOBLIN
-        if (priv->gconf_sleep_enabled) {
-                gconf_change_set_set_int (set,
-                                          MOBLIN_SLEEP_KEY,
-                                          priv->gconf_sleep);
-        } else {
-                gconf_change_set_set_int (set,
-                                          MOBLIN_SLEEP_KEY,
-                                          0);
-        }
+        gconf_change_set_set_int (set,
+                                  MOBLIN_SLEEP_KEY,
+                                  sleep);
 #else
-        if (priv->gconf_sleep_enabled) {
+        if (sleep_enabled) {
                 gconf_change_set_set_string (set,
                                              GPM_SLEEP_TYPE_BATTERY_KEY,
                                              GPM_SLEEP_TYPE);
@@ -133,10 +148,10 @@ save_gconf (CcPowerPanel *panel)
                                              GPM_SLEEP_TYPE);
                 gconf_change_set_set_int (set,
                                           GPM_SLEEP_BATTERY_KEY,
-                                          priv->gconf_sleep);
+                                          sleep);
                 gconf_change_set_set_int (set,
                                           GPM_SLEEP_AC_KEY,
-                                          priv->gconf_sleep);
+                                          sleep);
         } else {
                 gconf_change_set_set_string (set,
                                              GPM_SLEEP_TYPE_BATTERY_KEY,
@@ -153,200 +168,192 @@ save_gconf (CcPowerPanel *panel)
 }
 
 static void
-sleep_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
-{
-        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        int sleep;
-        int sleep_mins;
-
-        sleep = (int)gtk_range_get_value (range);
-        sleep_mins = ROUND_MINUTES (sleep);
-
-        if (sleep != SLEEP_NEVER &&
-            priv->gconf_idle != 0 &&
-            sleep_mins <= priv->gconf_idle) {
-                /* need to move idle time to make space for sleep */
-                if (sleep_mins <= 1) {
-                        priv->gconf_idle = 0;
-                } else {
-                        priv->gconf_idle = CLAMP (sleep_mins - 1,
-                                                  1, IDLE_MAX);
-                }
-        }
-
-        if (sleep == SLEEP_NEVER) {
-                priv->gconf_sleep_enabled = FALSE;
-        } else {
-                priv->gconf_sleep_enabled = TRUE;
-                priv->gconf_sleep = sleep - priv->gconf_idle * 60;
-        }
-
-        save_gconf (panel);
-}
-
-static void
 idle_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        int idle, diff, idle_mins;
+        int idle, sleep;
 
-        idle = (int)gtk_range_get_value (range);
-        idle_mins = ROUND_MINUTES (idle);
+        priv->clamp = -1;
+        idle = (int)gtk_range_get_value (GTK_RANGE (priv->idle_scale));
+        sleep = (int)gtk_range_get_value (GTK_RANGE (priv->sleep_scale));
 
-        if (idle == IDLE_NEVER) {
-                diff = - 60 * priv->gconf_idle;
-                priv->gconf_idle = 0;
-        } else {
-                diff = 60 * (idle_mins - priv->gconf_idle);
-                priv->gconf_idle = idle_mins;
-        }
-
-        if (priv->gconf_sleep_enabled) {
-                priv->gconf_sleep = CLAMP (priv->gconf_sleep - diff,
-                                           60, SLEEP_NEVER - 1);
+        if (idle > sleep) {
+                /* this can happen e.g. when clicking on through */
+                g_signal_handler_block (GTK_RANGE (priv->sleep_scale), priv->sleep_id);
+                gtk_range_set_value (GTK_RANGE (priv->sleep_scale), idle);
+                g_signal_handler_unblock (GTK_RANGE (priv->sleep_scale), priv->sleep_id);
         }
 
         save_gconf (panel);
 }
 
 static void
-get_sleep_from_gconf (CcPowerPanel *panel)
+sleep_scale_value_changed (GtkRange *range, CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        GError *error = NULL;
+        int idle, sleep;
 
-#ifdef HAVE_MOBLIN
-        priv->gconf_sleep = gconf_client_get_int (priv->gconf,
-                                                  MOBLIN_SLEEP_KEY,
-                                                  &error);
-        if (error) {
-                g_warning ("Could not read key %s: %s",
-                           MOBLIN_SLEEP_KEY, error->message);
-                g_error_free (error);
-                error = NULL;
-                priv->gconf_sleep_enabled = FALSE;
-        } else if (priv->gconf_sleep == 0) {
-                priv->gconf_sleep_enabled = FALSE;
-        } else {
-                priv->gconf_sleep_enabled = TRUE;
+        priv->clamp = -1;
+        idle = (int)gtk_range_get_value (GTK_RANGE (priv->idle_scale));
+        sleep = (int)gtk_range_get_value (GTK_RANGE (priv->sleep_scale));
+
+        if (idle > sleep) {
+                /* this can happen e.g. when clicking on through */
+                g_signal_handler_block (GTK_RANGE (priv->idle_scale), priv->idle_id);
+                gtk_range_set_value (GTK_RANGE (priv->idle_scale), sleep);
+                g_signal_handler_unblock (GTK_RANGE (priv->idle_scale), priv->idle_id);
+
         }
-#else
+        save_gconf (panel);
+}
+
+
+static gboolean
+idle_range_scrolled (GtkRange      *range,
+                     GtkScrollType  scroll,
+                     gdouble        value,
+                     CcPowerPanel  *panel)
 {
-        char *sleep_type;
+        int sleep;
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        GtkRange *sleep_range = GTK_RANGE (priv->sleep_scale);
 
-        sleep_type = gconf_client_get_string (priv->gconf,
-                                              GPM_SLEEP_TYPE_BATTERY_KEY,
-                                              &error);
-        if (error) {
-                g_warning ("Could not read key %s: %s",
-                           GPM_SLEEP_TYPE_BATTERY_KEY, error->message);
-                g_error_free (error);
-                error = NULL;
+        if (priv->clamp < 0) {
+                priv->clamp = (int)gtk_range_get_value (sleep_range);
         }
 
-        if (!sleep_type || strcmp (sleep_type, "nothing") == 0) {
-                priv->gconf_sleep_enabled = FALSE;
-        } else {
-                priv->gconf_sleep_enabled = TRUE;
-                priv->gconf_sleep = gconf_client_get_int (priv->gconf,
-                                                          GPM_SLEEP_BATTERY_KEY,
-                                                          &error);
-                if (error) {
-                        g_warning ("Could not read key %s: %s",
-                                   GPM_SLEEP_BATTERY_KEY, error->message);
-                        g_error_free (error);
-                        error = NULL;
-                        priv->gconf_sleep_enabled = FALSE;
-                }
+        sleep = MAX (priv->clamp, (int)gtk_range_get_value (range));
+
+        g_signal_handler_block (sleep_range, priv->sleep_id);
+        gtk_range_set_value (sleep_range, sleep);
+        g_signal_handler_unblock (sleep_range, priv->sleep_id);
+
+        return FALSE;
+}
+
+static gboolean
+sleep_range_scrolled (GtkRange      *range,
+                      GtkScrollType  scroll,
+                      gdouble        value,
+                      CcPowerPanel  *panel)
+{
+        int idle;
+        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        GtkRange *idle_range = GTK_RANGE (priv->idle_scale);
+
+        if (priv->clamp < 0) {
+                priv->clamp = (int)gtk_range_get_value (idle_range);
         }
-        g_free (sleep_type);
+
+        idle = MIN (priv->clamp, (int)gtk_range_get_value (range));
+
+        g_signal_handler_block (idle_range, priv->idle_id);
+        gtk_range_set_value (idle_range, idle);
+        g_signal_handler_unblock (idle_range, priv->idle_id);
+
+        return FALSE;
 }
-#endif
-}
+
 
 static void
-get_idle_from_gconf (CcPowerPanel *panel)
+update_ranges_from_gconf (CcPowerPanel *panel)
 {
         CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        int sleep = SLEEP_NEVER;
+        int idle = IDLE_NEVER;
         GError *error = NULL;
 
-        priv->gconf_idle = gconf_client_get_int (priv->gconf,
-                                                 IDLE_KEY,
-                                                 &error);
+        idle = gconf_client_get_int (priv->gconf,
+                                     IDLE_KEY,
+                                     &error);
         if (error) {
                 g_warning ("Could not read key %s: %s",
                            IDLE_KEY, error->message);
                 g_error_free (error);
                 error = NULL;
-                priv->gconf_idle = 0;
         }
-}
 
-static void
-update_sleep_range (CcPowerPanel *panel)
-{
-        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        int sleep;
-
-        if (priv->gconf_sleep_enabled) {
-                sleep = CLAMP (priv->gconf_sleep + priv->gconf_idle * 60,
-                               60, SLEEP_NEVER - 1);
-        } else {
+        if (idle == 0) {
+                idle = IDLE_NEVER;
                 sleep = SLEEP_NEVER;
-        }
-
-        gtk_range_set_value (GTK_RANGE (priv->sleep_scale), sleep);
-}
-
-static void
-update_idle_range (CcPowerPanel *panel)
-{
-        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
-        int idle, idle_mins;
-
-        /* no need to move the slider if we're on the right minute */
-        idle = (int)gtk_range_get_value (GTK_RANGE (priv->idle_scale));
-        if (idle == IDLE_NEVER) {
-                idle_mins = 0;
         } else {
-                idle_mins = ROUND_MINUTES (idle);
-        }
+                idle = CLAMP (60 * idle, 60, IDLE_MAX);
 
-        if (priv->gconf_idle != idle_mins) {
-                if (priv->gconf_idle == 0) {
-                        idle = IDLE_NEVER;
-                } else {
-                        idle = CLAMP (priv->gconf_idle * 60,
-                                      60, IDLE_MAX);
+#ifdef HAVE_MOBLIN
+                sleep = gconf_client_get_int (priv->gconf,
+                                              MOBLIN_SLEEP_KEY,
+                                              &error);
+                if (error) {
+                        g_warning ("Could not read key %s: %s",
+                                   MOBLIN_SLEEP_KEY, error->message);
+                        g_error_free (error);
+                        error = NULL;
                 }
-                gtk_range_set_value (GTK_RANGE (priv->idle_scale), idle);
-        }
-}
 
-static void
-gconf_notify_gpm (GConfClient *gconf, guint id,
-                  GConfEntry *entry, CcPowerPanel *panel)
+                if (sleep < 0) {
+                        sleep = SLEEP_NEVER;
+                } else {
+                        sleep = CLAMP (sleep + idle, 60, SLEEP_MAX);
+                }
+#else
 {
-        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+                char *sleep_type;
+                sleep_type = gconf_client_get_string (priv->gconf,
+                                                      GPM_SLEEP_TYPE_BATTERY_KEY,
+                                                      &error);
+                if (error) {
+                        g_warning ("Could not read key %s: %s",
+                                   GPM_SLEEP_TYPE_BATTERY_KEY, error->message);
+                        g_error_free (error);
+                        error = NULL;
+                }
 
-        get_sleep_from_gconf (panel);
+                if (!sleep_type || strcmp (sleep_type, "nothing") == 0) {
+                        sleep = SLEEP_NEVER;
+                } else {
+                        sleep = gconf_client_get_int (priv->gconf,
+                                                      GPM_SLEEP_BATTERY_KEY,
+                                                      &error);
+                        if (error) {
+                                g_warning ("Could not read key %s: %s",
+                                           GPM_SLEEP_BATTERY_KEY, error->message);
+                                g_error_free (error);
+                                error = NULL;
+                                sleep = SLEEP_NEVER;
+                        } else {
+                                sleep = CLAMP (sleep + idle, 60, SLEEP_MAX);
+                        }
+                }
+                g_free (sleep_type);
+}
+#endif
+        }
+
+        g_signal_handler_block (priv->idle_scale, priv->idle_id);
+        gtk_range_set_value (GTK_RANGE (priv->idle_scale), idle);
+        g_signal_handler_unblock (priv->idle_scale, priv->idle_id);
 
         g_signal_handler_block (priv->sleep_scale, priv->sleep_id);
-        update_sleep_range (panel);
+        gtk_range_set_value (GTK_RANGE (priv->sleep_scale), sleep);
         g_signal_handler_unblock (priv->sleep_scale, priv->sleep_id);
 }
 
-static void
-gconf_notify_session (GConfClient *gconf, guint id,
-                      GConfEntry *entry, CcPowerPanel *panel)
+static gboolean
+scale_focus_out (GtkWidget     *widget,
+                 GdkEventFocus *event,
+                 CcPowerPanel  *panel)
 {
-        CcPowerPanelPrivate *priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        /* there are cases when change-value gets fired but not value-changed 
+         * follows. This is here to re-init in that case */
+        panel->priv->clamp = -1;
+        return FALSE;
+}
 
-        get_idle_from_gconf (panel);
-
-        g_signal_handler_block (priv->idle_scale, priv->idle_id);
-        update_idle_range (panel);
-        g_signal_handler_unblock (priv->idle_scale, priv->idle_id);
+static void
+gconf_notify (GConfClient *gconf, guint id,
+              GConfEntry *entry, CcPowerPanel *panel)
+{
+        update_ranges_from_gconf (panel);
 }
 
 static void
@@ -376,7 +383,7 @@ setup_panel (CcPowerPanel *panel)
                               GCONF_CLIENT_PRELOAD_NONE,
                               NULL);
         gconf_client_notify_add (priv->gconf, MOBLIN_SLEEP_KEY,
-                                 (GConfClientNotifyFunc) gconf_notify_gpm,
+                                 (GConfClientNotifyFunc) gconf_notify,
                                  panel, NULL, NULL);
 #else
         gconf_client_add_dir (priv->gconf,
@@ -384,10 +391,10 @@ setup_panel (CcPowerPanel *panel)
                               GCONF_CLIENT_PRELOAD_NONE,
                               NULL);
         gconf_client_notify_add (priv->gconf, GPM_SLEEP_TYPE_BATTERY_KEY,
-                                 (GConfClientNotifyFunc) gconf_notify_gpm,
+                                 (GConfClientNotifyFunc) gconf_notify,
                                  panel, NULL, NULL);
         gconf_client_notify_add (priv->gconf, GPM_SLEEP_BATTERY_KEY,
-                                 (GConfClientNotifyFunc) gconf_notify_gpm,
+                                 (GConfClientNotifyFunc) gconf_notify,
                                  panel, NULL, NULL);
 #endif
         gconf_client_add_dir (priv->gconf,
@@ -395,7 +402,7 @@ setup_panel (CcPowerPanel *panel)
                               GCONF_CLIENT_PRELOAD_NONE,
                               NULL);
         gconf_client_notify_add (priv->gconf, IDLE_KEY,
-                                 (GConfClientNotifyFunc) gconf_notify_session,
+                                 (GConfClientNotifyFunc) gconf_notify,
                                  panel, NULL, NULL);
 
         widget = WID ("main_vbox");
@@ -406,8 +413,10 @@ setup_panel (CcPowerPanel *panel)
         gtk_range_set_increments (GTK_RANGE (priv->idle_scale), 60, 300);
         g_signal_connect (priv->idle_scale, "format-value",
                           G_CALLBACK (scale_format_value), panel);
-        get_idle_from_gconf (panel);
-        update_idle_range (panel);
+        g_signal_connect (priv->idle_scale, "change-value",
+                          G_CALLBACK (idle_range_scrolled), panel);
+        g_signal_connect (priv->idle_scale, "focus-out-event",
+                          G_CALLBACK (scale_focus_out), panel);
         priv->idle_id = g_signal_connect (priv->idle_scale,
                                           "value-changed",
                                           G_CALLBACK (idle_scale_value_changed),
@@ -418,12 +427,16 @@ setup_panel (CcPowerPanel *panel)
         gtk_range_set_increments (GTK_RANGE (priv->sleep_scale), 60, 300);
         g_signal_connect (priv->sleep_scale, "format-value",
                           G_CALLBACK (scale_format_value), panel);
-        get_sleep_from_gconf (panel);
-        update_sleep_range (panel);
+        g_signal_connect (priv->sleep_scale, "change-value",
+                          G_CALLBACK (sleep_range_scrolled), panel);
+        g_signal_connect (priv->sleep_scale, "focus-out-event",
+                          G_CALLBACK (scale_focus_out), panel);
         priv->sleep_id = g_signal_connect (priv->sleep_scale,
                                            "value-changed",
                                            G_CALLBACK (sleep_scale_value_changed),
                                            panel);
+
+        update_ranges_from_gconf (panel);
 
         g_object_unref (builder);
 }
@@ -499,6 +512,7 @@ static void
 cc_power_panel_init (CcPowerPanel *panel)
 {
         panel->priv = CC_POWER_PANEL_GET_PRIVATE (panel);
+        panel->priv->clamp = -1;
 }
 
 void
