@@ -24,7 +24,7 @@ libsecurity_la_LDFLAGS = \
 
 libsecurity_la_LIBADD = \
 	$(EXTENSION_LIBS) \
-	$(EXTENSION_COMMON_LIBS)
+	$(EXTENSION_COMMON_LIBS) \
 	$(MX_GTK_LIBS) \
 	$(NULL)
 
@@ -51,7 +51,7 @@ ccmodules_LTLIBRARIES = libsecurity.la
 CLEANFILES = \
 	$(GNOMECC_CAPPLETS_CLEANFILES) \
 	$(desktop_in_files) \
-	$(desktop_DATA)
+	$(desktop_DATA) \
 	$(NULL)
 
 EXTRA_DIST = \
