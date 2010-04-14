@@ -21,6 +21,8 @@
 
 #include "config.h"
 
+#include "control-center.h"
+
 #include <glib/gi18n.h>
 #include <gio/gio.h>
 #include <gio/gdesktopappinfo.h>
@@ -33,6 +35,8 @@
 #include "cc-panel.h"
 #include "cc-shell.h"
 #include "shell-search-renderer.h"
+#include "cc-shell-category-view.h"
+#include "cc-shell-model.h"
 
 #include <unique/unique.h>
 
@@ -50,12 +54,12 @@ typedef struct
   GtkWidget  *window;
   GtkWidget  *search_entry;
 
-  GSList *icon_views;
-
   gchar  *current_title;
 
   GtkListStore *store;
+
   GtkTreeModel *search_filter;
+  GtkWidget *search_view;
   GtkCellRenderer *search_renderer;
   gchar *filter_string;
 
@@ -67,85 +71,72 @@ typedef struct
 
 } ShellData;
 
-enum
+
+
+static void
+activate_panel (const gchar *name,
+                const gchar *id,
+                const gchar *desktop_file,
+                ShellData   *data)
 {
-  COL_NAME,
-  COL_DESKTOP_FILE,
-  COL_ID,
-  COL_PIXBUF,
-  COL_CATEGORY,
-  COL_SEARCH_TARGET,
-
-  N_COLS
-};
-
-static void item_activated_cb (GtkIconView *icon_view, GtkTreePath *path, ShellData *data);
-
-static gboolean
-button_press_cb (GtkWidget *view,
-                 GdkEventButton *event,
-                 ShellData *data)
-{
-  /* ignore releases after double or tripple clicks */
-  data->ignore_release = (event->type != GDK_BUTTON_PRESS);
-
-  return FALSE;
-}
-
-static gboolean
-button_release_cb (GtkWidget      *view,
-                   GdkEventButton *event,
-                   ShellData      *data)
-{
-  if (event->button == 1 && !data->ignore_release)
+  if (cc_shell_set_panel (CC_SHELL (data->builder), id))
     {
-      GList *selection;
-
-      selection = gtk_icon_view_get_selected_items (GTK_ICON_VIEW (view));
-
-      if (!selection)
-        return FALSE;
-
-      data->last_time = event->time;
-
-      item_activated_cb (GTK_ICON_VIEW (view), selection->data, data);
-
-      g_list_free (selection);
-      return TRUE;
+      gtk_label_set_text (GTK_LABEL (W (data->builder, "label-title")), name);
+      gtk_widget_show (W (data->builder, "title-alignment"));
     }
+  else
+    {
+      /* start app directly */
+      g_debug ("Panel module not found for %s", id);
 
-  return FALSE;
+      GAppInfo *appinfo;
+      GError *err = NULL;
+      GdkAppLaunchContext *ctx;
+      GKeyFile *key_file;
+
+      key_file = g_key_file_new ();
+      g_key_file_load_from_file (key_file, desktop_file, 0, &err);
+
+      if (err)
+        {
+          g_warning ("Error starting \"%s\": %s", id, err->message);
+
+          g_error_free (err);
+          err = NULL;
+          return;
+        }
+
+      appinfo = (GAppInfo*) g_desktop_app_info_new_from_keyfile (key_file);
+
+      g_key_file_free (key_file);
+
+
+      ctx = gdk_app_launch_context_new ();
+      gdk_app_launch_context_set_screen (ctx, gdk_screen_get_default ());
+      gdk_app_launch_context_set_timestamp (ctx, data->last_time);
+
+      g_app_info_launch (appinfo, NULL, G_APP_LAUNCH_CONTEXT (ctx), &err);
+
+      g_object_unref (appinfo);
+      g_object_unref (ctx);
+
+      if (err)
+        {
+          g_warning ("Error starting \"%s\": %s", id, err->message);
+          g_error_free (err);
+          err = NULL;
+        }
+    }
 }
 
 static void
-selection_changed_cb (GtkIconView *view,
-                      ShellData   *data)
+item_activated_cb (CcShellCategoryView *view,
+                   gchar               *name,
+                   gchar               *id,
+                   gchar               *desktop_file,
+                   ShellData           *data)
 {
-  GSList *iconviews, *l;
-  GList *selection;
-
-  /* don't clear other selections if this icon view does not have one */
-  selection = gtk_icon_view_get_selected_items (view);
-  if (!selection)
-    return;
-  else
-    g_list_free (selection);
-
-  iconviews = data->icon_views;
-
-  for (l = iconviews; l; l = l->next)
-    {
-      GtkIconView *iconview = l->data;
-
-      if (iconview != view)
-        {
-          if ((selection = gtk_icon_view_get_selected_items (iconview)))
-            {
-              gtk_icon_view_unselect_all (iconview);
-              g_list_free (selection);
-            }
-        }
-    }
+  activate_panel (name, id, desktop_file, data);
 }
 
 static gboolean
@@ -198,14 +189,64 @@ category_filter_func (GtkTreeModel *model,
 }
 
 static void
+setup_search (ShellData *data)
+{
+  GtkWidget *search_scrolled, *search_view;
+
+  g_return_if_fail (data->store != NULL);
+
+  /* create the search filter */
+  data->search_filter = gtk_tree_model_filter_new (GTK_TREE_MODEL (data->store),
+                                                   NULL);
+
+  gtk_tree_model_filter_set_visible_func (GTK_TREE_MODEL_FILTER (data->search_filter),
+                                          (GtkTreeModelFilterVisibleFunc)
+                                            model_filter_func,
+                                          data, NULL);
+
+  /* set up the search view */
+  data->search_view = search_view = cc_shell_item_view_new ();
+  gtk_icon_view_set_orientation (GTK_ICON_VIEW (search_view),
+                                 GTK_ORIENTATION_HORIZONTAL);
+  gtk_icon_view_set_spacing (GTK_ICON_VIEW (search_view), 6);
+  gtk_icon_view_set_model (GTK_ICON_VIEW (search_view),
+                           GTK_TREE_MODEL (data->search_filter));
+  gtk_icon_view_set_pixbuf_column (GTK_ICON_VIEW (search_view), COL_PIXBUF);
+
+  search_scrolled = W (data->builder, "search-scrolled-window");
+  gtk_container_add (GTK_CONTAINER (search_scrolled), search_view);
+
+
+  /* add the custom renderer */
+  data->search_renderer = (GtkCellRenderer*) shell_search_renderer_new ();
+  gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (search_view),
+                              data->search_renderer, TRUE);
+  gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (search_view),
+                                 data->search_renderer,
+                                 "title", COL_NAME);
+  gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (search_view),
+                                 data->search_renderer,
+                                 "search-target", COL_SEARCH_TARGET);
+
+  /* connect the activated signal */
+  g_signal_connect (search_view, "desktop-item-activated",
+                    G_CALLBACK (item_activated_cb), data);
+}
+
+static void
 fill_model (ShellData *data)
 {
   GSList *list, *l;
   GMenuTreeDirectory *d;
   GMenuTree *tree;
-  GtkWidget *vbox, *w;
+  GtkWidget *vbox;
 
   vbox = W (data->builder, "main-vbox");
+
+  gtk_widget_modify_bg (vbox->parent, GTK_STATE_NORMAL,
+                        &vbox->style->base[GTK_STATE_NORMAL]);
+  gtk_widget_modify_fg (vbox->parent, GTK_STATE_NORMAL,
+                        &vbox->style->text[GTK_STATE_NORMAL]);
 
   tree = gmenu_tree_lookup (MENUDIR "/gnomecc.menu", 0);
 
@@ -219,157 +260,45 @@ fill_model (ShellData *data)
 
   list = gmenu_tree_directory_get_contents (d);
 
-  data->store = gtk_list_store_new (N_COLS, G_TYPE_STRING, G_TYPE_STRING,
-                                    G_TYPE_STRING, GDK_TYPE_PIXBUF,
-                                    G_TYPE_STRING, G_TYPE_STRING);
-
-  data->search_filter = gtk_tree_model_filter_new (GTK_TREE_MODEL (data->store), NULL);
-
-  gtk_tree_model_filter_set_visible_func (GTK_TREE_MODEL_FILTER (data->search_filter),
-                                          (GtkTreeModelFilterVisibleFunc)
-                                            model_filter_func,
-                                          data, NULL);
-
-  w = (GtkWidget *) gtk_builder_get_object (data->builder, "search-view");
-  gtk_icon_view_set_model (GTK_ICON_VIEW (w), GTK_TREE_MODEL (data->search_filter));
-  gtk_icon_view_set_pixbuf_column (GTK_ICON_VIEW (w), COL_PIXBUF);
-
-
-  data->search_renderer = (GtkCellRenderer*) shell_search_renderer_new ();
-  gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (w), data->search_renderer, TRUE);
-  gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (w), data->search_renderer,
-                                 "title", COL_NAME);
-  gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (w), data->search_renderer,
-                                 "search-target", COL_SEARCH_TARGET);
-
-  g_signal_connect (w, "button-press-event",
-                    G_CALLBACK (button_press_cb), data);
-  g_signal_connect (w, "button-release-event",
-                    G_CALLBACK (button_release_cb), data);
-  g_signal_connect (w, "selection-changed",
-                    G_CALLBACK (selection_changed_cb), data);
-
+  data->store = (GtkListStore *) cc_shell_model_new ();
 
   for (l = list; l; l = l->next)
     {
       GMenuTreeItemType type;
       type = gmenu_tree_item_get_type (l->data);
+
       if (type == GMENU_TREE_ITEM_DIRECTORY)
         {
           GtkTreeModel *filter;
-          GtkWidget *header, *iconview;
-          GSList *foo, *f;
+          GtkWidget *categoryview;
+          GSList *contents, *f;
           const gchar *dir_name;
-          gchar *header_name;
 
-          foo = gmenu_tree_directory_get_contents (l->data);
+          contents = gmenu_tree_directory_get_contents (l->data);
           dir_name = gmenu_tree_directory_get_name (l->data);
 
-          filter = gtk_tree_model_filter_new (GTK_TREE_MODEL (data->store), NULL);
+          /* create new category view for this category */
+          filter = gtk_tree_model_filter_new (GTK_TREE_MODEL (data->store),
+                                              NULL);
           gtk_tree_model_filter_set_visible_func (GTK_TREE_MODEL_FILTER (filter),
                                                   (GtkTreeModelFilterVisibleFunc) category_filter_func,
                                                   g_strdup (dir_name), g_free);
 
-          iconview = gtk_icon_view_new_with_model (GTK_TREE_MODEL (filter));
+          categoryview = cc_shell_category_view_new (dir_name, filter);
+          gtk_box_pack_start (GTK_BOX (vbox), categoryview, FALSE, TRUE, 6);
+          g_signal_connect (cc_shell_category_view_get_item_view (CC_SHELL_CATEGORY_VIEW (categoryview)),
+                            "desktop-item-activated",
+                            G_CALLBACK (item_activated_cb), data);
+          gtk_widget_show (categoryview);
 
-          gtk_icon_view_set_pixbuf_column (GTK_ICON_VIEW (iconview), COL_PIXBUF);
-          gtk_icon_view_set_text_column (GTK_ICON_VIEW (iconview), COL_NAME);
-
-#if HAVE_MOBLIN
+          /* add the items from this category to the model */
+          for (f = contents; f; f = f->next)
             {
-              GList *renderers, *l;
-
-              gtk_icon_view_set_orientation (GTK_ICON_VIEW (iconview),
-                                             GTK_ORIENTATION_HORIZONTAL);
-              gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 150);
-              gtk_icon_view_set_spacing (GTK_ICON_VIEW (iconview), 6);
-
-              /* set cell renderer yalign */
-              renderers = gtk_cell_layout_get_cells (GTK_CELL_LAYOUT (iconview));
-              for (l = renderers; l; l = g_list_next (l))
+              if (gmenu_tree_item_get_type (f->data) == GMENU_TREE_ITEM_ENTRY)
                 {
-                  g_object_set (l->data, "yalign", 0.0, "xalign", 0.0, "ypad", 0, NULL);
-                }
-              g_list_free (renderers);
-            }
-#else
-          gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 120);
-#endif
-
-          g_signal_connect (iconview, "button-press-event",
-                            G_CALLBACK (button_press_cb), data);
-          g_signal_connect (iconview, "button-release-event",
-                            G_CALLBACK (button_release_cb), data);
-          g_signal_connect (iconview, "selection-changed",
-                            G_CALLBACK (selection_changed_cb), data);
-
-          data->icon_views = g_slist_prepend (data->icon_views, iconview);
-
-          header_name = g_strdup_printf ("<big><b>%s</b></big>", dir_name);
-
-          header = g_object_new (GTK_TYPE_LABEL,
-                                 "use-markup", TRUE,
-                                 "label", header_name,
-                                 "wrap", TRUE,
-                                 "xalign", 0.0,
-                                 "xpad", 6,
-                                 NULL);
-
-          gtk_box_pack_start (GTK_BOX (vbox), header, FALSE, TRUE, 3);
-          gtk_box_pack_start (GTK_BOX (vbox), iconview, FALSE, TRUE, 0);
-
-
-          for (f = foo; f; f = f->next)
-            {
-              if (gmenu_tree_item_get_type (f->data)
-                  == GMENU_TREE_ITEM_ENTRY)
-                {
-                  GError *err = NULL;
-                  gchar *search_target;
-                  const gchar *icon = gmenu_tree_entry_get_icon (f->data);
-                  const gchar *name = gmenu_tree_entry_get_name (f->data);
-                  const gchar *id = gmenu_tree_entry_get_desktop_file_id (f->data);
-                  const gchar *desktop = gmenu_tree_entry_get_desktop_file_path (f->data);
-                  const gchar *comment = gmenu_tree_entry_get_comment (f->data);
-                  GdkPixbuf *pixbuf = NULL;
-                  char *icon2 = NULL;
-
-                  if (icon != NULL && *icon == '/')
-                    {
-                      pixbuf = gdk_pixbuf_new_from_file_at_scale (icon, 32, 32, TRUE, &err);
-                    }
-                  else
-                    {
-                      if (icon2 == NULL && icon != NULL && g_str_has_suffix (icon, ".png"))
-                        icon2 = g_strndup (icon, strlen (icon) - strlen (".png"));
-
-                      pixbuf = gtk_icon_theme_load_icon (gtk_icon_theme_get_default (),
-                                                         icon2 ? icon2 : icon, 32,
-                                                         GTK_ICON_LOOKUP_FORCE_SIZE,
-                                                         &err);
-                    }
-
-                  if (err)
-                    {
-                      g_warning ("Could not load icon '%s': %s", icon2 ? icon2 : icon,
-                                       err->message);
-                      g_error_free (err);
-                    }
-
-                  g_free (icon2);
-
-                  search_target = g_strconcat (name, " - ", comment, NULL);
-
-                  gtk_list_store_insert_with_values (data->store, NULL, 0,
-                                                     COL_NAME, name,
-                                                     COL_DESKTOP_FILE, desktop,
-                                                     COL_ID, id,
-                                                     COL_PIXBUF, pixbuf,
-                                                     COL_CATEGORY, dir_name,
-                                                     COL_SEARCH_TARGET, search_target,
-                                                     -1);
-
-                  g_free (search_target);
+                  cc_shell_model_add_item (CC_SHELL_MODEL (data->store),
+                                           dir_name,
+                                           f->data);
                 }
             }
         }
@@ -377,85 +306,7 @@ fill_model (ShellData *data)
 
 }
 
-static void
-activate_panel (const gchar *id,
-                const gchar *desktop_file,
-                ShellData   *data)
-{
-  if (!cc_shell_set_panel (CC_SHELL (data->builder), id))
-    {
-      /* start app directly */
-      g_debug ("Panel module not found for %s", id);
 
-      GAppInfo *appinfo;
-      GError *err = NULL;
-      GdkAppLaunchContext *ctx;
-      GKeyFile *key_file;
-
-      key_file = g_key_file_new ();
-      g_key_file_load_from_file (key_file, desktop_file, 0, &err);
-
-      if (err)
-        {
-          g_warning ("Error starting \"%s\": %s", id, err->message);
-
-          g_error_free (err);
-          err = NULL;
-          return;
-        }
-
-      appinfo = (GAppInfo*) g_desktop_app_info_new_from_keyfile (key_file);
-
-      g_key_file_free (key_file);
-
-
-      ctx = gdk_app_launch_context_new ();
-      gdk_app_launch_context_set_screen (ctx, gdk_screen_get_default ());
-      gdk_app_launch_context_set_timestamp (ctx, data->last_time);
-
-      g_app_info_launch (appinfo, NULL, G_APP_LAUNCH_CONTEXT (ctx), &err);
-
-      g_object_unref (appinfo);
-      g_object_unref (ctx);
-
-      if (err)
-        {
-          g_warning ("Error starting \"%s\": %s", id, err->message);
-          g_error_free (err);
-          err = NULL;
-        }
-    }
-
-}
-
-static void
-item_activated_cb (GtkIconView *icon_view,
-                   GtkTreePath *path,
-                   ShellData   *data)
-{
-  GtkTreeModel *model;
-  GtkTreeIter iter;
-  gchar *name, *desktop_file, *id;
-
-  model = gtk_icon_view_get_model (icon_view);
-
-  /* get the iter and ensure it is valid */
-  if (!gtk_tree_model_get_iter (model, &iter, path))
-    return;
-
-  gtk_tree_model_get (model, &iter, COL_NAME, &name,
-                      COL_DESKTOP_FILE, &desktop_file,
-                      COL_ID, &id, -1);
-
-  g_debug ("activated id: '%s'", id);
-
-  cc_shell_set_title (CC_SHELL (data->builder), name);
-
-  activate_panel (id, desktop_file, data);
-
-  g_free (id);
-  g_free (desktop_file);
-}
 
 static void
 shell_show_overview_page (ShellData *data)
@@ -525,9 +376,8 @@ search_entry_key_press_event_cb (GtkEntry    *entry,
 
       data->last_time = event->time;
 
-      item_activated_cb ((GtkIconView *) gtk_builder_get_object (data->builder,
-                                                                 "search-view"),
-                         path, data);
+      gtk_icon_view_item_activated (GTK_ICON_VIEW (data->search_view), path);
+
       gtk_tree_path_free (path);
       return TRUE;
     }
@@ -621,6 +471,7 @@ main (int argc, char **argv)
                     G_CALLBACK (notebook_switch_page_cb), data);
 
   fill_model (data);
+  setup_search (data);
 
 
   g_signal_connect (gtk_builder_get_object (data->builder, "home-button"),
@@ -706,7 +557,7 @@ main (int argc, char **argv)
       g_free (data->current_title);
       data->current_title = name;
 
-      activate_panel (start_id, start_id, data);
+      activate_panel (name, start_id, NULL, data);
     }
 
   gtk_main ();
