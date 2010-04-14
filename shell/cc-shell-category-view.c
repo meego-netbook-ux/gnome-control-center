@@ -141,7 +141,7 @@ cc_shell_category_view_constructed (GObject *object)
 
       gtk_icon_view_set_orientation (GTK_ICON_VIEW (iconview),
                                      GTK_ORIENTATION_HORIZONTAL);
-      gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 150);
+      gtk_icon_view_set_item_width (GTK_ICON_VIEW (iconview), 200);
       gtk_icon_view_set_spacing (GTK_ICON_VIEW (iconview), 6);
 
       /* set cell renderer yalign */
