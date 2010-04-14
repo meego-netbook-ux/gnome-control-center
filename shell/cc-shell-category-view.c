@@ -166,7 +166,8 @@ cc_shell_category_view_constructed (GObject *object)
                              "label", header_name,
                              "wrap", TRUE,
                              "xalign", 0.0,
-                             "xpad", 6,
+                             "xpad", 12,
+                             "ypad", 6,
                              NULL);
 
       g_free (header_name);
@@ -176,7 +177,11 @@ cc_shell_category_view_constructed (GObject *object)
     }
 
   /* add the iconview to the vbox */
+#if HAVE_MOBLIN
+  gtk_box_pack_start (GTK_BOX (vbox), iconview, TRUE, TRUE, 0);
+#else
   gtk_box_pack_start (GTK_BOX (vbox), iconview, FALSE, TRUE, 0);
+#endif
 
   /* add the main vbox to the view */
   gtk_container_add (GTK_CONTAINER (object), vbox);
@@ -191,6 +196,7 @@ cc_shell_category_view_style_set (GtkWidget *widget,
 {
   CcShellCategoryViewPrivate *priv = CC_SHELL_CATEGORY_VIEW (widget)->priv;
 
+#ifndef HAVE_MOBLIN
   if (priv->header)
     {
       gtk_widget_modify_bg (priv->header, GTK_STATE_NORMAL,
@@ -198,6 +204,7 @@ cc_shell_category_view_style_set (GtkWidget *widget,
       gtk_widget_modify_fg (priv->header, GTK_STATE_NORMAL,
                             &widget->style->text[GTK_STATE_NORMAL]);
     }
+#endif
 
   if (priv->iconview)
     {
@@ -248,7 +255,11 @@ cc_shell_category_view_init (CcShellCategoryView *self)
 {
   self->priv = SHELL_CATEGORY_VIEW_PRIVATE (self);
 
+#if HAVE_MOBLIN
+  gtk_frame_set_shadow_type (GTK_FRAME (self), GTK_SHADOW_IN);
+#else
   gtk_frame_set_shadow_type (GTK_FRAME (self), GTK_SHADOW_NONE);
+#endif
 }
 
 GtkWidget *

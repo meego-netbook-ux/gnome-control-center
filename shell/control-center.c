@@ -242,12 +242,17 @@ fill_model (ShellData *data)
   GtkWidget *vbox;
 
   vbox = W (data->builder, "main-vbox");
+#if HAVE_MOBLIN
+  gtk_orientable_set_orientation (GTK_ORIENTABLE (vbox),
+                                  GTK_ORIENTATION_HORIZONTAL);
+  gtk_container_set_border_width (GTK_CONTAINER (vbox), 12);
+#else
 
   gtk_widget_modify_bg (vbox->parent, GTK_STATE_NORMAL,
                         &vbox->style->base[GTK_STATE_NORMAL]);
   gtk_widget_modify_fg (vbox->parent, GTK_STATE_NORMAL,
                         &vbox->style->text[GTK_STATE_NORMAL]);
-
+#endif
   tree = gmenu_tree_lookup (MENUDIR "/gnomecc.menu", 0);
 
   if (!tree)
@@ -285,7 +290,11 @@ fill_model (ShellData *data)
                                                   g_strdup (dir_name), g_free);
 
           categoryview = cc_shell_category_view_new (dir_name, filter);
+#if HAVE_MOBLIN
+          gtk_box_pack_start (GTK_BOX (vbox), categoryview, TRUE, TRUE, 6);
+#else
           gtk_box_pack_start (GTK_BOX (vbox), categoryview, FALSE, TRUE, 6);
+#endif
           g_signal_connect (cc_shell_category_view_get_item_view (CC_SHELL_CATEGORY_VIEW (categoryview)),
                             "desktop-item-activated",
                             G_CALLBACK (item_activated_cb), data);
