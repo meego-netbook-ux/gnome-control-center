@@ -82,6 +82,7 @@ EXTRA_DIST = 					\
 	gnomecc.directory.in			\
 	gnomecc.menu				\
 	$(schemas_DATA).in			\
+	cc-shell-marshal.list			\
 	$(NULL)
 
 DISTCLEANFILES = gnome-control-center.desktop gnome-control-center.desktop.in gnomecc.directory $(schemas_DATA)
