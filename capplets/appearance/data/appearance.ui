@@ -892,7 +892,7 @@
                     </child>
                     <child>
                       <object class="GtkHBox" id="hbox8">
-                        <property name="visible">True</property>
+                        <property name="no_show_all">True</property>
                         <property name="spacing">24</property>
                         <child>
                           <object class="GtkHBox" id="hbox_style">
@@ -1034,7 +1034,7 @@
                 </child>
                 <child>
                   <object class="GtkLabel" id="label2">
-                    <property name="visible">True</property>
+                    <property name="no_show_all">True</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -1048,7 +1048,6 @@
                     <child>
                       <object class="GtkLinkButton" id="more_backgrounds_linkbutton">
                         <property name="label" translatable="yes">Get more backgrounds online</property>
-                        <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <property name="no_show_all">True</property>
