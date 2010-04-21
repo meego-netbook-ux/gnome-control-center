@@ -25,6 +25,8 @@
 
 #include <config.h>
 
+#include "gnome-mouse-properties.h"
+
 #include <glib/gi18n.h>
 #include <string.h>
 #include <gconf/gconf-client.h>
@@ -558,6 +560,8 @@ create_dialog (void)
 	gtk_size_group_add_widget (size_group, WID ("dwell_delay_long_label"));
 	gtk_size_group_add_widget (size_group, WID ("dwell_threshold_large_label"));
 
+        setup_dialog (dialog, NULL);
+
 	return dialog;
 }
 
@@ -573,14 +577,32 @@ dialog_response_cb (GtkDialog *dialog, gint response_id, GConfChangeSet *changes
 		gtk_main_quit ();
 }
 
+GConfClient *
+mouse_properties_conf_init ()
+{
+	GConfClient *client;
+
+	capplet_init_stock_icons ();
+
+	activate_settings_daemon ();
+
+	client = gconf_client_get_default ();
+	gconf_client_add_dir (client, "/desktop/gnome/peripherals/mouse",
+			      GCONF_CLIENT_PRELOAD_ONELEVEL, NULL);
+	gconf_client_add_dir (client, "/desktop/gnome/peripherals/touchpad",
+			      GCONF_CLIENT_PRELOAD_ONELEVEL, NULL);
+
+	return client;
+}
+
+
 int
 main (int argc, char **argv)
 {
 	GConfClient    *client;
 	GtkBuilder     *dialog;
 	GtkWidget      *dialog_win, *w;
-	gchar *start_page = NULL;
-	guint32 socket_id = 0;
+	gchar          *start_page = NULL;
 
 	GOptionContext *context;
 	GOptionEntry cap_options[] = {
@@ -590,14 +612,6 @@ main (int argc, char **argv)
 		 /* TRANSLATORS: don't translate the terms in brackets */
 		 N_("Specify the name of the page to show (general|accessibility)"),
 		 N_("page") },
-		{ "socket",
-		  's',
-		  G_OPTION_FLAG_IN_MAIN,
-		  G_OPTION_ARG_INT,
-		  &socket_id,
-		  /* TRANSLATORS: don't translate the terms in brackets */
-		  N_("ID of the socket to embed in"),
-		  N_("socket") },
 		{NULL}
 	};
 
@@ -609,34 +623,16 @@ main (int argc, char **argv)
 
 	activate_settings_daemon ();
 
-	client = gconf_client_get_default ();
-	gconf_client_add_dir (client, "/desktop/gnome/peripherals/mouse", GCONF_CLIENT_PRELOAD_ONELEVEL, NULL);
-	gconf_client_add_dir (client, "/desktop/gnome/peripherals/touchpad", GCONF_CLIENT_PRELOAD_ONELEVEL, NULL);
+	client = mouse_properties_conf_init ();
 
 	dialog = create_dialog ();
 
 	if (dialog) {
-		setup_dialog (dialog, NULL);
 		setup_accessibility (dialog, client);
 
-		if (socket_id) {
-			GtkWidget *content, *plug;
-
-			/* re-parent contents */
-			content = WID ("prefs_widget");
-
-			plug = gtk_plug_new (socket_id);
-			gtk_widget_reparent (content, plug);
-			g_signal_connect (plug, "destroy", G_CALLBACK (gtk_main_quit), NULL);
-
-			gtk_widget_show_all (plug);
-			dialog_win = plug;
-		}
-		else {
-			dialog_win = WID ("mouse_properties_dialog");
-			g_signal_connect (dialog_win, "response",
-					  G_CALLBACK (dialog_response_cb), NULL);
-		}
+		dialog_win = WID ("mouse_properties_dialog");
+		g_signal_connect (dialog_win, "response",
+				  G_CALLBACK (dialog_response_cb), NULL);
 
 		if (start_page != NULL) {
 			gchar *page_name;
