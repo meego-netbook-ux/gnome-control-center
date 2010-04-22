@@ -245,6 +245,8 @@ fill_model (ShellData *data)
   GtkWidget *vbox;
 
   vbox = W (data->builder, "main-vbox");
+  gtk_widget_set_size_request (vbox, 0, -1);
+
 #if HAVE_MOBLIN
   gtk_orientable_set_orientation (GTK_ORIENTABLE (vbox),
                                   GTK_ORIENTATION_HORIZONTAL);

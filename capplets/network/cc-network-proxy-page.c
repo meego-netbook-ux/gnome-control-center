@@ -727,7 +727,6 @@ update_locations (CcNetworkProxyPage *page)
                                 select = i;
                 }
         }
-        g_debug ("i = %d select = %d", i, select);
         if (select == -1) {
                 gtk_list_store_append (store, &titer);
                 gtk_list_store_set (store,
@@ -737,7 +736,6 @@ update_locations (CcNetworkProxyPage *page)
                                     -1);
                 select = i++;
         }
-        g_debug ("i = %d select = %d", i, select);
         gtk_widget_set_sensitive (page->priv->delete_button, i > 1);
 
         gtk_list_store_append (store, &titer);
@@ -1303,10 +1301,10 @@ setup_page (CcNetworkProxyPage *page)
         mode_type = g_enum_register_static ("NetworkPreferencesProxyType",
                                             proxytype_values);
 
+        /* Locations */
         page->priv->delete_button = gtk_button_new_with_label (_("Delete Location"));
         gtk_widget_show (page->priv->delete_button);
 
-        /* Locations */
         page->priv->location_combobox = WID ("location_combobox");
         store = gtk_list_store_new (2,
                                     G_TYPE_STRING,
@@ -1358,7 +1356,6 @@ setup_page (CcNetworkProxyPage *page)
         /* Mode */
         page->priv->none_radiobutton = WID ("none_radiobutton");
         mode_group = gtk_radio_button_get_group (GTK_RADIO_BUTTON (page->priv->none_radiobutton));
-        connect_sensitivity_signals (page, mode_group);
 
         peditor = GCONF_PROPERTY_EDITOR (gconf_peditor_new_select_radio_with_enum (NULL,
                                                                                    PROXY_MODE_KEY,
@@ -1512,17 +1509,19 @@ setup_page (CcNetworkProxyPage *page)
                           G_CALLBACK (on_remove_button_clicked),
                           page);
 
+        connect_sensitivity_signals (page, mode_group);
 
         /* FIXME: move to .ui once it isn't shared */
-        hbox = gtk_hbox_new (FALSE, 6);
-        gtk_box_pack_end (GTK_BOX (hbox), page->priv->delete_button, FALSE, FALSE, 0);
+        hbox = WID ("hbox2");
+
+        gtk_box_pack_end (GTK_BOX (hbox), page->priv->delete_button, FALSE,
+                          FALSE, 0);
         g_signal_connect (page->priv->delete_button,
                           "clicked",
                           G_CALLBACK (on_delete_button_clicked),
                           page);
 
         widget = WID ("network_proxy_vbox");
-        gtk_box_pack_end (GTK_BOX (widget), hbox, FALSE, FALSE, 0);
 
         gtk_widget_reparent (widget, GTK_WIDGET (page));
         gtk_widget_show (widget);
