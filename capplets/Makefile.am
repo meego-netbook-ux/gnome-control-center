@@ -6,6 +6,8 @@ SUBDIRS = \
 	mouse			\
 	network			\
 	power			\
+	date			\
+	language		\
 	$(NULL)
 
 DIST_SUBDIRS = \
@@ -19,6 +21,8 @@ DIST_SUBDIRS = \
 	power		\
 	windows			\
 	display 		\
+	date			\
+	language		\
 	about-me
 
 
