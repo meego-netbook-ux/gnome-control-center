@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-22 09:32+0000\n"
-"PO-Revision-Date: 2010-03-22 16:00-0800\n"
+"POT-Creation-Date: 2010-04-21 09:39+0000\n"
+"PO-Revision-Date: 2010-04-23 01:31-0800\n"
 "Last-Translator: Margie Foster <margie@linux.intel.com>\n"
 "Language-Team: British English <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -37,11 +37,11 @@ msgstr "Set this to your current location name. This is used to determine the ap
 
 #: ../gnome-control-center.schemas.in.h:5
 msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
-msgstr "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
+msgstr "URL to get more desktop backgrounds. If set to an empty string, the link will not appear."
 
 #: ../gnome-control-center.schemas.in.h:6
 msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
-msgstr "URL for where to get more desktop themes. If set to an empty string the link will not appear."
+msgstr "URL to get more desktop themes. If set to an empty string, the link will not appear."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -184,7 +184,7 @@ msgstr "Swipe your finger again"
 #: ../capplets/about-me/fingerprint-strings.h:77
 #: ../capplets/about-me/fingerprint-strings.h:103
 msgid "Swipe was too short, try again"
-msgstr "Swipe was too short, try again"
+msgstr "Swipe was too short; try again"
 
 #: ../capplets/about-me/fingerprint-strings.h:79
 #: ../capplets/about-me/fingerprint-strings.h:105
@@ -252,9 +252,8 @@ msgid "socket"
 msgstr "socket"
 
 #: ../capplets/about-me/gnome-about-me.c:1023
-#, fuzzy
 msgid "- GNOME About Me"
-msgstr "About Me"
+msgstr "- GNOME About Me"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
 msgid "A_IM/iChat:"
@@ -697,6 +696,7 @@ msgid "Change pa_ssword"
 msgstr "Change pa_ssword"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "Change password"
 
@@ -840,10 +840,11 @@ msgstr "Use selected font"
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
 #: ../capplets/appearance/cc-theme-page.c:1350
 #: ../capplets/appearance/cc-theme-save-dialog.c:456
-#: ../capplets/display/cc-display-page.c:2454
+#: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
 #: ../capplets/network/cc-network-proxy-page.c:1287
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Could not load user interface file: %s"
@@ -948,7 +949,7 @@ msgstr "The current theme suggests a font."
 msgid "Custom"
 msgstr "Custom"
 
-#: ../capplets/appearance/cc-appearance-panel.c:200
+#: ../capplets/appearance/cc-appearance-panel.c:209
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "Appearance"
@@ -999,14 +1000,14 @@ msgstr ""
 #.
 #: ../capplets/appearance/cc-background-item.c:255
 #: ../capplets/appearance/gnome-wp-item.c:292
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "<b>%s</b>\n"
 "%s\n"
 "Folder: %s"
 msgstr ""
 "<b>%s</b>\n"
-"%s, %s\n"
+"%s\n"
 "Folder: %s"
 
 #: ../capplets/appearance/cc-background-item.c:259
@@ -1030,9 +1031,8 @@ msgid "Font Rendering Details"
 msgstr "Font Rendering Details"
 
 #: ../capplets/appearance/cc-font-page.c:592
-#, fuzzy
 msgid "Font"
-msgstr "Fonts"
+msgstr "Font"
 
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1387
 #: ../capplets/appearance/data/appearance.ui.h:11
@@ -1087,9 +1087,8 @@ msgid "C_ustomize..."
 msgstr "C_ustomise…"
 
 #: ../capplets/appearance/data/appearance.ui.h:7
-#, fuzzy
 msgid "Center"
-msgstr "Centred"
+msgstr "Center"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
 msgid "Changing your cursor theme takes effect the next time you log in."
@@ -1178,9 +1177,8 @@ msgid "Save _background image"
 msgstr "Save _background image"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
-#, fuzzy
 msgid "Scale"
-msgstr "Scaled"
+msgstr "Scale"
 
 #: ../capplets/appearance/data/appearance.ui.h:34
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
@@ -1232,9 +1230,8 @@ msgid "The current controls theme does not support color schemes."
 msgstr "The current controls theme does not support colour schemes."
 
 #: ../capplets/appearance/data/appearance.ui.h:47
-#, fuzzy
 msgid "Tile"
-msgstr "Tiled"
+msgstr "Tile"
 
 #. vertical hinting, pixel order blue, green, red
 #: ../capplets/appearance/data/appearance.ui.h:49
@@ -1815,92 +1812,40 @@ msgstr "Totem Movie Player"
 msgid "aterm"
 msgstr "aterm"
 
-#: ../capplets/display/cc-display-page.c:325
-#: ../capplets/display/cc-display-page.c:371
-#: ../capplets/display/display-capplet.ui.h:6
-#: ../capplets/display/xrandr-capplet.c:307
-#: ../capplets/display/xrandr-capplet.c:346
-msgid "Normal"
-msgstr "Normal"
-
-#: ../capplets/display/cc-display-page.c:326
-#: ../capplets/display/display-capplet.ui.h:4
-#: ../capplets/display/xrandr-capplet.c:308
-msgid "Left"
-msgstr "Left"
-
-#: ../capplets/display/cc-display-page.c:327
-#: ../capplets/display/display-capplet.ui.h:12
-#: ../capplets/display/xrandr-capplet.c:309
-msgid "Right"
-msgstr "Right"
-
-#: ../capplets/display/cc-display-page.c:328
-#: ../capplets/display/xrandr-capplet.c:310
-msgid "Upside Down"
-msgstr "Upside Down"
-
-#: ../capplets/display/cc-display-page.c:377
-#: ../capplets/display/xrandr-capplet.c:352
-#, c-format
-msgid "%d Hz"
-msgstr "%d Hz"
-
-#. Translators:  this is the feature where what you see on your laptop's
-#. * screen is the same as your external monitor.  Here, "Mirror" is being
-#. * used as an adjective, not as a verb.  For example, the Spanish
-#. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#.
-#: ../capplets/display/cc-display-page.c:550
-#: ../capplets/display/cc-display-page.c:1719
-#: ../capplets/display/xrandr-capplet.c:500
-#: ../capplets/display/xrandr-capplet.c:1607
-msgid "Mirror Screens"
-msgstr "Mirror Screens"
-
-#: ../capplets/display/cc-display-page.c:552
-#: ../capplets/display/xrandr-capplet.c:502
-#, c-format
-msgid "Monitor: %s"
-msgstr "Monitor: %s"
-
-#: ../capplets/display/cc-display-page.c:563
-#: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:511
-msgid "Monitor"
-msgstr "Monitor"
-
-#: ../capplets/display/cc-display-page.c:644
-#: ../capplets/display/xrandr-capplet.c:580
-#, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
-
-#: ../capplets/display/cc-display-page.c:2174
+#: ../capplets/display/cc-display-minimal-page.c:330
 #: ../capplets/display/xrandr-capplet.c:2027
 msgid "Could not save the monitor configuration"
 msgstr "Could not save the monitor configuration"
 
-#: ../capplets/display/cc-display-page.c:2187
+#: ../capplets/display/cc-display-minimal-page.c:343
 #: ../capplets/display/xrandr-capplet.c:2038
 msgid "Could not get session bus while applying display configuration"
 msgstr "Could not get session bus while applying display configuration"
 
-#: ../capplets/display/cc-display-page.c:2238
-#: ../capplets/display/xrandr-capplet.c:2080
-msgid "Could not detect displays"
-msgstr "Could not detect displays"
+#: ../capplets/display/cc-display-minimal-page.c:478
+#: ../capplets/display/cc-display-minimal-page.c:487
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
 
-#: ../capplets/display/cc-display-page.c:2574
+#: ../capplets/display/cc-display-minimal-page.c:496
+#: ../capplets/display/display-minimal.ui.h:4
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr "You are showing your desktop on an external monitor or projector."
+
+#: ../capplets/display/cc-display-minimal-page.c:652
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr "Displays and projectors"
+
+#: ../capplets/display/cc-display-minimal-page.c:672
+#: ../capplets/display/xrandr-capplet.c:2297
+msgid "Could not get screen information"
+msgstr "Could not get screen information"
+
 #: ../capplets/display/cc-display-panel.c:121
 #: ../capplets/display/display-properties.desktop.in.in.h:2
 msgid "Display"
 msgstr "Display"
-
-#: ../capplets/display/cc-display-page.c:2595
-#: ../capplets/display/xrandr-capplet.c:2297
-msgid "Could not get screen information"
-msgstr "Could not get screen information"
 
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Display Preferences"
@@ -1913,6 +1858,22 @@ msgstr "Drag the monitors to set their place"
 #: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
 msgstr "Include _panel"
+
+#: ../capplets/display/display-capplet.ui.h:4
+#: ../capplets/display/xrandr-capplet.c:308
+msgid "Left"
+msgstr "Left"
+
+#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/xrandr-capplet.c:511
+msgid "Monitor"
+msgstr "Monitor"
+
+#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:346
+msgid "Normal"
+msgstr "Normal"
 
 #: ../capplets/display/display-capplet.ui.h:7
 msgid "Off"
@@ -1934,6 +1895,11 @@ msgstr "R_otation:"
 msgid "Re_fresh rate:"
 msgstr "Re_fresh rate:"
 
+#: ../capplets/display/display-capplet.ui.h:12
+#: ../capplets/display/xrandr-capplet.c:309
+msgid "Right"
+msgstr "Right"
+
 #: ../capplets/display/display-capplet.ui.h:13
 msgid "Upside-down"
 msgstr "Upside-down"
@@ -1954,14 +1920,54 @@ msgstr "_Resolution:"
 msgid "_Show displays in panel"
 msgstr "_Show displays in panel"
 
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr "External display"
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr "External display resolution"
+
 #: ../capplets/display/display-properties.desktop.in.in.h:1
 msgid "Change screen resolution"
 msgstr "Change screen resolution"
 
+#: ../capplets/display/xrandr-capplet.c:310
+msgid "Upside Down"
+msgstr "Upside Down"
+
+#: ../capplets/display/xrandr-capplet.c:352
+#, c-format
+msgid "%d Hz"
+msgstr "%d Hz"
+
+#. Translators:  this is the feature where what you see on your laptop's
+#. * screen is the same as your external monitor.  Here, "Mirror" is being
+#. * used as an adjective, not as a verb.  For example, the Spanish
+#. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
+#.
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:1607
+msgid "Mirror Screens"
+msgstr "Mirror Screens"
+
+#: ../capplets/display/xrandr-capplet.c:502
+#, c-format
+msgid "Monitor: %s"
+msgstr "Monitor: %s"
+
+#: ../capplets/display/xrandr-capplet.c:580
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
+
+#: ../capplets/display/xrandr-capplet.c:2080
+msgid "Could not detect displays"
+msgstr "Could not detect displays"
+
 #: ../capplets/display/xrandr-capplet.c:2443
-#, fuzzy
 msgid "- GNOME Display Preferences"
-msgstr "Display Preferences"
+msgstr "- GNOME Display Preferences"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:219
 #: ../capplets/keyboard/gnome-keyboard-properties.c:224
@@ -2206,9 +2212,8 @@ msgid "_Only accept long keypresses"
 msgstr "_Only accept long keypresses"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
-#, fuzzy
 msgid "_Options..."
-msgstr "Options"
+msgstr "_Options..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
@@ -2283,7 +2288,7 @@ msgstr "_Vendors:"
 msgid "Keyboard Layout Options"
 msgstr "Keyboard Layout Options"
 
-#: ../capplets/keyboard/cc-keyboard-panel.c:156
+#: ../capplets/keyboard/cc-keyboard-panel.c:163
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
@@ -2418,9 +2423,8 @@ msgid "Set your keyboard preferences"
 msgstr "Set your keyboard preferences"
 
 #: ../capplets/mouse/cc-pointer-panel.c:95
-#, fuzzy
 msgid "Pointing Devices"
-msgstr "Devices"
+msgstr "Pointing Devices"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2614,9 +2618,8 @@ msgid "Set your mouse preferences"
 msgstr "Set your mouse preferences"
 
 #: ../capplets/network/cc-network-panel.c:139
-#, fuzzy
 msgid "Network"
-msgstr "Network Proxy"
+msgstr "Network"
 
 #: ../capplets/network/cc-network-proxy-page.c:753
 #: ../capplets/network/cc-network-proxy-page.c:919
@@ -2631,14 +2634,12 @@ msgid "Location already exists"
 msgstr "Location already exists"
 
 #: ../capplets/network/cc-network-proxy-page.c:1306
-#, fuzzy
 msgid "Delete Location"
-msgstr "_Delete Location"
+msgstr "Delete Location"
 
 #: ../capplets/network/cc-network-proxy-page.c:1546
-#, fuzzy
 msgid "Proxy"
-msgstr "_FTP proxy:"
+msgstr "Proxy"
 
 #: ../capplets/network/gnome-network-properties.c:1386
 msgid "- GNOME Network Preferences"
@@ -2665,9 +2666,8 @@ msgid "Create New Location"
 msgstr "Create New Location"
 
 #: ../capplets/network/gnome-network-properties.ui.h:4
-#, fuzzy
 msgid "Di_rect internet connection"
-msgstr "<b>Di_rect internet connection</b>"
+msgstr "Di_rect internet connection"
 
 #: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
@@ -2714,9 +2714,8 @@ msgid "U_sername:"
 msgstr "U_sername:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:16
-#, fuzzy
 msgid "_Automatic proxy configuration"
-msgstr "<b>_Automatic proxy configuration</b>"
+msgstr "_Automatic proxy configuration"
 
 #: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
@@ -2735,9 +2734,8 @@ msgid "_Location name:"
 msgstr "_Location name:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:21
-#, fuzzy
 msgid "_Manual proxy configuration"
-msgstr "<b>_Manual proxy configuration</b>"
+msgstr "_Manual proxy configuration"
 
 #: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
@@ -2748,13 +2746,149 @@ msgid "_Secure HTTP proxy:"
 msgstr "_Secure HTTP proxy:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:24
-#, fuzzy
 msgid "_Use authentication"
-msgstr "<b>_Use authentication</b>"
+msgstr "_Use authentication"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Use the same proxy for all protocols"
+
+#: ../capplets/security/run-passwd.c:427
+msgid "Authentication failed"
+msgstr "Authentication failed"
+
+#: ../capplets/security/run-passwd.c:503
+#, c-format
+msgid "The new password is too short"
+msgstr "The new password is too short"
+
+#: ../capplets/security/run-passwd.c:508
+#, c-format
+msgid "The new password is too simple"
+msgstr "The new password is too simple"
+
+#: ../capplets/security/run-passwd.c:512
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "The old and new passwords are too similar"
+
+#: ../capplets/security/run-passwd.c:515
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "The new password must contain numeric or special characters"
+
+#: ../capplets/security/run-passwd.c:519
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "The old and new passwords are the same."
+
+#: ../capplets/security/run-passwd.c:523
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Your password has been changed since you initially authenticated!"
+
+#: ../capplets/security/run-passwd.c:527
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "The new password does not contain enough different characters"
+
+#: ../capplets/security/run-passwd.c:531
+#, c-format
+msgid "Unknown error"
+msgstr "Unknown error"
+
+#: ../capplets/security/cc-security-panel.c:153
+msgid "Sorry, the passwords do not match"
+msgstr "Sorry, the passwords do not match"
+
+#: ../capplets/security/cc-security-panel.c:178
+msgid "The new password is now saved"
+msgstr "The new password is now saved"
+
+#: ../capplets/security/cc-security-panel.c:209
+msgid "Sorry, the password could not be changed"
+msgstr "Sorry, the password could not be changed."
+
+#: ../capplets/security/cc-security-panel.c:441
+msgid "Sorry, that password is incorrect"
+msgstr "Sorry, that password is incorrect"
+
+#: ../capplets/security/cc-security-panel.c:496
+msgid "Security"
+msgstr "Security"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+msgid "Security and passwords"
+msgstr "Security and passwords"
+
+#: ../capplets/security/security.ui.h:2
+msgid "Current password:"
+msgstr "Current password:"
+
+#: ../capplets/security/security.ui.h:3
+msgid "New password:"
+msgstr "New password:"
+
+#: ../capplets/security/security.ui.h:4
+msgid "Repeat password:"
+msgstr "Repeat password:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr "Require a password to turn on or wake up my computer"
+
+#: ../capplets/security/security.ui.h:6
+msgid "Save new password"
+msgstr "Save new password"
+
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+#: ../capplets/power/cc-power-panel.c:455
+msgid "Power and brightness"
+msgstr "Power and brightness"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minute"
+msgstr[1] "%d minutes"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr "Never"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "Brightness"
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr "Put computer to sleep when inactive for:"
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr "Set computer as idle when inactive for:"
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr "Sleep"
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr "This will blank the screen and set your messaging state to 'away'."
+
+#: ../capplets/power/power.ui.h:6
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "To change your brightness, you can use the keys on your computer."
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr "ldle"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3140,9 +3274,8 @@ msgid "if true, the control-center will close when a \"Common Task\" is activate
 msgstr "if true, the control-centre will close when a \"Common Task\" is activated."
 
 #: ../shell/gnome-control-center.desktop.in.in.h:1
-#, fuzzy
 msgid "Settings"
-msgstr "Default Settings"
+msgstr "Settings"
 
 #: ../shell/gnome-control-center.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
@@ -4070,8 +4203,6 @@ msgstr "Error parsing arguments: %s\n"
 #~ msgstr "Simple OnScreen Keyboard"
 #~ msgid "W3M Text Browser"
 #~ msgstr "W3M Text Browser"
-#~ msgid "_Keep resolution"
-#~ msgstr "_Keep resolution"
 #~ msgid "There was an error launching the keyboard tool: %s"
 #~ msgstr "There was an error launching the keyboard tool: %s"
 #~ msgid "Choose..."
@@ -4348,8 +4479,6 @@ msgstr "Error parsing arguments: %s\n"
 #~ msgstr "Skip to next track"
 #~ msgid "Skip to previous track"
 #~ msgstr "Skip to previous track"
-#~ msgid "Sleep"
-#~ msgstr "Sleep"
 #~ msgid "Sleep's shortcut."
 #~ msgstr "Sleep's shortcut."
 #~ msgid "Stop playback key"
@@ -4402,8 +4531,6 @@ msgstr "Error parsing arguments: %s\n"
 #~ msgstr "Select fonts for the desktop"
 #~ msgid "Font Preferences"
 #~ msgstr "Font Preferences"
-#~ msgid "Unknown Pointer"
-#~ msgstr "Unknown Pointer"
 #~ msgid "The default pointer that ships with X"
 #~ msgstr "The default pointer that ships with X"
 #~ msgid "The default pointer inverted"
@@ -4714,8 +4841,6 @@ msgstr "Error parsing arguments: %s\n"
 #~ msgstr "Brightness down"
 #~ msgid "Brightness down's shortcut."
 #~ msgstr "Brightness down's shortcut."
-#~ msgid "Brightness up"
-#~ msgstr "Brightness up"
 #~ msgid "Brightness up's shortcut."
 #~ msgstr "Brightness up's shortcut."
 #~ msgid ""
