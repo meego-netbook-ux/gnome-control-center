@@ -593,6 +593,9 @@ add_item_for_filename (CcBackgroundPage *page,
         added = FALSE;
 
         item = cc_background_item_new (filename);
+#ifdef HAVE_MOBLIN
+        g_object_set (item, "placement", "zoom", NULL);
+#endif
         if (cc_background_item_load (item)) {
                 added = cc_backgrounds_monitor_add_item (page->priv->monitor, item);
         }
