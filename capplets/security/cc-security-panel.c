@@ -43,6 +43,7 @@
 #include <glib/gstdio.h>
 #include <gconf/gconf-client.h>
 #include <gtk/gtk.h>
+#include <mx-gtk/mx-gtk.h>
 
 #include "capplet-util.h"
 #include "run-passwd.h"
@@ -386,7 +387,7 @@ static void
 cc_security_panel_setup_panel (CcSecurityPanel *panel)
 {
         CcSecurityPanelPrivate *priv = GET_PRIVATE (panel);
-        GtkWidget *main_window, *box, *c_area, *label;
+        GtkWidget *main_window, *box, *toggle_box, *c_area, *label;
         GtkBuilder *builder;
         GError *error = NULL;
 
@@ -416,7 +417,10 @@ cc_security_panel_setup_panel (CcSecurityPanel *panel)
         gtk_widget_reparent (gtk_bin_get_child (GTK_BIN (main_window)),
                              GTK_WIDGET (panel));
 
-        priv->password_toggle = GET_WIDGET (builder, "password_toggle");
+        toggle_box = GET_WIDGET (builder, "password_toggle_box");
+        priv->password_toggle = mx_gtk_light_switch_new ();
+        gtk_box_pack_start (GTK_BOX (toggle_box), priv->password_toggle,
+                            FALSE, FALSE, 0);
         cc_security_panel_update_password_toggle (panel);
         priv->toggle_id = g_signal_connect (priv->password_toggle,
                                             "notify::active",
