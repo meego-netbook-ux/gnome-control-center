@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-21 09:39+0000\n"
-"PO-Revision-Date: 2010-04-23 01:31-0800\n"
+"POT-Creation-Date: 2010-04-26 09:38+0000\n"
+"PO-Revision-Date: 2010-04-27 16:19-0800\n"
 "Last-Translator: Margie Foster <margie@linux.intel.com>\n"
 "Language-Team: British English <en@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -234,20 +234,12 @@ msgstr "About %s"
 
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/about-me/gnome-about-me.c:1018
-#: ../capplets/appearance/appearance-main.c:150
 #: ../capplets/display/xrandr-capplet.c:2436
-#: ../capplets/keyboard/gnome-keyboard-properties.c:243
-#: ../capplets/mouse/gnome-mouse-properties.c:599
-#: ../capplets/network/gnome-network-properties.c:1380
 msgid "ID of the socket to embed in"
 msgstr "ID of the socket to embed in"
 
 #: ../capplets/about-me/gnome-about-me.c:1019
-#: ../capplets/appearance/appearance-main.c:151
 #: ../capplets/display/xrandr-capplet.c:2437
-#: ../capplets/keyboard/gnome-keyboard-properties.c:244
-#: ../capplets/mouse/gnome-mouse-properties.c:600
-#: ../capplets/network/gnome-network-properties.c:1381
 msgid "socket"
 msgstr "socket"
 
@@ -849,26 +841,26 @@ msgstr "Use selected font"
 msgid "Could not load user interface file: %s"
 msgstr "Could not load user interface file: %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "Specify the filename of a theme to install"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "filename"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Specify the name of the page to show (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:962
-#: ../capplets/mouse/gnome-mouse-properties.c:592
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "page"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[WALLPAPER…]"
 
@@ -1969,20 +1961,20 @@ msgstr "Could not detect displays"
 msgid "- GNOME Display Preferences"
 msgstr "- GNOME Display Preferences"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:205
+#: ../capplets/keyboard/gnome-keyboard-properties.c:210
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Just apply settings and quit (compatibility only; now handled by daemon)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:229
+#: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
 msgstr "Start the page with the typing break settings showing"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:220
 msgid "Start the page with the accessibility settings showing"
 msgstr "Start the page with the accessibility settings showing"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:250
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- GNOME Keyboard Preferences"
 
@@ -2220,9 +2212,8 @@ msgid "_Pointer can be controlled using the keypad"
 msgstr "_Pointer can be controlled using the keypad"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
-#, fuzzy
 msgid "_Separate layout for each window"
-msgstr "Separate _layout for each window"
+msgstr "_Separate layout for each window"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
@@ -2422,7 +2413,7 @@ msgstr "Default"
 msgid "Set your keyboard preferences"
 msgstr "Set your keyboard preferences"
 
-#: ../capplets/mouse/cc-pointer-panel.c:95
+#: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
 msgstr "Pointing Devices"
 
@@ -2457,11 +2448,11 @@ msgid "gesture|Disabled"
 msgstr "Disabled"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Specify the name of the page to show (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:604
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME Mouse Preferences"
 
@@ -2641,10 +2632,6 @@ msgstr "Delete Location"
 msgid "Proxy"
 msgstr "Proxy"
 
-#: ../capplets/network/gnome-network-properties.c:1386
-msgid "- GNOME Network Preferences"
-msgstr "- GNOME Network Preferences"
-
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr "Network Proxy"
@@ -2797,23 +2784,23 @@ msgstr "The new password does not contain enough different characters"
 msgid "Unknown error"
 msgstr "Unknown error"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Sorry, the passwords do not match"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "The new password is now saved"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "Sorry, the password could not be changed."
 
-#: ../capplets/security/cc-security-panel.c:441
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "Sorry, that password is incorrect"
 
-#: ../capplets/security/cc-security-panel.c:496
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "Security"
 
@@ -3493,6 +3480,8 @@ msgstr "FONT-FILE OUTPUT-FILE"
 msgid "Error parsing arguments: %s\n"
 msgstr "Error parsing arguments: %s\n"
 
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr "- GNOME Network Preferences"
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr "Choose which accessibility features to enable when you log in"
 #~ msgid "Edit"
