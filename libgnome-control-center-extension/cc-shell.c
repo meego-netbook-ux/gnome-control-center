@@ -238,13 +238,26 @@ cc_shell_set_panel (CcShell     *shell,
   panel = g_hash_table_lookup (priv->panels, id);
   if (panel != NULL)
     {
+      GtkWidget *scroll, *view;
+
       priv->current_panel = panel;
       gtk_container_set_border_width (GTK_CONTAINER (panel), 12);
       gtk_widget_show_all (GTK_WIDGET (panel));
       cc_panel_set_active (panel, TRUE);
 
+      scroll = gtk_scrolled_window_new (NULL, NULL);
+      gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scroll),
+                                      GTK_POLICY_AUTOMATIC,
+                                      GTK_POLICY_AUTOMATIC);
+      view = gtk_viewport_new (NULL, NULL);
+      gtk_viewport_set_shadow_type (GTK_VIEWPORT (view), GTK_SHADOW_NONE);
+      gtk_container_add (GTK_CONTAINER (view), GTK_WIDGET (panel));
+
+      gtk_container_add (GTK_CONTAINER (scroll), view);
+      gtk_widget_show_all (scroll);
+
       gtk_notebook_insert_page (GTK_NOTEBOOK (notebook),
-                                GTK_WIDGET (panel), NULL, CAPPLET_PAGE);
+                                GTK_WIDGET (scroll), NULL, CAPPLET_PAGE);
 
       gtk_notebook_set_current_page (GTK_NOTEBOOK (notebook),
                                      CAPPLET_PAGE);
