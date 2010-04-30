@@ -28,8 +28,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-07 09:43+0000\n"
-"PO-Revision-Date: 2010-04-09 02:21-0800\n"
+"POT-Creation-Date: 2010-04-28 09:39+0000\n"
+"PO-Revision-Date: 2010-04-29 19:37-0800\n"
 "Last-Translator: David Cicognani <david.cicognani@ptiglobal.net>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "URL pour plus de thèmes"
 
 #: ../gnome-control-center.schemas.in.h:4
 msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
-msgstr "À définir comme votre nom d'emplacement actuel. Sert à déterminer la configuration réseau appropriée du serveur mandataire."
+msgstr "À définir comme votre nom d'emplacement actuel. Sert à déterminer la configuration réseau appropriée du proxy."
 
 #: ../gnome-control-center.schemas.in.h:5
 msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
@@ -226,7 +226,7 @@ msgstr "Aucune image"
 
 #: ../capplets/about-me/gnome-about-me.c:746
 #: ../capplets/appearance/appearance-desktop.c:659
-#: ../capplets/appearance/cc-background-page.c:1168
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "Images"
 
@@ -254,20 +254,12 @@ msgstr "À propos de %s"
 
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/about-me/gnome-about-me.c:1018
-#: ../capplets/appearance/appearance-main.c:150
 #: ../capplets/display/xrandr-capplet.c:2436
-#: ../capplets/keyboard/gnome-keyboard-properties.c:243
-#: ../capplets/mouse/gnome-mouse-properties.c:599
-#: ../capplets/network/gnome-network-properties.c:1380
 msgid "ID of the socket to embed in"
 msgstr "ID du connecteur réseau dans lequel intégrer"
 
 #: ../capplets/about-me/gnome-about-me.c:1019
-#: ../capplets/appearance/appearance-main.c:151
 #: ../capplets/display/xrandr-capplet.c:2437
-#: ../capplets/keyboard/gnome-keyboard-properties.c:244
-#: ../capplets/mouse/gnome-mouse-properties.c:600
-#: ../capplets/network/gnome-network-properties.c:1381
 msgid "socket"
 msgstr "connecteur réseau"
 
@@ -813,12 +805,12 @@ msgid "Universal Access"
 msgstr "Accès universel"
 
 #: ../capplets/appearance/appearance-desktop.c:628
-#: ../capplets/appearance/cc-background-page.c:1133
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "Ajouter un papier peint"
 
 #: ../capplets/appearance/appearance-desktop.c:663
-#: ../capplets/appearance/cc-background-page.c:1173
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "Tous les fichiers"
 
@@ -854,7 +846,7 @@ msgid "Use selected font"
 msgstr "Utiliser la police sélectionnée"
 
 #: ../capplets/appearance/appearance-main.c:54
-#: ../capplets/appearance/cc-background-page.c:1414
+#: ../capplets/appearance/cc-background-page.c:1417
 #: ../capplets/appearance/cc-font-details-dialog.c:408
 #: ../capplets/appearance/cc-font-page.c:458
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
@@ -863,32 +855,32 @@ msgstr "Utiliser la police sélectionnée"
 #: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
-#: ../capplets/network/cc-network-proxy-page.c:1287
-#: ../capplets/power/cc-power-panel.c:367
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Impossible de charger le fichier d'interface : %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "Indique le nom de fichier de thème à installer"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "nom de fichier"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Indique le nom de la page à afficher (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:962
-#: ../capplets/mouse/gnome-mouse-properties.c:592
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "page"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[PAPIER PEINT...]"
 
@@ -1040,7 +1032,7 @@ msgstr "Image manquante"
 msgid "No Desktop Background"
 msgstr "Aucun arrière-plan de bureau"
 
-#: ../capplets/appearance/cc-background-page.c:1575
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "Arrière-plan"
@@ -1990,20 +1982,20 @@ msgstr "Impossible de détecter les écrans"
 msgid "- GNOME Display Preferences"
 msgstr "- Préférences de l'affichage GNOME"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:205
+#: ../capplets/keyboard/gnome-keyboard-properties.c:210
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Appliquer les paramètres et quitter (pour compatibilité uniquement ; maintenant géré par un démon)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:229
+#: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
 msgstr "Démarrer la page en affichant les paramètres de pause de saisie"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:220
 msgid "Start the page with the accessibility settings showing"
 msgstr "Démarrer la page en affichant les paramètres d'accessibilité"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:250
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Préférences du clavier GNOME"
 
@@ -2442,7 +2434,7 @@ msgstr "Par défaut"
 msgid "Set your keyboard preferences"
 msgstr "Définir les paramètres de votre clavier"
 
-#: ../capplets/mouse/cc-pointer-panel.c:95
+#: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
 msgstr "Périphériques de pointage"
 
@@ -2477,11 +2469,11 @@ msgid "gesture|Disabled"
 msgstr "Désactivé"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Indique le nom de la page à afficher (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:604
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- Préférences de la souris GNOME"
 
@@ -2637,41 +2629,38 @@ msgstr "Souris"
 msgid "Set your mouse preferences"
 msgstr "Définir les paramètres de votre souris"
 
-#: ../capplets/network/cc-network-panel.c:139
+#: ../capplets/network/cc-network-panel.c:114
 msgid "Network"
 msgstr "Réseau"
 
-#: ../capplets/network/cc-network-proxy-page.c:753
-#: ../capplets/network/cc-network-proxy-page.c:919
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "Nouvel emplacement..."
 
-#: ../capplets/network/cc-network-proxy-page.c:887
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "Cet emplacement existe déjà"
 
-#: ../capplets/network/cc-network-proxy-page.c:1306
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
 msgid "Delete Location"
 msgstr "Supprimer l'emplacement"
 
-#: ../capplets/network/cc-network-proxy-page.c:1546
+#: ../capplets/network/cc-network-proxy-page.c:1545
 msgid "Proxy"
-msgstr "Serveur mandataire"
-
-#: ../capplets/network/gnome-network-properties.c:1386
-msgid "- GNOME Network Preferences"
-msgstr "- Préférences du réseau GNOME"
+msgstr "Proxy"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
-msgstr "Serveur mandataire"
+msgstr "Proxy réseau"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
-msgstr "Définir vos préférences de serveur mandataire (proxy)"
+msgstr "Définir vos préférences de proxy réseau"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
 msgid "Autoconfiguration _URL:"
@@ -2691,11 +2680,11 @@ msgstr "Connexion di_recte à Internet"
 
 #: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
-msgstr "Détails du serveur mandataire HTTP"
+msgstr "Détails du proxy HTTP"
 
 #: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
-msgstr "Serveur mandataire _HTTP :"
+msgstr "Proxy _HTTP :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
@@ -2711,7 +2700,7 @@ msgstr "Emplacement :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
-msgstr "Préférences de serveur mandataire"
+msgstr "Préférences de proxy réseau"
 
 #: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
@@ -2719,7 +2708,7 @@ msgstr "Port :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
-msgstr "Configuration du serveur mandataire"
+msgstr "Configuration du proxy"
 
 #: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
@@ -2735,7 +2724,7 @@ msgstr "Nom d'_utilisateur :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:16
 msgid "_Automatic proxy configuration"
-msgstr "Configuration _automatique du serveur mandataire"
+msgstr "Configuration _automatique du proxy"
 
 #: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
@@ -2747,7 +2736,7 @@ msgstr "_Détails"
 
 #: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
-msgstr "Serveur mandataire _FTP :"
+msgstr "Proxy _FTP :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
@@ -2755,7 +2744,7 @@ msgstr "Nom de l'_emplacement :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:21
 msgid "_Manual proxy configuration"
-msgstr "Configuration _manuelle du serveur mandataire"
+msgstr "Configuration _manuelle du proxy"
 
 #: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
@@ -2763,7 +2752,7 @@ msgstr "_Mot de passe :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
-msgstr "Serveur mandataire HTTP _sécurisé :"
+msgstr "Proxy HTTP _sécurisé :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:24
 msgid "_Use authentication"
@@ -2771,7 +2760,7 @@ msgstr "_Utiliser l'authentification"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
-msgstr "_Utiliser le même serveur mandataire pour tous les protocoles"
+msgstr "_Utiliser le même proxy pour tous les protocoles"
 
 #: ../capplets/security/run-passwd.c:427
 msgid "Authentication failed"
@@ -2817,28 +2806,27 @@ msgstr "Le nouveau mot de passe ne contient pas assez de caractères différents
 msgid "Unknown error"
 msgstr "Erreur inconnue"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Désolé, les mots de passe ne correspondent pas"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "Le nouveau mot de passe est enregistré"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "Désolé, le mot de passe n'a pas pu être modifié"
 
-#: ../capplets/security/cc-security-panel.c:441
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "Désolé, ce mot de passe est incorrect"
 
-#: ../capplets/security/cc-security-panel.c:496
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "Sécurité"
 
 #: ../capplets/security/security.desktop.in.in.h:1
-#: ../capplets/security/security.ui.h:7
 msgid "Security and passwords"
 msgstr "Sécurité et mots de passe"
 
@@ -2863,20 +2851,19 @@ msgid "Save new password"
 msgstr "Enregistrer le nouveau mot de passe"
 
 #: ../capplets/power/power-properties.desktop.in.in.h:1
-#: ../capplets/power/cc-power-panel.c:442
-#: ../capplets/power/power.ui.h:2
+#: ../capplets/power/cc-power-panel.c:455
 msgid "Power and brightness"
 msgstr "Alimentation et luminosité"
 
 #. TRANSLATORS: texts below idle/sleep scales
-#: ../capplets/power/cc-power-panel.c:98
+#: ../capplets/power/cc-power-panel.c:97
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minute"
 msgstr[1] "%d minutes"
 
-#: ../capplets/power/cc-power-panel.c:103
+#: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
 msgstr "Jamais"
 
@@ -2884,31 +2871,31 @@ msgstr "Jamais"
 msgid "Brightness"
 msgstr "Luminosité"
 
-#: ../capplets/power/power.ui.h:3
+#: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
 msgstr "Mettre l'ordinateur en veille après une durée d'inactivité de :"
 
-#: ../capplets/power/power.ui.h:4
+#: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
 msgstr "Mettre l'ordinateur au ralenti après une durée d'inactivité de :"
 
-#: ../capplets/power/power.ui.h:5
+#: ../capplets/power/power.ui.h:4
 msgid "Sleep"
 msgstr "Veille"
 
-#: ../capplets/power/power.ui.h:6
+#: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
 msgstr "L'écran deviendra blanc et le statut de votre messagerie passera à « absent »."
 
-#: ../capplets/power/power.ui.h:7
+#: ../capplets/power/power.ui.h:6
 msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
 msgstr "Tout sera suspendu sur votre ordinateur. Il se réveillera dans le même état qu'il était auparavant."
 
-#: ../capplets/power/power.ui.h:8
+#: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
 msgstr "Pour modifier la luminosité, vous pouvez utiliser les touches sur votre ordinateur."
 
-#: ../capplets/power/power.ui.h:9
+#: ../capplets/power/power.ui.h:8
 msgid "ldle"
 msgstr "Ralenti"
 
@@ -3534,6 +3521,9 @@ msgstr "FICHIER-POLICE FICHIER-SORTIE"
 #, c-format
 msgid "Error parsing arguments: %s\n"
 msgstr "Impossible d'analyser les paramètres : %s\n"
+
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr "- Préférences du réseau GNOME"
 
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr ""
