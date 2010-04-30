@@ -21,9 +21,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-07 09:43+0000\n"
-"PO-Revision-Date: 2010-04-08 20:06-0800\n"
-"Last-Translator: GLS_NLD <albert.dijkstra@ptiglobal.net>\n"
+"POT-Creation-Date: 2010-04-28 09:39+0000\n"
+"PO-Revision-Date: 2010-04-29 19:05-0800\n"
+"Last-Translator: Thomas <thomas.martens@ptiglobal.net>\n"
 "Language-Team: Dutch <vertaling@vrijschrift.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -221,7 +221,7 @@ msgstr "Geen afbeelding"
 
 #: ../capplets/about-me/gnome-about-me.c:746
 #: ../capplets/appearance/appearance-desktop.c:659
-#: ../capplets/appearance/cc-background-page.c:1168
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "Afbeeldingen"
 
@@ -249,20 +249,12 @@ msgstr "Over %s"
 
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/about-me/gnome-about-me.c:1018
-#: ../capplets/appearance/appearance-main.c:150
 #: ../capplets/display/xrandr-capplet.c:2436
-#: ../capplets/keyboard/gnome-keyboard-properties.c:243
-#: ../capplets/mouse/gnome-mouse-properties.c:599
-#: ../capplets/network/gnome-network-properties.c:1380
 msgid "ID of the socket to embed in"
 msgstr "Socket ID voor het embedden"
 
 #: ../capplets/about-me/gnome-about-me.c:1019
-#: ../capplets/appearance/appearance-main.c:151
 #: ../capplets/display/xrandr-capplet.c:2437
-#: ../capplets/keyboard/gnome-keyboard-properties.c:244
-#: ../capplets/mouse/gnome-mouse-properties.c:600
-#: ../capplets/network/gnome-network-properties.c:1381
 msgid "socket"
 msgstr "socket"
 
@@ -825,12 +817,12 @@ msgid "Universal Access"
 msgstr "Universele toegang"
 
 #: ../capplets/appearance/appearance-desktop.c:628
-#: ../capplets/appearance/cc-background-page.c:1133
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "Achtergrond toevoegen"
 
 #: ../capplets/appearance/appearance-desktop.c:663
-#: ../capplets/appearance/cc-background-page.c:1173
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "Alle bestanden"
 
@@ -866,7 +858,7 @@ msgid "Use selected font"
 msgstr "Geselecteerde lettertype gebruiken"
 
 #: ../capplets/appearance/appearance-main.c:54
-#: ../capplets/appearance/cc-background-page.c:1414
+#: ../capplets/appearance/cc-background-page.c:1417
 #: ../capplets/appearance/cc-font-details-dialog.c:408
 #: ../capplets/appearance/cc-font-page.c:458
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
@@ -875,32 +867,32 @@ msgstr "Geselecteerde lettertype gebruiken"
 #: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
-#: ../capplets/network/cc-network-proxy-page.c:1287
-#: ../capplets/power/cc-power-panel.c:367
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Kon het gebruikersbestand %s niet laden"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "Geef de bestandsnaam van een thema dat geïnstalleerd moet worden"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "bestandsnaam"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "De naam aangeven van de te tonen pagina (thema|achtergrond|lettertypen|bedieningsoppervlak)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:962
-#: ../capplets/mouse/gnome-mouse-properties.c:592
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "pagina"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[WERKBLADACHTERGROND...]"
 
@@ -1052,7 +1044,7 @@ msgstr "Afbeelding ontbreekt"
 msgid "No Desktop Background"
 msgstr "Geen werkbladachtergrond"
 
-#: ../capplets/appearance/cc-background-page.c:1575
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "Achtergrond"
@@ -2012,22 +2004,22 @@ msgstr "Kon schermen niet detecteren"
 msgid "- GNOME Display Preferences"
 msgstr "- GNOME Schermvoorkeuren"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:205
+#: ../capplets/keyboard/gnome-keyboard-properties.c:210
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Instellingen toepassen en afsluiten (enkel voor compatibiliteit; wordt nu door een automatische voorziening gedaan)"
 
 # What is this message about?
-#: ../capplets/keyboard/gnome-keyboard-properties.c:229
+#: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
 msgstr "De pagina beginnen met de tikpauze-instellingen zichtbaar"
 
 # What is this message about?
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:220
 msgid "Start the page with the accessibility settings showing"
 msgstr "De pagina beginnen met de toegankelijkheidsinstellingen zichtbaar"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:250
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Gnome Toetsenbordeigenschappen"
 
@@ -2473,7 +2465,7 @@ msgid "Set your keyboard preferences"
 msgstr "Uw toetsenbordvoorkeuren instellen"
 
 # stations/apparaten
-#: ../capplets/mouse/cc-pointer-panel.c:95
+#: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
 msgstr "Aanwijzers"
 
@@ -2508,11 +2500,11 @@ msgid "gesture|Disabled"
 msgstr "Uitgeschakeld"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "De naam aangeven van de te tonen pagina (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:604
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- Gnome muisvoorkeuren"
 
@@ -2669,33 +2661,30 @@ msgstr "Muis"
 msgid "Set your mouse preferences"
 msgstr "Uw muisvoorkeuren instellen"
 
-#: ../capplets/network/cc-network-panel.c:139
+#: ../capplets/network/cc-network-panel.c:114
 msgid "Network"
 msgstr "Netwerk"
 
-#: ../capplets/network/cc-network-proxy-page.c:753
-#: ../capplets/network/cc-network-proxy-page.c:919
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "Nieuwe locatie…"
 
-#: ../capplets/network/cc-network-proxy-page.c:887
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "Locatie bestaat al"
 
-#: ../capplets/network/cc-network-proxy-page.c:1306
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
 msgid "Delete Location"
 msgstr "Locatie verwijderen"
 
-#: ../capplets/network/cc-network-proxy-page.c:1546
+#: ../capplets/network/cc-network-proxy-page.c:1545
 msgid "Proxy"
 msgstr "Proxy"
-
-#: ../capplets/network/gnome-network-properties.c:1386
-msgid "- GNOME Network Preferences"
-msgstr "- Gnome Netwerk voorkeuren"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2856,28 +2845,27 @@ msgstr "Het nieuwe wachtwoord bevat onvoldoende verschillende tekens"
 msgid "Unknown error"
 msgstr "Onbekende fout"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "De wachtwoorden komen niet overeen"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "Het nieuwe wachtwoord is opgeslagen"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "Het wachtwoord kon niet worden gewijzigd"
 
-#: ../capplets/security/cc-security-panel.c:441
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "Dat wachtwoord is onjuist"
 
-#: ../capplets/security/cc-security-panel.c:496
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "Beveiliging"
 
 #: ../capplets/security/security.desktop.in.in.h:1
-#: ../capplets/security/security.ui.h:7
 msgid "Security and passwords"
 msgstr "Beveiliging en wachtwoorden"
 
@@ -2895,7 +2883,7 @@ msgstr "Wachtwoord nogmaals intypen:"
 
 #: ../capplets/security/security.ui.h:5
 msgid "Require a password to turn on or wake up my computer"
-msgstr "Maak een wachtwoord vereist om de computer in te schakelen of op te waken"
+msgstr "Maak een wachtwoord vereist om de computer in te schakelen of op te wekken"
 
 # venstertitel
 #: ../capplets/security/security.ui.h:6
@@ -2903,20 +2891,19 @@ msgid "Save new password"
 msgstr "Nieuw wachtwoord opslaan"
 
 #: ../capplets/power/power-properties.desktop.in.in.h:1
-#: ../capplets/power/cc-power-panel.c:442
-#: ../capplets/power/power.ui.h:2
+#: ../capplets/power/cc-power-panel.c:455
 msgid "Power and brightness"
 msgstr "Energie en helderheid"
 
 #. TRANSLATORS: texts below idle/sleep scales
-#: ../capplets/power/cc-power-panel.c:98
+#: ../capplets/power/cc-power-panel.c:97
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuut"
 msgstr[1] "%d minuten"
 
-#: ../capplets/power/cc-power-panel.c:103
+#: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
 msgstr "Nooit"
 
@@ -2924,31 +2911,31 @@ msgstr "Nooit"
 msgid "Brightness"
 msgstr "Helderheid"
 
-#: ../capplets/power/power.ui.h:3
+#: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
 msgstr "Computer in slaapstand plaatsen na inactiviteit voor:"
 
-#: ../capplets/power/power.ui.h:4
+#: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
 msgstr "Computer in standby plaatsen na inactiviteit voor:"
 
-#: ../capplets/power/power.ui.h:5
+#: ../capplets/power/power.ui.h:4
 msgid "Sleep"
 msgstr "Slaap"
 
-#: ../capplets/power/power.ui.h:6
+#: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
 msgstr "Dit maakt het scherm leeg en stelt uw messaging status als 'weg'."
 
-#: ../capplets/power/power.ui.h:7
+#: ../capplets/power/power.ui.h:6
 msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
 msgstr "Dit zal alles op uw computer tijdelijk 'bevriezen' en het zal in precies dezelfde staat weer ontwaken."
 
-#: ../capplets/power/power.ui.h:8
+#: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
 msgstr "Om de helderheid te wijzigen maakt u gebruik van de toetsen op uw computer."
 
-#: ../capplets/power/power.ui.h:9
+#: ../capplets/power/power.ui.h:8
 msgid "ldle"
 msgstr "standby"
 
@@ -3565,10 +3552,11 @@ msgstr "LETTERTYPEBESTAND OUTVOERBESTAND"
 msgid "Error parsing arguments: %s\n"
 msgstr "Fout bij het ontleden van argumenten: %s\n"
 
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr "- Gnome Netwerk voorkeuren"
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr ""
 #~ "Onbekend aanmeldings-ID, de gebruikersdatabase is misschien beschadigd"
-
 #~ msgid ""
 #~ "Left thumb\n"
 #~ "Left middle finger\n"
@@ -3587,18 +3575,14 @@ msgstr "Fout bij het ontleden van argumenten: %s\n"
 #~ "Rechter middelvinger\n"
 #~ "Rechter ringvinger\n"
 #~ "Rechter pink"
-
 #~ msgid "<b>Email</b>"
 #~ msgstr "<b>E-mail</b>"
-
 #~ msgid "<b>Home</b>"
 #~ msgstr "<b>Thuis</b>"
-
 #~ msgid "<b>Job</b>"
 #~ msgstr "<b>Werk</b>"
-
 #~ msgid "<b>Web</b>"
 #~ msgstr "<b>Web</b>"
-
 #~ msgid "<b>Work</b>"
 #~ msgstr "<b>Werk</b>"
+
