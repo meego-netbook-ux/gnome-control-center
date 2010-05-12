@@ -13,15 +13,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.27.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-27 09:39+0000\n"
-"PO-Revision-Date: 2010-03-28 22:22+0800\n"
+"POT-Creation-Date: 2010-05-12 09:40+0000\n"
+"PO-Revision-Date: 2010-05-12 22:52+0800\n"
 "Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
-"Language-Team: 正體中文 <kde-i18n-doc@kde.org>\n"
+"Language-Team: chinese-l10n <chinese-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Lokalize 1.0\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -210,7 +209,7 @@ msgstr "沒有圖片"
 
 #: ../capplets/about-me/gnome-about-me.c:746
 #: ../capplets/appearance/appearance-desktop.c:659
-#: ../capplets/appearance/cc-background-page.c:1168
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "圖片"
 
@@ -238,20 +237,12 @@ msgstr "關於 %s"
 
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/about-me/gnome-about-me.c:1018
-#: ../capplets/appearance/appearance-main.c:150
 #: ../capplets/display/xrandr-capplet.c:2436
-#: ../capplets/keyboard/gnome-keyboard-properties.c:243
-#: ../capplets/mouse/gnome-mouse-properties.c:599
-#: ../capplets/network/gnome-network-properties.c:1380
 msgid "ID of the socket to embed in"
 msgstr "要嵌入 socket 的 ID"
 
 #: ../capplets/about-me/gnome-about-me.c:1019
-#: ../capplets/appearance/appearance-main.c:151
 #: ../capplets/display/xrandr-capplet.c:2437
-#: ../capplets/keyboard/gnome-keyboard-properties.c:244
-#: ../capplets/mouse/gnome-mouse-properties.c:600
-#: ../capplets/network/gnome-network-properties.c:1381
 msgid "socket"
 msgstr "socket"
 
@@ -797,12 +788,12 @@ msgid "Universal Access"
 msgstr "無障礙功能"
 
 #: ../capplets/appearance/appearance-desktop.c:628
-#: ../capplets/appearance/cc-background-page.c:1133
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "加入桌布"
 
 #: ../capplets/appearance/appearance-desktop.c:663
-#: ../capplets/appearance/cc-background-page.c:1173
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "所有檔案"
 
@@ -836,7 +827,7 @@ msgid "Use selected font"
 msgstr "使用已選字型"
 
 #: ../capplets/appearance/appearance-main.c:54
-#: ../capplets/appearance/cc-background-page.c:1414
+#: ../capplets/appearance/cc-background-page.c:1417
 #: ../capplets/appearance/cc-font-details-dialog.c:408
 #: ../capplets/appearance/cc-font-page.c:458
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
@@ -845,32 +836,32 @@ msgstr "使用已選字型"
 #: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
-#: ../capplets/network/cc-network-proxy-page.c:1287
-#: ../capplets/power/cc-power-panel.c:331
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "無法載入使用者介面檔案：%s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "指定要安裝的佈景主題名稱"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "檔案名稱"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "指定要顯示的頁面名稱 (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:962
-#: ../capplets/mouse/gnome-mouse-properties.c:592
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "頁面"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[桌布...]"
 
@@ -1021,7 +1012,7 @@ msgstr "影像遺失"
 msgid "No Desktop Background"
 msgstr "無桌面背景"
 
-#: ../capplets/appearance/cc-background-page.c:1575
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "背景"
@@ -1970,20 +1961,20 @@ msgstr "無法偵測顯示器"
 msgid "- GNOME Display Preferences"
 msgstr "- GNOME 顯示幕偏好設定"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:205
+#: ../capplets/keyboard/gnome-keyboard-properties.c:210
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "套用設定並離開（現在已經由伺服程式處理，此選擇只為提供相容性而設）"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:229
+#: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
 msgstr "啟動頁面時顯示鍵盤輸入間隔設定"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:220
 msgid "Start the page with the accessibility settings showing"
 msgstr "啟動頁面時顯示可存取性設定值"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:250
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr " - GNOME 鍵盤偏好設定"
 
@@ -2422,7 +2413,7 @@ msgstr "預設值"
 msgid "Set your keyboard preferences"
 msgstr "修改鍵盤偏好設定"
 
-#: ../capplets/mouse/cc-pointer-panel.c:95
+#: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
 msgstr "指向裝置"
 
@@ -2457,11 +2448,11 @@ msgid "gesture|Disabled"
 msgstr "停用手勢"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "指定要顯示的頁面名稱 (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:604
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME 滑鼠偏好設定"
 
@@ -2617,33 +2608,30 @@ msgstr "滑鼠"
 msgid "Set your mouse preferences"
 msgstr "修改滑鼠偏好設定"
 
-#: ../capplets/network/cc-network-panel.c:139
+#: ../capplets/network/cc-network-panel.c:114
 msgid "Network"
 msgstr "網路"
 
-#: ../capplets/network/cc-network-proxy-page.c:753
-#: ../capplets/network/cc-network-proxy-page.c:919
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "新增位置..."
 
-#: ../capplets/network/cc-network-proxy-page.c:887
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "位置已經存在"
 
-#: ../capplets/network/cc-network-proxy-page.c:1306
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
 msgid "Delete Location"
 msgstr "刪除位置"
 
-#: ../capplets/network/cc-network-proxy-page.c:1546
+#: ../capplets/network/cc-network-proxy-page.c:1545
 msgid "Proxy"
 msgstr "代理伺服器"
-
-#: ../capplets/network/gnome-network-properties.c:1386
-msgid "- GNOME Network Preferences"
-msgstr " - GNOME 網路偏好設定"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2797,28 +2785,27 @@ msgstr "新的密碼未包含足夠的不同字元"
 msgid "Unknown error"
 msgstr "不明的錯誤"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "很抱歉，密碼不相符"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "新的密碼現在已儲存"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "很抱歉，您的密碼無法變更"
 
-#: ../capplets/security/cc-security-panel.c:425
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "很抱歉，密碼不正確"
 
-#: ../capplets/security/cc-security-panel.c:476
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "安全性"
 
 #: ../capplets/security/security.desktop.in.in.h:1
-#: ../capplets/security/security.ui.h:7
 msgid "Security and passwords"
 msgstr "安全性與密碼"
 
@@ -2843,19 +2830,18 @@ msgid "Save new password"
 msgstr "儲存新密碼"
 
 #: ../capplets/power/power-properties.desktop.in.in.h:1
-#: ../capplets/power/cc-power-panel.c:397
-#: ../capplets/power/power.ui.h:2
+#: ../capplets/power/cc-power-panel.c:455
 msgid "Power and brightness"
 msgstr "電源與亮度"
 
 #. TRANSLATORS: texts below idle/sleep scales
-#: ../capplets/power/cc-power-panel.c:94
+#: ../capplets/power/cc-power-panel.c:97
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d 分鐘"
 
-#: ../capplets/power/cc-power-panel.c:99
+#: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
 msgstr "永不"
 
@@ -2863,31 +2849,31 @@ msgstr "永不"
 msgid "Brightness"
 msgstr "亮度"
 
-#: ../capplets/power/power.ui.h:3
+#: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
 msgstr "當電腦不活動多久時間便讓它進入睡眠："
 
-#: ../capplets/power/power.ui.h:4
+#: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
 msgstr "當電腦不活動多久時間便設為閒置："
 
-#: ../capplets/power/power.ui.h:5
+#: ../capplets/power/power.ui.h:4
 msgid "Sleep"
 msgstr "睡眠"
 
-#: ../capplets/power/power.ui.h:6
+#: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
 msgstr "這會讓螢幕轉黑，並將您的訊息狀態設為「離開」。"
 
-#: ../capplets/power/power.ui.h:7
+#: ../capplets/power/power.ui.h:6
 msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
 msgstr "這會暫停您電腦上的每件事。它會被喚醒回它之前的狀態。"
 
-#: ../capplets/power/power.ui.h:8
+#: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
 msgstr "要變更您的亮度，您可以使用您電腦上的按鍵。"
 
-#: ../capplets/power/power.ui.h:9
+#: ../capplets/power/power.ui.h:8
 msgid "ldle"
 msgstr "閒置"
 
@@ -3495,6 +3481,8 @@ msgstr "字型檔 輸出檔"
 msgid "Error parsing arguments: %s\n"
 msgstr "分析參數時發生錯誤：%s\n"
 
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr " - GNOME 網路偏好設定"
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr "選擇當您登入時要啟用哪個無障礙功能"
 #~ msgid "Edit"
