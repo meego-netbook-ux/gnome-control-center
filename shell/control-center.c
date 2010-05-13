@@ -327,8 +327,6 @@ shell_show_overview_page (ShellData *data)
 {
   gtk_notebook_set_current_page (GTK_NOTEBOOK (data->notebook), OVERVIEW_PAGE);
 
-  gtk_notebook_remove_page (GTK_NOTEBOOK (data->notebook), CAPPLET_PAGE);
-
   cc_shell_set_panel (CC_SHELL (data->builder), NULL);
 
   gtk_label_set_text (GTK_LABEL (gtk_builder_get_object (data->builder, "label-title")), "");

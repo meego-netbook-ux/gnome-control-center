@@ -178,6 +178,10 @@ load_panel_plugins (CcShell *shell)
       panel = g_object_new (g_io_extension_get_type (extension),
                             "shell", shell,
                             NULL);
+
+      /* take ownership of the object to prevent it being destroyed */
+      g_object_ref_sink (panel);
+
       g_object_get (panel, "id", &id, NULL);
       g_hash_table_insert (priv->panels, g_strdup (id), g_object_ref (panel));
       g_debug ("id: '%s', loaded in %fsec", id, g_timer_elapsed (timer, NULL));
@@ -226,7 +230,20 @@ cc_shell_set_panel (CcShell     *shell,
       if (priv->current_panel != NULL)
         cc_panel_set_active (priv->current_panel, FALSE);
 
-      priv->current_panel = NULL;
+      /* if there is a current panel, remove it from the parent manually to
+       * avoid it being destroyed */
+      if (priv->current_panel)
+        {
+          GtkContainer *container;
+          GtkWidget *widget;
+
+          widget = GTK_WIDGET (priv->current_panel);
+          container = (GtkContainer *) gtk_widget_get_parent (widget);
+          gtk_container_remove (container, widget);
+
+          priv->current_panel = NULL;
+          gtk_notebook_remove_page (GTK_NOTEBOOK (notebook), CAPPLET_PAGE);
+        }
 
       gtk_notebook_set_current_page (GTK_NOTEBOOK (notebook),
                                      OVERVIEW_PAGE);
