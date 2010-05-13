@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-05 09:36+0000\n"
+"POT-Creation-Date: 2010-04-28 09:39+0000\n"
 "PO-Revision-Date: 2010-04-06 22:55-0800\n"
 "Last-Translator: \n"
 "Language-Team: i18n-zh <i18n-zh@googlegroups.com>\n"
@@ -35,15 +35,21 @@ msgid "More themes URL"
 msgstr "更多主题网址"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
+msgid ""
+"Set this to your current location name. This is used to determine the "
+"appropriate network proxy configuration."
 msgstr "设定这个为您当前的位置名称。这将在检测正确的网络代理配置时有用。"
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
+msgid ""
+"URL for where to get more desktop backgrounds. If set to an empty string the "
+"link will not appear."
 msgstr "获得更多桌面背景的网址。如果设定为空字符串，那么链接将不会出现。"
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
+msgid ""
+"URL for where to get more desktop themes. If set to an empty string the link "
+"will not appear."
 msgstr "获得更多桌面主题的网址。如果设定为空字符串，那么链接将不会出现。"
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
@@ -209,7 +215,7 @@ msgstr "无图像"
 
 #: ../capplets/about-me/gnome-about-me.c:746
 #: ../capplets/appearance/appearance-desktop.c:659
-#: ../capplets/appearance/cc-background-page.c:1168
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "图像"
 
@@ -237,20 +243,12 @@ msgstr "关于 %s"
 
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/about-me/gnome-about-me.c:1018
-#: ../capplets/appearance/appearance-main.c:150
 #: ../capplets/display/xrandr-capplet.c:2436
-#: ../capplets/keyboard/gnome-keyboard-properties.c:243
-#: ../capplets/mouse/gnome-mouse-properties.c:599
-#: ../capplets/network/gnome-network-properties.c:1380
 msgid "ID of the socket to embed in"
 msgstr "要嵌入的插座的 ID "
 
 #: ../capplets/about-me/gnome-about-me.c:1019
-#: ../capplets/appearance/appearance-main.c:151
 #: ../capplets/display/xrandr-capplet.c:2437
-#: ../capplets/keyboard/gnome-keyboard-properties.c:244
-#: ../capplets/mouse/gnome-mouse-properties.c:600
-#: ../capplets/network/gnome-network-properties.c:1381
 msgid "socket"
 msgstr "插座"
 
@@ -467,7 +465,8 @@ msgid "Set your personal information"
 msgstr "设定您的个人信息"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid "You are not allowed to access the device. Contact your system administrator."
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
 msgstr "你未被允许访问该设备。请联系你的系统管理员。"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
@@ -487,7 +486,9 @@ msgid "_Delete Fingerprints"
 msgstr "删除指纹(_D)"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
 msgstr "你想删除已登记的指纹吗？这样做将禁用指纹登录。"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:356
@@ -531,7 +532,9 @@ msgstr "启用指纹登录"
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
-msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
 msgstr "要启用指纹登录，你需要使用 '%s' 设备来保存你指纹之一。"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:590
@@ -591,7 +594,9 @@ msgid "Select finger"
 msgstr "选择手指"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
 msgstr "你指纹已成功保存。你现在应该可以使用指纹读取器登录了。"
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
@@ -620,7 +625,9 @@ msgstr "已通过身份验证！"
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
 #: ../capplets/about-me/gnome-about-me-password.c:550
-msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
+msgid ""
+"Your password has been changed since you initially authenticated! Please re-"
+"authenticate."
 msgstr "您的密自您初始登录以来已经发生了更改。请重新进行身份验证。"
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
@@ -687,7 +694,8 @@ msgstr "请在<b>新密码</b>框中输入您的新密码。"
 
 #: ../capplets/about-me/gnome-about-me-password.c:936
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid "Please type your password again in the <b>Retype new password</b> field."
+msgid ""
+"Please type your password again in the <b>Retype new password</b> field."
 msgstr "请在<b>重新输入新密码</b>框中再输入一次密码。"
 
 #: ../capplets/about-me/gnome-about-me-password.c:939
@@ -713,11 +721,14 @@ msgstr "当前密码(_P)："
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and "
+"click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for "
+"verification and click <b>Change password</b>."
 msgstr ""
 "要更改您的密码，请在下面的框中输入您目前的密码，然后单击<b>身份验证</b>。\n"
-"在您通过身份验证之后，输入您的新密码，重新输入一次以便进行校验，然后单击<b>更改密码</b>。"
+"在您通过身份验证之后，输入您的新密码，重新输入一次以便进行校验，然后单击<b>更"
+"改密码</b>。"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -744,7 +755,9 @@ msgid "Assistive Technologies Preferences"
 msgstr "辅助技术首选项"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid "Changes to enable assistive technologies will not take effect until your next log in."
+msgid ""
+"Changes to enable assistive technologies will not take effect until your "
+"next log in."
 msgstr "对启用辅助技术的更改直到下次登录后才会生效。"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
@@ -796,12 +809,12 @@ msgid "Universal Access"
 msgstr "通用访问"
 
 #: ../capplets/appearance/appearance-desktop.c:628
-#: ../capplets/appearance/cc-background-page.c:1133
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "添加壁纸"
 
 #: ../capplets/appearance/appearance-desktop.c:663
-#: ../capplets/appearance/cc-background-page.c:1173
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "全部文件"
 
@@ -813,15 +826,28 @@ msgstr "字体可能太大"
 #: ../capplets/appearance/appearance-font.c:498
 #: ../capplets/appearance/cc-font-page.c:324
 #, c-format
-msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
-msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
-msgstr[0] "选中的字体是 %d 磅大。要想有效的使用计算机，推荐您选择小于 %d 的大小。"
+msgid ""
+"The font selected is %d point large, and may make it difficult to "
+"effectively use the computer.  It is recommended that you select a size "
+"smaller than %d."
+msgid_plural ""
+"The font selected is %d points large, and may make it difficult to "
+"effectively use the computer. It is recommended that you select a size "
+"smaller than %d."
+msgstr[0] ""
+"选中的字体是 %d 磅大。要想有效的使用计算机，推荐您选择小于 %d 的大小。"
 
 #: ../capplets/appearance/appearance-font.c:511
 #: ../capplets/appearance/cc-font-page.c:337
 #, c-format
-msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
-msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
+msgid ""
+"The font selected is %d point large, and may make it difficult to "
+"effectively use the computer.  It is recommended that you select a smaller "
+"sized font."
+msgid_plural ""
+"The font selected is %d points large, and may make it difficult to "
+"effectively use the computer. It is recommended that you select a smaller "
+"sized font."
 msgstr[0] "选中的字体是 %d 磅大。要想有效的使用计算机，推荐您选择较小的字体。"
 
 #: ../capplets/appearance/appearance-font.c:534
@@ -835,7 +861,7 @@ msgid "Use selected font"
 msgstr "使用选中的字体"
 
 #: ../capplets/appearance/appearance-main.c:54
-#: ../capplets/appearance/cc-background-page.c:1414
+#: ../capplets/appearance/cc-background-page.c:1417
 #: ../capplets/appearance/cc-font-details-dialog.c:408
 #: ../capplets/appearance/cc-font-page.c:458
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
@@ -844,32 +870,32 @@ msgstr "使用选中的字体"
 #: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
-#: ../capplets/network/cc-network-proxy-page.c:1287
-#: ../capplets/power/cc-power-panel.c:367
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "无法加载用户界面文件：%s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "指定要安装的主题文件名"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "文件名"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "指定要显示的页面名称(theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:962
-#: ../capplets/mouse/gnome-mouse-properties.c:592
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "page"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[壁纸...]"
 
@@ -891,7 +917,9 @@ msgstr "安装"
 #: ../capplets/appearance/cc-theme-customize-dialog.c:210
 #: ../libgnome-control-center-extension/gnome-theme-info.c:1646
 #, c-format
-msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
+msgid ""
+"This theme will not look as intended because the required GTK+ theme engine "
+"'%s' is not installed."
 msgstr "此主题可能与设计之初看起来不同，因为其所需的 GTK+ 主题引擎“%s”未安装。"
 
 #: ../capplets/appearance/appearance-themes.c:673
@@ -911,12 +939,16 @@ msgstr "恢复字体"
 
 #: ../capplets/appearance/appearance-themes.c:711
 #: ../capplets/appearance/cc-theme-page.c:815
-msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
+msgid ""
+"The current theme suggests a background and a font. Also, the last applied "
+"font suggestion can be reverted."
 msgstr "当前主题建议了一个背景和一种字体。同时，上次应用的字体建议可被恢复。"
 
 #: ../capplets/appearance/appearance-themes.c:713
 #: ../capplets/appearance/cc-theme-page.c:818
-msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
+msgid ""
+"The current theme suggests a background. Also, the last applied font "
+"suggestion can be reverted."
 msgstr "当前主题建议了一个背景。同时，上次应用的字体建议可被恢复。"
 
 #: ../capplets/appearance/appearance-themes.c:715
@@ -926,7 +958,9 @@ msgstr "当前主题建议了一个背景和一种字体。"
 
 #: ../capplets/appearance/appearance-themes.c:717
 #: ../capplets/appearance/cc-theme-page.c:824
-msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
+msgid ""
+"The current theme suggests a font. Also, the last applied font suggestion "
+"can be reverted."
 msgstr "当前主题建议了一种字体。同时，上次应用的字体建议可被恢复。"
 
 #: ../capplets/appearance/appearance-themes.c:719
@@ -1020,7 +1054,7 @@ msgstr "缺少图像"
 msgid "No Desktop Background"
 msgstr "无桌面背景"
 
-#: ../capplets/appearance/cc-background-page.c:1575
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "背景"
@@ -1392,7 +1426,9 @@ msgstr "“%s”似乎不是有效的主题。"
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
+msgid ""
+"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
+"you need to compile."
 msgstr "“%s”似乎不是有效的主题。它可能是需要编译才能使用的主题引擎。"
 
 #: ../capplets/appearance/theme-installer.c:372
@@ -1824,8 +1860,12 @@ msgstr "应用显示配置时无法获得会话总线"
 
 #: ../capplets/display/cc-display-minimal-page.c:478
 #: ../capplets/display/cc-display-minimal-page.c:487
-msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
-msgstr "您只是在您电脑的屏幕上显示您的桌面。插入另一台显示器，分享您的视野，然后再打开上面的显示器共享。"
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+"您只是在您电脑的屏幕上显示您的桌面。插入另一台显示器，分享您的视野，然后再打"
+"开上面的显示器共享。"
 
 #: ../capplets/display/cc-display-minimal-page.c:496
 #: ../capplets/display/display-minimal.ui.h:4
@@ -1969,20 +2009,21 @@ msgstr "无法检测显示"
 msgid "- GNOME Display Preferences"
 msgstr "- GNOME 显示首选项"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
-msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
+#: ../capplets/keyboard/gnome-keyboard-properties.c:205
+#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+msgid ""
+"Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "应用设置并退出(仅为兼容，现在已由守护进程处理)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:229
+#: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
 msgstr "以显示的打字间隔设置启动页面"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:220
 msgid "Start the page with the accessibility settings showing"
 msgstr "以显示的辅助功能设置启动页面"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:250
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- GNOME 键盘首选项"
 
@@ -2123,7 +2164,9 @@ msgid "Layouts"
 msgstr "布局"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
-msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
+msgid ""
+"Lock screen after a certain duration to help prevent repetitive keyboard use "
+"injuries"
 msgstr "每隔一段时间锁定屏幕，以便重复性的键盘工作使手臂过度劳累"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
@@ -2174,7 +2217,9 @@ msgid "Slow"
 msgstr "慢"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
-msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new key "
+"combination, or press backspace to clear."
 msgstr "要编辑快捷键，请单击相应的行，然后输入新按键组合，或按退格键清除。"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
@@ -2315,7 +2360,8 @@ msgstr "保存新快捷键出错"
 #: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
 "无法使用快捷键“%s”，原因是使用此键将无法输入。\n"
@@ -2332,7 +2378,8 @@ msgstr ""
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgid ""
+"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "如果您将快捷键重新指派给“%s”，“%s”的快捷键将被禁用。"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1216
@@ -2421,7 +2468,7 @@ msgstr "默认"
 msgid "Set your keyboard preferences"
 msgstr "设置键盘首选项"
 
-#: ../capplets/mouse/cc-pointer-panel.c:95
+#: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
 msgstr "指针设备"
 
@@ -2456,11 +2503,11 @@ msgid "gesture|Disabled"
 msgstr "禁用"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "指定要显示的页面名称(general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:604
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME 鼠标首选项"
 
@@ -2549,7 +2596,8 @@ msgid "Thr_eshold:"
 msgstr "阈值(_E)："
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:32
-msgid "To test your double-click settings, try to double-click on the light bulb."
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
 msgstr "要测试您的双击设置，请试着双击右侧的灯泡。"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
@@ -2566,7 +2614,7 @@ msgstr "您也可以使用悬停点击面板小程序来选择点击的类型。
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Disable touchpad while typing"
-msgstr "打字时禁用触摸板(_D)"
+msgstr "打字时禁用触摸板(_A)"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -2616,33 +2664,30 @@ msgstr "鼠标"
 msgid "Set your mouse preferences"
 msgstr "设置鼠标首选项"
 
-#: ../capplets/network/cc-network-panel.c:139
+#: ../capplets/network/cc-network-panel.c:114
 msgid "Network"
 msgstr "网络"
 
-#: ../capplets/network/cc-network-proxy-page.c:753
-#: ../capplets/network/cc-network-proxy-page.c:919
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "新建位置..."
 
-#: ../capplets/network/cc-network-proxy-page.c:887
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "位置已存在"
 
-#: ../capplets/network/cc-network-proxy-page.c:1306
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
 msgid "Delete Location"
 msgstr "删除位置"
 
-#: ../capplets/network/cc-network-proxy-page.c:1546
+#: ../capplets/network/cc-network-proxy-page.c:1545
 msgid "Proxy"
 msgstr "代理"
-
-#: ../capplets/network/gnome-network-properties.c:1386
-msgid "- GNOME Network Preferences"
-msgstr "- GNOME 网络首选项"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2796,28 +2841,27 @@ msgstr "新密码没有包含足够的不同字符"
 msgid "Unknown error"
 msgstr "未知错误"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "抱歉，密码不匹配"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "新密码已被保存"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "抱歉，您的密码无法被更改"
 
-#: ../capplets/security/cc-security-panel.c:441
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "抱歉，密码不正确"
 
-#: ../capplets/security/cc-security-panel.c:496
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "安全"
 
 #: ../capplets/security/security.desktop.in.in.h:1
-#: ../capplets/security/security.ui.h:7
 msgid "Security and passwords"
 msgstr "安全和密码"
 
@@ -2842,19 +2886,18 @@ msgid "Save new password"
 msgstr "保存新密码"
 
 #: ../capplets/power/power-properties.desktop.in.in.h:1
-#: ../capplets/power/cc-power-panel.c:442
-#: ../capplets/power/power.ui.h:2
+#: ../capplets/power/cc-power-panel.c:455
 msgid "Power and brightness"
 msgstr "电源和亮度"
 
 #. TRANSLATORS: texts below idle/sleep scales
-#: ../capplets/power/cc-power-panel.c:98
+#: ../capplets/power/cc-power-panel.c:97
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d 分钟"
 
-#: ../capplets/power/cc-power-panel.c:103
+#: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
 msgstr "从不"
 
@@ -2862,31 +2905,33 @@ msgstr "从不"
 msgid "Brightness"
 msgstr "亮度"
 
-#: ../capplets/power/power.ui.h:3
+#: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
 msgstr "在电脑进入睡眠状态之前，处于非活跃状态的时间："
 
-#: ../capplets/power/power.ui.h:4
+#: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
 msgstr "在电脑处于闲置状态之前，处于非活跃状态的时间："
 
-#: ../capplets/power/power.ui.h:5
+#: ../capplets/power/power.ui.h:4
 msgid "Sleep"
 msgstr "睡眠"
 
-#: ../capplets/power/power.ui.h:6
+#: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
 msgstr "电脑屏幕将空白，您的留言状态将为“离开”。"
 
-#: ../capplets/power/power.ui.h:7
-msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
 msgstr "这将暂停您电脑上的一切活动。电脑将以之前的状态被唤醒。"
 
-#: ../capplets/power/power.ui.h:8
+#: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
 msgstr "您可以使用电脑上的键盘调节您的亮度。"
 
-#: ../capplets/power/power.ui.h:9
+#: ../capplets/power/power.ui.h:8
 msgid "ldle"
 msgstr "闲置"
 
@@ -2961,10 +3006,15 @@ msgstr "窗口"
 #: ../libgnome-control-center-extension/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
+"Without the GNOME settings manager running, some preferences may not take "
+"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
+"settings manager may already be active and conflicting with the GNOME "
+"settings manager."
 msgstr ""
 "无法启动设置管理器“gnome-settings-daemon”。\n"
-"如果不运行 GNOME 设置管理器，某些首选项不会生效。这可能表明 DBus 出现问题，或者某个非 GNOME（如 KDE）设置管理器可能已经处于活动状态，并与 GNOME 设置管理器发生冲突。"
+"如果不运行 GNOME 设置管理器，某些首选项不会生效。这可能表明 DBus 出现问题，或"
+"者某个非 GNOME（如 KDE）设置管理器可能已经处于活动状态，并与 GNOME 设置管理器"
+"发生冲突。"
 
 #: ../libgnome-control-center-extension/capplet-stock-icons.c:66
 #, c-format
@@ -3073,7 +3123,8 @@ msgid "Change set"
 msgstr "改动集"
 
 #: ../libgnome-control-center-extension/gconf-property-editor.c:150
-msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgid ""
+"GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr "包含应用修改时要传递给 gconf 客户端的数据的 GConf 改动集合"
 
 #: ../libgnome-control-center-extension/gconf-property-editor.c:155
@@ -3081,7 +3132,8 @@ msgid "Conversion to widget callback"
 msgstr "转换到部件时的回调"
 
 #: ../libgnome-control-center-extension/gconf-property-editor.c:156
-msgid "Callback to be issued when data are to be converted from GConf to the widget"
+msgid ""
+"Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "当数据从 GConf 转换到部件时使用的回调"
 
 #: ../libgnome-control-center-extension/gconf-property-editor.c:161
@@ -3089,7 +3141,8 @@ msgid "Conversion from widget callback"
 msgstr "从部件转换时的回调"
 
 #: ../libgnome-control-center-extension/gconf-property-editor.c:162
-msgid "Callback to be issued when data are to be converted to GConf from the widget"
+msgid ""
+"Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "当数据从部件转换到 GConf 时使用的回调"
 
 #: ../libgnome-control-center-extension/gconf-property-editor.c:167
@@ -3121,7 +3174,8 @@ msgstr "当属性编辑器对象数据要被释放时要调用的回调函数"
 msgid ""
 "Couldn't find the file '%s'.\n"
 "\n"
-"Please make sure it exists and try again, or choose a different background picture."
+"Please make sure it exists and try again, or choose a different background "
+"picture."
 msgstr ""
 "找不到文件“%s”。\n"
 "\n"
@@ -3178,17 +3232,23 @@ msgstr "大号的白色指针"
 
 #: ../libgnome-control-center-extension/gnome-theme-info.c:1622
 #, c-format
-msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
+msgid ""
+"This theme will not look as intended because the required GTK+ theme '%s' is "
+"not installed."
 msgstr "此主题的外观将与设计之初不同，因为所需的 GTK+ 主题“%s”未安装。"
 
 #: ../libgnome-control-center-extension/gnome-theme-info.c:1630
 #, c-format
-msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
+msgid ""
+"This theme will not look as intended because the required window manager "
+"theme '%s' is not installed."
 msgstr "此主题的外观将与设计之初不同，因为所需的窗口管理器主题“%s”未安装。"
 
 #: ../libgnome-control-center-extension/gnome-theme-info.c:1637
 #, c-format
-msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
+msgid ""
+"This theme will not look as intended because the required icon theme '%s' is "
+"not installed."
 msgstr "此主题的外观将与设计之初不同，因为所需的图标主题“%s”未安装。"
 
 #: ../libwindow-settings/gnome-wm-manager.c:316
@@ -3249,11 +3309,15 @@ msgid "Indicates whether to close the shell when a start action is performed."
 msgstr "指示在执行启动动作时是否关闭 Shell"
 
 #: ../shell/control-center.schemas.in.h:8
-msgid "Indicates whether to close the shell when an add or remove action is performed."
+msgid ""
+"Indicates whether to close the shell when an add or remove action is "
+"performed."
 msgstr "指示在执行添加或移除动作时是否关闭 Shell"
 
 #: ../shell/control-center.schemas.in.h:9
-msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
+msgid ""
+"Indicates whether to close the shell when an upgrade or uninstall action is "
+"performed."
 msgstr "指示在执行升级或卸载动作时是否关闭 Shell"
 
 #: ../shell/control-center.schemas.in.h:10
@@ -3261,16 +3325,26 @@ msgid "Task names and associated .desktop files"
 msgstr "任务名及相关的 .desktop 文件"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
-msgstr "在控制中心中显示的任务名称，紧跟着是一个“;”分隔符，然后是该任务启动的相应的 .desktop 文件的文件名。"
+msgid ""
+"The task name to be displayed in the control-center followed by a \";\" "
+"separator then the filename of an associated .desktop file to launch for "
+"that task."
+msgstr ""
+"在控制中心中显示的任务名称，紧跟着是一个“;”分隔符，然后是该任务启动的相应的 ."
+"desktop 文件的文件名。"
 
 #. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr "[更改主题;gtk-theme-selector.desktop,设定首选应用程序;default-applications.desktop,添加打印机;gnome-cups-manager.desktop]"
+msgid ""
+"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
+"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr ""
+"[更改主题;gtk-theme-selector.desktop,设定首选应用程序;default-applications."
+"desktop,添加打印机;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgid ""
+"if true, the control-center will close when a \"Common Task\" is activated."
 msgstr "如果为 true，在一个“常见任务”激活时，控制中心将关闭。"
 
 #: ../shell/gnome-control-center.desktop.in.in.h:1
@@ -3310,7 +3384,9 @@ msgstr "距下次间隔还有不到一分钟。"
 
 #: ../typing-break/drwright.c:526
 #, c-format
-msgid "Unable to bring up the typing break properties dialog with the following error: %s"
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
 msgstr "无法启动打字间隔属性对话框，错误如下：%s"
 
 #: ../typing-break/drwright.c:543
@@ -3345,8 +3421,14 @@ msgid "Typing Monitor"
 msgstr "打字显示器"
 
 #: ../typing-break/main.c:105
-msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
-msgstr "打字显示器使用通知区显示信息。似乎您并没有在面板上放置通知区。要想添加通知区，只需用鼠标邮件点击面板，然后选择“添加到面板 -> 通知区”。"
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"打字显示器使用通知区显示信息。似乎您并没有在面板上放置通知区。要想添加通知"
+"区，只需用鼠标邮件点击面板，然后选择“添加到面板 -> 通知区”。"
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -3365,7 +3447,8 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "如果设定为 true，将制作 Type1 字体缩略图。"
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
 msgstr "设置该值到用于创建 OpenType 字体缩略图的命令。"
 
 #: ../font-viewer/fontilus.schemas.in.h:6
@@ -3373,7 +3456,8 @@ msgid "Set this key to the command used to create thumbnails for PCF fonts."
 msgstr "设置该值到用于创建 PCF 字体缩略图的命令。"
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
 msgstr "设置该值到用于创建 TrueType 字体缩略图的命令。"
 
 #: ../font-viewer/fontilus.schemas.in.h:8
@@ -3428,13 +3512,11 @@ msgstr "类型："
 msgid "Size:"
 msgstr "大小："
 
-#: ../font-viewer/font-view.c:353
-#: ../font-viewer/font-view.c:366
+#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "版本："
 
-#: ../font-viewer/font-view.c:357
-#: ../font-viewer/font-view.c:368
+#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr "版权："
 
@@ -3491,6 +3573,9 @@ msgstr "字体-文件输出-文件"
 #, c-format
 msgid "Error parsing arguments: %s\n"
 msgstr "处理参数时出错：%s\n"
+
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr "- GNOME 网络首选项"
 
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr "选择您登录时想要启用的辅助特性"
@@ -3966,72 +4051,72 @@ msgstr "处理参数时出错：%s\n"
 
 #~ msgid "_Sound playback:"
 #~ msgstr "声音回放(_S)："
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Alert sound"
 #~ msgstr "报警声"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Windows and Buttons"
 #~ msgstr "窗口和按钮"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Button clicked"
 #~ msgstr "点击按钮"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Toggle button clicked"
 #~ msgstr "点击切换按钮"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Window maximized"
 #~ msgstr "窗口最大化"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Window unmaximized"
 #~ msgstr "窗口还原"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Window minimised"
 #~ msgstr "窗口最小化"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Desktop"
 #~ msgstr "桌面"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Logout"
 #~ msgstr "注销"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "New e-mail"
 #~ msgstr "新邮件"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Empty trash"
 #~ msgstr "清空回收站"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Long action completed (download, CD burning, etc.)"
 #~ msgstr "完成长操作(下载、光盘刻录等等)"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Alerts"
 #~ msgstr "警报"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Information or question"
 #~ msgstr "信息或提问"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Warning"
 #~ msgstr "警告"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Error"
 #~ msgstr "出错"
-#~ msgctxt "Sound event"
 
+#~ msgctxt "Sound event"
 #~ msgid "Battery warning"
 #~ msgstr "电池警告"
 
