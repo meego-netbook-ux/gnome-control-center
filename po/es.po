@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-05 09:36+0000\n"
-"PO-Revision-Date: 2010-04-06 14:00-0800\n"
-"Last-Translator: Gonzalo Velasquez <gonzalox.e.velasquez@intel.com>\n"
+"POT-Creation-Date: 2010-05-19 09:22+0000\n"
+"PO-Revision-Date: 2010-05-19 12:13-0800\n"
+"Last-Translator: Tomás Galicia <tomas.galicia@intel.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -214,7 +214,7 @@ msgstr "Sin imagen"
 
 #: ../capplets/about-me/gnome-about-me.c:746
 #: ../capplets/appearance/appearance-desktop.c:659
-#: ../capplets/appearance/cc-background-page.c:1168
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "Imágenes"
 
@@ -245,20 +245,12 @@ msgstr "Acerca de %s"
 # 2) ID of the socket to embed in xxxxx (where?) This would be a concatenation and is bound to create problems.
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/about-me/gnome-about-me.c:1018
-#: ../capplets/appearance/appearance-main.c:150
 #: ../capplets/display/xrandr-capplet.c:2436
-#: ../capplets/keyboard/gnome-keyboard-properties.c:243
-#: ../capplets/mouse/gnome-mouse-properties.c:599
-#: ../capplets/network/gnome-network-properties.c:1380
 msgid "ID of the socket to embed in"
 msgstr "ID del zócalo a incorporar"
 
 #: ../capplets/about-me/gnome-about-me.c:1019
-#: ../capplets/appearance/appearance-main.c:151
 #: ../capplets/display/xrandr-capplet.c:2437
-#: ../capplets/keyboard/gnome-keyboard-properties.c:244
-#: ../capplets/mouse/gnome-mouse-properties.c:600
-#: ../capplets/network/gnome-network-properties.c:1381
 msgid "socket"
 msgstr "zócalo"
 
@@ -804,12 +796,12 @@ msgid "Universal Access"
 msgstr "Acceso universal"
 
 #: ../capplets/appearance/appearance-desktop.c:628
-#: ../capplets/appearance/cc-background-page.c:1133
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "Añadir tapiz"
 
 #: ../capplets/appearance/appearance-desktop.c:663
-#: ../capplets/appearance/cc-background-page.c:1173
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "Todos los archivos"
 
@@ -845,7 +837,7 @@ msgid "Use selected font"
 msgstr "Usar la tipografía seleccionada"
 
 #: ../capplets/appearance/appearance-main.c:54
-#: ../capplets/appearance/cc-background-page.c:1414
+#: ../capplets/appearance/cc-background-page.c:1417
 #: ../capplets/appearance/cc-font-details-dialog.c:408
 #: ../capplets/appearance/cc-font-page.c:458
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
@@ -854,32 +846,32 @@ msgstr "Usar la tipografía seleccionada"
 #: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
-#: ../capplets/network/cc-network-proxy-page.c:1287
-#: ../capplets/power/cc-power-panel.c:367
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "No se pudo cargar el archivo de interfaz de usuario: %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "Especifique el nombre de archivo del tema a instalar"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "nombre de archivo"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Especifique el nombre de la página para mostrar (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:962
-#: ../capplets/mouse/gnome-mouse-properties.c:592
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "página"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[Tapiz…]"
 
@@ -1031,7 +1023,7 @@ msgstr "Falta una imagen"
 msgid "No Desktop Background"
 msgstr "Sin fondo de escritorio"
 
-#: ../capplets/appearance/cc-background-page.c:1575
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "Fondo"
@@ -1983,20 +1975,20 @@ msgstr "No se pudieron detectar las pantallas"
 msgid "- GNOME Display Preferences"
 msgstr "- GNOME Preferencias de la pantalla"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:205
+#: ../capplets/keyboard/gnome-keyboard-properties.c:210
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Tan sólo aplicar la configuración y salir (sólo por compatibilidad; manipulado ahora por un demonio)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:229
+#: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
 msgstr "Iniciar la página mostrando la configuración del descanso de escritura"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:220
 msgid "Start the page with the accessibility settings showing"
 msgstr "Iniciar la página mostrando la configuración de accesibilidad"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:250
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Preferencias del teclado de GNOME"
 
@@ -2435,7 +2427,7 @@ msgstr "Predeterminado"
 msgid "Set your keyboard preferences"
 msgstr "Establezca sus preferencias del teclado"
 
-#: ../capplets/mouse/cc-pointer-panel.c:95
+#: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
 msgstr "Dispositivos de puntero"
 
@@ -2470,11 +2462,11 @@ msgid "gesture|Disabled"
 msgstr "Desactivado"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Especifique el nombre de la página para mostrar (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:604
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- Preferencias del ratón de GNOME"
 
@@ -2630,33 +2622,30 @@ msgstr "Ratón"
 msgid "Set your mouse preferences"
 msgstr "Establezca sus preferencias del ratón"
 
-#: ../capplets/network/cc-network-panel.c:139
+#: ../capplets/network/cc-network-panel.c:114
 msgid "Network"
 msgstr "Red"
 
-#: ../capplets/network/cc-network-proxy-page.c:753
-#: ../capplets/network/cc-network-proxy-page.c:919
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "Lugar nuevo..."
 
-#: ../capplets/network/cc-network-proxy-page.c:887
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "El lugar ya existe"
 
-#: ../capplets/network/cc-network-proxy-page.c:1306
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
 msgid "Delete Location"
 msgstr "Borrar este lugar"
 
-#: ../capplets/network/cc-network-proxy-page.c:1546
+#: ../capplets/network/cc-network-proxy-page.c:1545
 msgid "Proxy"
 msgstr "Proxy"
-
-#: ../capplets/network/gnome-network-properties.c:1386
-msgid "- GNOME Network Preferences"
-msgstr "- GNOME Preferencias de la red"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2810,28 +2799,27 @@ msgstr "La nueva contraseña no contiene suficientes caracteres diferentes."
 msgid "Unknown error"
 msgstr "Error desconocido"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Lo sentimos, las contraseñas no concuerdan"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "La nueva contraseña se ha guardado"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "Lo sentimos, la contraseña no se pudo cambiar."
 
-#: ../capplets/security/cc-security-panel.c:441
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "Lo sentimos, esa contraseña es  incorrecta."
 
-#: ../capplets/security/cc-security-panel.c:496
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "Seguridad"
 
 #: ../capplets/security/security.desktop.in.in.h:1
-#: ../capplets/security/security.ui.h:7
 msgid "Security and passwords"
 msgstr "Seguridad y contraseñas"
 
@@ -2856,20 +2844,19 @@ msgid "Save new password"
 msgstr "Guardar nueva contraseña"
 
 #: ../capplets/power/power-properties.desktop.in.in.h:1
-#: ../capplets/power/cc-power-panel.c:442
-#: ../capplets/power/power.ui.h:2
+#: ../capplets/power/cc-power-panel.c:455
 msgid "Power and brightness"
 msgstr "Energía y brillo"
 
 #. TRANSLATORS: texts below idle/sleep scales
-#: ../capplets/power/cc-power-panel.c:98
+#: ../capplets/power/cc-power-panel.c:97
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "minuto %d "
 msgstr[1] "minutos %d"
 
-#: ../capplets/power/cc-power-panel.c:103
+#: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
 msgstr "Nunca"
 
@@ -2877,37 +2864,37 @@ msgstr "Nunca"
 msgid "Brightness"
 msgstr "Brillo"
 
-#: ../capplets/power/power.ui.h:3
+#: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "Poner el ordenador en modo suspendido cuando este inactivo por:"
+msgstr "Poner el ordenador en el modo suspendido cuando este inactivo por:"
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr "Poner el equipo en el modo inactivo cuando no se use por:"
 
 #: ../capplets/power/power.ui.h:4
-msgid "Set computer as idle when inactive for:"
-msgstr "Vuelva al ordenador a modo Inactivo cuando no se use por:"
-
-#: ../capplets/power/power.ui.h:5
 msgid "Sleep"
 msgstr "Suspender"
 
-#: ../capplets/power/power.ui.h:6
+#: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr "Esto apagará tu pantalla y configurará tu estado de mensajería como  'ausente'."
+msgstr "Esto apagará la pantalla y configurará el estado de la mensajería como  'ausente'."
+
+#: ../capplets/power/power.ui.h:6
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Esto suspenderá todo en el equipo. Se reactivará en el mismo estado en el que estaba."
 
 #: ../capplets/power/power.ui.h:7
-msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
-msgstr "Esto suspenderá todo en tu ordenador. Se reactivará en el mismo estado en el que estaba."
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "Para cambiar el brillo, se puede usar el teclado."
 
 #: ../capplets/power/power.ui.h:8
-msgid "To change your brightness, you can use the keys on your computer."
-msgstr "Para cambiar el brillo, puedes usar el teclado del ordenador."
-
-#: ../capplets/power/power.ui.h:9
 msgid "ldle"
 msgstr "Inactivo"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
-msgstr "No se puede iniciar la aplicación de preferencias para su gestor de ventanas"
+msgstr "No se puede iniciar la aplicación de preferencias para el gestor de ventanas"
 
 #: ../capplets/windows/gnome-window-properties.c:604
 msgid "_Alt"
@@ -3515,6 +3502,8 @@ msgstr "ARCHIVO-DE-TIPOGRAFÍA ARCHIVO-DE-SALIDA"
 msgid "Error parsing arguments: %s\n"
 msgstr "Error al analizar los argumentos: %s\n"
 
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr "- GNOME Preferencias de la red"
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr ""
 #~ "Elija qué características de accesibilidad activar al iniciar sesión"
