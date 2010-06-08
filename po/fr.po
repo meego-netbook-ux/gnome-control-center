@@ -28,9 +28,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-28 09:39+0000\n"
-"PO-Revision-Date: 2010-04-29 19:37-0800\n"
-"Last-Translator: David Cicognani <david.cicognani@ptiglobal.net>\n"
+"POT-Creation-Date: 2010-06-08 20:19+0000\n"
+"PO-Revision-Date: 2010-06-08 14:09-0800\n"
+"Last-Translator: Martine <martine.landais@intel.com>\n"
 "Language-Team: GNOME French Team <gnomefr@traduc.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -3296,6 +3296,14 @@ msgstr "L'outil de configuration de GNOME"
 msgid "Control Center"
 msgstr "Centre de contrôle"
 
+#: ../shell/shell.ui.h:1
+msgid "System Settings"
+msgstr "Paramètres du système"
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr "_Tous les paramètres"
+
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
 msgstr "_Différer la pause"
@@ -3524,183 +3532,126 @@ msgstr "Impossible d'analyser les paramètres : %s\n"
 
 #~ msgid "- GNOME Network Preferences"
 #~ msgstr "- Préférences du réseau GNOME"
-
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr ""
 #~ "Choix des fonctionnalités d'accessibilité à activer au moment de la "
 #~ "connexion"
-
 #~ msgid "Edit"
 #~ msgstr "Édition"
-
 #~ msgid "Fill screen"
 #~ msgstr "Plein écran"
-
 #~ msgid "Interface"
 #~ msgstr "Interface"
-
 #~ msgid "Menus and Toolbars"
 #~ msgstr "Menus et barres d'outils"
-
 #~ msgid "Preview"
 #~ msgstr "Aperçu"
-
 #~ msgid "Show _icons in menus"
 #~ msgstr "Afficher les _icônes dans les menus"
-
 #~ msgid "Toolbar _button labels:"
 #~ msgstr "É_tiquettes des boutons de la barre d'outils :"
-
 #~ msgid "_Editable menu shortcut keys"
 #~ msgstr "_Raccourcis clavier des menus modifiables"
-
 #~ msgid "_File"
 #~ msgstr "_Fichier"
-
 #~ msgid "Assign shortcut keys to commands"
 #~ msgstr "Assigner des raccourcis clavier aux commandes"
-
 #~ msgid "A_cceleration:"
 #~ msgstr "A_ccélération :"
-
 #~ msgid "_Selected layouts:"
 #~ msgstr "_Agencements sélectionnés :"
-
 #~ msgid "C_ontrol"
 #~ msgstr "C_trl"
-
 #~ msgid "key not found [%s]\n"
 #~ msgstr "touche non trouvée [%s]\n"
-
 #~ msgid "Hide on start (useful to preload the shell)"
 #~ msgstr "Masquer au démarrage (utile pour précharger le shell)"
-
 #~ msgid "Filter"
 #~ msgstr "Filtres"
-
 #~ msgid "Groups"
 #~ msgstr "Groupes"
-
 #~ msgid "Common Tasks"
 #~ msgstr "Tâches courantes"
-
 #~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
 #~ msgstr ""
 #~ "Dès Noël où un zéphyr haï me vêt de glaçons würmiens je dîne d’exquis "
 #~ "rôtis de bœuf au kir à l’aÿ d’âge mûr & cætera ! 0123456789."
-
 #~ msgid "Your filter \"%s\" does not match any items."
 #~ msgstr "Votre filtre « %s » ne correspond à aucun élément."
-
 #~ msgid "No matches found."
 #~ msgstr "Aucune correspondance trouvée."
-
 #~ msgid "Other"
 #~ msgstr "Autre"
-
 #~ msgid "Start %s"
 #~ msgstr "Démarrer %s"
-
 #~ msgid "Help"
 #~ msgstr "Aide"
-
 #~ msgid "Upgrade"
 #~ msgstr "Mettre à jour"
-
 #~ msgid "Uninstall"
 #~ msgstr "Désinstaller"
-
 #~ msgid "Remove from Favorites"
 #~ msgstr "Enlever des favoris"
-
 #~ msgid "Add to Favorites"
 #~ msgstr "Ajouter aux favoris"
-
 #~ msgid "Remove from Startup Programs"
 #~ msgstr "Retirer des programmes au démarrage"
-
 #~ msgid "Add to Startup Programs"
 #~ msgstr "Ajouter aux programmes au démarrage"
-
 #~ msgid "New Spreadsheet"
 #~ msgstr "Nouvelle feuille de calcul"
-
 #~ msgid "New Document"
 #~ msgstr "Nouveau document"
-
 #~ msgid "Documents"
 #~ msgstr "Documents"
-
 #~ msgid "File System"
 #~ msgstr "Système de fichiers"
-
 #~ msgid "Network Servers"
 #~ msgstr "Serveurs réseau"
-
 #~ msgid "<b>Open</b>"
 #~ msgstr "<b>Ouvrir</b>"
-
 #~ msgid "Rename..."
 #~ msgstr "Renommer..."
-
 #~ msgid "Send To..."
 #~ msgstr "Envoyer à..."
-
 #~ msgid "Move to Trash"
 #~ msgstr "Mettre à la corbeille"
-
 #~ msgid "Delete"
 #~ msgstr "Effacer"
-
 #~ msgid "Are you sure you want to permanently delete \"%s\"?"
 #~ msgstr "Voulez-vous vraiment supprimer définitivement « %s » ?"
-
 #~ msgid "If you delete an item, it is permanently lost."
 #~ msgstr "Si vous supprimez un élément, il sera perdu définitivement."
-
 #~ msgid "Open with \"%s\""
 #~ msgstr "Ouvrir avec « %s »"
-
 #~ msgid "Open with Default Application"
 #~ msgstr "Ouvrir avec l'application par défaut"
-
 #~ msgid "Open in File Manager"
 #~ msgstr "Ouvrir dans le gestionnaire de fichiers"
-
 #~ msgid "?"
 #~ msgstr "?"
-
 #~ msgid "%l:%M %p"
 #~ msgstr "%k:%M"
-
 #~ msgid "Today %l:%M %p"
 #~ msgstr "Aujourd'hui %k:%M"
-
 #~ msgid "Yesterday %l:%M %p"
 #~ msgstr "Hier %k:%M"
-
 #~ msgid "%a %l:%M %p"
 #~ msgstr "%a %k:%M"
-
 #~ msgid "%b %d %l:%M %p"
 #~ msgstr "%d %b %k:%M"
-
 #~ msgid "%b %d %Y"
 #~ msgstr "%d %b %Y"
-
 #~ msgid "Find Now"
 #~ msgstr "Rechercher maintenant"
-
 #~ msgid "<b>Open %s</b>"
 #~ msgstr "<b>Ouvrir %s</b>"
-
 #~ msgid "Remove from System Items"
 #~ msgstr "Supprimer parmi les éléments systèmes"
-
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr ""
 #~ "Identifiant de connexion inconnu. La base de données des utilisateurs est "
 #~ "peut-être corrompue"
-
 #~ msgid "_Desktop Background"
 #~ msgstr "Arrière-plan du _bureau"
+
