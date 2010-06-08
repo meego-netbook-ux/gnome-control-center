@@ -28,10 +28,19 @@ libkeyboard_la_SOURCES = \
 	cc-keyboard-page.h \
 	cc-keyboard-page.c \
 	cc-keyboard-panel.h \
-	cc-keyboard-panel.c
+	cc-keyboard-panel.c \
+	cc-layout-page.c \
+	cc-layout-page.h \
+	gnome-keyboard-properties-xkbmc.c \
+	gnome-keyboard-properties-xkb.c \
+	gnome-keyboard-properties-xkb.h \
+	gnome-keyboard-properties-xkbot.c \
+	gnome-keyboard-properties-xkblt.c \
+	gnome-keyboard-properties-xkbltadd.c \
+	gnome-keyboard-properties-xkbpv.c
 
 libkeyboard_la_LDFLAGS =		\
-	$(EXTENSION_LIBTOOL_FLAGS)	\
+ $(EXTENSION_LIBTOOL_FLAGS) \
 	$(NULL)
 
 libkeyboard_la_LIBADD =			\

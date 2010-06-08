@@ -41,6 +41,7 @@ struct CcKeyboardPanelPrivate
 {
         GtkWidget *notebook;
         CcPage    *keyboard_page;
+        CcPage    *layout_page;
         CcPage    *shortcuts_page;
 };
 
@@ -91,6 +92,11 @@ on_notebook_switch_page (GtkNotebook     *notebook,
                               "current-page",
                               panel->priv->keyboard_page,
                               NULL);
+        } else if (page_num == 1) {
+                g_object_set (panel,
+                              "current-page",
+                              panel->priv->layout_page,
+                              NULL);
         } else {
                 g_object_set (panel,
                               "current-page",
@@ -131,6 +137,18 @@ setup_panel (CcKeyboardPanel *panel,
                                   GTK_WIDGET (panel->priv->keyboard_page),
                                   label);
         gtk_widget_show (GTK_WIDGET (panel->priv->keyboard_page));
+
+
+        panel->priv->layout_page = cc_layout_page_new ();
+        g_object_get (panel->priv->layout_page,
+                      "display-name", &display_name,
+                      NULL);
+        label = gtk_label_new (display_name);
+        g_free (display_name);
+        gtk_notebook_append_page (GTK_NOTEBOOK (panel->priv->notebook),
+                                  GTK_WIDGET (panel->priv->layout_page),
+                                  label);
+        gtk_widget_show (GTK_WIDGET (panel->priv->layout_page));
 
 
         panel->priv->shortcuts_page = cc_shortcuts_page_new ();

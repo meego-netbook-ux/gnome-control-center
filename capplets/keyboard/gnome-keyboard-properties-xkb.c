@@ -124,6 +124,7 @@ cleanup_xkb_tabs (GtkBuilder * dialog)
 	xkb_gconf_client = NULL;
 }
 
+
 static void
 reset_to_defaults (GtkWidget * button, GtkBuilder * dialog)
 {
@@ -231,7 +232,7 @@ setup_xkb_tabs (GtkBuilder * dialog, GConfChangeSet * changeset)
 	xkb_layouts_register_gconf_listener (dialog);
 	xkb_options_register_gconf_listener (dialog);
 
-	g_signal_connect (G_OBJECT (WID ("keyboard_dialog")),
+	g_signal_connect (G_OBJECT (WID ("layouts-vbox")),
 			  "destroy", G_CALLBACK (cleanup_xkb_tabs),
 			  dialog);
 

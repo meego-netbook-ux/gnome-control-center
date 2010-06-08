@@ -23,7 +23,7 @@ gnome_typing_monitor_CFLAGS = \
 	@TYPING_CFLAGS@	\
 	$(AM_CFLAGS)
 
-gnome_typing_monitor_LDADD = @TYPING_LIBS@ @SCREENSAVER_LIBS@
+gnome_typing_monitor_LDADD = @TYPING_LIBS@ @SCREENSAVER_LIBS@ -lm
 
 if HAVE_LIBCANBERRA_GTK
   gnome_typing_monitor_CFLAGS += -DHAVE_CANBERRA_GTK @LIBCANBERRA_GTK_CFLAGS@ 
