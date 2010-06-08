@@ -106,6 +106,11 @@ setup_page (CcLayoutPage *page)
 
         gtk_widget_show_all (WID ("layouts-vbox"));
 
+        gtk_widget_hide (WID ("xkb_layout_options"));
+        gtk_widget_hide (WID ("xkb_layouts_print"));
+        gtk_widget_hide (WID ("chk_separate_group_per_window"));
+        gtk_widget_hide (WID ("chk_new_windows_inherit_layout"));
+
         setup_xkb_tabs (builder, NULL);
 
         gtk_container_add (GTK_CONTAINER (page), WID ("layouts-vbox"));
