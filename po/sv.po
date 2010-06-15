@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-07 09:43+0000\n"
-"PO-Revision-Date: 2010-04-08 07:02-0500\n"
-"Last-Translator: Annika <AnnikaNbpt@gmail.com>\n"
+"POT-Creation-Date: 2010-06-14 09:21+0000\n"
+"PO-Revision-Date: 2010-06-14 21:51-0800\n"
+"Last-Translator: Anna-Lena Schon <anna.schon@live.se>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -209,7 +209,7 @@ msgstr "Ingen bild"
 
 #: ../capplets/about-me/gnome-about-me.c:746
 #: ../capplets/appearance/appearance-desktop.c:659
-#: ../capplets/appearance/cc-background-page.c:1168
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "Bilder"
 
@@ -237,20 +237,12 @@ msgstr "Om %s"
 
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/about-me/gnome-about-me.c:1018
-#: ../capplets/appearance/appearance-main.c:150
 #: ../capplets/display/xrandr-capplet.c:2436
-#: ../capplets/keyboard/gnome-keyboard-properties.c:243
-#: ../capplets/mouse/gnome-mouse-properties.c:599
-#: ../capplets/network/gnome-network-properties.c:1380
 msgid "ID of the socket to embed in"
 msgstr "ID för socket att bädda in i"
 
 #: ../capplets/about-me/gnome-about-me.c:1019
-#: ../capplets/appearance/appearance-main.c:151
 #: ../capplets/display/xrandr-capplet.c:2437
-#: ../capplets/keyboard/gnome-keyboard-properties.c:244
-#: ../capplets/mouse/gnome-mouse-properties.c:600
-#: ../capplets/network/gnome-network-properties.c:1381
 msgid "socket"
 msgstr "socket"
 
@@ -797,12 +789,12 @@ msgid "Universal Access"
 msgstr "Universal åtkomst"
 
 #: ../capplets/appearance/appearance-desktop.c:628
-#: ../capplets/appearance/cc-background-page.c:1133
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "Lägg till bakgrundsbild"
 
 #: ../capplets/appearance/appearance-desktop.c:663
-#: ../capplets/appearance/cc-background-page.c:1173
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "Alla filer"
 
@@ -838,7 +830,7 @@ msgid "Use selected font"
 msgstr "Använd valt typsnitt"
 
 #: ../capplets/appearance/appearance-main.c:54
-#: ../capplets/appearance/cc-background-page.c:1414
+#: ../capplets/appearance/cc-background-page.c:1417
 #: ../capplets/appearance/cc-font-details-dialog.c:408
 #: ../capplets/appearance/cc-font-page.c:458
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
@@ -847,32 +839,32 @@ msgstr "Använd valt typsnitt"
 #: ../capplets/display/cc-display-minimal-page.c:609
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
-#: ../capplets/network/cc-network-proxy-page.c:1287
-#: ../capplets/power/cc-power-panel.c:367
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Kunde inte läsa in användargränssnittsfilen: %s"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "Ange filnamnet för det tema som ska installeras"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "filnamn"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Ange namnet på sidan som ska visas (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:962
-#: ../capplets/mouse/gnome-mouse-properties.c:592
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "sida"
 
-#: ../capplets/appearance/appearance-main.c:158
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[BAKGRUNDSBILD...]"
 
@@ -1024,7 +1016,7 @@ msgstr "Bild saknas"
 msgid "No Desktop Background"
 msgstr "Ingen skrivbordsbakgrund"
 
-#: ../capplets/appearance/cc-background-page.c:1575
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "Bakgrund"
@@ -1974,20 +1966,20 @@ msgstr "Kunde inte detektera display"
 msgid "- GNOME Display Preferences"
 msgstr "- Skärminställningar för Gnome"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:205
+#: ../capplets/keyboard/gnome-keyboard-properties.c:210
 msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "Verkställ bara ändringar och avsluta (endast för kompatibilitet; hanteras nu av demon)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:229
+#: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
 msgstr "Starta sidan utan att inställningarna för skrivandepaus visas"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
+#: ../capplets/keyboard/gnome-keyboard-properties.c:220
 msgid "Start the page with the accessibility settings showing"
 msgstr "Starta sidan med visade hjälpmedelsinställningar"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:250
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Tangentbordsinställningar för GNOME"
 
@@ -2293,7 +2285,7 @@ msgstr "_Tillverkare:"
 msgid "Keyboard Layout Options"
 msgstr "Alternativ för tangentbordslayout"
 
-#: ../capplets/keyboard/cc-keyboard-panel.c:163
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
@@ -2427,7 +2419,7 @@ msgstr "Standard"
 msgid "Set your keyboard preferences"
 msgstr "Ställ in dina tangentbordsinställningar"
 
-#: ../capplets/mouse/cc-pointer-panel.c:95
+#: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
 msgstr "Pekdon"
 
@@ -2462,11 +2454,11 @@ msgid "gesture|Disabled"
 msgstr "Inaktiverad"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Ange namnet på sidan som ska visas (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:604
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- Musinställningar för GNOME"
 
@@ -2622,33 +2614,30 @@ msgstr "Mus"
 msgid "Set your mouse preferences"
 msgstr "Ställ in dina musinställningar"
 
-#: ../capplets/network/cc-network-panel.c:139
+#: ../capplets/network/cc-network-panel.c:114
 msgid "Network"
 msgstr "Nätverk"
 
-#: ../capplets/network/cc-network-proxy-page.c:753
-#: ../capplets/network/cc-network-proxy-page.c:919
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "Ny plats..."
 
-#: ../capplets/network/cc-network-proxy-page.c:887
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "Platsen finns redan"
 
-#: ../capplets/network/cc-network-proxy-page.c:1306
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
 msgid "Delete Location"
 msgstr "Ta bort plats"
 
-#: ../capplets/network/cc-network-proxy-page.c:1546
+#: ../capplets/network/cc-network-proxy-page.c:1545
 msgid "Proxy"
 msgstr "Proxy"
-
-#: ../capplets/network/gnome-network-properties.c:1386
-msgid "- GNOME Network Preferences"
-msgstr "- Nätverksinställningar för GNOME"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2802,28 +2791,27 @@ msgstr "Det nya lösenordet innehåller inte tillräckligt med olika tecken"
 msgid "Unknown error"
 msgstr "Okänt fel"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Lösenorden matchar inte"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "Det nya lösenordet sparas nu"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "Det gick inte att ändra ditt lösenord"
 
-#: ../capplets/security/cc-security-panel.c:441
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "Lösenord var felaktigt"
 
-#: ../capplets/security/cc-security-panel.c:496
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "Säkerhet"
 
 #: ../capplets/security/security.desktop.in.in.h:1
-#: ../capplets/security/security.ui.h:7
 msgid "Security and passwords"
 msgstr "Säkerhet och lösenord"
 
@@ -2848,20 +2836,19 @@ msgid "Save new password"
 msgstr "Spara nytt lösenord"
 
 #: ../capplets/power/power-properties.desktop.in.in.h:1
-#: ../capplets/power/cc-power-panel.c:442
-#: ../capplets/power/power.ui.h:2
+#: ../capplets/power/cc-power-panel.c:455
 msgid "Power and brightness"
 msgstr "Energi och ljusstyrka"
 
 #. TRANSLATORS: texts below idle/sleep scales
-#: ../capplets/power/cc-power-panel.c:98
+#: ../capplets/power/cc-power-panel.c:97
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minut"
 msgstr[1] "%d minuter"
 
-#: ../capplets/power/cc-power-panel.c:103
+#: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
 msgstr "Aldrig"
 
@@ -2869,31 +2856,31 @@ msgstr "Aldrig"
 msgid "Brightness"
 msgstr "Ljusstyrka"
 
-#: ../capplets/power/power.ui.h:3
+#: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
 msgstr "Sätt datorn i viloläge när den inte varit aktiv under:"
 
-#: ../capplets/power/power.ui.h:4
+#: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
 msgstr "Sätt datorn som inaktiv när den inte varit aktiv under:"
 
-#: ../capplets/power/power.ui.h:5
+#: ../capplets/power/power.ui.h:4
 msgid "Sleep"
 msgstr "Sov"
 
-#: ../capplets/power/power.ui.h:6
+#: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
 msgstr "Detta tömmer skärmen och ställer in ditt meddelandeläge till \"borta\"."
 
-#: ../capplets/power/power.ui.h:7
+#: ../capplets/power/power.ui.h:6
 msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
 msgstr "Detta gör uppehåll i allt på din dator. Den vaknar i precis samma läge som den var i tidigare."
 
-#: ../capplets/power/power.ui.h:8
+#: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
 msgstr "Använd tangenterna på datorn för att ändra ljusstyrkan."
 
-#: ../capplets/power/power.ui.h:9
+#: ../capplets/power/power.ui.h:8
 msgid "ldle"
 msgstr "Inaktiv"
 
@@ -3292,6 +3279,14 @@ msgstr "Konfigurationsverktyget för GNOME"
 msgid "Control Center"
 msgstr "Kontrollpanel"
 
+#: ../shell/shell.ui.h:1
+msgid "System Settings"
+msgstr "System Inställningar"
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr "_Inställningar"
+
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
 msgstr "_Skjut upp pausen"
@@ -3504,6 +3499,9 @@ msgstr "TYPSNITTSFIL UTDATAFIL"
 #, c-format
 msgid "Error parsing arguments: %s\n"
 msgstr "Fel vid tolkning av argument: %s\n"
+
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr "- Nätverksinställningar för GNOME"
 
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr "Välj vilka hjälpmedelsfunktioner som ska aktiveras när du loggar in"
