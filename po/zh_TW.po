@@ -13,9 +13,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.27.91\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-12 09:40+0000\n"
-"PO-Revision-Date: 2010-05-12 22:52+0800\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"POT-Creation-Date: 2010-06-14 09:21+0000\n"
+"PO-Revision-Date: 2010-06-14 11:58-0800\n"
+"Last-Translator: Wen-Hsin Moh <wenhsinm@gmail.com>\n"
 "Language-Team: chinese-l10n <chinese-l10n@googlegroups.com>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2279,7 +2279,7 @@ msgstr "製造商(_V):"
 msgid "Keyboard Layout Options"
 msgstr "鍵盤配置選項"
 
-#: ../capplets/keyboard/cc-keyboard-panel.c:163
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
@@ -3272,6 +3272,14 @@ msgstr "GNOME 組態工具"
 msgid "Control Center"
 msgstr "控制中心"
 
+#: ../shell/shell.ui.h:1
+msgid "System Settings"
+msgstr "系統設定"
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr "全部設定(_A)"
+
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
 msgstr "停止休息(_P)"
@@ -3483,120 +3491,178 @@ msgstr "分析參數時發生錯誤：%s\n"
 
 #~ msgid "- GNOME Network Preferences"
 #~ msgstr " - GNOME 網路偏好設定"
+
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr "選擇當您登入時要啟用哪個無障礙功能"
+
 #~ msgid "Edit"
 #~ msgstr "編輯"
+
 #~ msgid "Fill screen"
 #~ msgstr "全螢幕"
+
 #~ msgid "Interface"
 #~ msgstr "介面"
+
 #~ msgid "Menus and Toolbars"
 #~ msgstr "選單及工具列"
+
 #~ msgid "Preview"
 #~ msgstr "預覽"
+
 #~ msgid "Show _icons in menus"
 #~ msgstr "在選單中顯示圖示(_I)"
+
 #~ msgid "Toolbar _button labels:"
 #~ msgstr "工具列按鈕文字(_B):"
+
 #~ msgid "_Editable menu shortcut keys"
 #~ msgstr "可編輯選單捷徑鍵(_E)"
+
 #~ msgid "_File"
 #~ msgstr "檔案(_F)"
+
 #~ msgid "Assign shortcut keys to commands"
 #~ msgstr "為不同的指令分配捷徑鍵"
+
 #~ msgid "A_cceleration:"
 #~ msgstr "加速度(_C):"
+
 #~ msgid "Layout _Options..."
 #~ msgstr "配置選項(_O)..."
+
 #~ msgid "_Selected layouts:"
 #~ msgstr "已選的配置(_S):"
+
 #~ msgid "C_ontrol"
 #~ msgstr "C_ontrol"
+
 #~ msgid "key not found [%s]\n"
 #~ msgstr "找不到按鍵 [%s]\n"
+
 #~ msgid "Hide on start (useful to preload the shell)"
 #~ msgstr "啟動時隱藏 (要預先載入 shell 時很有用)"
+
 #~ msgid "Filter"
 #~ msgstr "篩選"
+
 #~ msgid "Groups"
 #~ msgstr "類別"
+
 #~ msgid "Common Tasks"
 #~ msgstr "一般設定"
+
 #~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
 #~ msgstr "0123456789 The following is Chinese: '中文測試'"
+
 #~ msgid "Your filter \"%s\" does not match any items."
 #~ msgstr "您的過濾條件「%s」沒有任合項目符合。"
+
 #~ msgid "No matches found."
 #~ msgstr "找不到符合項。"
+
 #~ msgid "Other"
 #~ msgstr "其它"
+
 #~ msgid "Start %s"
 #~ msgstr "啟動 %s"
+
 #~ msgid "Help"
 #~ msgstr "求助"
+
 #~ msgid "Upgrade"
 #~ msgstr "更新"
+
 #~ msgid "Uninstall"
 #~ msgstr "移除"
+
 #~ msgid "Remove from Favorites"
 #~ msgstr "自最愛中移除"
+
 #~ msgid "Add to Favorites"
 #~ msgstr "加入最愛"
+
 #~ msgid "Remove from Startup Programs"
 #~ msgstr "從「初始啟動程式」中移除"
+
 #~ msgid "Add to Startup Programs"
 #~ msgstr "加入「初始啟動程式」"
+
 #~ msgid "New Spreadsheet"
 #~ msgstr "新試算表"
+
 #~ msgid "New Document"
 #~ msgstr "新文件"
+
 #~ msgid "Documents"
 #~ msgstr "文件"
+
 #~ msgid "File System"
 #~ msgstr "檔案系統"
+
 #~ msgid "Network Servers"
 #~ msgstr "網路伺服器"
+
 #~ msgid "<b>Open</b>"
 #~ msgstr "<b>開啟</b>"
+
 #~ msgid "Rename..."
 #~ msgstr "重新命名..."
+
 #~ msgid "Send To..."
 #~ msgstr "傳送至..."
+
 #~ msgid "Move to Trash"
 #~ msgstr "移至回收筒"
+
 #~ msgid "Delete"
 #~ msgstr "刪除"
+
 #~ msgid "Are you sure you want to permanently delete \"%s\"?"
 #~ msgstr "確定要永遠刪除「%s」？"
+
 #~ msgid "If you delete an item, it is permanently lost."
 #~ msgstr "如果將項目刪除，它將會永久失去。"
+
 #~ msgid "Open with \"%s\""
 #~ msgstr "以「%s」開啟"
+
 #~ msgid "Open with Default Application"
 #~ msgstr "以預設的應用程式開啟"
+
 #~ msgid "Open in File Manager"
 #~ msgstr "在檔案管理員中開啟"
+
 #~ msgid "?"
 #~ msgstr "？"
+
 #~ msgid "%l:%M %p"
 #~ msgstr "%l:%M %p"
+
 #~ msgid "Today %l:%M %p"
 #~ msgstr "今天 %l:%M %p"
+
 #~ msgid "Yesterday %l:%M %p"
 #~ msgstr "昨天 %l:%M %p"
+
 #~ msgid "%a %l:%M %p"
 #~ msgstr "%a %l:%M %p"
+
 #~ msgid "%b %d %l:%M %p"
 #~ msgstr "%b %d %l:%M %p"
+
 #~ msgid "%b %d %Y"
 #~ msgstr "%Y %b %d"
+
 #~ msgid "Find Now"
 #~ msgstr "現在尋找"
+
 #~ msgid "<b>Open %s</b>"
 #~ msgstr "<b>以“%s”開啟</b>"
+
 #~ msgid "Remove from System Items"
 #~ msgstr "自系統項目中移除"
+
 #~ msgid "_Desktop Background"
 #~ msgstr "桌面背景(_D)"
 
@@ -3924,53 +3990,74 @@ msgstr "分析參數時發生錯誤：%s\n"
 #~ msgid ""
 #~ "Testing the new settings. If you don't respond in %d second the previous "
 #~ "settings will be restored."
+
 #~ msgid_plural ""
 #~ "Testing the new settings. If you don't respond in %d seconds the previous "
 #~ "settings will be restored."
 #~ msgstr[0] "正在測試新的設定。如果在 %d 秒內沒有回應，則會回復舊的。"
+
 #~ msgid "Keep Resolution"
 #~ msgstr "保留解析度"
+
 #~ msgid "Do you want to keep this resolution?"
 #~ msgstr "是否保留這個解析度？"
+
 #~ msgid "Use _Previous Resolution"
 #~ msgstr "使用以前的解析度(_P)"
+
 #~ msgid "_Keep Resolution"
 #~ msgstr "保留解析度(_K)"
+
 #~ msgid ""
 #~ "The X server does not support the XRandR extension.  Runtime resolution "
 #~ "changes to the display size are not available."
 #~ msgstr "這個 X 伺服器不支援 XRandR 擴展功能，因此無法即時變更畫面的大小。"
+
 #~ msgid ""
 #~ "The version of the XRandR extension is incompatible with this program. "
 #~ "Runtime changes to the display size are not available."
 #~ msgstr ""
 #~ "系統中的 XRandR 擴展功能和本程式的不相容，因此無法即時變更畫面解析度。"
+
 #~ msgid "Error setting new accelerator in configuration database: %s\n"
 #~ msgstr "在組態資料庫中設定新的捷徑鍵時出現錯誤：%s\n"
+
 #~ msgid "Keyboard Accessibility Notifications"
 #~ msgstr "鍵盤可存取性通知"
+
 #~ msgid "_Layouts:"
 #~ msgstr "配置(_L):"
+
 #~ msgid "Advanced Configuration"
 #~ msgstr "進階設定"
+
 #~ msgid "E_nable software sound mixing (ESD)"
 #~ msgstr "啟用軟體混音[ESD](_N)"
+
 #~ msgid "System Beep"
 #~ msgstr "系統鈴聲"
+
 #~ msgid "_Enable system beep"
 #~ msgstr "啟用系統鈴聲(_E)"
+
 #~ msgid "_Visual system beep"
 #~ msgstr "以畫面閃爍代替鈴聲(_V)"
+
 #~ msgid "Boing"
 #~ msgstr "彈簧"
+
 #~ msgid "Siren"
 #~ msgstr "警報"
+
 #~ msgid "Clink"
 #~ msgstr "叮噹"
+
 #~ msgid "Beep"
 #~ msgstr "鈴聲"
+
 #~ msgid "Sound not set for this event."
 #~ msgstr "此事件沒有設定音效。"
+
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
 #~ "You may want to install the gnome-audio package for a set of default "
@@ -3978,62 +4065,85 @@ msgstr "分析參數時發生錯誤：%s\n"
 #~ msgstr ""
 #~ "代表該事件的音效檔不存在。\n"
 #~ "安裝 gnome-audio 套件可獲得一套預設的音效。"
+
 #~ msgid "The sound file for this event does not exist."
 #~ msgstr "代表該事件的音效檔不存在。"
+
 #~ msgid "The file %s is not a valid wav file"
 #~ msgstr "檔案 %s 不是有效的 wav 檔案"
+
 #~ msgid "Select sound file..."
 #~ msgstr "選取音效檔..."
-#~ msgid "System Sounds"
-#~ msgstr "系統音效"
+
 #~ msgid "Set as Application Font"
 #~ msgstr "指定為應用程式字型"
+
 #~ msgid "Sets the default application font"
 #~ msgstr "設定應用程式的預設字型"
+
 #~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">是否套用新的字型？</span>"
+
 #~ msgid "Do _not apply font"
 #~ msgstr "不套用字型(_N)"
+
 #~ msgid ""
 #~ "The theme you have selected suggests a new font. A preview of the font is "
 #~ "shown below."
 #~ msgstr "您選取的佈景主題建議使用一款新的字型。可以在下面的地方預覽該字型。"
+
 #~ msgid "_Apply font"
 #~ msgstr "套用字型(_A)"
+
 #~ msgid "Themes"
 #~ msgstr "佈景主題"
+
 #~ msgid "Description"
 #~ msgstr "描述"
+
 #~ msgid "Control theme"
 #~ msgstr "介面主題"
+
 #~ msgid "Window border theme"
 #~ msgstr "視窗邊框主題"
+
 #~ msgid "Icon theme"
 #~ msgstr "圖示主題"
+
 #~ msgid "If set to true, then installed themes will be thumbnailed."
 #~ msgstr "如設定為‘true’，則會為已安裝的佈景主題製作縮圖。"
+
 #~ msgid "If set to true, then themes will be thumbnailed."
 #~ msgstr "如設定為‘true’，則會為佈景主題製作縮圖。"
+
 #~ msgid ""
 #~ "Set this key to the command used to create thumbnails for installed "
 #~ "themes."
 #~ msgstr "本設定鍵的內容是為已安裝的佈景主題製作縮圖所用的指令。"
+
 #~ msgid "Set this key to the command used to create thumbnails for themes."
 #~ msgstr "本設定鍵的內容是為佈景主題製作縮圖所用的指令。"
+
 #~ msgid "Thumbnail command for installed themes"
 #~ msgstr "為已安裝的佈景主題製作縮圖所用的指令"
+
 #~ msgid "Thumbnail command for themes"
 #~ msgstr "為佈景主題製作縮圖所用的指令"
+
 #~ msgid "Whether to thumbnail installed themes"
 #~ msgstr "是否為已安裝的佈景主題製作縮圖"
+
 #~ msgid "Whether to thumbnail themes"
 #~ msgstr "是否為佈景主題製作縮圖"
+
 #~ msgid "ABCDEFG"
 #~ msgstr "ABC 中文測試"
+
 #~ msgid "[FILE]"
 #~ msgstr "[檔案]"
+
 #~ msgid "Apply theme"
 #~ msgstr "套用佈景主題"
+
 #~ msgid "Sets the default theme"
 #~ msgstr "設定預設的佈景主題"
-
