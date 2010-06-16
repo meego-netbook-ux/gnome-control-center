@@ -19,9 +19,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-05-12 09:40+0000\n"
-"PO-Revision-Date: 2010-05-12 13:22-0800\n"
-"Last-Translator: Clara Steiner-Jay <csteiner@aracnet.com>\n"
+"POT-Creation-Date: 2010-06-14 09:21+0000\n"
+"PO-Revision-Date: 2010-06-15 22:59-0800\n"
+"Last-Translator: Andreas Machoy <amachoy@hotmail.com>\n"
 "Language-Team: German <gnome-de@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -2301,7 +2301,7 @@ msgstr "_Anbieter:"
 msgid "Keyboard Layout Options"
 msgstr "Tastaturbelegungseinstellungen"
 
-#: ../capplets/keyboard/cc-keyboard-panel.c:163
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
@@ -2765,7 +2765,7 @@ msgstr "Legitimier_ung benutzen"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
-msgstr "Den se_lben Proxy für alle Protokolle verwenden"
+msgstr "Den g_leichen Proxy für alle Protokolle verwenden"
 
 #: ../capplets/security/run-passwd.c:427
 msgid "Authentication failed"
@@ -2809,7 +2809,7 @@ msgstr "Das neue Passwort enthält nicht genug unterschiedliche Zeichen"
 #: ../capplets/security/run-passwd.c:531
 #, c-format
 msgid "Unknown error"
-msgstr "Unbekanner Fehler"
+msgstr "Unbekannter Fehler"
 
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
@@ -3306,6 +3306,14 @@ msgstr "Das GNOME-Konfigurationswerkzeug"
 msgid "Control Center"
 msgstr "Kontrollzentrum"
 
+#: ../shell/shell.ui.h:1
+msgid "System Settings"
+msgstr "Systemeinstellungen"
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr "_Alle Einstellungen"
+
 # CHECK
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3518,33 +3526,46 @@ msgstr "Beim Verarbeiten der Argumente ist ein Fehler aufgetreten: %s\n"
 
 #~ msgid "- GNOME Network Preferences"
 #~ msgstr "- GNOME Netzwerk-Einstellungen"
+
 #~ msgid "Choose which accessibility features to enable when you log in"
 #~ msgstr ""
 #~ "Die beim Anmelden zu startenden Hilfsmittel für Barrierefreiheit festlegen"
+
 #~ msgid "Assign shortcut keys to commands"
 #~ msgstr "Befehlen eine Tastenkombination zuweisen"
+
 #~ msgid "key not found [%s]\n"
 #~ msgstr "Schlüssel »%s« konnte nicht gefunden werden\n"
+
 #~ msgid "Hide on start (useful to preload the shell)"
 #~ msgstr "Beim Start verbergen (nützlich, um die Shell vorab zu laden)"
+
 #~ msgid "Filter"
 #~ msgstr "Filter"
+
 #~ msgid "Groups"
 #~ msgstr "Gruppen"
+
 #~ msgid "Common Tasks"
 #~ msgstr "Häufige Aktionen"
+
 #~ msgid "Your filter \"%s\" does not match any items."
 #~ msgstr "Ihr Filter »%s« führt zu keinen Übereinstimmungen."
+
 #~ msgid "No matches found."
 #~ msgstr "Keine Treffer gefunden."
+
 #~ msgid "Other"
 #~ msgstr "Sonstige"
+
 #~ msgid "Start %s"
 #~ msgstr "%s starten"
+
 #~ msgid "Help"
 #~ msgstr "Hilfe"
+
 #~ msgid "Upgrade"
 #~ msgstr "Hochrüsten"
+
 #~ msgid "Uninstall"
 #~ msgstr "Entfernen"
-
