@@ -591,6 +591,25 @@ on_toggled (MxGtkLightSwitch *toggle, gboolean state, gpointer user_data)
 }
 
 static void
+on_resolution_changed (GtkComboBox *combo, gpointer user_data)
+{
+        CcDisplayPage *page = CC_DISPLAY_PAGE (user_data);
+        GtkTreeModel *model;
+        GtkTreeIter iter;
+        GnomeRRMode *mode;
+
+        if (!gtk_combo_box_get_active_iter (combo, &iter))
+                return;
+
+        model = gtk_combo_box_get_model (combo);
+        gtk_tree_model_get (model, &iter, COL_MODE, &mode, COL_END);
+        g_assert (mode);
+
+        page->priv->external_output->width = gnome_rr_mode_get_width (mode);
+        page->priv->external_output->height = gnome_rr_mode_get_height (mode);
+}
+
+static void
 setup_page (CcDisplayPage *page)
 {
         GtkBuilder      *builder;
@@ -616,6 +635,7 @@ setup_page (CcDisplayPage *page)
         page->priv->state_label = WID ("state_label");
         page->priv->resolution_box = WID ("resolution_box");
         page->priv->resolution_combo = WID ("res_combo");
+        g_signal_connect (page->priv->resolution_combo, "changed", G_CALLBACK (on_resolution_changed), page);
         page->priv->resolution_store = GTK_TREE_MODEL (gtk_builder_get_object (builder, "mode_store"));
         widget = WID ("apply_button");
         g_signal_connect (widget, "clicked", G_CALLBACK (on_apply_button_clicked), page);
