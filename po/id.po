@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-24 09:43+0000\n"
+"POT-Creation-Date: 2010-07-14 16:00+0000\n"
 "PO-Revision-Date: 2010-04-25 08:03+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: GNOME Indonesian Translation Team <gnome@i15n.org>\n"
@@ -206,7 +206,7 @@ msgstr "Tanpa Gambar"
 
 #: ../capplets/about-me/gnome-about-me.c:746
 #: ../capplets/appearance/appearance-desktop.c:659
-#: ../capplets/appearance/cc-background-page.c:1168
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "Citra"
 
@@ -516,7 +516,8 @@ msgstr "Fungsikan Login Sidik Jari"
 
 #. translators:
 #. * The variable is the name of the device, for example:
-#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * "To enable fingerprint login, you need to save one of your fingerprints,
+#. using the
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
@@ -604,7 +605,7 @@ msgstr "Terotentikasi!"
 #. This is a re-auth, and it failed.
 #. * The password must have been changed in the meantime!
 #. * Ask the user to re-authenticate
-#.
+#. 
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
@@ -785,12 +786,12 @@ msgid "Universal Access"
 msgstr "Akses Universal"
 
 #: ../capplets/appearance/appearance-desktop.c:628
-#: ../capplets/appearance/cc-background-page.c:1133
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "Tambahkan Gambar Dinding"
 
 #: ../capplets/appearance/appearance-desktop.c:663
-#: ../capplets/appearance/cc-background-page.c:1173
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "Semua berkas"
 
@@ -824,16 +825,16 @@ msgid "Use selected font"
 msgstr "Gunakan font terpilih"
 
 #: ../capplets/appearance/appearance-main.c:54
-#: ../capplets/appearance/cc-background-page.c:1414
+#: ../capplets/appearance/cc-background-page.c:1417
 #: ../capplets/appearance/cc-font-details-dialog.c:408
 #: ../capplets/appearance/cc-font-page.c:458
 #: ../capplets/appearance/cc-theme-customize-dialog.c:1203
 #: ../capplets/appearance/cc-theme-page.c:1350
 #: ../capplets/appearance/cc-theme-save-dialog.c:456
-#: ../capplets/display/cc-display-minimal-page.c:609
+#: ../capplets/display/cc-display-minimal-page.c:628
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
-#: ../capplets/network/cc-network-proxy-page.c:1287
+#: ../capplets/network/cc-network-proxy-page.c:1285
 #: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
@@ -970,7 +971,7 @@ msgstr[0] "piksel"
 #. translators: <b>wallpaper name</b>
 #. * mime type, size
 #. * Folder: /path/to/file
-#.
+#. 
 #: ../capplets/appearance/cc-background-item.c:243
 #: ../capplets/appearance/gnome-wp-item.c:280
 #, c-format
@@ -986,7 +987,7 @@ msgstr ""
 #. translators: <b>wallpaper name</b>
 #. * Image missing
 #. * Folder: /path/to/file
-#.
+#. 
 #: ../capplets/appearance/cc-background-item.c:255
 #: ../capplets/appearance/gnome-wp-item.c:292
 #, c-format
@@ -1009,7 +1010,7 @@ msgstr "Gambar tak ditemukan"
 msgid "No Desktop Background"
 msgstr "Tanpa Latar Belakang Desktop"
 
-#: ../capplets/appearance/cc-background-page.c:1575
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "Latar Belakang"
@@ -1821,12 +1822,12 @@ msgstr "Anda hanya menampilkan desktop Anda pada layar komputer Anda. Tancapkan 
 msgid "You are showing your desktop on an external monitor or projector."
 msgstr "Anda menampilkan desktop Anda pada monitor eksternal atau projektor."
 
-#: ../capplets/display/cc-display-minimal-page.c:652
+#: ../capplets/display/cc-display-minimal-page.c:672
 #: ../capplets/display/display-minimal.ui.h:1
 msgid "Displays and projectors"
 msgstr "Tampilan dan proyektor"
 
-#: ../capplets/display/cc-display-minimal-page.c:672
+#: ../capplets/display/cc-display-minimal-page.c:692
 #: ../capplets/display/xrandr-capplet.c:2297
 msgid "Could not get screen information"
 msgstr "Tidak mendapatkan informasi layar"
@@ -1934,7 +1935,7 @@ msgstr "%d Hz"
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#.
+#. 
 #: ../capplets/display/xrandr-capplet.c:500
 #: ../capplets/display/xrandr-capplet.c:1607
 msgid "Mirror Screens"
@@ -2276,7 +2277,7 @@ msgstr "_Penyedia"
 msgid "Keyboard Layout Options"
 msgstr "Pilihan-pilihan Tata Letak Keyboard"
 
-#: ../capplets/keyboard/cc-keyboard-panel.c:163
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
@@ -2605,27 +2606,28 @@ msgstr "Tetikus"
 msgid "Set your mouse preferences"
 msgstr "Atur preferensi tetikus Anda"
 
-#: ../capplets/network/cc-network-panel.c:139
+#: ../capplets/network/cc-network-panel.c:114
 msgid "Network"
 msgstr "Jaringan"
 
-#: ../capplets/network/cc-network-proxy-page.c:753
-#: ../capplets/network/cc-network-proxy-page.c:919
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "Lokasi Baru..."
 
-#: ../capplets/network/cc-network-proxy-page.c:887
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "Lokasi sudah ada"
 
-#: ../capplets/network/cc-network-proxy-page.c:1306
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
 msgid "Delete Location"
 msgstr "Hapus Lokasi"
 
-#: ../capplets/network/cc-network-proxy-page.c:1546
+#: ../capplets/network/cc-network-proxy-page.c:1545
 msgid "Proxy"
 msgstr "Proksi"
 
@@ -2781,23 +2783,23 @@ msgstr "Kata sandi baru tak memuat karakter berbeda yang cukup"
 msgid "Unknown error"
 msgstr "Kesalahan tak dikenal"
 
-#: ../capplets/security/cc-security-panel.c:153
+#: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Maaf, kata sandi tak cocok"
 
-#: ../capplets/security/cc-security-panel.c:178
+#: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
 msgstr "Kata sandi baru telah disimpan"
 
-#: ../capplets/security/cc-security-panel.c:209
+#: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
 msgstr "Maaf, kata sandi Anda tak bisa diganti"
 
-#: ../capplets/security/cc-security-panel.c:441
+#: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
 msgstr "Maaf, kata sandinya salah"
 
-#: ../capplets/security/cc-security-panel.c:496
+#: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
 msgstr "Keamanan"
 
@@ -3247,7 +3249,10 @@ msgstr "Nama tugas dan berkas .dekstop terkait"
 msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
 msgstr "Nama tugas yang akan ditampilkan dalam pusat-kontrol yang diikuti dengan pemisah \";\"  kemudian berkas .desktop yang berkaitan untuk memulai tugas."
 
-#. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
+#. Translators: The format of this string is the task name to be displayed
+#. (translate that part) followed by a ";" separator then the filename (DONT
+#. translate the file name) of a .desktop file to launch. Multiple entries are
+#. separated by a ","
 #: ../shell/control-center.schemas.in.h:13
 msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
 msgstr "[Ubah Tema; gtk-tema-selector.desktop, Tetapkan Aplikasi yang dipilih; standar-applications.desktop, Tambah printer; gnome-cups-manager.desktop]"
@@ -3267,6 +3272,14 @@ msgstr "Perkakas konfigurasi GNOME"
 #: ../shell/gnomecc.directory.in.h:1
 msgid "Control Center"
 msgstr "Pusat Pengaturan"
+
+#: ../shell/shell.ui.h:1
+msgid "System Settings"
+msgstr "Tatanan Sistem"
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr "Semu_a Tatanan"
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3430,13 +3443,11 @@ msgstr "Jenis:"
 msgid "Size:"
 msgstr "Ukuran:"
 
-#: ../font-viewer/font-view.c:353
-#: ../font-viewer/font-view.c:366
+#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "Versi:"
 
-#: ../font-viewer/font-view.c:357
-#: ../font-viewer/font-view.c:368
+#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr "Hak Cipta:"
 
@@ -3498,8 +3509,7 @@ msgstr "Kesalahan mengurai argumen: %s\n"
 #~ msgstr "_XMPP:"
 
 #~ msgid "Choose which accessibility features to enable when you log in"
-#~ msgstr ""
-#~ "Pilih fitur kemudahan akses yang Anda inginkan untuk aktif saat login"
+#~ msgstr "Pilih fitur kemudahan akses yang Anda inginkan untuk aktif saat login"
 
 #~ msgid "Span"
 #~ msgstr "Melingkupi"
@@ -3522,19 +3532,14 @@ msgstr "Kesalahan mengurai argumen: %s\n"
 #~ msgid "Monitors"
 #~ msgstr "Monitor"
 
-#~ msgid ""
-#~ "Select a monitor to change its properties; drag it to rearrange its "
-#~ "placement."
-#~ msgstr ""
-#~ "Pilih suatu monitor untuk mengubah propertinya; seret dia untuk menata "
-#~ "ulang penempatannya."
+#~ msgid "Select a monitor to change its properties; drag it to rearrange its placement."
+#~ msgstr "Pilih suatu monitor untuk mengubah propertinya; seret dia untuk menata ulang penempatannya."
 
 #~ msgid "The monitor configuration has been saved"
 #~ msgstr "Konfigurasi monitor telah disimpan"
 
 #~ msgid "This configuration will be used the next time someone logs in."
-#~ msgstr ""
-#~ "Konfigurasi ini akan dipakai ketika seseorang log masuk di saat mendatang."
+#~ msgstr "Konfigurasi ini akan dipakai ketika seseorang log masuk di saat mendatang."
 
 #~ msgid "Could not set the default configuration for monitors"
 #~ msgstr "Tidak dapat menata konfigurasi baku untuk monitor"
