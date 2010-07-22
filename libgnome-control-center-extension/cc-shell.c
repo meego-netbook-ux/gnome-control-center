@@ -225,29 +225,29 @@ cc_shell_set_panel (CcShell     *shell,
     (GtkWidget*) gtk_builder_get_object (GTK_BUILDER (shell), "notebook");
 
 
+  if (priv->current_panel != NULL)
+    cc_panel_set_active (priv->current_panel, FALSE);
+
+  /* if there is a current panel, remove it from the parent manually to
+   * avoid it being destroyed */
+  if (priv->current_panel)
+    {
+      GtkContainer *container;
+      GtkWidget *widget;
+
+      widget = GTK_WIDGET (priv->current_panel);
+      container = (GtkContainer *) gtk_widget_get_parent (widget);
+      gtk_container_remove (container, widget);
+
+      priv->current_panel = NULL;
+      gtk_notebook_remove_page (GTK_NOTEBOOK (notebook), CAPPLET_PAGE);
+    }
+
+
   if (!id)
     {
-      if (priv->current_panel != NULL)
-        cc_panel_set_active (priv->current_panel, FALSE);
-
-      /* if there is a current panel, remove it from the parent manually to
-       * avoid it being destroyed */
-      if (priv->current_panel)
-        {
-          GtkContainer *container;
-          GtkWidget *widget;
-
-          widget = GTK_WIDGET (priv->current_panel);
-          container = (GtkContainer *) gtk_widget_get_parent (widget);
-          gtk_container_remove (container, widget);
-
-          priv->current_panel = NULL;
-          gtk_notebook_remove_page (GTK_NOTEBOOK (notebook), CAPPLET_PAGE);
-        }
-
       gtk_notebook_set_current_page (GTK_NOTEBOOK (notebook),
                                      OVERVIEW_PAGE);
-
       return TRUE;
     }
 
