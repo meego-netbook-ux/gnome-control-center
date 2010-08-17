@@ -130,6 +130,8 @@ PKG_CHECK_MODULES(TYPING, glib-2.0 > 2.11 gconf-2.0 gtk+-2.0)
 PKG_CHECK_MODULES(GSD_DBUS, gnome-settings-daemon)
 PKG_CHECK_MODULES(GIO, gio-2.0)
 
+PKG_CHECK_MODULES(MX_GTK, mx-gtk-1.0)
+
 gtk_lib_dir=`$PKG_CONFIG --variable libdir gtk+-2.0`
 gtk_binary_version=`$PKG_CONFIG --variable gtk_binary_version gtk+-2.0`
 GTK_ENGINE_DIR="$gtk_lib_dir/gtk-2.0/$gtk_binary_version/engines"
@@ -395,6 +397,10 @@ panels/network/Makefile
 panels/network/gnome-network-panel.desktop.in
 panels/universal-access/Makefile
 panels/universal-access/gnome-universal-access-panel.desktop.in
+panels/security/Makefile
+panels/security/security.desktop.in
+panels/power/Makefile
+panels/power/power-properties.desktop.in
 po/Makefile.in
 shell/Makefile
 shell/gnome-control-center.desktop.in

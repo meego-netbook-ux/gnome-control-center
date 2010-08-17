@@ -7,6 +7,8 @@ SUBDIRS= \
 	default-applications \
 	keybindings \
 	universal-access \
-	datetime
+	datetime \
+	security \
+	power
 
 -include $(top_srcdir)/git.mk
