@@ -15,8 +15,6 @@ schemas_in_files = gnome-control-center.schemas.in
 schemas_DATA = $(schemas_in_files:.schemas.in=.schemas)
 @INTLTOOL_SCHEMAS_RULE@
 
-ACLOCAL_AMFLAGS = -I m4
-
 CLEANFILES = \
 	$(schemas_DATA)
 
@@ -49,7 +47,7 @@ EXTRA_DIST = \
 
 DISTCHECK_CONFIGURE_FLAGS = --disable-scrollkeeper --disable-update-mimedb --enable-gtk-doc --enable-examples
 
-GITIGNOREFILES=m4 help/*/*.mo
+GITIGNOREFILES=help/*/*.mo
 
 -include $(top_srcdir)/git.mk
 
