@@ -220,6 +220,7 @@ cc_shell_set_panel (CcShell     *shell,
   CcShellPrivate *priv = shell->priv;
   GtkBuilder *builder = GTK_BUILDER (shell);
   GtkWidget *notebook;
+  GtkWidget *title_label, *title_alignment;
 
   notebook =
     (GtkWidget*) gtk_builder_get_object (GTK_BUILDER (shell), "notebook");
@@ -227,6 +228,18 @@ cc_shell_set_panel (CcShell     *shell,
 
   if (priv->current_panel != NULL)
     cc_panel_set_active (priv->current_panel, FALSE);
+
+  title_label =
+    (GtkWidget*) gtk_builder_get_object (GTK_BUILDER (shell), "label-title");
+  title_alignment =
+    (GtkWidget*) gtk_builder_get_object (GTK_BUILDER (shell),
+                                         "title-alignment");
+
+  if (id == NULL)
+    {
+      gtk_label_set_text (GTK_LABEL (title_label), "");
+      gtk_widget_hide (title_alignment);
+    }
 
   /* if there is a current panel, remove it from the parent manually to
    * avoid it being destroyed */
@@ -279,12 +292,9 @@ cc_shell_set_panel (CcShell     *shell,
       gtk_notebook_set_current_page (GTK_NOTEBOOK (notebook),
                                      CAPPLET_PAGE);
 
-      gtk_label_set_text (GTK_LABEL (gtk_builder_get_object (builder,
-                                                             "label-title")),
-                          priv->current_title);
+      gtk_label_set_text (GTK_LABEL (title_label), priv->current_title);
 
-      gtk_widget_show (GTK_WIDGET (gtk_builder_get_object (builder,
-                                                           "title-alignment")));
+      gtk_widget_show (title_alignment);
       return TRUE;
     }
   else

@@ -329,9 +329,6 @@ shell_show_overview_page (ShellData *data)
 
   cc_shell_set_panel (CC_SHELL (data->builder), NULL);
 
-  gtk_label_set_text (GTK_LABEL (gtk_builder_get_object (data->builder, "label-title")), "");
-  gtk_widget_hide (GTK_WIDGET (gtk_builder_get_object (data->builder, "title-alignment")));
-
   /* clear the search text */
   g_free (data->filter_string);
   data->filter_string = g_strdup ("");
