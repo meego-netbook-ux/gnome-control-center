@@ -265,6 +265,24 @@ fi
 AM_CONDITIONAL(BUILD_ABOUTME, test "x$enable_aboutme" = "xyes")
 
 dnl ==============================================
+dnl Security
+dnl ==============================================
+
+AC_MSG_CHECKING([whether to enable Security])
+AC_ARG_ENABLE([security],
+   AC_HELP_STRING([--enable-security],
+                  [enable security capplet]),,
+   [enable_security=no])
+AC_MSG_RESULT([$enable_security])
+
+if test "x$enable_security" = "xyes"; then
+  PKG_CHECK_MODULES(MX_GTK, [mx-gtk-1.0])
+fi
+AC_SUBST(MX_GTK_CFLAGS)
+AC_SUBST(MX_GTK_LIBS)
+
+AM_CONDITIONAL(BUILD_SECURITY, test "x$enable_security" = "xyes")
+
 dnl ==============================================
 dnl Check the window manager we need to work with
 dnl ==============================================
@@ -388,6 +406,8 @@ capplets/network/Makefile
 capplets/network/gnome-network-properties.desktop.in
 capplets/windows/Makefile
 capplets/windows/window-properties.desktop.in
+capplets/security/Makefile
+capplets/security/security.desktop.in
 capplets/date/Makefile
 capplets/language/Makefile
 font-viewer/Makefile

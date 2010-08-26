@@ -21,6 +21,7 @@ DIST_SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
+	security		\
 	windows			\
 	display 		\
 	date			\
@@ -30,6 +31,10 @@ DIST_SUBDIRS = \
 
 if BUILD_ABOUTME
 SUBDIRS += about-me
+endif
+
+if BUILD_SECURITY
+SUBDIRS += security
 endif
 
 -include $(top_srcdir)/git.mk
