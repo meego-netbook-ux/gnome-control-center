@@ -2,7 +2,7 @@
 cappletname = display
 
 uidir = $(pkgdatadir)/ui
-dist_ui_DATA = display-capplet.ui
+dist_ui_DATA = display-capplet.ui display-minimal.ui
 
 bin_PROGRAMS = gnome-display-properties
 
@@ -17,6 +17,37 @@ gnome_display_properties_LDFLAGS = -export-dynamic
 gnome_display_properties_LDADD = \
 	$(GNOMECC_CAPPLETS_LIBS) \
 	$(DISPLAY_CAPPLET_LIBS)
+
+
+ccmodulesdir = $(EXTENSIONSDIR)
+ccmodules_LTLIBRARIES = libdisplay.la
+
+libdisplay_la_SOURCES =			\
+	display-module.c		\
+	cc-display-page.h		\
+	cc-display-minimal-page.c	\
+	cc-display-panel.h		\
+	cc-display-panel.c		\
+	$(NULL)
+
+
+libdisplay_la_LDFLAGS =			\
+	$(EXTENSION_LIBTOOL_FLAGS)	\
+	$(NULL)
+
+libdisplay_la_LIBADD =			\
+	$(EXTENSION_LIBS)		\
+	$(EXTENSION_COMMON_LIBS)	\
+	$(DISPLAY_CAPPLET_LIBS)		\
+	$(NULL)
+
+libdisplay_la_CFLAGS =			\
+	-DPIXMAPDIR="\"$(pixmapdir)\""	\
+	$(EXTENSION_CFLAGS)		\
+	$(EXTENSION_COMMON_CFLAGS)	\
+	$(NULL)
+
+libdisplay_la_LIBTOOLFLAGS = --tag=disable-static
 
 @INTLTOOL_DESKTOP_RULE@
 
