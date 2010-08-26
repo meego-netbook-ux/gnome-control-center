@@ -8,6 +8,7 @@ SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
+	power			\
 	windows			\
 	date
 	language
@@ -21,6 +22,7 @@ DIST_SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
+	power			\
 	security		\
 	windows			\
 	display 		\
