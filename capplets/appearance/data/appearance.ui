@@ -14,7 +14,7 @@
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child>
-          <object class="GtkVBox" id="vbox7">
+          <object class="GtkVBox" id="render_details_vbox">
             <property name="visible">True</property>
             <property name="border_width">5</property>
             <property name="orientation">vertical</property>
@@ -892,7 +892,7 @@
                     </child>
                     <child>
                       <object class="GtkHBox" id="hbox8">
-                        <property name="visible">True</property>
+                        <property name="no_show_all">True</property>
                         <property name="spacing">24</property>
                         <child>
                           <object class="GtkHBox" id="hbox_style">
@@ -1034,7 +1034,7 @@
                 </child>
                 <child>
                   <object class="GtkLabel" id="label2">
-                    <property name="visible">True</property>
+                    <property name="no_show_all">True</property>
                   </object>
                   <packing>
                     <property name="expand">False</property>
@@ -1048,7 +1048,6 @@
                     <child>
                       <object class="GtkLinkButton" id="more_backgrounds_linkbutton">
                         <property name="label" translatable="yes">Get more backgrounds online</property>
-                        <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">True</property>
                         <property name="no_show_all">True</property>
@@ -1129,7 +1128,7 @@
               </packing>
             </child>
             <child>
-              <object class="GtkVBox" id="fonts_vbox">
+              <object class="GtkVBox" id="font_vbox">
                 <property name="visible">True</property>
                 <property name="border_width">12</property>
                 <property name="orientation">vertical</property>
@@ -1174,25 +1173,9 @@
                     </child>
                     <child>
                       <object class="GtkFontButton" id="desktop_font">
-                        <property name="visible">True</property>
                         <property name="can_focus">True</property>
                         <property name="receives_default">False</property>
-                        <property name="use_font">True</property>
-                      </object>
-                      <packing>
-                        <property name="left_attach">1</property>
-                        <property name="right_attach">2</property>
-                        <property name="top_attach">2</property>
-                        <property name="bottom_attach">3</property>
-                        <property name="x_options">GTK_FILL</property>
-                        <property name="y_options"></property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkFontButton" id="window_title_font">
-                        <property name="visible">True</property>
-                        <property name="can_focus">True</property>
-                        <property name="receives_default">False</property>
+                        <property name="no_show_all">True</property>
                         <property name="use_font">True</property>
                       </object>
                       <packing>
@@ -1200,6 +1183,22 @@
                         <property name="right_attach">2</property>
                         <property name="top_attach">3</property>
                         <property name="bottom_attach">4</property>
+                        <property name="x_options">GTK_FILL</property>
+                        <property name="y_options"></property>
+                      </packing>
+                    </child>
+                    <child>
+                      <object class="GtkFontButton" id="window_title_font">
+                        <property name="can_focus">True</property>
+                        <property name="receives_default">False</property>
+                        <property name="no_show_all">True</property>
+                        <property name="use_font">True</property>
+                      </object>
+                      <packing>
+                        <property name="left_attach">1</property>
+                        <property name="right_attach">2</property>
+                        <property name="top_attach">4</property>
+                        <property name="bottom_attach">5</property>
                         <property name="x_options">GTK_FILL</property>
                         <property name="y_options"></property>
                       </packing>
@@ -1214,22 +1213,6 @@
                       <packing>
                         <property name="left_attach">1</property>
                         <property name="right_attach">2</property>
-                        <property name="top_attach">4</property>
-                        <property name="bottom_attach">5</property>
-                        <property name="x_options">GTK_FILL</property>
-                        <property name="y_options"></property>
-                      </packing>
-                    </child>
-                    <child>
-                      <object class="GtkLabel" id="label31">
-                        <property name="visible">True</property>
-                        <property name="xalign">0</property>
-                        <property name="label" translatable="yes">Des_ktop font:</property>
-                        <property name="use_underline">True</property>
-                        <property name="justify">right</property>
-                        <property name="mnemonic_widget">desktop_font</property>
-                      </object>
-                      <packing>
                         <property name="top_attach">2</property>
                         <property name="bottom_attach">3</property>
                         <property name="x_options">GTK_FILL</property>
@@ -1237,8 +1220,24 @@
                       </packing>
                     </child>
                     <child>
+                      <object class="GtkLabel" id="label31">
+                        <property name="no_show_all">True</property>
+                        <property name="xalign">0</property>
+                        <property name="label" translatable="yes">Des_ktop font:</property>
+                        <property name="use_underline">True</property>
+                        <property name="justify">right</property>
+                        <property name="mnemonic_widget">desktop_font</property>
+                      </object>
+                      <packing>
+                        <property name="top_attach">3</property>
+                        <property name="bottom_attach">4</property>
+                        <property name="x_options">GTK_FILL</property>
+                        <property name="y_options"></property>
+                      </packing>
+                    </child>
+                    <child>
                       <object class="GtkLabel" id="label30">
-                        <property name="visible">True</property>
+                        <property name="no_show_all">True</property>
                         <property name="xalign">0</property>
                         <property name="label" translatable="yes">_Window title font:</property>
                         <property name="use_underline">True</property>
@@ -1246,8 +1245,8 @@
                         <property name="mnemonic_widget">window_title_font</property>
                       </object>
                       <packing>
-                        <property name="top_attach">3</property>
-                        <property name="bottom_attach">4</property>
+                        <property name="top_attach">4</property>
+                        <property name="bottom_attach">5</property>
                         <property name="x_options">GTK_FILL</property>
                         <property name="y_options"></property>
                       </packing>
@@ -1262,8 +1261,8 @@
                         <property name="mnemonic_widget">monospace_font</property>
                       </object>
                       <packing>
-                        <property name="top_attach">4</property>
-                        <property name="bottom_attach">5</property>
+                        <property name="top_attach">2</property>
+                        <property name="bottom_attach">3</property>
                         <property name="x_options">GTK_FILL</property>
                         <property name="y_options"></property>
                       </packing>
@@ -1625,9 +1624,6 @@
       <row>
         <col id="0" translatable="yes">Stretch</col>
       </row>
-      <row>
-        <col id="0" translatable="yes">Span</col>
-      </row>
     </data>
   </object>
   <object class="GtkListStore" id="wp_color_liststore">
@@ -1681,7 +1677,7 @@
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child>
-          <object class="GtkNotebook" id="notebook2">
+          <object class="GtkNotebook" id="theme_details_notebook">
             <property name="visible">True</property>
             <property name="can_focus">True</property>
             <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
@@ -1776,6 +1772,7 @@
                 <child>
                   <object class="GtkHBox" id="color_scheme_message_hbox">
                     <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
+                    <property name="no_show_all">True</property>
                     <property name="spacing">6</property>
                     <child>
                       <object class="GtkImage" id="image2">
@@ -2302,7 +2299,10 @@
                             <property name="visible">True</property>
                             <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
                             <property name="label" translatable="yes">Small</property>
-                            <property name="use_markup">True</property>
+                            <attributes>
+                              <attribute name="style" value="normal"/>
+                              <attribute name="scale" value="0.833000"/>
+                            </attributes>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -2327,7 +2327,10 @@
                             <property name="visible">True</property>
                             <property name="events">GDK_POINTER_MOTION_MASK | GDK_POINTER_MOTION_HINT_MASK | GDK_BUTTON_PRESS_MASK | GDK_BUTTON_RELEASE_MASK</property>
                             <property name="label" translatable="yes">Large</property>
-                            <property name="use_markup">True</property>
+                            <attributes>
+                              <attribute name="style" value="normal"/>
+                              <attribute name="scale" value="0.833000"/>
+                            </attributes>
                           </object>
                           <packing>
                             <property name="expand">False</property>
@@ -2454,7 +2457,7 @@
         <property name="orientation">vertical</property>
         <property name="spacing">2</property>
         <child>
-          <object class="GtkTable" id="table3">
+          <object class="GtkTable" id="save_dialog_table">
             <property name="visible">True</property>
             <property name="border_width">6</property>
             <property name="n_rows">3</property>
