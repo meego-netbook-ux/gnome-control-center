@@ -99,11 +99,10 @@ COMMON_MODULES="gtk+-2.0 >= 2.18.0 dnl
  gnome-desktop-2.0 >= 2.29.4"
 PKG_CHECK_MODULES(CAPPLET, $COMMON_MODULES)
 PKG_CHECK_MODULES(GNOMECC, $COMMON_MODULES libgnome-menu >= 2.10.1)
-PKG_CHECK_MODULES(GNOMECC_SHELL, $COMMON_MODULES libgnome-menu unique-1.0)
+PKG_CHECK_MODULES(GNOMECC_SHELL, $COMMON_MODULES libgnome-menu unique-1.0 gio-unix-2.0)
 PKG_CHECK_MODULES(DBUS, dbus-1 dbus-glib-1)
 PKG_CHECK_MODULES(GNOME_DESKTOP, gnome-desktop-2.0)
 PKG_CHECK_MODULES(DEFAULT_APPLICATIONS_CAPPLET, libxml-2.0)
-PKG_CHECK_MODULES(METACITY, libmetacity-private >= 2.23.1)
 PKG_CHECK_MODULES(TYPING, glib-2.0 > 2.11 gconf-2.0 gtk+-2.0)
 PKG_CHECK_MODULES(GSD_DBUS, gnome-settings-daemon)
 PKG_CHECK_MODULES(GIO, gio-2.0)
@@ -138,6 +137,24 @@ AC_SUBST(WARN_CFLAGS)
 AM_CONDITIONAL(HAVE_LIBSLAB, [test $have_libslab = yes -o $have_libslab_deps = yes])
 AM_CONDITIONAL(HAVE_LIBSLAB_DEPS, [test $have_libslab_deps = yes])
 AM_CONDITIONAL(LIBSLAB_FOR_INTERNAL_USE, test "yes" = "yes")
+
+dnl ================================================================
+dnl Extensions
+dnl ================================================================
+
+PKG_CHECK_MODULES(EXTENSION_COMMON, $COMMON_MODULES)
+
+EXTENSION_LIBTOOL_FLAGS="-export_dynamic -avoid-version -module -no-undefined -export-symbols-regex '^g_io_module_(load|unload)'"
+AC_SUBST(EXTENSION_LIBTOOL_FLAGS)
+
+EXTENSIONSDIR="${libdir}/control-center-1/extensions"
+AC_SUBST(EXTENSIONSDIR)
+
+EXTENSION_CFLAGS="-I\$(top_srcdir)/capplets/common"
+AC_SUBST(EXTENSION_CFLAGS)
+
+EXTENSION_LIBS="\$(top_builddir)/capplets/common/libgnome-control-center-extension.la"
+AC_SUBST(EXTENSION_LIBS)
 
 dnl
 dnl Check for Xft version 2; we build in extra functionality to the font capplet
@@ -233,6 +250,28 @@ fi
 AM_CONDITIONAL(BUILD_ABOUTME, test "x$enable_aboutme" = "xyes")
 
 dnl ==============================================
+dnl ==============================================
+dnl Check the window manager we need to work with
+dnl ==============================================
+
+AC_ARG_WITH([window_manager],
+            [AS_HELP_STRING([--with-window-manager],
+                            [specify which window manager to support (metacity, mutter)])],
+            [with_window_manager=${withval}],
+            [with_window_manager=metacity])
+
+AS_IF([test "x$with_window_manager" == "xmetacity"],
+      [WM_REQUIRES="libmetacity-private >= 2.23.1"
+       AC_DEFINE(HAVE_METACITY, 1, [defined if using metacity])],
+      [test "x$with_window_manager" == "xmutter"],
+      [WM_REQUIRES="libmutter-private >= 2.23.1"
+       AC_DEFINE(HAVE_MUTTER, 1, [defined if using mutter])],
+      [AC_MSG_FAILURE([Unsuported window manager: "$with_window_manager"])])
+
+PKG_CHECK_MODULES(WINDOW_MANAGER, $WM_REQUIRES)
+
+CAPPLET_LIBS="$CAPPLET_LIBS $WINDOW_MANAGER_LIBS"
+
 dnl End: Check that we meet the  dependencies
 dnl ==============================================
 
@@ -243,6 +282,17 @@ if test x"$GLIB_GENMARSHAL" = xno; then
 fi
 
 AC_SUBST(GLIB_GENMARSHAL)
+
+
+dnl ==============================================
+dnl Moblin specific tweaks
+dnl ==============================================
+AC_ARG_ENABLE(moblin, AC_HELP_STRING([--enable-moblin],[Build Moblin version]))
+if test x"$enable_moblin" = xyes; then
+  AC_DEFINE(HAVE_MOBLIN, 1, [Define if we are building for Moblin])
+fi
+
+AM_CONDITIONAL(HAVE_MOBLIN, test "x$enable_moblin" = "xyes")
 
 dnl ==============================================
 dnl Special GConf section
@@ -260,7 +310,7 @@ dnl ==============================================
 dnl Define the main variables
 dnl ==============================================
 COMMON_CFLAGS="-I\$(top_srcdir)/capplets/common"
-COMMON_LIBS="\$(top_builddir)/capplets/common/libcommon.la"
+COMMON_LIBS="\$(top_builddir)/capplets/common/libgnome-control-center-extension.la"
 
 EXTRA_CFLAGS="-I\$(top_srcdir)/ -DG_LOG_DOMAIN=\"\\\"\$(cappletname)-properties\\\"\""
 
@@ -302,6 +352,8 @@ capplets/appearance/data/Makefile
 capplets/appearance/data/gnome-appearance-properties.desktop.in
 capplets/appearance/data/gnome-theme-installer.desktop.in
 capplets/common/Makefile
+capplets/common/libgnome-control-center-extension.pc
+capplets/common/libgnome-control-center-extension-uninstalled.pc
 capplets/default-applications/Makefile
 capplets/default-applications/default-applications.desktop.in
 capplets/default-applications/gnome-at-commandline.in

@@ -1,197 +1,708 @@
 /*
- * This file is part of the Control Center.
+ * Copyright (c) 2010 Intel, Inc.
+ * Copyright (c) 2010 Red Hat, Inc.
  *
- * Copyright (c) 2006 Novell, Inc.
+ * The Control Center is free software; you can redistribute it and/or modify
+ * it under the terms of the GNU General Public License as published by the
+ * Free Software Foundation; either version 2 of the License, or (at your
+ * option) any later version.
  *
- * The Control Center is free software; you can redistribute it and/or modify it
- * under the terms of the GNU General Public License as published by the Free
- * Software Foundation; either version 2 of the License, or (at your option)
- * any later version.
+ * The Control Center is distributed in the hope that it will be useful, but
+ * WITHOUT ANY WARRANTY; without even the implied warranty of MERCHANTABILITY
+ * or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License
+ * for more details.
  *
- * The Control Center is distributed in the hope that it will be useful, but WITHOUT
- * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or
- * FITNESS FOR A PARTICULAR PURPOSE.  See the GNU General Public License for
- * more details.
+ * You should have received a copy of the GNU General Public License along
+ * with the Control Center; if not, write to the Free Software Foundation,
+ * Inc., 51 Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
  *
- * You should have received a copy of the GNU General Public License along with
- * the Control Center; if not, write to the Free Software Foundation, Inc., 51
- * Franklin St, Fifth Floor, Boston, MA  02110-1301  USA
+ * Author: Thomas Wood <thos@gnome.org>
  */
 
 #include "config.h"
 
+#include "control-center.h"
+
 #include <glib/gi18n.h>
+#include <gio/gio.h>
+#include <gio/gdesktopappinfo.h>
 #include <gtk/gtk.h>
-#include <libgnome/gnome-desktop-item.h>
-#include <unique/unique.h>
+#include <gdk/gdkkeysyms.h>
+#include <string.h>
+#define GMENU_I_KNOW_THIS_IS_UNSTABLE
+#include <gmenu-tree.h>
 
-#include <libslab/slab.h>
+#include "cc-panel.h"
+#include "shell-search-renderer.h"
+#include "cc-shell-category-view.h"
+#include "cc-shell-model.h"
 
-void handle_static_action_clicked (Tile * tile, TileEvent * event, gpointer data);
-static GSList *get_actions_list ();
+G_DEFINE_TYPE (ControlCenter, control_center, CC_TYPE_SHELL)
 
-#define CONTROL_CENTER_PREFIX             "/apps/control-center/cc_"
-#define CONTROL_CENTER_ACTIONS_LIST_KEY   (CONTROL_CENTER_PREFIX  "actions_list")
-#define CONTROL_CENTER_ACTIONS_SEPARATOR  ";"
-#define EXIT_SHELL_ON_STATIC_ACTION       "exit_shell_on_static_action"
+#define SHELL_PRIVATE(o) \
+  (G_TYPE_INSTANCE_GET_PRIVATE ((o), CONTROL_TYPE_CENTER, ControlCenterPrivate))
 
-static GSList *
-get_actions_list (void)
+struct _ControlCenterPrivate
 {
-	GSList *l;
-	GSList *key_list;
-	GSList *actions_list = NULL;
-	AppAction *action;
+  CcPanel *current_panel;
+  GHashTable *panels;
+  GtkBuilder *builder;
 
-	key_list = get_slab_gconf_slist (CONTROL_CENTER_ACTIONS_LIST_KEY);
-	if (!key_list)
-	{
-		g_warning (_("key not found [%s]\n"), CONTROL_CENTER_ACTIONS_LIST_KEY);
-		return NULL;
-	}
 
-	for (l = key_list; l != NULL; l = l->next)
-	{
-		gchar *entry = (gchar *) l->data;
-		gchar **temp;
 
-		action = g_new (AppAction, 1);
-		temp = g_strsplit (entry, CONTROL_CENTER_ACTIONS_SEPARATOR, 2);
-		action->name = g_strdup (temp[0]);
-		if ((action->item = load_desktop_item_from_unknown (temp[1])) == NULL)
-		{
-			g_warning ("get_actions_list() - PROBLEM - Can't load %s\n", temp[1]);
-		}
-		else
-		{
-			actions_list = g_slist_prepend (actions_list, action);
-		}
-		g_strfreev (temp);
-		g_free (entry);
-	}
+  GtkWidget  *notebook;
+  GtkWidget  *window;
+  GtkWidget  *search_entry;
 
-	g_slist_free (key_list);
+  GtkListStore *store;
 
-	return g_slist_reverse (actions_list);
+  GtkTreeModel *search_filter;
+  GtkWidget *search_view;
+  GtkCellRenderer *search_renderer;
+  gchar *filter_string;
+
+  gboolean ignore_release;
+  guint last_time;
+};
+
+#define W(b,x) GTK_WIDGET (gtk_builder_get_object (b, x))
+
+static void
+control_center_dispose (GObject *object)
+{
+  G_OBJECT_CLASS (control_center_parent_class)->dispose (object);
+}
+
+static void
+control_center_finalize (GObject *object)
+{
+  ControlCenterPrivate *priv = ((ControlCenter*) (object))->priv;
+
+  if (priv->panels)
+    {
+      g_hash_table_destroy (priv->panels);
+      priv->panels = NULL;
+    }
+
+  G_OBJECT_CLASS (control_center_parent_class)->finalize (object);
+}
+
+static gboolean
+control_center_set_panel (CcShell     *shell,
+                          const gchar *id)
+{
+  CcPanel *panel;
+  ControlCenterPrivate *priv = CONTROL_CENTER (shell)->priv;
+  GtkWidget *notebook;
+  GtkWidget *title_label, *title_alignment;
+  gchar *desktop_file, *name;
+  GtkTreeIter iter;
+  gboolean iter_valid;
+
+  notebook = W (priv->builder, "notebook");
+
+
+  if (priv->current_panel != NULL)
+    cc_panel_set_active (priv->current_panel, FALSE);
+
+
+  /* clear the search text */
+  g_free (priv->filter_string);
+  priv->filter_string = g_strdup ("");
+  gtk_entry_set_text (GTK_ENTRY (priv->search_entry), "");
+
+
+  title_label = W (priv->builder, "label-title");
+  title_alignment = W (priv->builder, "title-alignment");
+
+
+  /* if there is a current panel, remove it from the parent manually to
+   * avoid it being destroyed */
+  if (priv->current_panel)
+    {
+      GtkContainer *container;
+      GtkWidget *widget;
+
+      widget = GTK_WIDGET (priv->current_panel);
+      container = (GtkContainer *) gtk_widget_get_parent (widget);
+      gtk_container_remove (container, widget);
+
+      priv->current_panel = NULL;
+      gtk_notebook_remove_page (GTK_NOTEBOOK (notebook), CAPPLET_PAGE);
+    }
+
+  /* if no id, show the overview page */
+  if (id == NULL)
+    {
+      gtk_label_set_text (GTK_LABEL (title_label), "");
+      gtk_widget_hide (title_alignment);
+
+      gtk_notebook_set_current_page (GTK_NOTEBOOK (notebook),
+                                     OVERVIEW_PAGE);
+      return TRUE;
+    }
+
+  /* find the information for this id  */
+  iter_valid = gtk_tree_model_get_iter_first (GTK_TREE_MODEL (priv->store),
+                                              &iter);
+  while (iter_valid)
+    {
+      gchar *s;
+
+      /* find the details for this item */
+      gtk_tree_model_get (GTK_TREE_MODEL (priv->store), &iter,
+                          COL_ID, &s, COL_DESKTOP_FILE, &desktop_file,
+                          COL_NAME, &name, -1);
+      if (s && !strcmp (id, s))
+        {
+          g_free (s);
+          break;
+        }
+      else
+        {
+          g_free (s);
+          g_free (desktop_file);
+          g_free (name);
+
+          name = NULL;
+          s = NULL;
+          desktop_file = NULL;
+        }
+
+      iter_valid = gtk_tree_model_iter_next (GTK_TREE_MODEL (priv->store),
+                                             &iter);
+    }
+
+  /* first look for a panel module */
+  panel = g_hash_table_lookup (priv->panels, id);
+  if (panel != NULL)
+    {
+      GtkWidget *scroll, *view;
+
+      priv->current_panel = panel;
+      gtk_container_set_border_width (GTK_CONTAINER (panel), 12);
+      gtk_widget_show_all (GTK_WIDGET (panel));
+      cc_panel_set_active (panel, TRUE);
+
+      scroll = gtk_scrolled_window_new (NULL, NULL);
+      gtk_scrolled_window_set_policy (GTK_SCROLLED_WINDOW (scroll),
+                                      GTK_POLICY_AUTOMATIC,
+                                      GTK_POLICY_AUTOMATIC);
+      view = gtk_viewport_new (NULL, NULL);
+      gtk_viewport_set_shadow_type (GTK_VIEWPORT (view), GTK_SHADOW_NONE);
+      gtk_container_add (GTK_CONTAINER (view), GTK_WIDGET (panel));
+
+      gtk_container_add (GTK_CONTAINER (scroll), view);
+      gtk_widget_show_all (scroll);
+
+      gtk_notebook_insert_page (GTK_NOTEBOOK (notebook),
+                                GTK_WIDGET (scroll), NULL, CAPPLET_PAGE);
+
+      gtk_notebook_set_current_page (GTK_NOTEBOOK (notebook),
+                                     CAPPLET_PAGE);
+
+      /* show title */
+      gtk_label_set_text (GTK_LABEL (title_label), name);
+      gtk_widget_show (title_label);
+      gtk_widget_show (title_alignment);
+
+      g_free (name);
+      g_free (desktop_file);
+
+      return TRUE;
+    }
+  else
+    {
+      GAppInfo *appinfo;
+      GError *err = NULL;
+      GdkAppLaunchContext *ctx;
+      GKeyFile *key_file;
+
+      /* start app directly */
+      g_debug ("Panel module not found for %s", id);
+
+      if (!desktop_file)
+        return FALSE;
+
+      key_file = g_key_file_new ();
+      g_key_file_load_from_file (key_file, desktop_file, 0, &err);
+
+      g_free (name);
+      g_free (desktop_file);
+
+      if (err)
+        {
+          g_warning ("Error starting \"%s\": %s", id, err->message);
+
+          g_error_free (err);
+          err = NULL;
+          return FALSE;
+        }
+
+      appinfo = (GAppInfo*) g_desktop_app_info_new_from_keyfile (key_file);
+
+      g_key_file_free (key_file);
+
+
+      ctx = gdk_app_launch_context_new ();
+      gdk_app_launch_context_set_screen (ctx, gdk_screen_get_default ());
+      gdk_app_launch_context_set_timestamp (ctx, priv->last_time);
+
+      g_app_info_launch (appinfo, NULL, G_APP_LAUNCH_CONTEXT (ctx), &err);
+
+      g_object_unref (appinfo);
+      g_object_unref (ctx);
+
+      if (err)
+        {
+          g_warning ("Error starting \"%s\": %s", id, err->message);
+          g_error_free (err);
+          err = NULL;
+        }
+      return FALSE;
+    }
+}
+
+static void
+control_center_class_init (ControlCenterClass *klass)
+{
+  GObjectClass *object_class = G_OBJECT_CLASS (klass);
+  CcShellClass *shell_class = CC_SHELL_CLASS (klass);
+
+  g_type_class_add_private (klass, sizeof (ControlCenterPrivate));
+
+  object_class->dispose = control_center_dispose;
+  object_class->finalize = control_center_finalize;
+
+  shell_class->set_panel = control_center_set_panel;
+}
+
+
+static void
+load_panel_plugins (ControlCenter *shell)
+{
+  ControlCenterPrivate *priv = shell->priv;
+  static volatile GType panel_type = G_TYPE_INVALID;
+  static GIOExtensionPoint *ep = NULL;
+  GList *modules;
+  GList *panel_implementations;
+  GList *l;
+
+  /* make sure base type is registered */
+  if (panel_type == G_TYPE_INVALID)
+    {
+      panel_type = g_type_from_name ("CcPanel");
+    }
+
+  priv->panels = g_hash_table_new_full (g_str_hash, g_str_equal, g_free,
+                                        g_object_unref);
+
+  if (ep == NULL)
+    {
+      ep = g_io_extension_point_register (CC_PANEL_EXTENSION_POINT_NAME);
+    }
+
+  /* load all modules */
+  modules = g_io_modules_load_all_in_directory (EXTENSIONSDIR);
+
+  /* find all extensions */
+  panel_implementations = g_io_extension_point_get_extensions (ep);
+  for (l = panel_implementations; l != NULL; l = l->next)
+    {
+      GIOExtension *extension;
+      CcPanel *panel;
+      char *id;
+
+      extension = l->data;
+
+      panel = g_object_new (g_io_extension_get_type (extension),
+                            "shell", shell,
+                            NULL);
+
+      /* take ownership of the object to prevent it being destroyed */
+      g_object_ref_sink (panel);
+
+      g_object_get (panel, "id", &id, NULL);
+      g_hash_table_insert (priv->panels, g_strdup (id), g_object_ref (panel));
+      g_free (id);
+    }
+
+  /* unload all modules; the module our instantiated authority is in won't be
+   * unloaded because we've instantiated a reference to a type in this module
+   */
+  g_list_foreach (modules, (GFunc) g_type_module_unuse, NULL);
+  g_list_free (modules);
+}
+
+
+static void
+item_activated_cb (CcShellCategoryView *view,
+                   gchar               *name,
+                   gchar               *id,
+                   gchar               *desktop_file,
+                   CcShell             *shell)
+{
+  cc_shell_set_panel (shell, id);
+}
+
+
+static void
+search_entry_changed_cb (GtkEntry      *entry,
+                         ControlCenter *shell)
+{
+  ControlCenterPrivate *priv = shell->priv;
+
+  /* if the entry text was set manually (not by the user) */
+  if (!g_strcmp0 (priv->filter_string, gtk_entry_get_text (entry)))
+    return;
+
+  g_free (priv->filter_string);
+  priv->filter_string = g_strdup (gtk_entry_get_text (entry));
+
+  g_object_set (priv->search_renderer,
+                "search-string", priv->filter_string,
+                NULL);
+
+  if (!g_strcmp0 (priv->filter_string, ""))
+    {
+      cc_shell_set_panel (CC_SHELL (shell), NULL);
+    }
+  else
+    {
+      gtk_tree_model_filter_refilter (GTK_TREE_MODEL_FILTER (priv->search_filter));
+      gtk_notebook_set_current_page (GTK_NOTEBOOK (priv->notebook), SEARCH_PAGE);
+
+      gtk_label_set_text (GTK_LABEL (gtk_builder_get_object (priv->builder, "label-title")), "");
+      gtk_widget_hide (GTK_WIDGET (gtk_builder_get_object (priv->builder, "title-alignment")));
+    }
+}
+
+static gboolean
+search_entry_key_press_event_cb (GtkEntry      *entry,
+                                 GdkEventKey   *event,
+                                 ControlCenter *shell)
+{
+  ControlCenterPrivate *priv = shell->priv;
+
+  priv->last_time = event->time;
+
+  if (event->keyval == GDK_Return)
+    {
+      GtkTreePath *path;
+
+      path = gtk_tree_path_new_first ();
+
+      gtk_icon_view_item_activated (GTK_ICON_VIEW (priv->search_view), path);
+
+      gtk_tree_path_free (path);
+      return TRUE;
+    }
+
+  if (event->keyval == GDK_Escape)
+    {
+      gtk_entry_set_text (entry, "");
+      return TRUE;
+    }
+
+  return FALSE;
+}
+
+static void
+search_entry_clear_cb (GtkEntry *entry)
+{
+  gtk_entry_set_text (entry, "");
+}
+
+
+static gboolean
+model_filter_func (GtkTreeModel  *model,
+                   GtkTreeIter   *iter,
+                   ControlCenter *shell)
+{
+  ControlCenterPrivate *priv = shell->priv;
+  gchar *name, *target;
+  gchar *needle, *haystack;
+  gboolean result;
+
+  gtk_tree_model_get (model, iter, COL_NAME, &name,
+                      COL_SEARCH_TARGET, &target, -1);
+
+  if (!priv->filter_string || !name || !target)
+    {
+      g_free (name);
+      g_free (target);
+      return FALSE;
+    }
+
+  needle = g_utf8_casefold (priv->filter_string, -1);
+  haystack = g_utf8_casefold (target, -1);
+
+  result = (strstr (haystack, needle) != NULL);
+
+  g_free (name);
+  g_free (target);
+  g_free (haystack);
+  g_free (needle);
+
+  return result;
+}
+
+static gboolean
+category_filter_func (GtkTreeModel *model,
+                      GtkTreeIter  *iter,
+                      gchar        *filter)
+{
+  gchar *category;
+  gboolean result;
+
+  gtk_tree_model_get (model, iter, COL_CATEGORY, &category, -1);
+
+  result = (g_strcmp0 (category, filter) == 0);
+
+  g_free (category);
+
+  return result;
+}
+
+static void
+setup_search (ControlCenter *shell)
+{
+  GtkWidget *search_scrolled, *search_view, *widget;
+  ControlCenterPrivate *priv = shell->priv;
+
+  g_return_if_fail (priv->store != NULL);
+
+  /* create the search filter */
+  priv->search_filter = gtk_tree_model_filter_new (GTK_TREE_MODEL (priv->store),
+                                                   NULL);
+
+  gtk_tree_model_filter_set_visible_func (GTK_TREE_MODEL_FILTER (priv->search_filter),
+                                          (GtkTreeModelFilterVisibleFunc)
+                                            model_filter_func,
+                                          shell, NULL);
+
+  /* set up the search view */
+  priv->search_view = search_view = cc_shell_item_view_new ();
+  gtk_icon_view_set_orientation (GTK_ICON_VIEW (search_view),
+                                 GTK_ORIENTATION_HORIZONTAL);
+  gtk_icon_view_set_spacing (GTK_ICON_VIEW (search_view), 6);
+  gtk_icon_view_set_model (GTK_ICON_VIEW (search_view),
+                           GTK_TREE_MODEL (priv->search_filter));
+  gtk_icon_view_set_pixbuf_column (GTK_ICON_VIEW (search_view), COL_PIXBUF);
+
+  search_scrolled = W (priv->builder, "search-scrolled-window");
+  gtk_container_add (GTK_CONTAINER (search_scrolled), search_view);
+
+
+  /* add the custom renderer */
+  priv->search_renderer = (GtkCellRenderer*) shell_search_renderer_new ();
+  gtk_cell_layout_pack_start (GTK_CELL_LAYOUT (search_view),
+                              priv->search_renderer, TRUE);
+  gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (search_view),
+                                 priv->search_renderer,
+                                 "title", COL_NAME);
+  gtk_cell_layout_add_attribute (GTK_CELL_LAYOUT (search_view),
+                                 priv->search_renderer,
+                                 "search-target", COL_SEARCH_TARGET);
+
+  /* connect the activated signal */
+  g_signal_connect (search_view, "desktop-item-activated",
+                    G_CALLBACK (item_activated_cb), shell);
+
+
+  widget = (GtkWidget*) gtk_builder_get_object (priv->builder, "search-entry");
+  priv->search_entry = widget;
+
+  g_signal_connect (widget, "changed", G_CALLBACK (search_entry_changed_cb),
+                    shell);
+  g_signal_connect (widget, "key-press-event",
+                    G_CALLBACK (search_entry_key_press_event_cb), shell);
+  g_signal_connect (widget, "icon-release", G_CALLBACK (search_entry_clear_cb),
+                    NULL);
+
+}
+
+static void
+fill_model (ControlCenter *shell)
+{
+  ControlCenterPrivate *priv = shell->priv;
+  GSList *list, *l;
+  GMenuTreeDirectory *d;
+  GMenuTree *tree;
+  GtkWidget *vbox;
+
+  vbox = W (priv->builder, "main-vbox");
+  gtk_widget_set_size_request (vbox, 0, -1);
+
+  gtk_orientable_set_orientation (GTK_ORIENTABLE (vbox),
+                                  GTK_ORIENTATION_HORIZONTAL);
+  gtk_container_set_border_width (GTK_CONTAINER (vbox), 12);
+
+  tree = gmenu_tree_lookup (MENUDIR "/gnomecc.menu", 0);
+
+  if (!tree)
+    {
+      g_warning ("Could not find control center menu");
+      return;
+    }
+
+  d = gmenu_tree_get_root_directory (tree);
+
+  list = gmenu_tree_directory_get_contents (d);
+
+  priv->store = (GtkListStore *) cc_shell_model_new ();
+
+  for (l = list; l; l = l->next)
+    {
+      GMenuTreeItemType type;
+      type = gmenu_tree_item_get_type (l->data);
+
+      if (type == GMENU_TREE_ITEM_DIRECTORY)
+        {
+          GtkTreeModel *filter;
+          GtkWidget *categoryview;
+          GSList *contents, *f;
+          const gchar *dir_name;
+
+          contents = gmenu_tree_directory_get_contents (l->data);
+          dir_name = gmenu_tree_directory_get_name (l->data);
+
+          /* create new category view for this category */
+          filter = gtk_tree_model_filter_new (GTK_TREE_MODEL (priv->store),
+                                              NULL);
+          gtk_tree_model_filter_set_visible_func (GTK_TREE_MODEL_FILTER (filter),
+                                                  (GtkTreeModelFilterVisibleFunc) category_filter_func,
+                                                  g_strdup (dir_name), g_free);
+
+          categoryview = cc_shell_category_view_new (dir_name, filter);
+          gtk_box_pack_start (GTK_BOX (vbox), categoryview, TRUE, TRUE, 6);
+          g_signal_connect (cc_shell_category_view_get_item_view (CC_SHELL_CATEGORY_VIEW (categoryview)),
+                            "desktop-item-activated",
+                            G_CALLBACK (item_activated_cb), shell);
+          gtk_widget_show (categoryview);
+
+          /* add the items from this category to the model */
+          for (f = contents; f; f = f->next)
+            {
+              if (gmenu_tree_item_get_type (f->data) == GMENU_TREE_ITEM_ENTRY)
+                {
+                  cc_shell_model_add_item (CC_SHELL_MODEL (priv->store),
+                                           dir_name,
+                                           f->data);
+                }
+            }
+        }
+    }
+
+}
+
+static void
+home_button_clicked_cb (GtkButton     *button,
+                        ControlCenter *shell)
+{
+  cc_shell_set_panel (CC_SHELL (shell), NULL);
+}
+
+static void
+notebook_switch_page_cb (GtkNotebook     *book,
+                         GtkNotebookPage *page,
+                         gint             page_num,
+                         ControlCenter   *shell)
+{
+  ControlCenterPrivate *priv = shell->priv;
+
+  /* make sure the home button is shown on all pages except the overview page */
+
+  if (page_num == OVERVIEW_PAGE)
+    gtk_widget_hide (W (priv->builder, "home-button"));
+  else
+    gtk_widget_show (W (priv->builder, "home-button"));
+
+  if (page_num == CAPPLET_PAGE)
+    gtk_widget_hide (W (priv->builder, "search-entry"));
+  else
+    gtk_widget_show (W (priv->builder, "search-entry"));
+}
+
+
+
+static void
+control_center_init (ControlCenter *self)
+{
+  ControlCenterPrivate *priv;
+  GError *err = NULL;
+  GtkWidget *close_button;
+
+  priv = self->priv = SHELL_PRIVATE (self);
+
+
+  /* load UI */
+  priv->builder = gtk_builder_new ();
+  gtk_builder_add_from_file (priv->builder, UIDIR "/shell.ui", &err);
+
+  if (err)
+    {
+      g_warning ("Could not load UI file: %s", err->message);
+
+      g_error_free (err);
+
+      g_object_unref (priv->builder);
+      priv->builder = NULL;
+
+      return;
+    }
+
+
+  priv->window = W (priv->builder, "main-window");
+  g_signal_connect (priv->window, "delete-event", G_CALLBACK (gtk_main_quit),
+                    NULL);
+
+  priv->notebook = W (priv->builder, "notebook");
+
+  g_signal_connect (priv->notebook, "switch-page",
+                    G_CALLBACK (notebook_switch_page_cb), self);
+
+  fill_model (self);
+
+  g_signal_connect (gtk_builder_get_object (priv->builder, "home-button"),
+                    "clicked", G_CALLBACK (home_button_clicked_cb), self);
+
+  setup_search (self);
+
+  /* meego stuff */
+  close_button = gtk_button_new ();
+  gtk_widget_set_name (close_button, "moblin-close-button");
+  gtk_container_add (GTK_CONTAINER (close_button),
+                     gtk_image_new_from_icon_name ("window-close",
+                                                   GTK_ICON_SIZE_LARGE_TOOLBAR));
+  gtk_widget_set_name (GTK_WIDGET (gtk_builder_get_object (priv->builder,
+                                                           "toolbar1")),
+                       "moblin-toolbar");
+  gtk_box_pack_end (GTK_BOX (gtk_builder_get_object (priv->builder, "hbox1")),
+                    close_button, FALSE, TRUE, 6);
+
+  g_signal_connect (close_button, "clicked", G_CALLBACK (gtk_main_quit),
+                    NULL);
+
+  gtk_window_maximize (GTK_WINDOW (priv->window));
+  gtk_window_set_decorated (GTK_WINDOW (priv->window), FALSE);
+
+  /* load settings panels */
+  load_panel_plugins (self);
+
+  gtk_widget_show_all (priv->window);
+}
+
+
+CcShell *
+control_center_new ()
+{
+  return g_object_new (CONTROL_TYPE_CENTER, NULL);
 }
 
 void
-handle_static_action_clicked (Tile * tile, TileEvent * event, gpointer data)
+control_center_present (ControlCenter *shell)
 {
-	gchar *temp;
-	AppShellData *app_data = (AppShellData *) data;
-	GnomeDesktopItem *item =
-		(GnomeDesktopItem *) g_object_get_data (G_OBJECT (tile), APP_ACTION_KEY);
-
-	if (event->type == TILE_EVENT_ACTIVATED_DOUBLE_CLICK)
-		return;
-	open_desktop_item_exec (item);
-
-	temp = g_strdup_printf("%s%s", app_data->gconf_prefix, EXIT_SHELL_ON_STATIC_ACTION);
-	if (get_slab_gconf_bool(temp))
-	{
-		if (app_data->exit_on_close)
-			gtk_main_quit ();
-		else
-			hide_shell (app_data);
-	}
-	g_free (temp);
+  gtk_window_present (GTK_WINDOW (shell->priv->window));
 }
 
-static UniqueResponse
-message_received_cb (UniqueApp         *app,
-		     UniqueCommand      command,
-		     UniqueMessageData *message,
-		     guint              time,
-		     gpointer           user_data)
-{
-	UniqueResponse  res;
-	AppShellData   *app_data = user_data;
-
-	switch (command) {
-	case UNIQUE_ACTIVATE:
-		/* move the main window to the screen that sent us the command */
-		gtk_window_set_screen (GTK_WINDOW (app_data->main_app),
-				       unique_message_data_get_screen (message));
-		if (!app_data->main_app_window_shown_once)
-			show_shell (app_data);
-
-		gtk_window_present_with_time (GTK_WINDOW (app_data->main_app),
-					      time);
-
-		gtk_widget_grab_focus (SLAB_SECTION (app_data->filter_section)->contents);
-
-		res = UNIQUE_RESPONSE_OK;
-		break;
-	default:
-		res = UNIQUE_RESPONSE_PASSTHROUGH;
-		break;
-	}
-
-	return res;
-}
-
-int
-main (int argc, char *argv[])
-{
-	gboolean hidden = FALSE;
-	UniqueApp *unique_app;
-	AppShellData *app_data;
-	GSList *actions;
-	GError *error;
-	GOptionEntry options[] = {
-	  { "hide", 0, 0, G_OPTION_ARG_NONE, &hidden, N_("Hide on start (useful to preload the shell)"), NULL },
-	  { NULL }
-	};
-
-#ifdef ENABLE_NLS
-	bindtextdomain (GETTEXT_PACKAGE, GNOMELOCALEDIR);
-	bind_textdomain_codeset (GETTEXT_PACKAGE, "UTF-8");
-	textdomain (GETTEXT_PACKAGE);
-#endif
-
-	error = NULL;
-	if (!gtk_init_with_args (&argc, &argv,
-				 NULL, options, GETTEXT_PACKAGE, &error)) {
-		g_printerr ("%s\n", error->message);
-		g_error_free (error);
-		return 1;
-	}
-
-	unique_app = unique_app_new ("org.opensuse.yast-control-center-gnome", NULL);
-	if (unique_app_is_running (unique_app)) {
-		int retval = 0;
-
-		if (!hidden) {
-			UniqueResponse response;
-			response = unique_app_send_message (unique_app,
-							    UNIQUE_ACTIVATE,
-							    NULL);
-			retval = (response != UNIQUE_RESPONSE_OK);
-		}
-
-		g_object_unref (unique_app);
-		return retval;
-	}
-
-	app_data = appshelldata_new ("gnomecc.menu", NULL, CONTROL_CENTER_PREFIX,
-				     GTK_ICON_SIZE_DND, FALSE, TRUE);
-	generate_categories (app_data);
-
-	actions = get_actions_list ();
-	layout_shell (app_data, _("Filter"), _("Groups"), _("Common Tasks"), actions,
-		handle_static_action_clicked);
-
-	create_main_window (app_data, "MyControlCenter", _("Control Center"),
-		"gnome-control-center", 975, 600, hidden);
-
-	unique_app_watch_window (unique_app, GTK_WINDOW (app_data->main_app));
-	g_signal_connect (unique_app, "message-received",
-			  G_CALLBACK (message_received_cb), app_data);
-
-	gtk_main ();
-
-	g_object_unref (unique_app);
-
-	return 0;
-};
