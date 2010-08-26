@@ -10,6 +10,7 @@ SUBDIRS = \
 	network			\
 	windows			\
 	date
+	language
 
 DIST_SUBDIRS = \
 	common			\
@@ -23,6 +24,7 @@ DIST_SUBDIRS = \
 	windows			\
 	display 		\
 	date			\
+	language		\
 	about-me
 
 
