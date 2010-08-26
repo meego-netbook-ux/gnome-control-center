@@ -1202,7 +1202,7 @@ cb_ignore_hosts_gconf_changed (GConfClient *client, guint cnxn_id,
 	populate_listmodel (GTK_LIST_STORE (model), ignore_hosts);
 }
 
-static void
+void
 setup_dialog (GtkBuilder *builder)
 {
 	GConfPropertyEditor *peditor;
