@@ -6,21 +6,18 @@
 # Dan Damian <dand@gnome.ro>, 2005-2006.
 # Adi Roiban https://launchpad.net/~adiroiban, 2008, 2009
 # Lucian Adrian Grijincu https://launchpad.net/~lucian.grijincu, 2009
-# Lucian Adrian Grijincu <lucian.grijincu@gmail.com>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&component=general\n"
-"POT-Creation-Date: 2010-03-10 12:25+0000\n"
-"PO-Revision-Date: 2010-03-22 01:18+0200\n"
+"POT-Creation-Date: 2009-12-11 19:30+0000\n"
+"PO-Revision-Date: 2009-12-19 09:50+0200\n"
 "Last-Translator: Adi Roiban <adi@roiban.ro>\n"
-"Language-Team: Romanian GNOME Team <gnomero-list@lists.sourceforge.net>\n"
+"Language-Team: Gnome Romanian Team <gnomero-list@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ro\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : (n==0 || (n%100 > 0 && n%100 < 20)) ? 1 : 2);;\n"
-"X-Generator: Virtaal 0.5.2\n"
+"Plural-Forms: nplurals=3; plural=(n == 1 ? 0: (((n % 100 > 19) || ((n % 100 == 0) && (n != 0))) ? 2: 1));\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -213,7 +210,7 @@ msgid "Images"
 msgstr "Imagini"
 
 #: ../capplets/about-me/gnome-about-me.c:750
-#: ../capplets/appearance/theme-installer.c:766
+#: ../capplets/appearance/theme-installer.c:763
 msgid "All Files"
 msgstr "Toate fișierele"
 
@@ -303,139 +300,136 @@ msgstr "Activează autenti_ficarea pe bază de amprentă..."
 msgid "Full Name"
 msgstr "Nume complet"
 
-#. Home vs Work (phone)
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:19
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:18
 msgid "Hom_e:"
 msgstr "_Acasă:"
 
-#. Home vs Work (address)
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:21
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:19
 #: ../libslab/bookmark-agent.c:1135
 msgid "Home"
 msgstr "Acasă"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:22
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:20
 msgid "IC_Q:"
 msgstr "IC_Q:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:21
 msgid "Instant Messaging"
 msgstr "Mesagerie instant"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:22
 msgid "Job"
 msgstr "Serviciu"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
 msgid "M_SN:"
 msgstr "MS_N:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:26
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
 msgid "P.O. _box:"
 msgstr "Căs_uță poștală:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
 msgid "P._O. box:"
 msgstr "Căsuță p_oștală:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:26
 msgid "Personal Info"
 msgstr "Informații personale"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:29
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
 msgid "Select your photo"
 msgstr "Alegeți fotografia dumneavoastră"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
 msgid "State/Pro_vince:"
 msgstr "Stat/Pro_vincie:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:31
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:29
 msgid "Telephone"
 msgstr "Telefon"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
 msgid "User name:"
 msgstr "Nume utilizator:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:31
 msgid "Web"
 msgstr "Internet"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
 msgid "Web _log:"
 msgstr "B_log:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
 msgid "Wor_k:"
 msgstr "_Serviciu:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
 msgid "Work"
 msgstr "Serviciu"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
 msgid "Work _fax:"
 msgstr "_Fax serviciu:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:38
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
 msgid "Zip/_Postal code:"
 msgstr "Cod _poștal:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:39
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
 msgid "_Address:"
 msgstr "_Adresă:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:38
 msgid "_Department:"
 msgstr "_Departament:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:39
 msgid "_Groupwise:"
 msgstr "_Groupwise:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
 msgid "_Home page:"
 msgstr "Pa_gină personală:"
 
-#. Home vs Work (email)
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
 msgid "_Home:"
 msgstr "_Acasă:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:45
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
 msgid "_Jabber:"
 msgstr "_Jabber:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:43
 msgid "_Manager:"
 msgstr "_Manager:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:47
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
 msgid "_Mobile:"
 msgstr "_Mobil:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:45
 msgid "_Profession:"
 msgstr "_Profesie:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
 msgid "_State/Province:"
 msgstr "_Stat/Provincie:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:47
 msgid "_Title:"
 msgstr "_Titlu:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:51
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
 msgid "_Work:"
 msgstr "S_ervici:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:52
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
 msgid "_Yahoo:"
 msgstr "_Yahoo:"
 
-#: ../capplets/about-me/gnome-about-me-dialog.ui.h:53
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
 msgid "_Zip/Postal code:"
 msgstr "Cod poș_tal:"
 
@@ -467,7 +461,7 @@ msgstr "Ș_tergere amprente"
 msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
 msgstr "Doriți să ștergeți amprentele înregistrate astfel încât autentificarea pe bază de amprente să fie dezactivată?"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:356
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:342
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
 msgid "Done!"
 msgstr "Gata!"
@@ -475,8 +469,8 @@ msgstr "Gata!"
 #. translators:
 #. * The variable is the name of the device, for example:
 #. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:402
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:424
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:388
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:410
 #, c-format
 msgid "Could not access '%s' device"
 msgstr "Dispozitivul „%s” nu poate fi accesat"
@@ -484,20 +478,20 @@ msgstr "Dispozitivul „%s” nu poate fi accesat"
 #. translators:
 #. * The variable is the name of the device, for example:
 #. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:473
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:459
 #, c-format
 msgid "Could not start finger capture on '%s' device"
 msgstr "Nu s-a putut porni înregistrarea degetului pe dispozitivul „%s”"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:520
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:506
 msgid "Could not access any fingerprint readers"
 msgstr "Nu s-a putut accesa nici un cititor de amprente"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:521
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:507
 msgid "Please contact your system administrator for help."
 msgstr "Contactați administratorul de sistem pentru ajutor."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:551
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:537
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:2
 msgid "Enable Fingerprint Login"
 msgstr "Activează autentificarea pe bază de amprente"
@@ -506,16 +500,16 @@ msgstr "Activează autentificarea pe bază de amprente"
 #. * The variable is the name of the device, for example:
 #. * "To enable fingerprint login, you need to save one of your fingerprints, using the
 #. * 'Digital Persona U.are.U 4000/4000B' device."
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:581
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:567
 #, c-format
 msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
 msgstr "Pentru a activa autentificarea pe bază de amprente, trebuie să salvați una din amprentele dumneavoastră folosind dispozitivul „%s”"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:590
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:576
 msgid "Swipe finger on reader"
 msgstr "Treceți degetul peste cititorul de amprente"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:592
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:578
 msgid "Place finger on reader"
 msgstr "Puneți degetul pe cititorul de amprente"
 
@@ -596,7 +590,7 @@ msgstr "Autentificat!"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
+#: ../capplets/about-me/gnome-about-me-password.c:550
 msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
 msgstr "Vi s-a modificat parola de la autentificarea inițială! E nevoie să vă reautentificați."
 
@@ -604,70 +598,70 @@ msgstr "Vi s-a modificat parola de la autentificarea inițială! E nevoie să v�
 msgid "That password was incorrect."
 msgstr "Parola introdusă este incorectă."
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:523
 msgid "Your password has been changed."
 msgstr "Parola a fost modificată."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:533
 #, c-format
 msgid "System error: %s."
 msgstr "Eroare de sistem: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:536
 msgid "The password is too short."
 msgstr "Parola este prea scurtă."
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:539
 msgid "The password is too simple."
 msgstr "Parola este prea simplă."
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The old and new passwords are too similar."
 msgstr "Vechea și noua parolă sunt foarte asemănătoare."
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:544
 msgid "The new password must contain numeric or special character(s)."
 msgstr "Noua parolă trebuie să conțină caractere numerice sau speciale."
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:547
 msgid "The old and new passwords are the same."
 msgstr "Noua și vechea parolă sunt identice."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:818
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "Nu s-a putut porni %s: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:822
 msgid "Unable to launch backend"
 msgstr "Nu se poate lansa suportul"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:823
 msgid "A system error has occurred"
 msgstr "S-a produs o eroare în sistem"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:843
 msgid "Checking password..."
 msgstr "Se verifică parola..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:930
 msgid "Click <b>Change password</b> to change your password."
 msgstr "Clic <b>Schimbă parola</b> pentru a modifica parola."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:933
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "Introduceți parola în câmpul <b>Parola nouă</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:936
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
 msgid "Please type your password again in the <b>Retype new password</b> field."
 msgstr "Reintroduceți parola în câmpul <b>Reintroduceți noua parolă</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:939
 msgid "The two passwords are not equal."
 msgstr "Cele două parole nu sunt identice."
 
@@ -750,7 +744,7 @@ msgstr "Preferințe"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:11
 msgid "_Enable assistive technologies"
-msgstr "Activează te_hnologiile de asistență"
+msgstr "Activare te_hnologii de asistență"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:12
 msgid "_Keyboard Accessibility"
@@ -804,35 +798,35 @@ msgstr "Folosește font anterior"
 msgid "Use selected font"
 msgstr "Folosește font ales"
 
-#: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/appearance-main.c:54
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Nu s-a putut încărca fișierul de interfață al utilizatorului: %s"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "Alegeți numele de fișier al temei ce doriți să fie instalată"
 
-#: ../capplets/appearance/appearance-main.c:136
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "nume fișier"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "Specifică numele pagini pentru afișare (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:144
+#: ../capplets/appearance/appearance-main.c:142
 #: ../capplets/default-applications/gnome-da-capplet.c:960
 #: ../capplets/mouse/gnome-mouse-properties.c:591
 msgid "page"
 msgstr "pagină"
 
-#: ../capplets/appearance/appearance-main.c:151
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[FUNDAL...]"
 
-#: ../capplets/appearance/appearance-style.c:172
+#: ../capplets/appearance/appearance-style.c:173
 #: ../capplets/common/gnome-theme-info.c:446
 #: ../capplets/common/gnome-theme-info.c:638
 msgid "Default Pointer"
@@ -843,7 +837,7 @@ msgstr "Cursor implicit"
 msgid "Install"
 msgstr "Instalează"
 
-#: ../capplets/appearance/appearance-style.c:256
+#: ../capplets/appearance/appearance-style.c:255
 #: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
 msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
@@ -861,35 +855,35 @@ msgstr "Aplică fontul"
 msgid "Revert Font"
 msgstr "Revenire font anterior"
 
-#: ../capplets/appearance/appearance-themes.c:712
+#: ../capplets/appearance/appearance-themes.c:711
 msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
 msgstr "Tema curentă propune o imagine de fundal și un font. De asemenea, se poate anula ultima propunere de font aplicată."
 
-#: ../capplets/appearance/appearance-themes.c:714
+#: ../capplets/appearance/appearance-themes.c:713
 msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
 msgstr "Tema curentă propune o imagine de fundal. De asemenea, se poate anula ultima propunere de font aplicată."
 
-#: ../capplets/appearance/appearance-themes.c:716
+#: ../capplets/appearance/appearance-themes.c:715
 msgid "The current theme suggests a background and a font."
 msgstr "Tema curentă propune o imagine de fundal și un font."
 
-#: ../capplets/appearance/appearance-themes.c:718
+#: ../capplets/appearance/appearance-themes.c:717
 msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
 msgstr "Tema curentă propune un font. De asemenea, se poate anula ultima propunere de font aplicată."
 
-#: ../capplets/appearance/appearance-themes.c:720
+#: ../capplets/appearance/appearance-themes.c:719
 msgid "The current theme suggests a background."
 msgstr "Tema curentă propune o imagine de fundal."
 
-#: ../capplets/appearance/appearance-themes.c:722
+#: ../capplets/appearance/appearance-themes.c:721
 msgid "The last applied font suggestion can be reverted."
 msgstr "Se poate anula ultima propunere de font aplicată."
 
-#: ../capplets/appearance/appearance-themes.c:724
+#: ../capplets/appearance/appearance-themes.c:723
 msgid "The current theme suggests a font."
 msgstr "Tema curentă propune un font."
 
-#: ../capplets/appearance/appearance-themes.c:1046
+#: ../capplets/appearance/appearance-themes.c:1045
 #: ../capplets/default-applications/gnome-da-capplet.c:691
 msgid "Custom"
 msgstr "Personalizat"
@@ -919,6 +913,7 @@ msgid "C_ustomize..."
 msgstr "_Personalizează..."
 
 #: ../capplets/appearance/data/appearance.ui.h:7
+#| msgid "Centered"
 msgid "Center"
 msgstr "Centrată"
 
@@ -984,7 +979,7 @@ msgid "Icons only"
 msgstr "Doar iconițe"
 
 #: ../capplets/appearance/data/appearance.ui.h:24
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
 msgid "Large"
 msgstr "Mare"
 
@@ -1021,11 +1016,12 @@ msgid "Save _background image"
 msgstr "Salvează _imaginea de fundal"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
+#| msgid "Scaled"
 msgid "Scale"
 msgstr "Scalată"
 
 #: ../capplets/appearance/data/appearance.ui.h:34
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Small"
 msgstr "Mică"
 
@@ -1038,168 +1034,166 @@ msgid "Solid color"
 msgstr "Culoare uniformă"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "Extinde"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
+#| msgid "Search"
 msgid "Stretch"
 msgstr "Întinsă"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "Subpi_xel (LCD-uri)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Netezire subpi_xel (LCD-uri)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "Ordine subpixeli"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "Text"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "Text sub elemente"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "Text lângă elemente"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "Doar text"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "Controalele temei curente nu suportă scheme de culori."
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "Teme"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
+#| msgid "Tiled"
 msgid "Tile"
 msgstr "Mozaic"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "Degrade vertical"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "Margine fereastră"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "Zoom"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
+#: ../capplets/appearance/data/appearance.ui.h:53
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "_Add..."
 msgstr "_Adaugă..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "Font _aplicații:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "_Descriere:"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "Font _document:"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "Font de dimensiune _fixă:"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "C_omplet"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "Casuțe _intrare:"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "_Instalare..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "M_ediu"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "M_onocromă"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
 msgid "_Name:"
 msgstr "_Nume:"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "_Niciuna"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "Anulează la valo_rile Implicite"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "Elemente _selectate:"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "Dimen_siune:"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "_Ușor"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "_Stil:"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "_Indicii:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "Font tit_lu fereastră:"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "_Ferestre:"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "puncte/țol (dpi)"
 
@@ -1227,27 +1221,20 @@ msgstr "Pachet temă GNOME"
 msgid "No Desktop Background"
 msgstr "Fără fundal desktop"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:260
 msgid "Slide Show"
 msgstr "Prezentare"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:262
 msgid "Image"
 msgstr "Imagine"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:268
 msgid "multiple sizes"
 msgstr "dimensiuni multiple"
 
-#. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
-#, c-format
-#| msgid "%b %d %Y"
-msgid "%d %s by %d %s"
-msgstr "%d %s pe %d %s"
-
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:273
+#: ../capplets/appearance/gnome-wp-item.c:275
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "pixel"
@@ -1258,7 +1245,7 @@ msgstr[2] "de pixeli"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:283
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1273,8 +1260,12 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:295
 #, c-format
+#| msgid ""
+#| "<b>%s</b>\n"
+#| "%s, %s\n"
+#| "Folder: %s"
 msgid ""
 "<b>%s</b>\n"
 "%s\n"
@@ -1284,7 +1275,8 @@ msgstr ""
 "%s\n"
 "Dosar: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:299
+#| msgid "Images"
 msgid "Image missing"
 msgstr "Imaginea lipsește"
 
@@ -1351,11 +1343,11 @@ msgstr "Eșec la crearea directorului temporar"
 msgid "New themes have been successfully installed."
 msgstr "Noua temă a fost instalată cu succes."
 
-#: ../capplets/appearance/theme-installer.c:646
+#: ../capplets/appearance/theme-installer.c:643
 msgid "No theme file location specified to install"
 msgstr "Nu s-a specificat nici o locație a fișierului temei pentru instalare"
 
-#: ../capplets/appearance/theme-installer.c:670
+#: ../capplets/appearance/theme-installer.c:667
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
@@ -1364,11 +1356,11 @@ msgstr ""
 "Permisii insuficiente pentru a instala tema în:\n"
 "%s"
 
-#: ../capplets/appearance/theme-installer.c:748
+#: ../capplets/appearance/theme-installer.c:745
 msgid "Select Theme"
 msgstr "Alegeți tema"
 
-#: ../capplets/appearance/theme-installer.c:759
+#: ../capplets/appearance/theme-installer.c:756
 msgid "Theme Packages"
 msgstr "Pachete de teme"
 
@@ -1984,85 +1976,85 @@ msgid "aterm"
 msgstr "aterm"
 
 #: ../capplets/display/display-capplet.ui.h:1
+msgid "Display Preferences"
+msgstr "Preferințe monitor"
+
+#: ../capplets/display/display-capplet.ui.h:2
+msgid "Drag the monitors to set their place"
+msgstr "Trage monitoarele pentru a le poziționa"
+
+#: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
 msgstr "Include _panou"
 
-#: ../capplets/display/display-capplet.ui.h:2
+#: ../capplets/display/display-capplet.ui.h:4
 #: ../capplets/display/xrandr-capplet.c:305
 msgid "Left"
 msgstr "Stânga"
 
-#: ../capplets/display/display-capplet.ui.h:3
+#: ../capplets/display/display-capplet.ui.h:5
 #: ../capplets/display/xrandr-capplet.c:508
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../capplets/display/display-capplet.ui.h:4
-#| msgid "Mouse Preferences"
-msgid "Monitor Preferences"
-msgstr "Preferințe monitor"
-
-#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/display-capplet.ui.h:6
 #: ../capplets/display/xrandr-capplet.c:304
 #: ../capplets/display/xrandr-capplet.c:343
 msgid "Normal"
 msgstr "Normal"
 
-#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/display-capplet.ui.h:7
 msgid "Off"
 msgstr "Oprit"
 
-#: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet.ui.h:8
 msgid "On"
 msgstr "Pornit"
 
-#: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet.ui.h:9
 msgid "Panel icon"
 msgstr "Iconiță panou"
 
-#: ../capplets/display/display-capplet.ui.h:9
+#: ../capplets/display/display-capplet.ui.h:10
 msgid "R_otation:"
 msgstr "R_otire:"
 
-#: ../capplets/display/display-capplet.ui.h:10
+#: ../capplets/display/display-capplet.ui.h:11
 msgid "Re_fresh rate:"
 msgstr "_Frecvență de reîmprospătare:"
 
-#: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/display-capplet.ui.h:12
 #: ../capplets/display/xrandr-capplet.c:306
 msgid "Right"
 msgstr "Dreapta"
-
-#: ../capplets/display/display-capplet.ui.h:12
-msgid "Sa_me image in all monitors"
-msgstr "Aceeași i_magine pe toate monitoarele"
 
 #: ../capplets/display/display-capplet.ui.h:13
 msgid "Upside-down"
 msgstr "Inversat"
 
 #: ../capplets/display/display-capplet.ui.h:14
-#| msgid "_Detect Monitors"
-msgid "_Detect monitors"
+msgid "_Detect Monitors"
 msgstr "_Detectează monitoarele"
 
 #: ../capplets/display/display-capplet.ui.h:15
+msgid "_Mirror screens"
+msgstr "Og_lindește ecranele"
+
+#: ../capplets/display/display-capplet.ui.h:16
 msgid "_Resolution:"
 msgstr "_Rezoluție:"
 
-#: ../capplets/display/display-capplet.ui.h:16
-#| msgid "_Show displays in panel"
-msgid "_Show monitors in panel"
-msgstr "A_rată monitoarele în panou"
+#: ../capplets/display/display-capplet.ui.h:17
+msgid "_Show displays in panel"
+msgstr "Afișea_ză în panou o iconiță pentru configurarea monitoarelor"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:1
-msgid "Change resolution and position of monitors"
-msgstr "Schimbă rezoluția și poziția monitoarelor"
+msgid "Change screen resolution"
+msgstr "Schimbă rezoluția ecranului"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:2
-#| msgid "Monitor"
-msgid "Monitors"
-msgstr "Monitoare"
+msgid "Display"
+msgstr "Afișare"
 
 #: ../capplets/display/xrandr-capplet.c:307
 msgid "Upside Down"
@@ -2079,7 +2071,7 @@ msgstr "%d Hz"
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
 #: ../capplets/display/xrandr-capplet.c:497
-#: ../capplets/display/xrandr-capplet.c:1628
+#: ../capplets/display/xrandr-capplet.c:1604
 msgid "Mirror Screens"
 msgstr "Oglindire ecrane"
 
@@ -2093,25 +2085,21 @@ msgstr "Monitor: %s"
 msgid "%d x %d"
 msgstr "%d x %d"
 
-#: ../capplets/display/xrandr-capplet.c:2046
+#: ../capplets/display/xrandr-capplet.c:2024
 msgid "Could not save the monitor configuration"
 msgstr "Nu s-a putut salva configurația monitorului"
 
-#: ../capplets/display/xrandr-capplet.c:2057
+#: ../capplets/display/xrandr-capplet.c:2035
 msgid "Could not get session bus while applying display configuration"
 msgstr "Nu s-a putut obține magistrala sesiunii în timp ce se aplica configurația monitoarelor"
 
-#: ../capplets/display/xrandr-capplet.c:2099
+#: ../capplets/display/xrandr-capplet.c:2077
 msgid "Could not detect displays"
 msgstr "Nu s-au putut detecta monitoarele"
 
-#: ../capplets/display/xrandr-capplet.c:2314
+#: ../capplets/display/xrandr-capplet.c:2292
 msgid "Could not get screen information"
 msgstr "Nu s-au putut obține informații despre ecran"
-
-#: ../capplets/display/xrandr-capplet.c:2385
-msgid "Select a monitor to change its properties; drag it to rearrange its placement."
-msgstr "Alegeți un monitor pentru a-i schimba proprietățile; trageți-l pentru a-l rearanja."
 
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
 msgid "Sound"
@@ -2289,7 +2277,7 @@ msgstr "Licărește tot _ecranul"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "General"
 msgstr "Generale"
 
@@ -2358,7 +2346,7 @@ msgid "Duration of work before forcing a break"
 msgstr "Durata perioadei de lucru înainte de începerea unei pauze"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
 msgid "Fast"
 msgstr "Rapid"
 
@@ -2383,7 +2371,7 @@ msgid "Lock screen after a certain duration to help prevent repetitive keyboard 
 msgstr "Blochează ecranul după o anumită perioadă pentru a preveni problemele provocate de lucrul prelungit la tastatură"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
 msgid "Long"
 msgstr "Lungă"
 
@@ -2420,12 +2408,12 @@ msgid "S_peed:"
 msgstr "Vite_ză:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
 msgid "Short"
 msgstr "Scurtă"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
 msgid "Slow"
 msgstr "Încet"
 
@@ -2434,7 +2422,7 @@ msgid "Typing Break"
 msgstr "Pauze de lucru"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "_Acceleration:"
 msgstr "_Acclerare:"
 
@@ -2447,7 +2435,7 @@ msgid "_Break interval lasts:"
 msgstr "Pau_za de lucru durează:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Delay:"
 msgstr "Î_ntârziere:"
 
@@ -2464,6 +2452,7 @@ msgid "_Only accept long keypresses"
 msgstr "Acceptă d_oar apăsările de taste lungi"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#| msgid "Layout _Options..."
 msgid "_Options..."
 msgstr "_Opțiuni..."
 
@@ -2472,6 +2461,7 @@ msgid "_Pointer can be controlled using the keypad"
 msgstr "Cursorul _poate fi controlat folosind tastele numerice"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#| msgid "Separate _layout for each window"
 msgid "_Separate layout for each window"
 msgstr "Aranjamente _separate pentru fiecare fereastră"
 
@@ -2624,92 +2614,92 @@ msgid "D_rag click:"
 msgstr "Clic t_ragere:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:8
-msgid "Disable _touchpad while typing"
-msgstr "Dezactivează _touchpadul în timpul tastării"
-
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
 msgid "Double-Click Timeout"
 msgstr "Timp alocat pentru dublu-clic"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
 msgid "Drag and Drop"
 msgstr "Trage și mută"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
 msgid "Dwell Click"
 msgstr "Clic staționar"
 
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+msgid "Enable _horizontal scrolling"
+msgstr "Activare derulare _orizontală"
+
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
-msgid "Enable _mouse clicks with touchpad"
-msgstr "Activează _clicurile cu touchpadul"
+msgid "Enable mouse _clicks with touchpad"
+msgstr "Activare _clic cu touchpad"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
-msgid "Enable h_orizontal scrolling"
-msgstr "Activează derularea _orizontală"
-
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "High"
 msgstr "Ridicată"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
 msgid "Locate Pointer"
 msgstr "Localizează indicatorul"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Low"
 msgstr "Scăzută"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
 msgid "Mouse Orientation"
 msgstr "Orientarea maus"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
 msgid "Mouse Preferences"
 msgstr "Preferințe maus"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
 msgid "Pointer Speed"
 msgstr "Viteza indicatorului"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
 msgid "Scrolling"
 msgstr "Derulare"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
 msgid "Seco_ndary click:"
 msgstr "Clic secu_ndar:"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
 msgid "Sh_ow position of pointer when the Control key is pressed"
 msgstr "Afișează p_oziția indicatorului când tasta Control este apăsată"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Show click type _window"
 msgstr "Afișea_ză fereastra pentru tipuri de clic"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
 msgid "Simulated Secondary Click"
 msgstr "Click secundar simulat"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
 msgid "Thr_eshold:"
 msgstr "Pra_g:"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
 msgid "To test your double-click settings, try to double-click on the light bulb."
 msgstr "Pentru a testa configurațiile, încercați să efectuați un dublu-clic pe bec."
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
 msgid "Touchpad"
 msgstr "Touchpad"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Two-_finger scrolling"
 msgstr "Derulare cu două dege_te"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
 msgid "You can also use the Dwell Click panel applet to choose the click type."
 msgstr "Puteți de asemenea să utilizați miniaplicația pentru Clic staționar pentru a alege tipul clicului."
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+msgid "_Disable touchpad while typing"
+msgstr "_Dezactivează touchpadul în timpul tastării"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -3302,11 +3292,11 @@ msgstr "Ajutor"
 
 #: ../libslab/application-tile.c:442
 msgid "Upgrade"
-msgstr "Actualizează"
+msgstr "Actualizare"
 
 #: ../libslab/application-tile.c:457
 msgid "Uninstall"
-msgstr "Dezinstalează"
+msgstr "Dezinstalare"
 
 #: ../libslab/application-tile.c:784
 #: ../libslab/document-tile.c:721
@@ -3348,7 +3338,7 @@ msgstr "Servere rețea"
 
 #: ../libslab/bookmark-agent.c:1186
 msgid "Search"
-msgstr "Caută"
+msgstr "Căutare"
 
 #. make open with default action
 #: ../libslab/directory-tile.c:171
@@ -3448,16 +3438,6 @@ msgstr "<b>Deschide %s</b>"
 msgid "Remove from System Items"
 msgstr "Șterge din elemente sistem"
 
-#~ msgid "Display Preferences"
-#~ msgstr "Preferințe monitor"
-#~ msgid "Drag the monitors to set their place"
-#~ msgstr "Trage monitoarele pentru a le poziționa"
-#~ msgid "_Mirror screens"
-#~ msgstr "Og_lindește ecranele"
-#~ msgid "Change screen resolution"
-#~ msgstr "Schimbă rezoluția ecranului"
-#~ msgid "Display"
-#~ msgstr "Afișare"
 #~ msgid "Fill screen"
 #~ msgstr "Umple ecranul"
 #~ msgid "A_cceleration:"

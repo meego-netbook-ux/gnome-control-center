@@ -3,16 +3,16 @@
 # Ivan Vilata i Balaguer <ivan@selidor.net>, 1999, 2000.
 # Softcatalà <linux@softcatala.org>, 2000, 2001.
 # Jordi Mallach <jordi@sindominio.net>, 2002, 2003, 2004, 2005.
-# Xavier Conde Rueda <xavi.conde@gmail.com>, 2005 
+# Xavier Conde Rueda <xavi.conde@gmail.com>, 2005
 # Josep Puigdemont i Casamajó <josep.puigdemont@gmail.com>, 2005, 2006, 2007.
-# Joan Duran <jodufi@gmail.com>, 2008-2010.
-#
+# Joan Duran <jodufi@gmail.com>, 2008, 2009.
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-11 07:39+0100\n"
-"PO-Revision-Date: 2010-03-10 23:14+0100\n"
+"POT-Creation-Date: 2010-07-14 16:00+0000\n"
+"PO-Revision-Date: 2009-11-05 00:08+0100\n"
 "Last-Translator: Joan Duran <jodufi@gmail.com>\n"
 "Language-Team: Catalan <tradgnome@softcatala.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,28 +33,16 @@ msgid "More themes URL"
 msgstr "Més URL de temes"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid ""
-"Set this to your current location name. This is used to determine the "
-"appropriate network proxy configuration."
-msgstr ""
-"Establiu-ho al nom de la ubicació actual. S'utilitza per determinar la "
-"configuració apropiada del servidor intermediari de xarxa."
+msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
+msgstr "Establiu-ho al nom de la ubicació actual. Aquest s'utilitza per a determinar la configuració apropiada del servidor intermediari de xarxa."
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid ""
-"URL for where to get more desktop backgrounds. If set to an empty string the "
-"link will not appear."
-msgstr ""
-"L'URL des d'on obtenir més imatges de fons de l'escriptori. Si s'estableix a "
-"una cadena buida l'enllaç no apareixerà."
+msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
+msgstr "L'URL des d'on obtenir més imatges de fons de l'escriptori. Si s'estableix a una cadena buida l'enllaç no apareixerà."
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid ""
-"URL for where to get more desktop themes. If set to an empty string the link "
-"will not appear."
-msgstr ""
-"L'URL des d'on obtenir més temes de l'escriptori. Si s'estableix a una "
-"cadena buida l'enllaç no apareixerà."
+msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
+msgstr "L'URL des d'on obtenir més temes de l'escriptori. Si s'estableix a una cadena buida l'enllaç no apareixerà."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -62,8 +50,7 @@ msgstr "Vora de la imatge/etiqueta"
 
 #: ../capplets/about-me/eel-alert-dialog.c:115
 msgid "Width of border around the label and image in the alert dialog"
-msgstr ""
-"Amplada del contorn al voltant de l'etiqueta i la imatge al diàleg d'alerta"
+msgstr "Amplada del contorn al voltant de l'etiqueta i la imatge al diàleg d'alerta"
 
 #: ../capplets/about-me/eel-alert-dialog.c:124
 msgid "Alert Type"
@@ -219,16 +206,17 @@ msgid "No Image"
 msgstr "Cap imatge"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:659
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "Imatges"
 
 #: ../capplets/about-me/gnome-about-me.c:750
-#: ../capplets/appearance/theme-installer.c:766
+#: ../capplets/appearance/theme-installer.c:763
 msgid "All Files"
 msgstr "Tots els fitxers"
 
-#: ../capplets/about-me/gnome-about-me.c:890
+#: ../capplets/about-me/gnome-about-me.c:909
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
@@ -236,14 +224,29 @@ msgstr ""
 "S'ha produït un error en intentar obtenir la informació de la llibreta\n"
 "d'adreces. El servidor de dades de l'Evolution no pot gestionar el protocol"
 
-#: ../capplets/about-me/gnome-about-me.c:911
+#: ../capplets/about-me/gnome-about-me.c:930
 msgid "Unable to open address book"
 msgstr "No es pot obrir la llibreta d'adreces"
 
-#: ../capplets/about-me/gnome-about-me.c:934
+#: ../capplets/about-me/gnome-about-me.c:953
 #, c-format
 msgid "About %s"
 msgstr "Quant a %s"
+
+#. TRANSLATORS: don't translate the terms in brackets
+#: ../capplets/about-me/gnome-about-me.c:1018
+#: ../capplets/display/xrandr-capplet.c:2436
+msgid "ID of the socket to embed in"
+msgstr "Identificador del sòcol que s'incrustarà"
+
+#: ../capplets/about-me/gnome-about-me.c:1019
+#: ../capplets/display/xrandr-capplet.c:2437
+msgid "socket"
+msgstr "sòcol"
+
+#: ../capplets/about-me/gnome-about-me.c:1023
+msgid "- GNOME About Me"
+msgstr "- GNOME Quant a mi"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
 msgid "A_IM/iChat:"
@@ -276,7 +279,7 @@ msgstr "E_mpresa:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
 msgid "Cale_ndar:"
-msgstr "Cale_ndari:"
+msgstr "Cale_ndari"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
 msgid "Change Passwo_rd..."
@@ -321,13 +324,12 @@ msgstr "Ca_sa:"
 
 #. Home vs Work (address)
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:21
-#: ../libslab/bookmark-agent.c:1135
 msgid "Home"
 msgstr "Inici"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:22
 msgid "IC_Q:"
-msgstr "IC_Q:"
+msgstr "IC_Q"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
 msgid "Instant Messaging"
@@ -339,7 +341,7 @@ msgstr "Feina"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
 msgid "M_SN:"
-msgstr "M_SN:"
+msgstr "M_SN"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:26
 msgid "P.O. _box:"
@@ -399,25 +401,25 @@ msgstr "_Adreça:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
 msgid "_Department:"
-msgstr "_Departament:"
+msgstr "_Departament"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
 msgid "_Groupwise:"
-msgstr "_GroupWise:"
+msgstr "_GroupWise"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
 msgid "_Home page:"
 msgstr "Pà_gina personal:"
 
-# Es refereix al correu electrònic
 #. Home vs Work (email)
+# Es refereix al correu electrònic
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
 msgid "_Home:"
 msgstr "_Personal:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:45
 msgid "_Jabber:"
-msgstr "_Jabber:"
+msgstr "_Jabber"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
 msgid "_Manager:"
@@ -456,11 +458,8 @@ msgid "Set your personal information"
 msgstr "Establiu la vostra informació personal"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid ""
-"You are not allowed to access the device. Contact your system administrator."
-msgstr ""
-"No teniu permís per accedir al dispositiu. Contacteu amb l'administrador del "
-"sistema."
+msgid "You are not allowed to access the device. Contact your system administrator."
+msgstr "No teniu permís per a accedir al dispositiu. Contacteu amb l'administrador del sistema."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid "The device is already in use."
@@ -479,12 +478,8 @@ msgid "_Delete Fingerprints"
 msgstr "_Suprimeix les empremtes dactilars"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid ""
-"Do you want to delete your registered fingerprints so fingerprint login is "
-"disabled?"
-msgstr ""
-"Voleu suprimir les empremtes dactilars registrades de manera que "
-"s'inhabiliti l'entrada amb empremta dactilar?"
+msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
+msgstr "Voleu suprimir les empremtes dactilars registrades de manera que s'inhabiliti l'entrada amb empremta dactilar?"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:356
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
@@ -506,8 +501,7 @@ msgstr "No s'ha pogut accedir al dispositiu «%s»"
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:473
 #, c-format
 msgid "Could not start finger capture on '%s' device"
-msgstr ""
-"No s'ha pogut iniciar la captura de l'empremta dactilar al dispositiu «%s»"
+msgstr "No s'ha pogut iniciar la captura de l'empremta dactilar al dispositiu «%s»"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:520
 msgid "Could not access any fingerprint readers"
@@ -515,7 +509,7 @@ msgstr "No s'ha pogut accedir a cap lector d'empremtes dactilars"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:521
 msgid "Please contact your system administrator for help."
-msgstr "Contacteu amb l'administrador del sistema per obtenir ajuda."
+msgstr "Contacteu amb l'administrador del sistema per a obtenir ajuda."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:551
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:2
@@ -524,16 +518,13 @@ msgstr "Habilita l'entrada amb empremta dactilar"
 
 #. translators:
 #. * The variable is the name of the device, for example:
-#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * "To enable fingerprint login, you need to save one of your fingerprints,
+#. using the
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
-msgid ""
-"To enable fingerprint login, you need to save one of your fingerprints, "
-"using the '%s' device."
-msgstr ""
-"Per habilitar l'entrada amb empremta dactilar, caldrà que deseu una de les "
-"vostres empremtes dactilars utilitzant el dispositiu «%s»."
+msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
+msgstr "Per a habilitar l'entrada amb empremta dactilar, caldrà que deseu una de les vostres empremtes dactilars utilitzant el dispositiu «%s»."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:590
 msgid "Swipe finger on reader"
@@ -592,12 +583,8 @@ msgid "Select finger"
 msgstr "Seleccioneu un dit"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid ""
-"Your fingerprint was successfully saved. You should now be able to log in "
-"using your fingerprint reader."
-msgstr ""
-"La vostra empremta dactilar s'ha desat correctament. Hauríeu de poder entrar "
-"utilitzant el lector d'empremtes dactilars."
+msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
+msgstr "La vostra empremta dactilar s'ha desat correctament. Hauríeu de poder entrar utilitzant el lector d'empremtes dactilars."
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
@@ -620,88 +607,82 @@ msgstr "Us heu autenticat correctament."
 #. This is a re-auth, and it failed.
 #. * The password must have been changed in the meantime!
 #. * Ask the user to re-authenticate
-#.
+#. 
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
-msgstr ""
-"La vostra contrasenya ha canviat des que us vau autenticar. Torneu-vos a "
-"autenticar."
+#: ../capplets/about-me/gnome-about-me-password.c:550
+msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
+msgstr "La vostra contrasenya ha canviat des que us vau autenticar. Torneu-vos a autenticar."
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
 msgstr "Aquesta contrasenya no era correcta."
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:523
 msgid "Your password has been changed."
 msgstr "S'ha canviat la vostra contrasenya."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:533
 #, c-format
 msgid "System error: %s."
 msgstr "S'ha produït un error del sistema: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:536
 msgid "The password is too short."
 msgstr "La contrasenya és massa curta."
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:539
 msgid "The password is too simple."
 msgstr "La contrasenya és massa senzilla."
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The old and new passwords are too similar."
 msgstr "La contrasenya nova i l'anterior són massa semblants."
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:544
 msgid "The new password must contain numeric or special character(s)."
 msgstr "La nova contrasenya ha de contenir caràcters numèrics o especials."
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:547
 msgid "The old and new passwords are the same."
 msgstr "La contrasenya nova i la vella són iguals."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:818
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "No es pot executar %s: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:822
 msgid "Unable to launch backend"
 msgstr "No es pot executar el programa de suport"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:823
 msgid "A system error has occurred"
 msgstr "S'ha produït un error del sistema"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:843
 msgid "Checking password..."
 msgstr "S'està comprovant la contrasenya..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:930
 msgid "Click <b>Change password</b> to change your password."
 msgstr "Feu clic a <b>Canvia la contrasenya</b> per canviar-la."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:933
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "Escriviu la vostra contrasenya al camp <b>Nova contrasenya</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:936
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid ""
-"Please type your password again in the <b>Retype new password</b> field."
-msgstr ""
-"Escriviu la contrasenya al camp <b>Torneu a escriure la contrasenya</b>."
+msgid "Please type your password again in the <b>Retype new password</b> field."
+msgstr "Escriviu la contrasenya al camp <b>Torneu a escriure la contrasenya</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:939
 msgid "The two passwords are not equal."
 msgstr "Les dues contrasenyes no són iguals."
 
@@ -710,6 +691,7 @@ msgid "Change pa_ssword"
 msgstr "Canvia la contra_senya"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "Canvia la contrasenya"
 
@@ -723,15 +705,11 @@ msgstr "Contrasenya _actual:"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and "
-"click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for "
-"verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
 msgstr ""
-"Per canviar la contrasenya, entreu-la en el camp d'aquí sota i feu clic a "
-"<b>Autentica</b>.\n"
-"Un cop us hàgiu autenticat, introduïu la nova contrasenya, torneu-la a "
-"escriure per tal de verificar-la, i feu clic a <b>Canvia la contrasenya</b>."
+"Per canviar la contraseya, entreu-la en el camp d'aquí sota i feu clic a <b>Autentica</b>.\n"
+"Un cop us hagueu autenticat, introduïu la nova contrasenya, torneu-la a  escriure per tal de verificar-la, i feu clic a <b>Canvia la contrasenya</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -751,7 +729,6 @@ msgid "Accessible Lo_gin"
 msgstr "Entrada _accessible"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:2
-#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
 msgid "Assistive Technologies"
 msgstr "Tecnologies assistives"
 
@@ -760,12 +737,8 @@ msgid "Assistive Technologies Preferences"
 msgstr "Preferències de la tecnologia assistiva"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid ""
-"Changes to enable assistive technologies will not take effect until your "
-"next log in."
-msgstr ""
-"Els canvis en les tecnologies assistives no tindran efecte fins que no "
-"torneu a entrar."
+msgid "Changes to enable assistive technologies will not take effect until your next log in."
+msgstr "Els canvis en les tecnologies assistives no tindran efecte fins que no torneu a entrar."
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
@@ -807,188 +780,296 @@ msgstr "Accessibilitat del _ratolí"
 msgid "_Preferred Applications"
 msgstr "Aplicacions _preferides"
 
-#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Choose which accessibility features to enable when you log in"
-msgstr ""
-"Seleccioneu quines funcionalitats d'accessibilitat s'han d'habilitar en "
-"entrar"
+#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
+msgid "Change settings in order to make the system easier to use"
+msgstr "Canvia els paràmetres per fer que el sistema sigui més senzill de d'utilitzar"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
+msgid "Universal Access"
+msgstr "Accés universal"
+
+#: ../capplets/appearance/appearance-desktop.c:628
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "Afegeix un paper de fons"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:663
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "Tots els fitxers"
 
 #: ../capplets/appearance/appearance-font.c:494
+#: ../capplets/appearance/cc-font-page.c:320
 msgid "Font may be too large"
 msgstr "Potser el tipus de lletra és massa gran"
 
 #: ../capplets/appearance/appearance-font.c:498
+#: ../capplets/appearance/cc-font-page.c:324
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a size "
-"smaller than %d."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a size "
-"smaller than %d."
-msgstr[0] ""
-"El tipus de lletra seleccionat té una mida de %d punt, i pot fer que sigui "
-"difícil fer servir l'ordinador. Es recomana que utilitzeu una mida per sota "
-"de %d."
-msgstr[1] ""
-"El tipus de lletra seleccionat té una mida de %d punts, i pot fer que sigui "
-"difícil fer servir l'ordinador. Es recomana que utilitzeu una mida per sota "
-"de %d."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
+msgstr[0] "El tipus de lletra seleccionat té una mida de %d punt, i pot fer que sigui difícil fer servir l'ordinador. Es recomana que utilitzeu una mida per sota de %d."
+msgstr[1] "El tipus de lletra seleccionat té una mida de %d punts, i pot fer que sigui difícil fer servir l'ordinador. Es recomana que utilitzeu una mida per sota de %d."
 
 #: ../capplets/appearance/appearance-font.c:511
+#: ../capplets/appearance/cc-font-page.c:337
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a smaller "
-"sized font."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a smaller "
-"sized font."
-msgstr[0] ""
-"El tipus de lletra seleccionat té una mida de %d punt, i pot fer que sigui "
-"difícil fer servir l'ordinador. Es recomana que utilitzeu una mida més "
-"petita."
-msgstr[1] ""
-"El tipus de lletra seleccionat té una mida de %d punts, i pot fer que sigui "
-"difícil fer servir l'ordinador. Es recomana que utilitzeu una mida més "
-"petita."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
+msgstr[0] "El tipus de lletra seleccionat té una mida de %d punt, i pot fer que sigui difícil fer servir l'ordinador. Es recomana que utilitzeu una mida més petita."
+msgstr[1] "El tipus de lletra seleccionat té una mida de %d punts, i pot fer que sigui difícil fer servir l'ordinador. Es recomana que utilitzeu una mida més petita."
 
 #: ../capplets/appearance/appearance-font.c:534
+#: ../capplets/appearance/cc-font-page.c:360
 msgid "Use previous font"
 msgstr "Tipus de lletra anterior"
 
 #: ../capplets/appearance/appearance-font.c:536
+#: ../capplets/appearance/cc-font-page.c:362
 msgid "Use selected font"
 msgstr "Empra el tipus de lletra seleccionat"
 
-#: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/appearance-main.c:54
+#: ../capplets/appearance/cc-background-page.c:1417
+#: ../capplets/appearance/cc-font-details-dialog.c:408
+#: ../capplets/appearance/cc-font-page.c:458
+#: ../capplets/appearance/cc-theme-customize-dialog.c:1203
+#: ../capplets/appearance/cc-theme-page.c:1350
+#: ../capplets/appearance/cc-theme-save-dialog.c:456
+#: ../capplets/display/cc-display-minimal-page.c:628
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "No s'ha pogut carregar el fitxer d'interfície d'usuari: %s"
 
-#: ../capplets/appearance/appearance-main.c:135
+#: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
 msgstr "Especifiqueu el nom del fitxer del tema a instal·lar"
 
-#: ../capplets/appearance/appearance-main.c:136
+#: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
 msgstr "fitxer"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:143
+#: ../capplets/appearance/appearance-main.c:141
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
-msgstr ""
-"Especifiqueu el nom de la pàgina a mostrar (theme|background|fonts|interface)"
+msgstr "Especifiqueu el nom de la pàgina a mostrar (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:144
-#: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/default-applications/gnome-da-capplet.c:962
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "pàgina"
 
-#: ../capplets/appearance/appearance-main.c:151
+#: ../capplets/appearance/appearance-main.c:149
 msgid "[WALLPAPER...]"
 msgstr "[FONS-D'ESCRIPTORI...]"
 
-#: ../capplets/appearance/appearance-style.c:172
-#: ../capplets/common/gnome-theme-info.c:446
-#: ../capplets/common/gnome-theme-info.c:638
+#: ../capplets/appearance/appearance-style.c:173
+#: ../capplets/appearance/cc-theme-customize-dialog.c:887
+#: ../libgnome-control-center-extension/gnome-theme-info.c:446
+#: ../libgnome-control-center-extension/gnome-theme-info.c:638
 msgid "Default Pointer"
 msgstr "Cursor per defecte"
 
 #: ../capplets/appearance/appearance-style.c:235
 #: ../capplets/appearance/appearance-themes.c:685
+#: ../capplets/appearance/cc-theme-customize-dialog.c:188
+#: ../capplets/appearance/cc-theme-page.c:788
 msgid "Install"
 msgstr "Instal·la"
 
-#: ../capplets/appearance/appearance-style.c:256
-#: ../capplets/common/gnome-theme-info.c:1646
+#: ../capplets/appearance/appearance-style.c:255
+#: ../capplets/appearance/cc-theme-customize-dialog.c:210
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1646
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme engine "
-"'%s' is not installed."
-msgstr ""
-"L'aparença d'aquest tema no serà la desitjada perquè el motor de temes del "
-"GTK+ «%s» no està instal·lat."
+msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
+msgstr "L'aparença d'aquest tema no serà la desitjada perquè el motor de temes del GTK+ «%s» no està instal·lat."
 
 #: ../capplets/appearance/appearance-themes.c:673
+#: ../capplets/appearance/cc-theme-page.c:779
 msgid "Apply Background"
 msgstr "Aplica el fons"
 
 #: ../capplets/appearance/appearance-themes.c:677
+#: ../capplets/appearance/cc-theme-page.c:782
 msgid "Apply Font"
 msgstr "Aplica el tipus de lletra"
 
 #: ../capplets/appearance/appearance-themes.c:681
+#: ../capplets/appearance/cc-theme-page.c:785
 msgid "Revert Font"
 msgstr "Recupera el tipus de lletra"
 
-#: ../capplets/appearance/appearance-themes.c:712
-msgid ""
-"The current theme suggests a background and a font. Also, the last applied "
-"font suggestion can be reverted."
-msgstr ""
-"Aquest tema suggereix un fons de pantalla i un tipus de lletra. També es pot "
-"recuperar l'últim suggeriment de tipus de lletra aplicat."
+#: ../capplets/appearance/appearance-themes.c:711
+#: ../capplets/appearance/cc-theme-page.c:815
+msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
+msgstr "Aquest tema suggereix un fons de pantalla i un tipus de lletra. També es pot recuperar l'últim suggeriment de tipus de lletra aplicat."
 
-#: ../capplets/appearance/appearance-themes.c:714
-msgid ""
-"The current theme suggests a background. Also, the last applied font "
-"suggestion can be reverted."
-msgstr ""
-"Aquest tema suggereix un fons de pantalla. També es pot recuperar l'últim "
-"suggeriment de tipus de lletra aplicat."
+#: ../capplets/appearance/appearance-themes.c:713
+#: ../capplets/appearance/cc-theme-page.c:818
+msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
+msgstr "Aquest tema suggereix un fons de pantalla. També es pot recuperar l'últim suggeriment de tipus de lletra aplicat."
 
-#: ../capplets/appearance/appearance-themes.c:716
+#: ../capplets/appearance/appearance-themes.c:715
+#: ../capplets/appearance/cc-theme-page.c:821
 msgid "The current theme suggests a background and a font."
 msgstr "Aquest tema suggereix un fons de pantalla i un tipus de lletra."
 
-#: ../capplets/appearance/appearance-themes.c:718
-msgid ""
-"The current theme suggests a font. Also, the last applied font suggestion "
-"can be reverted."
-msgstr ""
-"Aquest tema suggereix un tipus de lletra. També es pot recuperar l'últim "
-"suggeriment de tipus de lletra aplicat."
+#: ../capplets/appearance/appearance-themes.c:717
+#: ../capplets/appearance/cc-theme-page.c:824
+msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
+msgstr "Aquest tema suggereix un tipus de lletra. També es pot recuperar l'últim suggeriment de tipus de lletra aplicat."
 
-#: ../capplets/appearance/appearance-themes.c:720
+#: ../capplets/appearance/appearance-themes.c:719
+#: ../capplets/appearance/cc-theme-page.c:826
 msgid "The current theme suggests a background."
 msgstr "Aquest tema suggereix un fons de pantalla."
 
-#: ../capplets/appearance/appearance-themes.c:722
+#: ../capplets/appearance/appearance-themes.c:721
+#: ../capplets/appearance/cc-theme-page.c:828
 msgid "The last applied font suggestion can be reverted."
 msgstr "Es pot recuperar l'últim suggeriment de tipus de lletra aplicat."
 
-#: ../capplets/appearance/appearance-themes.c:724
+#: ../capplets/appearance/appearance-themes.c:723
+#: ../capplets/appearance/cc-theme-page.c:830
 msgid "The current theme suggests a font."
 msgstr "Aquest tema suggereix un tipus de lletra."
 
-#: ../capplets/appearance/appearance-themes.c:1046
+#: ../capplets/appearance/appearance-themes.c:1045
+#: ../capplets/appearance/cc-theme-page.c:1374
 #: ../capplets/default-applications/gnome-da-capplet.c:691
 msgid "Custom"
 msgstr "Personalitzat"
+
+#: ../capplets/appearance/cc-appearance-panel.c:209
+#: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
+msgid "Appearance"
+msgstr "Aparença"
+
+#: ../capplets/appearance/cc-background-item.c:219
+#: ../capplets/appearance/gnome-wp-item.c:257
+msgid "Slide Show"
+msgstr "Mostra diapositives"
+
+#: ../capplets/appearance/cc-background-item.c:221
+#: ../capplets/appearance/gnome-wp-item.c:259
+msgid "Image"
+msgstr "Imatge"
+
+#: ../capplets/appearance/cc-background-item.c:228
+#: ../capplets/appearance/gnome-wp-item.c:265
+msgid "multiple sizes"
+msgstr "mides múltiples"
+
+#: ../capplets/appearance/cc-background-item.c:233
+#: ../capplets/appearance/cc-background-item.c:235
+#: ../capplets/appearance/gnome-wp-item.c:270
+#: ../capplets/appearance/gnome-wp-item.c:272
+msgid "pixel"
+msgid_plural "pixels"
+msgstr[0] "píxel"
+msgstr[1] "píxels"
+
+#. translators: <b>wallpaper name</b>
+#. * mime type, size
+#. * Folder: /path/to/file
+#. 
+#: ../capplets/appearance/cc-background-item.c:243
+#: ../capplets/appearance/gnome-wp-item.c:280
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"Folder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"Carpeta: %s"
+
+#. translators: <b>wallpaper name</b>
+#. * Image missing
+#. * Folder: /path/to/file
+#. 
+#: ../capplets/appearance/cc-background-item.c:255
+#: ../capplets/appearance/gnome-wp-item.c:292
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"%s\n"
+"Folder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s\n"
+"Carpeta: %s"
+
+#: ../capplets/appearance/cc-background-item.c:259
+#: ../capplets/appearance/gnome-wp-item.c:296
+#, fuzzy
+msgid "Image missing"
+msgstr "Manca la imatge"
+
+#: ../capplets/appearance/cc-background-item.c:350
+#: ../capplets/appearance/gnome-wp-info.c:50
+msgid "No Desktop Background"
+msgstr "Sense fons de l'escriptori"
+
+#: ../capplets/appearance/cc-background-page.c:1578
+#: ../capplets/appearance/data/appearance.ui.h:2
+msgid "Background"
+msgstr "Fons"
+
+#: ../capplets/appearance/cc-font-details-dialog.c:598
+#: ../capplets/appearance/data/appearance.ui.h:14
+msgid "Font Rendering Details"
+msgstr "Detalls de la representació dels tipus de lletra"
+
+#: ../capplets/appearance/cc-font-page.c:592
+msgid "Font"
+msgstr "Tipus de lletra"
+
+#: ../capplets/appearance/cc-theme-customize-dialog.c:1387
+#: ../capplets/appearance/data/appearance.ui.h:11
+msgid "Customize Theme"
+msgstr "Personalitza el tema"
+
+#: ../capplets/appearance/cc-theme-page.c:1585
+#: ../capplets/appearance/data/appearance.ui.h:46
+msgid "Theme"
+msgstr "Tema"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:165
+#: ../capplets/appearance/theme-save.c:93
+#, c-format
+msgid "Theme name must be present"
+msgstr "S'ha d'indicar el nom del tema"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:230
+#: ../capplets/appearance/theme-save.c:156
+msgid "The theme already exists. Would you like to replace it?"
+msgstr "El tema ja existeix. Voleu reemplaçar-lo?"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:232
+#: ../capplets/appearance/theme-save.c:157
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:450
+msgid "_Overwrite"
+msgstr "_Sobreescriu"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:537
+#: ../capplets/appearance/data/appearance.ui.h:30
+msgid "Save Theme As..."
+msgstr "Anomena i desa el tema..."
 
 #: ../capplets/appearance/data/appearance.ui.h:1
 msgid "Appearance Preferences"
 msgstr "Preferències de l'aparença"
 
-#: ../capplets/appearance/data/appearance.ui.h:2
-msgid "Background"
-msgstr "Fons"
-
 #: ../capplets/appearance/data/appearance.ui.h:3
 msgid "Best _shapes"
-msgstr "Millors fo_rmes"
+msgstr "Millors f_ormes"
 
 #: ../capplets/appearance/data/appearance.ui.h:4
 msgid "Best co_ntrast"
@@ -1008,8 +1089,7 @@ msgstr "Centra"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
 msgid "Changing your cursor theme takes effect the next time you log in."
-msgstr ""
-"El canvi del tema del cursor tindrà efecte la propera vegada que entreu."
+msgstr "El canvi del tema del cursor tindrà efecte la propera vegada que entreu."
 
 #: ../capplets/appearance/data/appearance.ui.h:9
 msgid "Colors"
@@ -1019,10 +1099,6 @@ msgstr "Colors"
 msgid "Controls"
 msgstr "Controls"
 
-#: ../capplets/appearance/data/appearance.ui.h:11
-msgid "Customize Theme"
-msgstr "Personalitza el tema"
-
 #: ../capplets/appearance/data/appearance.ui.h:12
 msgid "D_etails..."
 msgstr "_Detalls..."
@@ -1031,21 +1107,17 @@ msgstr "_Detalls..."
 msgid "Des_ktop font:"
 msgstr "Tipus de lletra de l'_escriptori:"
 
-#: ../capplets/appearance/data/appearance.ui.h:14
-msgid "Font Rendering Details"
-msgstr "Detalls de la representació dels tipus de lletra"
-
 #: ../capplets/appearance/data/appearance.ui.h:15
 msgid "Fonts"
 msgstr "Tipus de lletra"
 
 #: ../capplets/appearance/data/appearance.ui.h:16
 msgid "Get more backgrounds online"
-msgstr "Obtén més imatges de fons en línia"
+msgstr "Obté més imatges de fons en línia"
 
 #: ../capplets/appearance/data/appearance.ui.h:17
 msgid "Get more themes online"
-msgstr "Obtén més temes en línia"
+msgstr "Obté més temes en línia"
 
 #: ../capplets/appearance/data/appearance.ui.h:18
 msgid "Gra_yscale"
@@ -1069,7 +1141,7 @@ msgid "Icons only"
 msgstr "Només icones"
 
 #: ../capplets/appearance/data/appearance.ui.h:24
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
 msgid "Large"
 msgstr "Gran"
 
@@ -1079,7 +1151,7 @@ msgstr "Ca_p"
 
 #: ../capplets/appearance/data/appearance.ui.h:26
 msgid "Open a dialog to specify the color"
-msgstr "Obre un diàleg per especificar el color"
+msgstr "Obre un diàleg per a especificar el color"
 
 #: ../capplets/appearance/data/appearance.ui.h:27
 msgid "Pointer"
@@ -1092,10 +1164,6 @@ msgstr "R_esolució:"
 #: ../capplets/appearance/data/appearance.ui.h:29
 msgid "Rendering"
 msgstr "Representació"
-
-#: ../capplets/appearance/data/appearance.ui.h:30
-msgid "Save Theme As..."
-msgstr "Anomena i desa el tema..."
 
 #: ../capplets/appearance/data/appearance.ui.h:31
 msgid "Save _As..."
@@ -1110,7 +1178,7 @@ msgid "Scale"
 msgstr "Escala"
 
 #: ../capplets/appearance/data/appearance.ui.h:34
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Small"
 msgstr "Petit"
 
@@ -1123,174 +1191,162 @@ msgid "Solid color"
 msgstr "Color sòlid"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "Separació"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Stretch"
 msgstr "Amplia"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "Sub_píxel (LCD)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "_Suavitzat de subpíxels (LCD)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "Ordre dels subpíxels"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "Text"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "Text sota els elements"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "Text al costat dels elements"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "Només text"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "El tema de controls actual no té definits els esquemes de color."
 
 #: ../capplets/appearance/data/appearance.ui.h:47
-msgid "Theme"
-msgstr "Tema"
-
-#: ../capplets/appearance/data/appearance.ui.h:48
 msgid "Tile"
 msgstr "Mosaic"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "Degradat vertical"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "Costat de la finestra"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "Ampliació"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "_Afegeix..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "Tipus de lletra de les _aplicacions:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "_Descripció:"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
-msgstr "Tipus de lletra dels docu_ments:"
+msgstr "Tipus de lletra dels _documents:"
+
+#: ../capplets/appearance/data/appearance.ui.h:59
+msgid "_Fixed width font:"
+msgstr "Tipus de lletra d'amplada _fixa:"
 
 #: ../capplets/appearance/data/appearance.ui.h:60
-msgid "_Fixed width font:"
-msgstr "Tipus de lletra d'amplada fi_xa:"
-
-#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Full"
 msgstr "_Complet"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "_Quadres d'entrada:"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "_Instal·la..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "_Mitjà"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "Mon_ocrom"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "_Nom:"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "_Cap"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "Reinicia als valors per de_fecte"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "Elements _seleccionats:"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "_Mida:"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "_Lleuger"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "E_stil:"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "_Indicadors de funció:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "Tipus de lletra del títol de les _finestres:"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "_Finestres:"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "punts per polzada"
-
-#: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
-msgid "Appearance"
-msgstr "Aparença"
 
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:2
 msgid "Customize the look of the desktop"
@@ -1307,69 +1363,6 @@ msgstr "Instal·lador de temes"
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
 msgid "Gnome Theme Package"
 msgstr "Paquet de tema del GNOME"
-
-#: ../capplets/appearance/gnome-wp-info.c:50
-msgid "No Desktop Background"
-msgstr "Sense fons de l'escriptori"
-
-#: ../capplets/appearance/gnome-wp-item.c:261
-msgid "Slide Show"
-msgstr "Mostra diapositives"
-
-#: ../capplets/appearance/gnome-wp-item.c:263
-msgid "Image"
-msgstr "Imatge"
-
-#: ../capplets/appearance/gnome-wp-item.c:269
-msgid "multiple sizes"
-msgstr "mides múltiples"
-
-#. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
-#, c-format
-msgid "%d %s by %d %s"
-msgstr "%d %s per %d %s"
-
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
-msgid "pixel"
-msgid_plural "pixels"
-msgstr[0] "píxel"
-msgstr[1] "píxels"
-
-#. translators: <b>wallpaper name</b>
-#. * mime type, size
-#. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:284
-#, c-format
-msgid ""
-"<b>%s</b>\n"
-"%s, %s\n"
-"Folder: %s"
-msgstr ""
-"<b>%s</b>\n"
-"%s, %s\n"
-"Carpeta: %s"
-
-#. translators: <b>wallpaper name</b>
-#. * Image missing
-#. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:296
-#, c-format
-msgid ""
-"<b>%s</b>\n"
-"%s\n"
-"Folder: %s"
-msgstr ""
-"<b>%s</b>\n"
-"%s\n"
-"Carpeta: %s"
-
-#: ../capplets/appearance/gnome-wp-item.c:300
-msgid "Image missing"
-msgstr "Falta una imatge"
 
 #: ../capplets/appearance/theme-installer.c:178
 #: ../capplets/appearance/theme-installer.c:234
@@ -1396,12 +1389,8 @@ msgstr "«%s» no sembla ser un tema vàlid."
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid ""
-"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
-"you need to compile."
-msgstr ""
-"«%s» no sembla ser un tema vàlid. Podria ser un motor de tema que s'ha de "
-"compilar."
+msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
+msgstr "«%s» no sembla ser un tema vàlid. Podria ser un motor de tema que s'ha de compilar."
 
 #: ../capplets/appearance/theme-installer.c:372
 #, c-format
@@ -1436,321 +1425,40 @@ msgstr "No s'ha pogut crear cap directori temporal"
 
 #: ../capplets/appearance/theme-installer.c:596
 msgid "New themes have been successfully installed."
-msgstr "Els temes nous s'han instal·lat correctament."
+msgstr "El temes nous s'han instal·lat amb èxit."
 
-#: ../capplets/appearance/theme-installer.c:646
+#: ../capplets/appearance/theme-installer.c:643
 msgid "No theme file location specified to install"
-msgstr ""
-"No s'ha especificat cap ubicació per als fitxers dels temes a instal·lar"
+msgstr "No s'ha especificat cap ubicació per als fitxers dels temes a instal·lar"
 
-#: ../capplets/appearance/theme-installer.c:670
+#: ../capplets/appearance/theme-installer.c:667
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
 "%s"
 msgstr ""
-"No teniu permís per instal·lar el tema a:\n"
+"No teniu permís per a instal·lar el tema a:\n"
 "%s"
 
-#: ../capplets/appearance/theme-installer.c:748
+#: ../capplets/appearance/theme-installer.c:745
 msgid "Select Theme"
 msgstr "Seleccioneu un tema"
 
-#: ../capplets/appearance/theme-installer.c:759
+#: ../capplets/appearance/theme-installer.c:756
 msgid "Theme Packages"
 msgstr "Paquets de tema"
 
-#: ../capplets/appearance/theme-save.c:93
-#, c-format
-msgid "Theme name must be present"
-msgstr "S'ha d'indicar el nom del tema"
-
-#: ../capplets/appearance/theme-save.c:156
-msgid "The theme already exists. Would you like to replace it?"
-msgstr "El tema ja existeix. Voleu reemplaçar-lo?"
-
-#: ../capplets/appearance/theme-save.c:157
-#: ../capplets/common/file-transfer-dialog.c:450
-msgid "_Overwrite"
-msgstr "_Sobreescriu"
-
-#: ../capplets/appearance/theme-util.c:75
+#: ../capplets/appearance/theme-util.c:77
 msgid "Would you like to delete this theme?"
 msgstr "Voleu suprimir aquest tema?"
 
-#: ../capplets/appearance/theme-util.c:125
+#: ../capplets/appearance/theme-util.c:127
 msgid "Theme cannot be deleted"
 msgstr "No es pot suprimir el tema"
 
-#: ../capplets/appearance/theme-util.c:252
+#: ../capplets/appearance/theme-util.c:258
 msgid "Could not install theme engine"
 msgstr "No s'ha pogut instal·lar el motor de tema"
-
-#: ../capplets/common/activate-settings-daemon.c:16
-msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
-"settings manager."
-msgstr ""
-"No s'ha pogut executar el gestor de paràmetres «gnome-settings-daemon».\n"
-"Sense el gestor de paràmetres del GNOME executant-se, algunes preferències "
-"poden no tenir efecte. Això pot indicar un problema amb el DBus, o podria "
-"ser que un gestor de paràmetres no-GNOME (per exemple KDE) estigui actiu i "
-"en conflicte amb el gestor de paràmetres del GNOME."
-
-#: ../capplets/common/capplet-stock-icons.c:66
-#, c-format
-msgid "Unable to load stock icon '%s'\n"
-msgstr "No s'ha pogut carregar la icona integrada «%s»\n"
-
-#: ../capplets/common/capplet-util.c:88
-#, c-format
-msgid "There was an error displaying help: %s"
-msgstr "S'ha produït un error en mostrar l'ajuda: %s"
-
-#: ../capplets/common/file-transfer-dialog.c:98
-#, c-format
-msgid "Copying file: %u of %u"
-msgstr "S'està copiant el fitxer: %u de %u"
-
-#: ../capplets/common/file-transfer-dialog.c:145
-#, c-format
-msgid "Copying '%s'"
-msgstr "S'està copiant «%s»"
-
-#: ../capplets/common/file-transfer-dialog.c:185
-#: ../capplets/common/file-transfer-dialog.c:312
-msgid "Copying files"
-msgstr "S'estan copiant fitxers"
-
-#: ../capplets/common/file-transfer-dialog.c:224
-msgid "Parent Window"
-msgstr "Finestres mare"
-
-#: ../capplets/common/file-transfer-dialog.c:225
-msgid "Parent window of the dialog"
-msgstr "Finestra mare del diàleg"
-
-#: ../capplets/common/file-transfer-dialog.c:231
-msgid "From URI"
-msgstr "De l'URI"
-
-#: ../capplets/common/file-transfer-dialog.c:232
-msgid "URI currently transferring from"
-msgstr "URI de la qual s'està transferint actualment"
-
-#: ../capplets/common/file-transfer-dialog.c:239
-msgid "To URI"
-msgstr "A URI"
-
-#: ../capplets/common/file-transfer-dialog.c:240
-msgid "URI currently transferring to"
-msgstr "URI a la qual s'està transferint actualment"
-
-#: ../capplets/common/file-transfer-dialog.c:247
-msgid "Fraction completed"
-msgstr "Fracció completada"
-
-#: ../capplets/common/file-transfer-dialog.c:248
-msgid "Fraction of transfer currently completed"
-msgstr "Fracció de la transferència completada actualment"
-
-#: ../capplets/common/file-transfer-dialog.c:255
-msgid "Current URI index"
-msgstr "Índex URI actual"
-
-#: ../capplets/common/file-transfer-dialog.c:256
-msgid "Current URI index - starts from 1"
-msgstr "Índex URI actual - comença des de 1"
-
-#: ../capplets/common/file-transfer-dialog.c:263
-msgid "Total URIs"
-msgstr "URI totals"
-
-#: ../capplets/common/file-transfer-dialog.c:264
-msgid "Total number of URIs"
-msgstr "Nombre total d'URI"
-
-#: ../capplets/common/file-transfer-dialog.c:444
-#, c-format
-msgid "File '%s' already exists. Do you want to overwrite it?"
-msgstr "Ja existeix el fitxer «%s». Voleu sobreescriure'l?"
-
-#: ../capplets/common/file-transfer-dialog.c:447
-msgid "_Skip"
-msgstr "_Omet"
-
-#: ../capplets/common/file-transfer-dialog.c:448
-msgid "Overwrite _All"
-msgstr "_Sobreescriu-ho tot"
-
-#: ../capplets/common/gconf-property-editor.c:134
-msgid "Key"
-msgstr "Tecla"
-
-#: ../capplets/common/gconf-property-editor.c:135
-msgid "GConf key to which this property editor is attached"
-msgstr "La clau del GConf que vincula aquest editor de propietats"
-
-#: ../capplets/common/gconf-property-editor.c:141
-msgid "Callback"
-msgstr "Crida de retorn"
-
-# FIXME "crida de retorn"? (josep)
-#: ../capplets/common/gconf-property-editor.c:142
-msgid "Issue this callback when the value associated with key gets changed"
-msgstr ""
-"Emet aquesta crida de retorn quan es canviï el valor associat a la clau"
-
-#: ../capplets/common/gconf-property-editor.c:147
-msgid "Change set"
-msgstr "Conjunt de canvis"
-
-#: ../capplets/common/gconf-property-editor.c:148
-msgid ""
-"GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr ""
-"El conjunt de canvis al GConf que contenen les dades que s'han de reenviar "
-"al client GConf quan s'apliqui"
-
-#: ../capplets/common/gconf-property-editor.c:153
-msgid "Conversion to widget callback"
-msgstr "Conversió a una crida de retorn del giny"
-
-#: ../capplets/common/gconf-property-editor.c:154
-msgid ""
-"Callback to be issued when data are to be converted from GConf to the widget"
-msgstr ""
-"La crida de retorn que s'emetrà quan les dades es converteixin des del GConf "
-"cap al giny"
-
-#: ../capplets/common/gconf-property-editor.c:159
-msgid "Conversion from widget callback"
-msgstr "Conversió des de la crida de retorn del giny"
-
-#: ../capplets/common/gconf-property-editor.c:160
-msgid ""
-"Callback to be issued when data are to be converted to GConf from the widget"
-msgstr ""
-"La crida de retorn quan les dades s'hagin de convertir al GConf des del giny"
-
-#: ../capplets/common/gconf-property-editor.c:165
-msgid "UI Control"
-msgstr "Control d'interfície d'usuari"
-
-#: ../capplets/common/gconf-property-editor.c:166
-msgid "Object that controls the property (normally a widget)"
-msgstr "Objecte que controla la característica (normalment un giny)"
-
-#: ../capplets/common/gconf-property-editor.c:181
-msgid "Property editor object data"
-msgstr "Les dades objecte de l'editor de propietats"
-
-#: ../capplets/common/gconf-property-editor.c:182
-msgid "Custom data required by the specific property editor"
-msgstr ""
-"Les dades personalitzades requerides per l'editor de propietats específic"
-
-#: ../capplets/common/gconf-property-editor.c:188
-msgid "Property editor data freeing callback"
-msgstr "Crida de retorn que allibera les dades de l'editor de propietats"
-
-#: ../capplets/common/gconf-property-editor.c:189
-msgid "Callback to be issued when property editor object data is to be freed"
-msgstr ""
-"Crida de retorn que s'emetrà quan les dades objecte de l'editor de "
-"propietats s'hagin d'alliberar"
-
-#: ../capplets/common/gconf-property-editor.c:1405
-#, c-format
-msgid ""
-"Couldn't find the file '%s'.\n"
-"\n"
-"Please make sure it exists and try again, or choose a different background "
-"picture."
-msgstr ""
-"No s'ha pogut trobar el fitxer «%s».\n"
-"\n"
-"Assegureu-vos que existeix i intenteu-ho de nou, o escolliu una imatge de "
-"fons diferent."
-
-#: ../capplets/common/gconf-property-editor.c:1413
-#, c-format
-msgid ""
-"I don't know how to open the file '%s'.\n"
-"Perhaps it's a kind of picture that is not yet supported.\n"
-"\n"
-"Please select a different picture instead."
-msgstr ""
-"No es pot obrir el fitxer «%s».\n"
-"Potser es tracta d'un tipus d'imatge que no està implementat.\n"
-"\n"
-"Seleccioneu una altra imatge."
-
-#: ../capplets/common/gconf-property-editor.c:1533
-msgid "Please select an image."
-msgstr "Seleccioneu una imatge."
-
-#: ../capplets/common/gconf-property-editor.c:1538
-msgid "_Select"
-msgstr "_Selecciona"
-
-#: ../capplets/common/gnome-theme-info.c:639
-msgid "Default Pointer - Current"
-msgstr "Cursor per defecte - Actual"
-
-#: ../capplets/common/gnome-theme-info.c:643
-msgid "White Pointer"
-msgstr "Cursor blanc"
-
-#: ../capplets/common/gnome-theme-info.c:644
-msgid "White Pointer - Current"
-msgstr "Cursor blanc - Actual"
-
-#: ../capplets/common/gnome-theme-info.c:648
-msgid "Large Pointer"
-msgstr "Cursor gran"
-
-#: ../capplets/common/gnome-theme-info.c:649
-msgid "Large Pointer - Current"
-msgstr "Cursor gran - Actual"
-
-#: ../capplets/common/gnome-theme-info.c:653
-msgid "Large White Pointer - Current"
-msgstr "Cursor blanc gran - Actual"
-
-#: ../capplets/common/gnome-theme-info.c:654
-msgid "Large White Pointer"
-msgstr "Cursor blanc gran"
-
-#: ../capplets/common/gnome-theme-info.c:1622
-#, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme '%s' is "
-"not installed."
-msgstr ""
-"L'aparença d'aquest tema no serà la desitjada perquè no està instal·lat el "
-"tema GTK+ «%s»."
-
-#: ../capplets/common/gnome-theme-info.c:1630
-#, c-format
-msgid ""
-"This theme will not look as intended because the required window manager "
-"theme '%s' is not installed."
-msgstr ""
-"L'aparença d'aquest tema no serà la desitjada perquè no està instal·lat el "
-"tema del gestor de finestres «%s»."
-
-#: ../capplets/common/gnome-theme-info.c:1637
-#, c-format
-msgid ""
-"This theme will not look as intended because the required icon theme '%s' is "
-"not installed."
-msgstr ""
-"L'aparença d'aquest tema no serà la desitjada perquè no està instal·lat el "
-"tema d'icones «%s»."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
@@ -1782,15 +1490,14 @@ msgstr "No s'ha pogut carregar la interfície principal"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:724
 msgid "Please make sure that the applet is properly installed"
-msgstr "Assegureu-vos que la miniaplicació estigui ben instal·lada"
+msgstr "Assegureu-vos que la miniaplicació estigui ben instal·lada."
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:959
+#: ../capplets/default-applications/gnome-da-capplet.c:961
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
-msgstr ""
-"Especifiqueu el nom de la pàgina a mostrar (internet|multimedia|system|a11y)"
+msgstr "Especifiqueu el nom de la pàgina a mostrar (internet|multimedia|system|a11y)"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:964
+#: ../capplets/default-applications/gnome-da-capplet.c:967
 msgid "- GNOME Default Applications"
 msgstr "- Aplicacions predeterminades del GNOME"
 
@@ -1805,11 +1512,8 @@ msgstr "Accessibilitat"
 msgid "All %s occurrences will be replaced with actual link"
 msgstr "Totes les %s coincidències se substituiran per l'enllaç actual"
 
-#.
-#. * vim: sw=2 ts=8 cindent noai bs=2
-#.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "_Ordre:"
 
@@ -1975,7 +1679,7 @@ msgstr "Iceape"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:20
 msgid "Iceape Mail"
-msgstr "Correu de l'Iceape"
+msgstr "Correu del Iceape"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:21
 msgid "Icedove"
@@ -2105,88 +1809,131 @@ msgstr "Reproductor de pel·lícules Totem"
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:330
+#: ../capplets/display/xrandr-capplet.c:2027
+msgid "Could not save the monitor configuration"
+msgstr "No s'ha pogut desar la configuració del monitor"
+
+#: ../capplets/display/cc-display-minimal-page.c:343
+#: ../capplets/display/xrandr-capplet.c:2038
+msgid "Could not get session bus while applying display configuration"
+msgstr "No s'ha pogut obtenir el bus de sessió mentre s'aplicava la configuració de la pantalla"
+
+#: ../capplets/display/cc-display-minimal-page.c:478
+#: ../capplets/display/cc-display-minimal-page.c:487
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "Només s'està mostrant l'escriptori a la vostra pantalla de l'ordinador. Connecteu una altra pantalla per compartir la vista i després activeu la compartició de pantalla."
+
+#: ../capplets/display/cc-display-minimal-page.c:496
+#: ../capplets/display/display-minimal.ui.h:4
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr "Esteu mostrant l'escriptori a un monitor o projector extern."
+
+#: ../capplets/display/cc-display-minimal-page.c:672
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr "Pantalles i projectors"
+
+#: ../capplets/display/cc-display-minimal-page.c:692
+#: ../capplets/display/xrandr-capplet.c:2297
+msgid "Could not get screen information"
+msgstr "No s'ha pogut obtenir la informació de la pantalla"
+
+#: ../capplets/display/cc-display-panel.c:121
+#: ../capplets/display/display-properties.desktop.in.in.h:2
+msgid "Display"
+msgstr "Pantalla"
+
 #: ../capplets/display/display-capplet.ui.h:1
+msgid "Display Preferences"
+msgstr "Preferències de la pantalla"
+
+#: ../capplets/display/display-capplet.ui.h:2
+msgid "Drag the monitors to set their place"
+msgstr "Arrossegueu els monitors per a establir la seva ubicació"
+
+#: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
 msgstr "Inclou el _quadre"
 
-#: ../capplets/display/display-capplet.ui.h:2
-#: ../capplets/display/xrandr-capplet.c:305
+#: ../capplets/display/display-capplet.ui.h:4
+#: ../capplets/display/xrandr-capplet.c:308
 msgid "Left"
 msgstr "Esquerra"
 
-#: ../capplets/display/display-capplet.ui.h:3
-#: ../capplets/display/xrandr-capplet.c:508
+#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/xrandr-capplet.c:511
 msgid "Monitor"
 msgstr "Monitor"
 
-#: ../capplets/display/display-capplet.ui.h:4
-msgid "Monitor Preferences"
-msgstr "Preferències del monitor"
-
-#: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:304
-#: ../capplets/display/xrandr-capplet.c:343
+#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:346
 msgid "Normal"
 msgstr "Normal"
 
-#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/display-capplet.ui.h:7
 msgid "Off"
 msgstr "Apagat"
 
-#: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet.ui.h:8
 msgid "On"
 msgstr "Encès"
 
-#: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet.ui.h:9
 msgid "Panel icon"
 msgstr "Icona del quadre"
 
-#: ../capplets/display/display-capplet.ui.h:9
+#: ../capplets/display/display-capplet.ui.h:10
 msgid "R_otation:"
 msgstr "R_otació:"
 
-#: ../capplets/display/display-capplet.ui.h:10
+#: ../capplets/display/display-capplet.ui.h:11
 msgid "Re_fresh rate:"
 msgstr "Velocitat de re_fresc:"
 
-#: ../capplets/display/display-capplet.ui.h:11
-#: ../capplets/display/xrandr-capplet.c:306
+#: ../capplets/display/display-capplet.ui.h:12
+#: ../capplets/display/xrandr-capplet.c:309
 msgid "Right"
 msgstr "Dreta"
-
-#: ../capplets/display/display-capplet.ui.h:12
-msgid "Sa_me image in all monitors"
-msgstr "La _mateixa imatge en tots els monitors"
 
 #: ../capplets/display/display-capplet.ui.h:13
 msgid "Upside-down"
 msgstr "De cap per avall"
 
 #: ../capplets/display/display-capplet.ui.h:14
-msgid "_Detect monitors"
+msgid "_Detect Monitors"
 msgstr "_Detecta els monitors"
 
 #: ../capplets/display/display-capplet.ui.h:15
+msgid "_Mirror screens"
+msgstr "Pantalles _duplicades"
+
+#: ../capplets/display/display-capplet.ui.h:16
 msgid "_Resolution:"
 msgstr "_Resolució:"
 
-#: ../capplets/display/display-capplet.ui.h:16
-msgid "_Show monitors in panel"
-msgstr "_Mostra els monitors al quadre"
+#: ../capplets/display/display-capplet.ui.h:17
+msgid "_Show displays in panel"
+msgstr "_Mostra les pantalles al quadre"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr "Pantalla externa"
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr "Resolució de la pantalla externa"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:1
-msgid "Change resolution and position of monitors"
-msgstr "Canvia la resolució i la posició dels monitors"
+msgid "Change screen resolution"
+msgstr "Canvia la resolució de la pantalla"
 
-#: ../capplets/display/display-properties.desktop.in.in.h:2
-msgid "Monitors"
-msgstr "Monitors"
-
-#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:310
 msgid "Upside Down"
 msgstr "De cap per avall"
 
-#: ../capplets/display/xrandr-capplet.c:349
+#: ../capplets/display/xrandr-capplet.c:352
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
@@ -2195,181 +1942,35 @@ msgstr "%d Hz"
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#.
-#: ../capplets/display/xrandr-capplet.c:497
-#: ../capplets/display/xrandr-capplet.c:1628
+#. 
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:1607
 msgid "Mirror Screens"
 msgstr "Pantalles duplicades"
 
-#: ../capplets/display/xrandr-capplet.c:499
+#: ../capplets/display/xrandr-capplet.c:502
 #, c-format
 msgid "Monitor: %s"
 msgstr "Monitor: %s"
 
-#: ../capplets/display/xrandr-capplet.c:577
+#: ../capplets/display/xrandr-capplet.c:580
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
 
-#: ../capplets/display/xrandr-capplet.c:2046
-msgid "Could not save the monitor configuration"
-msgstr "No s'ha pogut desar la configuració del monitor"
-
-#: ../capplets/display/xrandr-capplet.c:2057
-msgid "Could not get session bus while applying display configuration"
-msgstr ""
-"No s'ha pogut obtenir el bus de sessió mentre s'aplicava la configuració de "
-"la pantalla"
-
-#: ../capplets/display/xrandr-capplet.c:2099
+#: ../capplets/display/xrandr-capplet.c:2080
 msgid "Could not detect displays"
 msgstr "No s'han pogut detectar les pantalles"
 
-#: ../capplets/display/xrandr-capplet.c:2314
-msgid "Could not get screen information"
-msgstr "No s'ha pogut obtenir la informació de la pantalla"
-
-#: ../capplets/display/xrandr-capplet.c:2385
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"Seleccioneu un monitor per canviar-li les propietats; arrossegueu-lo per "
-"establir la seva ubicació."
-
-#: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
-msgid "Sound"
-msgstr "So"
-
-#: ../capplets/keybindings/01-desktop-key.xml.in.h:1
-#: ../libslab/bookmark-agent.c:1146
-msgid "Desktop"
-msgstr "Escriptori"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:21
-msgid "New shortcut..."
-msgstr "Drecera nova..."
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:163
-#: ../capplets/keybindings/eggcellrendererkeys.c:164
-msgid "Accelerator key"
-msgstr "Tecla acceleradora"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:173
-#: ../capplets/keybindings/eggcellrendererkeys.c:174
-msgid "Accelerator modifiers"
-msgstr "Modificadors d'accelerador"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:182
-#: ../capplets/keybindings/eggcellrendererkeys.c:183
-msgid "Accelerator keycode"
-msgstr "Codi de tecla de l'accelerador"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:193
-msgid "Accel Mode"
-msgstr "Mode d'accelerador"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:194
-msgid "The type of accelerator."
-msgstr "El tipus d'accelerador."
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:242
-#: ../capplets/keybindings/gnome-keybinding-properties.c:119
-#: ../typing-break/drwright.c:431
-msgid "Disabled"
-msgstr "Inhabilitat"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:200
-msgid "<Unknown Action>"
-msgstr "<Acció Desconeguda>"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:950
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1581
-msgid "Custom Shortcuts"
-msgstr "Dreceres personalitzades"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1092
-msgid "Error saving the new shortcut"
-msgstr "S'ha produït un error en desar la drecera nova"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1171
-#, c-format
-msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type "
-"using this key.\n"
-"Please try with a key such as Control, Alt or Shift at the same time."
-msgstr ""
-"No es pot fer servir la drecera «%s» perquè no seria possible escriure amb "
-"aquesta tecla.\n"
-"Proveu amb una altra tecla com ara la de Control, Alt o de Majúscules a la "
-"vegada."
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1201
-#, c-format
-msgid ""
-"The shortcut \"%s\" is already used for\n"
-"\"%s\""
-msgstr ""
-"Ja s'utilitza la drecera «%s» per a:\n"
-" «%s»"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1207
-#, c-format
-msgid ""
-"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr "Si torneu a assignar la drecera a «%s», s'inhabilitarà la drecera «%s»."
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1215
-msgid "_Reassign"
-msgstr "_Torna a assignar"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1335
-#, c-format
-msgid "Error unsetting accelerator in configuration database: %s"
-msgstr ""
-"S'ha produït un error en netejar un accelerador en la base de dades de la "
-"configuració: %s"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1536
-msgid "Too many custom shortcuts"
-msgstr "Hi ha massa dreceres personalitzades"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1832
-msgid "Action"
-msgstr "Acció"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1854
-msgid "Shortcut"
-msgstr "Drecera"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
-msgid "Custom Shortcut"
-msgstr "Drecera personalitzada"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
-#: ../capplets/keybindings/keybinding.desktop.in.in.h:2
-msgid "Keyboard Shortcuts"
-msgstr "Dreceres de teclat"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
-msgid ""
-"To edit a shortcut key, click on the corresponding row and type a new key "
-"combination, or press backspace to clear."
-msgstr ""
-"Per editar una drecera, feu clic en la fila corresponent i premeu una "
-"combinació de tecles nova, o premeu la tecla de retrocés per netejar-la."
-
-#: ../capplets/keybindings/keybinding.desktop.in.in.h:1
-msgid "Assign shortcut keys to commands"
-msgstr "Assigna dreceres a ordres"
+#: ../capplets/display/xrandr-capplet.c:2443
+#, fuzzy
+msgid "- GNOME Display Preferences"
+msgstr "- Preferències de la pantalla GNOME"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:205
 #: ../capplets/keyboard/gnome-keyboard-properties.c:210
-msgid ""
-"Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr ""
-"Aplica les configuracions i surt (solament compatibilitat; gestionat ara per "
-"un dimoni)"
+msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr "Aplica les configuracions i surt (solament compatibilitat; gestionat ara per un dimoni)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:215
 msgid "Start the page with the typing break settings showing"
@@ -2379,15 +1980,13 @@ msgstr "Inicia la pàgina mostrant les preferències del descans de tecleig"
 msgid "Start the page with the accessibility settings showing"
 msgstr "Inicia la pàgina mostrant les preferències d'accessibilitat"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Preferències del teclat del GNOME"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
 msgid "Beep when _accessibility features are turned on or off"
-msgstr ""
-"Fes un avís sonor quan s'habiliten o inhabiliten les funcionalitats "
-"d'_accessibilitat"
+msgstr "Fes un avís sonor quan s'habiliten o inhabiliten les funcionalitats d'_accessibilitat"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
 msgid "Beep when a _modifier key is pressed"
@@ -2399,7 +1998,7 @@ msgstr "Fes un avís sonor quan es premi una tecla _commutadora"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
 msgid "Beep when a key is pr_essed"
-msgstr "Fes un avís sonor quan es premi una tec_la"
+msgstr "Fes un avís sonor quan es premi una _tecla"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
 msgid "Beep when a key is reje_cted"
@@ -2407,7 +2006,7 @@ msgstr "Fes un avís sonor quan es _denegui una tecla"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
 msgid "Beep when key is _accepted"
-msgstr "Fes un avís sonor quan s'acce_pti la tecla"
+msgstr "Fes un avís sonor quan s'_accepti la tecla"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
 msgid "Beep when key is _rejected"
@@ -2427,8 +2026,8 @@ msgid "Flash entire _screen"
 msgstr "Pampallugueja la pantalla _sencera"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "General"
 msgstr "General"
 
@@ -2441,12 +2040,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "Mostra una resposta _visual per a les alertes de so"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "Tecles lentes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "Tecles enganxoses"
 
@@ -2460,182 +2059,186 @@ msgstr "Permet l'aj_ornament de descansos"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
 msgid "Audio _Feedback..."
-msgstr "Resposta d'à_udio..."
+msgstr "Resposta d'_àudio..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Comprova si es poden ajornar els descansos"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "Parpelleig del cursor"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "El cursor _parpelleja en els camps de text"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "Velocitat de les pampallugues del cursor"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+msgid "Custom Shortcut"
+msgstr "Drecera personalitzada"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "R_etard:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "Inha_bilita les tecles enganxoses si es premen dues tecles alhora"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "Duració del descans durant el qual no es pot escriure"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "Duració del temps de treball abans de forçar un descans"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
 msgid "Fast"
 msgstr "Ràpid"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
-msgstr "Es repetei_x la tecla quan es manté la tecla premuda"
+msgstr "El teclat _repeteix quan es manté la tecla premuda"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "Preferències del teclat"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "_Model del teclat:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
 msgid "Layouts"
 msgstr "Disposicions"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
-msgid ""
-"Lock screen after a certain duration to help prevent repetitive keyboard use "
-"injuries"
-msgstr ""
-"Bloca la pantalla després d'un cert temps, per ajudar en la prevenció de "
-"lesions causades per l'ús repetitiu del teclat"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
+msgstr "Bloca la pantalla després d'un cert temps, per ajudar en la prevenció de lesions causades per l'ús repetitiu del teclat"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
 msgid "Long"
 msgstr "Llarg"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "Tecles del ratolí"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
-msgid "Move _Down"
-msgstr "Mou a_vall"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
-msgid "Move _Up"
-msgstr "Mou am_unt"
-
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
-msgid "New windows u_se active window's layout"
-msgstr "Les finestres noves u_tilitzen la disposició de la finestra activa"
+msgid "Move _Down"
+msgstr "Mou _avall"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+msgid "Move _Up"
+msgstr "Mou _amunt"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+msgid "New windows u_se active window's layout"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "Tecles de repetició"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "Velocitat de la repetició de tecles"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
-msgid "Reset to De_faults"
-msgstr "_Reinicia als valors predeterminats"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
-msgid "S_peed:"
-msgstr "Ve_locitat:"
-
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
+msgid "Reset to De_faults"
+msgstr "Reinicia als valors per de_fecte"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+msgid "S_peed:"
+msgstr "_Velocitat:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
 msgid "Short"
 msgstr "Curt"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
 msgid "Slow"
 msgstr "Lent"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
+msgstr "Per editar una drecera, feu clic en la fila corresponent i premeu una combinació de tecles nova, o premeu la tecla de retrocés per a netejar-la."
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "Descans de tecleig"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "_Acceleration:"
 msgstr "_Acceleració:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
-msgstr ""
-"Es poden commutar les funcions d'_accessibilitat amb les dreceres de teclat"
+msgstr "Es poden commutar les funcions d'_accessibilitat amb les dreceres de teclat"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "L'interval de _descans dura:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Delay:"
 msgstr "_Retard:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "I_gnora les pulsacions duplicades ràpides"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
-msgstr "B_loca la pantalla per forçar un descans de tecleig"
+msgstr "B_loca la pantalla per a forçar un descans de tecleig"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "Accepta n_omés tecles premudes durant un temps"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "_Opcions..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "Es pot controlar el _punter utilitzant el teclat"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#, fuzzy
 msgid "_Separate layout for each window"
 msgstr "Separa la _disposició per a cada finestra"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "_Simula pulsacions de tecles simultànies"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "_Velocitat:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
-msgstr "Tecle_geu per provar els paràmetres:"
+msgstr "_Teclegeu per provar els paràmetres:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
-msgstr "L'interval de tre_ball dura:"
+msgstr "L'interval de _treball dura:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "minuts"
 
@@ -2683,6 +2286,114 @@ msgstr "_Proveïdors:"
 msgid "Keyboard Layout Options"
 msgstr "Opcions de la disposició del teclat"
 
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "Teclat"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
+#: ../typing-break/drwright.c:431
+msgid "Disabled"
+msgstr "Inhabilitat"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
+msgid "<Unknown Action>"
+msgstr "<Acció Desconeguda>"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
+msgid "Custom Shortcuts"
+msgstr "Dreceres personalitzades"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
+msgid "Error saving the new shortcut"
+msgstr "S'ha produït un error en desar la drecera nova"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
+#, c-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time."
+msgstr ""
+"No es pot fer servir la drecera «%s» perquè no seria possible escriure amb aquesta tecla.\n"
+"Proveu amb una altra tecla com ara la de Control, Alt o de Majúscules a la vegada."
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
+#, c-format
+msgid ""
+"The shortcut \"%s\" is already used for\n"
+"\"%s\""
+msgstr ""
+"Ja s'utilitza la drecera «%s» per a:\n"
+" «%s»"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
+#, c-format
+msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgstr "Si torneu a assignar la drecera a «%s», s'inhabilitarà la drecera «%s»."
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
+msgid "_Reassign"
+msgstr "_Torna a assignar"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
+#, c-format
+msgid "Error unsetting accelerator in configuration database: %s"
+msgstr "S'ha produït un error en netejar un accelerador en la base de dades de la configuració: %s"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
+msgid "Too many custom shortcuts"
+msgstr "Hi ha massa dreceres personalitzades"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
+msgid "Action"
+msgstr "Acció"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
+msgid "Shortcut"
+msgstr "Drecera"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
+msgid "Keyboard Shortcuts"
+msgstr "Dreceres de teclat"
+
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
+msgid "Sound"
+msgstr "So"
+
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
+msgid "Desktop"
+msgstr "Escriptori"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
+msgid "New shortcut..."
+msgstr "Drecera nova..."
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
+msgid "Accelerator key"
+msgstr "Tecla acceleradora"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
+msgid "Accelerator modifiers"
+msgstr "Modificadors d'accelerador"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
+msgid "Accelerator keycode"
+msgstr "Codi de tecla de l'accelerador"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
+msgid "Accel Mode"
+msgstr "Mode d'accelerador"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
+msgid "The type of accelerator."
+msgstr "El tipus d'accelerador."
+
 #: ../capplets/keyboard/gnome-keyboard-properties-xkb.c:82
 msgid "Unknown"
 msgstr "Desconegut"
@@ -2700,17 +2411,19 @@ msgid "Models"
 msgstr "Models"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
+#: ../capplets/network/cc-network-proxy-page.c:621
 #: ../capplets/network/gnome-network-properties.c:583
 msgid "Default"
 msgstr "Predeterminat"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "Teclat"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "Establiu les preferències del teclat"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+#, fuzzy
+msgid "Pointing Devices"
+msgstr "Dispositius"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2743,11 +2456,11 @@ msgid "gesture|Disabled"
 msgstr "Inhabilitat"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Especifiqueu el nom de la pàgina a mostrar (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- Preferències del ratolí del GNOME"
 
@@ -2768,97 +2481,92 @@ msgid "D_rag click:"
 msgstr "Clic d'a_rrossegar:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:8
-msgid "Disable _touchpad while typing"
-msgstr "_Inhabilita el ratolí tàctil mentre s'escriu"
-
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
 msgid "Double-Click Timeout"
 msgstr "Temps d'espera del doble clic"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
 msgid "Drag and Drop"
 msgstr "Arrossega i deixa anar"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
 msgid "Dwell Click"
 msgstr "Clic en pausa"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:12
-msgid "Enable _mouse clicks with touchpad"
-msgstr "Habilita els _clics amb el ratolí tàctil"
-
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
-msgid "Enable h_orizontal scrolling"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+msgid "Enable _horizontal scrolling"
 msgstr "Habilita el desplaçament _horitzontal"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+msgid "Enable mouse _clicks with touchpad"
+msgstr "Habilita poder fer _clic amb el ratolí tàctil"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "High"
 msgstr "Alta"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
 msgid "Locate Pointer"
 msgstr "Localitza el punter"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Low"
 msgstr "Baixa"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
 msgid "Mouse Orientation"
 msgstr "Orientació del ratolí"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
 msgid "Mouse Preferences"
 msgstr "Preferències del ratolí"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
 msgid "Pointer Speed"
 msgstr "Velocitat del punter"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
 msgid "Scrolling"
 msgstr "Desplaçament"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
 msgid "Seco_ndary click:"
 msgstr "Clic secu_ndari:"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
 msgid "Sh_ow position of pointer when the Control key is pressed"
 msgstr "M_ostra la posició del punter quan es premi la tecla de control"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Show click type _window"
 msgstr "Mostra la _finestra del tipus de clic"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
 msgid "Simulated Secondary Click"
 msgstr "Clic secundari simulat"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
 msgid "Thr_eshold:"
 msgstr "_Llindar:"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid ""
-"To test your double-click settings, try to double-click on the light bulb."
-msgstr ""
-"Per comprovar els paràmetres del doble clic, intenteu fer un doble clic a la "
-"bombeta."
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
+msgid "To test your double-click settings, try to double-click on the light bulb."
+msgstr "Per a comprovar els paràmetres del doble clic, intenteu fer un doble clic en la bombeta."
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
 msgid "Touchpad"
 msgstr "Ratolí tàctil"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Two-_finger scrolling"
 msgstr "_Desplaçament amb dos dits"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr ""
-"També podeu utilitzar el quadre de la miniaplicació de clic en pausa per "
-"seleccionar el tipus de clic."
+msgstr "També podeu utilitzar el quadre de la miniaplicació de clic en pausa per a seleccionar el tipus de clic."
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+msgid "_Disable touchpad while typing"
+msgstr "_Inhabilita el ratolí tàctil mentre s'escriu"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -2908,14 +2616,31 @@ msgstr "Ratolí"
 msgid "Set your mouse preferences"
 msgstr "Estableix les preferències del ratolí"
 
+#: ../capplets/network/cc-network-panel.c:114
+msgid "Network"
+msgstr "Xarxa"
+
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "Ubicació nova..."
 
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "La ubicació ja existeix"
+
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
+msgid "Delete Location"
+msgstr "Suprimeix la ubicació"
+
+#: ../capplets/network/cc-network-proxy-page.c:1545
+#, fuzzy
+msgid "Proxy"
+msgstr "Servidor intermediari d'_FTP:"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2926,109 +2651,258 @@ msgid "Set your network proxy preferences"
 msgstr "Establiu les preferències del servidor intermediari de xarxa"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>Connexió di_recta a Internet</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>Configuració _automàtica del servidor intermediari</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>Configuració _manual del servidor intermediari</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>_Utilitza autenticació</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "_URL d'autoconfiguració:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "C_rea"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "Crea una ubicació nova"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>Connexió di_recta a Internet</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "Detalls del servidor intermediari de HTTP"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "Servidor intermediari de H_TTP:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "Llista d'ordinadors ignorats"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "Ordinadors ignorats"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "Ubicació:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "Preferències del servidor intermediari de xarxa"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "Port:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "Configuració del servidor intermediari"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
-msgstr "Servidor de sòc_ols:"
+msgstr "Servidor de s_ocks:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "La ubicació ja existeix."
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "Nom d'u_suari:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>Configuració _automàtica del servidor intermediari</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "_Suprimeix la ubicació"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "_Detalls"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "Servidor intermediari d'_FTP:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "Nom de la _ubicació:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>Configuració _manual del servidor intermediari</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "_Contrasenya:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "_Servidor intermediari d'HTTP segur:"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>_Utilitza autenticació</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Empra el mateix servidor intermediari per a tots els protocols"
 
+#: ../capplets/security/run-passwd.c:427
+msgid "Authentication failed"
+msgstr "Ha fallat l'autenticació"
+
+#: ../capplets/security/run-passwd.c:503
+#, c-format
+msgid "The new password is too short"
+msgstr "La contrasenya nova és massa curta"
+
+#: ../capplets/security/run-passwd.c:508
+#, c-format
+msgid "The new password is too simple"
+msgstr "La contrasenya nova és massa senzilla"
+
+#: ../capplets/security/run-passwd.c:512
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "La contrasenya nova i l'anterior són massa semblants"
+
+#: ../capplets/security/run-passwd.c:515
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "La contrasenya nova ha de contenir caràcters numèrics o especials"
+
+#: ../capplets/security/run-passwd.c:519
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "La contrasenya nova i l'anterior són iguals."
+
+#: ../capplets/security/run-passwd.c:523
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "La vostra contrasenya ha canviat des que us vau autenticar."
+
+#: ../capplets/security/run-passwd.c:527
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "La nova contrasenya no conté caràcters diferents suficients"
+
+#: ../capplets/security/run-passwd.c:531
+#, c-format
+msgid "Unknown error"
+msgstr "Error desconegut"
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr "Les contrasenyes no coincideixen"
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "La contrasenya és massa senzilla."
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "S'ha canviat la vostra contrasenya."
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "Aquesta contrasenya no era correcta."
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr "Seguretat"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "Torneu a escriure la _contrasenya:"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "Contrasenya _actual:"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "_Nova contrasenya:"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "Torneu a escriure la _contrasenya:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "Canvia la contrasenya"
+
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+#: ../capplets/power/cc-power-panel.c:455
+msgid "Power and brightness"
+msgstr ""
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minuts"
+msgstr[1] "minuts"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr "Mai"
+
+#: ../capplets/power/power.ui.h:1
+#, fuzzy
+msgid "Brightness"
+msgstr "Puja la brillantor"
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr "Dorm"
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
-msgstr ""
-"No es pot iniciar l'aplicació de preferències del vostre gestor de finestres"
+msgstr "No es pot iniciar l'aplicació de preferències del vostre gestor de finestres"
 
 #: ../capplets/windows/gnome-window-properties.c:604
 msgid "_Alt"
@@ -3059,9 +2933,7 @@ msgstr "Accions de la barra de títol"
 # A veure jo :O xavi
 #: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
-msgstr ""
-"Per moure una finestra, mantingueu premuda aquesta tecla i després feu clic "
-"a la finestra:"
+msgstr "Per a moure una finestra, mantingueu premuda aquesta tecla i després feu clic a la finestra:"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
@@ -3073,7 +2945,7 @@ msgstr "Selecció de finestra"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:6
 msgid "_Double-click titlebar to perform this action:"
-msgstr "Feu _doble clic a la barra del títol per realitzar aquesta acció:"
+msgstr "Feu _doble clic a la barra del títol per a realitzar aquesta acció:"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:7
 msgid "_Interval before raising:"
@@ -3098,6 +2970,240 @@ msgstr "Configureu les propietats de la finestra"
 #: ../capplets/windows/window-properties.desktop.in.in.h:2
 msgid "Windows"
 msgstr "Finestres"
+
+#: ../libgnome-control-center-extension/activate-settings-daemon.c:16
+msgid ""
+"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
+msgstr ""
+"No s'ha pogut executar el gestor de paràmetres «gnome-settings-daemon».\n"
+"Sense el gestor de paràmetres del GNOME executant-se, algunes preferències poden no tenir efecte. Això pot indicar un problema amb el DBus, o podria ser que un gestor de paràmetres no-GNOME (per exemple KDE) estigui actiu i en conflicte amb el gestor de paràmetres del GNOME."
+
+#: ../libgnome-control-center-extension/capplet-stock-icons.c:66
+#, c-format
+msgid "Unable to load stock icon '%s'\n"
+msgstr "No s'ha pogut carregar la icona integrada «%s»\n"
+
+#: ../libgnome-control-center-extension/capplet-util.c:88
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "S'ha produït un error en mostrar l'ajuda: %s"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:98
+#, c-format
+msgid "Copying file: %u of %u"
+msgstr "S'està copiant el fitxer: %u de %u"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:145
+#, c-format
+msgid "Copying '%s'"
+msgstr "S'està copiant «%s»"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:185
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:312
+msgid "Copying files"
+msgstr "S'estan copiant fitxers"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:224
+msgid "Parent Window"
+msgstr "Finestres mare"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:225
+msgid "Parent window of the dialog"
+msgstr "Finestra mare del diàleg"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:231
+msgid "From URI"
+msgstr "De la URI"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:232
+msgid "URI currently transferring from"
+msgstr "URI de la qual s'està transferint actualment"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:239
+msgid "To URI"
+msgstr "A URI"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:240
+msgid "URI currently transferring to"
+msgstr "URI a la qual s'està transferint actualment"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:247
+msgid "Fraction completed"
+msgstr "Fracció completada"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:248
+msgid "Fraction of transfer currently completed"
+msgstr "Fracció de la transferència completada actualment"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:255
+msgid "Current URI index"
+msgstr "Índex URI actual"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:256
+msgid "Current URI index - starts from 1"
+msgstr "Índex URI actual - comença des de 1"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:263
+msgid "Total URIs"
+msgstr "URI totals"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:264
+msgid "Total number of URIs"
+msgstr "Nombre total d'URI"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:444
+#, c-format
+msgid "File '%s' already exists. Do you want to overwrite it?"
+msgstr "Ja existeix el fitxer «%s». Voleu sobreescriure'l?"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:447
+msgid "_Skip"
+msgstr "_Omet"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:448
+msgid "Overwrite _All"
+msgstr "_Sobreescriu-ho tot"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:136
+msgid "Key"
+msgstr "Tecla"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:137
+msgid "GConf key to which this property editor is attached"
+msgstr "La tecla GConf a la qual s'aplica aquest editor de propietats"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:143
+msgid "Callback"
+msgstr "Crida de retorn"
+
+# FIXME "crida de retorn"? (josep)
+#: ../libgnome-control-center-extension/gconf-property-editor.c:144
+msgid "Issue this callback when the value associated with key gets changed"
+msgstr "Emet aquesta crida de retorn quan es canviï el valor associat a la clau"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:149
+msgid "Change set"
+msgstr "Conjunt de canvis"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:150
+msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr "El conjunt de canvis al GConf que contenen les dades que s'han de reenviar al client gconf quan s'apliqui"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:155
+msgid "Conversion to widget callback"
+msgstr "Conversió a una crida de retorn del giny"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:156
+msgid "Callback to be issued when data are to be converted from GConf to the widget"
+msgstr "La crida de retorn que s'emetrà quan les dades es converteixin des del GConf cap al giny"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:161
+msgid "Conversion from widget callback"
+msgstr "Conversió des de la crida de retorn del giny"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:162
+msgid "Callback to be issued when data are to be converted to GConf from the widget"
+msgstr "La crida de retorn quan les dades s'hagin de convertir al GConf des del giny"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:167
+msgid "UI Control"
+msgstr "Control d'interfície d'usuari"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:168
+msgid "Object that controls the property (normally a widget)"
+msgstr "Objecte que controla la característica (normalment un giny)"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:183
+msgid "Property editor object data"
+msgstr "Les dades objecte de l'editor de propietats"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:184
+msgid "Custom data required by the specific property editor"
+msgstr "Les dades personalitzades requerides per l'editor de propietats específic"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:190
+msgid "Property editor data freeing callback"
+msgstr "Crida de retorn que allibera les dades de l'editor de propietats"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:191
+msgid "Callback to be issued when property editor object data is to be freed"
+msgstr "Crida de retorn que s'emetrà quan les dades objecte de l'editor de propietats s'hagin d'alliberar"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1407
+#, c-format
+msgid ""
+"Couldn't find the file '%s'.\n"
+"\n"
+"Please make sure it exists and try again, or choose a different background picture."
+msgstr ""
+"No s'ha pogut trobar el fitxer «%s».\n"
+"\n"
+"Assegureu-vos que existeix i intenteu-ho de nou, o escolliu una imatge de fons diferent."
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1415
+#, c-format
+msgid ""
+"I don't know how to open the file '%s'.\n"
+"Perhaps it's a kind of picture that is not yet supported.\n"
+"\n"
+"Please select a different picture instead."
+msgstr ""
+"No es pot obrir el fitxer «%s».\n"
+"Potser es tracta d'un tipus d'imatge que no està implementat.\n"
+"\n"
+"Seleccioneu una altra imatge."
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1535
+msgid "Please select an image."
+msgstr "Seleccioneu una imatge."
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1540
+msgid "_Select"
+msgstr "_Selecciona"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:639
+msgid "Default Pointer - Current"
+msgstr "Cursor per defecte - Actual"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:643
+msgid "White Pointer"
+msgstr "Cursor blanc"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:644
+msgid "White Pointer - Current"
+msgstr "Cursor blanc - Actual"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:648
+msgid "Large Pointer"
+msgstr "Cursor gran"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:649
+msgid "Large Pointer - Current"
+msgstr "Cursor gran - Actual"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:653
+msgid "Large White Pointer - Current"
+msgstr "Cursor blanc gran - Actual"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:654
+msgid "Large White Pointer"
+msgstr "Cursor blanc gran"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1622
+#, c-format
+msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
+msgstr "L'aparença d'aquest tema no serà la desitjada perquè no està instal·lat el tema GTK+ «%s»."
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1630
+#, c-format
+msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
+msgstr "L'aparença d'aquest tema no serà la desitjada perquè no està instal·lat el tema del gestor de finestres «%s»."
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1637
+#, c-format
+msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
+msgstr "L'aparença d'aquest tema no serà la desitjada perquè no està instal·lat el tema d'icones «%s»."
 
 #: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
@@ -3128,40 +3234,13 @@ msgstr "Enrotlla"
 msgid "None"
 msgstr "Cap"
 
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "no s'ha trobat la clau [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "Oculta en iniciar (útil per precarregar l'intèrpret d'ordres)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "Filtre"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "Grups"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "Tasques comunes"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Centre de control"
-
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
 msgstr "Tanca el centre de control quan s'activi una tasca"
 
 #: ../shell/control-center.schemas.in.h:2
 msgid "Exit shell on add or remove action performed"
-msgstr ""
-"Surt de l'intèrpret d'ordres si es realitza una acció d'afegir o treure"
+msgstr "Surt de l'intèrpret d'ordres si es realitza una acció d'afegir o treure"
 
 #: ../shell/control-center.schemas.in.h:3
 msgid "Exit shell on help action performed"
@@ -3173,71 +3252,65 @@ msgstr "Surt de l'intèrpret d'ordres si es realitza una acció d'iniciar"
 
 #: ../shell/control-center.schemas.in.h:5
 msgid "Exit shell on upgrade or uninstall action performed"
-msgstr ""
-"Surt de l'intèrpret d'ordres si es realitza una acció d'actualitzar o "
-"desinstal·lar"
+msgstr "Surt de l'intèrpret d'ordres si es realitza una acció d'actualitzar o desinstal·lar"
 
 #: ../shell/control-center.schemas.in.h:6
 msgid "Indicates whether to close the shell when a help action is performed."
-msgstr ""
-"Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció "
-"d'ajuda."
+msgstr "Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció d'ajuda."
 
 #: ../shell/control-center.schemas.in.h:7
 msgid "Indicates whether to close the shell when a start action is performed."
-msgstr ""
-"Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció "
-"d'inici."
+msgstr "Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció d'inici."
 
 #: ../shell/control-center.schemas.in.h:8
-msgid ""
-"Indicates whether to close the shell when an add or remove action is "
-"performed."
-msgstr ""
-"Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció "
-"d'afegir o treure."
+msgid "Indicates whether to close the shell when an add or remove action is performed."
+msgstr "Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció d'afegir o treure."
 
 #: ../shell/control-center.schemas.in.h:9
-msgid ""
-"Indicates whether to close the shell when an upgrade or uninstall action is "
-"performed."
-msgstr ""
-"Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció "
-"d'actualitzar o desinstal·lar."
+msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
+msgstr "Indica si s'ha de tancar l'intèrpret d'ordres quan s'ha realitzat una acció d'actualitzar o desinstal·lar."
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
 msgstr "Noms de tasques i fitxers .desktop associats"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid ""
-"The task name to be displayed in the control-center followed by a \";\" "
-"separator then the filename of an associated .desktop file to launch for "
-"that task."
-msgstr ""
-"El nom de la tasca que es mostrarà al centre de control procedit d'un punt i "
-"coma, que fa de separador, amb el nom del fitxer .desktop associat per "
-"executar la tasca."
+msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
+msgstr "El nom de la tasca que es mostrarà al centre de control procedit d'un punt i coma, que fa de separador, amb el nom del fitxer .desktop associat per executar la tasca."
 
-#. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
+#. Translators: The format of this string is the task name to be displayed
+#. (translate that part) followed by a ";" separator then the filename (DONT
+#. translate the file name) of a .desktop file to launch. Multiple entries are
+#. separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid ""
-"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
-"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr ""
-"[Canvia el tema;gtk-theme-selector.desktop,Estableix les aplicacions "
-"preferides;default-applications.desktop,Afegeix una impressora;gnome-cups-"
-"manager.desktop]"
+msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr "[Canvia el tema;gtk-theme-selector.desktop,Estableix les aplicacions preferides;default-applications.desktop,Afegeix una impressora;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid ""
-"if true, the control-center will close when a \"Common Task\" is activated."
-msgstr ""
-"si és cert, el centre de control es tancarà quan s'activi una «tasca comuna»."
+msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgstr "si és cert, el centre de control es tancarà quan s'activi una «tasca comuna»."
 
-#: ../shell/gnomecc.desktop.in.in.h:2
+#: ../shell/gnome-control-center.desktop.in.in.h:1
+#, fuzzy
+msgid "Settings"
+msgstr "Utilitza els paràmetres d'X"
+
+#: ../shell/gnome-control-center.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "L'eina de configuració del GNOME"
+
+#: ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Centre de control"
+
+#: ../shell/shell.ui.h:1
+#, fuzzy
+msgid "System Settings"
+msgstr "Sons del sistema"
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3265,12 +3338,8 @@ msgstr "Menys d'un minut fins el següent descans"
 
 #: ../typing-break/drwright.c:526
 #, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"No s'ha pogut mostrar el diàleg de les propietats del descans de tecleig amb "
-"el següent error: %s"
+msgid "Unable to bring up the typing break properties dialog with the following error: %s"
+msgstr "No s'ha pogut mostrar el diàleg de les propietats del descans de tecleig amb el següent error: %s"
 
 #: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
@@ -3305,98 +3374,72 @@ msgid "Typing Monitor"
 msgstr "Monitor de tecleig"
 
 #: ../typing-break/main.c:105
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"El monitor de tecleig utilitza l'àrea de notificació per mostrar informació. "
-"Sembla que no teniu una àrea de notificació al vostre quadre. Podeu afegir-"
-"la-hi fent clic amb el botó dret al quadre i seleccionant «Afegeix al "
-"quadre», després seleccioneu i afegiu «Àrea de notificació»."
+msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
+msgstr "El monitor de tecleig utilitza l'àrea de notificació per a mostrar informació. Sembla que no teniu una àrea de notificació al vostre quadre. Podeu afegir-la-hi fent clic amb el botó dret al quadre i seleccionant «Afegeix al quadre», després seleccioneu i afegiu «Àrea de notificació»."
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
-msgstr ""
-"Si s'estableix a «True» (cert), aleshores dels tipus de lletra OpenType se'n "
-"faran miniatures."
+msgstr "Si s'estableix a vertader, aleshores els tipus de lletra OpenType es miniaturitzaran."
 
 #: ../font-viewer/fontilus.schemas.in.h:2
 msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr ""
-"Si s'estableix a «True» (cert), aleshores dels tipus de lletra PCF se'n faran "
-"miniatures."
+msgstr "Si s'estableix a vertader, aleshores els tipus de lletra PCF es miniaturitzaran."
 
 #: ../font-viewer/fontilus.schemas.in.h:3
 msgid "If set to true, then TrueType fonts will be thumbnailed."
-msgstr ""
-"Si s'estableix a «True» (cert), aleshores dels tipus de lletra TrueType se'n "
-"faran miniatures."
+msgstr "Si s'estableix a vertader, aleshores els tipus de lletra TrueType es miniaturitzaran."
 
 #: ../font-viewer/fontilus.schemas.in.h:4
 msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr ""
-"Si s'estableix a «True» (cert), aleshores els tipus de lletra Type1 se'n "
-"faran miniatures."
+msgstr "Si s'estableix a vertader, aleshores els tipus de lletra Type1 es miniaturitzaran."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr ""
-"Establiu aquesta clau a l'ordre utilitzada per crear miniatures per al tipus "
-"de lletra OpenType."
+msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr "Establiu aquesta clau a l'ordre utilitzada per a crear minitatures per a tipus de lletra OpenType."
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr ""
-"Establiu aquesta clau a l'ordre utilitzada per crear miniatures per al tipus "
-"de lletra PCF."
+msgstr "Establiu aquesta clau a l'ordre utilitzada per a crear minitatures per a tipus de lletra PCF."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr ""
-"Establiu aquesta clau a l'ordre utilitzada per crear miniatures per al tipus "
-"de lletra TrueType."
+msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr "Establiu aquesta clau a l'ordre utilitzada per a crear miniatures per a tipus de lletra TrueType."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr ""
-"Establiu aquesta clau a l'ordre utilitzada per crear miniatures per al tipus "
-"de lletra Type1."
+msgstr "Establiu aquesta clau a l'ordre utilitzada per a crear miniatures per a tipus de lletra Type1."
 
 #: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
-msgstr "Ordre per a crear miniatures pels tipus de lletra OpenType"
+msgstr "Ordre de miniaturització per a tipus de lletra OpenType"
 
 #: ../font-viewer/fontilus.schemas.in.h:10
 msgid "Thumbnail command for PCF fonts"
-msgstr "Ordre per a crear miniatures pels tipus de lletra PCF"
+msgstr "Ordre de miniaturització per a tipus de lletra PCF"
 
 #: ../font-viewer/fontilus.schemas.in.h:11
 msgid "Thumbnail command for TrueType fonts"
-msgstr "Ordre per a crear miniatures pels tipus de lletra TrueType"
+msgstr "Ordre de miniaturització per a tipus de lletra TrueType"
 
 #: ../font-viewer/fontilus.schemas.in.h:12
 msgid "Thumbnail command for Type1 fonts"
-msgstr "Ordre per a crear miniatures pels tipus de lletra Type1"
+msgstr "Ordre de miniaturització per a tipus de lletra Type1"
 
 #: ../font-viewer/fontilus.schemas.in.h:13
 msgid "Whether to thumbnail OpenType fonts"
-msgstr "Si s'han de crear miniatures pels tipus de lletra OpenType"
+msgstr "Si s'han de miniaturitzar els tipus de lletra OpenType"
 
 #: ../font-viewer/fontilus.schemas.in.h:14
 msgid "Whether to thumbnail PCF fonts"
-msgstr "Si s'han de crear miniatures pels tipus de lletra PCF"
+msgstr "Si s'han de miniaturitzar els tipus de lletra PCF"
 
 #: ../font-viewer/fontilus.schemas.in.h:15
 msgid "Whether to thumbnail TrueType fonts"
-msgstr "Si s'han de crear miniatures pels tipus de lletra TrueType"
+msgstr "Si s'han de miniaturitzar els tipus de lletra TrueType"
 
 #: ../font-viewer/fontilus.schemas.in.h:16
 msgid "Whether to thumbnail Type1 fonts"
-msgstr "Si s'han de crear miniatures pels tipus de lletra Type1"
+msgstr "Si s'han de miniaturitzar els tipus de lletra Type1"
 
 #: ../font-viewer/font-view.c:289
 msgid "Name:"
@@ -3453,7 +3496,7 @@ msgstr "Previsualització del tipus de lletra"
 
 #: ../font-viewer/font-thumbnailer.c:245
 msgid "Text to thumbnail (default: Aa)"
-msgstr "Text a per a crear miniatures (predeterminat: Aa)"
+msgstr "Text a miniaturitzar (predeterminat: Aa)"
 
 #: ../font-viewer/font-thumbnailer.c:245
 msgid "TEXT"
@@ -3476,181 +3519,8 @@ msgstr "FITXER-DEL-TIPUS-DE-LLETRA FITXER-DE-SORTIDA"
 msgid "Error parsing arguments: %s\n"
 msgstr "S'ha produït un error en analitzar els arguments: %s\n"
 
-#: ../libslab/app-shell.c:754
-#, c-format
-msgid "Your filter \"%s\" does not match any items."
-msgstr "El filtre «%s» no coincideix amb cap element."
-
-#: ../libslab/app-shell.c:756
-msgid "No matches found."
-msgstr "No s'han trobat coincidències."
-
-#: ../libslab/app-shell.c:905
-msgid "Other"
-msgstr "Altres"
-
-#. make start action
-#: ../libslab/application-tile.c:374
-#, c-format
-msgid "Start %s"
-msgstr "Inicia %s"
-
-#: ../libslab/application-tile.c:395
-msgid "Help"
-msgstr "Ajuda"
-
-#: ../libslab/application-tile.c:442
-msgid "Upgrade"
-msgstr "Actualitza"
-
-#: ../libslab/application-tile.c:457
-msgid "Uninstall"
-msgstr "Desinstal·la"
-
-#: ../libslab/application-tile.c:784 ../libslab/document-tile.c:721
-msgid "Remove from Favorites"
-msgstr "Suprimeix dels preferits"
-
-#: ../libslab/application-tile.c:786 ../libslab/document-tile.c:723
-msgid "Add to Favorites"
-msgstr "Afegeix als preferits"
-
-#: ../libslab/application-tile.c:871
-msgid "Remove from Startup Programs"
-msgstr "Suprimeix dels programes d'inici"
-
-#: ../libslab/application-tile.c:873
-msgid "Add to Startup Programs"
-msgstr "Afegeix als programes d'inici"
-
-#: ../libslab/bookmark-agent.c:1077
-msgid "New Spreadsheet"
-msgstr "Full de càlcul nou"
-
-#: ../libslab/bookmark-agent.c:1082
-msgid "New Document"
-msgstr "Document nou"
-
-#: ../libslab/bookmark-agent.c:1140
-msgid "Documents"
-msgstr "Documents"
-
-#: ../libslab/bookmark-agent.c:1153
-msgid "File System"
-msgstr "Sistema de fitxers"
-
-#: ../libslab/bookmark-agent.c:1157
-msgid "Network Servers"
-msgstr "Servidors de xarxa"
-
-#: ../libslab/bookmark-agent.c:1186
-msgid "Search"
-msgstr "Cerca"
-
-#. make open with default action
-#: ../libslab/directory-tile.c:171
-#, c-format
-msgid "<b>Open</b>"
-msgstr "<b>Obre</b>"
-
-#. make rename action
-#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:234
-msgid "Rename..."
-msgstr "Canvia el nom..."
-
-#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
-#: ../libslab/document-tile.c:248 ../libslab/document-tile.c:257
-msgid "Send To..."
-msgstr "Envia a..."
-
-#. make move to trash action
-#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:283
-msgid "Move to Trash"
-msgstr "Mou a la paperera"
-
-#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
-#: ../libslab/document-tile.c:293 ../libslab/document-tile.c:837
-msgid "Delete"
-msgstr "Suprimeix"
-
-#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:985
-#, c-format
-msgid "Are you sure you want to permanently delete \"%s\"?"
-msgstr "Segur que voleu suprimir permanentment «%s»?"
-
-#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:986
-msgid "If you delete an item, it is permanently lost."
-msgstr "Si suprimiu un element es perdrà per a sempre."
-
-#: ../libslab/document-tile.c:193
-#, c-format
-msgid "Open with \"%s\""
-msgstr "Obre amb «%s»"
-
-#: ../libslab/document-tile.c:207
-msgid "Open with Default Application"
-msgstr "Obre amb l'aplicació predeterminada"
-
-#: ../libslab/document-tile.c:218
-msgid "Open in File Manager"
-msgstr "Obre en el gestor de fitxers"
-
-#: ../libslab/document-tile.c:617
-msgid "?"
-msgstr "?"
-
-#: ../libslab/document-tile.c:624
-msgid "%l:%M %p"
-msgstr "%H:%M"
-
-#: ../libslab/document-tile.c:632
-msgid "Today %l:%M %p"
-msgstr "Avui %H:%M"
-
-#: ../libslab/document-tile.c:642
-msgid "Yesterday %l:%M %p"
-msgstr "Ahir %H:%M"
-
-#: ../libslab/document-tile.c:654
-msgid "%a %l:%M %p"
-msgstr "%a %H:%M"
-
-#: ../libslab/document-tile.c:662
-msgid "%b %d %l:%M %p"
-msgstr "%d %b %H:%M"
-
-#: ../libslab/document-tile.c:664
-msgid "%b %d %Y"
-msgstr "%d %b %Y"
-
-#: ../libslab/search-bar.c:255
-msgid "Find Now"
-msgstr "Cerca ara"
-
-#: ../libslab/system-tile.c:127
-#, c-format
-msgid "<b>Open %s</b>"
-msgstr "<b>Obre %s</b>"
-
-#: ../libslab/system-tile.c:140
-#, c-format
-msgid "Remove from System Items"
-msgstr "Suprimeix dels elements del sistema"
-
-#~ msgid "Change screen resolution"
-#~ msgstr "Canvia la resolució de la pantalla"
-
-#~ msgid "Display"
-#~ msgstr "Pantalla"
-
-#~ msgid "Display Preferences"
-#~ msgstr "Preferències de la pantalla"
-
-#~ msgid "Drag the monitors to set their place"
-#~ msgstr "Arrossegueu els monitors per establir la seva ubicació"
-
-#~ msgid "_Mirror screens"
-#~ msgstr "Pantalles _duplicades"
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr "Seleccioneu quines funcionalitats d'accessibilitat s'han d'habilitar en entrar"
 
 #~ msgid "Edit"
 #~ msgstr "Edita"
@@ -3679,6 +3549,9 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "_File"
 #~ msgstr "_Fitxer"
 
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "Assigna dreceres a ordres"
+
 #~ msgid "A_cceleration:"
 #~ msgstr "A_cceleració:"
 
@@ -3688,18 +3561,137 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "C_ontrol"
 #~ msgstr "C_ontrol"
 
-# PANGRAMA (josep)
+#~ msgid "key not found [%s]\n"
+#~ msgstr "no s'ha trobat la clau [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Oculta en iniciar (útil per a precarregar l'intèrpret d'ordres)"
+
+#~ msgid "Filter"
+#~ msgstr "Filtre"
+
+#~ msgid "Groups"
+#~ msgstr "Grups"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Tasques comunes"
+
 #~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-#~ msgstr ""
-#~ "Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! 0123456789"
+#~ msgstr "Jove xef, porti whisky amb quinze glaçons d'hidrogen, coi! 0123456789"
+
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "El filtre «%s» no coincideix amb cap element."
+
+#~ msgid "No matches found."
+#~ msgstr "No s'han trobat coincidències."
+
+#~ msgid "Other"
+#~ msgstr "Altres"
+
+#~ msgid "Start %s"
+#~ msgstr "Inicia %s"
+
+#~ msgid "Help"
+#~ msgstr "Ajuda"
+
+#~ msgid "Upgrade"
+#~ msgstr "Actualitza"
+
+#~ msgid "Uninstall"
+#~ msgstr "Desinstal·la"
+
+#~ msgid "Remove from Favorites"
+#~ msgstr "Suprimeix dels preferits"
+
+#~ msgid "Add to Favorites"
+#~ msgstr "Afegeix als preferits"
+
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "Suprimeix dels programes d'inici"
+
+#~ msgid "Add to Startup Programs"
+#~ msgstr "Afegeix als programes d'inici"
+
+#~ msgid "New Spreadsheet"
+#~ msgstr "Full de càlcul nou"
+
+#~ msgid "New Document"
+#~ msgstr "Document nou"
+
+#~ msgid "Documents"
+#~ msgstr "Documents"
+
+#~ msgid "File System"
+#~ msgstr "Sistema de fitxers"
+
+#~ msgid "Network Servers"
+#~ msgstr "Servidors de xarxa"
+
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>Obre</b>"
+
+#~ msgid "Rename..."
+#~ msgstr "Reanomena..."
+
+#~ msgid "Send To..."
+#~ msgstr "Envia a..."
+
+#~ msgid "Move to Trash"
+#~ msgstr "Mou a la paperera"
+
+#~ msgid "Delete"
+#~ msgstr "Suprimeix"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "Segur que voleu suprimir permanentment «%s»?"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "Si suprimiu un element es perdrà per a sempre."
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "Obre amb «%s»"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "Obre amb l'aplicació predeterminada"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "Obre en el gestor de fitxers"
+
+#~ msgid "?"
+#~ msgstr "?"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%H:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "Avui %H:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "Ahir %H:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%a %H:%M"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%d %b %H:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%d %b %Y"
+
+#~ msgid "Find Now"
+#~ msgstr "Cerca ara"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>Obre %s</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "Suprimeix dels elements del sistema"
 
 #~ msgid "Layout _Options..."
 #~ msgstr "_Opcions de la disposició..."
 
 #~ msgid "Unknown login ID, the user database might be corrupted"
-#~ msgstr ""
-#~ "No es reconeix l'ID d'entrada, és possible que la base de dades d'usuaris "
-#~ "estigui malmesa"
+#~ msgstr "No es reconeix l'ID d'entrada, és possible que la base de dades d'usuaris estigui malmesa"
 
 #~ msgid ""
 #~ "Left thumb\n"
@@ -3736,8 +3728,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "<b>Feina</b>"
 
 #~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
-#~ msgstr ""
-#~ "<span size=\"larger\" weight=\"bold\">Canvieu la vostra contrasenya</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Canvieu la vostra contrasenya</span>"
 
 #~ msgid "<b>Assistive Technologies</b>"
 #~ msgstr "<b>Tecnologies assistives</b>"
@@ -3972,9 +3963,6 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Click OK to finish."
 #~ msgstr "Feu clic a D'acord per acabar."
 
-#~ msgid "Devices"
-#~ msgstr "Dispositius"
-
 #~ msgid "Play _alert sound"
 #~ msgstr "Reprodueix el so d'_alerta"
 
@@ -3984,13 +3972,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "S_ound playback:"
 #~ msgstr "Reproducció de s_o:"
 
-#~ msgid ""
-#~ "Select the device and tracks to control with the keyboard. Use the Shift "
-#~ "and Control keys to select multiple tracks if required."
-#~ msgstr ""
-#~ "Seleccioneu el dispositiu i les pistes per controlar amb el teclat. Si "
-#~ "cal, feu servir les tecles de majúscula i de control per a seleccionar "
-#~ "múltiples pistes."
+#~ msgid "Select the device and tracks to control with the keyboard. Use the Shift and Control keys to select multiple tracks if required."
+#~ msgstr "Seleccioneu el dispositiu i les pistes per controlar amb el teclat. Si cal, feu servir les tecles de majúscula i de control per a seleccionar múltiples pistes."
 
 #~ msgid "So_und playback:"
 #~ msgstr "Reprod_ucció de so:"
@@ -4090,9 +4073,7 @@ msgstr "Suprimeix dels elements del sistema"
 
 #~ msgctxt "Sound event"
 #~ msgid "Long action completed (download, CD burning, etc.)"
-#~ msgstr ""
-#~ "Compleció d'una acció de llarga durada (baixada, enregistrament de CD, "
-#~ "etc.)"
+#~ msgstr "Compleció d'una acció de llarga durada (baixada, enregistrament de CD, etc.)"
 
 #~ msgctxt "Sound event"
 #~ msgid "Alerts"
@@ -4115,8 +4096,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "Avís de bateria"
 
 #~ msgid "Enable support for GNOME assistive technologies at login"
-#~ msgstr ""
-#~ "Habilita el suport per a les tecnologies assistives del GNOME en entrar"
+#~ msgstr "Habilita el suport per a les tecnologies assistives del GNOME en entrar"
 
 #~ msgid ""
 #~ "Centered\n"
@@ -4131,12 +4111,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ "Ampliat\n"
 #~ "Enrajolat"
 
-#~ msgid ""
-#~ "%s is the path where the theme files will be installed. This can not be "
-#~ "selected as the source location"
-#~ msgstr ""
-#~ "%s és el camí on s'instal·laran els fitxers dels temes. No es pot "
-#~ "seleccionar com a ubicació font"
+#~ msgid "%s is the path where the theme files will be installed. This can not be selected as the source location"
+#~ msgstr "%s és el camí on s'instal·laran els fitxers dels temes. No es pot seleccionar com a ubicació font"
 
 #~ msgid "Just apply settings and quit"
 #~ msgstr "Aplica els paràmetres i surt"
@@ -4156,18 +4132,10 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "_Make default for this computer (%s) only"
 #~ msgstr "_Fes-lo el valor predeterminat només per a aquest ordinador (%s)"
 
-#~ msgid ""
-#~ "Testing the new settings. If you don't respond in %d second the previous "
-#~ "settings will be restored."
-#~ msgid_plural ""
-#~ "Testing the new settings. If you don't respond in %d seconds the previous "
-#~ "settings will be restored."
-#~ msgstr[0] ""
-#~ "S'està provant la nova configuració. Si no l'accepteu d'aquí a %d segon, "
-#~ "es restaurarà la configuració anterior."
-#~ msgstr[1] ""
-#~ "S'està provant la nova configuració. Si no l'accepteu d'aquí a %d segons, "
-#~ "es restaurarà la configuració anterior."
+#~ msgid "Testing the new settings. If you don't respond in %d second the previous settings will be restored."
+#~ msgid_plural "Testing the new settings. If you don't respond in %d seconds the previous settings will be restored."
+#~ msgstr[0] "S'està provant la nova configuració. Si no l'accepteu d'aquí a %d segon, es restaurarà la configuració anterior."
+#~ msgstr[1] "S'està provant la nova configuració. Si no l'accepteu d'aquí a %d segons, es restaurarà la configuració anterior."
 
 #~ msgid "Keep Resolution"
 #~ msgstr "Conserva la resolució"
@@ -4181,27 +4149,17 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "_Keep Resolution"
 #~ msgstr "_Conserva la resolució"
 
-#~ msgid ""
-#~ "The X server does not support the XRandR extension.  Runtime resolution "
-#~ "changes to the display size are not available."
-#~ msgstr ""
-#~ "El servidor d'X no implementa l'extensió XRandR. Els canvis de la "
-#~ "resolució en execució a la mida de la pantalla no estan disponibles."
+#~ msgid "The X server does not support the XRandR extension.  Runtime resolution changes to the display size are not available."
+#~ msgstr "El servidor d'X no implementa l'extensió XRandR. Els canvis de la resolució en execució a la mida de la pantalla no estan disponibles."
 
-#~ msgid ""
-#~ "The version of the XRandR extension is incompatible with this program. "
-#~ "Runtime changes to the display size are not available."
-#~ msgstr ""
-#~ "Aquesta versió de l'extensió XRandR és incompatible amb aquest programa. "
-#~ "No es poden fer canvis de la resolució en execució."
+#~ msgid "The version of the XRandR extension is incompatible with this program. Runtime changes to the display size are not available."
+#~ msgstr "Aquesta versió de l'extensió XRandR és incompatible amb aquest programa. No es poden fer canvis de la resolució en execució."
 
 #~ msgid "New accelerator..."
 #~ msgstr "Nou accelerador..."
 
 #~ msgid "Error setting new accelerator in configuration database: %s\n"
-#~ msgstr ""
-#~ "S'ha produït un error en establir un nou accelerador en la base de dades "
-#~ "de la configuració: %s\n"
+#~ msgstr "S'ha produït un error en establir un nou accelerador en la base de dades de la configuració: %s\n"
 
 #~ msgid "Keyboard Accessibility Notifications"
 #~ msgstr "Notificacions de l'accessibilitat del teclat"
@@ -4237,8 +4195,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "No s'esperava l'etiqueta «%s» dins de «%s»"
 
 #~ msgid "No valid bookmark file found in data dirs"
-#~ msgstr ""
-#~ "No s'ha trobat cap fitxer d'adreces d'interès en els directoris de dades"
+#~ msgstr "No s'ha trobat cap fitxer d'adreces d'interès en els directoris de dades"
 
 #~ msgid "A bookmark for URI '%s' already exists"
 #~ msgstr "Ja existeix una adreça d'interès per a l'URI «%s»"
@@ -4247,13 +4204,10 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "No s'ha trobat cap adreça d'interès per a l'URI «%s»"
 
 #~ msgid "No MIME type defined in the bookmark for URI '%s'"
-#~ msgstr ""
-#~ "No s'ha definit cap tipus MIME per a l'adreça d'interès de l'URI «%s»"
+#~ msgstr "No s'ha definit cap tipus MIME per a l'adreça d'interès de l'URI «%s»"
 
 #~ msgid "No private flag has been defined in bookmark for URI '%s'"
-#~ msgstr ""
-#~ "No s'ha establert cap senyalador privat per a l'adreça d'interès de l'URI "
-#~ "«%s»"
+#~ msgstr "No s'ha establert cap senyalador privat per a l'adreça d'interès de l'URI «%s»"
 
 #~ msgid "No groups set in bookmark for URI '%s'"
 #~ msgstr "No s'ha establert cap grup per a l'adreça d'interès de l'URI «%s»"
@@ -4275,8 +4229,7 @@ msgstr "Suprimeix dels elements del sistema"
 
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
-#~ "You may want to install the gnome-audio package for a set of default "
-#~ "sounds."
+#~ "You may want to install the gnome-audio package for a set of default sounds."
 #~ msgstr ""
 #~ "El fitxer de so per a aquesta incidència no existeix.\n"
 #~ "Potser voldríeu instal·lar el paquet gnome-audio\n"
@@ -4291,9 +4244,6 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Select sound file..."
 #~ msgstr "Seleccioneu un fitxer de so..."
 
-#~ msgid "System Sounds"
-#~ msgstr "Sons del sistema"
-
 #~ msgid "Set as Application Font"
 #~ msgstr "Estableix com a tipus de lletra de les aplicacions"
 
@@ -4301,19 +4251,13 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "Estableix el tipus de lletra per defecte de les aplicacions"
 
 #~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
-#~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">Voleu aplicar el nou tipus de "
-#~ "lletra?</span>"
+#~ msgstr "<span weight=\"bold\" size=\"larger\">Voleu aplicar el nou tipus de lletra?</span>"
 
 #~ msgid "Do _not apply font"
 #~ msgstr "_No apliquis el tipus de lletra"
 
-#~ msgid ""
-#~ "The theme you have selected suggests a new font. A preview of the font is "
-#~ "shown below."
-#~ msgstr ""
-#~ "El tema que heu seleccionat suggereix un nou tipus de lletra. A sota es "
-#~ "mostra una previsualització del tipus de lletra."
+#~ msgid "The theme you have selected suggests a new font. A preview of the font is shown below."
+#~ msgstr "El tema que heu seleccionat suggereix un nou tipus de lletra. A sota es mostra una previsualització del tipus de lletra."
 
 #~ msgid "_Apply font"
 #~ msgstr "_Aplica el tipus de lletra"
@@ -4327,7 +4271,6 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Control theme"
 #~ msgstr "Tema dels ginys"
 
-# Més amunt també hi diu "vores"
 #~ msgid "Window border theme"
 #~ msgstr "Tema de les vores de la finestra"
 
@@ -4335,24 +4278,16 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "Tema d'icones"
 
 #~ msgid "If set to true, then installed themes will be thumbnailed."
-#~ msgstr ""
-#~ "Si s'estableix a vertader, aleshores es miniaturitzaran els temes "
-#~ "instal·lats."
+#~ msgstr "Si s'estableix a vertader, aleshores es miniaturitzaran els temes instal·lats."
 
 #~ msgid "If set to true, then themes will be thumbnailed."
 #~ msgstr "Si s'estableix a vertader, aleshores es miniaturitzaran els temes."
 
-#~ msgid ""
-#~ "Set this key to the command used to create thumbnails for installed "
-#~ "themes."
-#~ msgstr ""
-#~ "Establiu aquesta clau a l'ordre utilitzada per crear miniatures dels "
-#~ "temes instal·lats."
+#~ msgid "Set this key to the command used to create thumbnails for installed themes."
+#~ msgstr "Establiu aquesta clau a l'ordre utilitzada per a crear miniatures dels temes instal·lats."
 
 #~ msgid "Set this key to the command used to create thumbnails for themes."
-#~ msgstr ""
-#~ "Establiu aquesta clau a l'ordre utilitzada per crear miniatures dels "
-#~ "temes."
+#~ msgstr "Establiu aquesta clau a l'ordre utilitzada per a crear miniatures dels temes."
 
 #~ msgid "Thumbnail command for installed themes"
 #~ msgstr "Ordre de miniaturització dels temes instal·lats"
@@ -4379,8 +4314,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "Estableix el tema per defecte"
 
 #~ msgid "There was an error launching the mouse preferences dialog: %s"
-#~ msgstr ""
-#~ "S'ha produït un error en executar el diàleg de preferències del ratolí: %s"
+#~ msgstr "S'ha produït un error en executar el diàleg de preferències del ratolí: %s"
 
 #~ msgid "Unable to import AccessX settings from file '%s'"
 #~ msgstr "No s'ha pogut importar els paràmetres d'AccessX del fitxer «%s»"
@@ -4394,12 +4328,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Set your keyboard accessibility preferences"
 #~ msgstr "Establiu les preferències d'accessibilitat del teclat"
 
-#~ msgid ""
-#~ "This system does not seem to have the XKB extension.  The keyboard "
-#~ "accessibility features will not operate without it."
-#~ msgstr ""
-#~ "Sembla que aquest sistema no té l'extensió XKB. Les funcionalitats "
-#~ "d'accessibilitat del teclat no funcionaran."
+#~ msgid "This system does not seem to have the XKB extension.  The keyboard accessibility features will not operate without it."
+#~ msgstr "Sembla que aquest sistema no té l'extensió XKB. Les funcionalitats d'accessibilitat del teclat no funcionaran."
 
 #~ msgid "<b>Enable Bo_unce Keys</b>"
 #~ msgstr "<b>Habilita les tecles de sa_lts</b>"
@@ -4429,9 +4359,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "Fes un avís sonor si es de_nega la tecla"
 
 #~ msgid "Beep when _features turned on or off from keyboard"
-#~ msgstr ""
-#~ "Fes un avís sonor quan s'habiliten o inhabiliten les _funcionalitats amb "
-#~ "el teclat"
+#~ msgstr "Fes un avís sonor quan s'habiliten o inhabiliten les _funcionalitats amb el teclat"
 
 #~ msgid "Beep when _modifier is pressed"
 #~ msgstr "Fes un avís sonor quan es premi el _modificador"
@@ -4460,12 +4388,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "I_gnore duplicate keypresses within:"
 #~ msgstr "I_gnora les pulsacions de tecla duplicades entre:"
 
-#~ msgid ""
-#~ "Ignore all subsequent presses of the SAME key if they happen within a "
-#~ "user selectable period of time."
-#~ msgstr ""
-#~ "Ignora totes les següents pulsacions de la mateixa tecla si succeeixen "
-#~ "dins d'un període de temps seleccionable per l'usuari."
+#~ msgid "Ignore all subsequent presses of the SAME key if they happen within a user selectable period of time."
+#~ msgstr "Ignora totes les següents pulsacions de la mateixa tecla si succeeixen dins d'un període de temps seleccionable per l'usuari."
 
 #~ msgid "Keyboard Accessibility Preferences (AccessX)"
 #~ msgstr "Preferències d'accessibilitat del teclat (AccessX)"
@@ -4476,20 +4400,11 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Mouse _Preferences..."
 #~ msgstr "_Preferències del ratolí..."
 
-#~ msgid ""
-#~ "Only accept keys after they have been pressed and held for a user "
-#~ "adjustable amount of time."
-#~ msgstr ""
-#~ "Accepta només aquelles tecles que s'hagin mantingut premudes una "
-#~ "quantitat de temps ajustable per l'usuari."
+#~ msgid "Only accept keys after they have been pressed and held for a user adjustable amount of time."
+#~ msgstr "Accepta només aquelles tecles que s'hagin mantingut premudes una quantitat de temps ajustable per l'usuari."
 
-# FIXME
-#~ msgid ""
-#~ "Perform multiple simultaneous key press operations by pressing modifier "
-#~ "keys in sequence."
-#~ msgstr ""
-#~ "Fes que en prémer tecles modificadores en una seqüència es pugui simular "
-#~ "la pulsació de múltiples tecles alhora."
+#~ msgid "Perform multiple simultaneous key press operations by pressing modifier keys in sequence."
+#~ msgstr "Fes que en prémer tecles modificadores en una seqüència es pugui simular la pulsació de múltiples tecles alhora."
 
 #~ msgid "Time to acce_lerate to maximum speed:"
 #~ msgstr "Temps per a acce_lerar a velocitat màxima:"
@@ -4542,11 +4457,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Set your language and location preferences"
 #~ msgstr "Estableix les preferències de l'idioma i la ubicació"
 
-#~ msgid ""
-#~ "<i>Region and language changes take effect the next time you log in.</i>"
-#~ msgstr ""
-#~ "<i>Els canvis de regió i idioma tindran efecte la propera vegada que "
-#~ "entreu.</i>"
+#~ msgid "<i>Region and language changes take effect the next time you log in.</i>"
+#~ msgstr "<i>Els canvis de regió i idioma tindran efecte la propera vegada que entreu.</i>"
 
 #~ msgid "Localization Preferences"
 #~ msgstr "Preferències de la localització"
@@ -4568,13 +4480,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Volume"
 #~ msgstr "Volum"
 
-#~ msgid ""
-#~ "You just held down the Shift key for 8 seconds.  This is the shortcut for "
-#~ "the Slow Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Heu mantingut premuda la tecla de majúscules durant 8 segons.  Aquesta és "
-#~ "la drecera per a la funcionalitat «tecles lentes», que afecta la forma de "
-#~ "funcionar del teclat."
+#~ msgid "You just held down the Shift key for 8 seconds.  This is the shortcut for the Slow Keys feature, which affects the way your keyboard works."
+#~ msgstr "Heu mantingut premuda la tecla de majúscules durant 8 segons.  Aquesta és la drecera per a la funcionalitat «tecles lentes», que afecta la forma de funcionar del teclat."
 
 #~ msgid "Do you want to activate Slow Keys?"
 #~ msgstr "Voleu activar les «tecles lentes»?"
@@ -4594,22 +4501,11 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Do_n't deactivate"
 #~ msgstr "_No desactivis"
 
-#~ msgid ""
-#~ "You just pressed the Shift key 5 times in a row.  This is the shortcut "
-#~ "for the Sticky Keys feature, which affects the way your keyboard works."
-#~ msgstr ""
-#~ "Heu premut la tecla de majúscules 5 vegades seguides. Aquesta és la "
-#~ "drecera per a la funcionalitat «tecles enganxoses», que afecta la forma de "
-#~ "funcionar del teclat."
+#~ msgid "You just pressed the Shift key 5 times in a row.  This is the shortcut for the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr "Heu premut la tecla de majúscules 5 vegades seguides. Aquesta és la drecera per a la funcionalitat «tecles enganxoses», que afecta la forma de funcionar del teclat."
 
-#~ msgid ""
-#~ "You just pressed two keys at once, or pressed the Shift key 5 times in a "
-#~ "row.  This turns off the Sticky Keys feature, which affects the way your "
-#~ "keyboard works."
-#~ msgstr ""
-#~ "Heu premut dues tecles alhora, o heu premut la tecla de majúscules 5 "
-#~ "vegades seguides. Això desactiva les «tecles enganxoses», que afecten la "
-#~ "forma de funcionar del teclat."
+#~ msgid "You just pressed two keys at once, or pressed the Shift key 5 times in a row.  This turns off the Sticky Keys feature, which affects the way your keyboard works."
+#~ msgstr "Heu premut dues tecles alhora, o heu premut la tecla de majúscules 5 vegades seguides. Això desactiva les «tecles enganxoses», que afecten la forma de funcionar del teclat."
 
 #~ msgid "Do you want to activate Sticky Keys?"
 #~ msgstr "Voleu activar les «tecles enganxoses»?"
@@ -4685,20 +4581,15 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid ""
 #~ "You are using XFree 4.3.0.\n"
 #~ "There are known problems with complex XKB configurations.\n"
-#~ "Try using a simpler configuration or taking a fresher version of XFree "
-#~ "software."
+#~ "Try using a simpler configuration or taking a fresher version of XFree software."
 #~ msgstr ""
 #~ "Esteu usant XFree 4.3.0.\n"
 #~ "Se sap que hi ha problemes amb configuracions d'XKB complexes.\n"
 #~ "Intenteu usar una configuració més simple o usar una versió més moderna\n"
 #~ "del programari XFree."
 
-#~ msgid ""
-#~ "Could not get default terminal. Verify that your default terminal command "
-#~ "is set and points to a valid application."
-#~ msgstr ""
-#~ "No s'ha pogut obtenir el terminal per defecte. Verifiqueu que l'ordre que "
-#~ "teniu establerta per el terminal per defecte existeixi."
+#~ msgid "Could not get default terminal. Verify that your default terminal command is set and points to a valid application."
+#~ msgstr "No s'ha pogut obtenir el terminal per defecte. Verifiqueu que l'ordre que teniu establerta per el terminal per defecte existeixi."
 
 #~ msgid ""
 #~ "Couldn't execute command: %s\n"
@@ -4737,9 +4628,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "No es pot determinar el directori de l'usuari"
 
 #~ msgid "GConf key %s set to type %s but its expected type was %s\n"
-#~ msgstr ""
-#~ "La clau GConf %s s'ha establert com de tipus %s, però s'esperava que fos %"
-#~ "s\n"
+#~ msgstr "La clau GConf %s s'ha establert com de tipus %s, però s'esperava que fos %s\n"
 
 #~ msgid "A_vailable files:"
 #~ msgstr "Fitxers dis_ponibles:"
@@ -4765,11 +4654,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Edited %m/%d/%Y"
 #~ msgstr "Editat el %d/%m/%Y"
 
-#~ msgid ""
-#~ "If true, the mime handlers for text/plain and text/* will be kept in sync"
-#~ msgstr ""
-#~ "Si s'habilita, els gestors mime per a text/plain i text/* es mantindran "
-#~ "sincronitzats"
+#~ msgid "If true, the mime handlers for text/plain and text/* will be kept in sync"
+#~ msgstr "Si s'habilita, els gestors mime per a text/plain i text/* es mantindran sincronitzats"
 
 #~ msgid "Sync text/plain and text/* handlers"
 #~ msgstr "Sincronitza els gestors text/plain i text/*"
@@ -4816,7 +4702,6 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Media player key's shortcut."
 #~ msgstr "Drecera del reproductor multimèdia."
 
-# FIXME
 #~ msgid "Next track key's shortcut."
 #~ msgstr "Drecera per a la tecla següent peça."
 
@@ -4843,9 +4728,6 @@ msgstr "Suprimeix dels elements del sistema"
 
 #~ msgid "Skip to previous track"
 #~ msgstr "Salta a l'anterior peça"
-
-#~ msgid "Sleep"
-#~ msgstr "Dorm"
 
 #~ msgid "Sleep's shortcut."
 #~ msgstr "Drecera per a dormir."
@@ -4881,8 +4763,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "Drecera per a apujar el volum."
 
 #~ msgid "Display a dialog when there are errors running the screensaver"
-#~ msgstr ""
-#~ "Mostra un diàleg quan hi ha errors en executar l'estalvi de pantalla"
+#~ msgstr "Mostra un diàleg quan hi ha errors en executar l'estalvi de pantalla"
 
 #~ msgid "Run screensaver at login"
 #~ msgstr "Executa l'estalvi de pantalla a l'entrada"
@@ -4938,9 +4819,6 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "W3M Text Browser"
 #~ msgstr "Navegador de text W3M"
 
-#~ msgid "_Keep resolution"
-#~ msgstr "_Conserva la resolució"
-
 #~ msgid "There was an error launching the keyboard tool: %s"
 #~ msgstr "S'ha produït un error en executar l'aplicació del teclat: %s"
 
@@ -4981,22 +4859,17 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "_No tornis a mostrar aquest missatge"
 
 #~ msgid ""
-#~ "<b>The X system keyboard settings differ from your current GNOME keyboard "
-#~ "settings.</b>\n"
+#~ "<b>The X system keyboard settings differ from your current GNOME keyboard settings.</b>\n"
 #~ "\n"
 #~ "Expected was %s, but the the following settings were found: %s.\n"
 #~ "\n"
 #~ "Which set would you like to use?"
 #~ msgstr ""
-#~ "<b>Els paràmetres del teclat del sistema X no són iguals que els del "
-#~ "GNOME.</b>\n"
+#~ "<b>Els paràmetres del teclat del sistema X no són iguals que els del GNOME.</b>\n"
 #~ "\n"
 #~ "S'esperava %s, però s'han trobat els següents paràmetres: %s.\n"
 #~ "\n"
 #~ "Quins voleu utilitzar?"
-
-#~ msgid "Use X settings"
-#~ msgstr "Utilitza els paràmetres d'X"
 
 #~ msgid "Keep GNOME settings"
 #~ msgstr "Mantén els paràmetres del GNOME"
@@ -5004,12 +4877,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Type"
 #~ msgstr "Tipus"
 
-#~ msgid ""
-#~ "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
-#~ "for preview"
-#~ msgstr ""
-#~ "Tipus de bg_applier: BG_APPLIER_ROOT per a la finestra arrel o BG:"
-#~ "APPLIER_PREVIEW per a previsualització"
+#~ msgid "Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW for preview"
+#~ msgstr "Tipus de bg_applier: BG_APPLIER_ROOT per a la finestra arrel o BG:APPLIER_PREVIEW per a previsualització"
 
 #~ msgid "Width if applier is a preview: Defaults to 64."
 #~ msgstr "Amplada si l'aplicador és una previsualització: Per defecte a 64."
@@ -5035,34 +4904,14 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Start these assistive technologies every time you log in:"
 #~ msgstr "Inicia aquestes tecnologies assistives cada vegada que s'entri:"
 
-#~ msgid ""
-#~ "No Assistive Technology is available on your system.  The 'gok' package "
-#~ "must be installed in order to get on-screen keyboard support, and the "
-#~ "'orca' package must be installed for screenreading and magnifying "
-#~ "capabilities."
-#~ msgstr ""
-#~ "Aquest sistema no disposa de tecnologia assistiva. El paquet «gok» ha "
-#~ "d'estar instal·lat per poder disposar de teclat en pantalla, i el paquet "
-#~ "«orca» ha d'estar instal·lat per poder disposar de funcionalitats de "
-#~ "lectura de pantalla i ampliació."
+#~ msgid "No Assistive Technology is available on your system.  The 'gok' package must be installed in order to get on-screen keyboard support, and the 'orca' package must be installed for screenreading and magnifying capabilities."
+#~ msgstr "Aquest sistema no disposa de tecnologia assistiva. El paquet «gok» ha d'estar instal·lat per poder disposar de teclat en pantalla, i el paquet «orca» ha d'estar instal·lat per poder disposar de funcionalitats de lectura de pantalla i ampliació."
 
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'gok' package must be installed in order to get on-screen keyboard "
-#~ "support."
-#~ msgstr ""
-#~ "Aquest sistema no té instal·lades totes les tecnologies assistives. El "
-#~ "paquet «gok» ha d'estar instal·lat per poder disposar de teclat en "
-#~ "pantalla."
+#~ msgid "Not all available assistive technologies are installed on your system.  The 'gok' package must be installed in order to get on-screen keyboard support."
+#~ msgstr "Aquest sistema no té instal·lades totes les tecnologies assistives. El paquet «gok» ha d'estar instal·lat per poder disposar de teclat en pantalla."
 
-#~ msgid ""
-#~ "Not all available assistive technologies are installed on your system.  "
-#~ "The 'orca' package must be installed for screenreading and magnifying "
-#~ "capabilities."
-#~ msgstr ""
-#~ "Aquest sistema no té instal·lades totes les tecnologies assistives. El "
-#~ "paquet «orca» ha d'estar instal·lat per poder disposar de les "
-#~ "funcionalitats de lectura i ampliació de pantalla."
+#~ msgid "Not all available assistive technologies are installed on your system.  The 'orca' package must be installed for screenreading and magnifying capabilities."
+#~ msgstr "Aquest sistema no té instal·lades totes les tecnologies assistives. El paquet «orca» ha d'estar instal·lat per poder disposar de les funcionalitats de lectura i ampliació de pantalla."
 
 #~ msgid "Change your Desktop Background settings"
 #~ msgstr "Canvia la configuració del fons de l'escriptori"
@@ -5091,9 +4940,6 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "A_vailable layouts:"
 #~ msgstr "Dis_posicions disponibles:"
 
-#~ msgid "Unknown Pointer"
-#~ msgstr "Cursor desconegut"
-
 #~ msgid "The default pointer that ships with X"
 #~ msgstr "El cursor que ve per defecte amb X"
 
@@ -5121,14 +4967,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Theme deleted succesfully. Please select another theme."
 #~ msgstr "S'ha suprimit el tema amb èxit. Seleccioneu-ne un altre."
 
-#~ msgid ""
-#~ "No themes could be found on your system.  This probably means that your "
-#~ "\"Theme Preferences\" dialog was improperly installed, or you haven't "
-#~ "installed the \"gnome-themes\" package."
-#~ msgstr ""
-#~ "No s'ha trobat cap tema en aquest sistema. Probablement es deu a que el "
-#~ "diàleg de «Preferències dels temes» s'ha instal·lat incorrectament, o no "
-#~ "s'ha instal·lat el paquet «gnome-themes»."
+#~ msgid "No themes could be found on your system.  This probably means that your \"Theme Preferences\" dialog was improperly installed, or you haven't installed the \"gnome-themes\" package."
+#~ msgstr "No s'ha trobat cap tema en aquest sistema. Probablement es deu a que el diàleg de «Preferències dels temes» s'ha instal·lat incorrectament, o no s'ha instal·lat el paquet «gnome-themes»."
 
 #~ msgid "The theme file location specified to install is invalid"
 #~ msgstr "La ubicació dels fitxers dels temes especificada no és vàlida"
@@ -5136,14 +4976,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "You can save this theme by pressing the Save Theme button."
 #~ msgstr "Podeu desar aquest tema prement el botó «Desa el tema»."
 
-#~ msgid ""
-#~ "The default theme schemas could not be found on your system.  This means "
-#~ "that you probably don't have metacity installed, or that your gconf is "
-#~ "configured incorrectly."
-#~ msgstr ""
-#~ "No s'han trobat els esquemes de temes predeterminats en aquest sistema. "
-#~ "Això vol dir que probablement el metacity no està instal·lat, o que el "
-#~ "gconf no està configurat correctament."
+#~ msgid "The default theme schemas could not be found on your system.  This means that you probably don't have metacity installed, or that your gconf is configured incorrectly."
+#~ msgstr "No s'han trobat els esquemes de temes predeterminats en aquest sistema. Això vol dir que probablement el metacity no està instal·lat, o que el gconf no està configurat correctament."
 
 #~ msgid "Select themes for various parts of the desktop"
 #~ msgstr "Selecciona els temes per a varies parts de l'escriptori"
@@ -5170,8 +5004,7 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgstr "arbre de selecció de tema"
 
 #~ msgid "Customize the appearance of toolbars and menubars in applications"
-#~ msgstr ""
-#~ "Personalitza l'aparença de les barres d'eines i menús en les aplicacions"
+#~ msgstr "Personalitza l'aparença de les barres d'eines i menús en les aplicacions"
 
 #~ msgid "<b>Behavior and Appearance</b>"
 #~ msgstr "<b>Comportament i aparença</b>"
@@ -5227,13 +5060,11 @@ msgstr "Suprimeix dels elements del sistema"
 #~ "El programa gzip no està instal·lat."
 
 #~ msgid ""
-#~ "<span weight=\"bold\" size=\"larger\">The theme \"%s\" has been installed."
-#~ "</span>\n"
+#~ "<span weight=\"bold\" size=\"larger\">The theme \"%s\" has been installed.</span>\n"
 #~ "\n"
 #~ "Would you like to apply it now, or keep your current theme?"
 #~ msgstr ""
-#~ "<span weight=\"bold\" size=\"larger\">S'ha instal·lat el tema «%s».</"
-#~ "span>\n"
+#~ "<span weight=\"bold\" size=\"larger\">S'ha instal·lat el tema «%s».</span>\n"
 #~ "\n"
 #~ "Voleu aplicar-lo, o mantenir el tema actual?"
 
@@ -5247,13 +5078,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ "No s'ha pogut carreglar el fitxer Glade.\n"
 #~ "Assegureu-vos que aquest dimoni està ben configurat."
 
-#~ msgid ""
-#~ "A collection of scripts to run whenever the keyboard state is reloaded. "
-#~ "Useful for re-applying xmodmap based adjustments"
-#~ msgstr ""
-#~ "Una col·lecció de seqüències que s'executaran quan es carregui de nou "
-#~ "l'estat del teclat. És útil per aplicar de nou els ajustaments basats en "
-#~ "xmodmap"
+#~ msgid "A collection of scripts to run whenever the keyboard state is reloaded. Useful for re-applying xmodmap based adjustments"
+#~ msgstr "Una col·lecció de seqüències que s'executaran quan es carregui de nou l'estat del teclat. És útil per aplicar de nou els ajustaments basats en xmodmap"
 
 #~ msgid "A list of modmap files available in the $HOME directory."
 #~ msgstr "Una llista de fitxers modmap disponibles en el directori $HOME."
@@ -5273,28 +5099,18 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Keyboard model"
 #~ msgstr "Model del teclat"
 
-#~ msgid ""
-#~ "Keyboard settings in gconf will be overridden from the system ASAP "
-#~ "(deprecated)"
-#~ msgstr ""
-#~ "Els paràmetres del teclat del gconf se sobreescriuran del sistema així "
-#~ "que sigui possible (obsolet)"
+#~ msgid "Keyboard settings in gconf will be overridden from the system ASAP (deprecated)"
+#~ msgstr "Els paràmetres del teclat del gconf se sobreescriuran del sistema així que sigui possible (obsolet)"
 
 #~ msgid "Save/restore indicators together with layout groups"
-#~ msgstr ""
-#~ "Desa/recupera els indicadors juntament amb els grups de disposicions"
+#~ msgstr "Desa/recupera els indicadors juntament amb els grups de disposicions"
 
 #~ msgid "Show layout names instead of group names"
 #~ msgstr "Mostra els noms de les disposicions en lloc dels noms dels grups"
 
-#~ msgid ""
-#~ "Show layout names instead of group names (only for versions of XFree "
-#~ "supporting multiple layouts)"
-#~ msgstr ""
-#~ "Mostra els noms de les disposicions en lloc dels noms dels grups (només "
-#~ "per a versions d'XFree que implementin múltiples disposicions)"
+#~ msgid "Show layout names instead of group names (only for versions of XFree supporting multiple layouts)"
+#~ msgstr "Mostra els noms de les disposicions en lloc dels noms dels grups (només per a versions d'XFree que implementin múltiples disposicions)"
 
-# FIXME
 #~ msgid "Suppress the \"X sysconfig changed\" warning message"
 #~ msgstr "Elimina el missatge d'avís «Ha canviat el sysconfig d'X»"
 
@@ -5310,16 +5126,8 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "The Keyboard Preview, width"
 #~ msgstr "La previsualització del teclat, amplada"
 
-#~ msgid ""
-#~ "Very soon, keyboard settings in gconf will be overridden (from the system "
-#~ "configuration) This key has been deprecated since GNOME 2.12, please "
-#~ "unset the model, layouts and options keys to get the default system "
-#~ "configuration."
-#~ msgstr ""
-#~ "Molt aviat, la configuració de teclat del gconf serà eliminada (de la "
-#~ "configuració del sistema). Aquesta clau ha esdevingut obsoleta des del "
-#~ "GNOME 2.12. Desfeu la configuració del model, disposicions i opcions de "
-#~ "teclat per a obtenir la configuració predeterminada del sistema."
+#~ msgid "Very soon, keyboard settings in gconf will be overridden (from the system configuration) This key has been deprecated since GNOME 2.12, please unset the model, layouts and options keys to get the default system configuration."
+#~ msgstr "Molt aviat, la configuració de teclat del gconf serà eliminada (de la configuració del sistema). Aquesta clau ha esdevingut obsoleta des del GNOME 2.12. Desfeu la configuració del model, disposicions i opcions de teclat per a obtenir la configuració predeterminada del sistema."
 
 #~ msgid "keyboard layout"
 #~ msgstr "disposició de teclat"
@@ -5408,9 +5216,6 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Brightness down's shortcut."
 #~ msgstr "Drecera per a baixar la brillantor."
 
-#~ msgid "Brightness up"
-#~ msgstr "Puja la brillantor"
-
 #~ msgid "Brightness up's shortcut."
 #~ msgstr "Drecera per a pujar la brillantor."
 
@@ -5453,21 +5258,14 @@ msgstr "Suprimeix dels elements del sistema"
 #~ msgid "Run in a _terminal"
 #~ msgstr "Executa en un _terminal"
 
-#~ msgid ""
-#~ "Select the window manager you want.  You will need to hit apply, wave the "
-#~ "magic wand, and do a magic dance for it to work."
-#~ msgstr ""
-#~ "Seleccioneu el gestor de finestres que vulgueu. Necessitareu fer clic a "
-#~ "«aplica», bellugar la vareta màgica i fer una dança màgica per a què "
-#~ "funcioni."
+#~ msgid "Select the window manager you want.  You will need to hit apply, wave the magic wand, and do a magic dance for it to work."
+#~ msgstr "Seleccioneu el gestor de finestres que vulgueu. Necessitareu fer clic a «aplica», bellugar la vareta màgica i fer una dança màgica per a què funcioni."
 
 #~ msgid "Understands _Netscape Remote Control"
 #~ msgstr "Pot entendre el Control Remot del _Netscape"
 
 #~ msgid "Use this _editor to open text files in the file manager"
-#~ msgstr ""
-#~ "Utilitza aquest _editor per a obrir fitxers de text en el gestor de "
-#~ "fitxers"
+#~ msgstr "Utilitza aquest _editor per a obrir fitxers de text en el gestor de fitxers"
 
 #~ msgid "Window Manager"
 #~ msgstr "Gestor de finestres"

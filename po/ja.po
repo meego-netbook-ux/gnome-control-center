@@ -2,26 +2,26 @@
 # Copyright (C) 1998-2008 Free Software Foundation, Inc.
 # Yukihiro Nakai <Nakai@abricot.co.jp>, 1998
 # Eiichiro ITANI <emu@ceres.dti.ne.jp>, 1999
-# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000, 2009, 2010.
+# Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>, 2000, 2009.
 # Akira TAGOH <tagoh@gnome.gr.jp>, 2001.
 # Takeshi AIHANA <takeshi.aihana@gmail.com>, 2003-2008.
 # KAMAGASAKO Masatoshi <emerald@gnome.gr.jp>, 2003.
 # Satoru SATOH <ss@gnome.gr.jp>, 2006.
-# Hideki Yamane (Debian-JP) <henrich@debian.or.jp>, 2009.
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"control-center&component=general\n"
-"POT-Creation-Date: 2010-02-28 12:07+0000\n"
-"PO-Revision-Date: 2010-02-28 23:02+0900\n"
-"Last-Translator: Takayuki KUSANO <AE5T-KSN@asahi-net.or.jp>\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2010-06-14 09:21+0000\n"
+"PO-Revision-Date: 2010-06-14 15:11-0800\n"
+"Last-Translator: \n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=n!=1\n"
+"X-Poedit-Language: Japanese\n"
+"X-Poedit-SourceCharset: utf-8\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -29,35 +29,23 @@ msgstr "現在のネットワークの場所"
 
 #: ../gnome-control-center.schemas.in.h:2
 msgid "More backgrounds URL"
-msgstr "背景を入手できるURL"
+msgstr "背景を入手できる URL"
 
 #: ../gnome-control-center.schemas.in.h:3
 msgid "More themes URL"
-msgstr "テーマを入手できるURL"
+msgstr "テーマを入手できる URL"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid ""
-"Set this to your current location name. This is used to determine the "
-"appropriate network proxy configuration."
-msgstr ""
-"これを現在の場所の名前にセットしてください。適切なネットワーク・プロキシの設"
-"定を決定するのに使われます。"
+msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
+msgstr "これを現在の場所の名前にセットしてください。適切なネットワーク・プロキシーの設定を決定するのに使われます。"
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid ""
-"URL for where to get more desktop backgrounds. If set to an empty string the "
-"link will not appear."
-msgstr ""
-"デスクトップの背景を入手できる場所のURLです。空文字列ならば、リンクは表示され"
-"ません。"
+msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
+msgstr "デスクトップの背景を入手できる場所のURLです。空文字列ならば、リンクは表示されません。"
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid ""
-"URL for where to get more desktop themes. If set to an empty string the link "
-"will not appear."
-msgstr ""
-"デスクトップのテーマを入手できる場所のURLです。空文字列ならば、リンクは表示さ"
-"れません。"
+msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
+msgstr "デスクトップのテーマを入手できる場所のURLです。空文字列ならば、リンクは表示されません。"
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -221,7 +209,8 @@ msgid "No Image"
 msgstr "画像なし"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:659
+#: ../capplets/appearance/cc-background-page.c:1171
 msgid "Images"
 msgstr "画像"
 
@@ -230,34 +219,49 @@ msgstr "画像"
 msgid "All Files"
 msgstr "全てのファイル"
 
-#: ../capplets/about-me/gnome-about-me.c:890
+#: ../capplets/about-me/gnome-about-me.c:909
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
 msgstr ""
 "アドレス帳の情報を取得する際にエラーが発生しました。\n"
-"Evolution データ・サーバでは扱えないプロトコルです。"
+"Evolution データサーバーでは扱えないプロトコルです。"
 
-#: ../capplets/about-me/gnome-about-me.c:911
+#: ../capplets/about-me/gnome-about-me.c:930
 msgid "Unable to open address book"
 msgstr "アドレス帳を開けません"
 
-#: ../capplets/about-me/gnome-about-me.c:934
+#: ../capplets/about-me/gnome-about-me.c:953
 #, c-format
 msgid "About %s"
 msgstr "\"%s\" さんの情報"
 
+#. TRANSLATORS: don't translate the terms in brackets
+#: ../capplets/about-me/gnome-about-me.c:1018
+#: ../capplets/display/xrandr-capplet.c:2436
+msgid "ID of the socket to embed in"
+msgstr "組み込むソケットの ID"
+
+#: ../capplets/about-me/gnome-about-me.c:1019
+#: ../capplets/display/xrandr-capplet.c:2437
+msgid "socket"
+msgstr "ソケット"
+
+#: ../capplets/about-me/gnome-about-me.c:1023
+msgid "- GNOME About Me"
+msgstr "- GNOME について"
+
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
 msgid "A_IM/iChat:"
-msgstr "AIM/iChat(_I):"
+msgstr "AIM/iChat(_I)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
 msgid "A_ddress:"
-msgstr "住所(_D):"
+msgstr "住所(_D)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:3
 msgid "A_ssistant:"
-msgstr "アシスタント(_S):"
+msgstr "アシスタント(_S)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
@@ -270,15 +274,15 @@ msgstr "住所"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
 msgid "C_ity:"
-msgstr "市(_I):"
+msgstr "市(_I)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
 msgid "C_ompany:"
-msgstr "会社(_O):"
+msgstr "会社(_O)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
 msgid "Cale_ndar:"
-msgstr "カレンダ(_N):"
+msgstr "カレンダー(_N)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
 msgid "Change Passwo_rd..."
@@ -286,11 +290,11 @@ msgstr "パスワードの変更(_R)..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
 msgid "Ci_ty:"
-msgstr "市(_T):"
+msgstr "市(_T)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
 msgid "Co_untry:"
-msgstr "国(_U):"
+msgstr "国(_U)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
 msgid "Contact"
@@ -298,7 +302,7 @@ msgstr "連絡先"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
 msgid "Cou_ntry:"
-msgstr "国(_N):"
+msgstr "国(_N)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
 msgid "Disable _Fingerprint Login..."
@@ -319,17 +323,16 @@ msgstr "氏名"
 #. Home vs Work (phone)
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:19
 msgid "Hom_e:"
-msgstr "自宅(_E):"
+msgstr "自宅(_E)："
 
 #. Home vs Work (address)
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:21
-#: ../libslab/bookmark-agent.c:1135
 msgid "Home"
 msgstr "ホーム"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:22
 msgid "IC_Q:"
-msgstr "ICQ(_Q):"
+msgstr "ICQ(_Q)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
 msgid "Instant Messaging"
@@ -341,15 +344,15 @@ msgstr "仕事"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
 msgid "M_SN:"
-msgstr "MSN(_S):"
+msgstr "MSN(_S)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:26
 msgid "P.O. _box:"
-msgstr "郵便番号(_B):"
+msgstr "郵便番号(_B)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
 msgid "P._O. box:"
-msgstr "郵便番号(_O):"
+msgstr "郵便番号(_O)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
 msgid "Personal Info"
@@ -361,7 +364,7 @@ msgstr "写真を選択して下さい"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
 msgid "State/Pro_vince:"
-msgstr "県/州(_V):"
+msgstr "県/州(_V)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:31
 msgid "Telephone"
@@ -369,19 +372,20 @@ msgstr "電話"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
 msgid "User name:"
-msgstr "ユーザ名:"
+msgstr "ユーザー名："
 
+# should stay in ENU
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
 msgid "Web"
-msgstr "ウェブ"
+msgstr "Web"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
 msgid "Web _log:"
-msgstr "ブログ(_L):"
+msgstr "ブログ(_L)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
 msgid "Wor_k:"
-msgstr "仕事(_K):"
+msgstr "仕事(_K)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
 msgid "Work"
@@ -389,76 +393,75 @@ msgstr "仕事"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
 msgid "Work _fax:"
-msgstr "仕事の FAX 番号(_F):"
+msgstr "仕事の FAX 番号(_F)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:38
 msgid "Zip/_Postal code:"
-msgstr "郵便番号(_P):"
+msgstr "郵便番号(_P)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:39
 msgid "_Address:"
-msgstr "住所(_A):"
+msgstr "住所(_A)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
 msgid "_Department:"
-msgstr "担当部署(_D):"
+msgstr "担当部署(_D)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
 msgid "_Groupwise:"
-msgstr "Groupwise(_G):"
+msgstr "Groupwise(_G)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
 msgid "_Home page:"
-msgstr "ホームページ(_H):"
+msgstr "ホームページ(_H)："
 
 #. Home vs Work (email)
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
 msgid "_Home:"
-msgstr "自宅(_H):"
+msgstr "自宅(_H)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:45
 msgid "_Jabber:"
-msgstr "Jabber(_J):"
+msgstr "Jabber(_J)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
 msgid "_Manager:"
-msgstr "マネージャ(_M):"
+msgstr "マネージャ(_M)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:47
 msgid "_Mobile:"
-msgstr "携帯(_M):"
+msgstr "携帯(_M)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
 msgid "_Profession:"
-msgstr "職業(_P):"
+msgstr "職業(_P)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
 msgid "_State/Province:"
-msgstr "県/州(_S):"
+msgstr "県/州(_S)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
 msgid "_Title:"
-msgstr "役職(_T):"
+msgstr "役職(_T)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:51
 msgid "_Work:"
-msgstr "仕事(_W):"
+msgstr "仕事(_W)："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:52
 msgid "_Yahoo:"
-msgstr "Yahoo(_Y):"
+msgstr "_Yahoo："
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:53
 msgid "_Zip/Postal code:"
-msgstr "郵便番号(_Z):"
+msgstr "郵便番号(_Z)："
 
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:2
 msgid "Set your personal information"
 msgstr "自分の情報を管理します"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid ""
-"You are not allowed to access the device. Contact your system administrator."
+msgid "You are not allowed to access the device. Contact your system administrator."
 msgstr "デバイスにはアクセスできません (システム管理者に連絡して下さい)"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
@@ -478,9 +481,7 @@ msgid "_Delete Fingerprints"
 msgstr "削除する(_D)"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid ""
-"Do you want to delete your registered fingerprints so fingerprint login is "
-"disabled?"
+msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
 msgstr "登録済みの指紋情報を削除して指紋認証を無効にしますか？"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:356
@@ -524,12 +525,8 @@ msgstr "指紋認証を有効にする"
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
-msgid ""
-"To enable fingerprint login, you need to save one of your fingerprints, "
-"using the '%s' device."
-msgstr ""
-"指紋認証を有効にするには、'%s' のデバイスを使って、あなたの指紋を登録する必要"
-"があります。"
+msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
+msgstr "指紋認証を有効にするには、'%s' のデバイスを使って、あなたの指紋を登録する必要があります。"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:590
 msgid "Swipe finger on reader"
@@ -588,12 +585,8 @@ msgid "Select finger"
 msgstr "指の選択"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid ""
-"Your fingerprint was successfully saved. You should now be able to log in "
-"using your fingerprint reader."
-msgstr ""
-"あなたの指紋を登録しました。今から指紋を読み取るリーダーを使ってログインでき"
-"るようになりました。"
+msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
+msgstr "あなたの指紋を登録しました。今から指紋を読み取るリーダーを使ってログインできるようになりました。"
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
@@ -602,12 +595,12 @@ msgstr "子プロセスが強制終了しました"
 #: ../capplets/about-me/gnome-about-me-password.c:296
 #, c-format
 msgid "Could not shutdown backend_stdin IO channel: %s"
-msgstr "バックエンドの標準入力 IO チャンネルを終了できませんでした: %s"
+msgstr "バックエンドの標準入力 IO チャンネルを終了できませんでした：%s"
 
 #: ../capplets/about-me/gnome-about-me-password.c:309
 #, c-format
 msgid "Could not shutdown backend_stdout IO channel: %s"
-msgstr "バックエンドの標準出力 IO チャンネルを終了できませんでした: %s"
+msgstr "バックエンドの標準出力 IO チャンネルを終了できませんでした：%s"
 
 #: ../capplets/about-me/gnome-about-me-password.c:408
 msgid "Authenticated!"
@@ -620,85 +613,78 @@ msgstr "認証が完了しました！"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
-msgstr ""
-"初めて認証を行ってから既にパスワードが変更されています。もう一度パスワードを"
-"入力して認証し直して下さい。"
+#: ../capplets/about-me/gnome-about-me-password.c:550
+msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
+msgstr "初めて認証を行ってから既にパスワードが変更されています。もう一度パスワードを入力して認証し直して下さい。"
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
 msgstr "そのパスワードは間違っています。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:523
 msgid "Your password has been changed."
 msgstr "パスワードが変更されています。"
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:533
 #, c-format
 msgid "System error: %s."
-msgstr "システム・エラーです: %s"
+msgstr "システムエラーです：%s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:536
 msgid "The password is too short."
 msgstr "パスワードが短すぎます。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:539
 msgid "The password is too simple."
 msgstr "パスワードが簡単すぎます。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The old and new passwords are too similar."
 msgstr "両方のパスワードが類似しています。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:544
 msgid "The new password must contain numeric or special character(s)."
 msgstr "新しいパスワードには数字または特殊文字を含めるようにして下さい。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:547
 msgid "The old and new passwords are the same."
 msgstr "両方のパスワードが同じです。"
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:818
 #, c-format
 msgid "Unable to launch %s: %s"
-msgstr "%s を起動できません: %s"
+msgstr "%s を起動できません：%s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:822
 msgid "Unable to launch backend"
 msgstr "バンクエンドのプログラムを起動できません"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:823
 msgid "A system error has occurred"
-msgstr "システム・エラーが発生しました"
+msgstr "システムエラーが発生しました"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:843
 msgid "Checking password..."
 msgstr "パスワードの確認中..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:930
 msgid "Click <b>Change password</b> to change your password."
-msgstr ""
-"パスワードを変更する場合は<b>パスワードの変更</b>をクリックして下さい。"
+msgstr "パスワードを変更する場合は<b>パスワードの変更</b>をクリックして下さい。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:933
 msgid "Please type your password in the <b>New password</b> field."
-msgstr "パスワードを<b>新しいパスワード</b>のエントリに入力して下さい。"
+msgstr "パスワードを<b>新しいパスワード</b>のエントリーに入力して下さい。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:936
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid ""
-"Please type your password again in the <b>Retype new password</b> field."
-msgstr ""
-"もう一度パスワードを<b>新しいパスワードの確認</b>エントリに入力して下さい。"
+msgid "Please type your password again in the <b>Retype new password</b> field."
+msgstr "もう一度パスワードを<b>新しいパスワードの確認</b>エントリーに入力して下さい。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:939
 msgid "The two passwords are not equal."
 msgstr "パスワードが一致しませんでした。"
 
@@ -707,6 +693,7 @@ msgid "Change pa_ssword"
 msgstr "パスワードの変更(_S)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "パスワードの変更"
 
@@ -716,19 +703,15 @@ msgstr "パスワードの変更"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:4
 msgid "Current _password:"
-msgstr "現在のパスワード(_P):"
+msgstr "現在のパスワード(_P)："
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and "
-"click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for "
-"verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
 msgstr ""
-"パスワードを変更する場合は、この下のエントリに現在のパスワードを入力して<b>認"
-"証</b>ボタンをクリックして下さい。\n"
-"認証後に新しいパスワードを入力し、もう一度パスワードを入力して妥当性を検証し"
-"てから<b>パスワードの変更</b>ボタンをクリックして下さい。"
+"パスワードを変更する場合は、この下のエントリーに現在のパスワードを入力して<b>認証</b>ボタンをクリックして下さい。\n"
+"認証後に新しいパスワードを入力し、もう一度パスワードを入力して妥当性を検証してから<b>パスワードの変更</b>ボタンをクリックして下さい。"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -736,18 +719,17 @@ msgstr "認証(_A)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:9
 msgid "_New password:"
-msgstr "新しいパスワード(_N):"
+msgstr "新しいパスワード(_N)："
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:10
 msgid "_Retype new password:"
-msgstr "パスワードの確認(_R):"
+msgstr "パスワードの確認(_R)："
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:1
 msgid "Accessible Lo_gin"
-msgstr "アクセシビリティ対応のログイン(_G)"
+msgstr "アクセシビリティー対応のログイン(_G)"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:2
-#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
 msgid "Assistive Technologies"
 msgstr "支援技術"
 
@@ -756,9 +738,7 @@ msgid "Assistive Technologies Preferences"
 msgstr "支援技術の設定"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid ""
-"Changes to enable assistive technologies will not take effect until your "
-"next log in."
+msgid "Changes to enable assistive technologies will not take effect until your next log in."
 msgstr "支援技術を有効にするには、もう一度ログインし直す必要があります。"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
@@ -771,15 +751,15 @@ msgstr "お気に入りのアプリを設定します"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:7
 msgid "Jump to the Accessible Login dialog"
-msgstr "アクセシビリティ対応のログイン・ダイアログを開きます"
+msgstr "アクセシビリティー対応のログインダイアログを開きます"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:8
 msgid "Jump to the Keyboard Accessibility dialog"
-msgstr "キーボードのアクセシビリティを設定します"
+msgstr "キーボードのアクセシビリティーを設定します"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:9
 msgid "Jump to the Mouse Accessibility dialog"
-msgstr "マウスのアクセシビリティを設定します"
+msgstr "マウスのアクセシビリティーを設定します"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:10
 msgid "Preferences"
@@ -791,76 +771,84 @@ msgstr "支援技術を有効にする(_E)"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:12
 msgid "_Keyboard Accessibility"
-msgstr "キーボードのアクセシビリティ(_K)"
+msgstr "キーボードのアクセシビリティー(_K)"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:13
 msgid "_Mouse Accessibility"
-msgstr "マウスのアクセシビリティ(_M)"
+msgstr "マウスのアクセシビリティー(_M)"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:14
 msgid "_Preferred Applications"
 msgstr "お気に入りのアプリ(_P)"
 
-#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Choose which accessibility features to enable when you log in"
-msgstr "ログインした時にアクセシビリティの機能を有効にするかどうかを選択します"
+#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
+msgid "Change settings in order to make the system easier to use"
+msgstr "システムを使い易くするために設定を変更する"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
+msgid "Universal Access"
+msgstr "ユニバーサル・アクセス"
+
+#: ../capplets/appearance/appearance-desktop.c:628
+#: ../capplets/appearance/cc-background-page.c:1136
 msgid "Add Wallpaper"
 msgstr "壁紙の追加"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:663
+#: ../capplets/appearance/cc-background-page.c:1176
 msgid "All files"
 msgstr "全てのファイル"
 
 #: ../capplets/appearance/appearance-font.c:494
+#: ../capplets/appearance/cc-font-page.c:320
 msgid "Font may be too large"
 msgstr "フォントが大きすぎるようです"
 
 #: ../capplets/appearance/appearance-font.c:498
+#: ../capplets/appearance/cc-font-page.c:324
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a size "
-"smaller than %d."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a size "
-"smaller than %d."
-msgstr[0] ""
-"選択したフォントの大きさは %dポイントですが、コンピュータで効果的に使用するの"
-"は困難です。%dより小さいフォントを選択することをお薦めします。"
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
+msgstr[0] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。%dポイントより小さいフォントを選択することをお薦めします。"
+msgstr[1] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。%dポイントより小さいフォントを選択することをお薦めします。"
 
 #: ../capplets/appearance/appearance-font.c:511
+#: ../capplets/appearance/cc-font-page.c:337
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a smaller "
-"sized font."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a smaller "
-"sized font."
-msgstr[0] ""
-"選択したフォントの大きさは %dポイントですが、コンピュータで効果的に使用するの"
-"は困難です。より小さいフォントを選択することをお薦めします。"
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
+msgstr[0] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。より小さいフォントを選択することをお薦めします。"
+msgstr[1] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。より小さいフォントを選択することをお薦めします。"
 
 #: ../capplets/appearance/appearance-font.c:534
+#: ../capplets/appearance/cc-font-page.c:360
 msgid "Use previous font"
 msgstr "以前のフォントを使用する"
 
 #: ../capplets/appearance/appearance-font.c:536
+#: ../capplets/appearance/cc-font-page.c:362
 msgid "Use selected font"
 msgstr "選択したフォントを使用する"
 
 #: ../capplets/appearance/appearance-main.c:54
+#: ../capplets/appearance/cc-background-page.c:1417
+#: ../capplets/appearance/cc-font-details-dialog.c:408
+#: ../capplets/appearance/cc-font-page.c:458
+#: ../capplets/appearance/cc-theme-customize-dialog.c:1203
+#: ../capplets/appearance/cc-theme-page.c:1350
+#: ../capplets/appearance/cc-theme-save-dialog.c:456
+#: ../capplets/display/cc-display-minimal-page.c:609
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/network/cc-network-proxy-page.c:1285
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
-msgstr "ユーザ・インタフェース・ファイルを読み込めませんでした: %s"
+msgstr "ユーザ・インタフェース・ファイルを読み込めませんでした：%s"
 
 #: ../capplets/appearance/appearance-main.c:133
 msgid "Specify the filename of a theme to install"
-msgstr "インストールするテーマ・ファイルを指定する"
+msgstr "インストールするテーマファイルを指定する"
 
 #: ../capplets/appearance/appearance-main.c:134
 msgid "filename"
@@ -872,8 +860,8 @@ msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr "表示するページの名前を指定する (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:142
-#: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/default-applications/gnome-da-capplet.c:962
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "PAGE"
 
@@ -881,91 +869,203 @@ msgstr "PAGE"
 msgid "[WALLPAPER...]"
 msgstr "[壁紙...]"
 
-#: ../capplets/appearance/appearance-style.c:172
-#: ../capplets/common/gnome-theme-info.c:446
-#: ../capplets/common/gnome-theme-info.c:638
+#: ../capplets/appearance/appearance-style.c:173
+#: ../capplets/appearance/cc-theme-customize-dialog.c:887
+#: ../libgnome-control-center-extension/gnome-theme-info.c:446
+#: ../libgnome-control-center-extension/gnome-theme-info.c:638
 msgid "Default Pointer"
-msgstr "デフォルトのポインタ"
+msgstr "デフォルトのポインター"
 
 #: ../capplets/appearance/appearance-style.c:235
 #: ../capplets/appearance/appearance-themes.c:685
+#: ../capplets/appearance/cc-theme-customize-dialog.c:188
+#: ../capplets/appearance/cc-theme-page.c:788
 msgid "Install"
 msgstr "インストール"
 
-#: ../capplets/appearance/appearance-style.c:256
-#: ../capplets/common/gnome-theme-info.c:1646
+#: ../capplets/appearance/appearance-style.c:255
+#: ../capplets/appearance/cc-theme-customize-dialog.c:210
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1646
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme engine "
-"'%s' is not installed."
-msgstr ""
-"このテーマを利用するには、別途 '%s' というウィンドウ・マネージャのテーマが必"
-"要です。"
+msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
+msgstr "このテーマを利用するには、別途 '%s' というウィンドウマネージャのテーマが必要です。"
 
 #: ../capplets/appearance/appearance-themes.c:673
+#: ../capplets/appearance/cc-theme-page.c:779
 msgid "Apply Background"
 msgstr "背景の適用"
 
 #: ../capplets/appearance/appearance-themes.c:677
+#: ../capplets/appearance/cc-theme-page.c:782
 msgid "Apply Font"
 msgstr "フォントの適用"
 
 #: ../capplets/appearance/appearance-themes.c:681
+#: ../capplets/appearance/cc-theme-page.c:785
 msgid "Revert Font"
 msgstr "元に戻す"
 
-#: ../capplets/appearance/appearance-themes.c:712
-msgid ""
-"The current theme suggests a background and a font. Also, the last applied "
-"font suggestion can be reverted."
-msgstr ""
-"このテーマには使用が推奨されている背景とフォントがあります。最後に適用した"
-"フォントから推奨フォントに戻すことも可能です。"
+#: ../capplets/appearance/appearance-themes.c:711
+#: ../capplets/appearance/cc-theme-page.c:815
+msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
+msgstr "このテーマには使用が推奨されている背景とフォントがあります。最後に適用したフォントから推奨フォントに戻すことも可能です。"
 
-#: ../capplets/appearance/appearance-themes.c:714
-msgid ""
-"The current theme suggests a background. Also, the last applied font "
-"suggestion can be reverted."
-msgstr ""
-"このテーマには使用が推奨されている背景があります。最後に適用したフォントから"
-"推奨フォントに戻すことも可能です。"
+#: ../capplets/appearance/appearance-themes.c:713
+#: ../capplets/appearance/cc-theme-page.c:818
+msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
+msgstr "このテーマには使用が推奨されている背景があります。最後に適用したフォントから推奨フォントに戻すことも可能です。"
 
-#: ../capplets/appearance/appearance-themes.c:716
+#: ../capplets/appearance/appearance-themes.c:715
+#: ../capplets/appearance/cc-theme-page.c:821
 msgid "The current theme suggests a background and a font."
 msgstr "このテーマは推奨する背景とフォントの情報を提供しています。"
 
-#: ../capplets/appearance/appearance-themes.c:718
-msgid ""
-"The current theme suggests a font. Also, the last applied font suggestion "
-"can be reverted."
-msgstr ""
-"このテーマには使用が推奨されているフォントがあります。最後に適用したフォント"
-"から推奨フォントに戻すことも可能です。"
+#: ../capplets/appearance/appearance-themes.c:717
+#: ../capplets/appearance/cc-theme-page.c:824
+msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
+msgstr "このテーマには使用が推奨されているフォントがあります。最後に適用したフォントから推奨フォントに戻すことも可能です。"
 
-#: ../capplets/appearance/appearance-themes.c:720
+#: ../capplets/appearance/appearance-themes.c:719
+#: ../capplets/appearance/cc-theme-page.c:826
 msgid "The current theme suggests a background."
 msgstr "このテーマは推奨する背景の情報を提供しています。"
 
-#: ../capplets/appearance/appearance-themes.c:722
+#: ../capplets/appearance/appearance-themes.c:721
+#: ../capplets/appearance/cc-theme-page.c:828
 msgid "The last applied font suggestion can be reverted."
 msgstr "最後に適用したフォントから推奨フォントに戻すことも可能です。"
 
-#: ../capplets/appearance/appearance-themes.c:724
+#: ../capplets/appearance/appearance-themes.c:723
+#: ../capplets/appearance/cc-theme-page.c:830
 msgid "The current theme suggests a font."
 msgstr "このテーマは推奨するフォントの情報を提供しています。"
 
-#: ../capplets/appearance/appearance-themes.c:1046
+#: ../capplets/appearance/appearance-themes.c:1045
+#: ../capplets/appearance/cc-theme-page.c:1374
 #: ../capplets/default-applications/gnome-da-capplet.c:691
 msgid "Custom"
 msgstr "その他"
 
-#: ../capplets/appearance/data/appearance.ui.h:1
-msgid "Appearance Preferences"
+#: ../capplets/appearance/cc-appearance-panel.c:209
+#: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
+msgid "Appearance"
 msgstr "外観の設定"
 
+#: ../capplets/appearance/cc-background-item.c:219
+#: ../capplets/appearance/gnome-wp-item.c:257
+msgid "Slide Show"
+msgstr "スライドショー"
+
+#: ../capplets/appearance/cc-background-item.c:221
+#: ../capplets/appearance/gnome-wp-item.c:259
+msgid "Image"
+msgstr "画像"
+
+#: ../capplets/appearance/cc-background-item.c:228
+#: ../capplets/appearance/gnome-wp-item.c:265
+msgid "multiple sizes"
+msgstr "複数のサイズ"
+
+#: ../capplets/appearance/cc-background-item.c:233
+#: ../capplets/appearance/cc-background-item.c:235
+#: ../capplets/appearance/gnome-wp-item.c:270
+#: ../capplets/appearance/gnome-wp-item.c:272
+msgid "pixel"
+msgid_plural "pixels"
+msgstr[0] "ピクセル"
+msgstr[1] "ピクセル"
+
+#. translators: <b>wallpaper name</b>
+#. * mime type, size
+#. * Folder: /path/to/file
+#.
+#: ../capplets/appearance/cc-background-item.c:243
+#: ../capplets/appearance/gnome-wp-item.c:280
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"Folder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"フォルダー：%s"
+
+#. translators: <b>wallpaper name</b>
+#. * Image missing
+#. * Folder: /path/to/file
+#.
+#: ../capplets/appearance/cc-background-item.c:255
+#: ../capplets/appearance/gnome-wp-item.c:292
+#, c-format
+msgid ""
+"<b>%s</b>\n"
+"%s\n"
+"Folder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s\n"
+"フォルダー：%s"
+
+#: ../capplets/appearance/cc-background-item.c:259
+#: ../capplets/appearance/gnome-wp-item.c:296
+msgid "Image missing"
+msgstr "イメージがありません"
+
+#: ../capplets/appearance/cc-background-item.c:350
+#: ../capplets/appearance/gnome-wp-info.c:50
+msgid "No Desktop Background"
+msgstr "デスクトップの背景ではありません"
+
+#: ../capplets/appearance/cc-background-page.c:1578
 #: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "背景"
+
+#: ../capplets/appearance/cc-font-details-dialog.c:598
+#: ../capplets/appearance/data/appearance.ui.h:14
+msgid "Font Rendering Details"
+msgstr "レンダリングの詳細"
+
+#: ../capplets/appearance/cc-font-page.c:592
+msgid "Font"
+msgstr "フォント"
+
+#: ../capplets/appearance/cc-theme-customize-dialog.c:1387
+#: ../capplets/appearance/data/appearance.ui.h:11
+msgid "Customize Theme"
+msgstr "テーマのカスタマイズ"
+
+#: ../capplets/appearance/cc-theme-page.c:1585
+#: ../capplets/appearance/data/appearance.ui.h:46
+msgid "Theme"
+msgstr "テーマ"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:165
+#: ../capplets/appearance/theme-save.c:93
+#, c-format
+msgid "Theme name must be present"
+msgstr "テーマの名前を指定して下さい"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:230
+#: ../capplets/appearance/theme-save.c:156
+msgid "The theme already exists. Would you like to replace it?"
+msgstr "既にテーマが存在していますが、置き換えてもよろしいですか？"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:232
+#: ../capplets/appearance/theme-save.c:157
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:450
+msgid "_Overwrite"
+msgstr "置き換える(_O)"
+
+#: ../capplets/appearance/cc-theme-save-dialog.c:537
+#: ../capplets/appearance/data/appearance.ui.h:30
+msgid "Save Theme As..."
+msgstr "テーマを別名で保存..."
+
+#: ../capplets/appearance/data/appearance.ui.h:1
+msgid "Appearance Preferences"
+msgstr "外観の設定"
 
 #: ../capplets/appearance/data/appearance.ui.h:3
 msgid "Best _shapes"
@@ -977,7 +1077,7 @@ msgstr "最適なコントラスト(_N)"
 
 #: ../capplets/appearance/data/appearance.ui.h:5
 msgid "C_olors:"
-msgstr "色(_O):"
+msgstr "色(_O)："
 
 #: ../capplets/appearance/data/appearance.ui.h:6
 msgid "C_ustomize..."
@@ -985,11 +1085,11 @@ msgstr "カスタマイズ(_U)..."
 
 #: ../capplets/appearance/data/appearance.ui.h:7
 msgid "Center"
-msgstr "中央"
+msgstr "中央寄せ"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
 msgid "Changing your cursor theme takes effect the next time you log in."
-msgstr "次回ログインするまで変更したカーソル・テーマは提供されません。"
+msgstr "次回ログインするまで変更したカーソルテーマは提供されません。"
 
 #: ../capplets/appearance/data/appearance.ui.h:9
 msgid "Colors"
@@ -999,21 +1099,13 @@ msgstr "色"
 msgid "Controls"
 msgstr "コントロール"
 
-#: ../capplets/appearance/data/appearance.ui.h:11
-msgid "Customize Theme"
-msgstr "テーマのカスタマイズ"
-
 #: ../capplets/appearance/data/appearance.ui.h:12
 msgid "D_etails..."
 msgstr "詳細(_E)..."
 
 #: ../capplets/appearance/data/appearance.ui.h:13
 msgid "Des_ktop font:"
-msgstr "デスクトップ(_K):"
-
-#: ../capplets/appearance/data/appearance.ui.h:14
-msgid "Font Rendering Details"
-msgstr "レンダリングの詳細"
+msgstr "デスクトップ(_K)："
 
 #: ../capplets/appearance/data/appearance.ui.h:15
 msgid "Fonts"
@@ -1049,7 +1141,7 @@ msgid "Icons only"
 msgstr "アイコンのみ"
 
 #: ../capplets/appearance/data/appearance.ui.h:24
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
 msgid "Large"
 msgstr "大きい"
 
@@ -1063,7 +1155,7 @@ msgstr "色を指定するダイアログを開きます"
 
 #: ../capplets/appearance/data/appearance.ui.h:27
 msgid "Pointer"
-msgstr "ポインタ"
+msgstr "ポインター"
 
 #: ../capplets/appearance/data/appearance.ui.h:28
 msgid "R_esolution:"
@@ -1073,10 +1165,6 @@ msgstr "解像度(_E):"
 msgid "Rendering"
 msgstr "描画の種類"
 
-#: ../capplets/appearance/data/appearance.ui.h:30
-msgid "Save Theme As..."
-msgstr "テーマを別名で保存..."
-
 #: ../capplets/appearance/data/appearance.ui.h:31
 msgid "Save _As..."
 msgstr "別名で保存(_A)..."
@@ -1085,13 +1173,12 @@ msgstr "別名で保存(_A)..."
 msgid "Save _background image"
 msgstr "背景も一緒に保存する(_B)"
 
-# FIXME
 #: ../capplets/appearance/data/appearance.ui.h:33
 msgid "Scale"
-msgstr "サイズ調整"
+msgstr "サイズ変更"
 
 #: ../capplets/appearance/data/appearance.ui.h:34
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Small"
 msgstr "小さい"
 
@@ -1104,175 +1191,162 @@ msgid "Solid color"
 msgstr "単色"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr ""
+msgid "Stretch"
+msgstr "拡大"
 
 #: ../capplets/appearance/data/appearance.ui.h:38
-msgid "Stretch"
-msgstr "引き伸ばす"
-
-#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel (LCDs)"
 msgstr "サブピクセル (LCDs)(_P)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "サブピクセルのスムージング (LCDs)(_P)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "サブピクセルの順番"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "文字列"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "アイコンの下にラベル"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "アイコンの横にラベル"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "ラベルのみ"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "このコントロールのテーマは色のスキーマをサポートしていません。"
 
 #: ../capplets/appearance/data/appearance.ui.h:47
-msgid "Theme"
-msgstr "テーマ"
-
-# FIXME
-#: ../capplets/appearance/data/appearance.ui.h:48
 msgid "Tile"
-msgstr "並べる"
+msgstr "タイル配置"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VBGR(_G)"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "縦方向にグラデーション"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "ウィンドウの境界"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "ズーム"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "追加(_A)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
-msgstr "アプリケーション(_A):"
+msgstr "アプリケーション(_A)："
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
-msgstr "BGR(_B)"
+msgstr "_BGR"
+
+#: ../capplets/appearance/data/appearance.ui.h:57
+msgid "_Description:"
+msgstr "説明(_D)："
 
 #: ../capplets/appearance/data/appearance.ui.h:58
-msgid "_Description:"
-msgstr "説明(_D):"
+msgid "_Document font:"
+msgstr "ドキュメント(_D)："
 
 #: ../capplets/appearance/data/appearance.ui.h:59
-msgid "_Document font:"
-msgstr "ドキュメント(_D):"
+msgid "_Fixed width font:"
+msgstr "固定幅のフォント(_F)："
 
 #: ../capplets/appearance/data/appearance.ui.h:60
-msgid "_Fixed width font:"
-msgstr "固定幅のフォント(_F):"
-
-#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Full"
 msgstr "全て(_F)"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
-msgstr "入力ボックス(_I):"
+msgstr "入力ボックス(_I)："
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "インストール(_I)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "中間(_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "モノクロ(_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
-msgstr "名前(_N):"
+msgstr "名前(_N)："
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "なし(_N)"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
-msgstr "RGB(_R)"
+msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "デフォルトに戻す(_R)"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
-msgstr "選択したアイテム(_S):"
+msgstr "選択したアイテム(_S)："
+
+#: ../capplets/appearance/data/appearance.ui.h:71
+msgid "_Size:"
+msgstr "サイズ(_S)："
 
 #: ../capplets/appearance/data/appearance.ui.h:72
-msgid "_Size:"
-msgstr "サイズ(_S):"
-
-#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Slight"
 msgstr "細身(_S)"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
-msgstr "スタイル(_S):"
+msgstr "スタイル(_S)："
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
-msgstr "ツールチップ(_T):"
+msgstr "ツールチップ(_T)："
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
-msgstr "VRGB(_V)"
+msgstr "_VRGB"
+
+#: ../capplets/appearance/data/appearance.ui.h:77
+msgid "_Window title font:"
+msgstr "ウィンドウのタイトル(_W)："
 
 #: ../capplets/appearance/data/appearance.ui.h:78
-msgid "_Window title font:"
-msgstr "ウィンドウのタイトル(_W):"
+msgid "_Windows:"
+msgstr "ウィンドゥ(_W)："
 
 #: ../capplets/appearance/data/appearance.ui.h:79
-msgid "_Windows:"
-msgstr "ウィンドウ(_W):"
-
-#: ../capplets/appearance/data/appearance.ui.h:80
 msgid "dots per inch"
 msgstr "ドット/インチ"
-
-#: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
-msgid "Appearance"
-msgstr "外観の設定"
 
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:2
 msgid "Customize the look of the desktop"
@@ -1280,8 +1354,7 @@ msgstr "デスクトップの見映えを設定します"
 
 #: ../capplets/appearance/data/gnome-theme-installer.desktop.in.in.h:1
 msgid "Installs themes packages for various parts of the desktop"
-msgstr ""
-"デスクトップのさまざまな部分に適用するテーマ・パッケージをインストールします"
+msgstr "デスクトップのさまざまな部分に適用するテーマパッケージをインストールします"
 
 #: ../capplets/appearance/data/gnome-theme-installer.desktop.in.in.h:2
 msgid "Theme Installer"
@@ -1289,63 +1362,7 @@ msgstr "テーマのインストーラ"
 
 #: ../capplets/appearance/data/gnome-theme-package.xml.in.h:1
 msgid "Gnome Theme Package"
-msgstr "GNOME のテーマ・パッケージ"
-
-#: ../capplets/appearance/gnome-wp-info.c:50
-msgid "No Desktop Background"
-msgstr "デスクトップの背景ではありません"
-
-#: ../capplets/appearance/gnome-wp-item.c:261
-msgid "Slide Show"
-msgstr "スライドショー"
-
-#: ../capplets/appearance/gnome-wp-item.c:263
-msgid "Image"
-msgstr "画像"
-
-#: ../capplets/appearance/gnome-wp-item.c:269
-msgid "multiple sizes"
-msgstr "複数のサイズ"
-
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
-msgid "pixel"
-msgid_plural "pixels"
-msgstr[0] "ピクセル"
-
-#. translators: <b>wallpaper name</b>
-#. * mime type, size
-#. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:284
-#, c-format
-msgid ""
-"<b>%s</b>\n"
-"%s, %s\n"
-"Folder: %s"
-msgstr ""
-"<b>%s</b>\n"
-"%s, %s\n"
-"フォルダ: %s"
-
-#. translators: <b>wallpaper name</b>
-#. * Image missing
-#. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:296
-#, c-format
-msgid ""
-"<b>%s</b>\n"
-"%s\n"
-"Folder: %s"
-msgstr ""
-"<b>%s</b>\n"
-"%s\n"
-"フォルダ: %s"
-
-#: ../capplets/appearance/gnome-wp-item.c:300
-msgid "Image missing"
-msgstr "画像がありません"
+msgstr "GNOME のテーマパッケージ"
 
 #: ../capplets/appearance/theme-installer.c:178
 #: ../capplets/appearance/theme-installer.c:234
@@ -1355,7 +1372,7 @@ msgstr "テーマをインストールできません"
 #: ../capplets/appearance/theme-installer.c:180
 #, c-format
 msgid "The %s utility is not installed."
-msgstr "%s というユーティリティがインストールされていません。"
+msgstr "%s というユーティリティーがインストールされていません。"
 
 #: ../capplets/appearance/theme-installer.c:236
 msgid "There was a problem while extracting the theme."
@@ -1372,12 +1389,8 @@ msgstr "\"%s\" はテーマとして妥当なファイルではないようで�
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid ""
-"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
-"you need to compile."
-msgstr ""
-"\"%s\" はテーマとして妥当なファイルではないようです (おそらくコンパイルが必要"
-"なテーマ・エンジンと思われます)。"
+msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
+msgstr "\"%s\" はテーマとして妥当なファイルではないようです (おそらくコンパイルが必要なテーマエンジンと思われます)。"
 
 #: ../capplets/appearance/theme-installer.c:372
 #, c-format
@@ -1416,7 +1429,7 @@ msgstr "新しいテーマのインストールが完了しました。"
 
 #: ../capplets/appearance/theme-installer.c:643
 msgid "No theme file location specified to install"
-msgstr "インストールするテーマ・ファイルのパス名が指定されていません"
+msgstr "インストールするテーマファイルのパス名が指定されていません"
 
 #: ../capplets/appearance/theme-installer.c:667
 #, c-format
@@ -1435,289 +1448,17 @@ msgstr "テーマの選択"
 msgid "Theme Packages"
 msgstr "テーマのパッケージ"
 
-#: ../capplets/appearance/theme-save.c:93
-#, c-format
-msgid "Theme name must be present"
-msgstr "テーマの名前を指定して下さい"
-
-#: ../capplets/appearance/theme-save.c:156
-msgid "The theme already exists. Would you like to replace it?"
-msgstr "既にテーマが存在していますが、置き換えてもよろしいですか？"
-
-#: ../capplets/appearance/theme-save.c:157
-#: ../capplets/common/file-transfer-dialog.c:450
-msgid "_Overwrite"
-msgstr "置き換える(_O)"
-
-#: ../capplets/appearance/theme-util.c:75
+#: ../capplets/appearance/theme-util.c:77
 msgid "Would you like to delete this theme?"
 msgstr "このテーマを削除しますか？"
 
-#: ../capplets/appearance/theme-util.c:125
+#: ../capplets/appearance/theme-util.c:127
 msgid "Theme cannot be deleted"
 msgstr "テーマを削除できません"
 
-#: ../capplets/appearance/theme-util.c:252
+#: ../capplets/appearance/theme-util.c:258
 msgid "Could not install theme engine"
-msgstr "テーマ・エンジンをインストールできません"
-
-#: ../capplets/common/activate-settings-daemon.c:16
-msgid ""
-"Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
-"settings manager."
-msgstr ""
-"GNOME 設定マネージャ ('gnome-settings-daemon') を起動することができません。\n"
-"設定マネージャを起動しないと、いくつかの設定が反映されません。これは DBus の"
-"問題、あるいは GNOME ではない (KDE などの) 別の設定マネージャが既に起動されて"
-"いて GNOME 設定マネージャと衝突していることが原因かもしれません。"
-
-#: ../capplets/common/capplet-stock-icons.c:66
-#, c-format
-msgid "Unable to load stock icon '%s'\n"
-msgstr "ストック・アイコンの '%s' を読み込めません\n"
-
-#: ../capplets/common/capplet-util.c:88
-#, c-format
-msgid "There was an error displaying help: %s"
-msgstr "次のヘルプを表示する際にエラーが発生しました: %s"
-
-#: ../capplets/common/file-transfer-dialog.c:98
-#, c-format
-msgid "Copying file: %u of %u"
-msgstr "ファイルのコピー中: %u / %u"
-
-#: ../capplets/common/file-transfer-dialog.c:145
-#, c-format
-msgid "Copying '%s'"
-msgstr "'%s' をコピーしています"
-
-#: ../capplets/common/file-transfer-dialog.c:185
-#: ../capplets/common/file-transfer-dialog.c:312
-msgid "Copying files"
-msgstr "ファイルのコピー"
-
-#: ../capplets/common/file-transfer-dialog.c:224
-msgid "Parent Window"
-msgstr "親ウィンドウ"
-
-#: ../capplets/common/file-transfer-dialog.c:225
-msgid "Parent window of the dialog"
-msgstr "ダイアログの親ウィンドウ"
-
-#: ../capplets/common/file-transfer-dialog.c:231
-msgid "From URI"
-msgstr "URI から"
-
-#: ../capplets/common/file-transfer-dialog.c:232
-msgid "URI currently transferring from"
-msgstr "現在 URI から転送中です"
-
-#: ../capplets/common/file-transfer-dialog.c:239
-msgid "To URI"
-msgstr "URI へ"
-
-#: ../capplets/common/file-transfer-dialog.c:240
-msgid "URI currently transferring to"
-msgstr "現在 URI へ転送中です"
-
-#: ../capplets/common/file-transfer-dialog.c:247
-msgid "Fraction completed"
-msgstr "一部完了しました"
-
-#: ../capplets/common/file-transfer-dialog.c:248
-msgid "Fraction of transfer currently completed"
-msgstr "転送の一部が完了しました"
-
-#: ../capplets/common/file-transfer-dialog.c:255
-msgid "Current URI index"
-msgstr "現在の URI インデックス"
-
-#: ../capplets/common/file-transfer-dialog.c:256
-msgid "Current URI index - starts from 1"
-msgstr "現在の URI インデックス - 1番目から開始します"
-
-#: ../capplets/common/file-transfer-dialog.c:263
-msgid "Total URIs"
-msgstr "URI の合計"
-
-#: ../capplets/common/file-transfer-dialog.c:264
-msgid "Total number of URIs"
-msgstr "URI の合計です"
-
-#: ../capplets/common/file-transfer-dialog.c:444
-#, c-format
-msgid "File '%s' already exists. Do you want to overwrite it?"
-msgstr "'%s' というファイルは既に存在しますが、置き換えますか？"
-
-#: ../capplets/common/file-transfer-dialog.c:447
-msgid "_Skip"
-msgstr "スキップする(_S)"
-
-#: ../capplets/common/file-transfer-dialog.c:448
-msgid "Overwrite _All"
-msgstr "全て置き換える(_A)"
-
-#: ../capplets/common/gconf-property-editor.c:134
-msgid "Key"
-msgstr "キー"
-
-#: ../capplets/common/gconf-property-editor.c:135
-msgid "GConf key to which this property editor is attached"
-msgstr "このプロパティ・エディタが取り込んだ GConf キーです"
-
-#: ../capplets/common/gconf-property-editor.c:141
-msgid "Callback"
-msgstr "コールバック"
-
-#: ../capplets/common/gconf-property-editor.c:142
-msgid "Issue this callback when the value associated with key gets changed"
-msgstr "GConf キーに対応する値が変更されたら呼び出されるコールバックです"
-
-#: ../capplets/common/gconf-property-editor.c:147
-msgid "Change set"
-msgstr "変更セット"
-
-#: ../capplets/common/gconf-property-editor.c:148
-msgid ""
-"GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr ""
-"Gconf クライアントに適用するために転送されるデータを含んだ変更セットです"
-
-#: ../capplets/common/gconf-property-editor.c:153
-msgid "Conversion to widget callback"
-msgstr "ウィジットに変換するコールバック"
-
-#: ../capplets/common/gconf-property-editor.c:154
-msgid ""
-"Callback to be issued when data are to be converted from GConf to the widget"
-msgstr ""
-"データが GConf からウィジットに変換される際に呼び出されるコールバックです"
-
-#: ../capplets/common/gconf-property-editor.c:159
-msgid "Conversion from widget callback"
-msgstr "ウィジットから変更するコールバック"
-
-#: ../capplets/common/gconf-property-editor.c:160
-msgid ""
-"Callback to be issued when data are to be converted to GConf from the widget"
-msgstr ""
-"データがウィジットから GConf へ変換される際に呼び出されるコールバックです"
-
-#: ../capplets/common/gconf-property-editor.c:165
-msgid "UI Control"
-msgstr "UI コントロール"
-
-#: ../capplets/common/gconf-property-editor.c:166
-msgid "Object that controls the property (normally a widget)"
-msgstr "プロパティを制御するオブジェクト (通常は一個のウィジット) です"
-
-#: ../capplets/common/gconf-property-editor.c:181
-msgid "Property editor object data"
-msgstr "プロパティ編集するオブジェクト・データ"
-
-#: ../capplets/common/gconf-property-editor.c:182
-msgid "Custom data required by the specific property editor"
-msgstr "指定したプロパティ・エディタに必要なカスタムデータです"
-
-#: ../capplets/common/gconf-property-editor.c:188
-msgid "Property editor data freeing callback"
-msgstr "プロパティ編集でデータを解放するコールバック"
-
-#: ../capplets/common/gconf-property-editor.c:189
-msgid "Callback to be issued when property editor object data is to be freed"
-msgstr "プロパティ編集でデータを解放する際に呼び出されるコールバックです"
-
-#: ../capplets/common/gconf-property-editor.c:1405
-#, c-format
-msgid ""
-"Couldn't find the file '%s'.\n"
-"\n"
-"Please make sure it exists and try again, or choose a different background "
-"picture."
-msgstr ""
-"ファイル '%s' が見つかりませんでした。\n"
-"\n"
-"そのファイルが存在しているか確認して再度実行するか、別の画像ファイルを選択し"
-"て下さい。"
-
-#: ../capplets/common/gconf-property-editor.c:1413
-#, c-format
-msgid ""
-"I don't know how to open the file '%s'.\n"
-"Perhaps it's a kind of picture that is not yet supported.\n"
-"\n"
-"Please select a different picture instead."
-msgstr ""
-"ファイル '%s' を開けません。\n"
-"おそらくサポートしていない画像の種類のようです。\n"
-"\n"
-"かわりに別の画像を選択して下さい。"
-
-#: ../capplets/common/gconf-property-editor.c:1533
-msgid "Please select an image."
-msgstr "画像を一つ選択して下さい。"
-
-#: ../capplets/common/gconf-property-editor.c:1538
-msgid "_Select"
-msgstr "選択(_S)"
-
-#: ../capplets/common/gnome-theme-info.c:639
-msgid "Default Pointer - Current"
-msgstr "デフォルトのポインタ - 使用中"
-
-#: ../capplets/common/gnome-theme-info.c:643
-msgid "White Pointer"
-msgstr "白いポインタ"
-
-#: ../capplets/common/gnome-theme-info.c:644
-msgid "White Pointer - Current"
-msgstr "白いポインタ - 使用中"
-
-#: ../capplets/common/gnome-theme-info.c:648
-msgid "Large Pointer"
-msgstr "大きなポインタ"
-
-#: ../capplets/common/gnome-theme-info.c:649
-msgid "Large Pointer - Current"
-msgstr "大きなポインタ - 使用中"
-
-#: ../capplets/common/gnome-theme-info.c:653
-msgid "Large White Pointer - Current"
-msgstr "大きな白いポインタ - 使用中"
-
-#: ../capplets/common/gnome-theme-info.c:654
-msgid "Large White Pointer"
-msgstr "大きな白いポインタ"
-
-#: ../capplets/common/gnome-theme-info.c:1622
-#, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme '%s' is "
-"not installed."
-msgstr ""
-"このテーマは、必要となる GTK+ のテーマ (%s) がインストールされていないため、"
-"意図したようには正しく表示されないでしょう。"
-
-#: ../capplets/common/gnome-theme-info.c:1630
-#, c-format
-msgid ""
-"This theme will not look as intended because the required window manager "
-"theme '%s' is not installed."
-msgstr ""
-"このテーマは、必要となるウィンドウ・マネージャのテーマ (%s) がインストールさ"
-"れていないため、意図したようには正しく表示されないでしょう。"
-
-#: ../capplets/common/gnome-theme-info.c:1637
-#, c-format
-msgid ""
-"This theme will not look as intended because the required icon theme '%s' is "
-"not installed."
-msgstr ""
-"このテーマは、必要となるアイコン・テーマ (%s) がインストールされていないた"
-"め、意図したようには正しく表示されないでしょう。"
+msgstr "テーマエンジンをインストールできません"
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
@@ -1752,11 +1493,11 @@ msgid "Please make sure that the applet is properly installed"
 msgstr "そのアプレットが適切にインストールされているか確認して下さい"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:959
+#: ../capplets/default-applications/gnome-da-capplet.c:961
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr "表示するページの名前を指定する (internet|multimedia|system|a11y)"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:964
+#: ../capplets/default-applications/gnome-da-capplet.c:967
 msgid "- GNOME Default Applications"
 msgstr "- GNOME のデフォルトのアプリ"
 
@@ -1764,28 +1505,25 @@ msgstr "- GNOME のデフォルトのアプリ"
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:1
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:1
 msgid "Accessibility"
-msgstr "アクセシビリティ"
+msgstr "アクセシビリティー"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:3
 #, no-c-format
 msgid "All %s occurrences will be replaced with actual link"
 msgstr "%s という文字は全て実際のリンクに置き換えられます"
 
-#.
-#. * vim: sw=2 ts=8 cindent noai bs=2
-#.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
-msgstr "コマンド(_O):"
+msgstr "コマンド(_O)："
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:5
 msgid "Co_mmand:"
-msgstr "コマンド(_M):"
+msgstr "コマンド(_M)："
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:6
 msgid "E_xecute flag:"
-msgstr "起動オプション(_X):"
+msgstr "起動オプション(_X)："
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:7
 msgid "Image Viewer"
@@ -1841,15 +1579,15 @@ msgstr "システム"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:21
 msgid "Terminal Emulator"
-msgstr "端末エミュレータ"
+msgstr "端末エミュレーター"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:22
 msgid "Text Editor"
-msgstr "テキスト・エディタ"
+msgstr "テキストエディター"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:23
 msgid "Video Player"
-msgstr "ビデオ・プレイヤー"
+msgstr "ビデオプレイヤー"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:24
 msgid "Visual"
@@ -1857,7 +1595,7 @@ msgstr "視覚支援"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:25
 msgid "Web Browser"
-msgstr "ウェブ・ブラウザ"
+msgstr "Web ブラウザー"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:26
 msgid "_Run at start"
@@ -2069,91 +1807,134 @@ msgstr "Totem 動画プレイヤー"
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:52
 msgid "aterm"
-msgstr "aterm"
+msgstr "ATerm"
+
+#: ../capplets/display/cc-display-minimal-page.c:330
+#: ../capplets/display/xrandr-capplet.c:2027
+msgid "Could not save the monitor configuration"
+msgstr "モニターの設定を保存できませんでした"
+
+#: ../capplets/display/cc-display-minimal-page.c:343
+#: ../capplets/display/xrandr-capplet.c:2038
+msgid "Could not get session bus while applying display configuration"
+msgstr "ディスプレイの設定を適用するセッション・バスの取得に失敗しました"
+
+#: ../capplets/display/cc-display-minimal-page.c:478
+#: ../capplets/display/cc-display-minimal-page.c:487
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "デスクトップはコンピューターの画面上にしか表示されていません。表示を共有するには別のディスプレイを接続し、上にあるディスプレイ共有機能を有効にします。"
+
+#: ../capplets/display/cc-display-minimal-page.c:496
+#: ../capplets/display/display-minimal.ui.h:4
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr "デスクトップを外部モニターまたはプロジェクターに表示しています。"
+
+#: ../capplets/display/cc-display-minimal-page.c:652
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr "ディスプレイとプロジェクター"
+
+#: ../capplets/display/cc-display-minimal-page.c:672
+#: ../capplets/display/xrandr-capplet.c:2297
+msgid "Could not get screen information"
+msgstr "スクリーンの情報を取得できませんでした"
+
+#: ../capplets/display/cc-display-panel.c:121
+#: ../capplets/display/display-properties.desktop.in.in.h:2
+msgid "Display"
+msgstr "ディスプレイ"
 
 #: ../capplets/display/display-capplet.ui.h:1
+msgid "Display Preferences"
+msgstr "ディスプレイの設定"
+
+#: ../capplets/display/display-capplet.ui.h:2
+msgid "Drag the monitors to set their place"
+msgstr "モニターをドラッグして場所を指定して下さい"
+
+#: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
 msgstr "パネルを含める(_P)"
 
-#: ../capplets/display/display-capplet.ui.h:2
-#: ../capplets/display/xrandr-capplet.c:305
+#: ../capplets/display/display-capplet.ui.h:4
+#: ../capplets/display/xrandr-capplet.c:308
 msgid "Left"
 msgstr "左回り"
 
-#: ../capplets/display/display-capplet.ui.h:3
-#: ../capplets/display/xrandr-capplet.c:508
-msgid "Monitor"
-msgstr "モニタ"
-
-#: ../capplets/display/display-capplet.ui.h:4
-msgid "Monitor Preferences"
-msgstr "モニタの設定"
-
 #: ../capplets/display/display-capplet.ui.h:5
-#: ../capplets/display/xrandr-capplet.c:304
-#: ../capplets/display/xrandr-capplet.c:343
+#: ../capplets/display/xrandr-capplet.c:511
+msgid "Monitor"
+msgstr "モニター"
+
+#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:346
 msgid "Normal"
 msgstr "標準"
 
-#: ../capplets/display/display-capplet.ui.h:6
+#: ../capplets/display/display-capplet.ui.h:7
 msgid "Off"
 msgstr "無効"
 
-#: ../capplets/display/display-capplet.ui.h:7
+#: ../capplets/display/display-capplet.ui.h:8
 msgid "On"
 msgstr "有効"
 
 # See also ja.po of mousetweak
-#: ../capplets/display/display-capplet.ui.h:8
+#: ../capplets/display/display-capplet.ui.h:9
 msgid "Panel icon"
 msgstr "パネルのアイコン"
 
-#: ../capplets/display/display-capplet.ui.h:9
+#: ../capplets/display/display-capplet.ui.h:10
 msgid "R_otation:"
 msgstr "回転(_O):"
 
-#: ../capplets/display/display-capplet.ui.h:10
+#: ../capplets/display/display-capplet.ui.h:11
 msgid "Re_fresh rate:"
 msgstr "リフレッシュ・レート(_F):"
 
-#: ../capplets/display/display-capplet.ui.h:11
-#: ../capplets/display/xrandr-capplet.c:306
+#: ../capplets/display/display-capplet.ui.h:12
+#: ../capplets/display/xrandr-capplet.c:309
 msgid "Right"
 msgstr "右回り"
-
-#: ../capplets/display/display-capplet.ui.h:12
-msgid "Sa_me image in all monitors"
-msgstr "すべてのモニタで同じ画像(_M)"
 
 #: ../capplets/display/display-capplet.ui.h:13
 msgid "Upside-down"
 msgstr "逆さま"
 
 #: ../capplets/display/display-capplet.ui.h:14
-msgid "_Detect monitors"
-msgstr "モニタの検出(_D)"
+msgid "_Detect Monitors"
+msgstr "モニターの検出(_D)"
 
 #: ../capplets/display/display-capplet.ui.h:15
+msgid "_Mirror screens"
+msgstr "複数の画面をミラーする(_M)"
+
+#: ../capplets/display/display-capplet.ui.h:16
 msgid "_Resolution:"
 msgstr "解像度(_R):"
 
-#: ../capplets/display/display-capplet.ui.h:16
-msgid "_Show monitors in panel"
-msgstr "モニタをパネルに表示する(_S)"
+#: ../capplets/display/display-capplet.ui.h:17
+msgid "_Show displays in panel"
+msgstr "この設定アイコンをパネルの中に表示する(_S)"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr "外部ディスプレイ"
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr "外部ディスプレイの解像度"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:1
-msgid "Change resolution and position of monitors"
-msgstr "モニタの解像度と位置を変更する"
+msgid "Change screen resolution"
+msgstr "画面の解像度を変更します"
 
-#: ../capplets/display/display-properties.desktop.in.in.h:2
-msgid "Monitors"
-msgstr "モニタ"
-
-#: ../capplets/display/xrandr-capplet.c:307
+#: ../capplets/display/xrandr-capplet.c:310
 msgid "Upside Down"
 msgstr "逆さま"
 
-#: ../capplets/display/xrandr-capplet.c:349
+#: ../capplets/display/xrandr-capplet.c:352
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
@@ -2163,173 +1944,32 @@ msgstr "%d Hz"
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:497
-#: ../capplets/display/xrandr-capplet.c:1628
+#: ../capplets/display/xrandr-capplet.c:500
+#: ../capplets/display/xrandr-capplet.c:1607
 msgid "Mirror Screens"
 msgstr "複数の画面をミラーする"
 
-#: ../capplets/display/xrandr-capplet.c:499
+#: ../capplets/display/xrandr-capplet.c:502
 #, c-format
 msgid "Monitor: %s"
-msgstr "モニタ: %s"
+msgstr "モニター: %s"
 
-#: ../capplets/display/xrandr-capplet.c:577
+#: ../capplets/display/xrandr-capplet.c:580
 #, c-format
 msgid "%d x %d"
 msgstr "%d x %d"
 
-#: ../capplets/display/xrandr-capplet.c:2046
-msgid "Could not save the monitor configuration"
-msgstr "モニタの設定を保存できませんでした"
-
-#: ../capplets/display/xrandr-capplet.c:2057
-msgid "Could not get session bus while applying display configuration"
-msgstr "ディスプレイの設定を適用するセッション・バスの取得に失敗しました"
-
-#: ../capplets/display/xrandr-capplet.c:2099
+#: ../capplets/display/xrandr-capplet.c:2080
 msgid "Could not detect displays"
 msgstr "ディスプレイを検出できませんでした"
 
-#: ../capplets/display/xrandr-capplet.c:2314
-msgid "Could not get screen information"
-msgstr "スクリーンの情報を取得できませんでした"
-
-#: ../capplets/display/xrandr-capplet.c:2385
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"設定を変更するモニタを選んでください。ドラッグして位置を調整してください。"
-
-#: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
-msgid "Sound"
-msgstr "サウンド"
-
-#: ../capplets/keybindings/01-desktop-key.xml.in.h:1
-#: ../libslab/bookmark-agent.c:1146
-msgid "Desktop"
-msgstr "デスクトップ"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:21
-msgid "New shortcut..."
-msgstr "新しいショートカット..."
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:163
-#: ../capplets/keybindings/eggcellrendererkeys.c:164
-msgid "Accelerator key"
-msgstr "アクセラレータ・キー"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:173
-#: ../capplets/keybindings/eggcellrendererkeys.c:174
-msgid "Accelerator modifiers"
-msgstr "アクセラレータの修飾キー"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:182
-#: ../capplets/keybindings/eggcellrendererkeys.c:183
-msgid "Accelerator keycode"
-msgstr "アクセラレータ・キーコード"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:193
-msgid "Accel Mode"
-msgstr "アクセラレータのモード"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:194
-msgid "The type of accelerator."
-msgstr "アクセラレータの種類です"
-
-#: ../capplets/keybindings/eggcellrendererkeys.c:242
-#: ../capplets/keybindings/gnome-keybinding-properties.c:119
-#: ../typing-break/drwright.c:431
-msgid "Disabled"
-msgstr "無効"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:200
-msgid "<Unknown Action>"
-msgstr "<不明な操作>"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:950
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1581
-msgid "Custom Shortcuts"
-msgstr "独自のショートカット"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1092
-msgid "Error saving the new shortcut"
-msgstr "新しいショートカットを保存する際にエラー"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1171
-#, c-format
-msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type "
-"using this key.\n"
-"Please try with a key such as Control, Alt or Shift at the same time."
-msgstr ""
-"このキーでは入力できないので \"%s\" というショートカット・キーは利用できませ"
-"ん。\n"
-"[Control] や [Alt] や [Shift] といった修飾キーを併用するようにして下さい。"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1201
-#, c-format
-msgid ""
-"The shortcut \"%s\" is already used for\n"
-"\"%s\""
-msgstr ""
-"\"%s\" というショートカットは既に登録済です:\n"
-"\"%s\""
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1207
-#, c-format
-msgid ""
-"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr ""
-"ショートカットを \"%s\" に変更すると、\"%s\" というショートカットが無効になり"
-"ます。"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1215
-msgid "_Reassign"
-msgstr "割り当てる(_R)"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1335
-#, c-format
-msgid "Error unsetting accelerator in configuration database: %s"
-msgstr "設定データベースのアクセラレータの設定を解除する際にエラー: %s"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1536
-msgid "Too many custom shortcuts"
-msgstr "独自のショートカットが多すぎます"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1832
-msgid "Action"
-msgstr "操作"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1854
-msgid "Shortcut"
-msgstr "ショートカット"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
-msgid "Custom Shortcut"
-msgstr "独自のショートカット"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
-#: ../capplets/keybindings/keybinding.desktop.in.in.h:2
-msgid "Keyboard Shortcuts"
-msgstr "キーボード・ショートカット"
-
-#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
-msgid ""
-"To edit a shortcut key, click on the corresponding row and type a new key "
-"combination, or press backspace to clear."
-msgstr ""
-"キーボード・ショートカットを編集する際は、対応する操作をクリックして新しい"
-"キーの組み合わせを押下して下さい ([BS] キーで取り消します)"
-
-#: ../capplets/keybindings/keybinding.desktop.in.in.h:1
-msgid "Assign shortcut keys to commands"
-msgstr "コマンドにショートカット・キーを割り当てます"
+#: ../capplets/display/xrandr-capplet.c:2443
+msgid "- GNOME Display Preferences"
+msgstr "- ディスプレイの設定"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:205
 #: ../capplets/keyboard/gnome-keyboard-properties.c:210
-msgid ""
-"Just apply settings and quit (compatibility only; now handled by daemon)"
+msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "設定を適用して終了する (互換性のみ; 現在はデーモン管理下)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:215
@@ -2340,7 +1980,7 @@ msgstr "入力中断設定を表示させてページを開始します"
 msgid "Start the page with the accessibility settings showing"
 msgstr "アクセシビリティの設定を表示させてページを開始します"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:225
 msgid "- GNOME Keyboard Preferences"
 msgstr "- キーボードの設定"
 
@@ -2386,8 +2026,8 @@ msgid "Flash entire _screen"
 msgstr "画面全体を点滅させる(_S)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "General"
 msgstr "全般"
 
@@ -2400,12 +2040,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "警告音を視覚的なフィードバックで表現する(_V)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "スロー・キー"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "スティッキー・キー"
 
@@ -2421,178 +2061,183 @@ msgstr "一休みの延長を許可する(_O)"
 msgid "Audio _Feedback..."
 msgstr "サウンドのフィードバック(_F)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "一休みの延長を可能にする場合は有効にして下さい"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "カーソルの点滅"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "テキスト・フィールドでカーソルを点滅させる(_B)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "カーソルが点滅する速さです"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+msgid "Custom Shortcut"
+msgstr "独自のショートカット"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "遅延(_E):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "二つのキーが同時に押下されたらステッキー・キーを無効にする(_B)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "入力を禁止して一休みする時間です"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "強制的に一休みに入るまでの時間です"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
 msgid "Fast"
 msgstr "速い"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "キーが押されたままにされたらリピートされたものとする(_R)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "キーボードの設定"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "キーボードの型式(_M):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
 msgid "Layouts"
 msgstr "レイアウト"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
-msgid ""
-"Lock screen after a certain duration to help prevent repetitive keyboard use "
-"injuries"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
 msgstr "キー入力のリピート防止のため一休み中は画面をロックします"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
 msgid "Long"
 msgstr "長い"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "マウス・キー"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
-msgid "Move _Down"
-msgstr "下に移動(_D)"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
-msgid "Move _Up"
-msgstr "上に移動(_U)"
-
-# FIXME
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
-msgid "New windows u_se active window's layout"
-msgstr "新しいウィンドウは有効なウィンドウレイアウトを使う(_S)"
+msgid "Move _Down"
+msgstr "下へ移動する(_D)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+msgid "Move _Up"
+msgstr "上へ移動する(_U)"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+msgid "New windows u_se active window's layout"
+msgstr "新規ウィンドウには有効なウィンドウのレイアウトを使用する(_S)"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "リピート・キー"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "押下したキーをリピートする際の速さです"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "デフォルトに戻す(_F)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "速度(_P):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
 msgid "Short"
 msgstr "短い"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
 msgid "Slow"
 msgstr "遅い"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
+msgstr "キーボード・ショートカットを編集する際は、対応する操作をクリックして新しいキーの組み合わせを押下して下さい ([BS] キーで取り消します)"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "一休み"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "_Acceleration:"
 msgstr "加速(_A):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "キーボードからアクセシビリティの機能を切り替えられるようにする(_A)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "一休みする時間(_B):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Delay:"
 msgstr "間隔(_D):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "重複したキーを素早く押下した場合は無視する(_I)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "一休みに入ったら強制的に画面をロックする(_L)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "長いキー押下のみ受け入れる(_O)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
-msgstr "オプション(_O)…"
+msgstr "オプション(_O)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
-msgstr "キーボードでポインタを制御できるようにする(_P)"
+msgstr "キーボードでポインターを制御できるようにする(_P)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
-msgstr "ウィンドウ毎にグループ化する"
+msgstr "ウィンドウ毎にレイアウトを分割する(_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "同時にキーを押下した状態を模擬する(_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "速度(_S):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "設定の確認(_T):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "一休みの警告を出すまでの時間(_W):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "分"
 
@@ -2640,6 +2285,114 @@ msgstr "ベンダー(_V):"
 msgid "Keyboard Layout Options"
 msgstr "キーボード・レイアウトのオプション"
 
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "キーボード"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
+#: ../typing-break/drwright.c:431
+msgid "Disabled"
+msgstr "無効"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
+msgid "<Unknown Action>"
+msgstr "<不明な操作>"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
+msgid "Custom Shortcuts"
+msgstr "独自のショートカット"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
+msgid "Error saving the new shortcut"
+msgstr "新しいショートカットを保存する際にエラー"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
+#, c-format
+msgid ""
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"Please try with a key such as Control, Alt or Shift at the same time."
+msgstr ""
+"このキーでは入力できないので \"%s\" というショートカット・キーは利用できません。\n"
+"[Control] や [Alt] や [Shift] といった修飾キーを併用するようにして下さい。"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
+#, c-format
+msgid ""
+"The shortcut \"%s\" is already used for\n"
+"\"%s\""
+msgstr ""
+"\"%s\" というショートカットは既に登録済です:\n"
+"\"%s\""
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
+#, c-format
+msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgstr "ショートカットを \"%s\" に変更すると、\"%s\" というショートカットが無効になります。"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
+msgid "_Reassign"
+msgstr "割り当てる(_R)"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
+#, c-format
+msgid "Error unsetting accelerator in configuration database: %s"
+msgstr "設定データベースのアクセラレータの設定を解除する際にエラー: %s"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
+msgid "Too many custom shortcuts"
+msgstr "独自のショートカットが多すぎます"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
+msgid "Action"
+msgstr "操作"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
+msgid "Shortcut"
+msgstr "ショートカット"
+
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
+msgid "Keyboard Shortcuts"
+msgstr "キーボード・ショートカット"
+
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
+msgid "Sound"
+msgstr "サウンド"
+
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
+msgid "Desktop"
+msgstr "デスクトップ"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
+msgid "New shortcut..."
+msgstr "新しいショートカット..."
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
+msgid "Accelerator key"
+msgstr "アクセラレータ・キー"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
+msgid "Accelerator modifiers"
+msgstr "アクセラレータの修飾キー"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
+msgid "Accelerator keycode"
+msgstr "アクセラレータ・キーコード"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
+msgid "Accel Mode"
+msgstr "アクセラレータのモード"
+
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
+msgid "The type of accelerator."
+msgstr "アクセラレータの種類です"
+
 #: ../capplets/keyboard/gnome-keyboard-properties-xkb.c:82
 msgid "Unknown"
 msgstr "不明"
@@ -2657,17 +2410,18 @@ msgid "Models"
 msgstr "型式"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
+#: ../capplets/network/cc-network-proxy-page.c:621
 #: ../capplets/network/gnome-network-properties.c:583
 msgid "Default"
 msgstr "デフォルト"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "キーボード"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "お使いのキーボードを設定します"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr "ポインティング・デバイス"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2700,11 +2454,11 @@ msgid "gesture|Disabled"
 msgstr "無効"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "表示するページの名前を指定する (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- 効果音の設定"
 
@@ -2725,97 +2479,93 @@ msgid "D_rag click:"
 msgstr "ドラッグ・クリック(_R):"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:8
-msgid "Disable _touchpad while typing"
-msgstr "タイプ中はタッチ・パッドを無効にする(_T)"
-
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
 msgid "Double-Click Timeout"
 msgstr "ダブル・クリックの間隔"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
 msgid "Drag and Drop"
 msgstr "ドラッグ＆ドロップ"
 
 # See also ja.po of mousetweak
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
 msgid "Dwell Click"
 msgstr "自動クリック"
 
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+msgid "Enable _horizontal scrolling"
+msgstr "水平スクロールを有効にする(_H)"
+
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
-msgid "Enable _mouse clicks with touchpad"
-msgstr "タッチ・パッドでのマウス・クリックを有効にする(_M)"
+msgid "Enable mouse _clicks with touchpad"
+msgstr "タッチ・パッドでのマウス・クリックを有効にする(_C)"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
-msgid "Enable h_orizontal scrolling"
-msgstr "水平スクロールを有効にする(_O)"
-
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "High"
 msgstr "高い"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
 msgid "Locate Pointer"
-msgstr "ポインタの位置"
+msgstr "ポインターの位置"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Low"
 msgstr "低い"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
 msgid "Mouse Orientation"
 msgstr "マウスの向き"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
 msgid "Mouse Preferences"
 msgstr "マウスの設定"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
 msgid "Pointer Speed"
-msgstr "ポインタの速度"
+msgstr "ポインターの速度"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
 msgid "Scrolling"
 msgstr "スクロール"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
 msgid "Seco_ndary click:"
 msgstr "第二のクリック(_N):"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
 msgid "Sh_ow position of pointer when the Control key is pressed"
-msgstr "[Control] キーを押下したらポインタの位置を通知する(_O)"
+msgstr "[Control] キーを押下したらポインターの位置を通知する(_O)"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Show click type _window"
 msgstr "種類を表すウィンドウを表示する(_W)"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
 msgid "Simulated Secondary Click"
 msgstr "第二のクリックの模擬"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
 msgid "Thr_eshold:"
 msgstr "しきい値(_E):"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid ""
-"To test your double-click settings, try to double-click on the light bulb."
-msgstr ""
-"ダブル・クリックの設定を確認する場合は電球をダブル・クリックしてみて下さい。"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
+msgid "To test your double-click settings, try to double-click on the light bulb."
+msgstr "ダブル・クリックの設定を確認する場合は電球をダブル・クリックしてみて下さい。"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
 msgid "Touchpad"
 msgstr "タッチ・パッド"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Two-_finger scrolling"
 msgstr "二指でのスクロール(_F)"
 
-#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr ""
-"自動クリックのパネル・アプレットを使ってクリックの種類を選択することも可能で"
-"す。"
+msgstr "自動クリックのパネル・アプレットを使ってクリックの種類を選択することも可能です。"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
+msgid "_Disable touchpad while typing"
+msgstr "タイプ中はタッチ・パッドを無効にする(_D)"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -2827,7 +2577,7 @@ msgstr "エッジ・スクロール(_E)"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:41
 msgid "_Initiate click when stopping pointer movement"
-msgstr "ポインタの移動を停止してクリックを始める(_I)"
+msgstr "ポインターの移動を停止してクリックを始める(_I)"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:42
 msgid "_Left-handed"
@@ -2865,14 +2615,30 @@ msgstr "マウス"
 msgid "Set your mouse preferences"
 msgstr "お使いのマウスの動きを設定します"
 
+#: ../capplets/network/cc-network-panel.c:114
+msgid "Network"
+msgstr "ネットワーク"
+
+#: ../capplets/network/cc-network-proxy-page.c:751
+#: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "新しい場所..."
 
+#: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "その場所は既に登録済みです"
+
+#. Locations
+#: ../capplets/network/cc-network-proxy-page.c:1305
+msgid "Delete Location"
+msgstr "場所の削除"
+
+#: ../capplets/network/cc-network-proxy-page.c:1545
+msgid "Proxy"
+msgstr "プロキシ"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
@@ -2883,108 +2649,249 @@ msgid "Set your network proxy preferences"
 msgstr "お使いのネットワーク・プロキシを設定します"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>インターネットに直接接続する(_R)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>自動的にプロキシの設定を行う(_A)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>マニュアルでプロキシの設定を行う(_M)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>認証を行う(_U)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "自動設定する URL(_U):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "作成する(_R)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "新しい場所の作成"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+msgid "Di_rect internet connection"
+msgstr "インターネットに直接接続する(_R)"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP プロキシの詳細"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "HTTP プロキシ(_T):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "無視するホストの一覧"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "無視するホスト"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "場所:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "ネットワーク・プロキシの設定"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "ポート:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "プロキシの設定"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "Socks ホスト(_O):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "その場所は既に登録済みです。"
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "ユーザ名(_S):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+msgid "_Automatic proxy configuration"
+msgstr "自動的にプロキシの設定を行う(_A)"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "場所の削除(_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "詳細(_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "FTP プロキシ(_F):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "場所の名前(_L):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+msgid "_Manual proxy configuration"
+msgstr "手動でプロキシの設定を行う(_M)"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "パスワード(_P):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "SSL プロキシ(_S):"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+msgid "_Use authentication"
+msgstr "認証を使用する(_U)"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "全てのプロトコルで同じプロキシを使う(_U)"
 
+#: ../capplets/security/run-passwd.c:427
+msgid "Authentication failed"
+msgstr "認証に失敗しました"
+
+#: ../capplets/security/run-passwd.c:503
+#, c-format
+msgid "The new password is too short"
+msgstr "新しいパスワードが短かすぎます"
+
+#: ../capplets/security/run-passwd.c:508
+#, c-format
+msgid "The new password is too simple"
+msgstr "パスワードが簡単すぎます"
+
+#: ../capplets/security/run-passwd.c:512
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "新旧のパスワードが類似しています。"
+
+#: ../capplets/security/run-passwd.c:515
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "新しいパスワードには数字または特殊文字を含めるようにして下さい"
+
+#: ../capplets/security/run-passwd.c:519
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "新旧のパスワードが同じです。"
+
+#: ../capplets/security/run-passwd.c:523
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "初めて認証を行ってから既にパスワードが変更されています。"
+
+#: ../capplets/security/run-passwd.c:527
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "新しいパスワードには十分な異なる文字が含まれていません"
+
+#: ../capplets/security/run-passwd.c:531
+#, c-format
+msgid "Unknown error"
+msgstr "原因不明のエラーです"
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr "パスワードが一致しません"
+
+#: ../capplets/security/cc-security-panel.c:179
+msgid "The new password is now saved"
+msgstr "パスワードが保存されていません"
+
+#: ../capplets/security/cc-security-panel.c:210
+msgid "Sorry, the password could not be changed"
+msgstr "パスワードを変更できませんでした"
+
+#: ../capplets/security/cc-security-panel.c:445
+msgid "Sorry, that password is incorrect"
+msgstr "そのパスワードは間違っています"
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr "セキュリティ"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+msgid "Security and passwords"
+msgstr "セキュリティとパスワード"
+
+#: ../capplets/security/security.ui.h:2
+msgid "Current password:"
+msgstr "現在のパスワード:"
+
+#: ../capplets/security/security.ui.h:3
+msgid "New password:"
+msgstr "新しいパスワード:"
+
+#: ../capplets/security/security.ui.h:4
+msgid "Repeat password:"
+msgstr "パスワードのリセット:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr "コンピューターを起動またはウェイクアップする場合にパスワードを要求する"
+
+#: ../capplets/security/security.ui.h:6
+msgid "Save new password"
+msgstr "新しいパスワードを保存する"
+
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+#: ../capplets/power/cc-power-panel.c:455
+msgid "Power and brightness"
+msgstr "電力と明るさ"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分"
+msgstr[1] "%d 分"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr "なし"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "明るさ"
+
+# after this string, there is a bar to set time, so the sentence should be translated as "... inactive for: <xxx minutes>"
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr "コンピューターをスリープさせるまでの非アクティブ時間："
+
+# after this string, there is a bar to set time, so the sentence should be translated as "... inactive for: <xxx minutes>"
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr "コンピューターがアイドル状態になるまでの非アクティブ時間："
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr "スリープ"
+
+# This explanation is for idle status.
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr "コンピューターがアイドル状態になると、画面がブランクになり、メッセージ状態が「離席中」になります。"
+
+# this is for sleep status
+#: ../capplets/power/power.ui.h:6
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "コンピューターがスリープ状態になると、コンピューター上のすべてがサスペンドになります。ウェイクアップすると、以前の状態に戻ります。"
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "明るさは、コンピューター上のキーを使用して変更してください。"
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr "アイドル"
+
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
-msgstr "お使いのウィンドウ・マネージャの設定ツールを起動できません"
+msgstr "ウィンドウマネージャのお気に入りアプリケーションを起動できません。"
 
 #: ../capplets/windows/gnome-window-properties.c:604
 msgid "_Alt"
@@ -2996,7 +2903,7 @@ msgstr "[Hyper] キー(_Y)"
 
 #: ../capplets/windows/gnome-window-properties.c:617
 msgid "S_uper (or \"Windows logo\")"
-msgstr "[Windows] /スーパー・キー(_U)"
+msgstr "[Windows] /スーパーキー(_U)"
 
 #: ../capplets/windows/gnome-window-properties.c:624
 msgid "_Meta"
@@ -3050,11 +2957,243 @@ msgstr "ウィンドウのプロパティを設定します"
 msgid "Windows"
 msgstr "ウィンドウ"
 
+#: ../libgnome-control-center-extension/activate-settings-daemon.c:16
+msgid ""
+"Unable to start the settings manager 'gnome-settings-daemon'.\n"
+"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
+msgstr ""
+"GNOME 設定マネージャ ('gnome-settings-daemon') を起動することができません。\n"
+"設定マネージャを起動しないと、いくつかの設定が反映されません。これは DBus の問題、あるいは GNOME ではない (KDE などの) 別の設定マネージャが既に起動されていて GNOME 設定マネージャと衝突していることが原因かもしれません。"
+
+#: ../libgnome-control-center-extension/capplet-stock-icons.c:66
+#, c-format
+msgid "Unable to load stock icon '%s'\n"
+msgstr "ストック・アイコンの '%s' を読み込めません\n"
+
+#: ../libgnome-control-center-extension/capplet-util.c:88
+#, c-format
+msgid "There was an error displaying help: %s"
+msgstr "次のヘルプを表示する際にエラーが発生しました: %s"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:98
+#, c-format
+msgid "Copying file: %u of %u"
+msgstr "ファイルのコピー中: %u / %u"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:145
+#, c-format
+msgid "Copying '%s'"
+msgstr "'%s' をコピーしています"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:185
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:312
+msgid "Copying files"
+msgstr "ファイルのコピー"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:224
+msgid "Parent Window"
+msgstr "親ウィンドウ"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:225
+msgid "Parent window of the dialog"
+msgstr "ダイアログの親ウィンドウ"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:231
+msgid "From URI"
+msgstr "URI から"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:232
+msgid "URI currently transferring from"
+msgstr "現在 URI から転送中です"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:239
+msgid "To URI"
+msgstr "URI へ"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:240
+msgid "URI currently transferring to"
+msgstr "現在 URI へ転送中です"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:247
+msgid "Fraction completed"
+msgstr "一部完了しました"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:248
+msgid "Fraction of transfer currently completed"
+msgstr "転送の一部が完了しました"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:255
+msgid "Current URI index"
+msgstr "現在の URI インデックス"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:256
+msgid "Current URI index - starts from 1"
+msgstr "現在の URI インデックス - 1番目から開始します"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:263
+msgid "Total URIs"
+msgstr "URI の合計"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:264
+msgid "Total number of URIs"
+msgstr "URI の合計です"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:444
+#, c-format
+msgid "File '%s' already exists. Do you want to overwrite it?"
+msgstr "'%s' というファイルは既に存在しますが、置き換えますか？"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:447
+msgid "_Skip"
+msgstr "スキップする(_S)"
+
+#: ../libgnome-control-center-extension/file-transfer-dialog.c:448
+msgid "Overwrite _All"
+msgstr "全て置き換える(_A)"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:136
+msgid "Key"
+msgstr "キー"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:137
+msgid "GConf key to which this property editor is attached"
+msgstr "このプロパティ・エディタが取り込んだ GConf キーです"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:143
+msgid "Callback"
+msgstr "コールバック"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:144
+msgid "Issue this callback when the value associated with key gets changed"
+msgstr "GConf キーに対応する値が変更されたら呼び出されるコールバックです"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:149
+msgid "Change set"
+msgstr "変更セット"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:150
+msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr "Gconf クライアントに適用するために転送されるデータを含んだ変更セットです"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:155
+msgid "Conversion to widget callback"
+msgstr "ウィジットに変換するコールバック"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:156
+msgid "Callback to be issued when data are to be converted from GConf to the widget"
+msgstr "データが GConf からウィジットに変換される際に呼び出されるコールバックです"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:161
+msgid "Conversion from widget callback"
+msgstr "ウィジットから変更するコールバック"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:162
+msgid "Callback to be issued when data are to be converted to GConf from the widget"
+msgstr "データがウィジットから GConf へ変換される際に呼び出されるコールバックです"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:167
+msgid "UI Control"
+msgstr "UI コントロール"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:168
+msgid "Object that controls the property (normally a widget)"
+msgstr "プロパティを制御するオブジェクト (通常は一個のウィジット) です"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:183
+msgid "Property editor object data"
+msgstr "プロパティ編集するオブジェクト・データ"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:184
+msgid "Custom data required by the specific property editor"
+msgstr "指定したプロパティ・エディタに必要なカスタムデータです"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:190
+msgid "Property editor data freeing callback"
+msgstr "プロパティ編集でデータを解放するコールバック"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:191
+msgid "Callback to be issued when property editor object data is to be freed"
+msgstr "プロパティ編集でデータを解放する際に呼び出されるコールバックです"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1407
+#, c-format
+msgid ""
+"Couldn't find the file '%s'.\n"
+"\n"
+"Please make sure it exists and try again, or choose a different background picture."
+msgstr ""
+"ファイル '%s' が見つかりませんでした。\n"
+"\n"
+"そのファイルが存在しているか確認して再度実行するか、別の画像ファイルを選択して下さい。"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1415
+#, c-format
+msgid ""
+"I don't know how to open the file '%s'.\n"
+"Perhaps it's a kind of picture that is not yet supported.\n"
+"\n"
+"Please select a different picture instead."
+msgstr ""
+"ファイル '%s' を開けません。\n"
+"おそらくサポートしていない画像の種類のようです。\n"
+"\n"
+"かわりに別の画像を選択して下さい。"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1535
+msgid "Please select an image."
+msgstr "画像を一つ選択して下さい。"
+
+#: ../libgnome-control-center-extension/gconf-property-editor.c:1540
+msgid "_Select"
+msgstr "選択(_S)"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:639
+msgid "Default Pointer - Current"
+msgstr "デフォルトのポインター： 使用中"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:643
+msgid "White Pointer"
+msgstr "白いポインター"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:644
+msgid "White Pointer - Current"
+msgstr "白いポインター： 使用中"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:648
+msgid "Large Pointer"
+msgstr "大きなポインター"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:649
+msgid "Large Pointer - Current"
+msgstr "大きなポインター： 使用中"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:653
+msgid "Large White Pointer - Current"
+msgstr "大きな白いポインター： 使用中"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:654
+msgid "Large White Pointer"
+msgstr "大きな白いポインター"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1622
+#, c-format
+msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
+msgstr "このテーマは、必要となる GTK+ のテーマ (%s) がインストールされていないため、意図したようには正しく表示されないでしょう。"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1630
+#, c-format
+msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
+msgstr "このテーマは、必要となるウィンドウ・マネージャのテーマ (%s) がインストールされていないため、意図したようには正しく表示されないでしょう。"
+
+#: ../libgnome-control-center-extension/gnome-theme-info.c:1637
+#, c-format
+msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
+msgstr "このテーマは、必要となるアイコン・テーマ (%s) がインストールされていないため、意図したようには正しく表示されないでしょう。"
+
 #: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
 msgid "Window manager \"%s\" has not registered a configuration tool\n"
-msgstr ""
-"お使いのウィンドウ・マネージャ \"%s\" には設定ツールが登録されていません。\n"
+msgstr "お使いのウィンドウ・マネージャ \"%s\" には設定ツールが登録されていません。\n"
 
 #: ../libwindow-settings/metacity-window-manager.c:404
 msgid "Maximize"
@@ -3079,32 +3218,6 @@ msgstr "巻き上げる"
 #: ../libwindow-settings/metacity-window-manager.c:409
 msgid "None"
 msgstr "何もしない"
-
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "キーが見つかりませんでした [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "実行時に非表示 (シェルをあらかじめ読み込む時に有効)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "フィルタ"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "グループ"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "よく利用するタスク"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "コントロール・センター"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3135,50 +3248,50 @@ msgid "Indicates whether to close the shell when a start action is performed."
 msgstr "タスクを起動したらシェルを閉じるかどうかです。"
 
 #: ../shell/control-center.schemas.in.h:8
-msgid ""
-"Indicates whether to close the shell when an add or remove action is "
-"performed."
+msgid "Indicates whether to close the shell when an add or remove action is performed."
 msgstr "追加または削除を行ったらシェルを閉じるかどうかです。"
 
 #: ../shell/control-center.schemas.in.h:9
-msgid ""
-"Indicates whether to close the shell when an upgrade or uninstall action is "
-"performed."
-msgstr ""
-"アップグレードまたはアンインストールを行ったらシェルを閉じるかどうかです。"
+msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
+msgstr "アップグレードまたはアンインストールを行ったらシェルを閉じるかどうかです。"
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
 msgstr "タスクの名前とそれに対応する .desktop ファイル"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid ""
-"The task name to be displayed in the control-center followed by a \";\" "
-"separator then the filename of an associated .desktop file to launch for "
-"that task."
-msgstr ""
-"コントロール・センターの中に表示するタスクの名前です。その後ろに \";\" で区"
-"切ってタスクを起動する際に使用する .desktop ファイルを指定します。"
+msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
+msgstr "コントロール・センターの中に表示するタスクの名前です。その後ろに \";\" で区切ってタスクを起動する際に使用する .desktop ファイルを指定します。"
 
 #. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid ""
-"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
-"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr ""
-"[外観の設定;gnome-appearance-properties.desktop,お気に入りのアプリ;default-"
-"applications.desktop,プリンタの追加;gnome-cups-manager.desktop]"
+msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr "[外観の設定;gnome-appearance-properties.desktop,お気に入りのアプリ;default-applications.desktop,プリンタの追加;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid ""
-"if true, the control-center will close when a \"Common Task\" is activated."
-msgstr ""
-"TRUE にすると、\"共通なタスク\" を起動するとコントロール・センターを閉じま"
-"す。"
+msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgstr "TRUE にすると、\"共通なタスク\" を起動するとコントロール・センターを閉じます。"
 
-#: ../shell/gnomecc.desktop.in.in.h:2
+#: ../shell/gnome-control-center.desktop.in.in.h:1
+msgid "Settings"
+msgstr "設定"
+
+#: ../shell/gnome-control-center.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "GNOME デスクトップの設定ツールです"
+
+#: ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "コントロール・センター"
+
+#: ../shell/shell.ui.h:1
+msgid "System Settings"
+msgstr "システム設定"
+
+# translation "all other settings entries" to fit in the UI situation. If it results in truncation, "all settings" 全設定項目(_A) can be used.
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr "その他すべての設定項目(_A)"
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3197,6 +3310,7 @@ msgstr "一休みする(_T)"
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "次の一休みまで %d分あります"
+msgstr[1] "次の一休みまで %d分あります"
 
 #: ../typing-break/drwright.c:444
 #, c-format
@@ -3205,11 +3319,8 @@ msgstr "次の一休みまで 1分を切りました"
 
 #: ../typing-break/drwright.c:526
 #, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"次のエラーにより \"キー入力の一休み設定ダイアログ\" を開けませんでした: %s"
+msgid "Unable to bring up the typing break properties dialog with the following error: %s"
+msgstr "次のエラーにより \"キー入力の一休み設定ダイアログ\" を開けませんでした: %s"
 
 #: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
@@ -3221,13 +3332,13 @@ msgstr "目玉のキャンディの提供: Anders Carlsson"
 
 #: ../typing-break/drwright.c:553
 msgid "A computer break reminder."
-msgstr "コンピュータの一休み催促ツールです。"
+msgstr "コンピューターの一休み催促ツールです。"
 
 #: ../typing-break/drwright.c:555
 msgid "translator-credits"
 msgstr ""
 "相花 毅 <takeshi.aihana@gmail.com>\n"
-"日本GNOMEユーザー会 http://www.gnome.gr.jp/"
+"日本GNOMEユーザー会 http://www.gnome.gr.jp"
 
 #: ../typing-break/main.c:61
 msgid "Enable debugging code"
@@ -3242,16 +3353,8 @@ msgid "Typing Monitor"
 msgstr "タイピングの監視"
 
 #: ../typing-break/main.c:105
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"GNOME 一休み催促ツールは情報を表示するために通知スペースを利用しますが、お使"
-"いのパネルには通知スペースが無いようです。通知スペースはパネルの上で右クリッ"
-"クして \"パネルへ追加\" を選択して、ダイアログから [通知スペース] のエントリ"
-"を選択して \"追加\" ボタンをクリックして下さい。"
+msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
+msgstr "GNOME 一休み催促ツールは情報を表示するために通知スペースを利用しますが、お使いのパネルには通知スペースが無いようです。通知スペースはパネルの上で右クリックして \"パネルへ追加\" を選択して、ダイアログから [通知スペース] のエントリを選択して \"追加\" ボタンをクリックして下さい。"
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -3270,28 +3373,20 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "TRUE にすると、Type1 のフォントをサムネイル表示します。"
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr ""
-"OpenType のフォントのサムネイルを生成する際に使用するコマンドを指定して下さ"
-"い。"
+msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr "OpenType のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。"
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr ""
-"PCF のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。"
+msgstr "PCF のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。"
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr ""
-"TrueType のフォントのサムネイルを生成する際に使用するコマンドを指定して下さ"
-"い。"
+msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr "TrueType のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。"
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr ""
-"Type1 のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。"
+msgstr "Type1 のフォントのサムネイルを生成する際に使用するコマンドを指定して下さい。"
 
 #: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
@@ -3341,11 +3436,13 @@ msgstr "種類:"
 msgid "Size:"
 msgstr "サイズ:"
 
-#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
+#: ../font-viewer/font-view.c:353
+#: ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "バージョン:"
 
-#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
+#: ../font-viewer/font-view.c:357
+#: ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr "著作権:"
 
@@ -3403,178 +3500,363 @@ msgstr "フォント・ファイル 出力先のファイル"
 msgid "Error parsing arguments: %s\n"
 msgstr "引数を解析する際にエラーが発生しました: %s\n"
 
-#: ../libslab/app-shell.c:754
-#, c-format
-msgid "Your filter \"%s\" does not match any items."
-msgstr "フィルタ \"%s\" が、どのアイテムともマッチしません"
+#~ msgid "- GNOME Network Preferences"
+#~ msgstr "- ネットワークの設定"
 
-#: ../libslab/app-shell.c:756
-msgid "No matches found."
-msgstr "どれもマッチしませんでした。"
+#~ msgid "Choose which accessibility features to enable when you log in"
+#~ msgstr ""
+#~ "ログインした時にアクセシビリティの機能を有効にするかどうかを選択します"
 
-#: ../libslab/app-shell.c:905
-msgid "Other"
-msgstr "その他"
+#~ msgid "Edit"
+#~ msgstr "編集"
 
-#. make start action
-#: ../libslab/application-tile.c:374
-#, c-format
-msgid "Start %s"
-msgstr "%sを起動する"
+#~ msgid "Fill screen"
+#~ msgstr "フルスクリーン"
 
-#: ../libslab/application-tile.c:395
-msgid "Help"
-msgstr "ヘルプ"
+#~ msgid "Interface"
+#~ msgstr "インタフェース"
 
-#: ../libslab/application-tile.c:442
-msgid "Upgrade"
-msgstr "アップグレード"
+#~ msgid "Menus and Toolbars"
+#~ msgstr "メニューとツールバー"
 
-#: ../libslab/application-tile.c:457
-msgid "Uninstall"
-msgstr "アンインストール"
+#~ msgid "Preview"
+#~ msgstr "プレビュー"
 
-#: ../libslab/application-tile.c:784 ../libslab/document-tile.c:721
-msgid "Remove from Favorites"
-msgstr "お気に入りから削除する"
+#~ msgid "Show _icons in menus"
+#~ msgstr "メニューの中にアイコンを表示する(_I)"
 
-#: ../libslab/application-tile.c:786 ../libslab/document-tile.c:723
-msgid "Add to Favorites"
-msgstr "お気に入りに追加する"
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "ツールバーのスタイル(_B):"
 
-#: ../libslab/application-tile.c:871
-msgid "Remove from Startup Programs"
-msgstr "自動起動するプログラムから削除する"
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "メニューのショートカット・キーを編集可能にする(_E)"
 
-#: ../libslab/application-tile.c:873
-msgid "Add to Startup Programs"
-msgstr "自動起動するプログラムに追加する"
+#~ msgid "_File"
+#~ msgstr "ファイル(_F)"
 
-#: ../libslab/bookmark-agent.c:1077
-msgid "New Spreadsheet"
-msgstr "新しいスプレッドシート"
+#~ msgid "Assign shortcut keys to commands"
+#~ msgstr "コマンドにショートカット・キーを割り当てます"
 
-#: ../libslab/bookmark-agent.c:1082
-msgid "New Document"
-msgstr "新しいドキュメント"
+#~ msgid "A_cceleration:"
+#~ msgstr "加速(_C):"
 
-#: ../libslab/bookmark-agent.c:1140
-msgid "Documents"
-msgstr "ドキュメント"
+#~ msgid "_Selected layouts:"
+#~ msgstr "レイアウトの選択(_S):"
 
-#: ../libslab/bookmark-agent.c:1153
-msgid "File System"
-msgstr "ファイルシステム"
+#~ msgid "C_ontrol"
+#~ msgstr "[CTRL] キー(_O)"
 
-#: ../libslab/bookmark-agent.c:1157
-msgid "Network Servers"
-msgstr "ネットワーク・サーバ"
+#~ msgid "key not found [%s]\n"
+#~ msgstr "キーが見つかりませんでした [%s]\n"
 
-#: ../libslab/bookmark-agent.c:1186
-msgid "Search"
-msgstr "検索する"
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "実行時に非表示 (シェルをあらかじめ読み込む時に有効)"
 
-#. make open with default action
-#: ../libslab/directory-tile.c:171
-#, c-format
-msgid "<b>Open</b>"
-msgstr "<b>開く</b>"
+#~ msgid "Filter"
+#~ msgstr "フィルタ"
 
-#. make rename action
-#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:234
-msgid "Rename..."
-msgstr "名前の変更..."
+#~ msgid "Groups"
+#~ msgstr "グループ"
 
-#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
-#: ../libslab/document-tile.c:248 ../libslab/document-tile.c:257
-msgid "Send To..."
-msgstr "送る..."
+#~ msgid "Common Tasks"
+#~ msgstr "よく利用するタスク"
 
-#. make move to trash action
-#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:283
-msgid "Move to Trash"
-msgstr "ゴミ箱へ移動する"
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "いろはにほへと ちりぬるを 0123456789"
 
-#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
-#: ../libslab/document-tile.c:293 ../libslab/document-tile.c:837
-msgid "Delete"
-msgstr "削除する"
+#~ msgid "Your filter \"%s\" does not match any items."
+#~ msgstr "フィルタ \"%s\" が、どのアイテムともマッチしません"
 
-#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:985
-#, c-format
-msgid "Are you sure you want to permanently delete \"%s\"?"
-msgstr "本当に \"%s\" を完全に削除してもよろしいですか？"
+#~ msgid "No matches found."
+#~ msgstr "どれもマッチしませんでした。"
 
-#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:986
-msgid "If you delete an item, it is permanently lost."
-msgstr "アイテムを削除してしまうと、元に戻すことはできません。"
+#~ msgid "Other"
+#~ msgstr "その他"
 
-#: ../libslab/document-tile.c:193
-#, c-format
-msgid "Open with \"%s\""
-msgstr "\"%s\" で開く"
+#~ msgid "Start %s"
+#~ msgstr "%sを起動する"
 
-#: ../libslab/document-tile.c:207
-msgid "Open with Default Application"
-msgstr "デフォルトのアプリで開く"
+#~ msgid "Help"
+#~ msgstr "ヘルプ"
 
-#: ../libslab/document-tile.c:218
-msgid "Open in File Manager"
-msgstr "ファイル・マネージャで開く"
+#~ msgid "Upgrade"
+#~ msgstr "アップグレード"
 
-#: ../libslab/document-tile.c:617
-msgid "?"
-msgstr "？"
+#~ msgid "Uninstall"
+#~ msgstr "アンインストール"
 
-#: ../libslab/document-tile.c:624
-msgid "%l:%M %p"
-msgstr "%p%l:%M"
+#~ msgid "Remove from Favorites"
+#~ msgstr "お気に入りから削除する"
 
-#: ../libslab/document-tile.c:632
-msgid "Today %l:%M %p"
-msgstr "今日の%p%l:%M"
+#~ msgid "Add to Favorites"
+#~ msgstr "お気に入りに追加する"
 
-#: ../libslab/document-tile.c:642
-msgid "Yesterday %l:%M %p"
-msgstr "昨日の%p%l:%M"
+#~ msgid "Remove from Startup Programs"
+#~ msgstr "自動起動するプログラムから削除する"
 
-#: ../libslab/document-tile.c:654
-msgid "%a %l:%M %p"
-msgstr "%p%l:%M (%a)"
+#~ msgid "Add to Startup Programs"
+#~ msgstr "自動起動するプログラムに追加する"
 
-#: ../libslab/document-tile.c:662
-msgid "%b %d %l:%M %p"
-msgstr "%B%e日 %p%l:%M"
+#~ msgid "New Spreadsheet"
+#~ msgstr "新しいスプレッドシート"
 
-#: ../libslab/document-tile.c:664
-msgid "%b %d %Y"
-msgstr "%Y年%B%e日"
+#~ msgid "New Document"
+#~ msgstr "新しいドキュメント"
 
-#: ../libslab/search-bar.c:255
-msgid "Find Now"
-msgstr "検索する"
+#~ msgid "Documents"
+#~ msgstr "ドキュメント"
 
-#: ../libslab/system-tile.c:127
-#, c-format
-msgid "<b>Open %s</b>"
-msgstr "<b>%s を開く</b>"
+#~ msgid "File System"
+#~ msgstr "ファイルシステム"
 
-#: ../libslab/system-tile.c:140
-#, c-format
-msgid "Remove from System Items"
-msgstr "システムのアイテムから削除する"
+#~ msgid "Network Servers"
+#~ msgstr "ネットワーク・サーバ"
 
-#~ msgid "Display Preferences"
-#~ msgstr "ディスプレイの設定"
+#~ msgid "<b>Open</b>"
+#~ msgstr "<b>開く</b>"
 
-#~ msgid "Drag the monitors to set their place"
-#~ msgstr "モニタをドラッグして場所を指定して下さい"
+#~ msgid "Rename..."
+#~ msgstr "名前の変更..."
 
-#~ msgid "_Mirror screens"
-#~ msgstr "複数の画面をミラーする(_M)"
+#~ msgid "Send To..."
+#~ msgstr "送る..."
 
-#~ msgid "Change screen resolution"
-#~ msgstr "画面の解像度を変更します"
+#~ msgid "Move to Trash"
+#~ msgstr "ゴミ箱へ移動する"
 
-#~ msgid "Display"
-#~ msgstr "ディスプレイ"
+#~ msgid "Delete"
+#~ msgstr "削除する"
+
+#~ msgid "Are you sure you want to permanently delete \"%s\"?"
+#~ msgstr "本当に \"%s\" を完全に削除してもよろしいですか？"
+
+#~ msgid "If you delete an item, it is permanently lost."
+#~ msgstr "アイテムを削除してしまうと、元に戻すことはできません。"
+
+#~ msgid "Open with \"%s\""
+#~ msgstr "\"%s\" で開く"
+
+#~ msgid "Open with Default Application"
+#~ msgstr "デフォルトのアプリで開く"
+
+#~ msgid "Open in File Manager"
+#~ msgstr "ファイル・マネージャで開く"
+
+#~ msgid "?"
+#~ msgstr "？"
+
+#~ msgid "%l:%M %p"
+#~ msgstr "%p%l:%M"
+
+#~ msgid "Today %l:%M %p"
+#~ msgstr "今日の%p%l:%M"
+
+#~ msgid "Yesterday %l:%M %p"
+#~ msgstr "昨日の%p%l:%M"
+
+#~ msgid "%a %l:%M %p"
+#~ msgstr "%p%l:%M (%a)"
+
+#~ msgid "%b %d %l:%M %p"
+#~ msgstr "%B%e日 %p%l:%M"
+
+#~ msgid "%b %d %Y"
+#~ msgstr "%Y年%B%e日"
+
+#~ msgid "Find Now"
+#~ msgstr "検索する"
+
+#~ msgid "<b>Open %s</b>"
+#~ msgstr "<b>%s を開く</b>"
+
+#~ msgid "Remove from System Items"
+#~ msgstr "システムのアイテムから削除する"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr "ログイン ID が不明です (ユーザ管理のデータベースが壊れているかも)"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "左の親指\n"
+#~ "左の中指\n"
+#~ "左の薬指\n"
+#~ "左の小指\n"
+#~ "右の親指\n"
+#~ "右の中指\n"
+#~ "右の薬指\n"
+#~ "右の小指"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>E-メール</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>自宅</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>仕事</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>ウェブのアドレス</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>仕事</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">パスワードの変更</span>"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>支援技術</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>各種設定</b>"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>色(_O)</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>プレビュー</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>デスクトップの背景(_D)</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "切り取り(_U)"
+
+#~ msgid "New File"
+#~ msgstr "新しいファイルです"
+
+#~ msgid "Open File"
+#~ msgstr "ファイルを開きます"
+
+#~ msgid "Save File"
+#~ msgstr "ファイルを保存します"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "単色\n"
+#~ "横方向にグラデーション\n"
+#~ "縦方向にグラデーション"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "アイコンの下にラベル\n"
+#~ "アイコンの横にラベル\n"
+#~ "アイコンのみ\n"
+#~ "ラベルのみ"
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "サイズ均等\n"
+#~ "ズーム\n"
+#~ "中央\n"
+#~ "サイズ変更\n"
+#~ "フルスクリーン"
+
+#~ msgid "_Copy"
+#~ msgstr "コピー(_C)"
+
+#~ msgid "_New"
+#~ msgstr "新規(_N)"
+
+#~ msgid "_Open"
+#~ msgstr "開く(_O)"
+
+#~ msgid "_Print"
+#~ msgstr "印刷(_P)"
+
+#~ msgid "_Quit"
+#~ msgstr "終了(_Q)"
+
+#~ msgid "_Save"
+#~ msgstr "保存(_S)"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "標準\n"
+#~ "左回り\n"
+#~ "右回り\n"
+#~ "逆さま\n"
+
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR_2"
+#~ msgstr " org.gnome.SettingsDaemon.XRANDR_2 を取得できませんでした"
+
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "org.gnome.SettingsDaemon.XRANDR を取得できませんでした"
+
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "指定した設定を適用できませんでした"
+
+#~ msgid "Could not get object to apply display configuration"
+#~ msgstr "ディスプレイの設定を適用するオブジェクトの取得に失敗しました"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>バウンス・キー</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>全般</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>速い</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>長い</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>短い</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>遅い</i></small>"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>ポインタの位置</b>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>高い</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>大きい</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>低い</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>小さい</i></small>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>無視するホストの一覧</b>"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>見つかりませんでした。</b> </span><span>\n"
+#~ "\n"
+#~ " 入力した \"<b>%s</b>\" に一致するアイテムはありません。</span>"
+
+#~ msgid "/_About"
+#~ msgstr "/情報(_A)"
