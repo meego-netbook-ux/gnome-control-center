@@ -373,6 +373,7 @@ capplets/network/gnome-network-properties.desktop.in
 capplets/windows/Makefile
 capplets/windows/window-properties.desktop.in
 capplets/date/Makefile
+capplets/language/Makefile
 font-viewer/Makefile
 font-viewer/gnome-font-viewer.desktop.in
 help/Makefile
