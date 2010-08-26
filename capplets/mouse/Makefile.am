@@ -1,9 +1,52 @@
+NULL =
+
 # This is used in GNOMECC_CAPPLETS_CFLAGS
 cappletname = mouse
 
+INCLUDES = 						\
+	$(GNOMECC_CAPPLETS_CFLAGS)			\
+	-I$(top_srcdir)/libgnome-control-center-extension	\
+	-DGNOMELOCALEDIR="\"$(datadir)/locale\""	\
+	-DGNOMECC_DATA_DIR="\"$(pkgdatadir)\""		\
+	-DGNOMECC_UI_DIR="\"$(uidir)\""			\
+	$(NULL)
+
 bin_PROGRAMS = gnome-mouse-properties
 
-gnome_mouse_properties_LDADD = $(GNOMECC_CAPPLETS_LIBS)
+ccmodulesdir = $(EXTENSIONSDIR)
+ccmodules_LTLIBRARIES = libpointer.la
+
+libpointer_la_SOURCES =			\
+	pointer-module.c		\
+	cc-pointer-panel.h		\
+	cc-pointer-panel.c		\
+	gnome-mouse-properties.c	\
+	gnome-mouse-properties.h	\
+	gnome-mouse-accessibility.c	\
+	gnome-mouse-accessibility.h	\
+	$(NULL)
+
+libpointer_la_LDFLAGS =			\
+	$(EXTENSION_LIBTOOL_FLAGS)	\
+	$(NULL)
+
+libpointer_la_LIBADD =			\
+	$(EXTENSION_LIBS)		\
+	$(EXTENSION_COMMON_LIBS)	\
+	$(GNOMECC_CAPPLETS_LIBS)	\
+	$(NULL)
+
+libpointer_la_CFLAGS =			\
+	$(EXTENSION_CFLAGS)		\
+	$(EXTENSION_COMMON_CFLAGS)	\
+	$(NULL)
+
+libpointer_la_LIBTOOLFLAGS = --tag=disable-static
+
+gnome_mouse_properties_LDADD = 		\
+	$(GNOMECC_CAPPLETS_LIBS)	\
+	$(NULL)
+
 gnome_mouse_properties_SOURCES =	\
 	gnome-mouse-properties.c	\
 	gnome-mouse-accessibility.c	\
@@ -24,11 +67,6 @@ desktopdir = $(datadir)/applications
 Desktop_in_files = gnome-settings-mouse.desktop.in
 desktop_DATA = $(Desktop_in_files:.desktop.in=.desktop)
 
-INCLUDES = \
-	$(GNOMECC_CAPPLETS_CFLAGS) \
-	-DGNOMELOCALEDIR="\"$(datadir)/locale\"" \
-	-DGNOMECC_DATA_DIR="\"$(pkgdatadir)\"" \
-	-DGNOMECC_UI_DIR="\"$(uidir)\""
 CLEANFILES = $(GNOMECC_CAPPLETS_CLEANFILES) $(Desktop_in_files) $(desktop_DATA)
 EXTRA_DIST = $(ui_DATA) $(pixmap_DATA)
 
