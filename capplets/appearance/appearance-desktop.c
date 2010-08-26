@@ -1034,6 +1034,13 @@ static void
 wp_select_after_realize (GtkWidget *widget,
                          AppearanceData *data)
 {
+  static gboolean setup_done = FALSE;
+
+  if (setup_done)
+    return;
+
+  setup_done = TRUE;
+
   GnomeWPItem *item;
 
   g_idle_add (wp_load_stuffs, data);
