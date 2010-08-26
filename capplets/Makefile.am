@@ -8,7 +8,8 @@ SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
-	windows
+	windows			\
+	date
 
 DIST_SUBDIRS = \
 	common			\
@@ -21,6 +22,7 @@ DIST_SUBDIRS = \
 	network			\
 	windows			\
 	display 		\
+	date			\
 	about-me
 
 
