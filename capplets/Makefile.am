@@ -1,16 +1,12 @@
 SUBDIRS = \
 	common			\
-	accessibility	\
 	appearance		\
-	default-applications	\
 	display			\
-	keybindings		\
 	keyboard		\
 	mouse			\
 	network			\
 	power			\
-	windows			\
-	date
+	date			\
 	language
 
 DIST_SUBDIRS = \
