@@ -22,9 +22,10 @@
  *	Rajkumar Sivasamy <rajkumar.siva@wipro.com>
  *	Taken bits of code from panel-stock-icons.c, Thanks Mark <mark@skynet.ie>
  */
+#include <config.h>
 
 #include <gtk/gtk.h>
-#include <glib/gi18n.h>
+#include <glib/gi18n-lib.h>
 
 #include "capplet-stock-icons.h"
 

@@ -5,7 +5,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <dirent.h>
-#include <glib/gi18n.h>
+#include <glib/gi18n-lib.h>
 #include <gmodule.h>
 #include <gtk/gtk.h>
 #include <gdk/gdkx.h>

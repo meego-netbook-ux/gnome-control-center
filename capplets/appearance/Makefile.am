@@ -33,7 +33,6 @@ AM_CFLAGS = -DGNOME_DESKTOP_USE_UNSTABLE_API
 
 gnome_appearance_properties_LDADD = \
 	$(top_builddir)/libwindow-settings/libgnome-window-settings.la \
-	$(top_builddir)/capplets/common/libcommon.la \
 	$(GNOMECC_CAPPLETS_LIBS) \
 	$(FONT_CAPPLET_LIBS) \
 	$(METACITY_LIBS)
@@ -51,7 +50,9 @@ INCLUDES = \
 	-DGNOMECC_DATA_DIR="\"$(pkgdatadir)\"" \
 	-DGNOMECC_GTKBUILDER_DIR="\"$(gtkbuilderdir)\"" \
 	-DGNOMECC_PIXMAP_DIR="\"$(pixmapdir)\"" \
-	-DWALLPAPER_DATADIR="\"$(wallpaperdir)\""
+	-DWALLPAPER_DATADIR="\"$(wallpaperdir)\"" \
+	-I$(top_srcdir)/libgnome-control-center-extension/ \
+	-DGNOME_DESKTOP_USE_UNSTABLE_API
 
 CLEANFILES = $(GNOMECC_CAPPLETS_CLEANFILES)
 

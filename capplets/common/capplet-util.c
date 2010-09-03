@@ -31,7 +31,7 @@
 #include <sys/types.h>
 #include <sys/stat.h>
 #include <unistd.h>
-#include <glib/gi18n.h>
+#include <glib/gi18n-lib.h>
 #include <stdlib.h>
 
 #include "capplet-util.h"

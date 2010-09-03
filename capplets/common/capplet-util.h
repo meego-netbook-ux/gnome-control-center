@@ -26,7 +26,6 @@
 
 #include <gio/gio.h>
 #include <gtk/gtk.h>
-#include <glib/gi18n.h>
 #include <gconf/gconf.h>
 #include <gconf/gconf-changeset.h>
 
