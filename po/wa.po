@@ -1,23 +1,24 @@
 # Traduction into the walloon language.
-# 
+#
 # Si vos voloz donner on côp di spale pol ratournaedje di Gnome (ou des
 # ôtes libes programes) sicrijhoz mu a l' adresse emile
 # <srtxg@chanae.alphanet.ch>; nos avons co bråmint di l' ovraedje a fé.
-# 
+#
 # Copyright (C) 1999 Free Software Foundation, Inc.
 # Pablo Saratxaga <srtxg@chanae.alphanet.ch> 1999-2002
-# 
+#
 # Lorint Hendschel <LorintHendschel@skynet.be> 1999,2000.
 # Lucyin Mahin <lucyin@walon.org>, 2000.
 # Jean Cayron <jean.cayron@gmail.com>, 2010.
+# Odile Lambert et Jean Cayron <jean.cayron@base.be>, 2010.
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 1.5.5\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2010-07-14 16:00+0000\n"
-"PO-Revision-Date: 2010-09-07 22:25+0200\n"
-"Last-Translator: Jean Cayron <jean.cayron@gmail.com>\n"
-"Language-Team: Walloon <linux-wa@walon.org>\n"
+"PO-Revision-Date: 2010-09-14 09:27+0200\n"
+"Last-Translator: Odile Lambert et Jean Cayron <jean.cayron@base.be>\n"
+"Language-Team: French <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -610,7 +611,7 @@ msgstr "Otintifyî !"
 #. This is a re-auth, and it failed.
 #. * The password must have been changed in the meantime!
 #. * Ask the user to re-authenticate
-#. 
+#.
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
@@ -979,7 +980,7 @@ msgstr[1] "picsels"
 #. translators: <b>wallpaper name</b>
 #. * mime type, size
 #. * Folder: /path/to/file
-#. 
+#.
 #: ../capplets/appearance/cc-background-item.c:243
 #: ../capplets/appearance/gnome-wp-item.c:280
 #, c-format
@@ -995,7 +996,7 @@ msgstr ""
 #. translators: <b>wallpaper name</b>
 #. * Image missing
 #. * Folder: /path/to/file
-#. 
+#.
 #: ../capplets/appearance/cc-background-item.c:255
 #: ../capplets/appearance/gnome-wp-item.c:292
 #, c-format
@@ -1854,7 +1855,7 @@ msgstr "Preferinces do håynaedje"
 
 #: ../capplets/display/display-capplet.ui.h:2
 msgid "Drag the monitors to set their place"
-msgstr "Bodjîz eyet satchîz les waitroûles po defini leu plaece"
+msgstr "Bodjîz eyet satchîz les waitroûles po defini leu-z eplaeçmint"
 
 #: ../capplets/display/display-capplet.ui.h:3
 msgid "Include _panel"
@@ -1946,7 +1947,7 @@ msgstr "%d Hz"
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#. 
+#.
 #: ../capplets/display/xrandr-capplet.c:500
 #: ../capplets/display/xrandr-capplet.c:1607
 msgid "Mirror Screens"
@@ -2051,7 +2052,7 @@ msgstr "Londjinnès tapes"
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
-msgstr "Aclapantès tapes"
+msgstr "Aclawåvès tapes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:16
 msgid "Visual cues for sounds"
@@ -2063,11 +2064,12 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
 msgid "Audio _Feedback..."
-msgstr ""
+msgstr "_Ritoû odio"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#, fuzzy
 msgid "Check if breaks are allowed to be postponed"
-msgstr ""
+msgstr "Waitî si"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 #, fuzzy
@@ -2094,7 +2096,7 @@ msgstr "Tårdja_edje :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
-msgstr ""
+msgstr "Dis_mete les aclawåvès tapes si deus tapes sont tchôkeyes eshonnes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
@@ -2118,14 +2120,12 @@ msgid "Keyboard Preferences"
 msgstr "Preferinces del taprece"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
-#, fuzzy
 msgid "Keyboard _model:"
-msgstr "Xhuflet del taprece"
+msgstr "_Modele del taprece :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
-#, fuzzy
 msgid "Layouts"
-msgstr "Adjinçmint"
+msgstr "Adjinçmints"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
@@ -2134,56 +2134,54 @@ msgstr ""
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:18
 msgid "Long"
-msgstr ""
+msgstr "Longue"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
-#, fuzzy
 msgid "Mouse Keys"
-msgstr "Sori"
+msgstr "Botons del sori"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
-msgstr ""
+msgstr "_Dischinde"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
-msgstr ""
+msgstr "_Monter"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
-msgstr ""
+msgstr "Les noveas purneas s' _siervèt di l' adjinçmint då purnea ovrant"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
-#, fuzzy
 msgid "Repeat Keys"
-msgstr "_Ripeter les tapes:"
+msgstr "Repeter les tapes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
-msgstr ""
+msgstr "Repeter l' raddisté des tapes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
-msgstr ""
+msgstr "Rimete come _prémetou"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
-msgstr "_Roedeu:"
+msgstr "_Raddisté :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:26
-#, fuzzy
 msgid "Short"
-msgstr "Rascourti"
+msgstr "Coûte"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:29
 msgid "Slow"
-msgstr ""
+msgstr "Londjinne"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#, fuzzy
 msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
-msgstr ""
+msgstr "Po candjî ene tape di rascourti, clitchîz sol roye corespondante eyet tapez on novele "
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
@@ -2196,7 +2194,7 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
-msgstr ""
+msgstr "On sait mete/dismete les fonccions d' _accessibilité  avou des rascourtis sol taprece"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
@@ -2217,24 +2215,23 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
-msgstr ""
+msgstr "N' accepter _ki les longs tchôcaedjes di tapes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
-#, fuzzy
 msgid "_Options..."
-msgstr "Accions"
+msgstr "_Tchuzes..."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
-msgstr ""
+msgstr "On n' sait controler l' _pwinteu avou l' keypad"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
-msgstr ""
+msgstr "Adjinçmint a _pårt po tchaeke purnea"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
-msgstr ""
+msgstr "_Forvey les tchôcaedjes di tapes e minme tins"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
@@ -2250,59 +2247,51 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
-msgstr ""
+msgstr "munutes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:1
-#, fuzzy
 msgid "By _country"
-msgstr "C_oleur:"
+msgstr "Pa _payis"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:2
 msgid "By _language"
-msgstr ""
+msgstr "Pa _lingaedje"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:3
 msgid "Choose a Layout"
-msgstr ""
+msgstr "Tchoezi èn adjinçmint"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:4
-#, fuzzy
 msgid "Preview:"
-msgstr "Vey divant"
+msgstr "Prévoeyaedje :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:5
-#, fuzzy
 msgid "_Country:"
-msgstr "C_oleur:"
+msgstr "_Payis :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:6
-#, fuzzy
 msgid "_Language:"
-msgstr "Manaedjeu di purneas"
+msgstr "_Lingaedje :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:7
-#, fuzzy
 msgid "_Variants:"
-msgstr "_Eprimî"
+msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:1
-#, fuzzy
 msgid "Choose a Keyboard Model"
-msgstr "Xhuflet del taprece"
+msgstr "Tchoezixhoz on modele di taprece"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:2
-#, fuzzy
 msgid "_Models:"
-msgstr "Modele"
+msgstr "_Modeles :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:3
 msgid "_Vendors:"
-msgstr ""
+msgstr "_Markes :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-options-dialog.ui.h:1
-#, fuzzy
 msgid "Keyboard Layout Options"
-msgstr "Rascourtis del taprece"
+msgstr "Tchuzes d' adjinçmint del taprece"
 
 #: ../capplets/keyboard/cc-keyboard-panel.c:181
 #: ../capplets/keyboard/cc-keyboard-page.c:203
@@ -2322,13 +2311,12 @@ msgstr "<Accion nén cnoxhowe>"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:953
 #: ../capplets/keyboard/cc-shortcuts-page.c:1588
-#, fuzzy
 msgid "Custom Shortcuts"
-msgstr "Rascourti"
+msgstr "Rascourtis da vosse"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
-msgstr ""
+msgstr "Åk n' a nén stî come dji schapéve li noû rascourti"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
@@ -2336,6 +2324,8 @@ msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
+"Dji n' sai nén eplyî l' rascourti « %s » pask' on n' sårè pus taper e s' siervant d' cisse tape la.\n"
+"Sayî d' vos siervi d' ene tape come Controle, Alt oudon-bén Maj e minme tins, s' i vs plait."
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
@@ -2343,24 +2333,26 @@ msgid ""
 "The shortcut \"%s\" is already used for\n"
 "\"%s\""
 msgstr ""
+"Li rascourti « %s »  est ddja eployî po\n"
+"« %s »"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
 msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr ""
+msgstr "Si vs raroyîz l' rascourti so « %s », li rascourti « %s » serè essocté."
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
-msgstr ""
+msgstr "_Raroyî"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1329
-#, c-format
+#, fuzzy, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
-msgstr ""
+msgstr "Åk n' a nén stî come dji disdefinixheu l'"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
-msgstr ""
+msgstr "I gn a trop d' rascourtis a vosse môde"
 
 #: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
@@ -2383,9 +2375,8 @@ msgid "Desktop"
 msgstr "Sicribanne"
 
 #: ../capplets/keyboard/eggcellrendererkeys.c:21
-#, fuzzy
 msgid "New shortcut..."
-msgstr "Rascourtis do _scribanne:"
+msgstr "Novea rascourti..."
 
 #: ../capplets/keyboard/eggcellrendererkeys.c:163
 #: ../capplets/keyboard/eggcellrendererkeys.c:164
@@ -2411,11 +2402,8 @@ msgid "The type of accelerator."
 msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkb.c:82
-#, fuzzy
 msgid "Unknown"
-msgstr ""
-"<b>Cursoe nén cnoxhou</b>\n"
-"%s"
+msgstr "Nén cnoxhou"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:241
 msgid "Layout"
@@ -2423,19 +2411,17 @@ msgstr "Adjinçmint"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:168
 msgid "Vendors"
-msgstr ""
+msgstr "Markes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:234
-#, fuzzy
 msgid "Models"
-msgstr "Modele"
+msgstr "Modeles"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
 #: ../capplets/network/cc-network-proxy-page.c:621
 #: ../capplets/network/gnome-network-properties.c:583
-#, fuzzy
 msgid "Default"
-msgstr "Prémetou betchteu waibe"
+msgstr "Prémetou"
 
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
@@ -2443,48 +2429,46 @@ msgstr "Defini vos preferinces pol taprece"
 
 #: ../capplets/mouse/cc-pointer-panel.c:102
 msgid "Pointing Devices"
-msgstr ""
+msgstr "Éndjins d' pwintaedje"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
 #: ../capplets/mouse/gnome-mouse-accessibility.c:89
 msgid "gesture|Move left"
-msgstr ""
+msgstr "Bodjî a hintche"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
 #: ../capplets/mouse/gnome-mouse-accessibility.c:94
 msgid "gesture|Move right"
-msgstr ""
+msgstr "Bodjî a droete"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
 #: ../capplets/mouse/gnome-mouse-accessibility.c:99
 msgid "gesture|Move up"
-msgstr ""
+msgstr "Monter"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
 #: ../capplets/mouse/gnome-mouse-accessibility.c:104
 msgid "gesture|Move down"
-msgstr ""
+msgstr "Dischinde"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
 #: ../capplets/mouse/gnome-mouse-accessibility.c:109
-#, fuzzy
 msgid "gesture|Disabled"
-msgstr "Dismetou"
+msgstr "Essocté"
 
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
-msgstr ""
+msgstr "Sipecifyîz l' no del pådje a mostrer"
 
 #: ../capplets/mouse/gnome-mouse-properties.c:618
-#, fuzzy
 msgid "- GNOME Mouse Preferences"
-msgstr "Preferinces pol sori"
+msgstr "- Preferinces di GNOME pol sori"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:2
 msgid "Choose type of click _beforehand"
@@ -2492,23 +2476,23 @@ msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:3
 msgid "Choose type of click with mo_use gestures"
-msgstr ""
+msgstr "Tchoezixhoz l' sôre di clitche avous les djesses del _sori"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:6
 msgid "D_ouble click:"
-msgstr ""
+msgstr "D_obe clitche :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:7
 msgid "D_rag click:"
-msgstr ""
+msgstr "Clitche di _bodjaedje et saetchaedje :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:8
 msgid "Double-Click Timeout"
-msgstr ""
+msgstr "Tårdjaedje do dobe-clitche"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:9
 msgid "Drag and Drop"
-msgstr ""
+msgstr "Bodjî eyet saetchî"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:10
 msgid "Dwell Click"
@@ -2516,28 +2500,27 @@ msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:11
 msgid "Enable _horizontal scrolling"
-msgstr ""
+msgstr "Mete èn alaedje li disrôlaedje d' _astampé"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
 msgid "Enable mouse _clicks with touchpad"
-msgstr ""
+msgstr "Mete èn alaedje les _clitches avou l' touchpad"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "High"
-msgstr ""
+msgstr "Hôt"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:17
 msgid "Locate Pointer"
-msgstr ""
+msgstr "Pwinteu coinrece"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Low"
-msgstr ""
+msgstr "Bas"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:20
-#, fuzzy
 msgid "Mouse Orientation"
-msgstr "<b>_Eployî l' otintifiaedje</b>"
+msgstr "Ashidaedje del sori"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:21
 msgid "Mouse Preferences"
@@ -2545,27 +2528,27 @@ msgstr "Preferinces pol sori"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:22
 msgid "Pointer Speed"
-msgstr ""
+msgstr "Raddisté do pwinteu"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:23
 msgid "Scrolling"
-msgstr ""
+msgstr "Disrôlaedje"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:24
 msgid "Seco_ndary click:"
-msgstr ""
+msgstr "Deu_jhine clitche :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:25
 msgid "Sh_ow position of pointer when the Control key is pressed"
-msgstr ""
+msgstr "Mostrer l' eplaeçmint do pwinteu cwand l' tape Contrôle est tchôkeye"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Show click type _window"
-msgstr ""
+msgstr "Mostrer l' _purnea del sôre di cliche"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:28
 msgid "Simulated Secondary Click"
-msgstr ""
+msgstr "Deujhinme clitche forveyou"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:31
 msgid "Thr_eshold:"
@@ -2577,11 +2560,11 @@ msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
 msgid "Touchpad"
-msgstr ""
+msgstr "Touchpad"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Two-_finger scrolling"
-msgstr ""
+msgstr "Disrôlaedje avou deus _doets"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:35
 msgid "You can also use the Dwell Click panel applet to choose the click type."
@@ -2589,24 +2572,23 @@ msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Disable touchpad while typing"
-msgstr ""
+msgstr "_Essocter l' touchpad cwand dji tape"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
-#, fuzzy
 msgid "_Disabled"
-msgstr "Dismetou"
+msgstr "_Essocté"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:40
 msgid "_Edge scrolling"
-msgstr ""
+msgstr "Disrôlaedje ås _boirdeurs"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:41
 msgid "_Initiate click when stopping pointer movement"
-msgstr ""
+msgstr "_Ataker l' clitche cwand ons arestêye di bodjî l' pwinteu"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:42
 msgid "_Left-handed"
-msgstr ""
+msgstr "_Gåtchî"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:43
 msgid "_Motion threshold:"
@@ -2614,23 +2596,23 @@ msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:44
 msgid "_Right-handed"
-msgstr ""
+msgstr "_Droetî"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:45
 msgid "_Sensitivity:"
-msgstr ""
+msgstr "_Sinsiûlisté :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:46
 msgid "_Single click:"
-msgstr ""
+msgstr "On _seu clitche :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:47
 msgid "_Timeout:"
-msgstr ""
+msgstr "As_ådje :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:48
 msgid "_Trigger secondary click by holding down the primary button"
-msgstr ""
+msgstr "(Dis)me_te li deujhinme clitche e wårdant l' prumî boton tchôkî"
 
 #: ../capplets/mouse/gnome-settings-mouse.desktop.in.in.h:1
 msgid "Mouse"
@@ -2641,97 +2623,85 @@ msgid "Set your mouse preferences"
 msgstr "Defini vos preferinces pol sori"
 
 #: ../capplets/network/cc-network-panel.c:114
-#, fuzzy
 msgid "Network"
-msgstr "Proxy pol rantoele"
+msgstr "Rantoele"
 
 #: ../capplets/network/cc-network-proxy-page.c:751
 #: ../capplets/network/cc-network-proxy-page.c:917
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
-#, fuzzy
 msgid "New Location..."
-msgstr "Accion"
+msgstr "Novea eplaeçmint..."
 
 #: ../capplets/network/cc-network-proxy-page.c:885
 #: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
-msgstr ""
+msgstr "L' eplaeçmint egzistêye dedja"
 
 #. Locations
 #: ../capplets/network/cc-network-proxy-page.c:1305
-#, fuzzy
 msgid "Delete Location"
-msgstr "Accion"
+msgstr "Disfacer l' eplaeçmint"
 
 #: ../capplets/network/cc-network-proxy-page.c:1545
-#, fuzzy
 msgid "Proxy"
-msgstr "Proxy _FTP:"
+msgstr "Procsi"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
-#, fuzzy
 msgid "Network Proxy"
-msgstr "Proxy pol rantoele"
+msgstr "Procsi d' rantoele"
 
 #: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
-#, fuzzy
 msgid "Set your network proxy preferences"
-msgstr "Preferinces pol proxy del rantoele"
+msgstr "Defini les rreferinces di vosse procsi d' rantoele"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
 msgid "Autoconfiguration _URL:"
 msgstr "_Hårdêye po l' apontiaedje otomatike:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:2
-#, fuzzy
 msgid "C_reate"
-msgstr "C_laper"
+msgstr "Ahive_r"
 
 #: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
-msgstr ""
+msgstr "Ahiver novea eplaeçmint"
 
 #: ../capplets/network/gnome-network-properties.ui.h:4
-#, fuzzy
 msgid "Di_rect internet connection"
-msgstr "<b>Raloyaedje _direk al daegntoele</b>"
+msgstr "Raloyaedje di_rek al daegntoele"
 
 #: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "Detays do proxy HTTP"
 
 #: ../capplets/network/gnome-network-properties.ui.h:6
-#, fuzzy
 msgid "H_TTP proxy:"
-msgstr "Proxy _HTTP:"
+msgstr "Procsi H_TTP :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
-msgstr ""
+msgstr "Passer houte del djivêye des lodjoes"
 
 #: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
-msgstr ""
+msgstr "Lodjoes passés houtes"
 
 #: ../capplets/network/gnome-network-properties.ui.h:9
-#, fuzzy
 msgid "Location:"
-msgstr "Accion"
+msgstr "Eplaeçmint :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:10
-#, fuzzy
 msgid "Network Proxy Preferences"
-msgstr "Preferinces pol proxy del rantoele"
+msgstr "Preferinces pol procsi del rantoele"
 
 #: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "Pôrt:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:12
-#, fuzzy
 msgid "Proxy Configuration"
-msgstr "Apontiaedje do proxy pol rantoele"
+msgstr "Apontiaedje do procsi"
 
 #: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
@@ -2739,22 +2709,19 @@ msgstr "Lodjoe S_OCKS:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
-msgstr ""
+msgstr "L' eplaeçmint egzistêye dedja"
 
 #: ../capplets/network/gnome-network-properties.ui.h:15
-#, fuzzy
 msgid "U_sername:"
-msgstr "No d' _uzeu:"
+msgstr "No d' u_zeu :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:16
-#, fuzzy
 msgid "_Automatic proxy configuration"
-msgstr "<b>Apontiaedje _otomatike do proxy</b>"
+msgstr "Apontiaedje _otomatike do procsi"
 
 #: ../capplets/network/gnome-network-properties.ui.h:17
-#, fuzzy
 msgid "_Delete Location"
-msgstr "Accion"
+msgstr "_Disfacer eplaeçmint"
 
 #: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
@@ -2765,14 +2732,12 @@ msgid "_FTP proxy:"
 msgstr "Proxy _FTP:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:20
-#, fuzzy
 msgid "_Location name:"
-msgstr "Accion"
+msgstr "No d' l' ep_laeçmint :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:21
-#, fuzzy
 msgid "_Manual proxy configuration"
-msgstr "<b>Apontiaedje al _mwin do proxy</b>"
+msgstr "Apontiaedje al _mwin do procsi"
 
 #: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
@@ -2780,70 +2745,67 @@ msgstr "_Sicrete:"
 
 #: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
-msgstr ""
+msgstr "Procsi HTTP e _såvrité :"
 
 #: ../capplets/network/gnome-network-properties.ui.h:24
-#, fuzzy
 msgid "_Use authentication"
-msgstr "<b>_Eployî l' otintifiaedje</b>"
+msgstr "Eplo_yî l' otintifiaedje"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
-msgstr ""
+msgstr "Eplo_yî l' minme procsi po tos les protocoles"
 
 #: ../capplets/security/run-passwd.c:427
 msgid "Authentication failed"
-msgstr ""
+msgstr "L' otintifiaedje a fwait berwete"
 
 #: ../capplets/security/run-passwd.c:503
 #, c-format
 msgid "The new password is too short"
-msgstr ""
+msgstr "Li novea scret est trop court"
 
 #: ../capplets/security/run-passwd.c:508
 #, c-format
 msgid "The new password is too simple"
-msgstr ""
+msgstr "Li novea scret est trop åjhey"
 
 #: ../capplets/security/run-passwd.c:512
 #, c-format
 msgid "The old and new passwords are too similar"
-msgstr ""
+msgstr "Li vî eyet l' novea screts sont trop les minmes"
 
 #: ../capplets/security/run-passwd.c:515
 #, c-format
 msgid "The new password must contain numeric or special characters"
-msgstr ""
+msgstr "I fåt awè des chifes et des caracteres sipeciås e novea scret"
 
 #: ../capplets/security/run-passwd.c:519
 #, c-format
 msgid "The old and new passwords are the same"
-msgstr ""
+msgstr "Li vî eyet l' novea screts sont les minmes"
 
 #: ../capplets/security/run-passwd.c:523
 #, c-format
 msgid "Your password has been changed since you initially authenticated!"
-msgstr ""
+msgstr "Vosse sicret a stî candjî dispoy ki vs vos avoz otintifyî pol prumî côp !"
 
 #: ../capplets/security/run-passwd.c:527
 #, c-format
 msgid "The new password does not contain enough different characters"
-msgstr ""
+msgstr "I gn a pont d' diferins caracteres assez e novea scret"
 
 #: ../capplets/security/run-passwd.c:531
-#, fuzzy, c-format
+#, c-format
 msgid "Unknown error"
-msgstr ""
-"<b>Cursoe nén cnoxhou</b>\n"
-"%s"
+msgstr "Aroke nén cnoxhowe"
 
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
-msgstr ""
+msgstr "Dji rgrete mins les screts n' corespondèt nén"
 
 #: ../capplets/security/cc-security-panel.c:179
 msgid "The new password is now saved"
-msgstr ""
+msgstr "Li novea scret est asteure schapé"
 
 #: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
