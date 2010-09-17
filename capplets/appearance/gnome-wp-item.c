@@ -73,6 +73,9 @@ static void set_bg_properties (GnomeWPItem *item)
 
   gnome_bg_set_color (item->bg, item->shade_type, item->pcolor, item->scolor);
   gnome_bg_set_placement (item->bg, item->options);
+
+  if (item && gnome_bg_changes_with_time (item->bg))
+    item->deleted = TRUE;
 }
 
 void gnome_wp_item_ensure_gnome_bg (GnomeWPItem *item)

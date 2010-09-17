@@ -184,6 +184,9 @@ wp_add_image (AppearanceData *data,
 
   if (item != NULL)
   {
+    if (gnome_bg_changes_with_time (item->bg))
+      return NULL;
+
     if (item->deleted)
     {
       item->deleted = FALSE;
