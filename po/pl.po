@@ -8,15 +8,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-09 11:04+0100\n"
-"PO-Revision-Date: 2010-03-08 21:51+0100\n"
-"Last-Translator: Piotr Drąg <piotrdrag@gmail.com>\n"
+"POT-Creation-Date: 2010-09-20 15:06+0000\n"
+"PO-Revision-Date: 2010-09-21 14:01+0100\n"
+"Last-Translator: Marcin Sołtysiak <marcin.p.soltysiak@gmail.com>\n"
 "Language-Team: Polish <gnomepl@aviary.pl>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
-"|| n%100>=20) ? 1 : 2);\n"
+"Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
 "X-Poedit-Language: Polish\n"
 "X-Poedit-Country: Poland\n"
 
@@ -26,35 +25,23 @@ msgstr "Obecne położenie sieciowe"
 
 #: ../gnome-control-center.schemas.in.h:2
 msgid "More backgrounds URL"
-msgstr "Więcej adresów URL teł"
+msgstr "Więcej adresów URL obrazów tła"
 
 #: ../gnome-control-center.schemas.in.h:3
 msgid "More themes URL"
 msgstr "Więcej adresów URL motywów"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid ""
-"Set this to your current location name. This is used to determine the "
-"appropriate network proxy configuration."
-msgstr ""
-"Należy ustawić tę wartość na obecną nazwę położenia. Jest używane do "
-"określania odpowiedniej konfiguracji pośrednika sieciowego."
+msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
+msgstr "Należy ustawić tę wartość na obecną nazwę położenia. Jest używane do określania odpowiedniej konfiguracji pośrednika sieciowego."
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid ""
-"URL for where to get more desktop backgrounds. If set to an empty string the "
-"link will not appear."
-msgstr ""
-"Adres URL, pod jakim można uzyskać więcej teł pulpitu. Jeśli pozostawiona "
-"zostanie pusta wartość, odnośnik się nie pojawi."
+msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
+msgstr "Adres URL, pod jakim można uzyskać więcej teł pulpitu. Jeśli pozostawiona zostanie pusta wartość, odnośnik się nie pojawi."
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid ""
-"URL for where to get more desktop themes. If set to an empty string the link "
-"will not appear."
-msgstr ""
-"Adres URL, pod jakim można uzyskać więcej motywów pulpitu. Jeśli "
-"pozostawiona zostanie pusta wartość, odnośnik się nie pojawi."
+msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
+msgstr "Adres URL, pod jakim można uzyskać więcej motywów pulpitu. Jeśli pozostawiona zostanie pusta wartość, odnośnik się nie pojawi."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -207,8 +194,7 @@ msgstr "Palec nie został wyśrodkowany, proszę ponownie przeciągnąć palec"
 #: ../capplets/about-me/fingerprint-strings.h:81
 #: ../capplets/about-me/fingerprint-strings.h:107
 msgid "Remove your finger, and try swiping your finger again"
-msgstr ""
-"Proszę odsunąć palec i spróbować ponownie przeciągnąć palec na urządzeniu"
+msgstr "Proszę odsunąć palec i spróbować ponownie przeciągnąć palec na urządzeniu"
 
 #: ../capplets/about-me/gnome-about-me.c:716
 msgid "Select Image"
@@ -224,7 +210,7 @@ msgid "Images"
 msgstr "Obrazy"
 
 #: ../capplets/about-me/gnome-about-me.c:750
-#: ../capplets/appearance/theme-installer.c:763
+#: ../capplets/appearance/theme-installer.c:766
 msgid "All Files"
 msgstr "Wszystkie pliki"
 
@@ -455,11 +441,8 @@ msgid "Set your personal information"
 msgstr "Ustawienie informacji osobistych"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid ""
-"You are not allowed to access the device. Contact your system administrator."
-msgstr ""
-"Brak dostępu do urządzenia. Proszę skontaktować się z administratorem "
-"systemu."
+msgid "You are not allowed to access the device. Contact your system administrator."
+msgstr "Brak dostępu do urządzenia. Proszę skontaktować się z administratorem systemu."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid "The device is already in use."
@@ -478,12 +461,8 @@ msgid "_Delete Fingerprints"
 msgstr "_Usuń odciski palców"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid ""
-"Do you want to delete your registered fingerprints so fingerprint login is "
-"disabled?"
-msgstr ""
-"Usunąć zarejestrowane odciski palców, aby wyłączyć logowanie za pomocą "
-"czytnika odcisków palców?"
+msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
+msgstr "Usunąć zarejestrowane odciski palców, aby wyłączyć logowanie za pomocą czytnika odcisków palców?"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:356
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
@@ -505,8 +484,7 @@ msgstr "Nie można uzyskać dostępu do urządzenia \"%s\""
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:473
 #, c-format
 msgid "Could not start finger capture on '%s' device"
-msgstr ""
-"Nie można uruchomić przechwytywania odcisków palców w urządzeniu \"%s\""
+msgstr "Nie można uruchomić przechwytywania odcisków palców w urządzeniu \"%s\""
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:520
 msgid "Could not access any fingerprint readers"
@@ -514,8 +492,7 @@ msgstr "Nie można uzyskać dostępu do żadnych czytników odcisków palców"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:521
 msgid "Please contact your system administrator for help."
-msgstr ""
-"Proszę się skontaktować z administratorem systemu w celu uzyskania pomocy."
+msgstr "Proszę się skontaktować z administratorem systemu w celu uzyskania pomocy."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:551
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:2
@@ -528,12 +505,8 @@ msgstr "Włączenie logowania za pomocą odcisku palca"
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
-msgid ""
-"To enable fingerprint login, you need to save one of your fingerprints, "
-"using the '%s' device."
-msgstr ""
-"Aby uruchomić logowanie za pomocą czytnika odcisków palców należy zapisać "
-"odcisk palca, używając urządzenia \"%s\"."
+msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
+msgstr "Aby uruchomić logowanie za pomocą czytnika odcisków palców należy zapisać odcisk palca, używając urządzenia \"%s\"."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:590
 msgid "Swipe finger on reader"
@@ -592,12 +565,8 @@ msgid "Select finger"
 msgstr "Wybór palca"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid ""
-"Your fingerprint was successfully saved. You should now be able to log in "
-"using your fingerprint reader."
-msgstr ""
-"Odcisk palca został poprawnie zapisany. Od teraz można się logować za pomocą "
-"czytnika odcisków palców."
+msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
+msgstr "Odcisk palca został poprawnie zapisany. Od teraz można się logować za pomocą czytnika odcisków palców."
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
@@ -624,85 +593,78 @@ msgstr "Uwierzytelniono."
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
-msgstr ""
-"Hasło zostało zmienione po uwierzytelnieniu! Proszę o ponowne "
-"uwierzytelnienie."
+#: ../capplets/about-me/gnome-about-me-password.c:554
+msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
+msgstr "Hasło zostało zmienione po uwierzytelnieniu! Proszę o ponowne uwierzytelnienie."
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
 msgstr "Hasło było nieprawidłowe."
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "Hasło zostało zmienione."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "Wystąpił błąd systemowy: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr "Hasło jest za krótkie."
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "Hasło jest zbyt proste."
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr "Nowe hasło jest zbyt podobne do poprzedniego."
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr "Nowe hasło musi zawierać znaki numeryczne lub specjalne."
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr "Nowe hasło jest takie same jak poprzednie."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "Uruchomienie %s niemożliwe: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr "Nie można uruchomić modułu przetwarzającego"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr "Wystąpił błąd systemowy"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr "Sprawdzanie hasła..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "Aby zmienić hasło należy kliknąć <b>Zmień hasło</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "Proszę wprowadzić hasło w polu <b>Nowe hasło</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid ""
-"Please type your password again in the <b>Retype new password</b> field."
-msgstr ""
-"Proszę wprowadzić hasło ponownie w polu <b>Proszę wprowadzić nowe hasło "
-"ponownie</b>."
+msgid "Please type your password again in the <b>Retype new password</b> field."
+msgstr "Proszę wprowadzić hasło ponownie w polu <b>Proszę wprowadzić nowe hasło ponownie</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "Hasła nie są takie same."
 
@@ -724,15 +686,11 @@ msgstr "Bieżące _hasło:"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and "
-"click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for "
-"verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
 msgstr ""
-"Aby zmienić hasło, proszę wprowadzić bieżące hasło w poniższym polu i "
-"kliknąć <b>Uwierzytelnij</b>.\n"
-"Po uwierzytelnieniu należy wprowadzić nowe hasło, wprowadzić je ponownie do "
-"weryfikacji i kliknąć <b>Zmień hasło</b>."
+"Aby zmienić hasło, proszę wprowadzić bieżące hasło w poniższym polu i kliknąć <b>Uwierzytelnij</b>.\n"
+"Po uwierzytelnieniu należy wprowadzić nowe hasło, wprowadzić je ponownie do weryfikacji i kliknąć <b>Zmień hasło</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -760,12 +718,8 @@ msgid "Assistive Technologies Preferences"
 msgstr "Preferencje technologii wspierających"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid ""
-"Changes to enable assistive technologies will not take effect until your "
-"next log in."
-msgstr ""
-"Zmiany uruchamiające technologie wspierające nie będą miały wpływu na "
-"aktualne ustawienia do czasu następnego zalogowania."
+msgid "Changes to enable assistive technologies will not take effect until your next log in."
+msgstr "Zmiany uruchamiające technologie wspierające nie będą miały wpływu na aktualne ustawienia do czasu następnego zalogowania."
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
@@ -825,49 +779,19 @@ msgstr "Czcionka może być za duża"
 
 #: ../capplets/appearance/appearance-font.c:498
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a size "
-"smaller than %d."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a size "
-"smaller than %d."
-msgstr[0] ""
-"Wybrana czcionka posiada wysokość %d punktu i może być trudne jej efektywne "
-"wykorzystanie przez komputer. Zalecane jest wybranie rozmiaru mniejszego niż "
-"%d."
-msgstr[1] ""
-"Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne "
-"wykorzystanie przez komputer. Zalecane jest wybranie rozmiaru mniejszego niż "
-"%d."
-msgstr[2] ""
-"Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne "
-"wykorzystanie przez komputer. Zalecane jest wybranie rozmiaru mniejszego niż "
-"%d."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
+msgstr[0] "Wybrana czcionka posiada wysokość %d punktu i może być trudne jej efektywne wykorzystanie przez komputer. Zalecane jest wybranie rozmiaru mniejszego niż %d."
+msgstr[1] "Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne wykorzystanie przez komputer. Zalecane jest wybranie rozmiaru mniejszego niż %d."
+msgstr[2] "Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne wykorzystanie przez komputer. Zalecane jest wybranie rozmiaru mniejszego niż %d."
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a smaller "
-"sized font."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a smaller "
-"sized font."
-msgstr[0] ""
-"Wybrana czcionka posiada wysokość %d punktu i może być trudne jej efektywne "
-"wykorzystanie przez komputer. Zalecane jest wybranie czcionki o mniejszym "
-"rozmiarze."
-msgstr[1] ""
-"Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne "
-"wykorzystanie przez komputer. Zalecane jest wybranie czcionki o mniejszym "
-"rozmiarze."
-msgstr[2] ""
-"Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne "
-"wykorzystanie przez komputer. Zalecane jest wybranie czcionki o mniejszym "
-"rozmiarze."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
+msgstr[0] "Wybrana czcionka posiada wysokość %d punktu i może być trudne jej efektywne wykorzystanie przez komputer. Zalecane jest wybranie czcionki o mniejszym rozmiarze."
+msgstr[1] "Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne wykorzystanie przez komputer. Zalecane jest wybranie czcionki o mniejszym rozmiarze."
+msgstr[2] "Wybrana czcionka posiada wysokość %d punktów i może być trudne jej efektywne wykorzystanie przez komputer. Zalecane jest wybranie czcionki o mniejszym rozmiarze."
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -877,32 +801,36 @@ msgstr "Użycie poprzedniej czcionki"
 msgid "Use selected font"
 msgstr "Użycie zaznaczonej czcionki"
 
-#: ../capplets/appearance/appearance-main.c:54
+#: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:628
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Nie można wczytać pliku interfejsu użytkownika: %s"
 
-#: ../capplets/appearance/appearance-main.c:133
+#: ../capplets/appearance/appearance-main.c:135
 msgid "Specify the filename of a theme to install"
 msgstr "Proszę wprowadzić nazwę pliku motywu do instalacji"
 
-#: ../capplets/appearance/appearance-main.c:134
+#: ../capplets/appearance/appearance-main.c:136
 msgid "filename"
 msgstr "nazwa_pliku"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:141
+#: ../capplets/appearance/appearance-main.c:143
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
-msgstr ""
-"Określa nazwę strony do wyświetlenia (theme|background|fonts|interface)"
+msgstr "Określa nazwę strony do wyświetlenia (theme|background|fonts|interface)"
 
-#: ../capplets/appearance/appearance-main.c:142
+#: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "strona"
 
-#: ../capplets/appearance/appearance-main.c:149
+#: ../capplets/appearance/appearance-main.c:151
 msgid "[WALLPAPER...]"
 msgstr "[TŁO_PULPITU...]"
 
@@ -920,12 +848,8 @@ msgstr "Zainstaluj"
 #: ../capplets/appearance/appearance-style.c:256
 #: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme engine "
-"'%s' is not installed."
-msgstr ""
-"Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany mechanizm "
-"motywów GTK+ \"%s\" nie jest zainstalowany."
+msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
+msgstr "Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany mechanizm motywów GTK+ \"%s\" nie jest zainstalowany."
 
 #: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
@@ -940,32 +864,20 @@ msgid "Revert Font"
 msgstr "Przywróć czcionkę"
 
 #: ../capplets/appearance/appearance-themes.c:712
-msgid ""
-"The current theme suggests a background and a font. Also, the last applied "
-"font suggestion can be reverted."
-msgstr ""
-"Ten motyw sugeruje użycie tła i czcionki. Ostatnio zastosowana czcionka może "
-"zostać przywrócona."
+msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
+msgstr "Ten motyw sugeruje użycie tła i czcionki. Ostatnio zastosowana czcionka może zostać przywrócona."
 
 #: ../capplets/appearance/appearance-themes.c:714
-msgid ""
-"The current theme suggests a background. Also, the last applied font "
-"suggestion can be reverted."
-msgstr ""
-"Ten motyw sugeruje użycie tła i czcionki. Ostatnio zastosowana czcionka może "
-"zostać przywrócona."
+msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
+msgstr "Ten motyw sugeruje użycie tła i czcionki. Ostatnio zastosowana czcionka może zostać przywrócona."
 
 #: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
 msgstr "Ten motyw sugeruje użycie określonego tła i czcionki."
 
 #: ../capplets/appearance/appearance-themes.c:718
-msgid ""
-"The current theme suggests a font. Also, the last applied font suggestion "
-"can be reverted."
-msgstr ""
-"Ten motyw sugeruje użycie określonej czcionki. Ostatnio zastosowana czcionka "
-"może zostać przywrócona."
+msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
+msgstr "Ten motyw sugeruje użycie określonej czcionki. Ostatnio zastosowana czcionka może zostać przywrócona."
 
 #: ../capplets/appearance/appearance-themes.c:720
 msgid "The current theme suggests a background."
@@ -1132,171 +1044,169 @@ msgid "Solid color"
 msgstr "Kolor jednolity"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "Rozdzielenie"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Stretch"
 msgstr "Rozciąganie"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "_Podpikselowe (wyświetlacze LCD)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "_Wygładzanie podpikselowe (wyświetlacze LCD)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "Kolejność składowych pikseli"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "Tekst"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "Tekst pod elementami"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "Tekst obok elementów"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "Tylko tekst"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "Bieżący motyw nie obsługuje schematów kolorów."
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "Motyw"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
 msgid "Tile"
 msgstr "Sąsiadująco"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "Gradient pionowy"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "Krawędź okna"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "Powiększenie"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "_Dodaj..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "Czcionk_a używana przez programy:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "_Opis:"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "Czcionka używana przez _dokumenty:"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "Czcionka o s_tałej szerokości:"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "_Pełny"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "_Pola wejściowe:"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "_Zainstaluj..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "Śr_edni"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "M_onochromatyczne"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "_Nazwa:"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "_Brak"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "Przywróć _domyślne"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "_Wybrane elementy:"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "_Rozmiar:"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "_Lekki"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "_Styl:"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "P_odpowiedzi:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "C_zcionka tytułu okna:"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "O_kna:"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "punkty na cal"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "Wygląd"
@@ -1406,12 +1316,8 @@ msgstr "\"%s\" nie jest prawidłowym motywem."
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid ""
-"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
-"you need to compile."
-msgstr ""
-"\"%s\" nie jest prawidłowym motywem. Może być mechanizmem motywów, który "
-"musi zostać skompilowany."
+msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
+msgstr "\"%s\" nie jest prawidłowym motywem. Może być mechanizmem motywów, który musi zostać skompilowany."
 
 #: ../capplets/appearance/theme-installer.c:372
 #, c-format
@@ -1448,11 +1354,11 @@ msgstr "Utworzenie katalogu tymczasowego się nie powiodło"
 msgid "New themes have been successfully installed."
 msgstr "Nowe motywy zostały zainstalowane."
 
-#: ../capplets/appearance/theme-installer.c:643
+#: ../capplets/appearance/theme-installer.c:646
 msgid "No theme file location specified to install"
 msgstr "Nie podano położenia pliku motywu do instalacji"
 
-#: ../capplets/appearance/theme-installer.c:667
+#: ../capplets/appearance/theme-installer.c:670
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
@@ -1461,11 +1367,11 @@ msgstr ""
 "Niewystarczające uprawnienia do instalacji motywu w:\n"
 "%s"
 
-#: ../capplets/appearance/theme-installer.c:745
+#: ../capplets/appearance/theme-installer.c:748
 msgid "Select Theme"
 msgstr "Wybór motywu"
 
-#: ../capplets/appearance/theme-installer.c:756
+#: ../capplets/appearance/theme-installer.c:759
 msgid "Theme Packages"
 msgstr "Pakiet motywu"
 
@@ -1498,17 +1404,12 @@ msgstr "Nie można zainstalować mechanizmu motywu"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
-"settings manager."
+"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
 msgstr ""
 "Nie można uruchomić menedżera ustawień - \"gnome-settings-daemon\".\n"
-"Bez działającego menedżera ustawień GNOME pewne ustawienia mogą nie wejść w "
-"życie. Może to wskazywać na problem z D-Bus lub z działającym innym "
-"menedżerem ustawień (np. KDE), kolidującym z menedżerem GNOME."
+"Bez działającego menedżera ustawień GNOME pewne ustawienia mogą nie wejść w życie. Może to wskazywać na problem z D-Bus lub z działającym innym menedżerem ustawień (np. KDE), kolidującym z menedżerem GNOME."
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "Nie można wczytać standardowej ikony \"%s\"\n"
@@ -1594,89 +1495,82 @@ msgstr "_Pomiń"
 msgid "Overwrite _All"
 msgstr "_Nadpisz wszystko"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "Klucz"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "Klucz GConf, do którego przyłączony jest ten edytor własności"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "Wywoływana funkcja"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
-msgstr ""
-"Funkcja wywoływana, kiedy zostanie zmieniona wartość powiązana z tym kluczem"
+msgstr "Funkcja wywoływana, kiedy zostanie zmieniona wartość powiązana z tym kluczem"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "Zbiór zmian"
 
-#: ../capplets/common/gconf-property-editor.c:148
-msgid ""
-"GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr ""
-"Zbiór zmian GConf, zawierający dane przesyłane do klienta przy zastosowaniu"
+#: ../capplets/common/gconf-property-editor.c:150
+msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr "Zbiór zmian GConf, zawierający dane przesyłane do klienta przy zastosowaniu"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "Funkcja konwersji na widget"
 
-#: ../capplets/common/gconf-property-editor.c:154
-msgid ""
-"Callback to be issued when data are to be converted from GConf to the widget"
+#: ../capplets/common/gconf-property-editor.c:156
+msgid "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "Funkcja wywoływana przed konwersją danych z GConf do widgetu"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "Funkcja konwersji z widgetu"
 
-#: ../capplets/common/gconf-property-editor.c:160
-msgid ""
-"Callback to be issued when data are to be converted to GConf from the widget"
+#: ../capplets/common/gconf-property-editor.c:162
+msgid "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "Funkcja wywoływana przed konwersją danych z widgetu do GConf"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "Kontrola UI"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "Obiekt kontrolujący własność (zwykle widget)"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "Dane obiektu edytora własności"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "Dowolne dane, wymagane przez określony edytor własności"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "Funkcja zwalniająca dane obiektu edytora własności"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr "Funkcja wywoływana przed usunięciem obiektu edytora własności"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
 "\n"
-"Please make sure it exists and try again, or choose a different background "
-"picture."
+"Please make sure it exists and try again, or choose a different background picture."
 msgstr ""
 "Nie można odnaleźć pliku \"%s\".\n"
 "\n"
-"Proszę się upewnić, że plik istnieje i spróbować ponownie lub wybrać inny "
-"obraz."
+"Proszę się upewnić, że plik istnieje i spróbować ponownie lub wybrać inny obraz."
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1689,11 +1583,11 @@ msgstr ""
 "\n"
 "Proszę wybrać inny plik z obrazem."
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "Proszę wybrać obraz."
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "_Wybierz"
 
@@ -1727,30 +1621,18 @@ msgstr "Duży biały kursor"
 
 #: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme '%s' is "
-"not installed."
-msgstr ""
-"Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany motyw GTK+ \"%s"
-"\" nie jest zainstalowany."
+msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
+msgstr "Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany motyw GTK+ \"%s\" nie jest zainstalowany."
 
 #: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
-msgid ""
-"This theme will not look as intended because the required window manager "
-"theme '%s' is not installed."
-msgstr ""
-"Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany motyw menedżera "
-"okien \"%s\" nie jest zainstalowany."
+msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
+msgstr "Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany motyw menedżera okien \"%s\" nie jest zainstalowany."
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
-msgid ""
-"This theme will not look as intended because the required icon theme '%s' is "
-"not installed."
-msgstr ""
-"Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany zestaw ikon \"%s"
-"\" nie jest zainstalowany."
+msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
+msgstr "Ten motyw nie wygląda tak jak zamierzono, ponieważ wymagany zestaw ikon \"%s\" nie jest zainstalowany."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
@@ -1787,9 +1669,7 @@ msgstr "Należy się upewnić, że aplet jest poprawnie zainstalowany"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/default-applications/gnome-da-capplet.c:959
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
-msgstr ""
-"Proszę określić nazwę strony do wyświetlenia (internet|multimedia|system|"
-"a11y)"
+msgstr "Proszę określić nazwę strony do wyświetlenia (internet|multimedia|system|a11y)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
 msgid "- GNOME Default Applications"
@@ -1811,6 +1691,7 @@ msgstr "Wszystkie wystąpienia %s będą zastąpione bieżącym odnośnikiem"
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "P_olecenie:"
 
@@ -2106,6 +1987,38 @@ msgstr "Odtwarzacz filmów Totem"
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:330
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "Nie można zapisać konfiguracji monitora"
+
+#: ../capplets/display/cc-display-minimal-page.c:343
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "Nie można było uzyskać magistrali sesji podczas zastosowywania konfiguracji wyświetlania"
+
+#: ../capplets/display/cc-display-minimal-page.c:478
+#: ../capplets/display/cc-display-minimal-page.c:487
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "Pulpit jest wyświetlany tylko na monitorze komputera. Podłącz zewnętrzny monitor aby móc na nim wyświetlać."
+
+#: ../capplets/display/cc-display-minimal-page.c:496
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr "Pulpit jest wyświetlany na zewnętrznym monitorze lub projektorze"
+
+#: ../capplets/display/cc-display-minimal-page.c:672
+msgid "Displays and projectors"
+msgstr "Monitory i projektory"
+
+#: ../capplets/display/cc-display-minimal-page.c:692
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "Nie można uzyskać informacji o rozdzielczości ekranu"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr "Ekran"
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "Dołącz pa_nel"
@@ -2198,7 +2111,7 @@ msgstr "%d Hz"
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
 #: ../capplets/display/xrandr-capplet.c:497
-#: ../capplets/display/xrandr-capplet.c:1628
+#: ../capplets/display/xrandr-capplet.c:1643
 msgid "Mirror Screens"
 msgstr "Powielenie ekranu"
 
@@ -2212,99 +2125,98 @@ msgstr "Monitor: %s"
 msgid "%d x %d"
 msgstr "%d na %d"
 
-#: ../capplets/display/xrandr-capplet.c:2046
-msgid "Could not save the monitor configuration"
-msgstr "Nie można zapisać konfiguracji monitora"
+#: ../capplets/display/xrandr-capplet.c:1499
+msgid "Select a monitor to change its properties; drag it to rearrange its placement."
+msgstr "Proszę wybrać monitor, aby zmienić jego właściwości. Przeciąganie zmienia jego położenie."
 
-#: ../capplets/display/xrandr-capplet.c:2057
-msgid "Could not get session bus while applying display configuration"
-msgstr ""
-"Nie można było uzyskać magistrali sesji podczas zastosowywania konfiguracji "
-"wyświetlania"
-
-#: ../capplets/display/xrandr-capplet.c:2099
+#: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
 msgstr "Nie można wykryć ekranów"
 
-#: ../capplets/display/xrandr-capplet.c:2314
-msgid "Could not get screen information"
-msgstr "Nie można uzyskać informacji o rozdzielczości ekranu"
-
-#: ../capplets/display/xrandr-capplet.c:2385
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"Proszę wybrać monitor, aby zmienić jego właściwości. Przeciąganie zmienia "
-"jego położenie."
-
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "Dźwięk"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "Pulpit"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "Nowy skrót..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "Klawisz skrótu"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "Modyfikatory klawiszy skrótu"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "Kod klawisza skrótu"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "Tryb klawiszy skrótu"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "Rodzaj klawisza skrótu."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "Nieaktywny"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<Nieznane działanie>"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "Własne skróty"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "Błąd podczas zapisywania nowego skrótu"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type "
-"using this key.\n"
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
-"Skrót \"%s\" nie może być użyty, ponieważ nie będzie możliwe pisanie przy "
-"użyciu wybranego klawisza.\n"
+"Skrót \"%s\" nie może być użyty, ponieważ nie będzie możliwe pisanie przy użyciu wybranego klawisza.\n"
 "Proszę spróbować w połączeniu z klawiszem takim jak Control, Alt lub Shift."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2314,71 +2226,82 @@ msgstr ""
 " \"%s\""
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid ""
-"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr ""
-"Jeśli skrót zostanie zmieniony na \"%s\", skrót \"%s\" zostanie wyłączony."
+msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgstr "Jeśli skrót zostanie zmieniony na \"%s\", skrót \"%s\" zostanie wyłączony."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "_Zmień"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "Wystąpił błąd podczas usuwania skrótu w bazie danych konfiguracji: %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "Za dużo własnych skrótów"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "Działanie"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "Skrót"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "Własny skrót"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "Skróty klawiszowe"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
-msgid ""
-"To edit a shortcut key, click on the corresponding row and type a new key "
-"combination, or press backspace to clear."
-msgstr ""
-"Aby zmodyfikować klawisz skrótu, należy kliknąć na odpowiednim wierszu i "
-"wprowadzić nowy skrót lub nacisnąć klawisz backspace, aby wyczyścić obecny."
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
+msgstr "Aby zmodyfikować klawisz skrótu, należy kliknąć na odpowiednim wierszu i wprowadzić nowy skrót lub nacisnąć klawisz backspace, aby wyczyścić obecny."
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
 msgstr "Powiązania skrótów klawiszowych z poleceniami"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
-msgid ""
-"Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr ""
-"Wprowadza ustawienia i kończy (tylko dla zgodności, teraz obsługuje to "
-"usługa)"
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "Klawiatura"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "Układy"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
+msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr "Wprowadza ustawienia i kończy (tylko dla zgodności, teraz obsługuje to usługa)"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "Otwiera stronę z właściwościami przerwy w pisaniu na klawiaturze"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "Otwiera stronę z ustawieniami dostępności"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "- Preferencje klawiatury GNOME"
 
@@ -2424,7 +2347,7 @@ msgid "Flash entire _screen"
 msgstr "Miganie _całym ekranem"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "Ogólne"
@@ -2438,12 +2361,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "_Wizualne odpowiedzi na dźwięki powiadamiania"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "Powolne klawisze"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "Trwałe klawisze"
 
@@ -2459,180 +2382,171 @@ msgstr "Dozwolone odr_aczanie przerw"
 msgid "Audio _Feedback..."
 msgstr "Odpowiedź dźwiękow_a..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Przerwy mogą być odraczane"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "Miganie kursora"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "Miganie _kursora w polach tekstowych"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "Szybkość migania kursora"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "Opóź_nienie:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
-msgstr ""
-"Wyłąc_zenie klawiszy trwałych po jednoczesnym przyciśnięciu dwóch klawiszy"
+msgstr "Wyłąc_zenie klawiszy trwałych po jednoczesnym przyciśnięciu dwóch klawiszy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "Czas trwania przerwy w pisaniu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "Czas trwania pracy przed wymuszeniem przerwy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "Fast"
 msgstr "Szybkie"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "Powtarza_nie naciśnięcia klawisza przy jego przytrzymaniu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "Preferencje klawiatury"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "M_odel klawiatury:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "Układy"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
+msgstr "Blokada ekranu po określonym czasie, pomagająca zapobiegać urazom związanym z pisaniem na klawiaturze"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
-msgid ""
-"Lock screen after a certain duration to help prevent repetitive keyboard use "
-"injuries"
-msgstr ""
-"Blokada ekranu po określonym czasie, pomagająca zapobiegać urazom związanym "
-"z pisaniem na klawiaturze"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "Długie"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "Klawisze myszy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr "Prz_enieś w górę"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr "_Przenieś w dół"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr "_Nowe okna używają układu aktywnego okna"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "Powtarzanie klawiszy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "Szybkość powtarzania klawiszy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "P_rzywróć domyślne"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "_Prędkość:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Short"
 msgstr "Krótkie"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "Powolne"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "Przerwa w pisaniu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "Pr_zyspieszenie:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "_Przełączanie funkcji dostępności przy użyciu skrótów klawiszowych"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "_Długość przerwy:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "_Opóźnienie:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "Ignorowanie _szybkich podwójnych wciśnięć klawiszy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "_Blokada ekranu wymuszająca przerwę w pisaniu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "Akc_eptowanie tylko długich wciśnięć klawiszy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "_Opcje..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "_Zezwolenie na kontrolowanie kursora za pomocą klawiatury"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
 msgstr "Osobny _układ dla każdego okna"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "_Symulowanie jednoczesnych wciśnięć klawiszy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "Prę_dkość:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "Proszę _wprowadzić tekst, aby przetestować ustawienia:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "Długość czasu p_racy:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "minut"
 
@@ -2701,13 +2615,13 @@ msgstr "Modele"
 msgid "Default"
 msgstr "Domyślne"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "Klawiatura"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "Ustawianie preferencji klawiatury"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr "Urządzenia wskazujące"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2740,11 +2654,11 @@ msgid "gesture|Disabled"
 msgstr "Wyłączony"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Proszę określić nazwę strony do wyświetlenia (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- Preferencje myszy GNOME"
 
@@ -2837,11 +2751,8 @@ msgid "Thr_eshold:"
 msgstr "_Próg:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid ""
-"To test your double-click settings, try to double-click on the light bulb."
-msgstr ""
-"Aby przetestować nowe ustawienia podwójnego kliknięcia należy kliknąć "
-"dwukrotnie żarówkę."
+msgid "To test your double-click settings, try to double-click on the light bulb."
+msgstr "Aby przetestować nowe ustawienia podwójnego kliknięcia należy kliknąć dwukrotnie żarówkę."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Touchpad"
@@ -2853,9 +2764,7 @@ msgstr "P_rzewijanie dwoma palcami"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr ""
-"Można również użyć apletu klikania spoczynkowego, by wybrać odpowiedni "
-"rodzaj kliknięcia."
+msgstr "Można również użyć apletu klikania spoczynkowego, by wybrać odpowiedni rodzaj kliknięcia."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -2905,6 +2814,10 @@ msgstr "Mysz"
 msgid "Set your mouse preferences"
 msgstr "Ustawianie preferencji myszy"
 
+#: ../capplets/network/cc-network-panel.c:109
+msgid "Network"
+msgstr "Sieć"
+
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
@@ -2923,104 +2836,172 @@ msgid "Set your network proxy preferences"
 msgstr "Ustawianie preferencji pośrednika sieciowego"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>_Bezpośrednie połączenie internetowe</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>Automatyczna _konfiguracja pośrednika</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>_Ręczna konfiguracja pośrednika</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>_Uwierzytelnianie</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "_Adres URL automatycznej konfiguracji:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "U_twórz"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "Tworzenie nowego położenia"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+msgid "Di_rect internet connection"
+msgstr "_Bezpośrednie połączenie internetowe"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "Szczegóły dotyczące pośrednika HTTP"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "Pośrednik _HTTP:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "Lista ignorowanych komputerów"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "Ignorowane komputery"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "Położenie:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "Preferencje pośrednika sieciowego"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "Port:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "Konfiguracja pośrednika"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "S_erwer SOCKS:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "Położenie już istnieje."
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "Nazwa _użytkownika:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+msgid "_Automatic proxy configuration"
+msgstr "Automatyczna _konfiguracja pośrednika"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "_Usuń położenie"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "_Szczegóły"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "Pośrednik _FTP:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "_Nazwa położenia:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+msgid "_Manual proxy configuration"
+msgstr "_Ręczna konfiguracja pośrednika"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "_Hasło:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "Pośrednik be_zpiecznego HTTP:"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+msgid "_Use authentication"
+msgstr "_Uwierzytelnianie"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Ten sam pośrednik sieciowy dla wszystkich protokołów"
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr "Podane hasła nie są jednakowe"
+
+#: ../capplets/security/cc-security-panel.c:179
+msgid "The new password is now saved"
+msgstr "Hasło zostało zapisane"
+
+#: ../capplets/security/cc-security-panel.c:210
+msgid "Sorry, the password could not be changed"
+msgstr "Hasło nie może zostać zmienione"
+
+#: ../capplets/security/cc-security-panel.c:445
+msgid "Sorry, that password is incorrect"
+msgstr "Podane hasło jest nieprawidłowe"
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr "Zabezpieczenia"
+
+#: ../capplets/security/run-passwd.c:427
+msgid "Authentication failed"
+msgstr "Błąd uwierzytelnienia"
+
+#: ../capplets/security/run-passwd.c:503
+#, c-format
+msgid "The new password is too short"
+msgstr "Hasło jest za krótkie."
+
+#: ../capplets/security/run-passwd.c:508
+#, c-format
+msgid "The new password is too simple"
+msgstr "Hasło jest zbyt proste."
+
+#: ../capplets/security/run-passwd.c:512
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Nowe hasło jest zbyt podobne do poprzedniego."
+
+#: ../capplets/security/run-passwd.c:515
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Nowe hasło musi zawierać znaki numeryczne lub specjalne."
+
+#: ../capplets/security/run-passwd.c:519
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr "Nowe hasło jest takie same jak poprzednie."
+
+#: ../capplets/security/run-passwd.c:523
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "Hasło zostało zmienione po uwierzytelnieniu! Proszę o ponowne uwierzytelnienie."
+
+#: ../capplets/security/run-passwd.c:527
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Nowe zawiera zbyt mało różnych znaków"
+
+#: ../capplets/security/run-passwd.c:531
+#, c-format
+msgid "Unknown error"
+msgstr "Nieznany błąd"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+msgid "Security and passwords"
+msgstr "Zabezpieczenia i hasła"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3052,9 +3033,7 @@ msgstr "Działanie paska tytułowego"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
-msgstr ""
-"Aby przesunąć okno, należy wcisnąć wybrany poniżej klawisz, a następnie "
-"przeciągnąć okno przy użyciu myszy:"
+msgstr "Aby przesunąć okno, należy wcisnąć wybrany poniżej klawisz, a następnie przeciągnąć okno przy użyciu myszy:"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
@@ -3095,9 +3074,7 @@ msgstr "Okna"
 #: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
 msgid "Window manager \"%s\" has not registered a configuration tool\n"
-msgstr ""
-"Menedżer okien \"%s\" nie posiada zarejestrowanego narzędzia "
-"konfiguracyjnego\n"
+msgstr "Menedżer okien \"%s\" nie posiada zarejestrowanego narzędzia konfiguracyjnego\n"
 
 #: ../libwindow-settings/metacity-window-manager.c:404
 msgid "Maximize"
@@ -3122,33 +3099,6 @@ msgstr "Rozwinięcie"
 #: ../libwindow-settings/metacity-window-manager.c:409
 msgid "None"
 msgstr "Brak"
-
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "nie znaleziono klucza [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr ""
-"Można ukryć, aby uruchomić (przydatne do wcześniejszego wczytania powłoki)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "Filtr"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "Grupy"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "Typowe zadania"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Centrum sterowania"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3179,53 +3129,46 @@ msgid "Indicates whether to close the shell when a start action is performed."
 msgstr "Określa, czy zamykać powłokę, gdy wywołane jest uruchomienie."
 
 #: ../shell/control-center.schemas.in.h:8
-msgid ""
-"Indicates whether to close the shell when an add or remove action is "
-"performed."
-msgstr ""
-"Określa, czy zamykać powłokę, gdy wywołane jest dodawanie lub usuwanie."
+msgid "Indicates whether to close the shell when an add or remove action is performed."
+msgstr "Określa, czy zamykać powłokę, gdy wywołane jest dodawanie lub usuwanie."
 
 #: ../shell/control-center.schemas.in.h:9
-msgid ""
-"Indicates whether to close the shell when an upgrade or uninstall action is "
-"performed."
-msgstr ""
-"Określa, czy zamykać powłokę, gdy wywołana jest aktualizacja lub "
-"deinstalacja."
+msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
+msgstr "Określa, czy zamykać powłokę, gdy wywołana jest aktualizacja lub deinstalacja."
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
 msgstr "Nazwy zadań i powiązane pliki .desktop"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid ""
-"The task name to be displayed in the control-center followed by a \";\" "
-"separator then the filename of an associated .desktop file to launch for "
-"that task."
-msgstr ""
-"Nazwa wyświetlanego w control-center zadania, po której następuje separator "
-"\";\", a następnie nazwa powiązanego pliku .desktop uruchamiającego to "
-"zadanie."
+msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
+msgstr "Nazwa wyświetlanego w control-center zadania, po której następuje separator \";\", a następnie nazwa powiązanego pliku .desktop uruchamiającego to zadanie."
 
 #. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid ""
-"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
-"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr ""
-"[Zmiana motywu;gtk-theme-selector.desktop,Preferowane programy;default-"
-"applications.desktop,Dodanie drukarki;gnome-cups-manager.desktop]"
+msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr "[Zmiana motywu;gtk-theme-selector.desktop,Preferowane programy;default-applications.desktop,Dodanie drukarki;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid ""
-"if true, the control-center will close when a \"Common Task\" is activated."
-msgstr ""
-"Wartość \"true\" określa, czy program control-center zostanie zamknięte, gdy "
-"zostanie aktywowane \"Typowe zadanie\"."
+msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgstr "Wartość \"true\" określa, czy program control-center zostanie zamknięte, gdy zostanie aktywowane \"Typowe zadanie\"."
+
+#: ../shell/gnomecc.desktop.in.in.h:1
+#: ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Centrum sterowania"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "Narzędzie konfiguracji środowiska GNOME"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr "Ustawienia"
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr "_Wszystkie ustawienia"
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3254,11 +3197,8 @@ msgstr "Mniej niż minuta do następnej przerwy"
 
 #: ../typing-break/drwright.c:526
 #, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"Nie można wyświetlić okna właściwości przerw w pisaniu z powodu błędu: %s"
+msgid "Unable to bring up the typing break properties dialog with the following error: %s"
+msgstr "Nie można wyświetlić okna właściwości przerw w pisaniu z powodu błędu: %s"
 
 #: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
@@ -3289,17 +3229,8 @@ msgid "Typing Monitor"
 msgstr "Monitor pisania na klawiaturze"
 
 #: ../typing-break/main.c:105
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"Monitor pisania przy użyciu klawiatury używa obszaru powiadamiania do "
-"wyświetlania informacji. Wygląda na to, że brak obszaru powiadamiania na "
-"panelu. Można go dodać klikając prawym przyciskiem myszy na panelu a "
-"następnie wybierając opcję \"Dodaj do panelu\", zaznaczyć pole wyboru "
-"\"Obszar powiadamiania\" i kliknąć przycisk \"Dodaj\"."
+msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
+msgstr "Monitor pisania przy użyciu klawiatury używa obszaru powiadamiania do wyświetlania informacji. Wygląda na to, że brak obszaru powiadamiania na panelu. Można go dodać klikając prawym przyciskiem myszy na panelu a następnie wybierając opcję \"Dodaj do panelu\", zaznaczyć pole wyboru \"Obszar powiadamiania\" i kliknąć przycisk \"Dodaj\"."
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -3318,30 +3249,20 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "Włączenie opcji powoduje generowanie miniaturek dla czcionek Type1."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr ""
-"Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla "
-"czcionek OpenType."
+msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr "Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek OpenType."
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr ""
-"Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla "
-"czcionek PCF."
+msgstr "Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek PCF."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr ""
-"Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla "
-"czcionek TrueType."
+msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr "Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek TrueType."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr ""
-"Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla "
-"czcionek Type1."
+msgstr "Wartość tego klucza będzie używana jako polecenie tworzące miniaturki dla czcionek Type1."
 
 #: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
@@ -3391,11 +3312,13 @@ msgstr "Typ:"
 msgid "Size:"
 msgstr "Rozmiar:"
 
-#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
+#: ../font-viewer/font-view.c:353
+#: ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "Wersja:"
 
-#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
+#: ../font-viewer/font-view.c:357
+#: ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr "Copyright:"
 
@@ -3484,11 +3407,13 @@ msgstr "Zaktualizuj"
 msgid "Uninstall"
 msgstr "Odinstaluj"
 
-#: ../libslab/application-tile.c:784 ../libslab/document-tile.c:721
+#: ../libslab/application-tile.c:784
+#: ../libslab/document-tile.c:721
 msgid "Remove from Favorites"
 msgstr "Usuń z ulubionych"
 
-#: ../libslab/application-tile.c:786 ../libslab/document-tile.c:723
+#: ../libslab/application-tile.c:786
+#: ../libslab/document-tile.c:723
 msgid "Add to Favorites"
 msgstr "Dodaj do ulubionych"
 
@@ -3531,31 +3456,39 @@ msgid "<b>Open</b>"
 msgstr "<b>Otwórz</b>"
 
 #. make rename action
-#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:234
+#: ../libslab/directory-tile.c:190
+#: ../libslab/document-tile.c:234
 msgid "Rename..."
 msgstr "Zmień nazwę..."
 
-#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
-#: ../libslab/document-tile.c:248 ../libslab/document-tile.c:257
+#: ../libslab/directory-tile.c:204
+#: ../libslab/directory-tile.c:213
+#: ../libslab/document-tile.c:248
+#: ../libslab/document-tile.c:257
 msgid "Send To..."
 msgstr "Wyślij do..."
 
 #. make move to trash action
-#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:283
+#: ../libslab/directory-tile.c:228
+#: ../libslab/document-tile.c:283
 msgid "Move to Trash"
 msgstr "Przenieś do kosza"
 
-#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
-#: ../libslab/document-tile.c:293 ../libslab/document-tile.c:837
+#: ../libslab/directory-tile.c:238
+#: ../libslab/directory-tile.c:457
+#: ../libslab/document-tile.c:293
+#: ../libslab/document-tile.c:837
 msgid "Delete"
 msgstr "Usuń"
 
-#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:985
+#: ../libslab/directory-tile.c:533
+#: ../libslab/document-tile.c:985
 #, c-format
 msgid "Are you sure you want to permanently delete \"%s\"?"
 msgstr "Na pewno całkowicie usunąć \"%s\"?"
 
-#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:986
+#: ../libslab/directory-tile.c:534
+#: ../libslab/document-tile.c:986
 msgid "If you delete an item, it is permanently lost."
 msgstr "W wypadku usunięcia elementu zostanie on nieodwracalnie utracony."
 
@@ -3613,3 +3546,22 @@ msgstr "<b>Otwórz %s</b>"
 #, c-format
 msgid "Remove from System Items"
 msgstr "Usuń z elementów systemowych"
+
+#~ msgid "Span"
+#~ msgstr "Rozdzielenie"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "nie znaleziono klucza [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr ""
+#~ "Można ukryć, aby uruchomić (przydatne do wcześniejszego wczytania powłoki)"
+
+#~ msgid "Filter"
+#~ msgstr "Filtr"
+
+#~ msgid "Groups"
+#~ msgstr "Grupy"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Typowe zadania"
