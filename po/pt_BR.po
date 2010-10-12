@@ -25,8 +25,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
-"PO-Revision-Date: 2010-09-24 10:04-0800\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
+"PO-Revision-Date: 2010-10-12 13:20-0800\n"
 "Last-Translator: GLSPTB_Gabor <bechtg@gmail.com>\n"
 "Language-Team: Brazilian Portuguese <gnome-pt_br-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
@@ -221,7 +221,7 @@ msgid "No Image"
 msgstr "Nenhuma imagem"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Imagens"
 
@@ -782,11 +782,11 @@ msgstr "Aplicativos _preferenciais"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Escolhe quais recursos de acessibilidade habilitar quando você iniciar uma sessão"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Adicionar papel de parede"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Todos os arquivos"
 
@@ -822,6 +822,7 @@ msgstr "Usar fonte selecionada"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Não foi possível carregar o arquivo da interface de usuário: %s"
@@ -1243,26 +1244,26 @@ msgstr "Pacote de tema Gnome"
 msgid "No Desktop Background"
 msgstr "Nenhum plano de fundo"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Apresentação de slides"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Imagem"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "tamanhos múltiplos"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s por %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "pixel"
@@ -1272,7 +1273,7 @@ msgstr[1] "pixels"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1287,7 +1288,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1298,7 +1299,7 @@ msgstr ""
 "%s\n"
 "Pasta: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Imagem perdida"
 
@@ -2976,7 +2977,7 @@ msgstr "Nunca"
 #: ../capplets/power/cc-power-panel.c:455
 #: ../capplets/power/power-properties.desktop.in.in.h:1
 msgid "Power and brightness"
-msgstr "Potência e brilho"
+msgstr "Energia e brilho"
 
 #: ../capplets/power/power.ui.h:1
 msgid "Brightness"
@@ -2984,32 +2985,27 @@ msgstr "Brilho"
 
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "Suspender o computador quando estive inativo por: "
+msgstr "Suspender o computador quando inativo por: "
 
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "Definir computador como ocioso quando estiver inativo por: "
+msgstr "Definir computador como ocioso quando inativo por: "
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
-msgstr "Suspenso"
+msgstr "Suspensão"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr ""
-"Isto apagará sua tela e definirá o estado de suas mensagens como \"ausente\"."
+msgstr "Isto apagará a tela e definirá o estado de mensagens como 'ausente'."
 
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr ""
-"Isto suspenderá tudo em seu computador. Ele despertará no mesmo estado em "
-"que esteve antes."
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Isto suspenderá tudo no seu computador. Ele acordará no mesmo estado que anteriormente."
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr "Para modificar o brilho, você pode usar as teclas de seu computador."
+msgstr "Para modificar o brilho, você pode usar as teclas do seu computador."
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
