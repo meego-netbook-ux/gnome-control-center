@@ -15,9 +15,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
-"PO-Revision-Date: 2010-09-27 12:20-0800\n"
-"Last-Translator: Pablo Barbecho <pablo.barbecho@ptiglobal.net>\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
+"PO-Revision-Date: 2010-10-12 16:32-0800\n"
+"Last-Translator: Pablo Barbecho <pablo24uk@yahoo.com>\n"
 "Language-Team: Español <gnome-es-list@gnome.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -211,7 +211,7 @@ msgid "No Image"
 msgstr "Sin imagen"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Imágenes"
 
@@ -771,11 +771,11 @@ msgstr "Aplicaciones _preferidas"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Elija qué características de accesibilidad activar al iniciar sesión"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Añadir fondo"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Todos los archivos"
 
@@ -811,6 +811,7 @@ msgstr "Usar la tipografía seleccionada"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "No se pudo cargar el archivo de interfaz de usuario: %s"
@@ -1231,26 +1232,26 @@ msgstr "Paquete de tema GNOME"
 msgid "No Desktop Background"
 msgstr "Sin fondo de escritorio"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Mostrar diapositivas"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Imagen"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "tamaños múltiples"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s por %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "píxel"
@@ -1260,7 +1261,7 @@ msgstr[1] "píxeles"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1275,7 +1276,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1286,7 +1287,7 @@ msgstr ""
 "%s\n"
 "Carpeta: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Falta una imagen"
 
@@ -2939,8 +2940,8 @@ msgstr "_Usar el mismo proxy para todos los protocolos"
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "minuto %d "
-msgstr[1] "minutos %d"
+msgstr[0] "%d minuto"
+msgstr[1] "%d minutos"
 
 #: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
@@ -2957,33 +2958,27 @@ msgstr "Brillo"
 
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "Poner el ordenador en el modo suspendido cuando este inactivo por:"
+msgstr "Suspender el equipo si no hay actividad durante:"
 
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "Poner el equipo en el modo inactivo cuando no se use por:"
+msgstr "Establecer el equipo en modo inactivo si no hay actividad durante:"
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
-msgstr "Suspender"
+msgstr "Suspendido"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr ""
-"Esto apagará la pantalla y configurará el estado de la mensajería como  "
-"'ausente'."
+msgstr "Esto ocultará la pantalla y cambiará tu mensaje de estado a 'ausente'."
 
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr ""
-"Esto suspenderá todo en el equipo. Se reactivará en el mismo estado en el "
-"que estaba."
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Esto lo suspenderá todo en tu equipo. Se reactivará exactamente en el mismo estado que antes de la suspensión."
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr "Para cambiar el brillo, se puede usar el teclado."
+msgstr "Para ajustar el brillo puedes usar el teclado del equipo."
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
@@ -3612,56 +3607,81 @@ msgstr "Quitar de los elementos del sistema"
 
 #~ msgid "Span"
 #~ msgstr "Expandir"
+
 #~ msgid "key not found [%s]\n"
 #~ msgstr "tecla no encontrada [%s]\n"
+
 #~ msgid "Hide on start (useful to preload the shell)"
 #~ msgstr "Ocultar al inicio (útil para precargar la consola)"
+
 #~ msgid "Filter"
 #~ msgstr "Filtro"
+
 #~ msgid "Groups"
 #~ msgstr "Grupos"
+
 #~ msgid "Common Tasks"
 #~ msgstr "Tareas comunes"
+
 #~ msgid "Change screen resolution"
 #~ msgstr "Cambie la resolución de la pantalla"
+
 #~ msgid "Display Preferences"
 #~ msgstr "Preferencias de la pantalla"
+
 #~ msgid "Drag the monitors to set their place"
 #~ msgstr "Arrastre los monitores para ajustar su ubicación"
+
 #~ msgid "_Mirror screens"
 #~ msgstr "_Espejar pantallas"
+
 #~ msgid "C_ontrol"
 #~ msgstr "_Ctrl"
+
 #~ msgid "Fill screen"
 #~ msgstr "Rellenar pantalla"
+
 #~ msgid "A_cceleration:"
 #~ msgstr "A_celeración:"
+
 #~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
 #~ msgstr ""
 #~ "El veloz murciélago hindú comía feliz cardillo y kiwi. La cigüeña tocaba "
 #~ "el saxofón detrás del palenque de paja. 0123456789"
+
 #~ msgid "Edit"
 #~ msgstr "Editar"
+
 #~ msgid "Interface"
 #~ msgstr "Interfaz"
+
 #~ msgid "Menus and Toolbars"
 #~ msgstr "Menús y barras de herramientas"
+
 #~ msgid "Preview"
 #~ msgstr "Vista previa"
+
 #~ msgid "Show _icons in menus"
 #~ msgstr "Mostrar _iconos en los menús"
+
 #~ msgid "Toolbar _button labels:"
 #~ msgstr "Etiquetas de los _botones de la barra de herramientas:"
+
 #~ msgid "_Editable menu shortcut keys"
 #~ msgstr "Aceleradores de menú _editables"
+
 #~ msgid "_File"
 #~ msgstr "_Archivo"
+
 #~ msgid "New windows get layout \"foobar\""
 #~ msgstr "Las nuevas ventanas obtienen la distribución «foobar»"
+
 #~ msgid "Selected _layouts:"
 #~ msgstr "Distribuciones _seleccionadas:"
+
 #~ msgid "_Desktop Background"
 #~ msgstr "_Fondo del escritorio"
+
 #~ msgid ""
 #~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
 #~ "\n"
@@ -3671,57 +3691,83 @@ msgstr "Quitar de los elementos del sistema"
 #~ "span><span>\n"
 #~ "\n"
 #~ " Su filtro «<b>%s</b>» no coincide con ningún elemento.</span>"
+
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr ""
 #~ "ID de inicio desconocido, la base de datos de usuarios quizá esté corrupta"
+
 #~ msgid "<b>Email</b>"
 #~ msgstr "<b>Correo-e</b>"
+
 #~ msgid "<b>Home</b>"
 #~ msgstr "<b>Domicilio</b>"
+
 #~ msgid "<b>Job</b>"
 #~ msgstr "<b>Cargo</b>"
+
 #~ msgid "<b>Web</b>"
 #~ msgstr "<b>Web</b>"
+
 #~ msgid "<b>Work</b>"
 #~ msgstr "<b>Trabajo</b>"
+
 #~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
 #~ msgstr "<span size=\"larger\" weight=\"bold\">Cambie su contraseña</span>"
+
 #~ msgid "<b>Assistive Technologies</b>"
 #~ msgstr "<b>Tecnologías de asistencia</b>"
+
 #~ msgid "<b>Preferences</b>"
 #~ msgstr "<b>Preferencias</b>"
+
 #~ msgid "<b>C_olors</b>"
 #~ msgstr "<b>C_olores</b>"
+
 #~ msgid "<b>Preview</b>"
 #~ msgstr "<b>Vista previa</b>"
+
 #~ msgid "<b>_Desktop Background</b>"
 #~ msgstr "<b>_Fondo del escritorio</b>"
+
 #~ msgid "<b>Visual</b>"
 #~ msgstr "<b>Visual</b>"
+
 #~ msgid "<b>Bounce Keys</b>"
 #~ msgstr "<b>Rechazo de teclas</b>"
+
 #~ msgid "<b>General</b>"
 #~ msgstr "<b>General</b>"
+
 #~ msgid "<small><i>Fast</i></small>"
 #~ msgstr "<small><i>Rápida</i></small>"
+
 #~ msgid "<small><i>Long</i></small>"
 #~ msgstr "<small><i>Largo</i></small>"
+
 #~ msgid "<small><i>Short</i></small>"
 #~ msgstr "<small><i>Corto</i></small>"
+
 #~ msgid "<small><i>Slow</i></small>"
 #~ msgstr "<small><i>Lenta</i></small>"
+
 #~ msgid "<b>Locate Pointer</b>"
 #~ msgstr "<b>Localizar el puntero</b>"
+
 #~ msgid "<small><i>High</i></small>"
 #~ msgstr "<small><i>Alta</i></small>"
+
 #~ msgid "<small><i>Large</i></small>"
 #~ msgstr "<small><i>Grande</i></small>"
+
 #~ msgid "<small><i>Low</i></small>"
 #~ msgstr "<small><i>Baja</i></small>"
+
 #~ msgid "<small><i>Small</i></small>"
 #~ msgstr "<small><i>Pequeño</i></small>"
+
 #~ msgid "<b>Ignore Host List</b>"
 #~ msgstr "<b>Lista de anfitriones ignorados</b>"
+
 #~ msgid ""
 #~ "Left thumb\n"
 #~ "Left middle finger\n"
@@ -3740,14 +3786,19 @@ msgstr "Quitar de los elementos del sistema"
 #~ "Dedo corazón derecho\n"
 #~ "Dedo anular derecho\n"
 #~ "Dedo meñique derecho"
+
 #~ msgid "C_ut"
 #~ msgstr "Co_rtar"
+
 #~ msgid "New File"
 #~ msgstr "Archivo nuevo"
+
 #~ msgid "Open File"
 #~ msgstr "Abrir archivo"
+
 #~ msgid "Save File"
 #~ msgstr "Guardar archivo"
+
 #~ msgid ""
 #~ "Solid color\n"
 #~ "Horizontal gradient\n"
@@ -3756,6 +3807,7 @@ msgstr "Quitar de los elementos del sistema"
 #~ "Color sólido\n"
 #~ "Degradado horizontal\n"
 #~ "Degradado vertical"
+
 #~ msgid ""
 #~ "Text below items\n"
 #~ "Text beside items\n"
@@ -3766,6 +3818,7 @@ msgstr "Quitar de los elementos del sistema"
 #~ "Texto junto a los iconos\n"
 #~ "Sólo iconos\n"
 #~ "Sólo texto"
+
 #~ msgid ""
 #~ "Tiled\n"
 #~ "Zoom\n"
@@ -3778,18 +3831,25 @@ msgstr "Quitar de los elementos del sistema"
 #~ "Centrado\n"
 #~ "Escalado\n"
 #~ "Rellenar la pantalla"
+
 #~ msgid "_Copy"
 #~ msgstr "_Copiar"
+
 #~ msgid "_New"
 #~ msgstr "_Nuevo"
+
 #~ msgid "_Open"
 #~ msgstr "_Abrir"
+
 #~ msgid "_Print"
 #~ msgstr "Im_primir"
+
 #~ msgid "_Quit"
 #~ msgstr "_Salir"
+
 #~ msgid "_Save"
 #~ msgstr "_Guardar"
+
 #~ msgid ""
 #~ "Normal\n"
 #~ "Left\n"
@@ -3800,72 +3860,103 @@ msgstr "Quitar de los elementos del sistema"
 #~ "Izquierda\n"
 #~ "Derecha\n"
 #~ "Hacia abajo\n"
+
 #~ msgid "Could not apply the selected configuration"
 #~ msgstr "No se pudo aplicar la configuración seleccionada"
+
 #~ msgid "/_About"
 #~ msgstr "/Acerca _de"
+
 #~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
 #~ msgstr "No se pudo obtener org.gnome.SettingsDaemin.XRANDR"
+
 #~ msgid "_Command:"
 #~ msgstr "_Comando:"
+
 #~ msgid "Screen Resolution"
 #~ msgstr "Resolución de la pantalla"
+
 #~ msgid "<b>_Wallpaper</b>"
 #~ msgstr "<b>_Tapiz</b>"
+
 #~ msgid "No Wallpaper"
 #~ msgstr "Sin tapiz"
+
 #~ msgid "Lock Screen"
 #~ msgstr "Bloquear la pantalla"
+
 #~ msgid "Logout"
 #~ msgstr "Salida"
+
 #~ msgid "Shutdown"
 #~ msgstr "Apagar"
+
 #~ msgid "Enable sound and associate sounds with events"
 #~ msgstr "Active el sonido y asocie sonidos con eventos"
+
 #~ msgid "Unknown Volume Control %d"
 #~ msgstr "Control de volumen desconocido %d"
+
 #~ msgid "Failed to construct test pipeline for '%s'"
 #~ msgstr "Ha fallado la construcción de la tubería de prueba para «%s»"
+
 #~ msgid "Not connected"
 #~ msgstr "No conectado"
+
 #~ msgid "Autodetect"
 #~ msgstr "Autodetectar"
+
 #~ msgid "ALSA - Advanced Linux Sound Architecture"
 #~ msgstr "ALSA - Advanced Linux Sound Architecture"
+
 #~ msgid "Artsd - ART Sound Daemon"
 #~ msgstr "Artsd - ART Sound Daemon"
+
 #~ msgid "ESD - Enlightened Sound Daemon"
 #~ msgstr "ESD - Enlightened Sound Daemon"
+
 #~ msgid "OSS - Open Sound System"
 #~ msgstr "OSS - Open Sound System"
+
 #~ msgid "PulseAudio Sound Server"
 #~ msgstr "PulseAudio Sound Server"
-#~ msgid "Silence"
-#~ msgstr "Silencio"
+
 #~ msgid "- GNOME Sound Preferences"
 #~ msgstr "- Preferencias de sonido de GNOME"
+
 #~ msgid "<b>Alerts and Sound Effects</b>"
 #~ msgstr "<b>Alertas y efectos de sonido</b>"
+
 #~ msgid "<b>Audio Conferencing</b>"
 #~ msgstr "<b>Conferencia de sonido</b>"
+
 #~ msgid "<b>Default Mixer Tracks</b>"
 #~ msgstr "<b>Pistas predeterminadas del mezclador</b>"
+
 #~ msgid "<b>Music and Movies</b>"
 #~ msgstr "<b>Música y películas</b>"
+
 #~ msgid "<b>Sound Events</b>"
 #~ msgstr "<b>Eventos de sonido</b>"
+
 #~ msgid "<b>Sound Theme</b>"
 #~ msgstr "<b>Tema de sonido</b>"
+
 #~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
 #~ msgstr "<span weight=\"bold\" size=\"x-large\">Probar…</span>"
+
 #~ msgid "Click OK to finish."
 #~ msgstr "Pulse «Aceptar» para terminar."
+
 #~ msgid "Play _alert sound"
 #~ msgstr "Reproducir sonido de _alerta"
+
 #~ msgid "Play _sound effects when buttons are clicked"
 #~ msgstr "Reproducir efectos de _sonido al pulsar botones"
+
 #~ msgid "S_ound playback:"
 #~ msgstr "Repr_oducción de sonido:"
+
 #~ msgid ""
 #~ "Select the device and tracks to control with the keyboard. Use the Shift "
 #~ "and Control keys to select multiple tracks if required."
@@ -3873,123 +3964,169 @@ msgstr "Quitar de los elementos del sistema"
 #~ "Seleccione el dispositivo y las pistas a controlar con el teclado. Use "
 #~ "las teclas Mayús. y Control para seleccionar múltiples pistas si es "
 #~ "necesario."
+
 #~ msgid "So_und playback:"
 #~ msgstr "Reprod_ucción de sonido:"
+
 #~ msgid "Sou_nd capture:"
 #~ msgstr "Captura de so_nido:"
+
 #~ msgid "Sound Preferences"
 #~ msgstr "Preferencias de sonido"
+
 #~ msgid "Sounds"
 #~ msgstr "Sonidos"
+
 #~ msgid "Test"
 #~ msgstr "Probar"
+
 #~ msgid "Testing Pipeline"
 #~ msgstr "Probar pipeline"
+
 #~ msgid "_Device:"
 #~ msgstr "_Dispositivo:"
+
 #~ msgid "_Play alerts and sound effects"
 #~ msgstr "_Reproducir alertas y efectos de sonido"
+
 #~ msgid "_Sound playback:"
 #~ msgstr "Reproducción de _sonido:"
 #~ msgctxt "Sound event"
+
 #~ msgid "Alert sound"
 #~ msgstr "Sonido de alarma"
 #~ msgctxt "Sound event"
+
 #~ msgid "Windows and Buttons"
 #~ msgstr "Ventanas y botones"
 #~ msgctxt "Sound event"
+
 #~ msgid "Button clicked"
 #~ msgstr "Botón pulsado"
 #~ msgctxt "Sound event"
+
 #~ msgid "Toggle button clicked"
 #~ msgstr "Botón conmutador pulsado"
 #~ msgctxt "Sound event"
+
 #~ msgid "Window maximized"
 #~ msgstr "Ventana maximizada"
 #~ msgctxt "Sound event"
+
 #~ msgid "Window unmaximized"
 #~ msgstr "Ventana desmaximizada"
 #~ msgctxt "Sound event"
+
 #~ msgid "Window minimised"
 #~ msgstr "Ventana minimizada"
 #~ msgctxt "Sound event"
+
 #~ msgid "Desktop"
 #~ msgstr "Escritorio"
 #~ msgctxt "Sound event"
+
 #~ msgid "Logout"
 #~ msgstr "Salida"
 #~ msgctxt "Sound event"
+
 #~ msgid "New e-mail"
 #~ msgstr "Correo-e nuevo"
 #~ msgctxt "Sound event"
+
 #~ msgid "Empty trash"
 #~ msgstr "Vaciado de la papelera"
 #~ msgctxt "Sound event"
+
 #~ msgid "Long action completed (download, CD burning, etc.)"
 #~ msgstr "Acción larga completada (descarga, grabación de CD, etc.)"
 #~ msgctxt "Sound event"
+
 #~ msgid "Alerts"
 #~ msgstr "Alarmas"
 #~ msgctxt "Sound event"
+
 #~ msgid "Information or question"
 #~ msgstr "Información o pregunta"
 #~ msgctxt "Sound event"
+
 #~ msgid "Warning"
 #~ msgstr "Advertencia"
 #~ msgctxt "Sound event"
+
 #~ msgid "Error"
 #~ msgstr "Error"
 #~ msgctxt "Sound event"
+
 #~ msgid "Battery warning"
 #~ msgstr "Advertencia de batería"
+
 #~ msgid "Testing event sound"
 #~ msgstr "Comprobando el sonido de evento"
+
 #~ msgid "Select Sound File"
 #~ msgstr "Seleccione un archivo de sonido"
+
 #~ msgid "Sound files"
 #~ msgstr "Archivos de sonido"
+
 #~ msgid "Custom..."
 #~ msgstr "Personalizado…"
+
 #~ msgid "Monitor Resolution Settings"
 #~ msgstr "Ajustes de resolución del monitor"
+
 #~ msgid ""
 #~ "The X server does not support the XRANDR extension.  Runtime resolution "
 #~ "changes to the display size are not available."
 #~ msgstr ""
 #~ "El servidor X no soporta la extensión XRANDR. Los cambios inmediatos "
 #~ "sobre el tamaño de la pantalla no están disponibles."
+
 #~ msgid "Retrieve and store legacy settings"
 #~ msgstr "Obtener y almacenar configuración heredada"
+
 #~ msgid "Enable support for GNOME assistive technologies at login"
 #~ msgstr ""
 #~ "Active el soporte para las tecnologías de asistencia de GNOME durante el "
 #~ "inicio"
+
 #~ msgid "Cloned Output"
 #~ msgstr "Salida clonada"
+
 #~ msgid "New accelerator..."
 #~ msgstr "Combinación nueva…"
+
 #~ msgid "Unexpected attribute '%s' for element '%s'"
 #~ msgstr "Atributo «%s» inesperado para el elemento «%s»"
+
 #~ msgid "Attribute '%s' of element '%s' not found"
 #~ msgstr "No se encontró el atributo «%s» del elemento «%s»"
+
 #~ msgid "Unexpected tag '%s', tag '%s' expected"
 #~ msgstr "Etiqueta «%s» inesperada, se esperaba la etiqueta «%s»"
+
 #~ msgid "Unexpected tag '%s' inside '%s'"
 #~ msgstr "Etiqueta «%s» inesperada dentro de «%s»"
+
 #~ msgid "No valid bookmark file found in data dirs"
 #~ msgstr ""
 #~ "No se encontró un archivo de marcadores válido en los directorios de datos"
+
 #~ msgid "A bookmark for URI '%s' already exists"
 #~ msgstr "Ya existe un marcador para la URI «%s»"
+
 #~ msgid "No bookmark found for URI '%s'"
 #~ msgstr "No se encontró un marcador para la URI «%s»"
+
 #~ msgid "No MIME type defined in the bookmark for URI '%s'"
 #~ msgstr "No hay un tipo MIME definido en el marcador para la URI «%s»"
+
 #~ msgid "No private flag has been defined in bookmark for URI '%s'"
 #~ msgstr ""
 #~ "No se ha definido una bandera privada en el marcador para la URI «%s»"
+
 #~ msgid "No groups set in bookmark for URI '%s'"
 #~ msgstr "No hay establecido ningún grupo para el URI «%s»"
+
 #~ msgid "No application with name '%s' registered a bookmark for '%s'"
 #~ msgstr "Ninguna aplicación con el nombre «%s» registró un marcador para «%s»"
-
