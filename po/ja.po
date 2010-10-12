@@ -13,14 +13,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
-"PO-Revision-Date: 2010-09-24 11:38-0800\n"
-"Last-Translator: GLSJPN_Etsuko <etsuko.murozono@ptiglobal.net>\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
+"PO-Revision-Date: 2010-10-12 13:39-0800\n"
+"Last-Translator: \n"
 "Language-Team: Japanese <gnome-translation@gnome.gr.jp>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -208,7 +208,7 @@ msgid "No Image"
 msgstr "画像なし"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "画像"
 
@@ -223,7 +223,7 @@ msgid ""
 "Evolution Data Server can't handle the protocol"
 msgstr ""
 "アドレス帳の情報を取得する際にエラーが発生しました。\n"
-"Evolution データ・サーバでは扱えないプロトコルです。"
+"Evolution データ・サーバーでは扱えないプロトコルです。"
 
 #: ../capplets/about-me/gnome-about-me.c:911
 msgid "Unable to open address book"
@@ -356,7 +356,7 @@ msgstr "電話"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
 msgid "User name:"
-msgstr "ユーザ名:"
+msgstr "ユーザー名:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
 msgid "Web"
@@ -768,11 +768,11 @@ msgstr "お気に入りのアプリ(_P)"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "ログインした時にアクセシビリティの機能を有効にするかどうかを選択します"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "壁紙の追加"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "全てのファイル"
 
@@ -784,13 +784,15 @@ msgstr "フォントが大きすぎるようです"
 #, c-format
 msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
 msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
-msgstr[0] "選択したフォントの大きさは %dポイントですが、コンピュータで効果的に使用するのは困難です。%dより小さいフォントを選択することをお薦めします。"
+msgstr[0] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。%dより小さいフォントを選択することをお薦めします。"
+msgstr[1] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。%dより小さいフォントを選択することをお薦めします。"
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
 msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
 msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
-msgstr[0] "選択したフォントの大きさは %dポイントですが、コンピュータで効果的に使用するのは困難です。より小さいフォントを選択することをお薦めします。"
+msgstr[0] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。より小さいフォントを選択することをお薦めします。"
+msgstr[1] "選択したフォントの大きさは %dポイントですが、コンピューターで効果的に使用するのは困難です。より小さいフォントを選択することをお薦めします。"
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -806,9 +808,10 @@ msgstr "選択したフォントを使用する"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
-msgstr "ユーザ・インタフェース・ファイルを読み込めませんでした: %s"
+msgstr "ユーザー・インタフェース・ファイルを読み込めませんでした: %s"
 
 #: ../capplets/appearance/appearance-main.c:135
 msgid "Specify the filename of a theme to install"
@@ -1228,35 +1231,36 @@ msgstr "GNOME のテーマ・パッケージ"
 msgid "No Desktop Background"
 msgstr "デスクトップの背景ではありません"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "スライドショー"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "画像"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "複数のサイズ"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s x %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "ピクセル"
+msgstr[1] "ピクセル"
 
 #. translators: <b>wallpaper name</b>
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1271,7 +1275,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1282,7 +1286,7 @@ msgstr ""
 "%s\n"
 "フォルダ: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "画像がありません"
 
@@ -2891,7 +2895,7 @@ msgstr "その場所は既に登録済みです。"
 
 #: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
-msgstr "ユーザ名(_S):"
+msgstr "ユーザー名(_S):"
 
 #: ../capplets/network/gnome-network-properties.ui.h:16
 msgid "_Automatic proxy configuration"
@@ -2938,59 +2942,49 @@ msgstr "全てのプロトコルで同じプロキシを使う(_U)"
 #, c-format
 msgid "%d minute"
 msgid_plural "%d minutes"
-msgstr[0] "%d 分"
-msgstr[1] "%d 分"
+msgstr[0] "%d分"
+msgstr[1] "%d分"
 
 #: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
-msgstr "なし"
+msgstr "使用しない "
 
 #: ../capplets/power/cc-power-panel.c:455
 #: ../capplets/power/power-properties.desktop.in.in.h:1
 msgid "Power and brightness"
-msgstr "電力と明るさ"
+msgstr "電力・明度"
 
 #: ../capplets/power/power.ui.h:1
 msgid "Brightness"
-msgstr "明るさ"
+msgstr "明度"
 
-# after this string, there is a bar to set time, so the sentence should be translated as "... inactive for: <xxx minutes>"
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "コンピューターをスリープさせるまでの非アクティブ時間："
+msgstr "コンピューターが次の時間非アクティブの場合、スリープ状態にする："
 
-# after this string, there is a bar to set time, so the sentence should be translated as "... inactive for: <xxx minutes>"
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "コンピューターがアイドル状態になるまでの非アクティブ時間："
+msgstr "コンピューターが次の時間非アクティブの場合、アイドル状態にする："
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
-msgstr "スリープ"
+msgstr "スリーブ状態"
 
-# This explanation is for idle status.
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr ""
-"コンピューターがアイドル状態になると、画面がブランクになり、メッセージ状態が"
-"「離席中」になります。"
+msgstr "スクリーンを空白にし、メッセージングのステータスを「退席」にします。"
 
-# this is for sleep status
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr ""
-"コンピューターがスリープ状態になると、コンピューター上のすべてがサスペンドに"
-"なります。ウェイクアップすると、以前の状態に戻ります。"
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "コンピューターのすべてを一時停止の状態にします。一時停止になる前と同じ状態でウェイクします。"
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr "明るさは、コンピューター上のキーを使用して変更してください。"
+msgstr "明度を変更するには、コンピューターのキーを使用してください。"
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
-msgstr "アイドル"
+msgstr "アイドル状態"
 
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
@@ -3244,6 +3238,7 @@ msgstr "一休みする(_T)"
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "次の一休みまで %d分あります"
+msgstr[1] "次の一休みまで %d分あります"
 
 #: ../typing-break/drwright.c:444
 #, c-format
@@ -3265,7 +3260,7 @@ msgstr "目玉のキャンディの提供: Anders Carlsson"
 
 #: ../typing-break/drwright.c:553
 msgid "A computer break reminder."
-msgstr "コンピュータの一休み催促ツールです。"
+msgstr "コンピューターの一休み催促ツールです。"
 
 #: ../typing-break/drwright.c:555
 msgid "translator-credits"
@@ -3394,7 +3389,7 @@ msgstr "インストール失敗"
 #: ../font-viewer/font-view.c:516
 #, c-format
 msgid "usage: %s fontfile\n"
-msgstr "用法: %s フォント・ファイル\n"
+msgstr "用法: %s フォントファイル\n"
 
 #: ../font-viewer/font-view.c:591
 msgid "I_nstall Font"
@@ -3500,7 +3495,7 @@ msgstr "ファイルシステム"
 
 #: ../libslab/bookmark-agent.c:1157
 msgid "Network Servers"
-msgstr "ネットワーク・サーバ"
+msgstr "ネットワーク・サーバー"
 
 #: ../libslab/bookmark-agent.c:1186
 msgid "Search"
@@ -3606,20 +3601,27 @@ msgstr "システムのアイテムから削除する"
 
 #~ msgid "key not found [%s]\n"
 #~ msgstr "キーが見つかりませんでした [%s]\n"
+
 #~ msgid "Hide on start (useful to preload the shell)"
 #~ msgstr "実行時に非表示 (シェルをあらかじめ読み込む時に有効)"
+
 #~ msgid "Filter"
 #~ msgstr "フィルタ"
+
 #~ msgid "Groups"
 #~ msgstr "グループ"
+
 #~ msgid "Common Tasks"
 #~ msgstr "よく利用するタスク"
+
 #~ msgid "Display Preferences"
 #~ msgstr "ディスプレイの設定"
+
 #~ msgid "Drag the monitors to set their place"
 #~ msgstr "モニタをドラッグして場所を指定して下さい"
+
 #~ msgid "_Mirror screens"
 #~ msgstr "複数の画面をミラーする(_M)"
+
 #~ msgid "Change screen resolution"
 #~ msgstr "画面の解像度を変更します"
-
