@@ -2948,6 +2948,63 @@ msgstr "_Utiliser l'authentification"
 msgid "_Use the same proxy for all protocols"
 msgstr "_Utiliser le même serveur mandataire pour tous les protocoles"
 
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d minute"
+msgstr[1] "%d minutes"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr "Jamais"
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr "Alimentation et luminosité"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "Luminosité"
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr "Mettre l'ordinateur en veille après une durée d'inactivité de :"
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr "Mettre l'ordinateur au ralenti après une durée d'inactivité de :"
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr "Veille"
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+"L'écran deviendra blanc et le statut de votre messagerie passera à « absent "
+"»."
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+"Tout sera suspendu sur votre ordinateur. Il se réveillera dans le même état "
+"qu'il était auparavant."
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+"Pour modifier la luminosité, vous pouvez utiliser les touches sur votre "
+"ordinateur."
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr "Ralenti"
+
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Désolé, les mots de passe sont differents"

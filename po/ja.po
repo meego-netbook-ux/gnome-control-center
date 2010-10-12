@@ -2933,6 +2933,65 @@ msgstr "認証を使う(_U)"
 msgid "_Use the same proxy for all protocols"
 msgstr "全てのプロトコルで同じプロキシを使う(_U)"
 
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d 分"
+msgstr[1] "%d 分"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr "なし"
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr "電力と明るさ"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "明るさ"
+
+# after this string, there is a bar to set time, so the sentence should be translated as "... inactive for: <xxx minutes>"
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr "コンピューターをスリープさせるまでの非アクティブ時間："
+
+# after this string, there is a bar to set time, so the sentence should be translated as "... inactive for: <xxx minutes>"
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr "コンピューターがアイドル状態になるまでの非アクティブ時間："
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr "スリープ"
+
+# This explanation is for idle status.
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+"コンピューターがアイドル状態になると、画面がブランクになり、メッセージ状態が"
+"「離席中」になります。"
+
+# this is for sleep status
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+"コンピューターがスリープ状態になると、コンピューター上のすべてがサスペンドに"
+"なります。ウェイクアップすると、以前の状態に戻ります。"
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "明るさは、コンピューター上のキーを使用して変更してください。"
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr "アイドル"
+
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "パスワードが一致しません"
