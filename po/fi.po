@@ -15,8 +15,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
-"PO-Revision-Date: 2010-09-27 17:11-0800\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
+"PO-Revision-Date: 2010-10-13 08:52-0800\n"
 "Last-Translator: Anna Bergman <anna.b.bergman@gmail.com>\n"
 "Language-Team: Finnish <gnome-fi-laatu@lists.sourceforge.net>\n"
 "MIME-Version: 1.0\n"
@@ -210,7 +210,7 @@ msgid "No Image"
 msgstr "Ei kuvaa"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Kuvat"
 
@@ -770,11 +770,11 @@ msgstr "_Oletussovellukset"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Valitse sisäänkirjauduttaessa käyttöön otettavat esteettömyysominaisuudet"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Lisää tausta"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Kaikki tiedostot"
 
@@ -810,6 +810,7 @@ msgstr "Käytä valittua kirjasinta"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Käyttöliittymätiedostoa ei voitu ladata: %s"
@@ -1230,26 +1231,26 @@ msgstr "Gnomen teemapaketti"
 msgid "No Desktop Background"
 msgstr "Ei työpöydän taustaa"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Diaesitys"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Kuva"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "useita kokoja"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s × %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "kuvapiste"
@@ -1259,7 +1260,7 @@ msgstr[1] "kuvapistettä"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1274,7 +1275,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1285,7 +1286,7 @@ msgstr ""
 "%s\n"
 "Kansio: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Kuva puuttuu"
 
@@ -2939,7 +2940,7 @@ msgstr "_Käytä samaa välipalvelinta kaikille protokollille"
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d minuutti"
-msgstr[1] "%d  minuuttia"
+msgstr[1] "%d minuuttia"
 
 #: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
@@ -2948,7 +2949,7 @@ msgstr "Ei koskaan"
 #: ../capplets/power/cc-power-panel.c:455
 #: ../capplets/power/power-properties.desktop.in.in.h:1
 msgid "Power and brightness"
-msgstr "Virta ja kirkkaus"
+msgstr "Voima ja kirkkaus"
 
 #: ../capplets/power/power.ui.h:1
 msgid "Brightness"
@@ -2956,35 +2957,31 @@ msgstr "Kirkkaus"
 
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "Pane tietokone nukkumaan, kun se ei ole aktiivinen"
+msgstr "Tietokone laitetaan unitilaan, kun on toimettomana:"
 
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "Aseta tietokone käyttämättömään tilaan:"
+msgstr "Aseta tietokone tyhjäkäyntitilaan, kun on toimettomana:"
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
-msgstr "Nuku"
+msgstr "Unitila"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr "Tämä tyhjentää ruudun ja asettaa viestityksen tilan arvoon 'pois'."
+msgstr "Tämä tyhjentää näytön ja asettaa viestitilasi poissaolevaksi."
 
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr ""
-"Tämä keskeyttää kaikki tietokoneellasi. Se herää samaan tilaan, jossa se oli "
-"aikaisemmin."
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Tämä keskeyttää kaiken tietokonessasi.  Kaikki palautuu samassa tilassa, kun tietokone herätään."
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr "Voit vaihtaa kirkkautta käyttämällä tietokoneesi painikkeita."
+msgstr "Näppäimistöllä voit säätää kirkkausasetukset."
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
-msgstr "Käyttämätön"
+msgstr "Tyhjäkäynti"
 
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
@@ -3605,80 +3602,55 @@ msgstr "Poista järjestelmän kohdista"
 
 #~ msgid "Span"
 #~ msgstr "Peitetty"
-
 #~ msgid "key not found [%s]\n"
 #~ msgstr "avainta ei löydy [%s]\n"
-
 #~ msgid "Hide on start (useful to preload the shell)"
 #~ msgstr "Piilota käynnistettäessä (hyödyllinen kuoren esilataukseen)"
-
 #~ msgid "Filter"
 #~ msgstr "Suodata"
-
 #~ msgid "Groups"
 #~ msgstr "Ryhmät"
-
 #~ msgid "Common Tasks"
 #~ msgstr "Yleiset tehtävät"
-
 #~ msgid "Edit"
 #~ msgstr "Muokkaa"
-
 #~ msgid "Fill screen"
 #~ msgstr "Täytä näyttö"
-
 #~ msgid "Interface"
 #~ msgstr "Käyttöliittymä"
-
 #~ msgid "Menus and Toolbars"
 #~ msgstr "Valikot ja työkalupalkit"
-
 #~ msgid "Preview"
 #~ msgstr "Esikatselu"
-
 #~ msgid "Show _icons in menus"
 #~ msgstr "_Näytä kuvakkeet valikoissa"
-
 #~ msgid "Toolbar _button labels:"
 #~ msgstr "Työkalupalkkien _painikkeiden nimet:"
-
 #~ msgid "_Editable menu shortcut keys"
 #~ msgstr "_Muokattavat valikoiden pikanäppäimet"
-
 #~ msgid "_File"
 #~ msgstr "_Tiedosto"
-
 #~ msgid "Display Preferences"
 #~ msgstr "Näytön asetukset"
-
 #~ msgid "Drag the monitors to set their place"
 #~ msgstr "Aseta näyttöjen paikka raahaamalla"
-
 #~ msgid "_Mirror screens"
 #~ msgstr "_Peilaa näytöt"
-
 #~ msgid "Change screen resolution"
 #~ msgstr "Muuta näytön tarkkuutta"
-
 #~ msgid "A_cceleration:"
 #~ msgstr "_Kiihtyvyys:"
-
 #~ msgid "_Selected layouts:"
 #~ msgstr "_Valitut asettelut:"
-
 #~ msgid "C_ontrol"
 #~ msgstr "C_ontrol"
-
 #~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
 #~ msgstr "Abcdefghijklmnopqrsštuvwxyzåäö. 0123456789"
-
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr ""
 #~ "Tuntematon kirjautumistunniste, käyttäjätietokanta voi olla vioittunut"
-
 #~ msgid "_Desktop Background"
 #~ msgstr "_Työpöydän tausta"
-
 #~ msgid ""
 #~ "Left thumb\n"
 #~ "Left middle finger\n"
@@ -3697,85 +3669,58 @@ msgstr "Poista järjestelmän kohdista"
 #~ "Oikea keskisormi\n"
 #~ "Oikea nimetön\n"
 #~ "Oikea pikkusormi"
-
 #~ msgid "<b>Email</b>"
 #~ msgstr "<b>Sähköposti</b>"
-
 #~ msgid "<b>Home</b>"
 #~ msgstr "<b>Koti</b>"
-
 #~ msgid "<b>Job</b>"
 #~ msgstr "<b>Työ</b>"
-
 #~ msgid "<b>Web</b>"
 #~ msgstr "<b>WWW</b>"
-
 #~ msgid "<b>Work</b>"
 #~ msgstr "<b>Työ</b>"
-
 #~ msgid "<b>Assistive Technologies</b>"
 #~ msgstr "<b>Esteettömyysohjelmat</b>"
-
 #~ msgid "<b>Preferences</b>"
 #~ msgstr "<b>Asetukset</b>"
-
 #~ msgid "<b>C_olors</b>"
 #~ msgstr "<b>_Värit</b> "
-
 #~ msgid "<b>Preview</b>"
 #~ msgstr "<b>Esikatselu</b>"
-
 #~ msgid "<b>_Desktop Background</b>"
 #~ msgstr "<b>Työpöydän tausta</b>"
-
 #~ msgid "<b>Bounce Keys</b>"
 #~ msgstr "<b>Kimmonäppäimet</b>"
-
 #~ msgid "<b>General</b>"
 #~ msgstr "<b>Yleisasetukset</b>"
-
 #~ msgid "<small><i>Fast</i></small>"
 #~ msgstr "<small><i>Nopea</i></small>"
-
 #~ msgid "<small><i>Long</i></small>"
 #~ msgstr "<small><i>Pitkä</i></small>"
-
 #~ msgid "<small><i>Short</i></small>"
 #~ msgstr "<small><i>Lyhyt</i></small>"
-
 #~ msgid "<small><i>Slow</i></small>"
 #~ msgstr "<small><i>Hidas</i></small>"
-
 #~ msgid "<b>Locate Pointer</b>"
 #~ msgstr "<b>Paikanna osoitin</b>"
-
 #~ msgid "<small><i>High</i></small>"
 #~ msgstr "<small><i>Korkea</i></small>"
-
 #~ msgid "<small><i>Large</i></small>"
 #~ msgstr "<small><i>Suuri</i></small>"
-
 #~ msgid "<small><i>Low</i></small>"
 #~ msgstr "<small><i>Matala</i></small>"
-
 #~ msgid "<small><i>Small</i></small>"
 #~ msgstr "<small><i>Pieni</i></small>"
-
 #~ msgid "<b>Ignore Host List</b>"
 #~ msgstr "<b>Luettelo ohitettavista verkkonimistä</b>"
-
 #~ msgid "C_ut"
 #~ msgstr "_Leikkaa"
-
 #~ msgid "New File"
 #~ msgstr "Uusi tiedosto"
-
 #~ msgid "Open File"
 #~ msgstr "Avaa tiedosto"
-
 #~ msgid "Save File"
 #~ msgstr "Tallenna tiedosto"
-
 #~ msgid ""
 #~ "Solid color\n"
 #~ "Horizontal gradient\n"
@@ -3784,7 +3729,6 @@ msgstr "Poista järjestelmän kohdista"
 #~ "Kiinteä väri\n"
 #~ "Vaakasuuntainen väriliuku\n"
 #~ "Pystysuuntainen väriliuku"
-
 #~ msgid ""
 #~ "Text below items\n"
 #~ "Text beside items\n"
@@ -3795,7 +3739,6 @@ msgstr "Poista järjestelmän kohdista"
 #~ "Teksti kuvakkeen vieressä\n"
 #~ "Vain kuvakkeet\n"
 #~ "Vain teksti"
-
 #~ msgid ""
 #~ "Tiled\n"
 #~ "Zoom\n"
@@ -3808,25 +3751,18 @@ msgstr "Poista järjestelmän kohdista"
 #~ "Keskitä\n"
 #~ "Venytä\n"
 #~ "Täytä ruutu"
-
 #~ msgid "_Copy"
 #~ msgstr "_Kopioi"
-
 #~ msgid "_New"
 #~ msgstr "_Uusi"
-
 #~ msgid "_Open"
 #~ msgstr "_Avaa"
-
 #~ msgid "_Print"
 #~ msgstr "Tul_osta"
-
 #~ msgid "_Quit"
 #~ msgstr "_Lopeta"
-
 #~ msgid "_Save"
 #~ msgstr "_Tallenna"
-
 #~ msgid ""
 #~ "Normal\n"
 #~ "Left\n"
@@ -3837,15 +3773,12 @@ msgstr "Poista järjestelmän kohdista"
 #~ "Vasen\n"
 #~ "Oikea\n"
 #~ "Ylösalaisin\n"
-
 #~ msgid "Could not apply the selected configuration"
 #~ msgstr "Valittuja asetuksia ei voitu toteuttaa"
-
 #~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
 #~ msgstr "Avainta org.gnome.SettingsDaemon.XRANDR ei saatu"
-
 #~ msgid "/_About"
 #~ msgstr "/_Tietoja"
-
 #~ msgid "_Command:"
 #~ msgstr "_Komento:"
+
