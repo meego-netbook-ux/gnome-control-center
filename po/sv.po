@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
-"PO-Revision-Date: 2010-09-24 15:56-0800\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
+"PO-Revision-Date: 2010-10-12 20:17-0800\n"
 "Last-Translator: Petra Mathilda Klein <mathilda.klein@ptiglobal.net>\n"
 "Language-Team: Swedish <tp-sv@listor.tp-sv.se>\n"
 "MIME-Version: 1.0\n"
@@ -208,7 +208,7 @@ msgid "No Image"
 msgstr "Ingen bild"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Bilder"
 
@@ -769,11 +769,11 @@ msgstr "_Föredragna program"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Välj vilka hjälpmedelsfunktioner som ska aktiveras när du loggar in"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Lägg till bakgrundsbild"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Alla filer"
 
@@ -809,6 +809,7 @@ msgstr "Använd valt typsnitt"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Kunde inte läsa in användargränssnittsfilen: %s"
@@ -1230,26 +1231,26 @@ msgstr "Gnome-temapaket"
 msgid "No Desktop Background"
 msgstr "Ingen skrivbordsbakgrund"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Bildspel"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Bild"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "flera storlekar"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s gånger %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "bildpunkt"
@@ -1259,7 +1260,7 @@ msgstr[1] "bildpunkter"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1274,7 +1275,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1285,7 +1286,7 @@ msgstr ""
 "%s\n"
 "Mapp: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Bild saknas"
 
@@ -2949,7 +2950,7 @@ msgstr "Aldrig"
 #: ../capplets/power/cc-power-panel.c:455
 #: ../capplets/power/power-properties.desktop.in.in.h:1
 msgid "Power and brightness"
-msgstr "Energi och ljusstyrka"
+msgstr "Ström och ljusstyrka"
 
 #: ../capplets/power/power.ui.h:1
 msgid "Brightness"
@@ -2957,32 +2958,27 @@ msgstr "Ljusstyrka"
 
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "Sätt datorn i viloläge när den inte varit aktiv under:"
+msgstr "Försätt datorn i viloläge efter inaktivitet i:"
 
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "Sätt datorn som inaktiv när den inte varit aktiv under:"
+msgstr "Försätt datorn till inaktivt läge efter inaktivitet i:"
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
-msgstr "Sov"
+msgstr "Vila"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr ""
-"Detta tömmer skärmen och ställer in ditt meddelandeläge till \"borta\"."
+msgstr "Detta kommer tömma skärmen och ställa din meddelande status till 'Inte vid datorn'."
 
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr ""
-"Detta gör uppehåll i allt på din dator. Den vaknar i precis samma läge som "
-"den var i tidigare."
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Detta kommer göra uppehåll i allt pågående i din dator. Den kommer vakna i samma tillstånd som tidigare."
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr "Använd tangenterna på datorn för att ändra ljusstyrkan."
+msgstr "För att ändra ljusstyrkan kan du använda datorns tangenter. "
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
@@ -4318,9 +4314,6 @@ msgstr "Ta bort från systemobjekt"
 
 #~ msgid "Skip to previous track"
 #~ msgstr "Hoppa till föregående spår"
-
-#~ msgid "Sleep"
-#~ msgstr "Sov"
 
 #~ msgid "Sleep's shortcut."
 #~ msgstr "Genvägen för sov."
