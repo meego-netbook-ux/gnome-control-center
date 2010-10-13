@@ -12,14 +12,14 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.29.92\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
-"PO-Revision-Date: 2010-09-21 20:36+0800\n"
-"Last-Translator: Cheng-Chia Tseng <pswo10680@gmail.com>\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
+"PO-Revision-Date: 2010-10-12 21:11-0800\n"
+"Last-Translator: Wen-Hsin Moh <wenhsinm@gmail.com>\n"
 "Language-Team: Chinese (Taiwan) <zh-l10n@lists.linux.org.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -207,7 +207,7 @@ msgid "No Image"
 msgstr "沒有圖片"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "圖片"
 
@@ -767,11 +767,11 @@ msgstr "首選應用程式(_P)"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "選擇當您登入時要啟用哪個無障礙功能"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "加入桌布"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "所有檔案"
 
@@ -784,12 +784,14 @@ msgstr "字型可能過大"
 msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
 msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
 msgstr[0] "您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取小於 %d 點的字型。"
+msgstr[1] "您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取小於 %d 點的字型。"
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
 msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
 msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
 msgstr[0] "您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取較小的字型。"
+msgstr[1] "您選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取較小的字型。"
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -805,6 +807,7 @@ msgstr "使用已選字型"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "無法載入使用者介面檔案：%s"
@@ -1225,35 +1228,36 @@ msgstr "Gnome 佈景主題套件"
 msgid "No Desktop Background"
 msgstr "無桌面背景"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "幻燈片顯示"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "圖片"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "多重尺寸"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "寛%d %s 高%d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "像素"
+msgstr[1] "像素"
 
 #. translators: <b>wallpaper name</b>
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1268,7 +1272,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1279,7 +1283,7 @@ msgstr ""
 "%s\n"
 "資料夾：%s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "遺失圖片"
 
@@ -2933,6 +2937,7 @@ msgstr "所有協定皆使用相同的代理伺服器(_U)"
 msgid "%d minute"
 msgid_plural "%d minutes"
 msgstr[0] "%d 分鐘"
+msgstr[1] "%d 分鐘"
 
 #: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
@@ -2949,11 +2954,11 @@ msgstr "亮度"
 
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "當電腦不活動多久時間便讓它進入睡眠："
+msgstr "在電腦非作用時置於睡眠狀態："
 
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "當電腦不活動多久時間便設為閒置："
+msgstr "在電腦非作用時置於閒置狀態："
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
@@ -2961,17 +2966,15 @@ msgstr "睡眠"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr "這會讓螢幕轉黑，並將您的訊息狀態設為「離開」。"
+msgstr "這會置螢幕為空白頁面，並設置您的訊息狀態為「離開」。"
 
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr "這會暫停您電腦上的每件事。它會被喚醒回它之前的狀態。"
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "這會暫時停止執行您電腦的所有程式。電腦喚醒後，狀態會跟睡眠前一樣。"
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr "要變更您的亮度，您可以使用您電腦上的按鍵。"
+msgstr "要變更您電腦螢幕亮度, 您可以使用電腦鍵。"
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
@@ -3229,6 +3232,7 @@ msgstr "休息一下(_T)"
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] "距離休息時間還有 %d 分鐘"
+msgstr[1] "距離休息時間還有 %d 分鐘"
 
 #: ../typing-break/drwright.c:444
 #, c-format
@@ -3594,52 +3598,76 @@ msgstr "自系統項目中移除"
 
 #~ msgid "Span"
 #~ msgstr "跨越"
+
 #~ msgid "key not found [%s]\n"
 #~ msgstr "找不到按鍵 [%s]\n"
+
 #~ msgid "Hide on start (useful to preload the shell)"
 #~ msgstr "啟動時隱藏 (要預先載入 shell 時很有用)"
+
 #~ msgid "Filter"
 #~ msgstr "篩選"
+
 #~ msgid "Groups"
 #~ msgstr "類別"
+
 #~ msgid "Common Tasks"
 #~ msgstr "一般設定"
+
 #~ msgid "Display Preferences"
 #~ msgstr "顯示偏好設定"
+
 #~ msgid "Drag the monitors to set their place"
 #~ msgstr "拖曳顯示器來設定它們的位置"
+
 #~ msgid "_Mirror screens"
 #~ msgstr "鏡射螢幕(_M)"
+
 #~ msgid "Change screen resolution"
 #~ msgstr "變更螢幕解析度"
+
 #~ msgid "Edit"
 #~ msgstr "編輯"
+
 #~ msgid "Fill screen"
 #~ msgstr "全螢幕"
+
 #~ msgid "Interface"
 #~ msgstr "介面"
+
 #~ msgid "Menus and Toolbars"
 #~ msgstr "選單及工具列"
+
 #~ msgid "Preview"
 #~ msgstr "預覽"
+
 #~ msgid "Show _icons in menus"
 #~ msgstr "在選單中顯示圖示(_I)"
+
 #~ msgid "Toolbar _button labels:"
 #~ msgstr "工具列按鈕文字(_B):"
+
 #~ msgid "_Editable menu shortcut keys"
 #~ msgstr "可編輯選單捷徑鍵(_E)"
+
 #~ msgid "_File"
 #~ msgstr "檔案(_F)"
+
 #~ msgid "A_cceleration:"
 #~ msgstr "加速度(_C):"
+
 #~ msgid "Layout _Options..."
 #~ msgstr "配置選項(_O)..."
+
 #~ msgid "_Selected layouts:"
 #~ msgstr "已選的配置(_S):"
+
 #~ msgid "C_ontrol"
 #~ msgstr "C_ontrol"
+
 #~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
 #~ msgstr "0123456789 The following is Chinese: '中文測試'"
+
 #~ msgid "_Desktop Background"
 #~ msgstr "桌面背景(_D)"
 
@@ -3818,8 +3846,6 @@ msgstr "自系統項目中移除"
 #~ msgstr "OSS - 開放音效系統"
 #~ msgid "PulseAudio Sound Server"
 #~ msgstr "Polypaudio 音效伺服器"
-#~ msgid "Silence"
-#~ msgstr "無聲"
 #~ msgid "- GNOME Sound Preferences"
 #~ msgstr " - GNOME 音效偏好設定"
 #~ msgid "<b>Alerts and Sound Effects</b>"
@@ -3969,53 +3995,74 @@ msgstr "自系統項目中移除"
 #~ msgid ""
 #~ "Testing the new settings. If you don't respond in %d second the previous "
 #~ "settings will be restored."
+
 #~ msgid_plural ""
 #~ "Testing the new settings. If you don't respond in %d seconds the previous "
 #~ "settings will be restored."
 #~ msgstr[0] "正在測試新的設定。如果在 %d 秒內沒有回應，則會回復舊的。"
+
 #~ msgid "Keep Resolution"
 #~ msgstr "保留解析度"
+
 #~ msgid "Do you want to keep this resolution?"
 #~ msgstr "是否保留這個解析度？"
+
 #~ msgid "Use _Previous Resolution"
 #~ msgstr "使用以前的解析度(_P)"
+
 #~ msgid "_Keep Resolution"
 #~ msgstr "保留解析度(_K)"
+
 #~ msgid ""
 #~ "The X server does not support the XRandR extension.  Runtime resolution "
 #~ "changes to the display size are not available."
 #~ msgstr "這個 X 伺服器不支援 XRandR 擴展功能，因此無法即時變更畫面的大小。"
+
 #~ msgid ""
 #~ "The version of the XRandR extension is incompatible with this program. "
 #~ "Runtime changes to the display size are not available."
 #~ msgstr ""
 #~ "系統中的 XRandR 擴展功能和本程式的不相容，因此無法即時變更畫面解析度。"
+
 #~ msgid "Error setting new accelerator in configuration database: %s\n"
 #~ msgstr "在組態資料庫中設定新的捷徑鍵時出現錯誤：%s\n"
+
 #~ msgid "Keyboard Accessibility Notifications"
 #~ msgstr "鍵盤可存取性通知"
+
 #~ msgid "_Layouts:"
 #~ msgstr "配置(_L):"
+
 #~ msgid "Advanced Configuration"
 #~ msgstr "進階設定"
+
 #~ msgid "E_nable software sound mixing (ESD)"
 #~ msgstr "啟用軟體混音[ESD](_N)"
+
 #~ msgid "System Beep"
 #~ msgstr "系統鈴聲"
+
 #~ msgid "_Enable system beep"
 #~ msgstr "啟用系統鈴聲(_E)"
+
 #~ msgid "_Visual system beep"
 #~ msgstr "以畫面閃爍代替鈴聲(_V)"
+
 #~ msgid "Boing"
 #~ msgstr "彈簧"
+
 #~ msgid "Siren"
 #~ msgstr "警報"
+
 #~ msgid "Clink"
 #~ msgstr "叮噹"
+
 #~ msgid "Beep"
 #~ msgstr "鈴聲"
+
 #~ msgid "Sound not set for this event."
 #~ msgstr "此事件沒有設定音效。"
+
 #~ msgid ""
 #~ "The sound file for this event does not exist.\n"
 #~ "You may want to install the gnome-audio package for a set of default "
@@ -4023,62 +4070,88 @@ msgstr "自系統項目中移除"
 #~ msgstr ""
 #~ "代表該事件的音效檔不存在。\n"
 #~ "安裝 gnome-audio 套件可獲得一套預設的音效。"
+
 #~ msgid "The sound file for this event does not exist."
 #~ msgstr "代表該事件的音效檔不存在。"
+
 #~ msgid "The file %s is not a valid wav file"
 #~ msgstr "檔案 %s 不是有效的 wav 檔案"
+
 #~ msgid "Select sound file..."
 #~ msgstr "選取音效檔..."
+
 #~ msgid "System Sounds"
 #~ msgstr "系統音效"
+
 #~ msgid "Set as Application Font"
 #~ msgstr "指定為應用程式字型"
+
 #~ msgid "Sets the default application font"
 #~ msgstr "設定應用程式的預設字型"
+
 #~ msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
 #~ msgstr "<span weight=\"bold\" size=\"larger\">是否套用新的字型？</span>"
+
 #~ msgid "Do _not apply font"
 #~ msgstr "不套用字型(_N)"
+
 #~ msgid ""
 #~ "The theme you have selected suggests a new font. A preview of the font is "
 #~ "shown below."
 #~ msgstr "您選取的佈景主題建議使用一款新的字型。可以在下面的地方預覽該字型。"
+
 #~ msgid "_Apply font"
 #~ msgstr "套用字型(_A)"
+
 #~ msgid "Themes"
 #~ msgstr "佈景主題"
+
 #~ msgid "Description"
 #~ msgstr "描述"
+
 #~ msgid "Control theme"
 #~ msgstr "介面主題"
+
 #~ msgid "Window border theme"
 #~ msgstr "視窗邊框主題"
+
 #~ msgid "Icon theme"
 #~ msgstr "圖示主題"
+
 #~ msgid "If set to true, then installed themes will be thumbnailed."
 #~ msgstr "如設定為‘true’，則會為已安裝的佈景主題製作縮圖。"
+
 #~ msgid "If set to true, then themes will be thumbnailed."
 #~ msgstr "如設定為‘true’，則會為佈景主題製作縮圖。"
+
 #~ msgid ""
 #~ "Set this key to the command used to create thumbnails for installed "
 #~ "themes."
 #~ msgstr "本設定鍵的內容是為已安裝的佈景主題製作縮圖所用的指令。"
+
 #~ msgid "Set this key to the command used to create thumbnails for themes."
 #~ msgstr "本設定鍵的內容是為佈景主題製作縮圖所用的指令。"
+
 #~ msgid "Thumbnail command for installed themes"
 #~ msgstr "為已安裝的佈景主題製作縮圖所用的指令"
+
 #~ msgid "Thumbnail command for themes"
 #~ msgstr "為佈景主題製作縮圖所用的指令"
+
 #~ msgid "Whether to thumbnail installed themes"
 #~ msgstr "是否為已安裝的佈景主題製作縮圖"
+
 #~ msgid "Whether to thumbnail themes"
 #~ msgstr "是否為佈景主題製作縮圖"
+
 #~ msgid "ABCDEFG"
 #~ msgstr "ABC 中文測試"
+
 #~ msgid "[FILE]"
 #~ msgstr "[檔案]"
+
 #~ msgid "Apply theme"
 #~ msgstr "套用佈景主題"
+
 #~ msgid "Sets the default theme"
 #~ msgstr "設定預設的佈景主題"
-
