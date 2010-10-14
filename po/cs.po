@@ -17,7 +17,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
 "PO-Revision-Date: 2010-09-21 19:33+0200\n"
 "Last-Translator: Pavel Fric\n"
 "Language-Team: Czech <gnome-cs-list@gnome.org>\n"
@@ -40,28 +40,16 @@ msgid "More themes URL"
 msgstr "Adresa s dalšími motivy"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid ""
-"Set this to your current location name. This is used to determine the "
-"appropriate network proxy configuration."
-msgstr ""
-"Toto nastavte na název aktuálního umístění. Používá se k určení nastavení "
-"příslušné síťové proxy."
+msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
+msgstr "Toto nastavte na název aktuálního umístění. Používá se k určení nastavení příslušné síťové proxy."
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid ""
-"URL for where to get more desktop backgrounds. If set to an empty string the "
-"link will not appear."
-msgstr ""
-"URL, na kterém lze získat další pozadí pracovní plochy. Je-li nastaveno na "
-"prázdný řetězec, odkaz se nezobrazí."
+msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
+msgstr "URL, na kterém lze získat další pozadí pracovní plochy. Je-li nastaveno na prázdný řetězec, odkaz se nezobrazí."
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid ""
-"URL for where to get more desktop themes. If set to an empty string the link "
-"will not appear."
-msgstr ""
-"URL, na kterém lze získat další motivy pracovního prostředí. Je-li nastaveno "
-"na prázdný řetězec, odkaz se nezobrazí."
+msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
+msgstr "URL, na kterém lze získat další motivy pracovního prostředí. Je-li nastaveno na prázdný řetězec, odkaz se nezobrazí."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -225,7 +213,7 @@ msgid "No Image"
 msgstr "Žádný obrázek"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Obrázky"
 
@@ -461,8 +449,7 @@ msgid "Set your personal information"
 msgstr "Nastavte své osobní informace"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid ""
-"You are not allowed to access the device. Contact your system administrator."
+msgid "You are not allowed to access the device. Contact your system administrator."
 msgstr "Nemáte oprávnění přistupovat k zařízení. Kontaktujte správce systému."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
@@ -482,12 +469,8 @@ msgid "_Delete Fingerprints"
 msgstr "_Smazat otisky prstů"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid ""
-"Do you want to delete your registered fingerprints so fingerprint login is "
-"disabled?"
-msgstr ""
-"Přejete si smazat registrované otisky prstů, čímž dojde k vypnutí přihlášení "
-"otiskem prstů?"
+msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
+msgstr "Přejete si smazat registrované otisky prstů, čímž dojde k vypnutí přihlášení otiskem prstů?"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:356
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
@@ -526,16 +509,13 @@ msgstr "Povolit přihlášení otiskem prstů"
 
 #. translators:
 #. * The variable is the name of the device, for example:
-#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * "To enable fingerprint login, you need to save one of your fingerprints,
+#. using the
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
-msgid ""
-"To enable fingerprint login, you need to save one of your fingerprints, "
-"using the '%s' device."
-msgstr ""
-"Chcete-li zapnout přihlášení otiskem prstů, je nutné uložit jeden ze svých "
-"otisků prstů za použití zařízení \"%s\"."
+msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
+msgstr "Chcete-li zapnout přihlášení otiskem prstů, je nutné uložit jeden ze svých otisků prstů za použití zařízení \"%s\"."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:590
 msgid "Swipe finger on reader"
@@ -594,12 +574,8 @@ msgid "Select finger"
 msgstr "Vyberte prst"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid ""
-"Your fingerprint was successfully saved. You should now be able to log in "
-"using your fingerprint reader."
-msgstr ""
-"Otisk prstů byl úspěšně uložen. Nyní by mělo být možné přihlásit se za "
-"použití čtečky otisku prstů."
+msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
+msgstr "Otisk prstů byl úspěšně uložen. Nyní by mělo být možné přihlásit se za použití čtečky otisku prstů."
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
@@ -622,14 +598,12 @@ msgstr "Ověřeno!"
 #. This is a re-auth, and it failed.
 #. * The password must have been changed in the meantime!
 #. * Ask the user to re-authenticate
-#.
+#. 
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
 #: ../capplets/about-me/gnome-about-me-password.c:554
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
+msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
 msgstr "Vaše heslo se od ověření změnilo! Proveďte prosím ověření znovu."
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
@@ -696,10 +670,8 @@ msgstr "Zadejte prosím heslo do pole <b>Nové heslo</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid ""
-"Please type your password again in the <b>Retype new password</b> field."
-msgstr ""
-"Prosím, napište své heslo znovu do pole <b>Napište nové heslo znovu</b>."
+msgid "Please type your password again in the <b>Retype new password</b> field."
+msgstr "Prosím, napište své heslo znovu do pole <b>Napište nové heslo znovu</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
@@ -723,15 +695,11 @@ msgstr "Aktuální _heslo:"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and "
-"click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for "
-"verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
 msgstr ""
-"Chcete-li změnit heslo, zadejte do pole níže své aktuální heslo a klikněte "
-"na <b>Ověřit</b>.\n"
-"Po provedeném ověření uveďte nové heslo, napište jej znovu kvůli kontrole a "
-"klikněte na <b>Změnit heslo</b>."
+"Chcete-li změnit heslo, zadejte do pole níže své aktuální heslo a klikněte na <b>Ověřit</b>.\n"
+"Po provedeném ověření uveďte nové heslo, napište jej znovu kvůli kontrole a klikněte na <b>Změnit heslo</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -759,12 +727,8 @@ msgid "Assistive Technologies Preferences"
 msgstr "Předvolby technologií usnadnění"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid ""
-"Changes to enable assistive technologies will not take effect until your "
-"next log in."
-msgstr ""
-"Změny vedoucí k zapnutí technologií usnadnění se neprojeví dříve než při "
-"příštím přihlášení."
+msgid "Changes to enable assistive technologies will not take effect until your next log in."
+msgstr "Změny vedoucí k zapnutí technologií usnadnění se neprojeví dříve než při příštím přihlášení."
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
@@ -810,11 +774,11 @@ msgstr "_Preferované aplikace"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Vyberte vlastnosti zpřístupnění, které mají být zapnuty po přihlášení"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Přidat tapetu"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Všechny soubory"
 
@@ -824,43 +788,19 @@ msgstr "Písmo je možná příliš velké"
 
 #: ../capplets/appearance/appearance-font.c:498
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a size "
-"smaller than %d."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a size "
-"smaller than %d."
-msgstr[0] ""
-"Vybrané písmo je velké %d bod, což může působit problémy při efektivní práci "
-"s počítačem. Doporučuje se vybrat velikost menší než %d."
-msgstr[1] ""
-"Vybrané písmo je velké %d body, což může působit problémy při efektivní "
-"práci s počítačem. Doporučuje se vybrat velikost menší než %d."
-msgstr[2] ""
-"Vybrané písmo je velké %d bodů, což může působit problémy při efektivní "
-"práci s počítačem. Doporučuje se vybrat velikost menší než %d."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
+msgstr[0] "Vybrané písmo je velké %d bod, což může působit problémy při efektivní práci s počítačem. Doporučuje se vybrat velikost menší než %d."
+msgstr[1] "Vybrané písmo je velké %d body, což může působit problémy při efektivní práci s počítačem. Doporučuje se vybrat velikost menší než %d."
+msgstr[2] "Vybrané písmo je velké %d bodů, což může působit problémy při efektivní práci s počítačem. Doporučuje se vybrat velikost menší než %d."
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a smaller "
-"sized font."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a smaller "
-"sized font."
-msgstr[0] ""
-"Vybrané písmo je velké %d bod, což může působit problémy při efektivní práci "
-"s počítačem. Doporučuje se vybrat písmo menší velikosti."
-msgstr[1] ""
-"Vybrané písmo je velké %d body, což může působit problémy při efektivní "
-"práci s počítačem. Doporučuje se vybrat písmo menší velikosti."
-msgstr[2] ""
-"Vybrané písmo je velké %d bodů, což může působit problémy při efektivní "
-"práci s počítačem. Doporučuje se vybrat písmo menší velikosti."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
+msgstr[0] "Vybrané písmo je velké %d bod, což může působit problémy při efektivní práci s počítačem. Doporučuje se vybrat písmo menší velikosti."
+msgstr[1] "Vybrané písmo je velké %d body, což může působit problémy při efektivní práci s počítačem. Doporučuje se vybrat písmo menší velikosti."
+msgstr[2] "Vybrané písmo je velké %d bodů, což může působit problémy při efektivní práci s počítačem. Doporučuje se vybrat písmo menší velikosti."
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -876,6 +816,7 @@ msgstr "Použít vybrané písmo"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Nelze načíst soubor uživatelského rozhraní: %s"
@@ -891,9 +832,7 @@ msgstr "název souboru"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/appearance/appearance-main.c:143
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
-msgstr ""
-"Určit název stránky, která má být zobrazena (theme|background|fonts|"
-"interface)"
+msgstr "Určit název stránky, která má být zobrazena (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
@@ -919,12 +858,8 @@ msgstr "Instalovat"
 #: ../capplets/appearance/appearance-style.c:256
 #: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme engine "
-"'%s' is not installed."
-msgstr ""
-"Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný systém "
-"motivu GTK+ \"%s\" není nainstalován."
+msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
+msgstr "Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný systém motivu GTK+ \"%s\" není nainstalován."
 
 #: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
@@ -939,31 +874,20 @@ msgid "Revert Font"
 msgstr "Vrátit písmo"
 
 #: ../capplets/appearance/appearance-themes.c:712
-msgid ""
-"The current theme suggests a background and a font. Also, the last applied "
-"font suggestion can be reverted."
-msgstr ""
-"Aktuální motiv navrhuje pozadí a písmo. Také může být vráceno naposledy "
-"použité písmo."
+msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
+msgstr "Aktuální motiv navrhuje pozadí a písmo. Také může být vráceno naposledy použité písmo."
 
 #: ../capplets/appearance/appearance-themes.c:714
-msgid ""
-"The current theme suggests a background. Also, the last applied font "
-"suggestion can be reverted."
-msgstr ""
-"Aktuální motiv navrhuje pozadí. Také může být vráceno naposledy použité "
-"písmo."
+msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
+msgstr "Aktuální motiv navrhuje pozadí. Také může být vráceno naposledy použité písmo."
 
 #: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
 msgstr "Aktuální motiv navrhuje pozadí a písmo."
 
 #: ../capplets/appearance/appearance-themes.c:718
-msgid ""
-"The current theme suggests a font. Also, the last applied font suggestion "
-"can be reverted."
-msgstr ""
-"Aktuální motiv navrhuje písmo. Také může být vráceno naposledy použité písmo."
+msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
+msgstr "Aktuální motiv navrhuje písmo. Také může být vráceno naposledy použité písmo."
 
 #: ../capplets/appearance/appearance-themes.c:720
 msgid "The current theme suggests a background."
@@ -1313,26 +1237,26 @@ msgstr "Balíček motivu GNOME"
 msgid "No Desktop Background"
 msgstr "Bez pozadí pracovní plochy"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Prezentace"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Obrázek"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "více velikostí"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s na %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "pixel"
@@ -1342,8 +1266,8 @@ msgstr[2] "pixelů"
 #. translators: <b>wallpaper name</b>
 #. * mime type, size
 #. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#. 
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1357,8 +1281,8 @@ msgstr ""
 #. translators: <b>wallpaper name</b>
 #. * Image missing
 #. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#. 
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1369,7 +1293,7 @@ msgstr ""
 "%s\n"
 "Složka: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Chybí obrázek"
 
@@ -1398,12 +1322,8 @@ msgstr "\"%s\" se nezdá být platným motivem."
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid ""
-"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
-"you need to compile."
-msgstr ""
-"Zdá se, že \"%s\" není platným motivem. Může se jednat o systém motivů, "
-"který je nutný přeložit."
+msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
+msgstr "Zdá se, že \"%s\" není platným motivem. Může se jednat o systém motivů, který je nutný přeložit."
 
 #: ../capplets/appearance/theme-installer.c:372
 #, c-format
@@ -1490,16 +1410,10 @@ msgstr "Nelze nainstalovat systém motivu"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
-"settings manager."
+"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
 msgstr ""
 "Nelze spustit správce nastavení \"gnome-settings-daemon\".\n"
-"Bez spuštěného správce nastavení prostředí GNOME se nemusí některé změny "
-"nastavení projevit. Tato chyba by mohla naznačovat problém se systémem D-"
-"Bus, nebo je možná aktivní správce nastavení jiného prostředí (např. KDE), a "
-"ten je v konfliktu se správcem nastavení prostředí GNOME."
+"Bez spuštěného správce nastavení prostředí GNOME se nemusí některé změny nastavení projevit. Tato chyba by mohla naznačovat problém se systémem D-Bus, nebo je možná aktivní správce nastavení jiného prostředí (např. KDE), a ten je v konfliktu se správcem nastavení prostředí GNOME."
 
 #: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
@@ -1608,33 +1522,24 @@ msgid "Change set"
 msgstr "Sada změn"
 
 #: ../capplets/common/gconf-property-editor.c:150
-msgid ""
-"GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr ""
-"Sada změn GConf obsahující data, která budou předána klientu GConf při "
-"použití"
+msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr "Sada změn GConf obsahující data, která budou předána klientu GConf při použití"
 
 #: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "Zpětné volání konverze na prvek"
 
 #: ../capplets/common/gconf-property-editor.c:156
-msgid ""
-"Callback to be issued when data are to be converted from GConf to the widget"
-msgstr ""
-"Zpětné volání, které se provede, když má dojít ke konverzi dat systému GConf "
-"na prvek"
+msgid "Callback to be issued when data are to be converted from GConf to the widget"
+msgstr "Zpětné volání, které se provede, když má dojít ke konverzi dat systému GConf na prvek"
 
 #: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "Zpětné volání konverze z prvku"
 
 #: ../capplets/common/gconf-property-editor.c:162
-msgid ""
-"Callback to be issued when data are to be converted to GConf from the widget"
-msgstr ""
-"Zpětné volání, které se provede, když má dojít ke konverzi z prvku na data "
-"systému GConf"
+msgid "Callback to be issued when data are to be converted to GConf from the widget"
+msgstr "Zpětné volání, které se provede, když má dojít ke konverzi z prvku na data systému GConf"
 
 #: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
@@ -1658,22 +1563,18 @@ msgstr "Zpětné volání uvolnění dat editoru vlastnosti"
 
 #: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
-msgstr ""
-"Zpětné volání, které se provede, když mají být uvolněna data objektu editoru "
-"vlastnosti"
+msgstr "Zpětné volání, které se provede, když mají být uvolněna data objektu editoru vlastnosti"
 
 #: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
 "\n"
-"Please make sure it exists and try again, or choose a different background "
-"picture."
+"Please make sure it exists and try again, or choose a different background picture."
 msgstr ""
 "Nelze najít soubor \"%s\".\n"
 "\n"
-"Ujistěte se prosím, že soubor existuje, a zkuste to znovu, nebo vyberte jiný "
-"obrázek pozadí."
+"Ujistěte se prosím, že soubor existuje, a zkuste to znovu, nebo vyberte jiný obrázek pozadí."
 
 #: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
@@ -1726,30 +1627,18 @@ msgstr "Velký bílý kurzor"
 
 #: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme '%s' is "
-"not installed."
-msgstr ""
-"Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný motiv GTK"
-"+ \"%s\" není nainstalován."
+msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
+msgstr "Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný motiv GTK+ \"%s\" není nainstalován."
 
 #: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
-msgid ""
-"This theme will not look as intended because the required window manager "
-"theme '%s' is not installed."
-msgstr ""
-"Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný motiv "
-"správce oken \"%s\" není nainstalován."
+msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
+msgstr "Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný motiv správce oken \"%s\" není nainstalován."
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
-msgid ""
-"This theme will not look as intended because the required icon theme '%s' is "
-"not installed."
-msgstr ""
-"Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný motiv "
-"ikon \"%s\" není nainstalován."
+msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
+msgstr "Tento motiv nebude zobrazen jak bylo zamýšleno, protože požadovaný motiv ikon \"%s\" není nainstalován."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
@@ -1786,9 +1675,7 @@ msgstr "Zkontrolujte prosím, že je applet správně nainstalován"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/default-applications/gnome-da-capplet.c:959
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
-msgstr ""
-"Určete název stránky, která má být zobrazena (internet|multimedia|system|"
-"a11y)"
+msgstr "Určete název stránky, která má být zobrazena (internet|multimedia|system|a11y)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
 msgid "- GNOME Default Applications"
@@ -1805,9 +1692,8 @@ msgstr "Zpřístupnění"
 msgid "All %s occurrences will be replaced with actual link"
 msgstr "Všechny výskyty %s budou nahrazeny aktuálním odkazem"
 
-#.
 #. * vim: sw=2 ts=8 cindent noai bs=2
-#.
+#. 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
@@ -2118,12 +2004,8 @@ msgstr "Při aplikování nastavení displeje se nezdařilo získání sběrnice
 
 #: ../capplets/display/cc-display-minimal-page.c:478
 #: ../capplets/display/cc-display-minimal-page.c:487
-msgid ""
-"You are only showing your desktop on your computer's screen. Plug in another "
-"display to share your view and then turn display sharing on above."
-msgstr ""
-"Pouze ukazujete svoji plochu na obrazovce svého počítače. Přidejte další "
-"obrazovku, abyste svůj pohled sdílel, a potom zapněte sdílení obrazovky výše."
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "Pouze ukazujete svoji plochu na obrazovce svého počítače. Přidejte další obrazovku, abyste svůj pohled sdílel, a potom zapněte sdílení obrazovky výše."
 
 #: ../capplets/display/cc-display-minimal-page.c:496
 msgid "You are showing your desktop on an external monitor or projector."
@@ -2232,7 +2114,7 @@ msgstr "%d Hz"
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#.
+#. 
 #: ../capplets/display/xrandr-capplet.c:497
 #: ../capplets/display/xrandr-capplet.c:1643
 msgid "Mirror Screens"
@@ -2249,11 +2131,8 @@ msgid "%d x %d"
 msgstr "%d x %d"
 
 #: ../capplets/display/xrandr-capplet.c:1499
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"Výběrem monitoru změníte jeho vlastnosti; umístění upravíte jeho přetažením."
+msgid "Select a monitor to change its properties; drag it to rearrange its placement."
+msgstr "Výběrem monitoru změníte jeho vlastnosti; umístění upravíte jeho přetažením."
 
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
@@ -2335,12 +2214,10 @@ msgstr "Chyba při ukládání nové zkratky"
 #: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type "
-"using this key.\n"
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
-"Klávesovou zkratku \"%s\" nelze použít, protože nebude možné tuto klávesu "
-"používat k psaní.\n"
+"Klávesovou zkratku \"%s\" nelze použít, protože nebude možné tuto klávesu používat k psaní.\n"
 "Zkuste to prosím v kombinaci s klávesou jako Control, Alt nebo Shift."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
@@ -2356,8 +2233,7 @@ msgstr ""
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
 #: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid ""
-"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "Změníte-li přiřazení zkratky k \"%s\", zkratka \"%s\" bude vypnuta."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
@@ -2399,12 +2275,8 @@ msgstr "Klávesové zkratky"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
-msgid ""
-"To edit a shortcut key, click on the corresponding row and type a new key "
-"combination, or press backspace to clear."
-msgstr ""
-"Zkratku upravíte kliknutím na odpovídající řádek a zadáním nové zkratky, "
-"vymazání provedete klávesou Backspace."
+msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
+msgstr "Zkratku upravíte kliknutím na odpovídající řádek a zadáním nové zkratky, vymazání provedete klávesou Backspace."
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
@@ -2423,11 +2295,8 @@ msgstr "Rozložení"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:206
 #: ../capplets/keyboard/gnome-keyboard-properties.c:211
-msgid ""
-"Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr ""
-"Pouze použít nastavení a skončit (jen kvůli kompatibilitě; nyní zpracováváno "
-"démonem)"
+msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr "Pouze použít nastavení a skončit (jen kvůli kompatibilitě; nyní zpracováváno démonem)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
@@ -2443,8 +2312,7 @@ msgstr "- předvolby klávesnice GNOME"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
 msgid "Beep when _accessibility features are turned on or off"
-msgstr ""
-"Zv_ukové znamení při zapnutí nebo vypnutí vlastností zpřístupnění klávesnice"
+msgstr "Zv_ukové znamení při zapnutí nebo vypnutí vlastností zpřístupnění klávesnice"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
 msgid "Beep when a _modifier key is pressed"
@@ -2543,8 +2411,7 @@ msgstr "Zpož_dění:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
-msgstr ""
-"_Vypnout kombinace kláves jedním prstem při současném stisku dvou kláves"
+msgstr "_Vypnout kombinace kláves jedním prstem při současném stisku dvou kláves"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
@@ -2572,12 +2439,8 @@ msgid "Keyboard _model:"
 msgstr "_Model klávesnice:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
-msgid ""
-"Lock screen after a certain duration to help prevent repetitive keyboard use "
-"injuries"
-msgstr ""
-"Zamkne po určité době obrazovku, čímž pomůže zabránit následkům z "
-"dlouhotrvajícího používání klávesnice"
+msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
+msgstr "Zamkne po určité době obrazovku, čímž pomůže zabránit následkům z dlouhotrvajícího používání klávesnice"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
@@ -2637,8 +2500,7 @@ msgstr "Z_rychlení:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
-msgstr ""
-"Povoli_t zapnutí nebo vypnutí vlastností zpřístupnění klávesovými zkratkami"
+msgstr "Povoli_t zapnutí nebo vypnutí vlastností zpřístupnění klávesovými zkratkami"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
@@ -2894,11 +2756,8 @@ msgid "Thr_eshold:"
 msgstr "_Práh:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid ""
-"To test your double-click settings, try to double-click on the light bulb."
-msgstr ""
-"Chcete-li otestovat nastavení dvojitého kliknutí, zkuste dvakrát kliknout na "
-"žárovku."
+msgid "To test your double-click settings, try to double-click on the light bulb."
+msgstr "Chcete-li otestovat nastavení dvojitého kliknutí, zkuste dvakrát kliknout na žárovku."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Touchpad"
@@ -2910,9 +2769,7 @@ msgstr "Pos_unování se dvěma prsty"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr ""
-"Typ kliknutí lze také vybrat použitím appletu panelu umožňujícího kliknutí "
-"počkáním."
+msgstr "Typ kliknutí lze také vybrat použitím appletu panelu umožňujícího kliknutí počkáním."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -3083,6 +2940,56 @@ msgstr "Po_užít ověření"
 msgid "_Use the same proxy for all protocols"
 msgstr "Používat stejnou proxy pro všechn_y protokoly"
 
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "Jedna minuta"
+msgstr[1] "%d minuty"
+msgstr[2] "%d minut"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr "Nikdy"
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr "Energie a jas"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "Jas"
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr "Počítač uspat, je-li nečinný po:"
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr "Nastavit počítač jako nečinný, je-li nečinný po:"
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr "Spát"
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr "Tímto se uzavře obrazovka a vaše posílání zpráv nastaví na stav \"pryč\"."
+
+#: ../capplets/power/power.ui.h:6
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Tímto se vše na vašem počítači pozastaví. Následně bude probuzeno v přesně tom samém stavu, v jakém to bylo předtím."
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "Pro změnu jasu můžete použít kláves vašeho počítače."
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr "Nečinný"
+
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Promiňte, ale hesla nesouhlasí"
@@ -3181,8 +3088,7 @@ msgstr "Akce záhlaví okna"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
-msgstr ""
-"Přesunování okna stisknutím a držením této klávesy a následným táhnutím okna:"
+msgstr "Přesunování okna stisknutím a držením této klávesy a následným táhnutím okna:"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
@@ -3278,49 +3184,32 @@ msgid "Indicates whether to close the shell when a start action is performed."
 msgstr "Značí, zda má být zavřen shell v případě vykonání akce startu."
 
 #: ../shell/control-center.schemas.in.h:8
-msgid ""
-"Indicates whether to close the shell when an add or remove action is "
-"performed."
-msgstr ""
-"Značí, zda má být zavřen shell v případě vykonání akce přidání nebo "
-"odstranění."
+msgid "Indicates whether to close the shell when an add or remove action is performed."
+msgstr "Značí, zda má být zavřen shell v případě vykonání akce přidání nebo odstranění."
 
 #: ../shell/control-center.schemas.in.h:9
-msgid ""
-"Indicates whether to close the shell when an upgrade or uninstall action is "
-"performed."
-msgstr ""
-"Značí, zda má být zavřen shell v případě vykonání akce přechodu na vyšší "
-"verzi nebo odebrání."
+msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
+msgstr "Značí, zda má být zavřen shell v případě vykonání akce přechodu na vyšší verzi nebo odebrání."
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
 msgstr "Názvy úloh a přiřazené soubory .desktop"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid ""
-"The task name to be displayed in the control-center followed by a \";\" "
-"separator then the filename of an associated .desktop file to launch for "
-"that task."
-msgstr ""
-"Název úlohy, který se má zobrazit v ovládacím centru, následovaný "
-"oddělujícím znakem \";\", poté název souboru přiřazeného souboru .desktop, "
-"který má být u dané úlohy spuštěn."
+msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
+msgstr "Název úlohy, který se má zobrazit v ovládacím centru, následovaný oddělujícím znakem \";\", poté název souboru přiřazeného souboru .desktop, který má být u dané úlohy spuštěn."
 
-#. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
+#. Translators: The format of this string is the task name to be displayed
+#. (translate that part) followed by a ";" separator then the filename (DONT
+#. translate the file name) of a .desktop file to launch. Multiple entries are
+#. separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid ""
-"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
-"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr ""
-"[Změnit motiv;gtk-theme-selector.desktop,Nastavit preferované aplikace;"
-"default-applications.desktop,Přidat tiskárnu;gnome-cups-manager.desktop]"
+msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr "[Změnit motiv;gtk-theme-selector.desktop,Nastavit preferované aplikace;default-applications.desktop,Přidat tiskárnu;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid ""
-"if true, the control-center will close when a \"Common Task\" is activated."
-msgstr ""
-"je-li \"true\", ovládací centrum bude zavřeno při aktivaci \"běžné úlohy\"."
+msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgstr "je-li \"true\", ovládací centrum bude zavřeno při aktivaci \"běžné úlohy\"."
 
 #: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
 msgid "Control Center"
@@ -3365,12 +3254,8 @@ msgstr "Méně než jedna minuta do další přestávky"
 
 #: ../typing-break/drwright.c:526
 #, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"Nelze zobrazit dialog vlastností přestávky ve psaní kvůli následující chybě: "
-"%s"
+msgid "Unable to bring up the typing break properties dialog with the following error: %s"
+msgstr "Nelze zobrazit dialog vlastností přestávky ve psaní kvůli následující chybě: %s"
 
 #: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
@@ -3409,16 +3294,8 @@ msgid "Typing Monitor"
 msgstr "Sledování psaní"
 
 #: ../typing-break/main.c:105
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"Sledování psaní používá k zobrazování informací oznamovací oblast. Na vašem "
-"panelu zřejmě nemáte oznamovací oblast. Můžete ji přidat kliknutím na panel "
-"pravým tlačítkem a vybráním \"Přidat na panel\", zvolením \"Oznamovací oblast"
-"\" a kliknutím na \"Přidat\"."
+msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
+msgstr "Sledování psaní používá k zobrazování informací oznamovací oblast. Na vašem panelu zřejmě nemáte oznamovací oblast. Můžete ji přidat kliknutím na panel pravým tlačítkem a vybráním \"Přidat na panel\", zvolením \"Oznamovací oblast\" a kliknutím na \"Přidat\"."
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -3437,25 +3314,20 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "Je-li nastaveno na \"true\", budou tvořeny náhledy písem Type1."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr ""
-"Nastavte tento klíč na příkaz používaný k vytváření náhledů písem OpenType."
+msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr "Nastavte tento klíč na příkaz používaný k vytváření náhledů písem OpenType."
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
 msgstr "Nastavte tento klíč na příkaz používaný k vytváření náhledů písem PCF."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr ""
-"Nastavte tento klíč na příkaz používaný k vytváření náhledů písem TrueType."
+msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr "Nastavte tento klíč na příkaz používaný k vytváření náhledů písem TrueType."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr ""
-"Nastavte tento klíč na příkaz používaný k vytváření náhledů písem Type1."
+msgstr "Nastavte tento klíč na příkaz používaný k vytváření náhledů písem Type1."
 
 #: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
