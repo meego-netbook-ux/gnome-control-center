@@ -9,14 +9,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.28.x\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
-"PO-Revision-Date: 2010-09-27 11:12-0800\n"
-"Last-Translator: francesca godani <francesca.godani@ptiglobal.net>\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
+"PO-Revision-Date: 2010-10-14 13:13-0800\n"
+"Last-Translator: \n"
 "Language-Team: Italian <tp@lists.linux.it>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Language: Italian\n"
 
 # (ndt) titolo
 #: ../gnome-control-center.schemas.in.h:1
@@ -209,7 +210,7 @@ msgid "No Image"
 msgstr "Nessuna immagine"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Immagini"
 
@@ -790,11 +791,11 @@ msgstr "Sceglie quali funzioni di accessibilità abilitare all'accesso"
 # FIXME
 # (ndt) wallpaper ancora?
 # io metto 'sfondo'
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Aggiungi sfondo"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Tutti i file"
 
@@ -832,6 +833,7 @@ msgstr "Usa carattere selezionato"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Impossibile caricare il file dell'interfaccia utente: %s"
@@ -1301,27 +1303,27 @@ msgstr "Pacchetto «Tema di Gnome»"
 msgid "No Desktop Background"
 msgstr "Nessuno sfondo per la scrivania"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Diapositive"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Immagine"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "dimensioni multiple"
 
 # 2.30
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s per %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "pixel"
@@ -1331,7 +1333,7 @@ msgstr[1] "pixel"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1347,7 +1349,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1359,7 +1361,7 @@ msgstr ""
 "Cartella: %s"
 
 # 2.30
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Immagine mancante"
 
@@ -3087,7 +3089,7 @@ msgstr "Mai"
 #: ../capplets/power/cc-power-panel.c:455
 #: ../capplets/power/power-properties.desktop.in.in.h:1
 msgid "Power and brightness"
-msgstr "Power e luminosità"
+msgstr "Alimentazione e luminosità"
 
 #: ../capplets/power/power.ui.h:1
 msgid "Brightness"
@@ -3095,33 +3097,27 @@ msgstr "Luminosità"
 
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "Metti il computer in stop qualndo è inattivo da:"
+msgstr "Mettere il computer in stand by quando inattivo per:"
 
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "Metti il computer in stato inattivo quando è fermo da"
+msgstr "Indicare come computer inattivo quando rimane senza attività per:"
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
-msgstr "Stop"
+msgstr "Stand By"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr ""
-"Questo renderà lo schermo vuoto e imposterà il tuo messaggio di stato su "
-"'via'."
+msgstr "In questo modo lo schermo risulterà vuoto e lo stato del messaggio sarà 'assente'."
 
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr ""
-"Questa operazione sospenderà qualsiasi attività sul computer. Quando si "
-"sveglierà, sarà nello stesso stato in cui era prima."
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Questo metterà in sospensione il computer, che ritornerà attivo esattamente nello stato in cui era stato lasciato."
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr "Per modificare la luminosità, puoi utilizzare i tasti sul computer."
+msgstr "Per cambiare la luminosità, si possono usare i pulsanti sul computer."
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
