@@ -15,15 +15,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 1.5.5\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
 "PO-Revision-Date: 2010-09-14 09:27+0200\n"
 "Last-Translator: Odile Lambert et Jean Cayron <jean.cayron@base.be>\n"
 "Language-Team: French <kde-i18n-doc@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Lokalize 1.0\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Generator: Lokalize 1.0\n"
 
 #: ../gnome-control-center.schemas.in.h:1
 msgid "Current network location"
@@ -211,7 +211,7 @@ msgid "No Image"
 msgstr "Nole imådje"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Imådjes"
 
@@ -772,11 +772,11 @@ msgstr "Programes colåds"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Tchozixhoz kénes fonccionålités mete èn ouve cwand on s' elodje"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Radjouter tapisreye"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Tos les fitchîs"
 
@@ -812,6 +812,7 @@ msgstr "Si siervi del fonte di tchoezeye"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Dji n' a savou tcherdjî l' fitchî di l' eterface uzeu : %s"
@@ -1232,26 +1233,26 @@ msgstr "Pacaedje di tinme Gnome"
 msgid "No Desktop Background"
 msgstr "Pont d' fond d' sicribanne"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Diaporama"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Imådje"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "sacwantès grandeu"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s pa %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "picsel"
@@ -1261,7 +1262,7 @@ msgstr[1] "picsels"
 #. * mime type, size
 #. * Folder: /path/to/file
 #. 
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1276,7 +1277,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #. 
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1287,7 +1288,7 @@ msgstr ""
 "%s\n"
 "Ridant : %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "L' imådje manke"
 
@@ -1406,11 +1407,13 @@ msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
 msgstr ""
+"Dji n' sai enonder l' manaedjeu d' apontiaedjes « gnome-settings-deamon ».\n"
+"Sel manaedjeu d' apontiaedjes di GNOME ni s' enonde nén, i gn a des preferinces ki dji n' pôrè nén mete èn ouve. Çouci pôreut mostrer k' i gn a ene rujhe avou DBus oudon-bén k' èn ôte manaedjeu d' apontiaedje kel ci di GNOME (KDE, metans) est ddja èn alaedje eyet rintere èn afrontimint avou l' manaedjeu d' apontiaedjes di GNOME."
 
 #: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
-msgstr ""
+msgstr "Dji n' sai tcherdjî l' imådjete di wårdaedje « %s »\n"
 
 #: ../capplets/common/capplet-util.c:88
 #, c-format
@@ -2163,24 +2166,24 @@ msgstr "Tape di rascourti"
 #: ../capplets/keyboard/eggcellrendererkeys.c:173
 #: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
-msgstr ""
+msgstr "Candjeus d' rascourti"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
 #: ../capplets/keyboard/eggcellrendererkeys.c:182
 #: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
-msgstr ""
+msgstr "Côde do rascourti"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
 #: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
-msgstr ""
+msgstr "Môde di rascourti"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
 #: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
-msgstr ""
+msgstr "Li sôre di rascourti"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
@@ -2240,9 +2243,9 @@ msgstr "_Raroyî"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
 #: ../capplets/keyboard/cc-shortcuts-page.c:1329
-#, fuzzy, c-format
+#, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
-msgstr "Åk n' a nén stî come dji disdefinixheu l'"
+msgstr "Åk n' a nén stî come dji disdefinixheu l' rascourti el båze di dnêyes di l' apontiaedje : %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
 #: ../capplets/keyboard/cc-shortcuts-page.c:1544
@@ -2278,7 +2281,7 @@ msgstr "Po candjî ene tape di rascourti, clitchîz sol roye corespondante eyet 
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
-msgstr ""
+msgstr "Aroyî des tapes di rascourti a des comandes"
 
 #: ../capplets/keyboard/cc-keyboard-page.c:203
 #: ../capplets/keyboard/cc-keyboard-panel.c:181
@@ -2302,7 +2305,7 @@ msgstr ""
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
-msgstr ""
+msgstr "Ataker l' pådje e mostrant les tchuzes d' accessibilité"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
@@ -2310,45 +2313,44 @@ msgstr "- Preferinces del taprece di GNOME"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
 msgid "Beep when _accessibility features are turned on or off"
-msgstr ""
+msgstr "Xhilter cwand les fonccionålités d' _accessibilité sont metowes ou dismetowes."
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
 msgid "Beep when a _modifier key is pressed"
-msgstr ""
+msgstr "Xhilter cwand ene tape di _candjaedje est tchôkeye"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
 msgid "Beep when a _toggle key is pressed"
-msgstr ""
+msgstr "Xhilter cwand on _botoe est tchôkî"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
 msgid "Beep when a key is pr_essed"
-msgstr ""
+msgstr "Xhilter cwand ene tape est _tchôkeye"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
 msgid "Beep when a key is reje_cted"
-msgstr ""
+msgstr "Xhilter cwand ene tape est _rfuzêye"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
 msgid "Beep when key is _accepted"
-msgstr ""
+msgstr "Xhilter cwand ene tape est _acceptêye"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
 msgid "Beep when key is _rejected"
-msgstr ""
+msgstr "Xhilter cwand ene tape est _rfuzêye"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:8
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:4
-#, fuzzy
 msgid "Bounce Keys"
-msgstr "Sori"
+msgstr "Dimey-aclawåvès tapes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
 msgid "Flash _window titlebar"
-msgstr ""
+msgstr "Fé glignter l' båre di tite do _purnea"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
 msgid "Flash entire _screen"
-msgstr ""
+msgstr "Fé glignter tote li _waitroûle"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
@@ -2358,11 +2360,11 @@ msgstr "Djenerå"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
 msgid "Keyboard Accessibility Audio Feedback"
-msgstr ""
+msgstr "Accessibilité del taprece pal ritoû odio"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
 msgid "Show _visual feedback for the alert sound"
-msgstr ""
+msgstr "Mostrer ritoû _veyåve des sons d' abranle"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
@@ -2376,7 +2378,7 @@ msgstr "Aclawåvès tapes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:16
 msgid "Visual cues for sounds"
-msgstr ""
+msgstr "Fitchîs cue po sons"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:2
 msgid "All_ow postponing of breaks"
@@ -2392,18 +2394,17 @@ msgid "Check if breaks are allowed to be postponed"
 msgstr "Waitî si"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
-#, fuzzy
 msgid "Cursor Blinking"
-msgstr "Tinme do cursoe"
+msgstr "Gligntaedje do cursoe"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
-msgstr ""
+msgstr "Li cursoe gligntêye ezès tchamps d' tecse"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
-msgstr ""
+msgstr "Raddisté do gligntaedje do cursoe"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
@@ -2429,7 +2430,7 @@ msgstr "Roede"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
-msgstr ""
+msgstr "_Repeter tchôcaedjes di tapes cwand ene tape est wårdêye tchôkeye"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
@@ -2441,7 +2442,7 @@ msgstr "_Modele del taprece :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
-msgstr ""
+msgstr "Serer l' waitroûle après on moumint pos aidî a nén awè des rujhes cåzêyes po èn eployaedje repetitive del taprece"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
@@ -2497,7 +2498,7 @@ msgstr ""
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
-msgstr ""
+msgstr "_Acceleråcion :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
@@ -2514,7 +2515,7 @@ msgstr "_Tårdjaedje:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
-msgstr ""
+msgstr "Passer _houte des rades dobe-tchôcaedjes di tapes"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
@@ -2582,7 +2583,7 @@ msgstr "_Lingaedje :"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:7
 msgid "_Variants:"
-msgstr ""
+msgstr "_Variantes:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:1
 msgid "Choose a Keyboard Model"
@@ -2702,14 +2703,12 @@ msgid "Dwell Click"
 msgstr ""
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
-#, fuzzy
 msgid "Enable _mouse clicks with touchpad"
-msgstr "Mete èn alaedje les _clitches avou l' touchpad"
+msgstr "Mete èn alaedje les _clitches di sori avou l' tåvlete a toutchî"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:13
-#, fuzzy
 msgid "Enable h_orizontal scrolling"
-msgstr "Mete èn alaedje li disrôlaedje d' _astampé"
+msgstr "Mete èn alaedje li disrôlaedje di coutchî"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:16
 msgid "High"
@@ -2757,11 +2756,11 @@ msgstr "Deujhinme clitche forveyou"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:32
 msgid "Thr_eshold:"
-msgstr ""
+msgstr "_Soû :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
 msgid "To test your double-click settings, try to double-click on the light bulb."
-msgstr ""
+msgstr "Po sayî les tchuzes di dobe-clitchaedje, sayîz d' dobe-clitchî sol loumire."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Touchpad"
@@ -2773,7 +2772,7 @@ msgstr "Disrôlaedje avou deus _doets"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr ""
+msgstr "Vos ploz ossu eployî l' aplikete do scriftôr di Soû d' clitchaedje po tchoezi l' sôre di clitchaedje"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -2793,7 +2792,7 @@ msgstr "_Gåtchî"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:43
 msgid "_Motion threshold:"
-msgstr ""
+msgstr "Soû d' _movmint :"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:44
 msgid "_Right-handed"
@@ -2944,6 +2943,55 @@ msgstr "Eplo_yî l' otintifiaedje"
 msgid "_Use the same proxy for all protocols"
 msgstr "Eplo_yî l' minme procsi po tos les protocoles"
 
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "%d munute"
+msgstr[1] "%d munutes"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr "_Bodjî"
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr "Enerdjeye eyet rlujhance"
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr "Rilujhance"
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr "Edoirmi l' copiutrece cwand elle est essoctêye tins di :"
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr "Rinde li copiutrece wåleuse elle est essoctêye tins di :"
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr "Roedeu"
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr "Ça rindrè vosse waitroûle tote noere eyet metrè vosse messaedje di statut so « evoye »"
+
+#: ../capplets/power/power.ui.h:6
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Ça metrè ttafwait so vosse copiutrece e woeye. Ele si dispietrè pår li minme k' elle esteut dvant."
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr "Po candjî vosse rilujhance, vos vs savoz siervi des tapes so vosse copiutrece."
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr "Wåleu"
+
 #: ../capplets/security/cc-security-panel.c:154
 msgid "Sorry, the passwords do not match"
 msgstr "Dji rgrete mins les screts n' corespondèt nén"
@@ -2954,11 +3002,11 @@ msgstr "Li novea scret est asteure schapé"
 
 #: ../capplets/security/cc-security-panel.c:210
 msgid "Sorry, the password could not be changed"
-msgstr ""
+msgstr "Dji rgrete mins dj' n' a nén savou candjî l' sicret"
 
 #: ../capplets/security/cc-security-panel.c:445
 msgid "Sorry, that password is incorrect"
-msgstr ""
+msgstr "Dji rgrete mins l' sicret est mwais"
 
 #: ../capplets/security/cc-security-panel.c:500
 msgid "Security"
@@ -3611,12 +3659,6 @@ msgstr "Oister des cayets do sistinme"
 
 #~ msgid "Save new password"
 #~ msgstr "_Sicrete:"
-
-#~ msgid "Never"
-#~ msgstr "_Bodjî"
-
-#~ msgid "Sleep"
-#~ msgstr "Roedeu"
 
 #~ msgid "System Settings"
 #~ msgstr "Sipepieus apontiaedjes"
