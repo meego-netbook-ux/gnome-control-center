@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: meego-gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-09-20 15:06+0000\n"
+"POT-Creation-Date: 2010-10-12 15:07+0000\n"
 "PO-Revision-Date: 2010-09-21 10:19+0700\n"
 "Last-Translator: Andika Triwidada <andika@gmail.com>\n"
 "Language-Team: Indonesian Translation Team <gnome@i15n.org>\n"
@@ -32,28 +32,16 @@ msgid "More themes URL"
 msgstr "URL tema lain"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid ""
-"Set this to your current location name. This is used to determine the "
-"appropriate network proxy configuration."
-msgstr ""
-"Tata ini ke nama lokasi Anda kini. Ini dipakai untuk menentukan konfigurasi "
-"proksi jaringan yang tepat."
+msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
+msgstr "Tata ini ke nama lokasi Anda kini. Ini dipakai untuk menentukan konfigurasi proksi jaringan yang tepat."
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid ""
-"URL for where to get more desktop backgrounds. If set to an empty string the "
-"link will not appear."
-msgstr ""
-"URL untuk memperoleh lebih banyak latar belakang desktop. Bila dikosongkan, "
-"taut tidak akan muncul."
+msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
+msgstr "URL untuk memperoleh lebih banyak latar belakang desktop. Bila dikosongkan, taut tidak akan muncul."
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid ""
-"URL for where to get more desktop themes. If set to an empty string the link "
-"will not appear."
-msgstr ""
-"URL untuk memperoleh lebih banyak tema desktop. Bila dikosongkan, taut tidak "
-"akan muncul."
+msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
+msgstr "URL untuk memperoleh lebih banyak tema desktop. Bila dikosongkan, taut tidak akan muncul."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -217,7 +205,7 @@ msgid "No Image"
 msgstr "Tanpa Gambar"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Citra"
 
@@ -453,10 +441,8 @@ msgid "Set your personal information"
 msgstr "Masukkan informasi pribadi Anda"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid ""
-"You are not allowed to access the device. Contact your system administrator."
-msgstr ""
-"Anda tidak diijinkan mengakses perangkat. Hubungi administrator sistem anda."
+msgid "You are not allowed to access the device. Contact your system administrator."
+msgstr "Anda tidak diijinkan mengakses perangkat. Hubungi administrator sistem anda."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid "The device is already in use."
@@ -475,12 +461,8 @@ msgid "_Delete Fingerprints"
 msgstr "Hapus Si_dik Jari"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid ""
-"Do you want to delete your registered fingerprints so fingerprint login is "
-"disabled?"
-msgstr ""
-"Apakah anda ingin menghapus sidik jari yang telah terdaftar sehingga login "
-"memakai sidik jari dimatikan?"
+msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
+msgstr "Apakah anda ingin menghapus sidik jari yang telah terdaftar sehingga login memakai sidik jari dimatikan?"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:356
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
@@ -524,12 +506,8 @@ msgstr "Fungsikan Login Sidik Jari"
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
-msgid ""
-"To enable fingerprint login, you need to save one of your fingerprints, "
-"using the '%s' device."
-msgstr ""
-"Untuk memfungsikan login sidik jari, anda perlu menyimpan sidik jari anda, "
-"memakai perangkat '%s'."
+msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
+msgstr "Untuk memfungsikan login sidik jari, anda perlu menyimpan sidik jari anda, memakai perangkat '%s'."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:590
 msgid "Swipe finger on reader"
@@ -588,12 +566,8 @@ msgid "Select finger"
 msgstr "Pilih jari"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid ""
-"Your fingerprint was successfully saved. You should now be able to log in "
-"using your fingerprint reader."
-msgstr ""
-"Sidik jari anda telah berhasil disimpan. Anda sekarang dapat masuk memakai "
-"pembaca sidik jari anda."
+msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
+msgstr "Sidik jari anda telah berhasil disimpan. Anda sekarang dapat masuk memakai pembaca sidik jari anda."
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
@@ -616,17 +590,13 @@ msgstr "Terotentikasi!"
 #. This is a re-auth, and it failed.
 #. * The password must have been changed in the meantime!
 #. * Ask the user to re-authenticate
-#.
+#. 
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
 #: ../capplets/about-me/gnome-about-me-password.c:554
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
-msgstr ""
-"Kata sandi Anda telah diganti sejak Anda terotentikasi di awal! Silakan "
-"otentikasi ulang."
+msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
+msgstr "Kata sandi Anda telah diganti sejak Anda terotentikasi di awal! Silakan otentikasi ulang."
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
@@ -692,10 +662,8 @@ msgstr "Silakan ketik sandinya pada isian <b>Kata sandi baru</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid ""
-"Please type your password again in the <b>Retype new password</b> field."
-msgstr ""
-"Silakan ketik lagi kata sandinya pada isian <b>Ketik ulang kata sandi</b>."
+msgid "Please type your password again in the <b>Retype new password</b> field."
+msgstr "Silakan ketik lagi kata sandinya pada isian <b>Ketik ulang kata sandi</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
@@ -719,15 +687,11 @@ msgstr "Sandi _sekarang:"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and "
-"click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for "
-"verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
 msgstr ""
-"Untuk mengganti kata sandi Anda, masukkan kata sandi sekarang di bawah dan "
-"klik <b>Otentikasi<b>.\n"
-"Setelah Anda terotentikasi, masukkan kata sandi baru, ketik lagi untuk "
-"memastikan dan klik <b>Ganti kata sandi</b>."
+"Untuk mengganti kata sandi Anda, masukkan kata sandi sekarang di bawah dan klik <b>Otentikasi<b>.\n"
+"Setelah Anda terotentikasi, masukkan kata sandi baru, ketik lagi untuk memastikan dan klik <b>Ganti kata sandi</b>."
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -755,12 +719,8 @@ msgid "Assistive Technologies Preferences"
 msgstr "Preferensi Teknologi Pemandu"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid ""
-"Changes to enable assistive technologies will not take effect until your "
-"next log in."
-msgstr ""
-"Perubahan untuk mengaktifkan teknologi bantu tidak akan berefek sampai masuk "
-"berikutnya."
+msgid "Changes to enable assistive technologies will not take effect until your next log in."
+msgstr "Perubahan untuk mengaktifkan teknologi bantu tidak akan berefek sampai masuk berikutnya."
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
@@ -806,11 +766,11 @@ msgstr "A_plikasi Kesukaan"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Pilih fitur kemudahan akses yang Anda inginkan untuk aktif saat login"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Tambahkan Gambar Dinding"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Semua berkas"
 
@@ -820,33 +780,15 @@ msgstr "Fonta mungkin terlalu besar"
 
 #: ../capplets/appearance/appearance-font.c:498
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a size "
-"smaller than %d."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a size "
-"smaller than %d."
-msgstr[0] ""
-"Ukuran huruf terpilih adalah %d point, dan akan membuatnya sulit untuk "
-"digunakan pada komputer. Disarankan anda untuk memilih huruf yang lebih "
-"kecil dari %d."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
+msgstr[0] "Ukuran huruf terpilih adalah %d point, dan akan membuatnya sulit untuk digunakan pada komputer. Disarankan anda untuk memilih huruf yang lebih kecil dari %d."
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
-msgid ""
-"The font selected is %d point large, and may make it difficult to "
-"effectively use the computer.  It is recommended that you select a smaller "
-"sized font."
-msgid_plural ""
-"The font selected is %d points large, and may make it difficult to "
-"effectively use the computer. It is recommended that you select a smaller "
-"sized font."
-msgstr[0] ""
-"Ukuran huruf terpilih adalah %d point, dan akan membuatnya sulit untuk "
-"digunakan pada komputer. Disarankan anda untuk memilih huruf yang lebih "
-"kecil."
+msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
+msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
+msgstr[0] "Ukuran huruf terpilih adalah %d point, dan akan membuatnya sulit untuk digunakan pada komputer. Disarankan anda untuk memilih huruf yang lebih kecil."
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -862,6 +804,7 @@ msgstr "Gunakan font terpilih"
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Tak bisa memuat berkas antar muka pengguna: %s"
@@ -877,8 +820,7 @@ msgstr "nama berkas"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/appearance/appearance-main.c:143
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
-msgstr ""
-"Nyatakan nama halaman untuk ditampilkan (tema|gambar-latar|huruf|tampilan)"
+msgstr "Nyatakan nama halaman untuk ditampilkan (tema|gambar-latar|huruf|tampilan)"
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
@@ -904,12 +846,8 @@ msgstr "Pasang"
 #: ../capplets/appearance/appearance-style.c:256
 #: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme engine "
-"'%s' is not installed."
-msgstr ""
-"Tema ini tidak akan terlihat sebagaimana mestinya karena mesin tema GTK+ '%"
-"s' belum terpasang."
+msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
+msgstr "Tema ini tidak akan terlihat sebagaimana mestinya karena mesin tema GTK+ '%s' belum terpasang."
 
 #: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
@@ -924,32 +862,20 @@ msgid "Revert Font"
 msgstr "Kembali ke Font asal"
 
 #: ../capplets/appearance/appearance-themes.c:712
-msgid ""
-"The current theme suggests a background and a font. Also, the last applied "
-"font suggestion can be reverted."
-msgstr ""
-"Tema saat ini menyarankan sebuah background dan sebuah font. Juga, font "
-"terakhir yang diterapkan dapat dikembalikan ke asal."
+msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
+msgstr "Tema saat ini menyarankan sebuah background dan sebuah font. Juga, font terakhir yang diterapkan dapat dikembalikan ke asal."
 
 #: ../capplets/appearance/appearance-themes.c:714
-msgid ""
-"The current theme suggests a background. Also, the last applied font "
-"suggestion can be reverted."
-msgstr ""
-"Tema saat ini menyarankan sebuah background. Juga, font terakhir yang "
-"diterapkan dapat dikembalikan ke asal."
+msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
+msgstr "Tema saat ini menyarankan sebuah background. Juga, font terakhir yang diterapkan dapat dikembalikan ke asal."
 
 #: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
 msgstr "Tema saat ini menganjurkan sebuah gambar latar dan sebuah fonta."
 
 #: ../capplets/appearance/appearance-themes.c:718
-msgid ""
-"The current theme suggests a font. Also, the last applied font suggestion "
-"can be reverted."
-msgstr ""
-"Tema saat ini menyarankan sebuah font. Juga, font terakhir yang diterapkan "
-"dapat dikembalikan ke asal."
+msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
+msgstr "Tema saat ini menyarankan sebuah font. Juga, font terakhir yang diterapkan dapat dikembalikan ke asal."
 
 #: ../capplets/appearance/appearance-themes.c:720
 msgid "The current theme suggests a background."
@@ -1299,26 +1225,26 @@ msgstr "Paket Tema Gnome"
 msgid "No Desktop Background"
 msgstr "Tanpa Latar Belakang Desktop"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Deretan Gambar"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Gambar"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "ukuran berganda"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s kali %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "piksel"
@@ -1326,8 +1252,8 @@ msgstr[0] "piksel"
 #. translators: <b>wallpaper name</b>
 #. * mime type, size
 #. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#. 
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1341,8 +1267,8 @@ msgstr ""
 #. translators: <b>wallpaper name</b>
 #. * Image missing
 #. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#. 
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1353,7 +1279,7 @@ msgstr ""
 "%s\n"
 "Folder: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Gambar tak ditemukan"
 
@@ -1382,12 +1308,8 @@ msgstr "\"%s\" sepertinya bukan tema yang valid."
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid ""
-"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
-"you need to compile."
-msgstr ""
-"\"%s\" sepertinya bukan tema yang valid. Mungkin itu sebuah mesin tema yang "
-"perlu anda kompail."
+msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
+msgstr "\"%s\" sepertinya bukan tema yang valid. Mungkin itu sebuah mesin tema yang perlu anda kompail."
 
 #: ../capplets/appearance/theme-installer.c:372
 #, c-format
@@ -1401,8 +1323,7 @@ msgstr "Tema \"%s\" telah terpasang."
 
 #: ../capplets/appearance/theme-installer.c:421
 msgid "Would you like to apply it now, or keep your current theme?"
-msgstr ""
-"Apakah anda hendak menerapkannya sekarang, atau tetap memakai tema kini?"
+msgstr "Apakah anda hendak menerapkannya sekarang, atau tetap memakai tema kini?"
 
 #: ../capplets/appearance/theme-installer.c:424
 msgid "Keep Current Theme"
@@ -1475,16 +1396,10 @@ msgstr "Tidak dapat memasang mesin tema"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
-"settings manager may already be active and conflicting with the GNOME "
-"settings manager."
+"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
 msgstr ""
 "Program pengatur 'gnome-settings-daemon' tidak dapat dijalankan.\n"
-"Tanpa program ini, beberapa layanan pengaturan sistem tidak dapat dilakukan. "
-"Biasanya ini karena adanya masalah dengan DBus atau sudah ada manajer "
-"pengaturan non-GNOME (mis. KDE) yang sedang jalan dan menjadi konflik dengan "
-"manajer pengaturan GNOME."
+"Tanpa program ini, beberapa layanan pengaturan sistem tidak dapat dilakukan. Biasanya ini karena adanya masalah dengan DBus atau sudah ada manajer pengaturan non-GNOME (mis. KDE) yang sedang jalan dan menjadi konflik dengan manajer pengaturan GNOME."
 
 #: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
@@ -1593,29 +1508,23 @@ msgid "Change set"
 msgstr "Set Perubahan"
 
 #: ../capplets/common/gconf-property-editor.c:150
-msgid ""
-"GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr ""
-"Set perubahan GConf yang memuat data yang akan dikirimkan ke klien gconf "
-"saat diterapkan"
+msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr "Set perubahan GConf yang memuat data yang akan dikirimkan ke klien gconf saat diterapkan"
 
 #: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "Konversi ke callback widget"
 
 #: ../capplets/common/gconf-property-editor.c:156
-msgid ""
-"Callback to be issued when data are to be converted from GConf to the widget"
-msgstr ""
-"Callback yang akan diterbitkan saat data dikonversi dari GConf ke widget"
+msgid "Callback to be issued when data are to be converted from GConf to the widget"
+msgstr "Callback yang akan diterbitkan saat data dikonversi dari GConf ke widget"
 
 #: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "Konversi dari callback widget"
 
 #: ../capplets/common/gconf-property-editor.c:162
-msgid ""
-"Callback to be issued when data are to be converted to GConf from the widget"
+msgid "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "Callback yang diterbitkan saat data dikonversi dari GConf ke widget"
 
 #: ../capplets/common/gconf-property-editor.c:167
@@ -1640,22 +1549,18 @@ msgstr "Callback yang membebaskan data penyunting properti"
 
 #: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
-msgstr ""
-"Callback yang akan dipanggil saat data objek penyunting properti akan "
-"dibebaskan"
+msgstr "Callback yang akan dipanggil saat data objek penyunting properti akan dibebaskan"
 
 #: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
 "\n"
-"Please make sure it exists and try again, or choose a different background "
-"picture."
+"Please make sure it exists and try again, or choose a different background picture."
 msgstr ""
 "Berkas '%s' tidak dapat ditemukan.\n"
 "\n"
-"Pastikan berkas tersebut ada dan coba lagi, atau pilihlah gambar latar yang "
-"lain."
+"Pastikan berkas tersebut ada dan coba lagi, atau pilihlah gambar latar yang lain."
 
 #: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
@@ -1708,30 +1613,18 @@ msgstr "Penunjuk Putih Besar"
 
 #: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
-msgid ""
-"This theme will not look as intended because the required GTK+ theme '%s' is "
-"not installed."
-msgstr ""
-"Tema ini tidak akan tampak seperti yang diinginkan karena tema GTK+ '%s' "
-"yang diperlukan tidak terpasang."
+msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
+msgstr "Tema ini tidak akan tampak seperti yang diinginkan karena tema GTK+ '%s' yang diperlukan tidak terpasang."
 
 #: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
-msgid ""
-"This theme will not look as intended because the required window manager "
-"theme '%s' is not installed."
-msgstr ""
-"Tema ini tidak akan tampak seperti yang diinginkan karena tema manajer "
-"jendela '%s' yang diperlukan tidak terpasang."
+msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
+msgstr "Tema ini tidak akan tampak seperti yang diinginkan karena tema manajer jendela '%s' yang diperlukan tidak terpasang."
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
-msgid ""
-"This theme will not look as intended because the required icon theme '%s' is "
-"not installed."
-msgstr ""
-"Tema ini tidak akan tampak seperti yang diinginkan karena tema ikon '%s' "
-"yang diperlukan tidak terpasang."
+msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
+msgstr "Tema ini tidak akan tampak seperti yang diinginkan karena tema ikon '%s' yang diperlukan tidak terpasang."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
@@ -1768,8 +1661,7 @@ msgstr "Pastikan applet ini telah terpasang dengan benar"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/default-applications/gnome-da-capplet.c:959
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
-msgstr ""
-"Tentukan nama halaman yang akan ditampilkan (internet|multimedia|system|a11y)"
+msgstr "Tentukan nama halaman yang akan ditampilkan (internet|multimedia|system|a11y)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
 msgid "- GNOME Default Applications"
@@ -1787,7 +1679,7 @@ msgid "All %s occurrences will be replaced with actual link"
 msgstr "Seluruh %s akan digantikan dengan tautan aktual"
 
 #. * vim: sw=2 ts=8 cindent noai bs=2
-#.
+#. 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
@@ -2098,13 +1990,8 @@ msgstr "Tidak dapat mendapatkan bus sesi saat menerapkan konfigurasi tampilan"
 
 #: ../capplets/display/cc-display-minimal-page.c:478
 #: ../capplets/display/cc-display-minimal-page.c:487
-msgid ""
-"You are only showing your desktop on your computer's screen. Plug in another "
-"display to share your view and then turn display sharing on above."
-msgstr ""
-"Anda hanya menampilkan desktop Anda pada layar komputer Anda. Tancapkan "
-"tampilan lain untuk memakai bersama tilikan Anda lalu nyalakan pemakaian "
-"bersama tampilan di atas."
+msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
+msgstr "Anda hanya menampilkan desktop Anda pada layar komputer Anda. Tancapkan tampilan lain untuk memakai bersama tilikan Anda lalu nyalakan pemakaian bersama tampilan di atas."
 
 #: ../capplets/display/cc-display-minimal-page.c:496
 msgid "You are showing your desktop on an external monitor or projector."
@@ -2213,7 +2100,7 @@ msgstr "%d Hz"
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#.
+#. 
 #: ../capplets/display/xrandr-capplet.c:497
 #: ../capplets/display/xrandr-capplet.c:1643
 msgid "Mirror Screens"
@@ -2230,12 +2117,8 @@ msgid "%d x %d"
 msgstr "%d x %d"
 
 #: ../capplets/display/xrandr-capplet.c:1499
-msgid ""
-"Select a monitor to change its properties; drag it to rearrange its "
-"placement."
-msgstr ""
-"Pilih suatu monitor untuk mengubah propertinya; seret dia untuk menata ulang "
-"penempatannya."
+msgid "Select a monitor to change its properties; drag it to rearrange its placement."
+msgstr "Pilih suatu monitor untuk mengubah propertinya; seret dia untuk menata ulang penempatannya."
 
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
@@ -2317,14 +2200,11 @@ msgstr "Kesalahan saat menyimpan tombol pintas baru"
 #: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type "
-"using this key.\n"
+"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
-"Tombol pintas itu \"%s\" tidak dapat digunakan karena tidak mungkin mengetik "
-"menggunakan tombol ini.\n"
-"Silakan coba dengan rangkaian tombol seperti Control, Alt atau Shift secara "
-"bersamaan."
+"Tombol pintas itu \"%s\" tidak dapat digunakan karena tidak mungkin mengetik menggunakan tombol ini.\n"
+"Silakan coba dengan rangkaian tombol seperti Control, Alt atau Shift secara bersamaan."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
 #: ../capplets/keyboard/cc-shortcuts-page.c:1201
@@ -2339,11 +2219,8 @@ msgstr ""
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
 #: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid ""
-"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr ""
-"Jika Anda memfungsikan ulang cara pintas untuk \"%s\", cara \"%s\"  ini akan "
-"dinonaktifkan."
+msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgstr "Jika Anda memfungsikan ulang cara pintas untuk \"%s\", cara \"%s\"  ini akan dinonaktifkan."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
 #: ../capplets/keyboard/cc-shortcuts-page.c:1216
@@ -2354,8 +2231,7 @@ msgstr "Alih _Fungsikan"
 #: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
-msgstr ""
-"Kesalahan saat tidak mengatur akselerator dalam konfigurasi basis data:%s"
+msgstr "Kesalahan saat tidak mengatur akselerator dalam konfigurasi basis data:%s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
 #: ../capplets/keyboard/cc-shortcuts-page.c:1544
@@ -2385,12 +2261,8 @@ msgstr "Tombol Pintas"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
-msgid ""
-"To edit a shortcut key, click on the corresponding row and type a new key "
-"combination, or press backspace to clear."
-msgstr ""
-"Untuk mengedit tombol cara pintas, klik kolom yang berkorespondensi dan "
-"ketikkan kombinasi tombol baru, atau tekan spasi mundur untuk menghapus."
+msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
+msgstr "Untuk mengedit tombol cara pintas, klik kolom yang berkorespondensi dan ketikkan kombinasi tombol baru, atau tekan spasi mundur untuk menghapus."
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
@@ -2409,11 +2281,8 @@ msgstr "Tata Letak"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:206
 #: ../capplets/keyboard/gnome-keyboard-properties.c:211
-msgid ""
-"Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr ""
-"Terapkan konfigurasi dan keluar (hanya untuk kompatibilitas saja, sekarang "
-"sudah ditangani oleh program daemon sendiri)"
+msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr "Terapkan konfigurasi dan keluar (hanya untuk kompatibilitas saja, sekarang sudah ditangani oleh program daemon sendiri)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
@@ -2528,9 +2397,7 @@ msgstr "T_unda"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
-msgstr ""
-"Nona_ktifkan tombol-tombol yang sudah dibuat jika dua tombol ditekan "
-"bersamaan"
+msgstr "Nona_ktifkan tombol-tombol yang sudah dibuat jika dua tombol ditekan bersamaan"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
@@ -2558,12 +2425,8 @@ msgid "Keyboard _model:"
 msgstr "_Model papan tik:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
-msgid ""
-"Lock screen after a certain duration to help prevent repetitive keyboard use "
-"injuries"
-msgstr ""
-"Kunci layar setelah durasi tertentu untuk mencegah cedera akibat terlalu "
-"banyak mengetik"
+msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
+msgstr "Kunci layar setelah durasi tertentu untuk mencegah cedera akibat terlalu banyak mengetik"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
@@ -2879,11 +2742,8 @@ msgid "Thr_eshold:"
 msgstr "Ambang:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid ""
-"To test your double-click settings, try to double-click on the light bulb."
-msgstr ""
-"Untuk menguji pengaturan klik-ganda Anda, cobalah melakukan klik-ganda pada "
-"lampu."
+msgid "To test your double-click settings, try to double-click on the light bulb."
+msgstr "Untuk menguji pengaturan klik-ganda Anda, cobalah melakukan klik-ganda pada lampu."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Touchpad"
@@ -2895,8 +2755,7 @@ msgstr "Menggulung dua _jari"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr ""
-"Anda juga dapat memakai aplet panel Dwell Click untuk memilik tipe klik."
+msgstr "Anda juga dapat memakai aplet panel Dwell Click untuk memilik tipe klik."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -3076,7 +2935,7 @@ msgstr[0] "%d menit"
 
 #: ../capplets/power/cc-power-panel.c:102
 msgid "Never"
-msgstr "Tidak pernah"
+msgstr "Tak pernah"
 
 #: ../capplets/power/cc-power-panel.c:455
 #: ../capplets/power/power-properties.desktop.in.in.h:1
@@ -3089,11 +2948,11 @@ msgstr "Kecerahan"
 
 #: ../capplets/power/power.ui.h:2
 msgid "Put computer to sleep when inactive for:"
-msgstr "Tidurkan komputer ketika tak aktif selama:"
+msgstr "Tidurkan komputer bila tak aktif selama:"
 
 #: ../capplets/power/power.ui.h:3
 msgid "Set computer as idle when inactive for:"
-msgstr "Tata komputer sebagai menganggur ketika tak aktif selama:"
+msgstr "Tata komputer sebagai menganggur bila tak aktif selama:"
 
 #: ../capplets/power/power.ui.h:4
 msgid "Sleep"
@@ -3101,21 +2960,15 @@ msgstr "Tidur"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr ""
-"Ini akan mengosongkan layar dan menata keadaan pesan instan ke 'pergi'."
+msgstr "Ini akan mengosongkan layar dan menata status perpesanan Anda menjadi 'pergi'."
 
 #: ../capplets/power/power.ui.h:6
-msgid ""
-"This will suspend everything on your computer. It'll wake up in just the "
-"same state as it was before."
-msgstr ""
-"Ini akan mensuspensi semua pada komputer Anda. Ini akan bangun pada keadaan "
-"yang sama seperti sebelumnya."
+msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
+msgstr "Ini akan menghentikan semua kegiatan pada komputer Anda. Ini akan bangun kembali ke keadaan semula."
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
-msgstr ""
-"Untuk mengubah kecerahan Anda, Anda dapat memakai kunci pada komputer Anda."
+msgstr "Untuk mengubah kecerahan, Anda dapat memakai tombol pada komputer Anda."
 
 #: ../capplets/power/power.ui.h:8
 msgid "ldle"
@@ -3219,9 +3072,7 @@ msgstr "Aksi Batang Judul"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
-msgstr ""
-"Untuk memindahkan jendela, tekan dan tahan tombol ini, kemudian gerakkan "
-"jendelanya:"
+msgstr "Untuk memindahkan jendela, tekan dan tahan tombol ini, kemudian gerakkan jendelanya:"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
@@ -3262,8 +3113,7 @@ msgstr "Jendela"
 #: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
 msgid "Window manager \"%s\" has not registered a configuration tool\n"
-msgstr ""
-"Pengatur jendela \"%s\" tidak memiliki program konfigurasi yang terdaftar\n"
+msgstr "Pengatur jendela \"%s\" tidak memiliki program konfigurasi yang terdaftar\n"
 
 #: ../libwindow-settings/metacity-window-manager.c:404
 msgid "Maximize"
@@ -3311,61 +3161,39 @@ msgstr "Keluar shell ketika aksi peningkatan atau pencopotan telah dilakukan"
 
 #: ../shell/control-center.schemas.in.h:6
 msgid "Indicates whether to close the shell when a help action is performed."
-msgstr ""
-"Mengindikasikan apakah akan menutup shell ketika sebuah aksi bantuan "
-"dijalankan."
+msgstr "Mengindikasikan apakah akan menutup shell ketika sebuah aksi bantuan dijalankan."
 
 #: ../shell/control-center.schemas.in.h:7
 msgid "Indicates whether to close the shell when a start action is performed."
-msgstr ""
-"Menunjukkan apakah akan menutup tempurung bila tindakan mulai dilakukan."
+msgstr "Menunjukkan apakah akan menutup tempurung bila tindakan mulai dilakukan."
 
 #: ../shell/control-center.schemas.in.h:8
-msgid ""
-"Indicates whether to close the shell when an add or remove action is "
-"performed."
-msgstr ""
-"Mengindikasikan apakah akan menutup shell ketika aksi tambah atau hapus "
-"dijalankan."
+msgid "Indicates whether to close the shell when an add or remove action is performed."
+msgstr "Mengindikasikan apakah akan menutup shell ketika aksi tambah atau hapus dijalankan."
 
 #: ../shell/control-center.schemas.in.h:9
-msgid ""
-"Indicates whether to close the shell when an upgrade or uninstall action is "
-"performed."
-msgstr ""
-"Mengindikasikan apakah akan menutup shell ketika sebuah aksi upgrade atau "
-"uninstall dijalankan."
+msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
+msgstr "Mengindikasikan apakah akan menutup shell ketika sebuah aksi upgrade atau uninstall dijalankan."
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
 msgstr "Nama tugas dan berkas .dekstop terkait"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid ""
-"The task name to be displayed in the control-center followed by a \";\" "
-"separator then the filename of an associated .desktop file to launch for "
-"that task."
-msgstr ""
-"Nama tugas yang akan ditampilkan dalam pusat-kontrol yang diikuti dengan "
-"pemisah \";\"  kemudian berkas .desktop yang berkaitan untuk memulai tugas."
+msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
+msgstr "Nama tugas yang akan ditampilkan dalam pusat-kontrol yang diikuti dengan pemisah \";\"  kemudian berkas .desktop yang berkaitan untuk memulai tugas."
 
 #. Translators: The format of this string is the task name to be displayed
 #. (translate that part) followed by a ";" separator then the filename (DONT
 #. translate the file name) of a .desktop file to launch. Multiple entries are
 #. separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid ""
-"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
-"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr ""
-"[Ubah Tema; gtk-tema-selector.desktop, Tetapkan Aplikasi yang dipilih; "
-"standar-applications.desktop, Tambah printer; gnome-cups-manager.desktop]"
+msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr "[Ubah Tema; gtk-tema-selector.desktop, Tetapkan Aplikasi yang dipilih; standar-applications.desktop, Tambah printer; gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid ""
-"if true, the control-center will close when a \"Common Task\" is activated."
-msgstr ""
-"Jika benar, control-center akan menutup ketika \"Task Umum\" diaktifkan."
+msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgstr "Jika benar, control-center akan menutup ketika \"Task Umum\" diaktifkan."
 
 #: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
 msgid "Control Center"
@@ -3408,12 +3236,8 @@ msgstr "Kurang dari satu menit lagi kita akan istirahat"
 
 #: ../typing-break/drwright.c:526
 #, c-format
-msgid ""
-"Unable to bring up the typing break properties dialog with the following "
-"error: %s"
-msgstr ""
-"Dialog pengaturan istirahat pengetikan tidak dapat ditampilkan. Pesan error: "
-"%s"
+msgid "Unable to bring up the typing break properties dialog with the following error: %s"
+msgstr "Dialog pengaturan istirahat pengetikan tidak dapat ditampilkan. Pesan error: %s"
 
 #: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
@@ -3466,17 +3290,8 @@ msgid "Typing Monitor"
 msgstr "Pemantauan Pengetikan"
 
 #: ../typing-break/main.c:105
-msgid ""
-"The typing monitor uses the notification area to display information. You "
-"don't seem to have a notification area on your panel. You can add it by "
-"right-clicking on your panel and choosing 'Add to panel', selecting "
-"'Notification area' and clicking 'Add'."
-msgstr ""
-"Program pemantau ketik menggunakan area notifikasi untuk menampilkan "
-"informasi. Sepertinya Anda belum memasang area notifikasi. Silakan tambah "
-"dulu area notifikasi ke panel dengan cara mengklik kanan pada panel dan "
-"pilih 'Tambahkan ke panel' kemudian 'Area notifikasi' dan tekan tombol "
-"'Tambah'."
+msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
+msgstr "Program pemantau ketik menggunakan area notifikasi untuk menampilkan informasi. Sepertinya Anda belum memasang area notifikasi. Silakan tambah dulu area notifikasi ke panel dengan cara mengklik kanan pada panel dan pilih 'Tambahkan ke panel' kemudian 'Area notifikasi' dan tekan tombol 'Tambah'."
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -3495,30 +3310,20 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "Jika diset, fonta jenis Type1 akan dibuat dalam ukuran kecil."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid ""
-"Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr ""
-"Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis "
-"OpenType dalam kunci ini."
+msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis OpenType dalam kunci ini."
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr ""
-"Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis PCF "
-"dalam kunci ini."
+msgstr "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis PCF dalam kunci ini."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid ""
-"Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr ""
-"Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis "
-"TrueType dalam kunci ini."
+msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis TrueType dalam kunci ini."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr ""
-"Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis "
-"Type1 dalam kunci ini."
+msgstr "Letakkan perintah yang digunakan untuk membuat contoh huruf fonta jenis Type1 dalam kunci ini."
 
 #: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
