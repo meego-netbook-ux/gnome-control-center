@@ -35,6 +35,7 @@
 #include <X11/Xlib.h>
 
 #include "cc-display-page.h"
+#include "mux-label.h"
 
 #define CC_DISPLAY_PAGE_GET_PRIVATE(o) (G_TYPE_INSTANCE_GET_PRIVATE ((o), CC_TYPE_DISPLAY_PAGE, CcDisplayPagePrivate))
 
@@ -474,7 +475,7 @@ update_ui (CcDisplayPage *page, OutputMode mode)
         case INTERNAL:
                 gtk_widget_set_sensitive (page->priv->toggle, FALSE);
                 mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (page->priv->toggle), FALSE);
-                gtk_label_set_text (GTK_LABEL (page->priv->state_label),
+                mux_label_set_text (MUX_LABEL (page->priv->state_label),
                                     _("You are only showing your desktop on your computer's screen. "
                                       "Plug in another display to share your view and then turn display sharing on above."));
                 gtk_widget_hide (page->priv->resolution_box);
@@ -484,7 +485,7 @@ update_ui (CcDisplayPage *page, OutputMode mode)
         case INTERNAL_EXTERNAL_PRESENT:
                 gtk_widget_set_sensitive (page->priv->toggle, TRUE);
                 mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (page->priv->toggle), FALSE);
-                gtk_label_set_text (GTK_LABEL (page->priv->state_label),
+                mux_label_set_text (MUX_LABEL (page->priv->state_label),
                                     _("You are only showing your desktop on your computer's screen. "
                                       "Plug in another display to share your view and then turn display sharing on above."));
                 gtk_widget_hide (page->priv->resolution_box);
@@ -494,7 +495,7 @@ update_ui (CcDisplayPage *page, OutputMode mode)
         case EXTERNAL:
                 gtk_widget_set_sensitive (page->priv->toggle, TRUE);
                 mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (page->priv->toggle), TRUE);
-                gtk_label_set_text (GTK_LABEL (page->priv->state_label),
+                mux_label_set_text (MUX_LABEL (page->priv->state_label),
                                     _("You are showing your desktop on an external monitor or projector."));
                 gtk_widget_show (page->priv->resolution_box);
                 gtk_image_set_from_file (GTK_IMAGE (page->priv->monitor_icon), PIXMAPDIR "/display-netbook-and-external.png");

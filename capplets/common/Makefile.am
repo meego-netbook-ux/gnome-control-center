@@ -81,6 +81,7 @@ libgnome_control_center_extension_include_HEADERS =	\
 	cc-page.h					\
 	cc-panel.h					\
 	cc-shell.h					\
+	mux-label.h					\
 	$(NULL)
 
 libgnome_control_center_extension_la_SOURCES =		\
@@ -91,6 +92,8 @@ libgnome_control_center_extension_la_SOURCES =		\
 	cc-panel.c					\
 	cc-shell.c					\
 	cc-shell.h					\
+	mux-label.h					\
+	mux-label.c					\
 	$(NULL)
 
 #        -version-info @GNOME_CONTROL_CENTER_EXTENSION_VERSION_INFO@
