@@ -479,6 +479,7 @@ update_ui (CcDisplayPage *page, OutputMode mode)
                                       "Plug in another display to share your view and then turn display sharing on above."));
                 gtk_widget_hide (page->priv->resolution_box);
                 gtk_image_set_from_file (GTK_IMAGE (page->priv->monitor_icon), PIXMAPDIR "/display-netbook-only.png");
+                gtk_widget_set_sensitive (page->priv->apply_button, FALSE);
                 break;
         case INTERNAL_EXTERNAL_PRESENT:
                 gtk_widget_set_sensitive (page->priv->toggle, TRUE);
@@ -488,6 +489,7 @@ update_ui (CcDisplayPage *page, OutputMode mode)
                                       "Plug in another display to share your view and then turn display sharing on above."));
                 gtk_widget_hide (page->priv->resolution_box);
                 gtk_image_set_from_file (GTK_IMAGE (page->priv->monitor_icon), PIXMAPDIR "/display-netbook-only.png");
+                gtk_widget_set_sensitive (page->priv->apply_button, TRUE);
                 break;
         case EXTERNAL:
                 gtk_widget_set_sensitive (page->priv->toggle, TRUE);
@@ -496,6 +498,7 @@ update_ui (CcDisplayPage *page, OutputMode mode)
                                     _("You are showing your desktop on an external monitor or projector."));
                 gtk_widget_show (page->priv->resolution_box);
                 gtk_image_set_from_file (GTK_IMAGE (page->priv->monitor_icon), PIXMAPDIR "/display-netbook-and-external.png");
+                gtk_widget_set_sensitive (page->priv->apply_button, TRUE);
 
                 update_resolutions (page);
                 break;
@@ -637,8 +640,8 @@ setup_page (CcDisplayPage *page)
         page->priv->resolution_combo = WID ("res_combo");
         g_signal_connect (page->priv->resolution_combo, "changed", G_CALLBACK (on_resolution_changed), page);
         page->priv->resolution_store = GTK_TREE_MODEL (gtk_builder_get_object (builder, "mode_store"));
-        widget = WID ("apply_button");
-        g_signal_connect (widget, "clicked", G_CALLBACK (on_apply_button_clicked), page);
+        page->priv->apply_button = WID ("apply_button");
+        g_signal_connect (page->priv->apply_button, "clicked", G_CALLBACK (on_apply_button_clicked), page);
 
         page->priv->toggle = mx_gtk_light_switch_new ();
         g_signal_connect (page->priv->toggle, "switch-flipped", G_CALLBACK (on_toggled), page);
