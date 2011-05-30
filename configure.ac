@@ -394,6 +394,7 @@ capplets/default-applications/gnome-at-session.desktop.in
 capplets/default-applications/gnome-default-applications.pc
 capplets/display/Makefile
 capplets/display/display-properties.desktop.in
+capplets/email/Makefile
 capplets/keybindings/Makefile
 capplets/keybindings/gnome-keybindings.pc
 capplets/keybindings/keybinding.desktop.in

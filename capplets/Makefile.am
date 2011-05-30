@@ -2,6 +2,7 @@ SUBDIRS = \
 	common			\
 	appearance		\
 	display			\
+	email			\
 	keyboard		\
 	mouse			\
 	network			\
@@ -24,6 +25,7 @@ DIST_SUBDIRS = \
 	security		\
 	windows			\
 	display 		\
+	email	 		\
 	date			\
 	language		\
 	about-me
