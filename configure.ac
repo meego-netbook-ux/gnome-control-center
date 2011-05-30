@@ -406,6 +406,7 @@ capplets/network/Makefile
 capplets/network/gnome-network-properties.desktop.in
 capplets/power/Makefile
 capplets/power/power-properties.desktop.in
+capplets/printing/Makefile
 capplets/windows/Makefile
 capplets/windows/window-properties.desktop.in
 capplets/security/Makefile

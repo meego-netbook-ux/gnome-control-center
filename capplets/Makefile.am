@@ -6,6 +6,7 @@ SUBDIRS = \
 	mouse			\
 	network			\
 	power			\
+	printing		\
 	date			\
 	language
 
@@ -19,6 +20,7 @@ DIST_SUBDIRS = \
 	mouse			\
 	network			\
 	power			\
+	printing		\
 	security		\
 	windows			\
 	display 		\
