@@ -12,10 +12,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center 2.29.92\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-27 20:52+0800\n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-03-27 20:52+0800\n"
 "Last-Translator: Chao-Hsiung Liao <j_h_liau@yahoo.com.tw>\n"
 "Language-Team: Chinese (Hong Kong) <community@linuxhall.org>\n"
+"Language: zh_HK\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -213,7 +214,7 @@ msgid "No Image"
 msgstr "沒有圖片"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "圖片"
 
@@ -608,7 +609,7 @@ msgstr "通過認證！"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
@@ -618,71 +619,71 @@ msgstr "在通過認證後你的密碼已被更改！請重新認證。"
 msgid "That password was incorrect."
 msgstr "密碼錯誤。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "你的密碼已經更改。"
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "系統錯誤：%s。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr "密碼過短。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "密碼過份簡單。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr "舊密碼與新密碼太相似了。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr "新的密碼必須包含數字或特殊字符。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr "舊密碼與新密碼是相同的。"
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "無法執行 %s：%s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr "無法執行後端程式"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr "發生了系統錯誤"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr "檢查密碼..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "按下<b>更改密碼</b>來更改你的密碼。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "請在<b>新密碼</b>中輸新的密碼。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
 msgid ""
 "Please type your password again in the <b>Retype new password</b> field."
 msgstr "請在<b>再輸入新的密碼</b>中，再次輸入你的密碼。"
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "兩個密碼不是相同。"
 
@@ -691,6 +692,7 @@ msgid "Change pa_ssword"
 msgstr "更改密碼(_S)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "更改密碼"
 
@@ -710,7 +712,8 @@ msgid ""
 "verification and click <b>Change password</b>."
 msgstr ""
 "要更改目前的密碼，先在以下的欄位輸入目前的密碼，並按下<b>認證</b>。\n"
-"通過認證後，可以輸入新的密碼；輸入後再輸入一次作為檢查，接着按<b>更改密碼</b>。"
+"通過認證後，可以輸入新的密碼；輸入後再輸入一次作為檢查，接着按<b>更改密碼</"
+"b>。"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -787,11 +790,11 @@ msgstr "首選應用程式(_P)"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "選擇當你登入時要啟用哪個無障礙功能"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "加入桌布"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "所有檔案"
 
@@ -809,7 +812,9 @@ msgid_plural ""
 "The font selected is %d points large, and may make it difficult to "
 "effectively use the computer. It is recommended that you select a size "
 "smaller than %d."
-msgstr[0] "你選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取小於 %d 點的字型。"
+msgstr[0] ""
+"你選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取小於 %d 點的字"
+"型。"
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
@@ -821,7 +826,8 @@ msgid_plural ""
 "The font selected is %d points large, and may make it difficult to "
 "effectively use the computer. It is recommended that you select a smaller "
 "sized font."
-msgstr[0] "你選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取較小的字型。"
+msgstr[0] ""
+"你選取的字型大小為 %d 點，使用電腦時可能會造成不便。建議選取較小的字型。"
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -832,6 +838,12 @@ msgid "Use selected font"
 msgstr "使用已選字型"
 
 #: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "無法載入使用者介面檔案：%s"
@@ -851,7 +863,7 @@ msgstr "指定要顯示的頁面名稱 (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "頁面"
 
@@ -894,7 +906,8 @@ msgstr "還原字型"
 msgid ""
 "The current theme suggests a background and a font. Also, the last applied "
 "font suggestion can be reverted."
-msgstr "目前的佈景主題建議使用指定的背景與字型。同時，上次套用的建議字型會被還原。"
+msgstr ""
+"目前的佈景主題建議使用指定的背景與字型。同時，上次套用的建議字型會被還原。"
 
 #: ../capplets/appearance/appearance-themes.c:714
 msgid ""
@@ -1073,171 +1086,169 @@ msgid "Solid color"
 msgstr "單一色彩"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "跨越"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Stretch"
 msgstr "延伸"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "次像素(sub_pixel) [LCD]"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "次像素(sub_pixel)平滑方式 [LCD]"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "次像素排列次序"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "文字"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "文字在項目下"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "文字在項目旁"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "只有文字"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "本控制佈景不支援色彩配置。"
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "佈景主題"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
 msgid "Tile"
 msgstr "鋪排"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "垂直漸變色"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "視窗邊框"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "縮放"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "加入(_A)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "應用程式字型(_A):"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "描述(_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "文件字型(_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "固定闊度字型(_F):"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "完整(_F)"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "輸入視窗(_I):"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "安裝(_I)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "中(_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "不平滑化(_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "名稱(_N):"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "沒有(_N)"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "重置為預設值(_R)"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "已選項目(_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "大小(_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "輕微(_S)"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "風格(_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "工具提示(_T):"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "視窗標題字型(_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "視窗(_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "解像度(dpi)"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "外觀"
@@ -1262,26 +1273,26 @@ msgstr "Gnome 佈景主題套件"
 msgid "No Desktop Background"
 msgstr "無桌面背景"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "幻燈片顯示"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "圖片"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "多重尺寸"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "寛%d %s 高%d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "像素"
@@ -1290,7 +1301,7 @@ msgstr[0] "像素"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1305,7 +1316,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1316,7 +1327,7 @@ msgstr ""
 "%s\n"
 "資料夾：%s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "遺失圖片"
 
@@ -1441,9 +1452,11 @@ msgid ""
 "settings manager."
 msgstr ""
 "無法啟動設定管理程式「gnome-settings-daemon」。\n"
-"如果 GNOME 設定管理程式沒有執行，某部份偏好設定可能不會生效。這可能表示 Dbus 出了問題；或是另一個 GNOME 以外（例如 KDE）的設定管理程式正在執行，和 GNOME 設定管理程式出現衝突。"
+"如果 GNOME 設定管理程式沒有執行，某部份偏好設定可能不會生效。這可能表示 Dbus "
+"出了問題；或是另一個 GNOME 以外（例如 KDE）的設定管理程式正在執行，和 GNOME "
+"設定管理程式出現衝突。"
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "無法載入圖示‘%s’\n"
@@ -1529,74 +1542,74 @@ msgstr "略過(_S)"
 msgid "Overwrite _All"
 msgstr "覆蓋全部(_A)"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "設定鍵"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "該屬性修改程式所修改的 GConf 設定鍵"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "Callback"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "當設定鍵的值有改變時，發出這個 callback"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "Change set"
 
-#: ../capplets/common/gconf-property-editor.c:148
+#: ../capplets/common/gconf-property-editor.c:150
 msgid ""
 "GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr "在套用時將 Gconf change set 中包含的資料會傳送給 gconf 客戶端"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "轉化為視窗元件的改變所需的 callback"
 
-#: ../capplets/common/gconf-property-editor.c:154
+#: ../capplets/common/gconf-property-editor.c:156
 msgid ""
 "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "需要將更改後的 GConf 資料轉化為視窗元件的改變時，所發出的 callback"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "由視窗元件的改變所需的 callback 轉化"
 
-#: ../capplets/common/gconf-property-editor.c:160
+#: ../capplets/common/gconf-property-editor.c:162
 msgid ""
 "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "需要將視窗元件的改變轉化為更改後的 GConf 資料時，所發出的 callback"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "介面控制"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "控制該屬性的物件（通常是視窗元件）"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "屬性修改程式的物件資料"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "特定的屬性修改程式需要自定的資料"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "屬性修改程式釋放資料的 callback"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr "當屬性修改程式釋放物件資料時，發出 callback"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1608,7 +1621,7 @@ msgstr ""
 "\n"
 "請確定檔案已經存在並再試一次，或是選擇其它背景圖案。"
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1621,11 +1634,11 @@ msgstr ""
 "\n"
 "請選擇其它圖案。"
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "請選取圖片。"
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "選取(_S)"
 
@@ -1669,7 +1682,8 @@ msgstr "這個佈景主題無法正確顯示，因為要求的 GTK+ 佈景主題
 msgid ""
 "This theme will not look as intended because the required window manager "
 "theme '%s' is not installed."
-msgstr "這個佈景主題無法正確顯示，因為要求的視窗管理程式佈景主題「%s」尚未安裝。"
+msgstr ""
+"這個佈景主題無法正確顯示，因為要求的視窗管理程式佈景主題「%s」尚未安裝。"
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
@@ -1735,6 +1749,7 @@ msgstr "所有 %s 都會取代為真實的連結"
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "指令(_O):"
 
@@ -2030,6 +2045,49 @@ msgstr "Totem 影片播放程式"
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "無法儲存顯示器組態"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "在套用顯示組態時無法取得作業階段匯流排"
+
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "無法取得螢幕資訊"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr "顯示"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "包含面板(_P)"
@@ -2142,78 +2200,84 @@ msgid ""
 "placement."
 msgstr "選擇一個螢幕以改變它的屬性；拖曳它則能重新排列它的位置。"
 
-#: ../capplets/display/xrandr-capplet.c:2061
-msgid "Could not save the monitor configuration"
-msgstr "無法儲存顯示器組態"
-
-#: ../capplets/display/xrandr-capplet.c:2072
-msgid "Could not get session bus while applying display configuration"
-msgstr "在套用顯示組態時無法取得作業階段匯流排"
-
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
 msgstr "無法偵測顯示器"
 
-#: ../capplets/display/xrandr-capplet.c:2329
-msgid "Could not get screen information"
-msgstr "無法取得螢幕資訊"
-
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "音效"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "桌面"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "新增捷徑鍵..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "捷徑鍵"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "捷徑鍵的特殊按鍵（例如 Alt、Ctrl）"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "捷徑鍵碼"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "捷徑鍵模式"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "捷徑鍵的類型。"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "已停用"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<行動設定不詳>"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "自選捷徑鍵"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "儲存新的捷徑鍵時發生錯誤"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2224,6 +2288,7 @@ msgstr ""
 "請試用其它的按鍵：如同時使用 Control，Alt  或 Shift。"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2233,66 +2298,87 @@ msgstr ""
 "“%s”"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "如果你重新指派捷徑鍵為「%s」，「%s」的捷徑鍵就會停用。"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "重新指派(_R)"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "在組態資料庫中取消設定捷徑鍵時出現錯誤：%s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "太多自選捷徑鍵"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "動作"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "捷徑鍵"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "自選捷徑鍵"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "鍵盤捷徑鍵"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
-msgstr "要編輯捷徑鍵，點選相應的行並按下新的按鍵組合，或以 backspace 鍵來清除。"
+msgstr ""
+"要編輯捷徑鍵，點選相應的行並按下新的按鍵組合，或以 backspace 鍵來清除。"
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
 msgstr "為不同的指令分配捷徑鍵"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "鍵盤"
+
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "配置"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "套用設定並離開（現在已經由伺服程式處理，此選擇只為提供兼容性而設）"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "啟動頁面時顯示鍵盤輸入間隔設定"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "啟動頁面時顯示可存取性設定值"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr " - GNOME 鍵盤偏好設定"
 
@@ -2338,7 +2424,7 @@ msgid "Flash entire _screen"
 msgstr "閃動整個螢幕(_S)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "一般"
@@ -2352,12 +2438,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "在警示音效中顯示視覺回饋(_V)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "遲緩按鍵"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "黏性特殊鍵"
 
@@ -2373,177 +2459,173 @@ msgstr "可以暫時放棄休息(_O)"
 msgid "Audio _Feedback..."
 msgstr "音效回饋(_F)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "選用這個設定可以讓你暫時放棄休息"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "游標閃爍"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "文字輸入欄中的游標可以閃爍(_B)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "游標閃爍速度"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "延遲(_E):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "如果同時按下任何兩鍵則關閉黏性鍵功能(_B)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "指定休息時間長度，這段期間內不允許使用鍵盤"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "強制休息前可以工作的時間"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "Fast"
 msgstr "快速"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "當按下某鍵不放時重複輸出該字符(_R)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "鍵盤偏好設定"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "鍵盤模式(_M)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "配置"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
 msgstr "每隔某段時間鎖定畫面，避免因為不斷使用鍵盤導致手部受損"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "長"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "滑鼠控制鍵"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr "下移(_D)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr "上移(_U)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr "新視窗延用使用中視窗的配置(_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "重複按鍵"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "按鍵重複速度"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "重置為預設值(_F)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "速度(_P):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Short"
 msgstr "短"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "慢速"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "休息提示"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "加速度(_A):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "允許使用鍵盤捷徑鍵開啟和關閉無障礙功能(_A)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "休息時間為(_B):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "延遲(_D):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "忽略快速重複按鍵(_I)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "透過鎖定畫面來強制休息(_L)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "按下某鍵不放，達到指定時間後方會生效(_O)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "選項(_O)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "允許使用鍵盤控制鼠標(_P)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
 msgstr "給每一個視窗獨立的配置(_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "模擬同時按鍵(_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "速度(_S):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "請輸入文字來測試設定(_T):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "工作時間為(_W):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "分鐘"
 
@@ -2612,13 +2694,14 @@ msgstr "型號"
 msgid "Default"
 msgstr "預設值"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "鍵盤"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "修改鍵盤偏好設定"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+#, fuzzy
+msgid "Pointing Devices"
+msgstr "裝置"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2651,11 +2734,11 @@ msgid "gesture|Disabled"
 msgstr "停用手勢"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "指定要顯示的頁面名稱 (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME 滑鼠偏好設定"
 
@@ -2812,6 +2895,11 @@ msgstr "滑鼠"
 msgid "Set your mouse preferences"
 msgstr "修改滑鼠偏好設定"
 
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "代理伺服器"
+
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
@@ -2830,104 +2918,255 @@ msgid "Set your network proxy preferences"
 msgstr "設定代理伺服器"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>直接網絡連線(_R)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>自動設定代理伺服器(_A)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>自選代理伺服器(_M)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>需要認證(_U)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "自動設定所需的 _URL："
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "建立(_R)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "建立新的位置"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>直接網絡連線(_R)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP 代理伺服器設定"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "H_TTP 代理伺服器："
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "忽略主機清單"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "忽略的主機"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "位置:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "網絡代理伺服器偏好設定"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "連接埠:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "代理伺服器設定"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "S_ocks 主機："
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "該位置已經存在。"
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "使用者名稱(_S):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>自動設定代理伺服器(_A)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "冊除位置(_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "詳細設定(_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "_FTP 代理伺服器："
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "位置名稱(_L):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>自選代理伺服器(_M)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "密碼(_P):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "安全 HTTP 代理伺服器(_S):"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>需要認證(_U)</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "所有協定皆使用相同的代理伺服器(_U)"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "分鐘"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "密碼過份簡單。"
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "你的密碼已經更改。"
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "密碼錯誤。"
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "通過認證！"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "密碼過短。"
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "密碼過份簡單。"
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "舊密碼與新密碼太相似了。"
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "新的密碼必須包含數字或特殊字符。"
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "舊密碼與新密碼是相同的。"
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "在通過認證後你的密碼已被更改！請重新認證。"
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "新的密碼必須包含數字或特殊字符。"
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "不明"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "再輸入新的密碼(_R):"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "目前密碼(_P):"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "新密碼(_N):"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "再輸入新的密碼(_R):"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "更改密碼"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3026,32 +3265,6 @@ msgstr "捲起"
 msgid "None"
 msgstr "沒有"
 
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "找不到按鍵 [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "啟動時隱藏 (要預先載入 shell 時很有用)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "篩選"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "類別"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "一般設定"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "控制中心"
-
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
 msgstr "執行設定後關閉控制中心"
@@ -3101,23 +3314,39 @@ msgid ""
 "The task name to be displayed in the control-center followed by a \";\" "
 "separator then the filename of an associated .desktop file to launch for "
 "that task."
-msgstr "在“;”前的是 顯示在控制中心的設定名稱（因此需要翻譯），而其後相關 .desktop 檔案是用作執行該設定。"
+msgstr ""
+"在“;”前的是 顯示在控制中心的設定名稱（因此需要翻譯），而其後相關 .desktop 檔"
+"案是用作執行該設定。"
 
 #. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
 #: ../shell/control-center.schemas.in.h:13
 msgid ""
 "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
 "applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr "[更改佈景主題;gtk-theme-selector.desktop,設定首選應用程式;default-applications.desktop,加入打印機;gnome-cups-manager.desktop]"
+msgstr ""
+"[更改佈景主題;gtk-theme-selector.desktop,設定首選應用程式;default-"
+"applications.desktop,加入打印機;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
 msgid ""
 "if true, the control-center will close when a \"Common Task\" is activated."
 msgstr "如設定為‘true’，控制中心會在「一般工作」使用後關閉。"
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "控制中心"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "GNOME 設定工具"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr ""
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3188,7 +3417,10 @@ msgid ""
 "don't seem to have a notification area on your panel. You can add it by "
 "right-clicking on your panel and choosing 'Add to panel', selecting "
 "'Notification area' and clicking 'Add'."
-msgstr "休息提示小程式需要透過程式狀態通知區來顯示資訊，可是面板中並沒有該區域。你可以在面板上按滑鼠右邊按鈕，選取「加入至面板」及其中的「程式狀態通知區」後，再按「新增」。"
+msgstr ""
+"休息提示小程式需要透過程式狀態通知區來顯示資訊，可是面板中並沒有該區域。你可"
+"以在面板上按滑鼠右邊按鈕，選取「加入至面板」及其中的「程式狀態通知區」後，再"
+"按「新增」。"
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -3495,6 +3727,24 @@ msgstr "<b>以“%s”開啟</b>"
 msgid "Remove from System Items"
 msgstr "自系統項目中移除"
 
+#~ msgid "Span"
+#~ msgstr "跨越"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "找不到按鍵 [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "啟動時隱藏 (要預先載入 shell 時很有用)"
+
+#~ msgid "Filter"
+#~ msgstr "篩選"
+
+#~ msgid "Groups"
+#~ msgstr "類別"
+
+#~ msgid "Common Tasks"
+#~ msgstr "一般設定"
+
 #~ msgid "Display Preferences"
 #~ msgstr "顯示偏好設定"
 
@@ -3506,9 +3756,6 @@ msgstr "自系統項目中移除"
 
 #~ msgid "Change screen resolution"
 #~ msgstr "變更螢幕解析度"
-
-#~ msgid "Display"
-#~ msgstr "顯示"
 
 #~ msgid "Edit"
 #~ msgstr "編輯"
@@ -3819,9 +4066,6 @@ msgstr "自系統項目中移除"
 
 #~ msgid "Click OK to finish."
 #~ msgstr "按確定來完成"
-
-#~ msgid "Devices"
-#~ msgstr "裝置"
 
 #~ msgid "Play _alert sound"
 #~ msgstr "播放警示聲音(_A)"

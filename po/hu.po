@@ -1,7 +1,7 @@
 # Hungarian translation of gnome-control-center.
 # Copyright (C) 1998, 1999, 2000, 2001, 2002, 2003, 2004, 2005, 2006, 2007, 2008, 2009, 2010 Free Software Foundation, Inc.
 # This file is distributed under the same license as the gnome-control-center package.
-# 
+#
 # Szabolcs Ban <shooby at gnome dot hu>, 1998, 1999, 2000.
 # Emese Kovacs <emese at gnome dot hu>, 2001.
 # Peter Doma <zelin at pointernet dot hu>, 2002.
@@ -14,10 +14,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center master\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-11-21 00:02+0000\n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-01-03 18:15+0100\n"
 "Last-Translator: Gabor Kelemen <kelemeng at gnome dot hu>\n"
 "Language-Team: Hungarian <gnome at fsf dot hu>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -37,16 +38,28 @@ msgid "More themes URL"
 msgstr "További témák URL"
 
 #: ../gnome-control-center.schemas.in.h:4
-msgid "Set this to your current location name. This is used to determine the appropriate network proxy configuration."
-msgstr "Állítsa ezt a jelenlegi hely nevére. Ezt a megfelelő proxybeállítások meghatározására használja a program."
+msgid ""
+"Set this to your current location name. This is used to determine the "
+"appropriate network proxy configuration."
+msgstr ""
+"Állítsa ezt a jelenlegi hely nevére. Ezt a megfelelő proxybeállítások "
+"meghatározására használja a program."
 
 #: ../gnome-control-center.schemas.in.h:5
-msgid "URL for where to get more desktop backgrounds. If set to an empty string the link will not appear."
-msgstr "További hátterek letöltésére használt URL. Ha nincs megadva, a hivatkozás nem jelenik meg."
+msgid ""
+"URL for where to get more desktop backgrounds. If set to an empty string the "
+"link will not appear."
+msgstr ""
+"További hátterek letöltésére használt URL. Ha nincs megadva, a hivatkozás "
+"nem jelenik meg."
 
 #: ../gnome-control-center.schemas.in.h:6
-msgid "URL for where to get more desktop themes. If set to an empty string the link will not appear."
-msgstr "További asztali témák letöltésére használt URL. Ha nincs megadva, a hivatkozás nem jelenik meg."
+msgid ""
+"URL for where to get more desktop themes. If set to an empty string the link "
+"will not appear."
+msgstr ""
+"További asztali témák letöltésére használt URL. Ha nincs megadva, a "
+"hivatkozás nem jelenik meg."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -54,7 +67,9 @@ msgstr "Kép/felirat szegélye"
 
 #: ../capplets/about-me/eel-alert-dialog.c:115
 msgid "Width of border around the label and image in the alert dialog"
-msgstr "A feliratot és a képet körülvevő szegély szélessége a figyelmeztető párbeszédablakon"
+msgstr ""
+"A feliratot és a képet körülvevő szegély szélessége a figyelmeztető "
+"párbeszédablakon"
 
 #: ../capplets/about-me/eel-alert-dialog.c:124
 msgid "Alert Type"
@@ -446,7 +461,8 @@ msgid "Set your personal information"
 msgstr "Személyes információk beállítása"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid "You are not allowed to access the device. Contact your system administrator."
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
 msgstr "Nem jogosult az eszköz elérésére. Keresse meg a rendszergazdáját."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
@@ -466,8 +482,12 @@ msgid "_Delete Fingerprints"
 msgstr "Ujjlenyomatok _törlése"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:228
-msgid "Do you want to delete your registered fingerprints so fingerprint login is disabled?"
-msgstr "Törölni kívánja a regisztrált ujjlenyomatokat, ezzel letiltva az ujjlenyomatos bejelentkezést?"
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
+msgstr ""
+"Törölni kívánja a regisztrált ujjlenyomatokat, ezzel letiltva az "
+"ujjlenyomatos bejelentkezést?"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:356
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
@@ -506,13 +526,16 @@ msgstr "Ujjlenyomatos bejelentkezés engedélyezése"
 
 #. translators:
 #. * The variable is the name of the device, for example:
-#. * "To enable fingerprint login, you need to save one of your fingerprints,
-#. using the
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
 #. * 'Digital Persona U.are.U 4000/4000B' device."
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
-msgid "To enable fingerprint login, you need to save one of your fingerprints, using the '%s' device."
-msgstr "Az ujjlenyomatos bejelentkezés engedélyezéséhez a(z) „%s” eszköz segítségével el kell mentenie az egyik ujjlenyomatát."
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
+msgstr ""
+"Az ujjlenyomatos bejelentkezés engedélyezéséhez a(z) „%s” eszköz "
+"segítségével el kell mentenie az egyik ujjlenyomatát."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:590
 msgid "Swipe finger on reader"
@@ -571,8 +594,12 @@ msgid "Select finger"
 msgstr "Ujj kiválasztása"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
-msgid "Your fingerprint was successfully saved. You should now be able to log in using your fingerprint reader."
-msgstr "Az ujjlenyomata sikeresen mentve. Mostantól bejelentkezhet az ujjlenyomat-olvasója segítségével."
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+"Az ujjlenyomata sikeresen mentve. Mostantól bejelentkezhet az ujjlenyomat-"
+"olvasója segítségével."
 
 #: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
@@ -595,13 +622,16 @@ msgstr "Hitelesítve!"
 #. This is a re-auth, and it failed.
 #. * The password must have been changed in the meantime!
 #. * Ask the user to re-authenticate
-#. 
+#.
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
 #: ../capplets/about-me/gnome-about-me-password.c:554
-msgid "Your password has been changed since you initially authenticated! Please re-authenticate."
-msgstr "A jelszava megváltozott a kezdeti bejelentkezés óta! Jelentkezzen be újra."
+msgid ""
+"Your password has been changed since you initially authenticated! Please re-"
+"authenticate."
+msgstr ""
+"A jelszava megváltozott a kezdeti bejelentkezés óta! Jelentkezzen be újra."
 
 #: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
@@ -632,7 +662,8 @@ msgstr "A régi és új jelszavak túlságosan hasonlítanak."
 
 #: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
-msgstr "Az új jelszónak numerikus vagy speciális karaktereket kell tartalmaznia."
+msgstr ""
+"Az új jelszónak numerikus vagy speciális karaktereket kell tartalmaznia."
 
 #: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
@@ -659,7 +690,9 @@ msgstr "Jelszó ellenőrzése…"
 
 #: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
-msgstr "Kattintson a <b>Jelszó megváltoztatása</b> gombra a jelszó megváltoztatásához."
+msgstr ""
+"Kattintson a <b>Jelszó megváltoztatása</b> gombra a jelszó "
+"megváltoztatásához."
 
 #: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
@@ -667,7 +700,8 @@ msgstr "Írja be a jelszavát az <b>Új jelszó</b> mezőbe."
 
 #: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid "Please type your password again in the <b>Retype new password</b> field."
+msgid ""
+"Please type your password again in the <b>Retype new password</b> field."
 msgstr "Írja be újra a jelszót a <b>Írja be újra a jelszót</b> mezőbe."
 
 #: ../capplets/about-me/gnome-about-me-password.c:943
@@ -679,6 +713,7 @@ msgid "Change pa_ssword"
 msgstr "_Jelszó megváltoztatása"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "Jelszó megváltoztatása"
 
@@ -692,11 +727,15 @@ msgstr "Jele_nlegi jelszó:"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
-"To change your password, enter your current password in the field below and click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for verification and click <b>Change password</b>."
+"To change your password, enter your current password in the field below and "
+"click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for "
+"verification and click <b>Change password</b>."
 msgstr ""
-"A jelszó módosításához adja meg jelenlegi jelszavát az alábbi mezőben és kattintson a <b>Hitelesítés</b> gombra.\n"
-"A hitelesítés után írja be az új jelszót, ellenőrzésként írja be újra, majd kattintson a <b>Jelszó megváltoztatása</b> gombra."
+"A jelszó módosításához adja meg jelenlegi jelszavát az alábbi mezőben és "
+"kattintson a <b>Hitelesítés</b> gombra.\n"
+"A hitelesítés után írja be az új jelszót, ellenőrzésként írja be újra, majd "
+"kattintson a <b>Jelszó megváltoztatása</b> gombra."
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
@@ -724,8 +763,12 @@ msgid "Assistive Technologies Preferences"
 msgstr "Akadálymentesítés beállításai"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
-msgid "Changes to enable assistive technologies will not take effect until your next log in."
-msgstr "Az akadálymentesítési technológiák engedélyezése csak a legközelebbi belépéskor lép életbe."
+msgid ""
+"Changes to enable assistive technologies will not take effect until your "
+"next log in."
+msgstr ""
+"Az akadálymentesítési technológiák engedélyezése csak a legközelebbi "
+"belépéskor lép életbe."
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
@@ -769,7 +812,9 @@ msgstr "_Alapértelmezett alkalmazások"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
 msgid "Choose which accessibility features to enable when you log in"
-msgstr "A bejelentkezéskor bekapcsolandó akadálymentesítési szolgáltatások kiválasztása"
+msgstr ""
+"A bejelentkezéskor bekapcsolandó akadálymentesítési szolgáltatások "
+"kiválasztása"
 
 #: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
@@ -785,17 +830,37 @@ msgstr "Lehet, hogy a betűkészlet túl nagy"
 
 #: ../capplets/appearance/appearance-font.c:498
 #, c-format
-msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a size smaller than %d."
-msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a size smaller than %d."
-msgstr[0] "A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép hatékony használatát. Ajánlott kisebb méretet választani, mint %d pont."
-msgstr[1] "A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép hatékony használatát. Ajánlott kisebb méretet választani, mint %d pont."
+msgid ""
+"The font selected is %d point large, and may make it difficult to "
+"effectively use the computer.  It is recommended that you select a size "
+"smaller than %d."
+msgid_plural ""
+"The font selected is %d points large, and may make it difficult to "
+"effectively use the computer. It is recommended that you select a size "
+"smaller than %d."
+msgstr[0] ""
+"A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép "
+"hatékony használatát. Ajánlott kisebb méretet választani, mint %d pont."
+msgstr[1] ""
+"A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép "
+"hatékony használatát. Ajánlott kisebb méretet választani, mint %d pont."
 
 #: ../capplets/appearance/appearance-font.c:511
 #, c-format
-msgid "The font selected is %d point large, and may make it difficult to effectively use the computer.  It is recommended that you select a smaller sized font."
-msgid_plural "The font selected is %d points large, and may make it difficult to effectively use the computer. It is recommended that you select a smaller sized font."
-msgstr[0] "A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép hatékony használatát. Ajánlott kisebb méretű betűkészletet választani."
-msgstr[1] "A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép hatékony használatát. Ajánlott kisebb méretű betűkészletet választani."
+msgid ""
+"The font selected is %d point large, and may make it difficult to "
+"effectively use the computer.  It is recommended that you select a smaller "
+"sized font."
+msgid_plural ""
+"The font selected is %d points large, and may make it difficult to "
+"effectively use the computer. It is recommended that you select a smaller "
+"sized font."
+msgstr[0] ""
+"A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép "
+"hatékony használatát. Ajánlott kisebb méretű betűkészletet választani."
+msgstr[1] ""
+"A kiválasztott betűkészlet %d pont méretű, ami megnehezítheti a számítógép "
+"hatékony használatát. Ajánlott kisebb méretű betűkészletet választani."
 
 #: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
@@ -807,7 +872,7 @@ msgstr "A kijelölt betűkészlet használata"
 
 #: ../capplets/appearance/appearance-main.c:56
 #: ../capplets/appearance/cc-appearance-panel.c:89
-#: ../capplets/display/cc-display-minimal-page.c:628
+#: ../capplets/display/cc-display-minimal-page.c:632
 #: ../capplets/keyboard/cc-keyboard-page.c:129
 #: ../capplets/keyboard/cc-layout-page.c:101
 #: ../capplets/keyboard/cc-shortcuts-page.c:1844
@@ -827,7 +892,8 @@ msgstr "fájlnév"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/appearance/appearance-main.c:143
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
-msgstr "Adja meg a megjelenítendő oldal nevét (theme|background|fonts|interface)"
+msgstr ""
+"Adja meg a megjelenítendő oldal nevét (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
@@ -853,8 +919,12 @@ msgstr "Telepítés"
 #: ../capplets/appearance/appearance-style.c:256
 #: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
-msgid "This theme will not look as intended because the required GTK+ theme engine '%s' is not installed."
-msgstr "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” GTK+ témamotor nincs telepítve."
+msgid ""
+"This theme will not look as intended because the required GTK+ theme engine "
+"'%s' is not installed."
+msgstr ""
+"Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” GTK+ "
+"témamotor nincs telepítve."
 
 #: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
@@ -869,20 +939,32 @@ msgid "Revert Font"
 msgstr "Betűkészlet visszaállítása"
 
 #: ../capplets/appearance/appearance-themes.c:712
-msgid "The current theme suggests a background and a font. Also, the last applied font suggestion can be reverted."
-msgstr "Az aktuális téma hátteret és betűkészletet is javasol. Az utoljára alkalmazott betűkészlet-javaslat visszavonható."
+msgid ""
+"The current theme suggests a background and a font. Also, the last applied "
+"font suggestion can be reverted."
+msgstr ""
+"Az aktuális téma hátteret és betűkészletet is javasol. Az utoljára "
+"alkalmazott betűkészlet-javaslat visszavonható."
 
 #: ../capplets/appearance/appearance-themes.c:714
-msgid "The current theme suggests a background. Also, the last applied font suggestion can be reverted."
-msgstr "Az aktuális téma hátteret javasol. Az utoljára alkalmazott betűkészlet-javaslat visszavonható."
+msgid ""
+"The current theme suggests a background. Also, the last applied font "
+"suggestion can be reverted."
+msgstr ""
+"Az aktuális téma hátteret javasol. Az utoljára alkalmazott betűkészlet-"
+"javaslat visszavonható."
 
 #: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
 msgstr "Az aktuális téma hátteret és betűkészletet is javasol."
 
 #: ../capplets/appearance/appearance-themes.c:718
-msgid "The current theme suggests a font. Also, the last applied font suggestion can be reverted."
-msgstr "Az aktuális téma betűkészletet javasol. Az utoljára alkalmazott betűkészlet-javaslat visszavonható."
+msgid ""
+"The current theme suggests a font. Also, the last applied font suggestion "
+"can be reverted."
+msgstr ""
+"Az aktuális téma betűkészletet javasol. Az utoljára alkalmazott betűkészlet-"
+"javaslat visszavonható."
 
 #: ../capplets/appearance/appearance-themes.c:720
 msgid "The current theme suggests a background."
@@ -1078,7 +1160,9 @@ msgstr "Csak szöveg"
 
 #: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
-msgstr "A felhasználói felület elemeinek jelenlegi témája nem támogatja a színsémákat."
+msgstr ""
+"A felhasználói felület elemeinek jelenlegi témája nem támogatja a "
+"színsémákat."
 
 #: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
@@ -1260,7 +1344,7 @@ msgstr[1] "képpont"
 #. translators: <b>wallpaper name</b>
 #. * mime type, size
 #. * Folder: /path/to/file
-#. 
+#.
 #: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
@@ -1275,7 +1359,7 @@ msgstr ""
 #. translators: <b>wallpaper name</b>
 #. * Image missing
 #. * Folder: /path/to/file
-#. 
+#.
 #: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
@@ -1316,8 +1400,12 @@ msgstr "A(z) „%s” nem tűnik érvényes témának."
 
 #: ../capplets/appearance/theme-installer.c:266
 #, c-format
-msgid "\"%s\" does not appear to be a valid theme. It may be a theme engine which you need to compile."
-msgstr "A(z) „%s” nem tűnik érvényes témának. Lehet, hogy ez egy témaalrendszer, amit le kell fordítani."
+msgid ""
+"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
+"you need to compile."
+msgstr ""
+"A(z) „%s” nem tűnik érvényes témának. Lehet, hogy ez egy témaalrendszer, "
+"amit le kell fordítani."
 
 #: ../capplets/appearance/theme-installer.c:372
 #, c-format
@@ -1404,10 +1492,15 @@ msgstr "A témamotor nem telepíthető"
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-"Without the GNOME settings manager running, some preferences may not take effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) settings manager may already be active and conflicting with the GNOME settings manager."
+"Without the GNOME settings manager running, some preferences may not take "
+"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
+"settings manager may already be active and conflicting with the GNOME "
+"settings manager."
 msgstr ""
 "Nem sikerült elindítani a „gnome-settings-daemon” beállításkezelőt.\n"
-"A GNOME beállításkezelő futása nélkül néhány beállításnak nem lesz hatása. Ez a D-Busszal kapcsolatos problémát jelezhet, vagy egy nem GNOME (pl. KDE) beállításkezelő már fut, és ütközik a GNOME beállításkezelővel."
+"A GNOME beállításkezelő futása nélkül néhány beállításnak nem lesz hatása. "
+"Ez a D-Busszal kapcsolatos problémát jelezhet, vagy egy nem GNOME (pl. KDE) "
+"beállításkezelő már fut, és ütközik a GNOME beállításkezelővel."
 
 #: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
@@ -1516,7 +1609,8 @@ msgid "Change set"
 msgstr "Módosítások"
 
 #: ../capplets/common/gconf-property-editor.c:150
-msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+msgid ""
+"GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr "GConf módosítások, aminek adatait a gconf kliensnek el kell küldeni"
 
 #: ../capplets/common/gconf-property-editor.c:155
@@ -1524,16 +1618,20 @@ msgid "Conversion to widget callback"
 msgstr "Átalakítás elemvisszahívásba"
 
 #: ../capplets/common/gconf-property-editor.c:156
-msgid "Callback to be issued when data are to be converted from GConf to the widget"
-msgstr "Kiosztandó visszahívás, amikor a GConf-ból adat konvertálódik az elembe"
+msgid ""
+"Callback to be issued when data are to be converted from GConf to the widget"
+msgstr ""
+"Kiosztandó visszahívás, amikor a GConf-ból adat konvertálódik az elembe"
 
 #: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "Átalakítás elemvisszahívásból"
 
 #: ../capplets/common/gconf-property-editor.c:162
-msgid "Callback to be issued when data are to be converted to GConf from the widget"
-msgstr "Kiosztandó visszahívás, amikor az elemből adat konvertálódik a GConf-ba"
+msgid ""
+"Callback to be issued when data are to be converted to GConf from the widget"
+msgstr ""
+"Kiosztandó visszahívás, amikor az elemből adat konvertálódik a GConf-ba"
 
 #: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
@@ -1557,14 +1655,17 @@ msgstr "Tulajdonságszerkesztő adat törlése visszahívás"
 
 #: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
-msgstr "Kiosztandó visszahívás, amikor a tulajdonságszerkesztő objektum adatai törlendők"
+msgstr ""
+"Kiosztandó visszahívás, amikor a tulajdonságszerkesztő objektum adatai "
+"törlendők"
 
 #: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
 "\n"
-"Please make sure it exists and try again, or choose a different background picture."
+"Please make sure it exists and try again, or choose a different background "
+"picture."
 msgstr ""
 "Nem található a(z) „%s” fájl.\n"
 "\n"
@@ -1621,18 +1722,30 @@ msgstr "Nagy fehér egérmutató"
 
 #: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
-msgid "This theme will not look as intended because the required GTK+ theme '%s' is not installed."
-msgstr "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” GTK+ téma nincs telepítve."
+msgid ""
+"This theme will not look as intended because the required GTK+ theme '%s' is "
+"not installed."
+msgstr ""
+"Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” GTK+ téma "
+"nincs telepítve."
 
 #: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
-msgid "This theme will not look as intended because the required window manager theme '%s' is not installed."
-msgstr "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” ablakkezelő-téma nincs telepítve."
+msgid ""
+"This theme will not look as intended because the required window manager "
+"theme '%s' is not installed."
+msgstr ""
+"Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” ablakkezelő-"
+"téma nincs telepítve."
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
-msgid "This theme will not look as intended because the required icon theme '%s' is not installed."
-msgstr "Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” ikontéma nincs telepítve."
+msgid ""
+"This theme will not look as intended because the required icon theme '%s' is "
+"not installed."
+msgstr ""
+"Ez a téma nem fog megfelelően megjelenni, mivel a szükséges „%s” ikontéma "
+"nincs telepítve."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
@@ -1669,7 +1782,8 @@ msgstr "Ellenőrizze, hogy ez a kisalkalmazás megfelelően van-e telepítve"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/default-applications/gnome-da-capplet.c:959
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
-msgstr "Adja meg a megjelenítendő oldal nevét (internet|multimedia|system|a11y)"
+msgstr ""
+"Adja meg a megjelenítendő oldal nevét (internet|multimedia|system|a11y)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
 msgid "- GNOME Default Applications"
@@ -1686,8 +1800,9 @@ msgstr "Akadálymentesítés"
 msgid "All %s occurrences will be replaced with actual link"
 msgstr "A %s minden előfordulása tényleges linkkel lesz helyettesítve"
 
+#.
 #. * vim: sw=2 ts=8 cindent noai bs=2
-#. 
+#.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
@@ -1986,30 +2101,37 @@ msgstr "Totem filmlejátszó"
 msgid "aterm"
 msgstr "aterm"
 
-#: ../capplets/display/cc-display-minimal-page.c:330
+#: ../capplets/display/cc-display-minimal-page.c:331
 #: ../capplets/display/xrandr-capplet.c:2061
 msgid "Could not save the monitor configuration"
 msgstr "A kijelző beállításai nem menthetők"
 
-#: ../capplets/display/cc-display-minimal-page.c:343
+#: ../capplets/display/cc-display-minimal-page.c:344
 #: ../capplets/display/xrandr-capplet.c:2072
 msgid "Could not get session bus while applying display configuration"
-msgstr "Nem kérhető le a munkamenetbusz a képernyő beállításainak alkalmazásakor"
+msgstr ""
+"Nem kérhető le a munkamenetbusz a képernyő beállításainak alkalmazásakor"
 
-#: ../capplets/display/cc-display-minimal-page.c:478
-#: ../capplets/display/cc-display-minimal-page.c:487
-msgid "You are only showing your desktop on your computer's screen. Plug in another display to share your view and then turn display sharing on above."
-msgstr "A munkaasztal csak a számítógép képernyőjén kerül megjelenítésre. Új kijelző csatlakoztatása után fent beállítható a megosztott megjelenítés."
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+"A munkaasztal csak a számítógép képernyőjén kerül megjelenítésre. Új kijelző "
+"csatlakoztatása után fent beállítható a megosztott megjelenítés."
 
-#: ../capplets/display/cc-display-minimal-page.c:496
+#: ../capplets/display/cc-display-minimal-page.c:499
 msgid "You are showing your desktop on an external monitor or projector."
-msgstr "A munkaasztal egy külső kijelzőn, vagy projektoron kerül megjelenítésre."
+msgstr ""
+"A munkaasztal egy külső kijelzőn, vagy projektoron kerül megjelenítésre."
 
-#: ../capplets/display/cc-display-minimal-page.c:672
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
 msgid "Displays and projectors"
 msgstr "Kijelzők, projektorok"
 
-#: ../capplets/display/cc-display-minimal-page.c:692
+#: ../capplets/display/cc-display-minimal-page.c:696
 #: ../capplets/display/xrandr-capplet.c:2329
 msgid "Could not get screen information"
 msgstr "A képernyő-információk nem kérhetők le"
@@ -2017,6 +2139,14 @@ msgstr "A képernyő-információk nem kérhetők le"
 #: ../capplets/display/cc-display-panel.c:121
 msgid "Display"
 msgstr "Kijelző"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr "Külső kijelző"
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr "Külső kijelző felbontása"
 
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
@@ -2108,7 +2238,7 @@ msgstr "%d Hz"
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
-#. 
+#.
 #: ../capplets/display/xrandr-capplet.c:497
 #: ../capplets/display/xrandr-capplet.c:1643
 msgid "Mirror Screens"
@@ -2127,8 +2257,12 @@ msgid "%d x %d"
 msgstr "%d x %d"
 
 #: ../capplets/display/xrandr-capplet.c:1499
-msgid "Select a monitor to change its properties; drag it to rearrange its placement."
-msgstr "Válasszon ki egy kijelzőt a beállításainak módosításához; húzza el a helyzetének megváltoztatásához!"
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
+"Válasszon ki egy kijelzőt a beállításainak módosításához; húzza el a "
+"helyzetének megváltoztatásához!"
 
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
@@ -2210,11 +2344,14 @@ msgstr "Hiba történt az új gyorsbillentyű mentése közben"
 #: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
-"The shortcut \"%s\" cannot be used because it will become impossible to type using this key.\n"
+"The shortcut \"%s\" cannot be used because it will become impossible to type "
+"using this key.\n"
 "Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
-"A gyorsbillentyű („%s”) nem használható, mivel a gépelés lehetetlenné válna a billentyű használatával.\n"
-"Próbálkozzon a Control, Alt vagy Shift billentyűk valamelyikének egyidejű lenyomásával."
+"A gyorsbillentyű („%s”) nem használható, mivel a gépelés lehetetlenné válna "
+"a billentyű használatával.\n"
+"Próbálkozzon a Control, Alt vagy Shift billentyűk valamelyikének egyidejű "
+"lenyomásával."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
 #: ../capplets/keyboard/cc-shortcuts-page.c:1201
@@ -2229,8 +2366,11 @@ msgstr ""
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
 #: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
-msgstr "Ha a gyorsbillentyűt a(z) „%s” funkcióhoz rendeli, akkor a(z) „%s” gyorsbillentyű letiltásra kerül."
+msgid ""
+"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgstr ""
+"Ha a gyorsbillentyűt a(z) „%s” funkcióhoz rendeli, akkor a(z) „%s” "
+"gyorsbillentyű letiltásra kerül."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
 #: ../capplets/keyboard/cc-shortcuts-page.c:1216
@@ -2241,7 +2381,8 @@ msgstr "_Társítás"
 #: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
-msgstr "Hiba történt a gyorsbillentyű törlésekor a konfigurációs adatbázisban: %s"
+msgstr ""
+"Hiba történt a gyorsbillentyű törlésekor a konfigurációs adatbázisban: %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
 #: ../capplets/keyboard/cc-shortcuts-page.c:1544
@@ -2271,8 +2412,12 @@ msgstr "Gyorsbillentyűk"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
-msgid "To edit a shortcut key, click on the corresponding row and type a new key combination, or press backspace to clear."
-msgstr "Gyorsbillentyű szerkesztéséhez kattintson a megfelelő sorra és nyomja le az új gyorsbillentyűt, vagy nyomja meg a Backspace billentyűt a törléshez."
+msgid ""
+"To edit a shortcut key, click on the corresponding row and type a new key "
+"combination, or press backspace to clear."
+msgstr ""
+"Gyorsbillentyű szerkesztéséhez kattintson a megfelelő sorra és nyomja le az "
+"új gyorsbillentyűt, vagy nyomja meg a Backspace billentyűt a törléshez."
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
@@ -2291,8 +2436,11 @@ msgstr "Kiosztások"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:206
 #: ../capplets/keyboard/gnome-keyboard-properties.c:211
-msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr "Csak alkalmazza a beállításokat, és lépjen ki (csak kompatibilitás; most már egy démon kezeli)"
+msgid ""
+"Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr ""
+"Csak alkalmazza a beállításokat, és lépjen ki (csak kompatibilitás; most már "
+"egy démon kezeli)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
@@ -2308,7 +2456,8 @@ msgstr "– GNOME billentyűzetbeállítások"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
 msgid "Beep when _accessibility features are turned on or off"
-msgstr "_Hangjelzés az akadálymentesítési szolgáltatások ki- vagy bekapcsolásakor"
+msgstr ""
+"_Hangjelzés az akadálymentesítési szolgáltatások ki- vagy bekapcsolásakor"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
 msgid "Beep when a _modifier key is pressed"
@@ -2435,8 +2584,12 @@ msgid "Keyboard _model:"
 msgstr "Billentyűzet_modell:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
-msgid "Lock screen after a certain duration to help prevent repetitive keyboard use injuries"
-msgstr "A képernyő zárolása bizonyos időtartam után, az ismétlődő billentyűzet-használat miatti sérülések megelőzéséért"
+msgid ""
+"Lock screen after a certain duration to help prevent repetitive keyboard use "
+"injuries"
+msgstr ""
+"A képernyő zárolása bizonyos időtartam után, az ismétlődő billentyűzet-"
+"használat miatti sérülések megelőzéséért"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
@@ -2496,7 +2649,9 @@ msgstr "_Gyorsítás:"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
-msgstr "Az _akadálymentesítési szolgáltatások gyorsbillentyűkkel kapcsolhatók be és ki"
+msgstr ""
+"Az _akadálymentesítési szolgáltatások gyorsbillentyűkkel kapcsolhatók be és "
+"ki"
 
 # itt az időtartam kifejezőbb
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
@@ -2754,8 +2909,11 @@ msgid "Thr_eshold:"
 msgstr "_Küszöbszint:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid "To test your double-click settings, try to double-click on the light bulb."
-msgstr "A dupla kattintás beállításainak teszteléséhez próbáljon duplán kattintani a villanykörtére."
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
+msgstr ""
+"A dupla kattintás beállításainak teszteléséhez próbáljon duplán kattintani a "
+"villanykörtére."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Touchpad"
@@ -2767,7 +2925,9 @@ msgstr "_Kétujjas görgetés"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr "A kattintás típusát az Elidőzési kattintás kisalkalmazásban is kiválaszthatja."
+msgstr ""
+"A kattintás típusát az Elidőzési kattintás kisalkalmazásban is "
+"kiválaszthatja."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -2973,11 +3133,17 @@ msgstr "Alvás"
 
 #: ../capplets/power/power.ui.h:5
 msgid "This will blank the screen and set your messaging state to 'away'."
-msgstr "Ez a funkció kikapcsolja a kijelzőt és az állapot-üzenetet 'távol'-ra állítja."
+msgstr ""
+"Ez a funkció kikapcsolja a kijelzőt és az állapot-üzenetet 'távol'-ra "
+"állítja."
 
 #: ../capplets/power/power.ui.h:6
-msgid "This will suspend everything on your computer. It'll wake up in just the same state as it was before."
-msgstr "Ez a funkció felfüggeszti a számítógép működését. A felfüggesztés előtti állapot visszatölthető."
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+"Ez a funkció felfüggeszti a számítógép működését. A felfüggesztés előtti "
+"állapot visszatölthető."
 
 #: ../capplets/power/power.ui.h:7
 msgid "To change your brightness, you can use the keys on your computer."
@@ -3055,9 +3221,30 @@ msgstr "Ismeretlen hiba"
 msgid "Security and passwords"
 msgstr "Biztonság és jelszavak"
 
+#: ../capplets/security/security.ui.h:2
+msgid "Current password:"
+msgstr "Jelenlegi jelszó:"
+
+#: ../capplets/security/security.ui.h:3
+msgid "New password:"
+msgstr "Új jelszó:"
+
+#: ../capplets/security/security.ui.h:4
+msgid "Repeat password:"
+msgstr "Jelszó újra:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr "Jelszókérés a számítógép bekapcsolásakor és visszaállításakor"
+
+#: ../capplets/security/security.ui.h:6
+msgid "Save new password"
+msgstr "Új jelszó mentése"
+
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
-msgstr "Nem sikerült elindítani az ablakkezelőjéhez tartozó beállítóalkalmazást"
+msgstr ""
+"Nem sikerült elindítani az ablakkezelőjéhez tartozó beállítóalkalmazást"
 
 #: ../capplets/windows/gnome-window-properties.c:604
 msgid "_Alt"
@@ -3085,7 +3272,8 @@ msgstr "Címsorművelet"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
-msgstr "Ablak áthelyezéséhez tartsa lenyomva ezt a billentyűt és húzza el az ablakot:"
+msgstr ""
+"Ablak áthelyezéséhez tartsa lenyomva ezt a billentyűt és húzza el az ablakot:"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
@@ -3174,39 +3362,61 @@ msgstr "Frissítés vagy eltávolítás művelet után kilépés a parancsértel
 
 #: ../shell/control-center.schemas.in.h:6
 msgid "Indicates whether to close the shell when a help action is performed."
-msgstr "Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy súgóművelet elvégzése után."
+msgstr ""
+"Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy súgóművelet "
+"elvégzése után."
 
 #: ../shell/control-center.schemas.in.h:7
 msgid "Indicates whether to close the shell when a start action is performed."
-msgstr "Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy indítási művelet elvégzése után."
+msgstr ""
+"Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy indítási művelet "
+"elvégzése után."
 
 #: ../shell/control-center.schemas.in.h:8
-msgid "Indicates whether to close the shell when an add or remove action is performed."
-msgstr "Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy hozzáadás vagy eltávolítás művelet elvégzése után."
+msgid ""
+"Indicates whether to close the shell when an add or remove action is "
+"performed."
+msgstr ""
+"Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy hozzáadás vagy "
+"eltávolítás művelet elvégzése után."
 
 #: ../shell/control-center.schemas.in.h:9
-msgid "Indicates whether to close the shell when an upgrade or uninstall action is performed."
-msgstr "Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy frissítés vagy eltávolítás művelet elvégzése után."
+msgid ""
+"Indicates whether to close the shell when an upgrade or uninstall action is "
+"performed."
+msgstr ""
+"Azt jelzi, hogy be kell-e zárni a parancsértelmezőt egy frissítés vagy "
+"eltávolítás művelet elvégzése után."
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
 msgstr "Feladatnevek és hozzájuk tartozó .desktop fájlok"
 
 #: ../shell/control-center.schemas.in.h:11
-msgid "The task name to be displayed in the control-center followed by a \";\" separator then the filename of an associated .desktop file to launch for that task."
-msgstr "A vezérlőközpontban megjelenő (ezért lefordítandó) feladatnév, amelyet egy „;” elválasztó követ, majd a feladathoz elindítandó .desktop fájl fájlneve."
+msgid ""
+"The task name to be displayed in the control-center followed by a \";\" "
+"separator then the filename of an associated .desktop file to launch for "
+"that task."
+msgstr ""
+"A vezérlőközpontban megjelenő (ezért lefordítandó) feladatnév, amelyet egy "
+"„;” elválasztó követ, majd a feladathoz elindítandó .desktop fájl fájlneve."
 
-#. Translators: The format of this string is the task name to be displayed
-#. (translate that part) followed by a ";" separator then the filename (DONT
-#. translate the file name) of a .desktop file to launch. Multiple entries are
-#. separated by a ","
+#. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
 #: ../shell/control-center.schemas.in.h:13
-msgid "[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-applications.desktop,Add Printer;gnome-cups-manager.desktop]"
-msgstr "[Téma módosítása;gtk-theme-selector.desktop,Alapértelmezett alkalmazások beállítása;default-applications.desktop,Nyomtató felvétele;gnome-cups-manager.desktop]"
+msgid ""
+"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
+"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
+msgstr ""
+"[Téma módosítása;gtk-theme-selector.desktop,Alapértelmezett alkalmazások "
+"beállítása;default-applications.desktop,Nyomtató felvétele;gnome-cups-"
+"manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid "if true, the control-center will close when a \"Common Task\" is activated."
-msgstr "Ha igaz, a vezérlőközpont automatikusan bezárul egy „Gyakori feladat” aktiválásakor."
+msgid ""
+"if true, the control-center will close when a \"Common Task\" is activated."
+msgstr ""
+"Ha igaz, a vezérlőközpont automatikusan bezárul egy „Gyakori feladat” "
+"aktiválásakor."
 
 #: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
 msgid "Control Center"
@@ -3250,8 +3460,12 @@ msgstr "Kevesebb mint egy perc van hátra a következő szünetig"
 
 #: ../typing-break/drwright.c:526
 #, c-format
-msgid "Unable to bring up the typing break properties dialog with the following error: %s"
-msgstr "A következő hiba miatt nem hozható fel a gépelési szünet tulajdonságai párbeszédablak: %s"
+msgid ""
+"Unable to bring up the typing break properties dialog with the following "
+"error: %s"
+msgstr ""
+"A következő hiba miatt nem hozható fel a gépelési szünet tulajdonságai "
+"párbeszédablak: %s"
 
 #: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
@@ -3286,8 +3500,16 @@ msgid "Typing Monitor"
 msgstr "Gépelésfigyelő"
 
 #: ../typing-break/main.c:105
-msgid "The typing monitor uses the notification area to display information. You don't seem to have a notification area on your panel. You can add it by right-clicking on your panel and choosing 'Add to panel', selecting 'Notification area' and clicking 'Add'."
-msgstr "A gépelésfigyelő az értesítési területet használja információk megjelenítésére. Úgy tűnik, az Ön paneljén nincs értesítési terület. A panel helyi menüjében a „Hozzáadás” pont alatt az „Értesítési terület” elemet kiválasztva hozzáadhatja a panelhez."
+msgid ""
+"The typing monitor uses the notification area to display information. You "
+"don't seem to have a notification area on your panel. You can add it by "
+"right-clicking on your panel and choosing 'Add to panel', selecting "
+"'Notification area' and clicking 'Add'."
+msgstr ""
+"A gépelésfigyelő az értesítési területet használja információk "
+"megjelenítésére. Úgy tűnik, az Ön paneljén nincs értesítési terület. A panel "
+"helyi menüjében a „Hozzáadás” pont alatt az „Értesítési terület” elemet "
+"kiválasztva hozzáadhatja a panelhez."
 
 #: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
@@ -3306,20 +3528,30 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "Ha igazra van állítva, a Type1 betűkészletekből bélyegkép készül."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr "Állítsa ezt a kulcsot az OpenType betűkészletekből bélyegkép készítésére használt parancsra."
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr ""
+"Állítsa ezt a kulcsot az OpenType betűkészletekből bélyegkép készítésére "
+"használt parancsra."
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
-msgstr "Állítsa ezt a kulcsot a PCF betűkészletekből bélyegkép készítésére használt parancsra."
+msgstr ""
+"Állítsa ezt a kulcsot a PCF betűkészletekből bélyegkép készítésére használt "
+"parancsra."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr "Állítsa ezt a kulcsot a TrueType betűkészletekből bélyegkép készítésére használt parancsra."
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr ""
+"Állítsa ezt a kulcsot a TrueType betűkészletekből bélyegkép készítésére "
+"használt parancsra."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
-msgstr "Állítsa ezt a kulcsot a Type1 betűkészletekből bélyegkép készítésére használt parancsra."
+msgstr ""
+"Állítsa ezt a kulcsot a Type1 betűkészletekből bélyegkép készítésére "
+"használt parancsra."
 
 #: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
@@ -3602,7 +3834,8 @@ msgstr "Eltávolítás a Rendszerelemek közül"
 #~ msgstr "- GNOME névjegy"
 
 #~ msgid "Change settings in order to make the system easier to use"
-#~ msgstr "A beállítások módosítása a rendszer egyszerűbb használatának érdekében"
+#~ msgstr ""
+#~ "A beállítások módosítása a rendszer egyszerűbb használatának érdekében"
 
 #~ msgid "Universal Access"
 #~ msgstr "Univerzális hozzáférés"
@@ -3619,12 +3852,6 @@ msgstr "Eltávolítás a Rendszerelemek közül"
 #~ msgid "_Mirror screens"
 #~ msgstr "_Képernyők tükrözése"
 
-#~ msgid "External display"
-#~ msgstr "Külső kijelző"
-
-#~ msgid "External display resolution"
-#~ msgstr "Külső kijelző felbontása"
-
 #~ msgid "Change screen resolution"
 #~ msgstr "Képernyő felbontásának megváltoztatása"
 
@@ -3637,21 +3864,6 @@ msgstr "Eltávolítás a Rendszerelemek közül"
 #~ msgid "Proxy"
 #~ msgstr "Proxy"
 
-#~ msgid "Current password:"
-#~ msgstr "Jelenlegi jelszó:"
-
-#~ msgid "New password:"
-#~ msgstr "Új jelszó:"
-
-#~ msgid "Repeat password:"
-#~ msgstr "Jelszó újra:"
-
-#~ msgid "Require a password to turn on or wake up my computer"
-#~ msgstr "Jelszókérés a számítógép bekapcsolásakor és visszaállításakor"
-
-#~ msgid "Save new password"
-#~ msgstr "Új jelszó mentése"
-
 #~ msgid "System Settings"
 #~ msgstr "Rendszerbeállítások"
 
@@ -3659,7 +3871,8 @@ msgstr "Eltávolítás a Rendszerelemek közül"
 #~ msgstr "a kulcs nem található: [%s]\n"
 
 #~ msgid "Hide on start (useful to preload the shell)"
-#~ msgstr "Elrejtés indításkor (hasznos a parancsértelmező előzetes betöltéséhez)"
+#~ msgstr ""
+#~ "Elrejtés indításkor (hasznos a parancsértelmező előzetes betöltéséhez)"
 
 #~ msgid "Filter"
 #~ msgstr "Szűrő"

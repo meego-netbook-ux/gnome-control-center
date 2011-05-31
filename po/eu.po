@@ -9,10 +9,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: eu\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-16 18:25+0100\n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-03-27 17:03+0100\n"
 "Last-Translator: Iñaki Larrañaga Murgoitio <dooteo@euskalgnu.org>\n"
 "Language-Team: Basque <itzulpena@euskalgnu.org>\n"
+"Language: eu\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -219,7 +220,7 @@ msgid "No Image"
 msgstr "Irudirik gabe"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Irudiak"
 
@@ -455,7 +456,8 @@ msgid "Set your personal information"
 msgstr "Ezarri zure datu pertsonalak"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid "You are not allowed to access the device. Contact your system administrator."
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
 msgstr ""
 "Ez duzu baimenik gailua atzitzeko. Jar zaitez administratzailearekin "
 "harremanetan."
@@ -623,7 +625,7 @@ msgstr "Autentifikatua!"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
@@ -635,70 +637,71 @@ msgstr ""
 msgid "That password was incorrect."
 msgstr "Pasahitz hori okerra zen."
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "Zure pasahitza aldatu egin da."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "Sistemako errorea: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr "Pasahitza laburregia da."
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "Pasahitza sinpleegia da."
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr "Pasahitz zaharra eta berria oso antzekoak dira."
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr "Pasahitz berriak karaktere numeriko edo berezia(k) eduki behar ditu."
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr "Pasahitz zaharra eta berria berdinak dira."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "Ezin izan da %s abiarazi: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr "Ezin da motorra abiarazi"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr "Sistemako errorea gertatu da"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr "Pasahitza egiaztatzen..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "Egin klik <b>Aldatu pasahitza</b>n zure pasahitza aldatzeko."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "Idatzi zure pasahitza <b>Pasahitz berria</b> eremuan."
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid "Please type your password again in the <b>Retype new password</b> field."
+msgid ""
+"Please type your password again in the <b>Retype new password</b> field."
 msgstr "Idatzi pasahitza berriro <b>Berretsi pasahitz berria</b> eremuan"
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "Bi pasahitzak ez dira berdinak."
 
@@ -707,6 +710,7 @@ msgid "Change pa_ssword"
 msgstr "Aldatu pa_sahitza"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "Aldatu pasahitza"
 
@@ -807,11 +811,11 @@ msgstr "_Hobetsitako aplikazioak"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "Aukeratu erabilgarritasunaren zein eginbide gaitu saioa hastean"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Gehitu horma-papera"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Fitxategi guztiak"
 
@@ -866,6 +870,12 @@ msgid "Use selected font"
 msgstr "Erabili hautatutako letra-tipoa"
 
 #: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "Ezin izan da erabiltzailearen interfazeko fitxategia kargatu: %s"
@@ -881,11 +891,12 @@ msgstr "fitxategi-izena"
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/appearance/appearance-main.c:143
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
-msgstr "Zehaztu orrialdearen izena erakusteko (theme|background|fonts|interface)"
+msgstr ""
+"Zehaztu orrialdearen izena erakusteko (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "orrialdea"
 
@@ -1001,7 +1012,8 @@ msgstr "Erdian"
 
 #: ../capplets/appearance/data/appearance.ui.h:8
 msgid "Changing your cursor theme takes effect the next time you log in."
-msgstr "Kurtsorearen gaiaren aldaketak ez du eraginik izango saioa berriro hasi arte."
+msgstr ""
+"Kurtsorearen gaiaren aldaketak ez du eraginik izango saioa berriro hasi arte."
 
 #: ../capplets/appearance/data/appearance.ui.h:9
 msgid "Colors"
@@ -1115,171 +1127,169 @@ msgid "Solid color"
 msgstr "Kolore lisoa"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "Hedatu"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Stretch"
 msgstr "Tiratu"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "Azpi_pixela (LCDak)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Azpi_pixelen leuntzea (LCDak)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "Azpipixelen ordena"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "Testua"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "Testua elementuen azpian"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "Testua elementuen ondoan"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "Testua soilik"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "Uneko kontrolen gaiak ez du kolore-eskemarik onartzen."
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "Gaia"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
 msgid "Tile"
 msgstr "Lauza moduan"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "BU_BG"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "Gradiente bertikala"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "Leiho-ertza"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "Zooma"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "_Gehitu..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "_Aplikazioetarako letra-tipoa:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_UGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "_Azalpena:"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "_Dokumentuaren letra-tipoa:"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "_Zabalera finkoko letra-tipoa:"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "_Osoa"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "_Sarrerako guneak:"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "_Instalatu..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "_Tartekoa"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "_Kolore bakarra"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "I_zena:"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "_Bat ere ez"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_GBU"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "Berrasieratu _lehenespenera"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "_Hautatutako elementuak:"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "_Tamaina:"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "_Arina"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "_Estiloa:"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "_Argibidea:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_BGBU"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "_Leihoaren izenburuaren letra-tipoa:"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "_Leihoak:"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "puntu hazbeteko"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "Itxura"
@@ -1304,26 +1314,26 @@ msgstr "GNOMEko gai-paketea"
 msgid "No Desktop Background"
 msgstr "Mahaigaineko atzeko planorik ez"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Diapositiba-aurkezpena"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Irudia"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "hainbat tamaina"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s x %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "pixel"
@@ -1333,7 +1343,7 @@ msgstr[1] "pixel"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1348,7 +1358,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1359,7 +1369,7 @@ msgstr ""
 "%s\n"
 "Karpeta: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Irudia falta da"
 
@@ -1491,7 +1501,7 @@ msgstr ""
 "GNOMErena ez den ezarpen-kudeatzailea (adib. KDE) aktibatuta egon daiteke "
 "eta GNOME ezarpen-kudeatzailearekin gatazkan egon."
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "Ezin izan da '%s' ikono generikoa kargatu \n"
@@ -1577,75 +1587,80 @@ msgstr "_Saltatu"
 msgid "Overwrite _All"
 msgstr "_Gainidatzi denak"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "Tekla"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "Propietate-editore hau asoziatuta duen Gconf-en tekla"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "Atzeradeia"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "Egin atzeradei hau teklarekin lotutako balioa aldatzen denean"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "Aldaketa-multzoa"
 
-#: ../capplets/common/gconf-property-editor.c:148
-msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+#: ../capplets/common/gconf-property-editor.c:150
+msgid ""
+"GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr ""
 "GConf-eko aldaketa-multzoa, aplikatzean gconf-en bezeroari bidali behar "
 "zaizkion datuak dituena"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "Trepeta-atzeradeirako bihurketa"
 
-#: ../capplets/common/gconf-property-editor.c:154
-msgid "Callback to be issued when data are to be converted from GConf to the widget"
-msgstr "Datuak Gconf-etik trepetara bihurtu behar direnean egin beharreko atzeradeia"
+#: ../capplets/common/gconf-property-editor.c:156
+msgid ""
+"Callback to be issued when data are to be converted from GConf to the widget"
+msgstr ""
+"Datuak Gconf-etik trepetara bihurtu behar direnean egin beharreko atzeradeia"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "Bihurketa trepeta-atzeradeitik"
 
-#: ../capplets/common/gconf-property-editor.c:160
-msgid "Callback to be issued when data are to be converted to GConf from the widget"
-msgstr "Datuak trepetatik Gconf-era bihurtu behar direnean egin beharreko atzeradeia"
+#: ../capplets/common/gconf-property-editor.c:162
+msgid ""
+"Callback to be issued when data are to be converted to GConf from the widget"
+msgstr ""
+"Datuak trepetatik Gconf-era bihurtu behar direnean egin beharreko atzeradeia"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "UI Kontrola"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "Propietatea kontrolatzen duen objektua (normalean trepeta)"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "Propietate-editorearen objektuaren datuak"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "Zehaztutako propietate-editoreak informazio pertsonalizatua behar du"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "Propietate-editorearen datuak atzeradeia libratzen"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr ""
 "Propietate-editorearen objektuaren datuak libratu behar direnean egin "
 "beharreko atzeradeia"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1658,7 +1673,7 @@ msgstr ""
 "Ziurtatu existitzen dela eta saiatu berriro, edo aukeratu atzeko planoko "
 "beste irudi bat."
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1671,11 +1686,11 @@ msgstr ""
 "\n"
 "Hautatu beste irudi bat."
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "Hautatu irudi bat."
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "_Hautatu"
 
@@ -1769,7 +1784,8 @@ msgstr "Ziurtatu zaitez daemon hau ongi instalatu dela."
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/default-applications/gnome-da-capplet.c:959
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
-msgstr "Zehaztu orrialdearen izena erakusteko (internet|multimedia|system|a11y)"
+msgstr ""
+"Zehaztu orrialdearen izena erakusteko (internet|multimedia|system|a11y)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
 msgid "- GNOME Default Applications"
@@ -1791,6 +1807,7 @@ msgstr "%s(r)en gertaera guztiak uneko estekarekin ordeztuko dira"
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "Ko_mandoa:"
 
@@ -2086,6 +2103,50 @@ msgstr "Totem film-erreproduzitzailea"
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "Ezin izan da pantailaren konfigurazioa gorde"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr ""
+"Ezin izan da saioaren bus-a eskuratu pantailaren konfigurazioa aplikatzean"
+
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "Ezin izan da pantailaren informazioa eskuratu"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "_Panela barne"
@@ -2178,7 +2239,7 @@ msgstr "%d Hz"
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
 #: ../capplets/display/xrandr-capplet.c:497
-#: ../capplets/display/xrandr-capplet.c:1628
+#: ../capplets/display/xrandr-capplet.c:1643
 msgid "Mirror Screens"
 msgstr "Pantaila ispiluak"
 
@@ -2192,23 +2253,7 @@ msgstr "Pantaila: %s"
 msgid "%d x %d"
 msgstr "%d x %d"
 
-#: ../capplets/display/xrandr-capplet.c:2046
-msgid "Could not save the monitor configuration"
-msgstr "Ezin izan da pantailaren konfigurazioa gorde"
-
-#: ../capplets/display/xrandr-capplet.c:2057
-msgid "Could not get session bus while applying display configuration"
-msgstr "Ezin izan da saioaren bus-a eskuratu pantailaren konfigurazioa aplikatzean"
-
-#: ../capplets/display/xrandr-capplet.c:2099
-msgid "Could not detect displays"
-msgstr "Ezin izan dira pantailak detektatu"
-
-#: ../capplets/display/xrandr-capplet.c:2314
-msgid "Could not get screen information"
-msgstr "Ezin izan da pantailaren informazioa eskuratu"
-
-#: ../capplets/display/xrandr-capplet.c:2385
+#: ../capplets/display/xrandr-capplet.c:1499
 msgid ""
 "Select a monitor to change its properties; drag it to rearrange its "
 "placement."
@@ -2216,62 +2261,84 @@ msgstr ""
 "Hautatu pantaila bat bere propietateak aldatzeko, arrastatu ezazu bere "
 "kokalekua berrantolatzeko."
 
+#: ../capplets/display/xrandr-capplet.c:2114
+msgid "Could not detect displays"
+msgstr "Ezin izan dira pantailak detektatu"
+
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "Soinua"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "Mahaigaina"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "Lasterbide berria..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "Tekla bizkortzailea"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "Aldatzaile bizkortzaileak"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "Tekla bizkortzailearen kodea"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "Bizkortze-modua"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "Bizkortzaile-mota."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "Desgaituta"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<Ekintza ezezaguna>"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "Lasterbide pertsonalizatuak"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "Errorea lasterbide berria gordetzean"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2283,6 +2350,7 @@ msgstr ""
 "Saiatu Kontrol, Alt edo Maius bezalako tekla batekin aldi berean."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2292,17 +2360,21 @@ msgstr ""
 "\"%s\""
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgid ""
+"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr ""
 "Lasterbidea \"%s\"(r)i berriro esleitzen badiozu, \"%s\" lasterbidea "
 "desgaitu egingo da."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "_Esleitu berriz"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr ""
@@ -2310,27 +2382,33 @@ msgstr ""
 "kentzean: %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "Lasterbide pertsonalizatu gehiegi"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "Ekintza"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "Lasterbidea"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "Lasterbide pertsonalizatua"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "Laster-teklak"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2342,28 +2420,41 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "Esleitu laster-teklak komandoei"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
-msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "Teklatua"
+
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "Diseinuak"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
+msgid ""
+"Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "Aplikatu ezarpenak eta irten (bateragarritasuna bakarrik; orain daemon-ek "
 "kudeatzen du)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "Abiarazi orria idazketa-etenaren ezarpenak erakutsiz"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "Abiarazi orria erabilgarritasunaren ezarpenak erakutsiz"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "- GNOMEko teklatuaren hobespenak"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
 msgid "Beep when _accessibility features are turned on or off"
-msgstr "Jo soinua erabilgarritasunaren funtzionalitatea aktibatzean/desaktibatzean"
+msgstr ""
+"Jo soinua erabilgarritasunaren funtzionalitatea aktibatzean/desaktibatzean"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
 msgid "Beep when a _modifier key is pressed"
@@ -2403,7 +2494,7 @@ msgid "Flash entire _screen"
 msgstr "Distiratu _pantaila osoa"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "Orokorra"
@@ -2417,12 +2508,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "Erakutsi seinale _bisualak soinuen abisuentzako"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "Tekla motelak"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "Tekla itsaskorrak"
 
@@ -2438,62 +2529,59 @@ msgstr "Baimena ematen du etenak atzeratzeko"
 msgid "Audio _Feedback..."
 msgstr "Audioaren _erantzuna..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Egiaztatu etenak atzeratzea baimenduta dagoen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "Kurtsore keinukaria"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "Kurtsorea _keinuka testu-eremuetan"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "Kurtsore-keinuaren abiadura"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "_Atzerapena:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "_Desgaitu tekla itsaskorrak bi tekla batera sakatzen badira"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "Etenaren iraupena idaztea debekatuta dagoenean"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "Lanaren iraupena etena egitera behartu baino lehen"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "Fast"
 msgstr "Azkarra"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
-msgstr "T_ekla sakatuta dagoen bitartean, tekla hori behin eta berriz errepikatzen da"
+msgstr ""
+"T_ekla sakatuta dagoen bitartean, tekla hori behin eta berriz errepikatzen da"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "Teklatuaren hobespenak"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "Teklatu _modeloa:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "Diseinuak"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2501,116 +2589,117 @@ msgstr ""
 "Blokeatu pantaila denbora baten ondoren, teklatua denbora askoan erabiltzeak "
 "eragindako kalteak saihesten laguntzeko"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "Luzea"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "Sagu-teklak"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr "Eraman _behera"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr "Eraman _gora"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr "Leiho berriek leiho aktiboaren diseinua erabili"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "Errepikatze-teklak"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "Tekla-errepikatzeen abiadura"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "Berrasieratu _lehenespenetara"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "Abia_dura:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Short"
 msgstr "Laburra"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "Motela"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "Idazketa-etena"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "_Azelerazioa:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
-msgstr "_Erabilgarritasunaren eginbidea teklatuko lasterbideekin txandaka daiteke"
+msgstr ""
+"_Erabilgarritasunaren eginbidea teklatuko lasterbideekin txandaka daiteke"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "_Etenak iraupen hau du:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "_Atzerapena:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "_Ez ikusi egin azkar sakatutako bikoiztutako teklei"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "_Blokeatu pantaila idazketa-etena bultzatzeko"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "_Denbora luzean sakatutako teklak soilik onartu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "_Aukerak..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "_Kurtsorea teklatu numerikoarekin kontrola daiteke"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
 msgstr "_Bereiztu diseinuak leiho bakoitzeko"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "_Simulatu tekla anitzak sakatzea"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "Abia_dura:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "_Idatzi ezarpenak probatzeko:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "_Lanaren etenak iraupen hau du:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "minutu"
 
@@ -2679,13 +2768,13 @@ msgstr "Modeloak"
 msgid "Default"
 msgstr "Lehenetsia"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "Teklatua"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "Ezarri zure teklatuaren hobespenak"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr ""
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2718,11 +2807,11 @@ msgid "gesture|Disabled"
 msgstr "Desgaituta"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Zehaztu orrialdearen izena erakusteko (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOMEren saguaren hobespenak"
 
@@ -2815,8 +2904,10 @@ msgid "Thr_eshold:"
 msgstr "_Atalasea:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid "To test your double-click settings, try to double-click on the light bulb."
-msgstr "Klik bikoitzaren ezarpenak probatzeko, saiatu klik bikoitza egitea bonbillan."
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
+msgstr ""
+"Klik bikoitzaren ezarpenak probatzeko, saiatu klik bikoitza egitea bonbillan."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Touchpad"
@@ -2828,7 +2919,8 @@ msgstr "Bi hatzeko korritzea"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:36
 msgid "You can also use the Dwell Click panel applet to choose the click type."
-msgstr "'Tenporizazio-klik' panelaren applet-a erabil dezakezu klik mota aukeratzeko."
+msgstr ""
+"'Tenporizazio-klik' panelaren applet-a erabil dezakezu klik mota aukeratzeko."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
 msgid "_Disabled"
@@ -2878,6 +2970,11 @@ msgstr "Sagua"
 msgid "Set your mouse preferences"
 msgstr "Ezarri saguaren hobespenak"
 
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "Sareko proxy-a"
+
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
@@ -2896,104 +2993,258 @@ msgid "Set your network proxy preferences"
 msgstr "Sareko proxy-aren hobespenak ezartzen ditu"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>_Interneteko konexio zuzena</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>_Proxy-konfigurazio automatikoa</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>_Eskuzko proxy-konfigurazioa</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>E_rabili autentifikazioa</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "_URLaren autokonfigurazioa:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "_Sortu"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "Sortu kokaleku berria"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>_Interneteko konexio zuzena</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP proxy-aren xehetasunak"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "H_TTP proxy-a:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "Ez ikusi egin ostalarien zerrendari"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "Ez ikusi egin ostalariei"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "Kokalekua:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "Sareko proxy-aren hobespenak"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "Ataka:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "Proxy-aren konfigurazioa"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "S_ock-en ostalaria:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "Kokalekua badago lehendik ere."
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "_Erabiltzaile-izena:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>_Proxy-konfigurazio automatikoa</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "_Ezabatu kokalekua"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "_Xehetasunak"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "_FTP proxy-a:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "Kokalekuaren _izena:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>_Eskuzko proxy-konfigurazioa</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "_Pasahitza:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "HTTP prox_y segurua:"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>E_rabili autentifikazioa</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Erabili proxy berdina protokolo guztietan"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minutu"
+msgstr[1] "minutu"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "Pasahitza sinpleegia da."
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "Zure pasahitza aldatu egin da."
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "Pasahitz hori okerra zen."
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Autentifikatua!"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "Pasahitza laburregia da."
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "Pasahitza sinpleegia da."
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Pasahitz zaharra eta berria oso antzekoak dira."
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Pasahitz berriak karaktere numeriko edo berezia(k) eduki behar ditu."
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "Pasahitz zaharra eta berria berdinak dira."
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"Pasahitza aldatu egin da hasieran autentifikatu zinenetik. Autentifikatu "
+"zaitez berriro."
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Pasahitz berriak karaktere numeriko edo berezia(k) eduki behar ditu."
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Ezezaguna"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "_Berretsi pasahitz berria:"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "Uneko _pasahitza:"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "_Pasahitz berria:"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "_Berretsi pasahitz berria:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "Aldatu pasahitza"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3094,32 +3345,6 @@ msgstr "Bildu"
 msgid "None"
 msgstr "Bat ere ez"
 
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "ez da gakoa aurkitu [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "Ezkutatu abioan (erabilgarria shell-a aurrekargatzean)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "Iragazkia"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "Taldeak"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "Ataza arruntak"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Kontrol-zentroa"
-
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
 msgstr "Itxi kontrol-zentroa ataza aktibatzean"
@@ -3138,7 +3363,8 @@ msgstr "Irten komando-lerrotik abiarazteko ekintza lantzean"
 
 #: ../shell/control-center.schemas.in.h:5
 msgid "Exit shell on upgrade or uninstall action performed"
-msgstr "Irten komando-lerrotik eguneratzeko edo desinstalatzeko ekintza lantzean"
+msgstr ""
+"Irten komando-lerrotik eguneratzeko edo desinstalatzeko ekintza lantzean"
 
 #: ../shell/control-center.schemas.in.h:6
 msgid "Indicates whether to close the shell when a help action is performed."
@@ -3191,14 +3417,27 @@ msgstr ""
 "default-applications.desktop,Gehitu inprimagailua;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgid ""
+"if true, the control-center will close when a \"Common Task\" is activated."
 msgstr ""
 "'true' (egia) bada, kontrol-zentroa itxi egingo da \"Ataza arruntak\" "
 "aktibatzean."
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Kontrol-zentroa"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "GNOMEren konfigurazio-tresna"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr ""
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3283,7 +3522,8 @@ msgstr ""
 
 #: ../font-viewer/fontilus.schemas.in.h:2
 msgid "If set to true, then PCF fonts will be thumbnailed."
-msgstr "TRUE (egia) ezartzen bada, PCF letra-tipoak koadro txikietan jarriko dira."
+msgstr ""
+"TRUE (egia) ezartzen bada, PCF letra-tipoak koadro txikietan jarriko dira."
 
 #: ../font-viewer/fontilus.schemas.in.h:3
 msgid "If set to true, then TrueType fonts will be thumbnailed."
@@ -3293,10 +3533,12 @@ msgstr ""
 
 #: ../font-viewer/fontilus.schemas.in.h:4
 msgid "If set to true, then Type1 fonts will be thumbnailed."
-msgstr "TRUE (egia) ezartzen bada, Type1 letra-tipoak koadro txikietan jarriko dira."
+msgstr ""
+"TRUE (egia) ezartzen bada, Type1 letra-tipoak koadro txikietan jarriko dira."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
 msgstr ""
 "Ezarri gako hau OpenType letra-tipoak koadro txikietan jartzeko erabiliko "
 "den komandoari."
@@ -3308,7 +3550,8 @@ msgstr ""
 "komandoari."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
 msgstr ""
 "Ezarri gako hau TrueType letra-tipoak koadro txikietan jartzeko erabiliko "
 "den komandoari."
@@ -3590,3 +3833,20 @@ msgstr "<b>Ireki %s</b>"
 msgid "Remove from System Items"
 msgstr "Kendu sistemako elementuetatik"
 
+#~ msgid "Span"
+#~ msgstr "Hedatu"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "ez da gakoa aurkitu [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Ezkutatu abioan (erabilgarria shell-a aurrekargatzean)"
+
+#~ msgid "Filter"
+#~ msgstr "Iragazkia"
+
+#~ msgid "Groups"
+#~ msgstr "Taldeak"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Ataza arruntak"

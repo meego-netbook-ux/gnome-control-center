@@ -7,15 +7,47 @@ msgid ""
 msgstr ""
 "Project-Id-Version: si\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2007-08-08 03:22+0100\n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2007-08-08 14:58+0530\n"
 "Last-Translator: Danishka Navin <snavin@redhat.com>\n"
 "Language-Team: Sinhala <en@li.org>\n"
+"Language: si\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: KBabel 1.11.4\n"
+
+#: ../gnome-control-center.schemas.in.h:1
+msgid "Current network location"
+msgstr ""
+
+#: ../gnome-control-center.schemas.in.h:2
+#, fuzzy
+msgid "More backgrounds URL"
+msgstr "පසුබිම"
+
+#: ../gnome-control-center.schemas.in.h:3
+msgid "More themes URL"
+msgstr ""
+
+#: ../gnome-control-center.schemas.in.h:4
+msgid ""
+"Set this to your current location name. This is used to determine the "
+"appropriate network proxy configuration."
+msgstr ""
+
+#: ../gnome-control-center.schemas.in.h:5
+msgid ""
+"URL for where to get more desktop backgrounds. If set to an empty string the "
+"link will not appear."
+msgstr ""
+
+#: ../gnome-control-center.schemas.in.h:6
+msgid ""
+"URL for where to get more desktop themes. If set to an empty string the link "
+"will not appear."
+msgstr ""
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -45,310 +77,528 @@ msgstr "විපරම් සංවාද කොටුව තුළ පෙන�
 msgid "Show more _details"
 msgstr "වැඩි විස්තර පෙන්වන්න (_d)"
 
-#: ../capplets/about-me/gnome-about-me.c:635
+#: ../capplets/about-me/fingerprint-strings.h:28
+#, c-format
+msgid "Place your left thumb on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:28
+#, c-format
+msgid "Swipe your left thumb on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:29
+#, c-format
+msgid "Place your left index finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:29
+#, c-format
+msgid "Swipe your left index finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:30
+#, c-format
+msgid "Place your left middle finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:30
+#, c-format
+msgid "Swipe your left middle finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:31
+#, c-format
+msgid "Place your left ring finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:31
+#, c-format
+msgid "Swipe your left ring finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:32
+#, c-format
+msgid "Place your left little finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:32
+#, c-format
+msgid "Swipe your left little finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:33
+#, c-format
+msgid "Place your right thumb on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:33
+#, c-format
+msgid "Swipe your right thumb on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:34
+#, c-format
+msgid "Place your right index finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:34
+#, c-format
+msgid "Swipe your right index finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:35
+#, c-format
+msgid "Place your right middle finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:35
+#, c-format
+msgid "Swipe your right middle finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:36
+#, c-format
+msgid "Place your right ring finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:36
+#, c-format
+msgid "Swipe your right ring finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:37
+#, c-format
+msgid "Place your right little finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:37
+#, c-format
+msgid "Swipe your right little finger on %s"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:72
+#: ../capplets/about-me/fingerprint-strings.h:98
+msgid "Place your finger on the reader again"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:74
+#: ../capplets/about-me/fingerprint-strings.h:100
+msgid "Swipe your finger again"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:77
+#: ../capplets/about-me/fingerprint-strings.h:103
+msgid "Swipe was too short, try again"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:79
+#: ../capplets/about-me/fingerprint-strings.h:105
+msgid "Your finger was not centered, try swiping your finger again"
+msgstr ""
+
+#: ../capplets/about-me/fingerprint-strings.h:81
+#: ../capplets/about-me/fingerprint-strings.h:107
+msgid "Remove your finger, and try swiping your finger again"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me.c:716
 msgid "Select Image"
 msgstr "පිළිඹිබුව තෝරන්න"
 
-#: ../capplets/about-me/gnome-about-me.c:637
+#: ../capplets/about-me/gnome-about-me.c:718
 msgid "No Image"
 msgstr "පිළිඹිබු නැත"
 
-#: ../capplets/about-me/gnome-about-me.c:665
-#: ../capplets/appearance/appearance-desktop.c:1059
+#: ../capplets/about-me/gnome-about-me.c:746
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "පිළිඹිබු"
 
-#: ../capplets/about-me/gnome-about-me.c:669
-#: ../capplets/appearance/theme-installer.c:619
+#: ../capplets/about-me/gnome-about-me.c:750
+#: ../capplets/appearance/theme-installer.c:766
 msgid "All Files"
 msgstr "සියළුම ගොනු"
 
-#: ../capplets/about-me/gnome-about-me.c:806
+#: ../capplets/about-me/gnome-about-me.c:890
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.c:827
+#: ../capplets/about-me/gnome-about-me.c:911
 msgid "Unable to open address book"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.c:839
-msgid "Unknown login ID, the user database might be corrupted"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.c:869
-#: ../capplets/about-me/gnome-about-me.c:871
+#: ../capplets/about-me/gnome-about-me.c:934
 #, c-format
 msgid "About %s"
 msgstr "%s සම්බන්ධව"
 
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
+msgid "A_IM/iChat:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
+msgid "A_ddress:"
+msgstr "ලිපිනය (_d):"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:3
+msgid "A_ssistant:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
-#: ../capplets/about-me/gnome-about-me.glade.h:14
 msgid "About Me"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:5
+msgid "Address"
+msgstr "ලිපිනය"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
+msgid "C_ity:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
+msgid "C_ompany:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
+msgid "Cale_ndar:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
+msgid "Change Passwo_rd..."
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
+msgid "Ci_ty:"
+msgstr "නගතය (_t):"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
+msgid "Co_untry:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
+msgid "Contact"
+msgstr "සම්බන්දතාව"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
+msgid "Cou_ntry:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
+msgid "Disable _Fingerprint Login..."
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:15
+msgid "Email"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:16
+msgid "Enable _Fingerprint Login..."
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:17
+msgid "Full Name"
+msgstr "සම්පූර්ණ නම"
+
+#. Home vs Work (phone)
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:19
+msgid "Hom_e:"
+msgstr ""
+
+#. Home vs Work (address)
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:21
+#: ../libslab/bookmark-agent.c:1135
+msgid "Home"
+msgstr "නිවස"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:22
+msgid "IC_Q:"
+msgstr "IC_Q:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#, fuzzy
+msgid "Instant Messaging"
+msgstr "<b>ක්‍ෂණික පණිවිඩ</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+msgid "Job"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+msgid "M_SN:"
+msgstr "M_SN:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:26
+msgid "P.O. _box:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+msgid "P._O. box:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+msgid "Personal Info"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:29
+msgid "Select your photo"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+msgid "State/Pro_vince:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:31
+#, fuzzy
+msgid "Telephone"
+msgstr "<b>දුරකතනය</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
+msgid "User name:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+msgid "Web"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+msgid "Web _log:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+msgid "Wor_k:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+msgid "Work"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+msgid "Work _fax:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:38
+msgid "Zip/_Postal code:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:39
+msgid "_Address:"
+msgstr "ලිපිනය (_A):"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
+msgid "_Department:"
+msgstr "දෙපාර්තුමෙන්තුව (_D):"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+msgid "_Groupwise:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+msgid "_Home page:"
+msgstr ""
+
+#. Home vs Work (email)
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+msgid "_Home:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:45
+msgid "_Jabber:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+msgid "_Manager:"
+msgstr "කළමණාකරු (_M):"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:47
+msgid "_Mobile:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+msgid "_Profession:"
+msgstr "වෘතිය (_P):"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+msgid "_State/Province:"
+msgstr "ප්‍රාන්තය/පළාත: (_S)"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+msgid "_Title:"
+msgstr "සිරස්තලය: (_T)"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:51
+msgid "_Work:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:52
+msgid "_Yahoo:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:53
+msgid "_Zip/Postal code:"
 msgstr ""
 
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:2
 msgid "Set your personal information"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:1
-#: ../vfs-methods/themus/apply-font.glade.h:1
-msgid " "
-msgstr " "
-
-#: ../capplets/about-me/gnome-about-me.glade.h:2
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:1
-#: ../capplets/appearance/data/appearance.glade.h:1
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:1
-msgid "    "
-msgstr "    "
-
-#: ../capplets/about-me/gnome-about-me.glade.h:3
-msgid "<b>Email</b>"
-msgstr "<b>විද්‍යුත් තැපැල</b>"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:4
-msgid "<b>Home</b>"
-msgstr "<b>නිවස</b>"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:5
-msgid "<b>Instant Messaging</b>"
-msgstr "<b>ක්‍ෂණික පණිවිඩ</b>"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:6
-msgid "<b>Job</b>"
-msgstr "<b>කාර්‍යය</b>"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:7
-msgid "<b>Telephone</b>"
-msgstr "<b>දුරකතනය</b>"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:8
-msgid "<b>Web</b>"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:9
-msgid "<b>Work</b>"
-msgstr "<b>වැඩ</b>"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:10
-msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:11
-msgid "A_IM/iChat:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:12
-msgid "A_ddress:"
-msgstr "ලිපිනය (_d):"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:13
-msgid "A_ssistant:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:15
-msgid "Address"
-msgstr "ලිපිනය"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:16
-msgid "C_ity:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:17
-msgid "C_ompany:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:18
-msgid "Cale_ndar:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:19
-msgid "Change Passwo_rd..."
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:20
-msgid "Change pa_ssword"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:21
-msgid "Change password"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:22
-msgid "Ci_ty:"
-msgstr "නගතය (_t):"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:23
-msgid "Co_untry:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:24
-msgid "Contact"
-msgstr "සම්බන්දතාව"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:25
-msgid "Cou_ntry:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:26
-msgid "Current _password:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:27
-msgid "Full Name"
-msgstr "සම්පූර්ණ නම"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:28
-msgid "Hom_e:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:29
-msgid "IC_Q:"
-msgstr "IC_Q:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:30
-msgid "M_SN:"
-msgstr "M_SN:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:31
-msgid "P.O. _box:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:32
-msgid "P._O. box:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:33
-msgid "Personal Info"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:34
-#: ../capplets/about-me/gnome-about-me-password.c:905
-msgid "Please type your password again in the <b>Retype new password</b> field."
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:35
-msgid "Select your photo"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:36
-msgid "State/Pro_vince:"
-msgstr ""
-
-#: ../capplets/about-me/gnome-about-me.glade.h:37
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:97
 msgid ""
-"To change your password, enter your current password in the field below and "
-"click <b>Authenticate</b>.\n"
-"After you have authenticated, enter your new password, retype it for "
-"verification and click <b>Change password</b>."
+"You are not allowed to access the device. Contact your system administrator."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:39
-msgid "User name:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:99
+msgid "The device is already in use."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:40
-msgid "Web _log:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:101
+msgid "An internal error occured"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:41
-msgid "Wor_k:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:218
+msgid "Delete registered fingerprints?"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:42
-msgid "Work _fax:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:221
+msgid "_Delete Fingerprints"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:43
-msgid "Zip/_Postal code:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:228
+msgid ""
+"Do you want to delete your registered fingerprints so fingerprint login is "
+"disabled?"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:44
-msgid "_Address:"
-msgstr "ලිපිනය (_A):"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:45
-msgid "_Authenticate"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:356
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
+msgid "Done!"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:46
-msgid "_Department:"
-msgstr "දෙපාර්තුමෙන්තුව (_D):"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:47
-msgid "_Groupwise:"
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:402
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:424
+#, c-format
+msgid "Could not access '%s' device"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:48
-msgid "_Home page:"
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:473
+#, c-format
+msgid "Could not start finger capture on '%s' device"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:49
-msgid "_Home:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:520
+#, fuzzy
+msgid "Could not access any fingerprint readers"
+msgstr "ප්‍රධාන මුහුණත පුරණය කළ නොහැක"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:521
+msgid "Please contact your system administrator for help."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:50
-msgid "_Jabber:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:551
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:2
+msgid "Enable Fingerprint Login"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:51
-msgid "_Manager:"
-msgstr "කළමණාකරු (_M):"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:52
-msgid "_Mobile:"
+#. translators:
+#. * The variable is the name of the device, for example:
+#. * "To enable fingerprint login, you need to save one of your fingerprints, using the
+#. * 'Digital Persona U.are.U 4000/4000B' device."
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:581
+#, c-format
+msgid ""
+"To enable fingerprint login, you need to save one of your fingerprints, "
+"using the '%s' device."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:53
-msgid "_New password:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:590
+msgid "Swipe finger on reader"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:54
-msgid "_Profession:"
-msgstr "වෘතිය (_P):"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:55
-msgid "_Retype new password:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:592
+msgid "Place finger on reader"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:56
-msgid "_State/Province:"
-msgstr "ප්‍රාන්තය/පළාත: (_S)"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:57
-msgid "_Title:"
-msgstr "සිරස්තලය: (_T)"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:58
-msgid "_Work:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:3
+msgid "Left index finger"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:59
-msgid "_Yahoo:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:4
+msgid "Left little finger"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me.glade.h:60
-msgid "_Zip/Postal code:"
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:5
+msgid "Left middle finger"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:162
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:6
+msgid "Left ring finger"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:7
+msgid "Left thumb"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:8
+msgid "Other finger: "
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:9
+msgid "Right index finger"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:10
+msgid "Right little finger"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:11
+msgid "Right middle finger"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:12
+msgid "Right ring finger"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:13
+#, fuzzy
+msgid "Right thumb"
+msgstr "දකුණ"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:14
+#, fuzzy
+msgid "Select finger"
+msgstr "පිළිඹිබුව තෝරන්න"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
+msgid ""
+"Your fingerprint was successfully saved. You should now be able to log in "
+"using your fingerprint reader."
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-password.c:161
 msgid "Child exited unexpectedly"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:297
+#: ../capplets/about-me/gnome-about-me-password.c:296
 #, c-format
 msgid "Could not shutdown backend_stdin IO channel: %s"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:310
+#: ../capplets/about-me/gnome-about-me-password.c:309
 #, c-format
 msgid "Could not shutdown backend_stdout IO channel: %s"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:451
+#: ../capplets/about-me/gnome-about-me-password.c:408
 msgid "Authenticated!"
 msgstr ""
 
@@ -358,354 +608,200 @@ msgstr ""
 #.
 #. Update status message and auth state
 #. Authentication failure
-#: ../capplets/about-me/gnome-about-me-password.c:468
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:474
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:470
+#: ../capplets/about-me/gnome-about-me-password.c:476
 msgid "That password was incorrect."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:516
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr ""
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:526
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "පද්ධති දෝෂය: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:528
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:530
-#: ../capplets/about-me/gnome-about-me-password.c:532
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:536
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:538
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:789
+#. translators: Unable to launch <program>: <error message>
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:792
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:793
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr ""
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:813
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:899
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:902
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr ""
 
-#: ../capplets/about-me/gnome-about-me-password.c:908
+#: ../capplets/about-me/gnome-about-me-password.c:940
+#: ../capplets/about-me/gnome-about-me-password.ui.h:5
+msgid ""
+"Please type your password again in the <b>Retype new password</b> field."
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:1
-msgid "<b>Assistive Technologies</b>"
+#: ../capplets/about-me/gnome-about-me-password.ui.h:1
+msgid "Change pa_ssword"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:2
-msgid "<b>Preferences</b>"
-msgstr "<b>අභිප්‍රේත</b>"
+#: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
+msgid "Change password"
+msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:3
+#: ../capplets/about-me/gnome-about-me-password.ui.h:3
+msgid "Change your password"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:4
+msgid "Current _password:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:6
+msgid ""
+"To change your password, enter your current password in the field below and "
+"click <b>Authenticate</b>.\n"
+"After you have authenticated, enter your new password, retype it for "
+"verification and click <b>Change password</b>."
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:8
+msgid "_Authenticate"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:9
+msgid "_New password:"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:10
+msgid "_Retype new password:"
+msgstr ""
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:1
 msgid "Accessible Lo_gin"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:4
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:2
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
-msgid "Assistive Technology Preferences"
+msgid "Assistive Technologies"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:5
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:3
+msgid "Assistive Technologies Preferences"
+msgstr ""
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
 msgid ""
 "Changes to enable assistive technologies will not take effect until your "
 "next log in."
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:6
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:7
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:6
 msgid "Jump to Preferred Applications dialog"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:8
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:7
 msgid "Jump to the Accessible Login dialog"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:9
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:8
 msgid "Jump to the Keyboard Accessibility dialog"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:10
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:9
+msgid "Jump to the Mouse Accessibility dialog"
+msgstr ""
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:10
+#, fuzzy
+msgid "Preferences"
+msgstr "<b>අභිප්‍රේත</b>"
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:11
 msgid "_Enable assistive technologies"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:11
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:12
 msgid "_Keyboard Accessibility"
 msgstr ""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:12
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:13
+#, fuzzy
+msgid "_Mouse Accessibility"
+msgstr "පිවිසුම් හැකියාව"
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:14
 msgid "_Preferred Applications"
 msgstr ""
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
-msgid "Enable support for GNOME assistive technologies at login"
+msgid "Choose which accessibility features to enable when you log in"
 msgstr ""
 
-#: ../capplets/accessibility/keyboard/accessibility-keyboard.c:250
-#, c-format
-msgid "There was an error launching the mouse preferences dialog: %s"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/accessibility-keyboard.c:346
-#: ../capplets/accessibility/keyboard/accessibility-keyboard.c:407
-#, c-format
-msgid "Unable to import AccessX settings from file '%s'"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/accessibility-keyboard.c:444
-msgid "Import Feature Settings File"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/accessibility-keyboard.c:448
-msgid "_Import"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/accessibility-keyboard.desktop.in.in.h:1
-msgid "Keyboard Accessibility"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/accessibility-keyboard.desktop.in.in.h:2
-msgid "Set your keyboard accessibility preferences"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.c:59
-msgid ""
-"This system does not seem to have the XKB extension.  The keyboard "
-"accessibility features will not operate without it."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:2
-msgid "<b>Enable Bo_unce Keys</b>"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:3
-msgid "<b>Enable Slo_w Keys</b>"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:4
-msgid "<b>Enable _Mouse Keys</b>"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:5
-msgid "<b>Enable _Repeat Keys</b>"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:6
-msgid "<b>Enable _Sticky Keys</b>"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:7
-msgid "<b>Features</b>"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:8
-msgid "<b>Toggle Keys</b>"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:9
-msgid "Basic"
-msgstr "සරළ"
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:10
-msgid "Beep if key is re_jected"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:11
-msgid "Beep when _features turned on or off from keyboard"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:12
-msgid "Beep when _modifier is pressed"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:13
-msgid "Beep when an LED is turned on and two beeps when one is turned off."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:14
-msgid "Beep when key is:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:15
-msgid "Del_ay:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:16
-msgid "Delay between keypress and pointer mo_vement:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:17
-msgid "Disa_ble if two keys pressed together"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:18
-msgid "E_nable Toggle Keys"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:19
-msgid "Filters"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:20
-msgid "I_gnore duplicate keypresses within:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:21
-msgid ""
-"Ignore all subsequent presses of the SAME key if they happen within a user "
-"selectable period of time."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:22
-msgid "Keyboard Accessibility Preferences (AccessX)"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:23
-msgid "Ma_ximum pointer speed:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:24
-msgid "Mouse Keys"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:25
-msgid "Mouse _Preferences..."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:26
-msgid ""
-"Only accept keys after they have been pressed and held for a user adjustable "
-"amount of time."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:27
-msgid ""
-"Perform multiple simultaneous key press operations by pressing modifier keys "
-"in sequence."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:28
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:29
-msgid "S_peed:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:29
-msgid "Time to acce_lerate to maximum speed:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:30
-msgid "Turn the numeric keypad into a mouse control pad."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:31
-msgid "_Disable if unused for:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:32
-msgid "_Enable keyboard accessibility features"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:33
-msgid "_Import Feature Settings..."
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:34
-msgid "_Only accept keys held for:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:35
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:39
-msgid "_Type to test settings:"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:36
-msgid "_accepted"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:37
-msgid "_pressed"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:38
-msgid "_rejected"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:39
-msgid "characters/second"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:40
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:20
-msgid "milliseconds"
-msgstr "මිලි තත්පර"
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:41
-msgid "pixels/second"
-msgstr ""
-
-#: ../capplets/accessibility/keyboard/gnome-accessibility-keyboard-properties.glade.h:42
-#: ../capplets/windows/gnome-window-properties.glade.h:10
-msgid "seconds"
-msgstr "තත්පර"
-
-#: ../capplets/appearance/appearance-desktop.c:1038
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr ""
 
-#: ../capplets/appearance/appearance-desktop.c:1063
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "සියළු ගොනු"
 
-#: ../capplets/appearance/appearance-font.c:493
+#: ../capplets/appearance/appearance-font.c:494
 msgid "Font may be too large"
 msgstr ""
 
-#: ../capplets/appearance/appearance-font.c:497
+#: ../capplets/appearance/appearance-font.c:498
 #, c-format
 msgid ""
 "The font selected is %d point large, and may make it difficult to "
@@ -718,7 +814,7 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../capplets/appearance/appearance-font.c:510
+#: ../capplets/appearance/appearance-font.c:511
 #, c-format
 msgid ""
 "The font selected is %d point large, and may make it difficult to "
@@ -731,409 +827,429 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../capplets/appearance/appearance-font.c:532
+#: ../capplets/appearance/appearance-font.c:534
 msgid "Use previous font"
 msgstr ""
 
-#: ../capplets/appearance/appearance-font.c:534
+#: ../capplets/appearance/appearance-font.c:536
 msgid "Use selected font"
 msgstr ""
 
-#: ../capplets/appearance/appearance-main.c:108
+#: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
+#, fuzzy, c-format
+msgid "Could not load user interface file: %s"
+msgstr "ප්‍රධාන මුහුණත පුරණය කළ නොහැක"
+
+#: ../capplets/appearance/appearance-main.c:135
 msgid "Specify the filename of a theme to install"
 msgstr ""
 
-#: ../capplets/appearance/appearance-main.c:109
+#: ../capplets/appearance/appearance-main.c:136
 msgid "filename"
 msgstr ""
 
-#: ../capplets/appearance/appearance-main.c:115
+#. TRANSLATORS: don't translate the terms in brackets
+#: ../capplets/appearance/appearance-main.c:143
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr ""
 
-#: ../capplets/appearance/appearance-main.c:116
+#: ../capplets/appearance/appearance-main.c:144
+#: ../capplets/default-applications/gnome-da-capplet.c:960
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "පිටුව"
 
-#: ../capplets/appearance/appearance-main.c:123
+#: ../capplets/appearance/appearance-main.c:151
 msgid "[WALLPAPER...]"
 msgstr "[WALLPAPER...]"
 
-#: ../capplets/appearance/appearance-themes.c:505
+#: ../capplets/appearance/appearance-style.c:172
+#: ../capplets/common/gnome-theme-info.c:446
+#: ../capplets/common/gnome-theme-info.c:638
+#, fuzzy
+msgid "Default Pointer"
+msgstr "පෙරනිමි සැකසුම්"
+
+#: ../capplets/appearance/appearance-style.c:235
+#: ../capplets/appearance/appearance-themes.c:685
+#, fuzzy
+msgid "Install"
+msgstr "ස්ථාපනය... (_I)"
+
+#: ../capplets/appearance/appearance-style.c:256
+#: ../capplets/common/gnome-theme-info.c:1646
+#, c-format
+msgid ""
+"This theme will not look as intended because the required GTK+ theme engine "
+"'%s' is not installed."
+msgstr ""
+
+#: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
 msgstr ""
 
-#: ../capplets/appearance/appearance-themes.c:509
+#: ../capplets/appearance/appearance-themes.c:677
 msgid "Apply Font"
 msgstr ""
 
-#: ../capplets/appearance/appearance-themes.c:534
+#: ../capplets/appearance/appearance-themes.c:681
+msgid "Revert Font"
+msgstr ""
+
+#: ../capplets/appearance/appearance-themes.c:712
+msgid ""
+"The current theme suggests a background and a font. Also, the last applied "
+"font suggestion can be reverted."
+msgstr ""
+
+#: ../capplets/appearance/appearance-themes.c:714
+msgid ""
+"The current theme suggests a background. Also, the last applied font "
+"suggestion can be reverted."
+msgstr ""
+
+#: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
 msgstr ""
 
-#: ../capplets/appearance/appearance-themes.c:539
+#: ../capplets/appearance/appearance-themes.c:718
+msgid ""
+"The current theme suggests a font. Also, the last applied font suggestion "
+"can be reverted."
+msgstr ""
+
+#: ../capplets/appearance/appearance-themes.c:720
 msgid "The current theme suggests a background."
 msgstr ""
 
-#: ../capplets/appearance/appearance-themes.c:544
+#: ../capplets/appearance/appearance-themes.c:722
+msgid "The last applied font suggestion can be reverted."
+msgstr ""
+
+#: ../capplets/appearance/appearance-themes.c:724
 msgid "The current theme suggests a font."
 msgstr ""
 
-#: ../capplets/appearance/appearance-themes.c:821
-#: ../capplets/default-applications/gnome-da-capplet.c:1080
-#: ../capplets/sound/sound-properties-capplet.c:327
+#: ../capplets/appearance/appearance-themes.c:1046
+#: ../capplets/default-applications/gnome-da-capplet.c:691
 msgid "Custom"
 msgstr "රිසිකළ"
 
-#: ../capplets/appearance/data/appearance.glade.h:2
-msgid "<b>C_olors</b>"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:3
-msgid "<b>Hinting</b>"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:4
-msgid "<b>Menus and Toolbars</b>"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:5
-msgid "<b>Preview</b>"
-msgstr "<b>පූර්‍වදසුන</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:6
-msgid "<b>Rendering</b>"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:7
-msgid "<b>Smoothing</b>"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:8
-msgid "<b>Subpixel Order</b>"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:9
-msgid "<b>_Wallpaper</b>"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:10
+#: ../capplets/appearance/data/appearance.ui.h:1
 msgid "Appearance Preferences"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:11
+#: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "පසුබිම"
 
-#: ../capplets/appearance/data/appearance.glade.h:12
+#: ../capplets/appearance/data/appearance.ui.h:3
 msgid "Best _shapes"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:13
+#: ../capplets/appearance/data/appearance.ui.h:4
 msgid "Best co_ntrast"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:14
+#: ../capplets/appearance/data/appearance.ui.h:5
+#, fuzzy
+msgid "C_olors:"
+msgstr "වර්‍ණ"
+
+#: ../capplets/appearance/data/appearance.ui.h:6
 msgid "C_ustomize..."
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:15
-msgid "C_ut"
-msgstr "කපන්න (_u)"
-
-#: ../capplets/appearance/data/appearance.glade.h:16
-msgid ""
-"Centered\n"
-"Fill screen\n"
-"Scaled\n"
-"Zoom\n"
-"Tiled"
+#: ../capplets/appearance/data/appearance.ui.h:7
+msgid "Center"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:21
+#: ../capplets/appearance/data/appearance.ui.h:8
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:22
+#: ../capplets/appearance/data/appearance.ui.h:9
 msgid "Colors"
 msgstr "වර්‍ණ"
 
-#: ../capplets/appearance/data/appearance.glade.h:23
+#: ../capplets/appearance/data/appearance.ui.h:10
 msgid "Controls"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:24
+#: ../capplets/appearance/data/appearance.ui.h:11
 msgid "Customize Theme"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:25
+#: ../capplets/appearance/data/appearance.ui.h:12
 msgid "D_etails..."
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:26
+#: ../capplets/appearance/data/appearance.ui.h:13
 msgid "Des_ktop font:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:27
-msgid "Edit"
-msgstr "සැකසුම්"
-
-#: ../capplets/appearance/data/appearance.glade.h:28
+#: ../capplets/appearance/data/appearance.ui.h:14
 msgid "Font Rendering Details"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:29
+#: ../capplets/appearance/data/appearance.ui.h:15
 msgid "Fonts"
 msgstr "අකුරු"
 
-#: ../capplets/appearance/data/appearance.glade.h:30
-msgid "Go _to Fonts Folder"
+#: ../capplets/appearance/data/appearance.ui.h:16
+msgid "Get more backgrounds online"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:31
+#: ../capplets/appearance/data/appearance.ui.h:17
+msgid "Get more themes online"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:18
 msgid "Gra_yscale"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:32
+#. font hinting
+#: ../capplets/appearance/data/appearance.ui.h:20
+msgid "Hinting"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:21
+msgid "Horizontal gradient"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:22
 msgid "Icons"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:33
-msgid "Interface"
-msgstr "අතුරු මූණත"
+#: ../capplets/appearance/data/appearance.ui.h:23
+msgid "Icons only"
+msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:34
+#: ../capplets/appearance/data/appearance.ui.h:24
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
 msgid "Large"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:35
+#: ../capplets/appearance/data/appearance.ui.h:25
 msgid "N_one"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:36
-msgid "New File"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:37
-msgid "Open File"
-msgstr "ගොනුව විවෘත කරන්න "
-
-#: ../capplets/appearance/data/appearance.glade.h:38
+#: ../capplets/appearance/data/appearance.ui.h:26
 msgid "Open a dialog to specify the color"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:39
+#: ../capplets/appearance/data/appearance.ui.h:27
 msgid "Pointer"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:40
+#: ../capplets/appearance/data/appearance.ui.h:28
 msgid "R_esolution:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:41
-msgid "Save File"
+#: ../capplets/appearance/data/appearance.ui.h:29
+msgid "Rendering"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:42
+#: ../capplets/appearance/data/appearance.ui.h:30
 msgid "Save Theme As..."
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:43
+#: ../capplets/appearance/data/appearance.ui.h:31
+msgid "Save _As..."
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:32
 msgid "Save _background image"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:44
-msgid "Show _icons in menus"
+#: ../capplets/appearance/data/appearance.ui.h:33
+msgid "Scale"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:45
+#: ../capplets/appearance/data/appearance.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
 msgid "Small"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:46
-msgid ""
-"Solid color\n"
-"Horizontal gradient\n"
-"Vertical gradient"
+#: ../capplets/appearance/data/appearance.ui.h:35
+msgid "Smoothing"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:49
+#: ../capplets/appearance/data/appearance.ui.h:36
+msgid "Solid color"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:37
+msgid "Stretch"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:50
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:51
+#: ../capplets/appearance/data/appearance.ui.h:40
+msgid "Subpixel Order"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "පෙළ"
 
-#: ../capplets/appearance/data/appearance.glade.h:52
-msgid ""
-"Text below items\n"
-"Text beside items\n"
-"Icons only\n"
-"Text only"
+#: ../capplets/appearance/data/appearance.ui.h:42
+msgid "Text below items"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:56
+#: ../capplets/appearance/data/appearance.ui.h:43
+msgid "Text beside items"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:44
+#, fuzzy
+msgid "Text only"
+msgstr "පෙළ"
+
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:57
-#: ../vfs-methods/themus/themus-properties-main.c:92
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:58
-msgid "Toolbar _button labels:"
+#: ../capplets/appearance/data/appearance.ui.h:47
+msgid "Tile"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:59
+#. vertical hinting, pixel order blue, green, red
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.glade.h:60
+#: ../capplets/appearance/data/appearance.ui.h:50
+msgid "Vertical gradient"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:61
+#: ../capplets/appearance/data/appearance.ui.h:52
+msgid "Zoom"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "එක් කරන්න... (_A)"
 
-#: ../capplets/appearance/data/appearance.glade.h:62
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:63
+#. pixel order blue, green, red
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.glade.h:64
-msgid "_Copy"
-msgstr "පිටපත් කරන්න (_C)"
-
-#: ../capplets/appearance/data/appearance.glade.h:65
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "විස්තරය (_D):"
 
-#: ../capplets/appearance/data/appearance.glade.h:66
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:67
-msgid "_Editable menu shortcut keys"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.glade.h:68
-msgid "_File"
-msgstr "ගොනු (_F)"
-
-#: ../capplets/appearance/data/appearance.glade.h:69
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:70
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:71
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:72
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "ස්ථාපනය... (_I)"
 
-#: ../capplets/appearance/data/appearance.glade.h:73
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "මධ්‍යම (_M)"
 
-#: ../capplets/appearance/data/appearance.glade.h:74
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:75
+#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "නම (_N):"
 
-#: ../capplets/appearance/data/appearance.glade.h:76
-msgid "_New"
-msgstr "නව (_N)"
-
-#: ../capplets/appearance/data/appearance.glade.h:77
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "කිසිවක් නැත (_N)"
 
-#: ../capplets/appearance/data/appearance.glade.h:78
-msgid "_Open"
-msgstr "විවෘත කරන්න (_O)"
-
-#: ../capplets/appearance/data/appearance.glade.h:79
-msgid "_Paste"
-msgstr "අලවන්න (_P)"
-
-#: ../capplets/appearance/data/appearance.glade.h:80
-msgid "_Print"
-msgstr "මුද්‍රණය (_P)"
-
-#: ../capplets/appearance/data/appearance.glade.h:81
-msgid "_Quit"
-msgstr "ඉවත් වන්න (_Q)"
-
-#: ../capplets/appearance/data/appearance.glade.h:82
+#. pixel order red, green, blue
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:83
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:84
-msgid "_Save"
-msgstr "සුරකින්න (_S)"
-
-#: ../capplets/appearance/data/appearance.glade.h:85
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:86
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "ප්‍රමාණය: (_S)"
 
-#: ../capplets/appearance/data/appearance.glade.h:87
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:88
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "රටාව (_S):"
 
-#: ../capplets/appearance/data/appearance.glade.h:89
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:90
+#. vertical hinting, pixel order red, green, blue
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.glade.h:91
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:92
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "කවුළු (_W):"
 
-#: ../capplets/appearance/data/appearance.glade.h:93
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "අඟලට තිත්"
 
-#: ../capplets/appearance/data/appearance.glade.h:94
-msgid "gtk-delete"
-msgstr ""
-
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr ""
@@ -1154,292 +1270,342 @@ msgstr ""
 msgid "Gnome Theme Package"
 msgstr ""
 
-#: ../capplets/appearance/gnome-wp-info.c:45
-msgid "No Wallpaper"
+#: ../capplets/appearance/gnome-wp-info.c:50
+#, fuzzy
+msgid "No Desktop Background"
+msgstr "පසුබිම"
+
+#: ../capplets/appearance/gnome-wp-item.c:264
+msgid "Slide Show"
 msgstr ""
 
-#: ../capplets/appearance/gnome-wp-item.c:364
+#: ../capplets/appearance/gnome-wp-item.c:266
+#, fuzzy
+msgid "Image"
+msgstr "පිළිඹිබු"
+
+#: ../capplets/appearance/gnome-wp-item.c:272
+msgid "multiple sizes"
+msgstr ""
+
+#. translators: x pixel(s) by y pixel(s)
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
-msgid ""
-"<b>%s</b>\n"
-"%s, %d %s by %d %s\n"
-"Folder: %s"
+msgid "%d %s by %d %s"
 msgstr ""
 
-#: ../capplets/appearance/gnome-wp-item.c:370
-#: ../capplets/appearance/gnome-wp-item.c:372
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "පික්සලය"
 msgstr[1] "පික්සලය"
 
-#: ../capplets/appearance/theme-installer.c:149
+#. translators: <b>wallpaper name</b>
+#. * mime type, size
+#. * Folder: /path/to/file
+#.
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
-"Cannot install theme.\n"
-"The %s utility is not installed."
+"<b>%s</b>\n"
+"%s, %s\n"
+"Folder: %s"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:197
-msgid ""
-"Cannot install theme.\n"
-"There was a problem while extracting the theme."
-msgstr ""
-
-#: ../capplets/appearance/theme-installer.c:237
+#. translators: <b>wallpaper name</b>
+#. * Image missing
+#. * Folder: /path/to/file
+#.
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
-msgid "GNOME Theme %s correctly installed"
+msgid ""
+"<b>%s</b>\n"
+"%s\n"
+"Folder: %s"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:249
-msgid "The theme is an engine. You need to compile it."
+#: ../capplets/appearance/gnome-wp-item.c:303
+#, fuzzy
+msgid "Image missing"
+msgstr "පිළිඹිබු"
+
+#: ../capplets/appearance/theme-installer.c:178
+#: ../capplets/appearance/theme-installer.c:234
+msgid "Cannot install theme"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:258
-msgid "The file format is invalid"
+#: ../capplets/appearance/theme-installer.c:180
+#, c-format
+msgid "The %s utility is not installed."
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:309
-msgid "Installation Failed"
+#: ../capplets/appearance/theme-installer.c:236
+msgid "There was a problem while extracting the theme."
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:330
+#: ../capplets/appearance/theme-installer.c:264
+#, fuzzy
+msgid "There was an error installing the selected file"
+msgstr "සහාය දර්ශණය කිරිමේදි දෝෂයක් තිබුනි: %s"
+
+#: ../capplets/appearance/theme-installer.c:265
+#, c-format
+msgid "\"%s\" does not appear to be a valid theme."
+msgstr ""
+
+#: ../capplets/appearance/theme-installer.c:266
+#, c-format
+msgid ""
+"\"%s\" does not appear to be a valid theme. It may be a theme engine which "
+"you need to compile."
+msgstr ""
+
+#: ../capplets/appearance/theme-installer.c:372
+#, c-format
+msgid "Installation for theme \"%s\" failed."
+msgstr ""
+
+#: ../capplets/appearance/theme-installer.c:411
 #, c-format
 msgid "The theme \"%s\" has been installed."
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:336
+#: ../capplets/appearance/theme-installer.c:421
 msgid "Would you like to apply it now, or keep your current theme?"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:338
+#: ../capplets/appearance/theme-installer.c:424
 msgid "Keep Current Theme"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:340
+#: ../capplets/appearance/theme-installer.c:427
 msgid "Apply New Theme"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:413
-msgid "This theme is not in a supported format."
+#: ../capplets/appearance/theme-installer.c:471
+#, c-format
+msgid "GNOME Theme %s correctly installed"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:438
+#: ../capplets/appearance/theme-installer.c:533
 msgid "Failed to create temporary directory"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:496
+#: ../capplets/appearance/theme-installer.c:596
+msgid "New themes have been successfully installed."
+msgstr ""
+
+#: ../capplets/appearance/theme-installer.c:646
 msgid "No theme file location specified to install"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:516
+#: ../capplets/appearance/theme-installer.c:670
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
 "%s"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:535
-#, c-format
-msgid ""
-"%s is the path where the theme files will be installed. This can not be "
-"selected as the source location"
-msgstr ""
-
-#: ../capplets/appearance/theme-installer.c:556
-msgid "The file format is invalid."
-msgstr ""
-
-#: ../capplets/appearance/theme-installer.c:609
+#: ../capplets/appearance/theme-installer.c:748
 msgid "Select Theme"
 msgstr ""
 
-#: ../capplets/appearance/theme-installer.c:612
+#: ../capplets/appearance/theme-installer.c:759
 msgid "Theme Packages"
 msgstr ""
 
-#: ../capplets/appearance/theme-save.c:91
+#: ../capplets/appearance/theme-save.c:93
+#, c-format
 msgid "Theme name must be present"
 msgstr ""
 
-#: ../capplets/appearance/theme-save.c:161
+#: ../capplets/appearance/theme-save.c:156
 msgid "The theme already exists. Would you like to replace it?"
 msgstr ""
 
-#: ../capplets/appearance/theme-save.c:162
+#: ../capplets/appearance/theme-save.c:157
+#: ../capplets/common/file-transfer-dialog.c:450
 msgid "_Overwrite"
 msgstr "මත ලියන්න (_O)"
 
-#: ../capplets/appearance/theme-util.c:43
+#: ../capplets/appearance/theme-util.c:75
 msgid "Would you like to delete this theme?"
 msgstr ""
 
-#: ../capplets/appearance/theme-util.c:90
+#: ../capplets/appearance/theme-util.c:125
 msgid "Theme cannot be deleted"
 msgstr ""
+
+#: ../capplets/appearance/theme-util.c:252
+#, fuzzy
+msgid "Could not install theme engine"
+msgstr "ප්‍රධාන මුහුණත පුරණය කළ නොහැක"
 
 #: ../capplets/common/activate-settings-daemon.c:16
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
+"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
 
-#: ../capplets/common/capplet-stock-icons.c:92
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr ""
 
-#: ../capplets/common/capplet-util.c:240 ../capplets/common/capplet-util.c:242
-msgid "Just apply settings and quit"
-msgstr ""
-
-#: ../capplets/common/capplet-util.c:244
-#: ../capplets/keyboard/gnome-keyboard-properties.c:236
-#: ../capplets/sound/sound-properties-capplet.c:1030
-msgid "Retrieve and store legacy settings"
-msgstr ""
-
-#: ../capplets/common/capplet-util.c:344
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:392
+#: ../capplets/common/capplet-util.c:88
 #, c-format
 msgid "There was an error displaying help: %s"
 msgstr "සහාය දර්ශණය කිරිමේදි දෝෂයක් තිබුනි: %s"
 
-#: ../capplets/common/file-transfer-dialog.c:94
+#: ../capplets/common/file-transfer-dialog.c:98
 #, c-format
 msgid "Copying file: %u of %u"
 msgstr "ගොනු පිටපත් කරමින් සිටී: %u of %u"
 
-#: ../capplets/common/file-transfer-dialog.c:123
+#: ../capplets/common/file-transfer-dialog.c:145
 #, c-format
 msgid "Copying '%s'"
 msgstr "පිටපත් කරමින් සිටී '%s'"
 
-#: ../capplets/common/file-transfer-dialog.c:154
-#: ../capplets/common/file-transfer-dialog.c:278
+#: ../capplets/common/file-transfer-dialog.c:185
+#: ../capplets/common/file-transfer-dialog.c:312
 msgid "Copying files"
 msgstr "ගොනු පිටපත් කරමින් සිටී"
 
-#: ../capplets/common/file-transfer-dialog.c:190
+#: ../capplets/common/file-transfer-dialog.c:224
 msgid "Parent Window"
 msgstr ""
 
-#: ../capplets/common/file-transfer-dialog.c:191
+#: ../capplets/common/file-transfer-dialog.c:225
 msgid "Parent window of the dialog"
 msgstr ""
 
-#: ../capplets/common/file-transfer-dialog.c:197
+#: ../capplets/common/file-transfer-dialog.c:231
 msgid "From URI"
 msgstr "URI වෙතින්"
 
-#: ../capplets/common/file-transfer-dialog.c:198
+#: ../capplets/common/file-transfer-dialog.c:232
 msgid "URI currently transferring from"
 msgstr "URI දැනට වෙතින් මාරුවෙමින් පවතින්නේ"
 
-#: ../capplets/common/file-transfer-dialog.c:205
+#: ../capplets/common/file-transfer-dialog.c:239
 msgid "To URI"
 msgstr "URI වෙත"
 
-#: ../capplets/common/file-transfer-dialog.c:206
+#: ../capplets/common/file-transfer-dialog.c:240
 msgid "URI currently transferring to"
 msgstr "URI දැනට මාරුවන්නේ"
 
-#: ../capplets/common/file-transfer-dialog.c:213
+#: ../capplets/common/file-transfer-dialog.c:247
 msgid "Fraction completed"
 msgstr "සුළු කොටස සම්පුර්ණ විය"
 
-#: ../capplets/common/file-transfer-dialog.c:214
+#: ../capplets/common/file-transfer-dialog.c:248
 msgid "Fraction of transfer currently completed"
 msgstr "මාරු කිරිමේ සුළු කොටස දැනට සම්පුර්ණයි"
 
-#: ../capplets/common/file-transfer-dialog.c:221
+#: ../capplets/common/file-transfer-dialog.c:255
 msgid "Current URI index"
 msgstr "දැනට ඇති URI පටුන"
 
-#: ../capplets/common/file-transfer-dialog.c:222
+#: ../capplets/common/file-transfer-dialog.c:256
 msgid "Current URI index - starts from 1"
 msgstr "වර්තමාන URI පටුණ - 1න් පටන් ගන්න"
 
-#: ../capplets/common/file-transfer-dialog.c:229
+#: ../capplets/common/file-transfer-dialog.c:263
 msgid "Total URIs"
 msgstr "සියළුම URIs"
 
-#: ../capplets/common/file-transfer-dialog.c:230
+#: ../capplets/common/file-transfer-dialog.c:264
 msgid "Total number of URIs"
 msgstr "URI එකතුව"
 
-#: ../capplets/common/file-transfer-dialog.c:391
-msgid "Connecting..."
-msgstr "සම්බන්ද වෙමින්..."
+#: ../capplets/common/file-transfer-dialog.c:444
+#, c-format
+msgid "File '%s' already exists. Do you want to overwrite it?"
+msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:170
+#: ../capplets/common/file-transfer-dialog.c:447
+msgid "_Skip"
+msgstr ""
+
+#: ../capplets/common/file-transfer-dialog.c:448
+#, fuzzy
+msgid "Overwrite _All"
+msgstr "මත ලියන්න (_O)"
+
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "යතුර"
 
-#: ../capplets/common/gconf-property-editor.c:171
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:177
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:178
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:183
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:184
-msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+#: ../capplets/common/gconf-property-editor.c:150
+msgid ""
+"GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:190
-msgid "Callback to be issued when data are to be converted from GConf to the widget"
+#: ../capplets/common/gconf-property-editor.c:156
+msgid ""
+"Callback to be issued when data are to be converted from GConf to the widget"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:195
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:196
-msgid "Callback to be issued when data are to be converted to GConf from the widget"
+#: ../capplets/common/gconf-property-editor.c:162
+msgid ""
+"Callback to be issued when data are to be converted to GConf from the widget"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:201
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:202
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:217
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:218
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:224
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:225
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:1468
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1448,7 +1614,7 @@ msgid ""
 "picture."
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:1476
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1457,16 +1623,65 @@ msgid ""
 "Please select a different picture instead."
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:1595
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr ""
 
-#: ../capplets/common/gconf-property-editor.c:1600
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "තෝරන්න (_S)"
 
+#: ../capplets/common/gnome-theme-info.c:639
+msgid "Default Pointer - Current"
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:643
+msgid "White Pointer"
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:644
+msgid "White Pointer - Current"
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:648
+msgid "Large Pointer"
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:649
+msgid "Large Pointer - Current"
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:653
+msgid "Large White Pointer - Current"
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:654
+msgid "Large White Pointer"
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:1622
+#, c-format
+msgid ""
+"This theme will not look as intended because the required GTK+ theme '%s' is "
+"not installed."
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:1630
+#, c-format
+msgid ""
+"This theme will not look as intended because the required window manager "
+"theme '%s' is not installed."
+msgstr ""
+
+#: ../capplets/common/gnome-theme-info.c:1637
+#, c-format
+msgid ""
+"This theme will not look as intended because the required icon theme '%s' is "
+"not installed."
+msgstr ""
+
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:21
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
 msgid "Preferred Applications"
 msgstr ""
 
@@ -1475,125 +1690,142 @@ msgid "Select your default applications"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-at-session.desktop.in.in.h:1
-msgid "Autostart the preferred AT"
+msgid "Start the preferred visual assistive technology"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-at-session.desktop.in.in.h:2
-msgid "Visual"
-msgstr "දෘශ්‍ය"
+msgid "Visual Assistance"
+msgstr ""
 
-#: ../capplets/default-applications/gnome-da-capplet.c:80
-#: ../capplets/default-applications/gnome-da-capplet.c:112
-#: ../capplets/default-applications/gnome-da-capplet.c:133
-#: ../capplets/default-applications/gnome-da-capplet.c:177
-#: ../capplets/default-applications/gnome-da-capplet.c:222
-#: ../capplets/default-applications/gnome-da-capplet.c:279
-#: ../capplets/default-applications/gnome-da-capplet.c:330
-#: ../capplets/default-applications/gnome-da-capplet.c:381
-#: ../capplets/default-applications/gnome-da-capplet.c:434
-#: ../capplets/default-applications/gnome-da-capplet.c:484
-#: ../capplets/default-applications/gnome-da-capplet.c:877
-#: ../capplets/default-applications/gnome-da-capplet.c:899
+#: ../capplets/default-applications/gnome-da-capplet.c:98
+#: ../capplets/default-applications/gnome-da-capplet.c:362
+#: ../capplets/default-applications/gnome-da-capplet.c:383
 #, c-format
 msgid "Error saving configuration: %s"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-da-capplet.c:1100
+#: ../capplets/default-applications/gnome-da-capplet.c:722
 msgid "Could not load the main interface"
 msgstr "ප්‍රධාන මුහුණත පුරණය කළ නොහැක"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:1102
+#: ../capplets/default-applications/gnome-da-capplet.c:724
 msgid "Please make sure that the applet is properly installed"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
-msgid "<b>Image Viewer</b>"
+#. TRANSLATORS: don't translate the terms in brackets
+#: ../capplets/default-applications/gnome-da-capplet.c:959
+msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:2
-msgid "<b>Instant Messenger</b>"
+#: ../capplets/default-applications/gnome-da-capplet.c:964
+msgid "- GNOME Default Applications"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:3
-msgid "<b>Mail Reader</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:4
-msgid "<b>Mobility</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:5
-msgid "<b>Multimedia Player</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:6
-msgid "<b>Terminal Emulator</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:7
-msgid "<b>Text Editor</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:8
-msgid "<b>Video Player</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:9
-msgid "<b>Visual</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:10
-msgid "<b>Web Browser</b>"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:11
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:1
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:1
 msgid "Accessibility"
 msgstr "පිවිසුම් හැකියාව"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:13
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:3
 #, no-c-format
 msgid "All %s occurrences will be replaced with actual link"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:14
+#.
+#. * vim: sw=2 ts=8 cindent noai bs=2
+#.
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+msgid "C_ommand:"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:5
 msgid "Co_mmand:"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:15
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:6
 msgid "E_xecute flag:"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:16
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:7
+msgid "Image Viewer"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:8
+#, fuzzy
+msgid "Instant Messenger"
+msgstr "<b>ක්‍ෂණික පණිවිඩ</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:9
 msgid "Internet"
 msgstr "අන්තර්ජාලය"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:17
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:10
+msgid "Mail Reader"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:11
+msgid "Mobility"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:12
 msgid "Multimedia"
 msgstr "බහුමාධ්‍ය"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:18
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:13
+#, fuzzy
+msgid "Multimedia Player"
+msgstr "බහුමාධ්‍ය"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:14
 msgid "Open link in new _tab"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:19
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:15
 msgid "Open link in new _window"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:20
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:16
 msgid "Open link with web browser _default"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:22
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:18
 msgid "Run at st_art"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:23
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:19
 msgid "Run in t_erminal"
 msgstr "ටර්මිනලයේ ක්‍රියා කරවන්න"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:24
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:20
 msgid "System"
 msgstr "පද්දති"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:21
+msgid "Terminal Emulator"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:22
+msgid "Text Editor"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:23
+msgid "Video Player"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:24
+msgid "Visual"
+msgstr "දෘශ්‍ය"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:25
+msgid "Web Browser"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:26
+msgid "_Run at start"
+msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:1
 msgid "Balsa"
@@ -1636,681 +1868,1018 @@ msgid "Evolution Mail Reader"
 msgstr ""
 
 #: ../capplets/default-applications/gnome-default-applications.xml.in.h:11
-msgid "Evolution Mail Reader 1.4"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:12
-msgid "Evolution Mail Reader 1.5"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
-msgid "Evolution Mail Reader 1.6"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
-msgid "Evolution Mail Reader 2.0"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
-msgid "Evolution Mail Reader 2.2"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
-msgid "Evolution Mail Reader 2.4"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:17
 msgid "Firebird"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:18
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:12
 msgid "Firefox"
 msgstr "ෆයර්ෆොක්ස්"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:19
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:13
 msgid "GNOME Magnifier without Screen Reader"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:20
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:14
 msgid "GNOME OnScreen Keyboard"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:21
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:15
 msgid "GNOME Terminal"
 msgstr "GNOME අග්‍රය"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:22
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:16
 msgid "Galeon"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:23
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:17
 msgid "Gnopernicus"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:24
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:18
 msgid "Gnopernicus with Magnifier"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:25
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:19
+msgid "Iceape"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:20
+msgid "Iceape Mail"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:21
 msgid "Icedove"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:26
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:22
 msgid "Iceweasel"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:27
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:23
 msgid "KDE Magnifier without Screen Reader"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:28
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:24
 msgid "KMail"
 msgstr "කේමේල්"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:29
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:25
 msgid "Konqueror"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:30
-msgid "Links Text Browser"
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:26
+msgid "Konsole"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:31
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:27
 msgid "Linux Screen Reader"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:32
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:28
 msgid "Linux Screen Reader with Magnifier"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:33
-msgid "Lynx Text Browser"
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:29
+msgid "Listen"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:34
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:30
+msgid "Midori"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:31
 msgid "Mozilla"
 msgstr "මොසිලා"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:35
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:32
 msgid "Mozilla 1.6"
 msgstr "මොසිලා 1.6"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:36
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:33
 msgid "Mozilla Mail"
 msgstr "මොසිලා තැපැල්"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:37
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:34
 msgid "Mozilla Thunderbird"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:38
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:35
 msgid "Muine Music Player"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:39
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:36
 msgid "Mutt"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:40
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:37
 msgid "NXterm"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:41
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:38
 msgid "Netscape Communicator"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:42
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:39
 msgid "Opera"
 msgstr "ඔපෙරා"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:43
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:40
 msgid "Orca"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:44
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:41
 msgid "Orca with Magnifier"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:45
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:42
 msgid "RXVT"
 msgstr "RXVT"
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:46
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:43
 msgid "Rhythmbox Music Player"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:47
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:44
 msgid "SeaMonkey"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:48
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:45
 msgid "SeaMonkey Mail"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:49
-msgid "Simple OnScreen Keyboard"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:50
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:46
 msgid "Standard XTerminal"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:51
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:47
 msgid "Sylpheed"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:52
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:48
 msgid "Sylpheed-Claws"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:53
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:49
+msgid "Terminator"
+msgstr ""
+
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:50
 msgid "Thunderbird"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:54
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:51
 msgid "Totem Movie Player"
 msgstr ""
 
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:55
-msgid "W3M Text Browser"
-msgstr ""
-
-#: ../capplets/default-applications/gnome-default-applications.xml.in.h:56
+#: ../capplets/default-applications/gnome-default-applications.xml.in.h:52
 msgid "aterm"
 msgstr ""
 
-#: ../capplets/display/display-properties.desktop.in.in.h:1
-msgid "Change screen resolution"
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+#, fuzzy
+msgid "Could not save the monitor configuration"
+msgstr "ප්‍රධාන මුහුණත පුරණය කළ නොහැක"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
 msgstr ""
 
-#: ../capplets/display/display-properties.desktop.in.in.h:2
-msgid "Screen Resolution"
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
 msgstr ""
 
-#: ../capplets/display/main.c:25
-msgid "Normal"
-msgstr "සාමාන්‍ය"
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
 
-#: ../capplets/display/main.c:26
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr ""
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:1
+msgid "Include _panel"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:2
+#: ../capplets/display/xrandr-capplet.c:305
 msgid "Left"
 msgstr "වම"
 
-#: ../capplets/display/main.c:27
-msgid "Inverted"
+#: ../capplets/display/display-capplet.ui.h:3
+#: ../capplets/display/xrandr-capplet.c:508
+msgid "Monitor"
 msgstr ""
 
-#: ../capplets/display/main.c:28
+#: ../capplets/display/display-capplet.ui.h:4
+msgid "Monitor Preferences"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/xrandr-capplet.c:304
+#: ../capplets/display/xrandr-capplet.c:343
+msgid "Normal"
+msgstr "සාමාන්‍ය"
+
+#: ../capplets/display/display-capplet.ui.h:6
+msgid "Off"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:7
+msgid "On"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:8
+msgid "Panel icon"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:9
+msgid "R_otation:"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:10
+msgid "Re_fresh rate:"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/xrandr-capplet.c:306
 msgid "Right"
 msgstr "දකුණ"
 
-#: ../capplets/display/main.c:388
+#: ../capplets/display/display-capplet.ui.h:12
+msgid "Sa_me image in all monitors"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:13
+msgid "Upside-down"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:14
+msgid "_Detect monitors"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:15
+msgid "_Resolution:"
+msgstr "විභේදනය (_R):"
+
+#: ../capplets/display/display-capplet.ui.h:16
+msgid "_Show monitors in panel"
+msgstr ""
+
+#: ../capplets/display/display-properties.desktop.in.in.h:1
+msgid "Change resolution and position of monitors"
+msgstr ""
+
+#: ../capplets/display/display-properties.desktop.in.in.h:2
+msgid "Monitors"
+msgstr ""
+
+#: ../capplets/display/xrandr-capplet.c:307
+msgid "Upside Down"
+msgstr ""
+
+#: ../capplets/display/xrandr-capplet.c:349
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
 
-#: ../capplets/display/main.c:534
-msgid "_Resolution:"
-msgstr "විභේදනය (_R):"
+#. Translators:  this is the feature where what you see on your laptop's
+#. * screen is the same as your external monitor.  Here, "Mirror" is being
+#. * used as an adjective, not as a verb.  For example, the Spanish
+#. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
+#.
+#: ../capplets/display/xrandr-capplet.c:497
+#: ../capplets/display/xrandr-capplet.c:1643
+#, fuzzy
+msgid "Mirror Screens"
+msgstr "තිරය"
 
-#: ../capplets/display/main.c:553
-msgid "Re_fresh rate:"
-msgstr ""
-
-#: ../capplets/display/main.c:573
-msgid "R_otation:"
-msgstr ""
-
-#: ../capplets/display/main.c:593
-msgid "Default Settings"
-msgstr "පෙරනිමි සැකසුම්"
-
-#: ../capplets/display/main.c:595
+#: ../capplets/display/xrandr-capplet.c:499
 #, c-format
-msgid "Screen %d Settings\n"
+msgid "Monitor: %s"
 msgstr ""
 
-#: ../capplets/display/main.c:621
-msgid "Screen Resolution Preferences"
-msgstr ""
-
-#: ../capplets/display/main.c:658
+#: ../capplets/display/xrandr-capplet.c:577
 #, c-format
-msgid "_Make default for this computer (%s) only"
+msgid "%d x %d"
 msgstr ""
 
-#: ../capplets/display/main.c:677
-msgid "Options"
-msgstr "විකල්ප"
-
-#: ../capplets/display/main.c:698
-#, c-format
+#: ../capplets/display/xrandr-capplet.c:1499
 msgid ""
-"Testing the new settings. If you don't respond in %d second the previous "
-"settings will be restored."
-msgid_plural ""
-"Testing the new settings. If you don't respond in %d seconds the previous "
-"settings will be restored."
-msgstr[0] "නව පරිස්ථිතියන් පරීක්‍ෂාකරමින්. ඔබ තත්පර %d තුල ප්‍රතිචාර නොදැක්වුවහොත් පෙර පරිස්ථිතියන් නැවත ස්ථපිත කෙරෙනු ඇත."
-msgstr[1] "නව පරිස්ථිතියන් පරීක්‍ෂාකරමින්. ඔබ තත්පර %d තුල ප්‍රතිචාර නොදැක්වුවහොත් පෙර පරිස්ථිතියන් නැවත ස්ථපිත කෙරෙනු ඇත."
-
-#: ../capplets/display/main.c:741
-msgid "Keep Resolution"
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
 msgstr ""
 
-#: ../capplets/display/main.c:745
-msgid "Do you want to keep this resolution?"
-msgstr ""
-
-#: ../capplets/display/main.c:770
-msgid "Use _previous resolution"
-msgstr ""
-
-#: ../capplets/display/main.c:770
-msgid "_Keep resolution"
-msgstr ""
-
-#: ../capplets/display/main.c:920
-msgid ""
-"The X Server does not support the XRandR extension.  Runtime resolution "
-"changes to the display size are not available."
-msgstr ""
-
-#: ../capplets/display/main.c:928
-msgid ""
-"The version of the XRandR extension is incompatible with this program. "
-"Runtime changes to the display size are not available."
+#: ../capplets/display/xrandr-capplet.c:2114
+msgid "Could not detect displays"
 msgstr ""
 
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
-#: ../capplets/sound/gnome-settings-sound.desktop.in.in.h:2
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "ශබ්දය"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
+#: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "මූලික තිරය"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
-msgid "New accelerator..."
-msgstr "නව ත්වරකය..."
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
+#, fuzzy
+msgid "New shortcut..."
+msgstr "කෙටි මාර්‍ගය"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "ත්වරක යතුර"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "ත්නරකයේ විකරණ"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "ත්වරකයේ යතුරුකේත"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr ""
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr ""
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
-#: ../capplets/keybindings/gnome-keybinding-properties.c:112
-#: ../libbackground/applier.c:624 ../typing-break/drwright.c:482
+#: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
+#: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "අක්‍රීය"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:523
+#: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<නොදන්නා ක්‍රියා>"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:915
+#: ../capplets/keybindings/gnome-keybinding-properties.c:950
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
+#, fuzzy
+msgid "Custom Shortcuts"
+msgstr "කෙටි මාර්‍ගය"
+
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
+msgid "Error saving the new shortcut"
+msgstr ""
+
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
 "using this key.\n"
-"Please try with a key such as Control, Alt or Shift at the same time.\n"
+"Please try with a key such as Control, Alt or Shift at the same time."
 msgstr ""
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:944
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
-"The shortcut \"%s\" is already used for:\n"
-" \"%s\"\n"
+"The shortcut \"%s\" is already used for\n"
+"\"%s\""
 msgstr ""
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:976
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid "Error setting new accelerator in configuration database: %s\n"
+msgid ""
+"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr ""
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1026
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
+msgid "_Reassign"
+msgstr ""
+
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
-msgid "Error unsetting accelerator in configuration database: %s\n"
+msgid "Error unsetting accelerator in configuration database: %s"
 msgstr ""
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1141
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
+msgid "Too many custom shortcuts"
+msgstr ""
+
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "ක්‍රියාව"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1165
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "කෙටි මාර්‍ගය"
 
-#.
-#. * vim: sw=2 ts=8 cindent noai bs=2
-#.
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:1
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#, fuzzy
+msgid "Custom Shortcut"
+msgstr "කෙටි මාර්‍ගය"
+
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "යතුරු පුවරු කෙටි මාර්‍ඟ"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:2
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
-"To edit a shortcut key, click on the corresponding row and type a new "
-"accelerator, or press backspace to clear."
+"To edit a shortcut key, click on the corresponding row and type a new key "
+"combination, or press backspace to clear."
 msgstr ""
 
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:119
-#, c-format
-msgid "There was an error launching the keyboard tool: %s"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.c:212
-msgid "_Accessibility"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.c:232
-#: ../capplets/keyboard/gnome-keyboard-properties.c:234
-#: ../capplets/sound/sound-properties-capplet.c:1026
-#: ../capplets/sound/sound-properties-capplet.c:1028
-msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.c:238
-msgid "Start the page with the typing break settings showing"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.c:246
-msgid "- GNOME Keyboard Preferences"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:2
-msgid "<b>Cursor Blinking</b>"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:3
-msgid "<b>Repeat Keys</b>"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:4
-msgid "<b>_Lock screen to enforce typing break</b>"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:5
-msgid "<small><i>Fast</i></small>"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:6
-msgid "<small><i>Long</i></small>"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:7
-msgid "<small><i>Short</i></small>"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:8
-msgid "<small><i>Slow</i></small>"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:9
-msgid "All_ow postponing of breaks"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:10
-msgid "Check if breaks are allowed to be postponed"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:11
-msgid "Choose a Keyboard Model"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:12
-msgid "Choose a Layout"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:13
-msgid "Choose..."
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:14
-msgid "Cursor _blinks in text boxes and fields"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:15
-msgid "Cursor blinks speed"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:16
-msgid "Duration of the break when typing is disallowed"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:17
-msgid "Duration of work before forcing a break"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:18
-msgid "Key presses _repeat when key is held down"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:19
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:1
 msgid "Keyboard"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:20
-msgid "Keyboard Preferences"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:21
-msgid "Keyboard _model:"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:22
-msgid "Layout Options"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:23
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
 msgid "Layouts"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
+msgid ""
+"Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
+msgid "Start the page with the typing break settings showing"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
+msgid "Start the page with the accessibility settings showing"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
+msgid "- GNOME Keyboard Preferences"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
+msgid "Beep when _accessibility features are turned on or off"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
+msgid "Beep when a _modifier key is pressed"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
+msgid "Beep when a _toggle key is pressed"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
+msgid "Beep when a key is pr_essed"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
+msgid "Beep when a key is reje_cted"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
+msgid "Beep when key is _accepted"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
+msgid "Beep when key is _rejected"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:4
+msgid "Bounce Keys"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
+msgid "Flash _window titlebar"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
+msgid "Flash entire _screen"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
+msgid "General"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
+msgid "Keyboard Accessibility Audio Feedback"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
+msgid "Show _visual feedback for the alert sound"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+msgid "Slow Keys"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+msgid "Sticky Keys"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:16
+msgid "Visual cues for sounds"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:2
+msgid "All_ow postponing of breaks"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
+msgid "Audio _Feedback..."
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+msgid "Check if breaks are allowed to be postponed"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+msgid "Cursor Blinking"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+msgid "Cursor _blinks in text fields"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:4
+msgid "Cursor blinks speed"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:5
+msgid "D_elay:"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+msgid "Disa_ble sticky keys if two keys are pressed together"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+msgid "Duration of the break when typing is disallowed"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+msgid "Duration of work before forcing a break"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+msgid "Fast"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+msgid "Key presses _repeat when key is held down"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
+msgid "Keyboard Preferences"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+msgid "Keyboard _model:"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:25
-msgid "Microsoft Natural Keyboard"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
+msgid "Long"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:26
-msgid "Preview:"
-msgstr "පූර්‍වදසුන:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+msgid "Mouse Keys"
+msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+msgid "Move _Down"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+msgid "Move _Up"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+msgid "New windows u_se active window's layout"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+msgid "Repeat Keys"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:30
-msgid "Separate _layout for each window"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+msgid "S_peed:"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
+#, fuzzy
+msgid "Short"
+msgstr "කෙටි මාර්‍ගය"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+msgid "Slow"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:32
-msgid "_Accessibility..."
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+msgid "_Acceleration:"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+msgid "_Accessibility features can be toggled with keyboard shortcuts"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:35
-msgid "_Layouts:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+msgid "_Ignore fast duplicate keypresses"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:36
-msgid "_Models:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+msgid "_Lock screen to enforce typing break"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:37
-msgid "_Selected layouts:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+msgid "_Only accept long keypresses"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#, fuzzy
+msgid "_Options..."
+msgstr "විකල්ප"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+msgid "_Pointer can be controlled using the keypad"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+msgid "_Separate layout for each window"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+msgid "_Simulate simultaneous keypresses"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:40
-msgid "_Variants:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
+msgid "_Type to test settings:"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:41
-msgid "_Vendors:"
-msgstr ""
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "මිනිත්තු"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:1
+msgid "By _country"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:2
+msgid "By _language"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:3
+msgid "Choose a Layout"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:4
+msgid "Preview:"
+msgstr "පූර්‍වදසුන:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:5
+msgid "_Country:"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:6
+msgid "_Language:"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:7
+msgid "_Variants:"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:1
+msgid "Choose a Keyboard Model"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:2
+msgid "_Models:"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:3
+msgid "_Vendors:"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-options-dialog.ui.h:1
+#, fuzzy
+msgid "Keyboard Layout Options"
+msgstr "යතුරු පුවරු කෙටි මාර්‍ඟ"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkb.c:82
 msgid "Unknown"
 msgstr "නොදන්නා"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbltadd.c:206
-#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:303
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:243
-msgid "Default"
-msgstr "ප්‍රකෘතිය"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:297
+#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:241
 msgid "Layout"
 msgstr "පසුබිම"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:174
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:168
 msgid "Vendors"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:240
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:234
 msgid "Models"
 msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
+#: ../capplets/network/gnome-network-properties.c:583
+msgid "Default"
+msgstr "ප්‍රකෘතිය"
 
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr ""
 
-#. set the timeout value  label with correct value of timeout
-#: ../capplets/mouse/gnome-mouse-properties.c:126
-#: ../capplets/mouse/gnome-mouse-properties.c:384
-#, c-format
-msgid "%d millisecond"
-msgid_plural "%d milliseconds"
-msgstr[0] ""
-msgstr[1] ""
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:2
-msgid "<b>Double-Click Timeout </b>"
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:3
-msgid "<b>Drag and Drop</b>"
+#. Translators: this is the gesture to trigger/choose the click type.
+#. Don't include the prefix "gesture|" in the translation.
+#: ../capplets/mouse/gnome-mouse-accessibility.c:89
+msgid "gesture|Move left"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:4
-msgid "<b>Mouse Orientation</b>"
+#. Translators: this is the gesture to trigger/choose the click type.
+#. Don't include the prefix "gesture|" in the translation.
+#: ../capplets/mouse/gnome-mouse-accessibility.c:94
+msgid "gesture|Move right"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:5
-msgid "<b>Speed</b>"
+#. Translators: this is the gesture to trigger/choose the click type.
+#. Don't include the prefix "gesture|" in the translation.
+#: ../capplets/mouse/gnome-mouse-accessibility.c:99
+msgid "gesture|Move up"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:6
-msgid "<i>Fast</i>"
+#. Translators: this is the gesture to trigger/choose the click type.
+#. Don't include the prefix "gesture|" in the translation.
+#: ../capplets/mouse/gnome-mouse-accessibility.c:104
+msgid "gesture|Move down"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:7
-msgid "<i>High</i>"
+#. Translators: this is the gesture to trigger/choose the click type.
+#. Don't include the prefix "gesture|" in the translation.
+#: ../capplets/mouse/gnome-mouse-accessibility.c:109
+#, fuzzy
+msgid "gesture|Disabled"
+msgstr "අක්‍රීය"
+
+#. TRANSLATORS: don't translate the terms in brackets
+#: ../capplets/mouse/gnome-mouse-properties.c:613
+msgid "Specify the name of the page to show (general|accessibility)"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:8
-msgid "<i>Large</i>"
+#: ../capplets/mouse/gnome-mouse-properties.c:618
+msgid "- GNOME Mouse Preferences"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:9
-msgid "<i>Low</i>"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:2
+msgid "Choose type of click _beforehand"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:10
-msgid "<i>Slow</i>"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:3
+msgid "Choose type of click with mo_use gestures"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:11
-msgid "<i>Small</i>"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:6
+msgid "D_ouble click:"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:12
-msgid "Buttons"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:7
+msgid "D_rag click:"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:13
-msgid "Motion"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:8
+msgid "Disable _touchpad while typing"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:14
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
+msgid "Double-Click Timeout"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
+msgid "Drag and Drop"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+msgid "Dwell Click"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+msgid "Enable _mouse clicks with touchpad"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
+msgid "Enable h_orizontal scrolling"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+msgid "High"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+msgid "Locate Pointer"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
+msgid "Low"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+msgid "Mouse Orientation"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
 msgid "Mouse Preferences"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:15
-msgid "_Acceleration:"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
+msgid "Pointer Speed"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:16
-msgid "_Left-handed mouse"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
+msgid "Scrolling"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:17
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
+msgid "Seco_ndary click:"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
+msgid "Sh_ow position of pointer when the Control key is pressed"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
+msgid "Show click type _window"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+msgid "Simulated Secondary Click"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
+msgid "Thr_eshold:"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+msgid "Touchpad"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
+msgid "Two-_finger scrolling"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+msgid "You can also use the Dwell Click panel applet to choose the click type."
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:39
+#, fuzzy
+msgid "_Disabled"
+msgstr "අක්‍රීය"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:40
+msgid "_Edge scrolling"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:41
+msgid "_Initiate click when stopping pointer movement"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:42
+msgid "_Left-handed"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:43
+msgid "_Motion threshold:"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:44
+msgid "_Right-handed"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:45
 msgid "_Sensitivity:"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:18
-msgid "_Threshold:"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:46
+msgid "_Single click:"
 msgstr ""
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:19
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:47
 msgid "_Timeout:"
 msgstr "කාලය ඉකුත් ඉවිය (_T):"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:48
+msgid "_Trigger secondary click by holding down the primary button"
+msgstr ""
 
 #: ../capplets/mouse/gnome-settings-mouse.desktop.in.in.h:1
 msgid "Mouse"
@@ -2320,310 +2889,330 @@ msgstr ""
 msgid "Set your mouse preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:1
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "ජාල සේවාදායක"
+
+#: ../capplets/network/gnome-network-properties.c:701
+#: ../capplets/network/gnome-network-properties.c:852
+#, fuzzy
+msgid "New Location..."
+msgstr "නව ත්වරකය..."
+
+#: ../capplets/network/gnome-network-properties.c:818
+msgid "Location already exists"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.desktop.in.in.h:1
 msgid "Network Proxy"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.desktop.in.in.h:2
+#: ../capplets/network/gnome-network-properties.desktop.in.in.h:2
 msgid "Set your network proxy preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:1
-msgid "      "
-msgstr ""
-
-#: ../capplets/network/gnome-network-preferences.glade.h:2
-msgid "<b>Di_rect internet connection</b>"
-msgstr ""
-
-#: ../capplets/network/gnome-network-preferences.glade.h:3
-msgid "<b>Ignore Host List</b>"
-msgstr ""
-
-#: ../capplets/network/gnome-network-preferences.glade.h:4
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr ""
-
-#: ../capplets/network/gnome-network-preferences.glade.h:5
-msgid "<b>_Manual proxy configuration</b>"
-msgstr ""
-
-#: ../capplets/network/gnome-network-preferences.glade.h:6
-msgid "<b>_Use authentication</b>"
-msgstr ""
-
-#: ../capplets/network/gnome-network-preferences.glade.h:7
-msgid "Advanced Configuration"
-msgstr ""
-
-#: ../capplets/network/gnome-network-preferences.glade.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:1
 msgid "Autoconfiguration _URL:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:2
+msgid "C_reate"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:3
+msgid "Create New Location"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:4
+msgid "Di_rect internet connection"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:7
+msgid "Ignore Host List"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:8
+msgid "Ignored Hosts"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:9
+#, fuzzy
+msgid "Location:"
+msgstr "ක්‍රියාව"
+
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "කෙවනිය:"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:14
+msgid "The location already exists."
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:16
+msgid "_Automatic proxy configuration"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
+msgid "_Delete Location"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "විස්තර (_D)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:20
+msgid "_Location name:"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:21
+msgid "_Manual proxy configuration"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "රහස්පදය: (_P)"
 
-#: ../capplets/network/gnome-network-preferences.glade.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr ""
 
-#: ../capplets/network/gnome-network-preferences.glade.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:24
+msgid "_Use authentication"
+msgstr ""
+
+#: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr ""
 
-#: ../capplets/sound/gnome-settings-sound.desktop.in.in.h:1
-msgid "Enable sound and associate sounds with events"
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "මිනිත්තු"
+msgstr[1] "මිනිත්තු"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
 msgstr ""
 
-#: ../capplets/sound/mixer-support.c:79
-#, c-format
-msgid "Unknown Volume Control %d"
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
 msgstr ""
 
-#: ../capplets/sound/pipeline-tests.c:84
-#, c-format
-msgid "Failed to construct test pipeline for '%s'"
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
 msgstr ""
 
-#: ../capplets/sound/sound-properties-capplet.c:325
-#: ../capplets/sound/sound-properties-capplet.c:378
-msgid "Not connected"
-msgstr "සම්බන්ධ නොවීය"
-
-#: ../capplets/sound/sound-properties-capplet.c:661
-msgid "Autodetect"
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
 msgstr ""
 
-#: ../capplets/sound/sound-properties-capplet.c:666
-#: ../capplets/sound/sound-properties-capplet.c:667
-msgid "ALSA - Advanced Linux Sound Architecture"
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
 msgstr ""
 
-#: ../capplets/sound/sound-properties-capplet.c:668
-msgid "Artsd - ART Sound Daemon"
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
 msgstr ""
 
-#: ../capplets/sound/sound-properties-capplet.c:669
-#: ../capplets/sound/sound-properties-capplet.c:670
-msgid "ESD - Enlightened Sound Daemon"
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
 msgstr ""
 
-#: ../capplets/sound/sound-properties-capplet.c:671
-#: ../capplets/sound/sound-properties-capplet.c:672
-msgid "OSS - Open Sound System"
-msgstr "OSS - විවෘත හඬ පද්ධතිය"
-
-#: ../capplets/sound/sound-properties-capplet.c:673
-#: ../capplets/sound/sound-properties-capplet.c:674
-msgid "PulseAudio Sound Server"
-msgstr ""
-
-#: ../capplets/sound/sound-properties-capplet.c:675
-msgid "Test Sound"
-msgstr "හඬ පරීක්‍ෂාව"
-
-#: ../capplets/sound/sound-properties-capplet.c:676
-msgid "Silence"
-msgstr "නිහඬ"
-
-#: ../capplets/sound/sound-properties-capplet.c:1043
-msgid "- GNOME Sound Preferences"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:1
-msgid "<b>Audio Conferencing</b>"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:2
-msgid "<b>Default Mixer Tracks</b>"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:3
-msgid "<b>Music and Movies</b>"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:4
-msgid "<b>Sound Events</b>"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:5
-msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
-msgstr "<span weight=\"bold\" size=\"x-large\">පරික්‍ෂා කරමින්...</span>"
-
-#: ../capplets/sound/sound-properties.glade.h:6
-msgid "Click OK to finish."
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:7
-msgid "Devices"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:8
-msgid "E_nable software sound mixing (ESD)"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:9
-msgid "Flash _entire screen"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:10
-msgid "Flash _window titlebar"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:11
-msgid "S_ound playback:"
-msgstr ""
-
-#: ../capplets/sound/sound-properties.glade.h:12
+#: ../capplets/power/power.ui.h:6
 msgid ""
-"Select the device and tracks to control with the keyboard. Use the Shift and "
-"Control keys to select multiple tracks if required."
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:13
-msgid "So_und playback:"
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:14
-msgid "Sou_nd capture:"
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:15
-msgid "Sound Preferences"
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:16
-msgid "Sounds"
+#: ../capplets/security/cc-security-panel.c:179
+msgid "The new password is now saved"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:17
-msgid "System Beep"
+#: ../capplets/security/cc-security-panel.c:210
+msgid "Sorry, the password could not be changed"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:18
-msgid "Test"
-msgstr "පරික්‍ෂණය"
-
-#: ../capplets/sound/sound-properties.glade.h:19
-msgid "Testing Pipeline"
+#: ../capplets/security/cc-security-panel.c:445
+msgid "Sorry, that password is incorrect"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:20
-msgid "_Device:"
-msgstr "උපාංගය (_D):"
-
-#: ../capplets/sound/sound-properties.glade.h:21
-msgid "_Enable system beep"
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:22
-msgid "_Play system sounds"
+#: ../capplets/security/run-passwd.c:427
+msgid "Authentication failed"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:23
-msgid "_Sound playback:"
+#: ../capplets/security/run-passwd.c:503
+#, c-format
+msgid "The new password is too short"
 msgstr ""
 
-#: ../capplets/sound/sound-properties.glade.h:24
-msgid "_Visual system beep"
+#: ../capplets/security/run-passwd.c:508
+#, c-format
+msgid "The new password is too simple"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:512
+#, c-format
+msgid "The old and new passwords are too similar"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:515
+#, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:519
+#, c-format
+msgid "The old and new passwords are the same"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:523
+#, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:527
+#, c-format
+msgid "The new password does not contain enough different characters"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "නොදන්නා"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+msgid "Security and passwords"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:2
+msgid "Current password:"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "රහස්පදය: (_P)"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "රහස්පදය: (_P)"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+msgid "Save new password"
 msgstr ""
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.c:601
-msgid "C_ontrol"
-msgstr ""
-
-#: ../capplets/windows/gnome-window-properties.c:606
+#: ../capplets/windows/gnome-window-properties.c:604
 msgid "_Alt"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.c:612
+#: ../capplets/windows/gnome-window-properties.c:610
 msgid "H_yper"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.c:619
+#: ../capplets/windows/gnome-window-properties.c:617
 msgid "S_uper (or \"Windows logo\")"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.c:626
+#: ../capplets/windows/gnome-window-properties.c:624
 msgid "_Meta"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:1
-msgid "<b>Movement Key</b>"
+#: ../capplets/windows/gnome-window-properties.ui.h:1
+msgid "Movement Key"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:2
-msgid "<b>Titlebar Action</b>"
+#: ../capplets/windows/gnome-window-properties.ui.h:2
+msgid "Titlebar Action"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:3
-msgid "<b>Window Selection</b>"
-msgstr ""
-
-#: ../capplets/windows/gnome-window-properties.glade.h:4
+#: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:5
+#: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:6
+#: ../capplets/windows/gnome-window-properties.ui.h:5
+msgid "Window Selection"
+msgstr ""
+
+#: ../capplets/windows/gnome-window-properties.ui.h:6
 msgid "_Double-click titlebar to perform this action:"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:7
+#: ../capplets/windows/gnome-window-properties.ui.h:7
 msgid "_Interval before raising:"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:8
+#: ../capplets/windows/gnome-window-properties.ui.h:8
 msgid "_Raise selected windows after an interval"
 msgstr ""
 
-#: ../capplets/windows/gnome-window-properties.glade.h:9
+#: ../capplets/windows/gnome-window-properties.ui.h:9
 msgid "_Select windows when the mouse moves over them"
 msgstr ""
+
+#: ../capplets/windows/gnome-window-properties.ui.h:10
+msgid "seconds"
+msgstr "තත්පර"
 
 #: ../capplets/windows/window-properties.desktop.in.in.h:1
 msgid "Set your window properties"
@@ -2633,753 +3222,35 @@ msgstr ""
 msgid "Windows"
 msgstr "කවුළු"
 
-#: ../gnome-settings-daemon/actions/acme.glade.h:1
-msgid "Volume"
-msgstr "හඬ"
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:465
-msgid "Slow Keys Alert"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:466
-msgid ""
-"You just held down the Shift key for 8 seconds.  This is the shortcut for "
-"the Slow Keys feature, which affects the way your keyboard works."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:468
-msgid "Do you want to activate Slow Keys?"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:469
-msgid "Do you want to deactivate Slow Keys?"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:470
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:487
-msgid "_Activate"
-msgstr "සක්‍රීය කරන්න (_A)"
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:470
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:487
-msgid "_Deactivate"
-msgstr "අක්‍රීය කරන්න (_D)"
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:471
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:488
-msgid "Do_n't activate"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:471
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:488
-msgid "Do_n't deactivate"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:480
-msgid "Sticky Keys Alert"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:481
-msgid ""
-"You just pressed the Shift key 5 times in a row.  This is the shortcut for "
-"the Sticky Keys feature, which affects the way your keyboard works."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:483
-msgid ""
-"You just pressed two keys at once, or pressed the Shift key 5 times in a "
-"row.  This turns off the Sticky Keys feature, which affects the way your "
-"keyboard works."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:485
-msgid "Do you want to activate Sticky Keys?"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-accessibility-keyboard.c:486
-msgid "Do you want to deactivate Sticky Keys?"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-font.c:150
-#, c-format
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing the mouse pointer theme."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-font.c:171
-#, c-format
-msgid ""
-"Cannot create the directory \"%s\".\n"
-"This is needed to allow changing cursors."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:275
-#, c-format
-msgid "Key Binding (%s) has its action defined multiple times\n"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:281
-#, c-format
-msgid "Key Binding (%s) has its binding defined multiple times\n"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:289
-#, c-format
-msgid "Key Binding (%s) is incomplete\n"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:316
-#, c-format
-msgid "Key Binding (%s) is invalid\n"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:353
-#, c-format
-msgid "It seems that another application already has access to key '%u'."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:418
-#, c-format
-msgid "Key Binding (%s) is already in use\n"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keybindings.c:489
-#, c-format
-msgid ""
-"Error while trying to run (%s)\n"
-"which is linked to the key (%s)"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:106
-#, c-format
-msgid ""
-"Error activating XKB configuration.\n"
-"It can happen under various circumstances:\n"
-"- a bug in libxklavier library\n"
-"- a bug in X server (xkbcomp, xmodmap utilities)\n"
-"- X server with incompatible libxkbfile implementation\n"
-"\n"
-"X server version data:\n"
-"%s\n"
-"%d\n"
-"%s\n"
-"If you report this situation as a bug, please include:\n"
-"- The result of <b>%s</b>\n"
-"- The result of <b>%s</b>"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:120
-msgid ""
-"You are using XFree 4.3.0.\n"
-"There are known problems with complex XKB configurations.\n"
-"Try using a simpler configuration or taking a fresher version of XFree "
-"software."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:250
-msgid "Do _not show this warning again"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:264
-#, c-format
-msgid ""
-"<b>The X system keyboard settings differ from your current GNOME keyboard "
-"settings.</b>\n"
-"\n"
-"Expected was %s, but the the following settings were found: %s.\n"
-"\n"
-"Which set would you like to use?"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:287
-msgid "Use X settings"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-keyboard-xkb.c:289
-msgid "Keep GNOME settings"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:188
-msgid ""
-"Could not get default terminal. Verify that your default terminal command is "
-"set and points to a valid application."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:216
-#, c-format
-msgid ""
-"Couldn't execute command: %s\n"
-"Verify that this is a valid command."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-multimedia-keys.c:231
-msgid ""
-"Couldn't put the machine to sleep.\n"
-"Verify that the machine is correctly configured."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:190
-#, c-format
-msgid ""
-"There was an error starting up the screensaver:\n"
-"\n"
-"%s\n"
-"\n"
-"Screensaver functionality will not work in this session."
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-screensaver.c:200
-msgid "_Do not show this message again"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-sound.c:199
-#, c-format
-msgid "Couldn't load sound file %s as sample %s"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:243
-#: ../gnome-settings-daemon/gnome-settings-xrdb.c:291
-msgid "Cannot determine user's home directory"
-msgstr ""
-
-#: ../gnome-settings-daemon/gnome-settings-xsettings.c:301
-#, c-format
-msgid "GConf key %s set to type %s but its expected type was %s\n"
-msgstr ""
-
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:1
-msgid "A_vailable files:"
-msgstr ""
-
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:2
-msgid "Do _not show this warning again."
-msgstr ""
-
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:3
-msgid "Load modmap files"
-msgstr ""
-
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:4
-msgid "Would you like to load the modmap file(s)?"
-msgstr ""
-
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:5
-msgid "_Load"
-msgstr ""
-
-#: ../gnome-settings-daemon/modmap-dialog.glade.h:6
-msgid "_Loaded files:"
-msgstr ""
-
-#: ../gnome-settings-daemon/reaper.c:103
-msgid "Error creating signal pipe."
-msgstr "සංඥා නළය නිර්මාණය කිරිම දෝෂ සහිතයි."
-
-#: ../libbackground/applier.c:255
-msgid "Type"
-msgstr "වර්‍ගය"
-
-#: ../libbackground/applier.c:256
-msgid ""
-"Type of bg_applier: BG_APPLIER_ROOT for root window or BG_APPLIER_PREVIEW "
-"for preview"
-msgstr ""
-
-#: ../libbackground/applier.c:263
-msgid "Preview Width"
-msgstr ""
-
-#: ../libbackground/applier.c:264
-msgid "Width if applier is a preview: Defaults to 64."
-msgstr ""
-
-#: ../libbackground/applier.c:271
-msgid "Preview Height"
-msgstr ""
-
-#: ../libbackground/applier.c:272
-msgid "Height if applier is a preview: Defaults to 48."
-msgstr ""
-
-#: ../libbackground/applier.c:279
-msgid "Screen"
-msgstr "තිරය"
-
-#: ../libbackground/applier.c:280
-msgid "Screen on which BGApplier is to draw"
-msgstr ""
-
-#. make start action
-#: ../libslab/application-tile.c:362
-#, c-format
-msgid "<b>Start %s</b>"
-msgstr ""
-
-#: ../libslab/application-tile.c:381
-msgid "Help"
-msgstr "උදව්"
-
-#: ../libslab/application-tile.c:428
-msgid "Upgrade"
-msgstr ""
-
-#: ../libslab/application-tile.c:443
-msgid "Uninstall"
-msgstr ""
-
-#: ../libslab/application-tile.c:770 ../libslab/document-tile.c:526
-msgid "Remove from Favorites"
-msgstr ""
-
-#: ../libslab/application-tile.c:772 ../libslab/document-tile.c:528
-msgid "Add to Favorites"
-msgstr ""
-
-#: ../libslab/application-tile.c:857
-msgid "Remove from Startup Programs"
-msgstr ""
-
-#: ../libslab/application-tile.c:859
-msgid "Add to Startup Programs"
-msgstr ""
-
-#: ../libslab/app-shell.c:747
-#, c-format
-msgid ""
-"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
-"\n"
-" Your filter \"<b>%s</b>\" does not match any items.</span>"
-msgstr ""
-
-#: ../libslab/app-shell.c:897
-msgid "Other"
-msgstr "වෙනත්"
-
-#: ../libslab/bookmark-agent.c:1067
-msgid "New Spreadsheet"
-msgstr ""
-
-#: ../libslab/bookmark-agent.c:1071
-msgid "New Document"
-msgstr ""
-
-#: ../libslab/bookmark-agent.c:1121
-msgid "Home"
-msgstr "නිවස"
-
-#: ../libslab/bookmark-agent.c:1137
-msgid "File System"
-msgstr "ගොනු පද්ධතිය"
-
-#: ../libslab/bookmark-agent.c:1141
-msgid "Network Servers"
-msgstr "ජාල සේවාදායක"
-
-#: ../libslab/bookmark-agent.c:1170
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:23
-msgid "Search"
-msgstr "සොයන්න"
-
-#. make open with default action
-#: ../libslab/directory-tile.c:168
-msgid "<b>Open</b>"
-msgstr ""
-
-#. make rename action
-#: ../libslab/directory-tile.c:187 ../libslab/document-tile.c:232
-msgid "Rename..."
-msgstr "නම වෙනස් කරන්න..."
-
-#: ../libslab/directory-tile.c:201 ../libslab/directory-tile.c:210
-#: ../libslab/document-tile.c:246 ../libslab/document-tile.c:255
-msgid "Send To..."
-msgstr ""
-
-#. make move to trash action
-#: ../libslab/directory-tile.c:225 ../libslab/document-tile.c:281
-msgid "Move to Trash"
-msgstr "ඉවතලන්න"
-
-#: ../libslab/directory-tile.c:235 ../libslab/directory-tile.c:448
-#: ../libslab/document-tile.c:291 ../libslab/document-tile.c:639
-msgid "Delete"
-msgstr "මකන්න"
-
-#: ../libslab/document-tile.c:153
-msgid "Edited %m/%d/%Y"
-msgstr ""
-
-#: ../libslab/document-tile.c:193
-#, c-format
-msgid "<b>Open with \"%s\"</b>"
-msgstr ""
-
-#: ../libslab/document-tile.c:205
-msgid "Open with Default Application"
-msgstr ""
-
-#: ../libslab/document-tile.c:216
-msgid "Open in File Manager"
-msgstr ""
-
-#: ../libslab/libslab-bookmarkfile.c:700 ../libslab/libslab-bookmarkfile.c:777
-#: ../libslab/libslab-bookmarkfile.c:856 ../libslab/libslab-bookmarkfile.c:903
-#, c-format
-msgid "Unexpected attribute '%s' for element '%s'"
-msgstr "'%s' මූලය සඳහා බලාපොරොත්තු නොවු '%s' විශේෂණය"
-
-#: ../libslab/libslab-bookmarkfile.c:711 ../libslab/libslab-bookmarkfile.c:788
-#: ../libslab/libslab-bookmarkfile.c:798 ../libslab/libslab-bookmarkfile.c:914
-#, c-format
-msgid "Attribute '%s' of element '%s' not found"
-msgstr "'%s' මූලයෙහි '%s' විශේෂණය හමුවුයේ නැත"
-
-#: ../libslab/libslab-bookmarkfile.c:1087
-#: ../libslab/libslab-bookmarkfile.c:1152
-#: ../libslab/libslab-bookmarkfile.c:1216
-#: ../libslab/libslab-bookmarkfile.c:1226
-#, c-format
-msgid "Unexpected tag '%s', tag '%s' expected"
-msgstr "'%s'බලාපොරොත්තු නොවු ටැගයකි, බලාපොරොත්තු වුයේ '%s' ටැගයයි"
-
-#: ../libslab/libslab-bookmarkfile.c:1112
-#: ../libslab/libslab-bookmarkfile.c:1126
-#: ../libslab/libslab-bookmarkfile.c:1194
-#: ../libslab/libslab-bookmarkfile.c:1246
-#, c-format
-msgid "Unexpected tag '%s' inside '%s'"
-msgstr "'%s'බලාපොරොත්තු නොවු ටැගයක් '%s' තුළ ඇත"
-
-#: ../libslab/libslab-bookmarkfile.c:1929
-msgid "No valid bookmark file found in data dirs"
-msgstr "දත්ත බහලුම් තුළ නිරවද්‍ය පිටු සළකුණක් හමුවූයෙ නැත"
-
-#: ../libslab/libslab-bookmarkfile.c:2130
-#, c-format
-msgid "A bookmark for URI '%s' already exists"
-msgstr "'%s' URI සඳහා වු  පිටු සළකුණ දැනට භාවිතයේ ඇත"
-
-#: ../libslab/libslab-bookmarkfile.c:2176
-#: ../libslab/libslab-bookmarkfile.c:2333
-#: ../libslab/libslab-bookmarkfile.c:2418
-#: ../libslab/libslab-bookmarkfile.c:2499
-#: ../libslab/libslab-bookmarkfile.c:2584
-#: ../libslab/libslab-bookmarkfile.c:2667
-#: ../libslab/libslab-bookmarkfile.c:2745
-#: ../libslab/libslab-bookmarkfile.c:2824
-#: ../libslab/libslab-bookmarkfile.c:2866
-#: ../libslab/libslab-bookmarkfile.c:2963
-#: ../libslab/libslab-bookmarkfile.c:3089
-#: ../libslab/libslab-bookmarkfile.c:3279
-#: ../libslab/libslab-bookmarkfile.c:3355
-#: ../libslab/libslab-bookmarkfile.c:3508
-#: ../libslab/libslab-bookmarkfile.c:3573
-#: ../libslab/libslab-bookmarkfile.c:3663
-#: ../libslab/libslab-bookmarkfile.c:3790
-#, c-format
-msgid "No bookmark found for URI '%s'"
-msgstr "'%s' URI සඳහා පිටු සළකුණු හමුවුයේ නැත"
-
-#: ../libslab/libslab-bookmarkfile.c:2508
-#, c-format
-msgid "No MIME type defined in the bookmark for URI '%s'"
-msgstr "'%s' URI සඳහා වු පිටු සළකුණු තුළ MIME වර්‍හගයක් සදහන් කරුයේ නැත"
-
-#: ../libslab/libslab-bookmarkfile.c:2593
-#, c-format
-msgid "No private flag has been defined in bookmark for URI '%s'"
-msgstr ""
-
-#: ../libslab/libslab-bookmarkfile.c:2972
-#, c-format
-msgid "No groups set in bookmark for URI '%s'"
-msgstr "'%s' URI සඳහා වු පිටු සළකුණු තුළ සමූහ කට්ටලය නැත"
-
-#: ../libslab/libslab-bookmarkfile.c:3373
-#: ../libslab/libslab-bookmarkfile.c:3518
-#, c-format
-msgid "No application with name '%s' registered a bookmark for '%s'"
-msgstr ""
-
-#: ../libslab/search-bar.c:255
-msgid "Find Now"
-msgstr ""
-
-#: ../libslab/system-tile.c:128
-#, c-format
-msgid "<b>Open %s</b>"
-msgstr ""
-
-#: ../libslab/system-tile.c:141
-msgid "Remove from System Items"
-msgstr ""
-
-#: ../libsounds/sound-view.c:44
-msgid "Login"
-msgstr ""
-
-#: ../libsounds/sound-view.c:45
-msgid "Logout"
-msgstr ""
-
-#: ../libsounds/sound-view.c:46
-msgid "Boing"
-msgstr ""
-
-#: ../libsounds/sound-view.c:47
-msgid "Siren"
-msgstr ""
-
-#: ../libsounds/sound-view.c:48
-msgid "Clink"
-msgstr ""
-
-#: ../libsounds/sound-view.c:49
-msgid "Beep"
-msgstr "බීප් හඬ"
-
-#: ../libsounds/sound-view.c:50
-msgid "No sound"
-msgstr ""
-
-#: ../libsounds/sound-view.c:132
-msgid "Sound not set for this event."
-msgstr ""
-
-#: ../libsounds/sound-view.c:141
-msgid ""
-"The sound file for this event does not exist.\n"
-"You may want to install the gnome-audio package for a set of default sounds."
-msgstr ""
-
-#: ../libsounds/sound-view.c:152
-msgid "The sound file for this event does not exist."
-msgstr ""
-
-#: ../libsounds/sound-view.c:183
-msgid "Select Sound File"
-msgstr ""
-
-#: ../libsounds/sound-view.c:203
-#, c-format
-msgid "The file %s is not a valid wav file"
-msgstr ""
-
-#: ../libsounds/sound-view.c:264
-msgid "Select sound file..."
-msgstr ""
-
-#: ../libsounds/sound-view.c:366
-msgid "System Sounds"
-msgstr ""
-
-#: ../libwindow-settings/gnome-wm-manager.c:318
+#: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
 msgid "Window manager \"%s\" has not registered a configuration tool\n"
 msgstr ""
 
-#: ../libwindow-settings/metacity-window-manager.c:378
+#: ../libwindow-settings/metacity-window-manager.c:404
 msgid "Maximize"
 msgstr ""
 
-#: ../libwindow-settings/metacity-window-manager.c:379
+#: ../libwindow-settings/metacity-window-manager.c:405
+msgid "Maximize Vertically"
+msgstr ""
+
+#: ../libwindow-settings/metacity-window-manager.c:406
+msgid "Maximize Horizontally"
+msgstr ""
+
+#: ../libwindow-settings/metacity-window-manager.c:407
+msgid "Minimize"
+msgstr ""
+
+#: ../libwindow-settings/metacity-window-manager.c:408
 msgid "Roll up"
 msgstr ""
 
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:1
-msgid "If true, the mime handlers for text/plain and text/* will be kept in sync"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_default_editor.schemas.in.h:2
-msgid "Sync text/plain and text/* handlers"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:1
-msgid "E-mail"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:2
-msgid "E-mail's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:3
-msgid "Eject"
-msgstr "ඉවත් කරන්න"
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:4
-msgid "Eject's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:5
-msgid "Home folder"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:6
-msgid "Home folder's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:7
-msgid "Launch help browser"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:8
-msgid "Launch help browser's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:9
-msgid "Launch web browser"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:10
-msgid "Launch web browser's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:11
-msgid "Lock screen"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:12
-msgid "Lock screen's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:13
-msgid "Log out"
-msgstr "ඉවත් වීම"
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:14
-msgid "Log out's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:15
-msgid "Media player"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:16
-msgid "Media player key's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:17
-msgid "Next track key's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:18
-msgid "Pause"
-msgstr "විරාමය"
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:19
-msgid "Pause key's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:20
-msgid "Play (or play/pause)"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:21
-msgid "Play (or play/pause) key's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:22
-msgid "Previous track key's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:24
-msgid "Search's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:25
-msgid "Skip to next track"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:26
-msgid "Skip to previous track"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:27
-msgid "Sleep"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:28
-msgid "Sleep's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:29
-msgid "Stop playback key"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:30
-msgid "Stop playback key's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:31
-msgid "Volume down"
-msgstr "හඬ අඩු කරන්න"
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:32
-msgid "Volume down's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:33
-msgid "Volume mute"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:34
-msgid "Volume mute's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:35
-msgid "Volume step"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:36
-msgid "Volume step as percentage of volume."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:37
-msgid "Volume up"
-msgstr "හඬ වැඩි කරන්න"
-
-#: ../schemas/apps_gnome_settings_daemon_keybindings.schemas.in.h:38
-msgid "Volume up's shortcut."
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:1
-msgid "Display a dialog when there are errors running the screensaver"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:2
-msgid "Run screensaver at login"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:3
-msgid "Show Startup Errors"
-msgstr ""
-
-#: ../schemas/apps_gnome_settings_daemon_screensaver.schemas.in.h:4
-msgid "Start screensaver"
-msgstr ""
-
-#: ../shell/control-center.c:62
-#, c-format
-msgid "key not found [%s]\n"
-msgstr ""
-
-#: ../shell/control-center.c:159
-msgid "Filter"
-msgstr "පෙරනය"
-
-#: ../shell/control-center.c:159
-msgid "Groups"
-msgstr ""
-
-#: ../shell/control-center.c:159
-msgid "Common Tasks"
-msgstr ""
-
-#: ../shell/control-center.c:163 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr ""
+#: ../libwindow-settings/metacity-window-manager.c:409
+#, fuzzy
+msgid "None"
+msgstr "කිසිවක් නැත (_N)"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3402,23 +3273,23 @@ msgid "Exit shell on upgrade or uninstall action performed"
 msgstr ""
 
 #: ../shell/control-center.schemas.in.h:6
-msgid "Indicates whether to close the shell when a help action is performed"
+msgid "Indicates whether to close the shell when a help action is performed."
 msgstr ""
 
 #: ../shell/control-center.schemas.in.h:7
-msgid "Indicates whether to close the shell when a start action is performed"
+msgid "Indicates whether to close the shell when a start action is performed."
 msgstr ""
 
 #: ../shell/control-center.schemas.in.h:8
 msgid ""
 "Indicates whether to close the shell when an add or remove action is "
-"performed"
+"performed."
 msgstr ""
 
 #: ../shell/control-center.schemas.in.h:9
 msgid ""
 "Indicates whether to close the shell when an upgrade or uninstall action is "
-"performed"
+"performed."
 msgstr ""
 
 #: ../shell/control-center.schemas.in.h:10
@@ -3427,80 +3298,85 @@ msgstr ""
 
 #: ../shell/control-center.schemas.in.h:11
 msgid ""
-"The task name to be displayed in the control-center (thus needing to be "
-"translated) followed by a \";\" separator then the filename of an "
-"associated .desktop file to launch for that task."
+"The task name to be displayed in the control-center followed by a \";\" "
+"separator then the filename of an associated .desktop file to launch for "
+"that task."
 msgstr ""
 
 #. Translators: The format of this string is the task name to be displayed (translate that part) followed by a ";" separator then the filename (DONT translate the file name) of a .desktop file to launch. Multiple entries are separated by a ","
 #: ../shell/control-center.schemas.in.h:13
 msgid ""
-"[Change Desktop Background;background.desktop,Change Theme;gtk-theme-"
-"selector.desktop,Set Preferred Applications;default-applications.desktop,Add "
-"Printer;gnome-cups-manager.desktop]"
+"[Change Theme;gtk-theme-selector.desktop,Set Preferred Applications;default-"
+"applications.desktop,Add Printer;gnome-cups-manager.desktop]"
 msgstr ""
 
 #: ../shell/control-center.schemas.in.h:14
-msgid "if true, the control-center will close when a \"Common Task\" is activated"
+msgid ""
+"if true, the control-center will close when a \"Common Task\" is activated."
+msgstr ""
+
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
 msgstr ""
 
 #: ../shell/gnomecc.desktop.in.in.h:2
-#: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr ""
 
-#: ../typing-break/drw-break-window.c:188
+#: ../shell/shell.ui.h:1
+#, fuzzy
+msgid "Settings"
+msgstr "පෙරනිමි සැකසුම්"
+
+#: ../shell/shell.ui.h:2
+#, fuzzy
+msgid "_All Settings"
+msgstr "පෙරනිමි සැකසුම්"
+
+#: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
 msgstr ""
 
-#: ../typing-break/drw-break-window.c:244
+#: ../typing-break/drw-break-window.c:250
 msgid "Take a break!"
 msgstr ""
 
-#. { N_("/_Enabled"),      NULL, GIF_CB (popup_enabled_cb),     POPUP_ITEM_ENABLED, "<ToggleItem>", NULL },
-#: ../typing-break/drwright.c:128
-msgid "/_Preferences"
+#: ../typing-break/drwright.c:116
+msgid "_Take a Break"
 msgstr ""
 
-#: ../typing-break/drwright.c:129
-msgid "/_About"
-msgstr ""
-
-#: ../typing-break/drwright.c:131
-msgid "/_Take a Break"
-msgstr ""
-
-#: ../typing-break/drwright.c:500
+#: ../typing-break/drwright.c:440
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
 msgstr[0] ""
 msgstr[1] ""
 
-#: ../typing-break/drwright.c:504
+#: ../typing-break/drwright.c:444
+#, c-format
 msgid "Less than one minute until the next break"
 msgstr ""
 
-#: ../typing-break/drwright.c:591
+#: ../typing-break/drwright.c:526
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
 "error: %s"
 msgstr ""
 
-#: ../typing-break/drwright.c:610
+#: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr ""
 
-#: ../typing-break/drwright.c:611
+#: ../typing-break/drwright.c:544
 msgid "Eye candy added by Anders Carlsson"
 msgstr ""
 
-#: ../typing-break/drwright.c:620
+#: ../typing-break/drwright.c:553
 msgid "A computer break reminder."
 msgstr ""
 
-#: ../typing-break/drwright.c:622
+#: ../typing-break/drwright.c:555
 msgid "translator-credits"
 msgstr "පරිවර්තන ස්තුතිය"
 
@@ -3524,230 +3400,479 @@ msgid ""
 "'Notification area' and clicking 'Add'."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus-context-menu.c:132
-msgid "Set as Application Font"
-msgstr ""
-
-#: ../vfs-methods/fontilus/fontilus-context-menu.c:133
-msgid "Sets the default application font"
-msgstr ""
-
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:1
+#: ../font-viewer/fontilus.schemas.in.h:1
 msgid "If set to true, then OpenType fonts will be thumbnailed."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:2
+#: ../font-viewer/fontilus.schemas.in.h:2
 msgid "If set to true, then PCF fonts will be thumbnailed."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:3
+#: ../font-viewer/fontilus.schemas.in.h:3
 msgid "If set to true, then TrueType fonts will be thumbnailed."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:4
+#: ../font-viewer/fontilus.schemas.in.h:4
 msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+#: ../font-viewer/fontilus.schemas.in.h:5
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:6
+#: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+#: ../font-viewer/fontilus.schemas.in.h:7
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:8
+#: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:9
+#: ../font-viewer/fontilus.schemas.in.h:9
 msgid "Thumbnail command for OpenType fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:10
+#: ../font-viewer/fontilus.schemas.in.h:10
 msgid "Thumbnail command for PCF fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:11
+#: ../font-viewer/fontilus.schemas.in.h:11
 msgid "Thumbnail command for TrueType fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:12
+#: ../font-viewer/fontilus.schemas.in.h:12
 msgid "Thumbnail command for Type1 fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:13
+#: ../font-viewer/fontilus.schemas.in.h:13
 msgid "Whether to thumbnail OpenType fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:14
+#: ../font-viewer/fontilus.schemas.in.h:14
 msgid "Whether to thumbnail PCF fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:15
+#: ../font-viewer/fontilus.schemas.in.h:15
 msgid "Whether to thumbnail TrueType fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/fontilus.schemas.in.h:16
+#: ../font-viewer/fontilus.schemas.in.h:16
 msgid "Whether to thumbnail Type1 fonts"
 msgstr ""
 
-#: ../vfs-methods/fontilus/font-view.c:115
-msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-msgstr ""
-
-#: ../vfs-methods/fontilus/font-view.c:276
+#: ../font-viewer/font-view.c:289
 msgid "Name:"
 msgstr "නම:"
 
-#: ../vfs-methods/fontilus/font-view.c:279
+#: ../font-viewer/font-view.c:292
 msgid "Style:"
 msgstr ""
 
-#: ../vfs-methods/fontilus/font-view.c:289
+#: ../font-viewer/font-view.c:305
 msgid "Type:"
 msgstr "වර්‍ගය:"
 
-#: ../vfs-methods/fontilus/font-view.c:295
+#: ../font-viewer/font-view.c:309
 msgid "Size:"
 msgstr "විශාලත්වය:"
 
-#: ../vfs-methods/fontilus/font-view.c:339
-#: ../vfs-methods/fontilus/font-view.c:352
+#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "වෙළුම:"
 
-#: ../vfs-methods/fontilus/font-view.c:343
-#: ../vfs-methods/fontilus/font-view.c:354
+#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr ""
 
-#: ../vfs-methods/fontilus/font-view.c:347
+#: ../font-viewer/font-view.c:361
 msgid "Description:"
 msgstr "විස්තරය:"
 
-#: ../vfs-methods/fontilus/font-view.c:408
+#: ../font-viewer/font-view.c:441
+#, fuzzy
+msgid "Installed"
+msgstr "ස්ථාපනය... (_I)"
+
+#: ../font-viewer/font-view.c:444
+#, fuzzy
+msgid "Install Failed"
+msgstr "සියළුම ගොනු"
+
+#: ../font-viewer/font-view.c:516
 #, c-format
 msgid "usage: %s fontfile\n"
 msgstr ""
 
-#: ../vfs-methods/fontilus/gnome-font-viewer.desktop.in.in.h:1
-msgid "GNOME Font Viewer"
+#: ../font-viewer/font-view.c:591
+msgid "I_nstall Font"
 msgstr ""
 
-#: ../vfs-methods/fontilus/thumbnailer.c:242
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
+msgid "Font Viewer"
+msgstr ""
+
+#: ../font-viewer/gnome-font-viewer.desktop.in.in.h:2
+#, fuzzy
+msgid "Preview fonts"
+msgstr "පූර්‍වදසුන:"
+
+#: ../font-viewer/font-thumbnailer.c:245
 msgid "Text to thumbnail (default: Aa)"
 msgstr ""
 
-#: ../vfs-methods/fontilus/thumbnailer.c:242
+#: ../font-viewer/font-thumbnailer.c:245
 msgid "TEXT"
 msgstr "TEXT"
 
-#: ../vfs-methods/fontilus/thumbnailer.c:244
+#: ../font-viewer/font-thumbnailer.c:247
 msgid "Font size (default: 64)"
 msgstr ""
 
-#: ../vfs-methods/fontilus/thumbnailer.c:244
+#: ../font-viewer/font-thumbnailer.c:247
 msgid "SIZE"
 msgstr ""
 
-#: ../vfs-methods/fontilus/thumbnailer.c:246
+#: ../font-viewer/font-thumbnailer.c:249
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr ""
 
-#: ../vfs-methods/fontilus/thumbnailer.c:262
+#: ../font-viewer/font-thumbnailer.c:268
 #, c-format
 msgid "Error parsing arguments: %s\n"
 msgstr ""
 
-#: ../vfs-methods/themus/apply-font.glade.h:2
-msgid "<span weight=\"bold\" size=\"larger\">Apply new font?</span>"
+#: ../libslab/app-shell.c:754
+#, c-format
+msgid "Your filter \"%s\" does not match any items."
 msgstr ""
 
-#: ../vfs-methods/themus/apply-font.glade.h:3
-msgid "Do _not apply font"
+#: ../libslab/app-shell.c:756
+msgid "No matches found."
 msgstr ""
 
-#: ../vfs-methods/themus/apply-font.glade.h:4
-msgid ""
-"The theme you have selected suggests a new font. A preview of the font is "
-"shown below."
+#: ../libslab/app-shell.c:905
+msgid "Other"
+msgstr "වෙනත්"
+
+#. make start action
+#: ../libslab/application-tile.c:374
+#, c-format
+msgid "Start %s"
 msgstr ""
 
-#: ../vfs-methods/themus/apply-font.glade.h:5
-msgid "_Apply font"
+#: ../libslab/application-tile.c:395
+msgid "Help"
+msgstr "උදව්"
+
+#: ../libslab/application-tile.c:442
+msgid "Upgrade"
 msgstr ""
 
-#: ../vfs-methods/themus/theme-method.c:485
-msgid "Themes"
-msgstr "තේමා"
-
-#: ../vfs-methods/themus/themus-properties-view.c:126
-msgid "Description"
-msgstr "විස්තරය"
-
-#: ../vfs-methods/themus/themus-properties-view.c:133
-msgid "Control theme"
+#: ../libslab/application-tile.c:457
+msgid "Uninstall"
 msgstr ""
 
-#: ../vfs-methods/themus/themus-properties-view.c:139
-msgid "Window border theme"
+#: ../libslab/application-tile.c:784 ../libslab/document-tile.c:721
+msgid "Remove from Favorites"
 msgstr ""
 
-#: ../vfs-methods/themus/themus-properties-view.c:145
-msgid "Icon theme"
+#: ../libslab/application-tile.c:786 ../libslab/document-tile.c:723
+msgid "Add to Favorites"
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:1
-msgid "If set to true, then installed themes will be thumbnailed."
+#: ../libslab/application-tile.c:871
+msgid "Remove from Startup Programs"
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:2
-msgid "If set to true, then themes will be thumbnailed."
+#: ../libslab/application-tile.c:873
+msgid "Add to Startup Programs"
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:3
-msgid "Set this key to the command used to create thumbnails for installed themes."
+#: ../libslab/bookmark-agent.c:1077
+msgid "New Spreadsheet"
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:4
-msgid "Set this key to the command used to create thumbnails for themes."
+#: ../libslab/bookmark-agent.c:1082
+msgid "New Document"
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:5
-msgid "Thumbnail command for installed themes"
+#: ../libslab/bookmark-agent.c:1140
+msgid "Documents"
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:6
-msgid "Thumbnail command for themes"
+#: ../libslab/bookmark-agent.c:1153
+msgid "File System"
+msgstr "ගොනු පද්ධතිය"
+
+#: ../libslab/bookmark-agent.c:1157
+msgid "Network Servers"
+msgstr "ජාල සේවාදායක"
+
+#: ../libslab/bookmark-agent.c:1186
+msgid "Search"
+msgstr "සොයන්න"
+
+#. make open with default action
+#: ../libslab/directory-tile.c:171
+#, c-format
+msgid "<b>Open</b>"
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:7
-msgid "Whether to thumbnail installed themes"
+#. make rename action
+#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:234
+msgid "Rename..."
+msgstr "නම වෙනස් කරන්න..."
+
+#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
+#: ../libslab/document-tile.c:248 ../libslab/document-tile.c:257
+msgid "Send To..."
 msgstr ""
 
-#: ../vfs-methods/themus/themus.schemas.in.h:8
-msgid "Whether to thumbnail themes"
+#. make move to trash action
+#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:283
+msgid "Move to Trash"
+msgstr "ඉවතලන්න"
+
+#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
+#: ../libslab/document-tile.c:293 ../libslab/document-tile.c:837
+msgid "Delete"
+msgstr "මකන්න"
+
+#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:985
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
 msgstr ""
 
-#. translators: you may want to include non-western chars here
-#: ../vfs-methods/themus/themus-theme-applier.c:58
-msgid "ABCDEFG"
+#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:986
+msgid "If you delete an item, it is permanently lost."
 msgstr ""
 
-#: ../vfs-methods/themus/themus-theme-applier.c:84
-msgid "[FILE]"
+#: ../libslab/document-tile.c:193
+#, c-format
+msgid "Open with \"%s\""
 msgstr ""
 
-#: ../vfs-methods/themus/themus-theme-applier.desktop.in.in.h:1
-msgid "Apply theme"
+#: ../libslab/document-tile.c:207
+msgid "Open with Default Application"
 msgstr ""
 
-#: ../vfs-methods/themus/themus-theme-applier.desktop.in.in.h:2
-msgid "Sets the default theme"
+#: ../libslab/document-tile.c:218
+msgid "Open in File Manager"
 msgstr ""
 
+#: ../libslab/document-tile.c:617
+msgid "?"
+msgstr ""
+
+#: ../libslab/document-tile.c:624
+msgid "%l:%M %p"
+msgstr ""
+
+#: ../libslab/document-tile.c:632
+msgid "Today %l:%M %p"
+msgstr ""
+
+#: ../libslab/document-tile.c:642
+msgid "Yesterday %l:%M %p"
+msgstr ""
+
+#: ../libslab/document-tile.c:654
+msgid "%a %l:%M %p"
+msgstr ""
+
+#: ../libslab/document-tile.c:662
+msgid "%b %d %l:%M %p"
+msgstr ""
+
+#: ../libslab/document-tile.c:664
+msgid "%b %d %Y"
+msgstr ""
+
+#: ../libslab/search-bar.c:255
+msgid "Find Now"
+msgstr ""
+
+#: ../libslab/system-tile.c:127
+#, c-format
+msgid "<b>Open %s</b>"
+msgstr ""
+
+#: ../libslab/system-tile.c:140
+#, c-format
+msgid "Remove from System Items"
+msgstr ""
+
+#~ msgid " "
+#~ msgstr " "
+
+#~ msgid "    "
+#~ msgstr "    "
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>විද්‍යුත් තැපැල</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>නිවස</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>කාර්‍යය</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>වැඩ</b>"
+
+#~ msgid "Basic"
+#~ msgstr "සරළ"
+
+#~ msgid "milliseconds"
+#~ msgstr "මිලි තත්පර"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>පූර්‍වදසුන</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "කපන්න (_u)"
+
+#~ msgid "Edit"
+#~ msgstr "සැකසුම්"
+
+#~ msgid "Interface"
+#~ msgstr "අතුරු මූණත"
+
+#~ msgid "Open File"
+#~ msgstr "ගොනුව විවෘත කරන්න "
+
+#~ msgid "_Copy"
+#~ msgstr "පිටපත් කරන්න (_C)"
+
+#~ msgid "_File"
+#~ msgstr "ගොනු (_F)"
+
+#~ msgid "_New"
+#~ msgstr "නව (_N)"
+
+#~ msgid "_Open"
+#~ msgstr "විවෘත කරන්න (_O)"
+
+#~ msgid "_Paste"
+#~ msgstr "අලවන්න (_P)"
+
+#~ msgid "_Print"
+#~ msgstr "මුද්‍රණය (_P)"
+
+#~ msgid "_Quit"
+#~ msgstr "ඉවත් වන්න (_Q)"
+
+#~ msgid "_Save"
+#~ msgstr "සුරකින්න (_S)"
+
+#~ msgid "Connecting..."
+#~ msgstr "සම්බන්ද වෙමින්..."
+
+#~ msgid ""
+#~ "Testing the new settings. If you don't respond in %d second the previous "
+#~ "settings will be restored."
+#~ msgid_plural ""
+#~ "Testing the new settings. If you don't respond in %d seconds the previous "
+#~ "settings will be restored."
+#~ msgstr[0] ""
+#~ "නව පරිස්ථිතියන් පරීක්‍ෂාකරමින්. ඔබ තත්පර %d තුල ප්‍රතිචාර නොදැක්වුවහොත් පෙර පරිස්ථිතියන් නැවත "
+#~ "ස්ථපිත කෙරෙනු ඇත."
+#~ msgstr[1] ""
+#~ "නව පරිස්ථිතියන් පරීක්‍ෂාකරමින්. ඔබ තත්පර %d තුල ප්‍රතිචාර නොදැක්වුවහොත් පෙර පරිස්ථිතියන් නැවත "
+#~ "ස්ථපිත කෙරෙනු ඇත."
+
+#~ msgid "Not connected"
+#~ msgstr "සම්බන්ධ නොවීය"
+
+#~ msgid "OSS - Open Sound System"
+#~ msgstr "OSS - විවෘත හඬ පද්ධතිය"
+
+#~ msgid "Test Sound"
+#~ msgstr "හඬ පරීක්‍ෂාව"
+
+#~ msgid "Silence"
+#~ msgstr "නිහඬ"
+
+#~ msgid "<span weight=\"bold\" size=\"x-large\">Testing...</span>"
+#~ msgstr "<span weight=\"bold\" size=\"x-large\">පරික්‍ෂා කරමින්...</span>"
+
+#~ msgid "Test"
+#~ msgstr "පරික්‍ෂණය"
+
+#~ msgid "_Device:"
+#~ msgstr "උපාංගය (_D):"
+
+#~ msgid "Volume"
+#~ msgstr "හඬ"
+
+#~ msgid "_Activate"
+#~ msgstr "සක්‍රීය කරන්න (_A)"
+
+#~ msgid "_Deactivate"
+#~ msgstr "අක්‍රීය කරන්න (_D)"
+
+#~ msgid "Error creating signal pipe."
+#~ msgstr "සංඥා නළය නිර්මාණය කිරිම දෝෂ සහිතයි."
+
+#~ msgid "Type"
+#~ msgstr "වර්‍ගය"
+
+#~ msgid "Unexpected attribute '%s' for element '%s'"
+#~ msgstr "'%s' මූලය සඳහා බලාපොරොත්තු නොවු '%s' විශේෂණය"
+
+#~ msgid "Attribute '%s' of element '%s' not found"
+#~ msgstr "'%s' මූලයෙහි '%s' විශේෂණය හමුවුයේ නැත"
+
+#~ msgid "Unexpected tag '%s', tag '%s' expected"
+#~ msgstr "'%s'බලාපොරොත්තු නොවු ටැගයකි, බලාපොරොත්තු වුයේ '%s' ටැගයයි"
+
+#~ msgid "Unexpected tag '%s' inside '%s'"
+#~ msgstr "'%s'බලාපොරොත්තු නොවු ටැගයක් '%s' තුළ ඇත"
+
+#~ msgid "No valid bookmark file found in data dirs"
+#~ msgstr "දත්ත බහලුම් තුළ නිරවද්‍ය පිටු සළකුණක් හමුවූයෙ නැත"
+
+#~ msgid "A bookmark for URI '%s' already exists"
+#~ msgstr "'%s' URI සඳහා වු  පිටු සළකුණ දැනට භාවිතයේ ඇත"
+
+#~ msgid "No bookmark found for URI '%s'"
+#~ msgstr "'%s' URI සඳහා පිටු සළකුණු හමුවුයේ නැත"
+
+#~ msgid "No MIME type defined in the bookmark for URI '%s'"
+#~ msgstr "'%s' URI සඳහා වු පිටු සළකුණු තුළ MIME වර්‍හගයක් සදහන් කරුයේ නැත"
+
+#~ msgid "No groups set in bookmark for URI '%s'"
+#~ msgstr "'%s' URI සඳහා වු පිටු සළකුණු තුළ සමූහ කට්ටලය නැත"
+
+#~ msgid "Beep"
+#~ msgstr "බීප් හඬ"
+
+#~ msgid "Eject"
+#~ msgstr "ඉවත් කරන්න"
+
+#~ msgid "Log out"
+#~ msgstr "ඉවත් වීම"
+
+#~ msgid "Pause"
+#~ msgstr "විරාමය"
+
+#~ msgid "Volume down"
+#~ msgstr "හඬ අඩු කරන්න"
+
+#~ msgid "Volume up"
+#~ msgstr "හඬ වැඩි කරන්න"
+
+#~ msgid "Filter"
+#~ msgstr "පෙරනය"
+
+#~ msgid "Themes"
+#~ msgstr "තේමා"
+
+#~ msgid "Description"
+#~ msgstr "විස්තරය"

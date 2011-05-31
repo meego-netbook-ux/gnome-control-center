@@ -14,16 +14,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.ta\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-03-20 17:19+0530\n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-03-20 17:21+0530\n"
 "Last-Translator: Dr,T,Vasudevan <agnihot3@gmail.com>\n"
 "Language-Team: Tamil <Ubuntu-l10n-tam@lists.ubuntu.com>>\n"
+"Language: ta\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "X-Generator: Lokalize 0.3\n"
-"Plural-Forms: nplurals=2; plural=(n!=1);\\n"
-"\n"
+"Plural-Forms: nplurals=2; plural=(n!=1);\\n\n"
 "\n"
 "\n"
 "\n"
@@ -68,7 +68,8 @@ msgstr ""
 msgid ""
 "URL for where to get more desktop themes. If set to an empty string the link "
 "will not appear."
-msgstr "எங்கு பணிமேடை தீம்களை பெறுவதற்கான URL. ஒரு வெற்று சரமாக அமைத்தால் இணைப்பு தோன்றாது."
+msgstr ""
+"எங்கு பணிமேடை தீம்களை பெறுவதற்கான URL. ஒரு வெற்று சரமாக அமைத்தால் இணைப்பு தோன்றாது."
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -232,7 +233,7 @@ msgid "No Image"
 msgstr "படம் இல்லை"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "படங்கள்"
 
@@ -468,7 +469,8 @@ msgid "Set your personal information"
 msgstr "உங்கள் தனிப்பட்ட தகவலை அமைக்கவும்"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid "You are not allowed to access the device. Contact your system administrator."
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
 msgstr "நீங்கள் சாதனத்தை அணு அனுமதி இல்லை. கணினி நிர்வாகியை அணுகவும்."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
@@ -632,7 +634,7 @@ msgstr "அங்கீகரிப்பட்டது!"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
@@ -642,72 +644,73 @@ msgstr "ஆரம்ப அங்கீகாரத்திலிருந்�
 msgid "That password was incorrect."
 msgstr "அது தவறான கடவுச்சொல்"
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "உங்கள் கடவுச்சொல் மாற்றப்பட்டது."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "கணினி பிழை: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr "கடவுச்சொல் மிகவும் சிறயதாக உள்ளது."
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "கடவுச்சொல் மிக எளிமையாக உள்ளது."
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr "பழைய மற்றும் புதிய கடவுச்சொல் மிகவும் ஒற்றுமையாக உள்ளது."
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr "புதிய கடவுச்சொல் எண்கள் அல்லது சிறப்பெழுத்துக்களை கொண்டிருக்க வேண்டும்."
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr "பழைய மற்றும் கடவுச்சொற்கள் ஒரே மாதிரியாக உள்ளது."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "இதை துவக்க முடியவில்லை %s: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr "பின்தளத்தை ஏற்ற முடியவில்லை"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr "ஒரு கணினி பிழை ஏற்பட்டுள்ளது"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr "கடவுச்சொல்லை சரிபார்க்கிறது..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "<b>கடவுச்சொல்லை மாற்று</b> என்பதை சொடுக்கி உங்கள் கடவுச்சொல்லை மாற்றவும்."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "உங்கள் கடவுச்சொல்லை <b>புதிய கடவுச்சொல்</b> புலத்தில் தட்டச்சு செய்யவும்."
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid "Please type your password again in the <b>Retype new password</b> field."
+msgid ""
+"Please type your password again in the <b>Retype new password</b> field."
 msgstr ""
 "உங்கள் கடவுச்சொல்லை மீண்டும் <b>மீண்டும் புதிய கடவுச்சொல் தட்டச்சு செய்யவும்</b> புலத்தில் "
 "தட்டச்சு செய்யவும்."
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "இரண்டு கடவுச்சொற்களும் ஒன்றாக இல்லை."
 
@@ -716,6 +719,7 @@ msgid "Change pa_ssword"
 msgstr "கடவுச்சொல்லை மாற்று (_s)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "கடவுச்சொல்லை மாற்று"
 
@@ -815,11 +819,11 @@ msgstr "விருப்பமான நிரல்கள்"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "தேர்வு செய்க:  உள் நுழையும்போது எந்த அணுகல் சிறப்பியல்பை செயல் ஆக்க வேண்டும் "
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "சுவர்-காகிதங்கள் சேர்."
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "எல்லா கோப்புகள்"
 
@@ -870,6 +874,12 @@ msgid "Use selected font"
 msgstr "தேர்ந்தெடுத்த எழுத்துருவை பயன்படுத்துக"
 
 #: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "பயனர் இடைமுக கோப்பை ஏற்ற முடியவில்லை: %s"
@@ -889,7 +899,7 @@ msgstr "காட்ட வேண்டிய பக்கத்தின் ப
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "பக்கம்"
 
@@ -948,7 +958,8 @@ msgstr ""
 
 #: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
-msgstr "இப்போதைய கருப்பொருள் ஒரு கணினிமேசை பின்னணி மற்றும் ஒரு எழுத்துருவை குறிப்பிடுகிறது."
+msgstr ""
+"இப்போதைய கருப்பொருள் ஒரு கணினிமேசை பின்னணி மற்றும் ஒரு எழுத்துருவை குறிப்பிடுகிறது."
 
 #: ../capplets/appearance/appearance-themes.c:718
 msgid ""
@@ -1119,171 +1130,169 @@ msgid "Solid color"
 msgstr "பரு நிறம்"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "வீச்சு"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Stretch"
 msgstr "இழுவை"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "(_p) உள்பிக்சல் (LCDs)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "(_p) உள்பிக்சல் மழுப்பாக்கல் (LCDs)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "உள்பிக்சல் வரிசை"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "உரை"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "உருப்படிகள் கீழே உரை"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "உருப்படிகள் பக்கத்தில் உரை"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "உரை மட்டும்"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "இப்போதைய கட்டுபாடுகள் கருப்பொருள் வண்ண திட்டங்களை ஆதரிக்கவில்லை"
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "கருப்பொருள்"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
 msgid "Tile"
 msgstr "ஓடுகளாக்கப்பட்டது"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "செங்குத்து சீர் நிற மாற்றங்கள்"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "சாளர எல்லையின் தோற்றம்."
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "அணுகிப்பார்"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "சேர்... (_A)"
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "(_A) நிரல் எழுத்துரு:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "விளக்கம்: (_D)"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "ஆவண எழுத்துரு: (_D)"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "நிலையான எழுத்துரு அகலம்: (_F)"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "(_F) முழு"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "(_I) உள்ளீட்டு பெட்டிகள்:"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "நிறுவு... (_I)"
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "(_M) இடைநிலை"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "(_M) ஒற்றைநிறம்"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "(_N) பெயர்:"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "(_N) வெற்று"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "(_R) முன்னிருப்புக்கு மீட்டமை"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "(_S) தேர்வுசெய்த _உருப்படிகள்:"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "(_S) அளவு:"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "(_S) சிறிதளவு"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "(_S) பாணி:"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "(_T) உதவிக்குறிப்புகள்:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "(_W) சாளரம் தலைப்பு எழுத்துரு:"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "(_W) சாளரங்கள்:"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "அங்குலத்துக்கு புள்ளிகள்"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "தோற்றம்"
@@ -1308,25 +1317,26 @@ msgstr "க்னோம் கருப்பொருள் பொதி"
 msgid "No Desktop Background"
 msgstr "பணிமேடை பின்னணி எதுவுமில்லை"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "ஸ்லைடு காட்சி "
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "படம்"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "பல அளவுகள்"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272, c-format
+#: ../capplets/appearance/gnome-wp-item.c:275
+#, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s கீழ் %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "பிக்ஸல்"
@@ -1336,7 +1346,7 @@ msgstr[1] "பிக்ஸல்கள்"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1351,7 +1361,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1362,7 +1372,7 @@ msgstr ""
 "%s\n"
 "அடைவு: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "பிம்பம் காணவில்லை"
 
@@ -1495,7 +1505,7 @@ msgstr ""
 "போனபோவில் பிழை நேரலாம் அல்லது க்னோம் அல்லாத பயன்பாடு (உதாரணம் கேடியி) அமைப்பு மேலாளர் "
 "ஏற்கெனவெ செயல்பாட்டில் இருக்கலாம் அல்லது க்னோமோடு சிக்கல் நிகழ்ந்திருக்கலாம்"
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "இருப்பு சின்னத்தை ஏற்ற முடியவில்லை '%s'\n"
@@ -1581,76 +1591,80 @@ msgstr "(_S) தவிர்"
 msgid "Overwrite _All"
 msgstr "(_A) அனைத்தும் மேலெழுது "
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "விசை"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "இந்த பண்பு திருத்தி இணைக்கப்பட்டுள்ள Gஅமைப்பு விசை"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "திரும்ப அழை"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "மாற்றப்பட்ட விசையுடன் மதிப்பு தொடற்புறும்போது மீண்டும் அழைப்பு வழங்கப்படும்"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "கணத்தை மாற்று"
 
-#: ../capplets/common/gconf-property-editor.c:148
-msgid "GConf change set containing data to be forwarded to the gconf client on apply"
+#: ../capplets/common/gconf-property-editor.c:150
+msgid ""
+"GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr ""
 "GConf  மாற்று அமைப்பு கொண்டுள்ள அமைப்பு gconf  கிளயண்ட் பயன்படுத்தினவுடட் முன்னோக்கப்பட்டது"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "குறுபயன்பாடு அழைப்புக்கு மாற்றுதல்"
 
-#: ../capplets/common/gconf-property-editor.c:154
-msgid "Callback to be issued when data are to be converted from GConf to the widget"
+#: ../capplets/common/gconf-property-editor.c:156
+msgid ""
+"Callback to be issued when data are to be converted from GConf to the widget"
 msgstr ""
 "தரவுகள் GConf லிருந்து விட்ஜெட்டுக்கு மாற்றம் செய்யும்போது பின்னுக்குகூப்பிடு "
 "வழங்கப்படவேண்டும்"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "குறுபயன்பாடு மறுஅழைப்பிலிருந்து மாற்றுதல்"
 
-#: ../capplets/common/gconf-property-editor.c:160
-msgid "Callback to be issued when data are to be converted to GConf from the widget"
+#: ../capplets/common/gconf-property-editor.c:162
+msgid ""
+"Callback to be issued when data are to be converted to GConf from the widget"
 msgstr ""
 "தரவுகள் விட்ஜெட்டிலிருந்து GConfக்கு மாற்றம் செய்யப்படும்போது பின்னுக்குகூப்பிடு "
 "வழங்கப்படவேண்டும்"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "UI கட்டுப்பாடு"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "தன்மையை கட்டுப்படுத்தும் பொருள்"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "பண்பு மாற்றி பொருள் விவரம்"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "குறிப்பிட்ட பண்பு மாற்றிக்கு தேவைப்படும் தனிவகை தகவல்"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "மறுஅழைப்பை விட்டுவிடும் பண்பு மாற்றி தகவல்"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
-msgstr "குணங்கள் தொகுப்பி பொருள் தரவு சுதந்திரமாகும்போது பின்னுக்குகூப்பிடு வழங்கப்படவேண்டும்"
+msgstr ""
+"குணங்கள் தொகுப்பி பொருள் தரவு சுதந்திரமாகும்போது பின்னுக்குகூப்பிடு வழங்கப்படவேண்டும்"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1662,7 +1676,7 @@ msgstr ""
 "\n"
 "இக்கோப்பை உள்ளதா என கண்டறியவும்,அல்லது வேரொரு பின்னணியை தேர்வு செய்யவும்"
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1675,11 +1689,11 @@ msgstr ""
 "\n"
 "பதிலாக தயவுசெய்து வேறு படத்தை தேர்ந்தெடுக்கவும்."
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "ஓர் படத்தை தெரிவு செய்யவும்."
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "(_S) தேர்ந்தெடு"
 
@@ -1773,7 +1787,8 @@ msgstr "குறுநிரல் ஒழுங்காக நிறுவப�
 #. TRANSLATORS: don't translate the terms in brackets
 #: ../capplets/default-applications/gnome-da-capplet.c:959
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
-msgstr "காட்ட வேன்டிய  பக்கத்தின்  பெயரை குறிப்பிடு  (இணையம் | பல்லூடகம் | கணினி | நண்பன்)"
+msgstr ""
+"காட்ட வேன்டிய  பக்கத்தின்  பெயரை குறிப்பிடு  (இணையம் | பல்லூடகம் | கணினி | நண்பன்)"
 
 #: ../capplets/default-applications/gnome-da-capplet.c:964
 msgid "- GNOME Default Applications"
@@ -1795,6 +1810,7 @@ msgstr "அனைத்து %s நிகழ்வுகளும் உண்�
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "(_o) கட்டளை:"
 
@@ -2090,6 +2106,49 @@ msgstr "டோடம் திரைப்பட இயக்கி"
 msgid "aterm"
 msgstr "எடெர்ம்"
 
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "மானிட்டர் கட்டமைப்பை சேமிக்க முடியவில்லை"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "காட்சி கட்டமைப்பை செயல்படுத்தும் போது அமர்வு பஸ்ஸை பெற முடியவில்லை"
+
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "திரை தகவலை பெற முடியவில்லை"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr "காட்டு"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "பலகத்தை சேர் (_p)"
@@ -2200,80 +2259,87 @@ msgstr "%d x %d"
 msgid ""
 "Select a monitor to change its properties; drag it to rearrange its "
 "placement."
-msgstr "பண்புகளை  மாற்ற ஒரு திரையகத்தை   தேர்வு செய்க; அதன் இடத்தை  மாற்ற அதை  இழுக்கவும்."
-
-#: ../capplets/display/xrandr-capplet.c:2061
-msgid "Could not save the monitor configuration"
-msgstr "மானிட்டர் கட்டமைப்பை சேமிக்க முடியவில்லை"
-
-#: ../capplets/display/xrandr-capplet.c:2072
-msgid "Could not get session bus while applying display configuration"
-msgstr "காட்சி கட்டமைப்பை செயல்படுத்தும் போது அமர்வு பஸ்ஸை பெற முடியவில்லை"
+msgstr ""
+"பண்புகளை  மாற்ற ஒரு திரையகத்தை   தேர்வு செய்க; அதன் இடத்தை  மாற்ற அதை  இழுக்கவும்."
 
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
 msgstr "காட்சிகளை கண்டறிய முடியவில்லை"
 
-#: ../capplets/display/xrandr-capplet.c:2329
-msgid "Could not get screen information"
-msgstr "திரை தகவலை பெற முடியவில்லை"
-
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "ஒலி"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "மேசைச்சூழல்"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "புதிய குறுவழி..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "முடுக்கல் விசை"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "முடுக்கல் மாற்றிகள்"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "முடுக்கல் விசை"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "முடுக்கல் முறைமை"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "முடுக்கல் வகையினம்:"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "முடக்கப்பட்டது"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<தெரியாத செயல்>"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "தனிப்பயன் குறுக்குவழிகள் "
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "புதிய குறுக்குவழியை சேமிப்பதில் பிழை"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2285,6 +2351,7 @@ msgstr ""
 "அதே நேரத்தில் கன்ட்ரோல், ஆல்ட் அல்லது ஷிப்ட் விசைகளை பயன்படுத்தி முயற்சிக்கவும்."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2292,41 +2359,51 @@ msgid ""
 msgstr "குறுவழி \"%s\"ஏற்கெனவே \"%s\"க்கு பயன்பட்டது "
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgid ""
+"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr " \"%s\" க்கு குறுவழியாக மாற்றி அமைத்தால்  \"%s\" குறுவழி  முடங்கிவிடும்."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "(_R) மறுஇருத்து "
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "வடிவமைப்பு தரவுத்தளத்தில் ஊக்கியை மாற்றி அமைப்பதில்  பிழை: %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "அதிகமான தனிப்பயன் குறுக்குவழிகள் "
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "செயல்"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "குறுக்கு வழி"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "தனிப்பயன் குறுக்குவழி"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "விசைப்பலகை குறுக்கு வழிகள்"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2338,20 +2415,32 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "கட்டளைகளுக்கான குறுக்கு வழி விசைகளை ஒப்படை"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
-msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "விசைப்பலகை"
+
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "இடஅமைவுகள்"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
+msgid ""
+"Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr "அமைவுகளை சேமித்து வெளிச்செல்லவும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "உள்ளிடல் முறிவு அமைப்புகளை காட்டி, பக்கத்தை திறக்கவும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "அணுகல் அமைப்புகளை காட்டி, பக்கத்தை திறக்கவும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "- க்னோம் விசைப்பலகை விருப்பங்கள்"
 
@@ -2397,7 +2486,7 @@ msgid "Flash entire _screen"
 msgstr "முழு திரையை பளிச்சிடு (_s)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "பொது"
@@ -2411,12 +2500,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "எச்சரிக்கை ஒலியின் விஷுவல் பின்னூட்டத்தை காட்டு (_v)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "மெது விசைகள்"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "ஒட்டு விசைகள்"
 
@@ -2432,62 +2521,58 @@ msgstr "இடை முறிவுகளை தள்ளிப்போட அ
 msgid "Audio _Feedback..."
 msgstr "(_F) ஒலி மீட்பொலி..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "முறிவுகள்  தள்ளிப்போட அனுமதி உள்ளதா என சோதிக்கவும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "நிலைக்காட்டி சிமிட்டும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "(_b) நிலைக்காட்டி உரை  உள்ளே சிமிட்டும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "நிலைகாட்டி சிமிட்டும் வேகம்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "_e தாமதம்:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "(_b) இரண்டு விசைகளை ஒரே நேஎரத்தில் அழுத்தினால்  ஒட்டு விசையை செயல் நீக்கவும்."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "உள்ளிடல் செயலிழக்கப்பட்டபோது இடைவேளையின்வின் காலஅளவு"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "இவ்வளவு வேலைக்குப் பிறகு இடைவேளையை கட்டாயமாக்கு"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "Fast"
 msgstr "விரைவு"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "அமுக்கப்படும்போது விசை மறுபடியும் அச்சிடப்படும்."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "விசைப்பலகை விருப்பங்கள்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "(_m) விசைப்பலகை வகை"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "இடஅமைவுகள்"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2495,116 +2580,117 @@ msgstr ""
 "வி விசைப்ப விபத்து ஏற்படாமல் தடுக்கலை  குறிப்பிட்ட கால இடைவெளிக்குப்பிறகு "
 "திரையைப்பூட்டவும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "நீண்டது"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "சொடுக்கி விசைகள்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr "கீழே நகர்த்து (_D)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr "மேலே நகர்த்து (_U)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr "_ புதிய சாளரங்கள் நடப்பு சாளர இட அமைவை பயன்படுத்தும்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "மறுசெயல் விசைகள்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "தொடரும் விசைகளின் வேகம்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "(_f) முன்னிருப்புக்கு மறுஅமை"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "(_p) வேகம்:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Short"
 msgstr "குறுகிய"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "மெதுவாக"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "உள்ளிடல் இடைவெளி"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "(_A) ஆர்முடுகல்:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
-msgstr "(_A) அணுகல் சிறப்பு இயல்புகள் விசைப்பலகை குறுக்குவழிகளுடன் முன் பின் மாற் ற முடியும்."
+msgstr ""
+"(_A) அணுகல் சிறப்பு இயல்புகள் விசைப்பலகை குறுக்குவழிகளுடன் முன் பின் மாற் ற முடியும்."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "(_B) இடைவெளி நீள நேரம்:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "(_D) தாமதம்:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "(_I) வேக இரட்டிப்பு விசை அழுத்தங்களை தவிர்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "(_L) தட்டச்சு முறிவை கட்டாயப்படுத்த திரையை பூட்டு "
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "(_O) நீண்ட விசை அழுத்தத்தை மட்டும் ஏற்றுக்கொள்க"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "(_O) தேர்வுகள்..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "(_P) சுட்டி விசைபலகத்தால் கட்டுப்படுத்த இயலும்."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
 msgstr "(_S) ஒவ்வொரு சாளரத்திற்கும் தனி இட அமைவு"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "(_S) ஒரே நேர விசை அழுத்தலை பாவிக்க"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "(_S) வேகம்:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "(_T) அமைப்புகளை சோதிக்க உள்ளிடவும்:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "(_W) வேலை இடைவெளி  நேரம்"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "நிமிடங்கள்"
 
@@ -2673,13 +2759,13 @@ msgstr "மாதிரி"
 msgid "Default"
 msgstr "முன்னிருப்பு"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "விசைப்பலகை"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "உங்கள் விசைப்பலகை விருப்பங்களை அமைக்கவும்"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr ""
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2712,11 +2798,11 @@ msgid "gesture|Disabled"
 msgstr "முடக்கப்பட்ட"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "காட்ட வேண்டிய  பக்கத்தின் பெயர் குறிப்பிடு"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "GNOME சொடுக்கி விருப்பங்கள்"
 
@@ -2809,8 +2895,10 @@ msgid "Thr_eshold:"
 msgstr "(_e) மாறு நிலை:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid "To test your double-click settings, try to double-click on the light bulb."
-msgstr "உங்கள் இரட்டிப்பு சொடுக்கு அமைப்பை சோதிக்க  மின்விளக்கு மீது இரட்டிப்பு சொடுக்கு செய்க"
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
+msgstr ""
+"உங்கள் இரட்டிப்பு சொடுக்கு அமைப்பை சோதிக்க  மின்விளக்கு மீது இரட்டிப்பு சொடுக்கு செய்க"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
 msgid "Touchpad"
@@ -2872,6 +2960,11 @@ msgstr "சொடுக்கி"
 msgid "Set your mouse preferences"
 msgstr "உங்கள் சொடுக்கியின் பண்புகளை அமைக்கவும்"
 
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "வலையமைப்பு பிரதிநிதி."
+
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
@@ -2890,104 +2983,256 @@ msgid "Set your network proxy preferences"
 msgstr "உங்கள் பிணைய பதிலாள் முன்னுரிமைகளை அமை"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>நேரான இணைய இணைப்பு</b> (_r)"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>(_A) தானாகவே உள்ளமைக்கபடும் போலி </b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>(_M) கையேடு உள்ளமைக்கபட்ட கோலி</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>(_U) பயன்படுத்து உறுதிபடுத்துதலை</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "(_U) தானியங்கி அமைப்பு URL:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "உருவாக்கு (_r)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "புதிய இடத்தை உருவாக்கு"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>நேரான இணைய இணைப்பு</b> (_r)"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP பதிவாணை விவரங்கள்"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "(_T) HTTP பிரதிநிதி ."
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "புரவலன் பட்டியலை தவிர்"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "புரவலன்களை உதாசீனம் செய்க"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "இடம்:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "பிணைய பதிலாள் முன்னுரிமைகள்"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "துறை:."
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "பதிலாள் கட்டமைப்பு"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "(_o) பள்ள புரவன்"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "இந்த இடம் ஏற்கனவே உள்ளது."
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "(_s)பயனர் பெயர்."
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>(_A) தானாகவே உள்ளமைக்கபடும் போலி </b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "இடத்தை அழி (_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "(_D) விவரங்கள்"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "(_F) FTP பிரதிநிதி ."
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "இடப்பெயர் (_L):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>(_M) கையேடு உள்ளமைக்கபட்ட கோலி</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "(_P) கடவுச் சொல்:."
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "(_S) HTTP பிரதிநிதி பழங்கவும்."
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>(_U) பயன்படுத்து உறுதிபடுத்துதலை</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "(_U) எல்லா நெறிமுறைகளுக்கும் அதே பதிலாள் ஐ பயன்படுத்துவும். "
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "நிமிடங்கள்"
+msgstr[1] "நிமிடங்கள்"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "கடவுச்சொல் மிக எளிமையாக உள்ளது."
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "உங்கள் கடவுச்சொல் மாற்றப்பட்டது."
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "அது தவறான கடவுச்சொல்"
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "அங்கீகரிப்பட்டது!"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "கடவுச்சொல் மிகவும் சிறயதாக உள்ளது."
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "கடவுச்சொல் மிக எளிமையாக உள்ளது."
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "பழைய மற்றும் புதிய கடவுச்சொல் மிகவும் ஒற்றுமையாக உள்ளது."
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "புதிய கடவுச்சொல் எண்கள் அல்லது சிறப்பெழுத்துக்களை கொண்டிருக்க வேண்டும்."
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "பழைய மற்றும் கடவுச்சொற்கள் ஒரே மாதிரியாக உள்ளது."
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr "ஆரம்ப அங்கீகாரத்திலிருந்து உங்கள் கடவுச்சொல் மாற்றப்பட்டுள்ளது! மீண்டும் அங்கீகரிக்கவும்."
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "புதிய கடவுச்சொல் எண்கள் அல்லது சிறப்பெழுத்துக்களை கொண்டிருக்க வேண்டும்."
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "தெரியாத"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "புதிய கடவுச்சொல்லை மீண்டும் தட்டச்சு செய்யவும்:"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "நடப்பு கடவுச்சொல்: (_p)"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "புதிய கடவுச் சொல்: (_N)"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "புதிய கடவுச்சொல்லை மீண்டும் தட்டச்சு செய்யவும்:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "கடவுச்சொல்லை மாற்று"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3086,32 +3331,6 @@ msgstr "மேல் தள்ளல்"
 msgid "None"
 msgstr "ஏதுமில்லை"
 
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "விசை காணப்படவில்லை [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "துவக்கத்தில் மறை (ஷெல்லை முன் ஏற்றும் போது பயனுள்ளது)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "வடிகட்டி"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "குழுக்கள்"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "பொது வேலைகள்"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "கட்டுப்பாட்டு மையம்"
-
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
 msgstr "ஒரு வேலை முடிந்ததும் கட்டுப்பாட்டு மையத்தை மூடு"
@@ -3175,12 +3394,25 @@ msgstr ""
 "applications.desktop,Add Printer;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid "if true, the control-center will close when a \"Common Task\" is activated."
+msgid ""
+"if true, the control-center will close when a \"Common Task\" is activated."
 msgstr "உண்மை எனில் கட்டுப்பாட்டு மையம்  \"Common Task\" செயலானதும் மூடப்படும்."
+
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "கட்டுப்பாட்டு மையம்"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "கனோம் அமைவடிவு கருவி"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr ""
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3269,7 +3501,8 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "உண்மையெனில், Type1 எழுத்துருக்கள் சிறுபடமாக்கப்படும்."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
 msgstr "OpenType எழுத்துருக்களுக்கு சிறுபடம் உருவாக்க இந்த விசையை கட்டளையாக அமை"
 
 #: ../font-viewer/fontilus.schemas.in.h:6
@@ -3277,7 +3510,8 @@ msgid "Set this key to the command used to create thumbnails for PCF fonts."
 msgstr "PCF எழுத்துருக்களுக்கு சிறுபடம் உருவாக்க இந்த விசையை கட்டளையாக அமை."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
 msgstr "TrueType எழுத்துருக்களுக்கு சிறுபடம் உருவாக்க இந்த விசையை கட்டளையாக அமை."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
@@ -3555,11 +3789,26 @@ msgstr "<b>திற %s</b>"
 msgid "Remove from System Items"
 msgstr "கணினி அமைப்பு உருப்படிகளில் இருந்து நீக்கு"
 
+#~ msgid "Span"
+#~ msgstr "வீச்சு"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "விசை காணப்படவில்லை [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "துவக்கத்தில் மறை (ஷெல்லை முன் ஏற்றும் போது பயனுள்ளது)"
+
+#~ msgid "Filter"
+#~ msgstr "வடிகட்டி"
+
+#~ msgid "Groups"
+#~ msgstr "குழுக்கள்"
+
+#~ msgid "Common Tasks"
+#~ msgstr "பொது வேலைகள்"
+
 #~ msgid "Change screen resolution"
 #~ msgstr "திரை நுணுக்கத்தை மாற்றவும்"
-
-#~ msgid "Display"
-#~ msgstr "காட்டு"
 
 #~ msgid "Display Preferences"
 #~ msgstr "காட்சி முன்னுரிமைகள்"

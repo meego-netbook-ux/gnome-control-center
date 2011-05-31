@@ -8,10 +8,11 @@ msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.kn\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2010-04-22 14:14+0530\n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-04-22 14:13+0530\n"
 "Last-Translator: Shankar Prasad <svenkate@redhat.com>\n"
 "Language-Team: kn-IN <>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -216,7 +217,7 @@ msgid "No Image"
 msgstr "ಯಾವುದೆ ಚಿತ್ರವಿಲ್ಲ"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "ಚಿತ್ರಗಳು"
 
@@ -707,6 +708,7 @@ msgid "Change pa_ssword"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು(_s)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು"
 
@@ -807,11 +809,11 @@ msgstr "ಅಪೇಕ್ಷಿತ ಅನ್ವಯಗಳು(_P)"
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "ನೀವು ಪ್ರವೇಶಿಸಿದಾಗ ಯಾವ ನಿಲುಕಣಾ ಸವಲತ್ತುಗಳನ್ನು ಶಕ್ತಗೊಳಿಸಬೇಕು ಎಂದು ಆಯ್ಕೆ ಮಾಡಿ"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "ವಾಲ್‍ಪೇಪರನ್ನು ಸೇರಿಸು"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "ಎಲ್ಲಾ ಕಡತಗಳು"
 
@@ -866,6 +868,12 @@ msgid "Use selected font"
 msgstr "ಆರಿಸಲಾದ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು"
 
 #: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "ಬಳಕೆದಾರ ಸಂಪರ್ಕಸಾಧನವನ್ನು ಕಡತವನ್ನು ಲೋಡ್‌ ಮಾಡಲಾಗಲಿಲ್ಲ: %s"
@@ -885,7 +893,7 @@ msgstr "ತೋರಿಸಲು ಪುಟದ ಹೆಸರನ್ನು ಸೂಚಿ
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "ಪುಟ"
 
@@ -1117,173 +1125,171 @@ msgid "Solid color"
 msgstr "ಗಾಢ ಬಣ್ಣ"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "ಸ್ಪ್ಯಾನ್"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
 #, fuzzy
 msgid "Stretch"
 msgstr "ಹುಡುಕು"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "ಉಪಪಿಕ್ಸೆಲ್ (LCDಗಳು)(_p)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "ಉಪಪಿಕ್ಸೆಲ್ ಮೃದುಗೊಳಿಕೆ(_p) (LCDಗಳು)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "ಉಪಪಿಕ್ಸೆಲ್ ಅನುಕ್ರಮ"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "ಪಠ್ಯ"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "ಅಂಶಗಳ ಕೆಳಗೆ ಪಠ್ಯ"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "ಅಂಶಗಳ ಬದಿಯಲ್ಲಿನ ಪಠ್ಯ"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "ಪಠ್ಯ ಮಾತ್ರ"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "ಈಗಿನ ನಿಯಂತ್ರಣಗಳ ಪರಿಸರವಿನ್ಯಾಸ ಬಣ್ಣದ ಸ್ಕೀಮ್‍ಗಳನ್ನು ಬೆಂಬಲಿಸುವುದಿಲ್ಲ."
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "ಪರಿಸರವಿನ್ಯಾಸ"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
 #, fuzzy
 msgid "Tile"
 msgstr "ಚೌಕವನ್ನೊಳಗೊಂಡ"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "ಲಂಬವಾದ ಬದಲಾವಣೆ"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "ವಿಂಡೊ ಅಂಚು"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "ಗಾತ್ರಬದಲಿಸು"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "ಸೇರಿಸು(_A)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "ಅನ್ವಯದ ಅಕ್ಷರಶೈಲಿ(_A):"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "ವಿವರಣೆ(_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "ದಸ್ತಾವೇಜಿನ ಅಕ್ಷರಶೈಲಿ(_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "ಅಕ್ಷರಶೈಲಿಯ ನಿಗದಿತ ಅಗಲ(_F):"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "ಸಂಪೂರ್ಣ(_F)"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "ಇನ್‌ಪುಟ್‌ ಚೌಕಗಳು(_I):"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "ಅನುಸ್ಥಾಪಿಸು(_I)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "ಮಧ್ಯಮ(_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "ಏಕವರ್ಣ(_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "ಹೆಸರು(_N):"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "ಯಾವುದೂ ಇಲ್ಲ(_N)"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತಕ್ಕೆ ಮರುಹೊಂದಿಸು(_R)"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "ಆರಿಸಲಾದ ಅಂಶಗಳು(_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "ಗಾತ್ರ:(_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "ಸ್ವಲ್ಪ(_S)"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "ಶೈಲಿ(_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "ಉಪಕರಣ ಸಲಹೆಗಳು(_T):"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "ವಿಂಡೊ ಶೀರ್ಷಿಕೆ ಅಕ್ಷರಶೈಲಿ(_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "ವಿಂಡೋಗಳು(_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "ಪ್ರತಿ ಇಂಚಿನ ಚುಕ್ಕೆಗಳು"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "ಗೋಚರಿಕೆ"
@@ -1308,26 +1314,26 @@ msgstr "Gnome ಪ್ಯಾಕೇಜ್ ಅನುಸ್ಥಾಪಕ"
 msgid "No Desktop Background"
 msgstr "ಯಾವುದೆ ಗಣಕತೆರೆ ಹಿನ್ನಲೆ ಚಿತ್ರವಿಲ್ಲ"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "ಜಾರುಫಲಕದ ಪ್ರದರ್ಶನ"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "ಚಿತ್ರ"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "ಅನೇಕ ಗಾತ್ರಗಳು"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, fuzzy, c-format
 msgid "%d %s by %d %s"
 msgstr "%b %d %Y"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "ಪಿಕ್ಸೆಲ್"
@@ -1337,7 +1343,7 @@ msgstr[1] "ಪಿಕ್ಸೆಲ್‍ಗಳು"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1352,7 +1358,7 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1363,7 +1369,7 @@ msgstr ""
 "%s\n"
 "ಕಡತಕೋಶ: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "ಚಿತ್ರಗಳು ಕಾಣಿಸುತ್ತಿಲ್ಲ"
 
@@ -1495,7 +1501,7 @@ msgstr ""
 "ಒಂದು ಸಿದ್ಧತಾ ವ್ಯವಸ್ಥಾಪಕವು ಈಗಾಗಲೆ ಸಕ್ರಿಯವಾಗಿದ್ದು ಅದು GNOME ನ ಸಿದ್ಧತಾ "
 "ವ್ಯವಸ್ಥಾಪಕದೊಂದಿಗೆ ಘರ್ಷಣೆಗೆ ಕಾರಣವಾಗಿರಬಹುದು."
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "ಶೇಖರಣಾ ಚಿಹ್ನೆ '%s' ಅನ್ನು ಲೋಡ್‌ ಮಾಡಲು ಆಗಲಿಲ್ಲ\n"
@@ -1581,75 +1587,75 @@ msgstr "ಉಪೇಕ್ಷಿಸಿ (_S)"
 msgid "Overwrite _All"
 msgstr "ಎಲ್ಲವನ್ನೂ ತಿದ್ದಿಬರೆ(_A)"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "ಕೀಲಿ"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "ಈ ಗುಣಲಕ್ಷಣ ಸಂಪಾದಕಕ್ಕೆ ಲಗತ್ತಿಸಲಾದ GConf ಕೀಲಿ"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "ಕಾಲ್‍ಬ್ಯಾಕ್"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "ಕೀಲಿಗೆ ಸಂಬಂದಪಟ್ಟ ಮೌಲ್ಯವನ್ನು ಬದಲಾಯಿಸಿದಲ್ಲಿ ಈ ಕಾಲ್‌ಬ್ಯಾಕ್ ಅನ್ನು ಒದಗಿಸು"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "ಬದಲಾವಣೆ ಸೆಟ್"
 
-#: ../capplets/common/gconf-property-editor.c:148
+#: ../capplets/common/gconf-property-editor.c:150
 msgid ""
 "GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr ""
 "ಅನ್ವಯಿಸಿದಾಗ gconf ಕ್ಲೈಂಟಿಗೆ ರವಾನಿಸಬೇಕಿರುವ ದತ್ತಾಂಶವನ್ನು ಹೊಂದಿರುವ GConf ಬದಲಾವಣೆ ಸೆಟ್"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "ವಿಜೆಟ್‌ ಕಾಲ್‌ಬ್ಯಾಕ್‌ಗೆ ಪರಿವರ್ತನೆ"
 
-#: ../capplets/common/gconf-property-editor.c:154
+#: ../capplets/common/gconf-property-editor.c:156
 msgid ""
 "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "ವಿಜೆಟ್‌ಗೆ GConf ನಿಂದ ದತ್ತಾಂಶವನ್ನು ಮಾರ್ಪಡಿಸಬೇಕಾದಾಗ ಒದಗಿಸಬೇಕಿರುವ ಕಾಲ್‌ಬ್ಯಾಕ್"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "ವಿಜೆಟ್‌ ಕಾಲ್‌ಬ್ಯಾಕ್‌ನಿಂದ ಪರಿವರ್ತನೆ"
 
-#: ../capplets/common/gconf-property-editor.c:160
+#: ../capplets/common/gconf-property-editor.c:162
 msgid ""
 "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "ವಿಜೆಟ್‌ನಿಂದ GConf ಗೆ ದತ್ತಾಂಶವನ್ನು ಮಾರ್ಪಡಿಸಬೇಕಾದಾಗ ಒದಗಿಸಬೇಕಿರುವ ಕಾಲ್‌ಬ್ಯಾಕ್"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "UI ನಿಯಂತ್ರಣ"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "ಗುಣಗಳನ್ನು ನಿಯಂತ್ರಿಸುವ ಆಬ್ಜೆಕ್ಟ್‍ (ಸಾಮಾನ್ಯವಾಗಿ ಒಂದು ವಿಜೆಟ್)"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "ಗುಣ ಸಂಪಾದಕದ ಆಬ್ಜೆಕ್ಟ್‍ ದತ್ತಾಂಶ"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "ನಿಗದಿತ ಗುಣಲಕ್ಷಣದ ಸಂಪಾದಕಕ್ಕೆ ಅಗತ್ಯವಿರುವ ಇಚ್ಛೆಯ ದತ್ತಾಂಶ"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "ಗುಣಲಕ್ಷಣದ ಸಂಪಾದಕ ದತ್ತಾಂಶ ಮುಕ್ತಗೊಳಿಕೆಯ ಕಾಲ್‌ಬ್ಯಾಕ್‌"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr "ಗುಣಲಕ್ಷಣದ ಸಂಪಾದಕ ವಸ್ತುವಿನ ದತ್ತಾಂಶವನ್ನು ಮುಕ್ತಗೊಳಿಸಿದಾಗ ಸಲ್ಲಿಸಬೇಕಿರುವ ಕಾಲ್‌ಬ್ಯಾಕ್"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1662,7 +1668,7 @@ msgstr ""
 "ಅದು ಇದೆಯೆಂದು ಖಚಿತಪಡಿಸಿಕೊಂಡು ನಂತರ ಪುನಃ ಪ್ರಯತ್ನಿಸಿ, ಅಥವ ಬೇರೊಂದು ಹಿನ್ನಲೆಚಿತ್ರವನ್ನು "
 "ಆರಿಸಿ."
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1675,11 +1681,11 @@ msgstr ""
 "\n"
 "ದಯವಿಟ್ಟು ಒಂದು ಬದಲಿ ಚಿತ್ರವನ್ನು ಆರಿಸಿ."
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "ದಯವಿಟ್ಟು ಒಂದು ಚಿತ್ರವನ್ನು ಆರಿಸಿ."
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "ಆರಿಸಿ(_S)"
 
@@ -1795,6 +1801,7 @@ msgstr "ಎಲ್ಲಾ %s ಸಂಭವಿಸುವಿಕೆಗಳು ನಿಜ�
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "ಆಜ್ಞೆ(_o):"
 
@@ -2090,6 +2097,49 @@ msgstr "Totem ಚಲನಚಿತ್ರ ಪ್ಲೇಯರ್"
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಉಳಿಸಲು ಆಗಲಿಲ್ಲ"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "ಪ್ರದರ್ಶಕದ ಸಂರಚನೆಯನ್ನು ಅನ್ವಯಿಸುವಾಗ ಅಧಿವೇಶನದ ಬಸ್ ಅನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ"
+
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "ತೆರೆಯ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr "ಪ್ರದರ್ಶಕ"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "ಫಲಕವನ್ನು ಒಳಗೊಳ್ಳಿಸು(_p)"
@@ -2204,78 +2254,84 @@ msgid ""
 "placement."
 msgstr ""
 
-#: ../capplets/display/xrandr-capplet.c:2061
-msgid "Could not save the monitor configuration"
-msgstr "ತೆರೆಯ ಸಂರಚನೆಯನ್ನು ಉಳಿಸಲು ಆಗಲಿಲ್ಲ"
-
-#: ../capplets/display/xrandr-capplet.c:2072
-msgid "Could not get session bus while applying display configuration"
-msgstr "ಪ್ರದರ್ಶಕದ ಸಂರಚನೆಯನ್ನು ಅನ್ವಯಿಸುವಾಗ ಅಧಿವೇಶನದ ಬಸ್ ಅನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ"
-
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
 msgstr "ಪ್ರದರ್ಶಕಗಳನ್ನು ಪತ್ತೆ ಮಾಡಲು ಸಾಧ್ಯವಾಗಿಲ್ಲ"
 
-#: ../capplets/display/xrandr-capplet.c:2329
-msgid "Could not get screen information"
-msgstr "ತೆರೆಯ ಮಾಹಿತಿಯನ್ನು ಪಡೆಯಲಾಗಲಿಲ್ಲ"
-
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "ಧ್ವನಿ"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "ಗಣಕತೆರೆ"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "ಹೊಸ ಶಾರ್ಟ್-ಕಟ್..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "ವೇಗವರ್ಧಕ ಕೀಲಿ"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "ವೇಗವರ್ಧಕ ಮಾರ್ಪಡಿಸುವವು"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "ವೇಗವರ್ಧಕ ಕೀಲಿಕೋಡ್"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "Accel ಕ್ರಮ"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "ವೇಗವರ್ಧಕದ ಬಗೆ."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "ಅಶಕ್ತಗೊಂಡ"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<ಗೊತ್ತಿರದ ಕ್ರಿಯೆ>"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "ಹೊಸ ಶಾರ್ಟ್-ಕಟ್ ಅನ್ನು ಉಳಿಸುವಲ್ಲಿ ದೋಷ ಉಂಟಾಗಿದೆ"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2287,6 +2343,7 @@ msgstr ""
 "ದಯವಿಟ್ಟು ಒಂದೆ ಸಮಯದಲ್ಲಿ Control, Alt ಅಥವ Shift ನಂತಹ ಕೀಲಿಯನ್ನು ಬಳಸಲು ಪ್ರಯತ್ನಿಸಿ."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2296,42 +2353,51 @@ msgstr ""
 "\"%s\""
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "ಶಾರ್ಟ್-ಕಟ್‌ ಅನ್ನು \"%s\" ಗೆ ನಿಯೋಜಿಸಿದಲ್ಲಿ, \"%s\" ಶಾರ್ಟ್-ಕಟ್‌ ಅಶಕ್ತಗೊಳ್ಳುತ್ತದೆ."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "ಮರಳಿ ನಿಯೋಜಿಸು(_R)"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "ಸಂರಚನಾ ದತ್ತಸಂಚಯದಲ್ಲಿ ಹೊಂದಿಸಲಾಗಿದ್ದ ಹೊಸ ವೇಗವರ್ಧಕವನ್ನು ತೆಗೆಯುವಲ್ಲಿ ದೋಷ: %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "ಬಹಳಷ್ಟು ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್‌ಗಳು"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "ಕಾರ್ಯ"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "ಶಾರ್ಟ್-ಕಟ್"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "ಇಚ್ಛೆಯ ಶಾರ್ಟ್-ಕಟ್"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‍ಗಳು"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2343,23 +2409,34 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "ಆಜ್ಞೆಗಳಿಗೆ ಶಾರ್ಟ್-ಕಟ್ ಕೀಲಿಗಳನ್ನು ನಿಯೋಜಿಸು"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "ಕೀಲಿಮಣೆ"
+
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "ಲೇಔಟ್‍ಗಳು"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "ಸಿದ್ಧತೆಗಳನ್ನು ಅನ್ವಯಿಸು ಹಾಗು ನಿರ್ಗಮಿಸು (ಸಹವರ್ತನೀಯತೆ ಮಾತ್ರ; ಈಗ ಡೆಮನ್‍ನಿಂದ "
 "ನಿಭಾಯಿಸಲ್ಪಡುತ್ತದೆ)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "ನಮೂದಿಸುವ ವಿರಾಮ ಸಿದ್ಧತೆಗಳನ್ನು ತೋರಿಸುವ ಪುಟಗಳೊಂದಿಗೆ ಆರಂಭಿಸು"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "ನಿಲುಕಣಾ ಸಿದ್ಧತೆಗಳು ಕಾಣಿಸುವುದರೊಂದಿಗೆ ಪುಟವನ್ನು ಆರಂಭಿಸು"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "- GNOME ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳು"
 
@@ -2405,7 +2482,7 @@ msgid "Flash entire _screen"
 msgstr "ಸಂಪೂರ್ಣ ತೆರೆಯನ್ನು ಹೊಳೆಯುವಂತೆ ಮಾಡು(_s)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "ಸಾಮಾನ್ಯ"
@@ -2419,12 +2496,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "ಎಚ್ಚರಿಕೆಯ ಧ್ವನಿಗಾಗಿನ ದೃಶ್ಯರೂಪದ ಪ್ರತಿಕ್ರಿಯೆಯನ್ನು(ಫೀಡ್‌ಬ್ಯಾಕ್‌) ತೋರಿಸು(_v)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "ನಿಧಾನಗತಿಯ ಕೀಲಿಗಳು"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "ಸ್ಟಿಕಿ ಕೀಲಿಗಳು"
 
@@ -2440,62 +2517,58 @@ msgstr "ವಿರಾಮಗಳನ್ನು ಮುಂದಕ್ಕೆ ಹಾಕು�
 msgid "Audio _Feedback..."
 msgstr "ಧ್ವನಿ ರೂಪದ ಪ್ರತಿಕ್ರಿಯೆ(_F)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "ವಿರಾಮಗಳನ್ನು ಮುಂದಕ್ಕೆ ಹಾಕಲು ಅನುಮತಿ ಇದೆಯೆ ಎಂದು ಪರಿಶೀಲಿಸಿ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "ತೆರೆಸೂಚಕದ ಮಿನುಗುವಿಕೆ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "ತೆರೆಸೂಚಕವು ಪಠ್ಯ ಕ್ಷೇತ್ರಗಳಲ್ಲಿ ಮಿನುಗುತ್ತದೆ(_b)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "ತೆರೆಸೂಚಕವು ಮಿನುಗುವ ವೇಗ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "ವಿಳಂಬ(_e):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "ಎರಡು ಕೀಲಿಗಳನ್ನು ಒಟ್ಟಿಗೆ ಒತ್ತಿದಲ್ಲಿ ಸ್ಟಿಕಿ ಕೀಲಿಗಳನ್ನು ಅಶಕ್ತಗೊಳಿಸು(_b)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "ನಮೂದಿಸುವ ಅನುಮತಿ ಇಲ್ಲದೆ ಇರುವಾಗಿನ ವಿರಾಮದ ಕಾಲಾವಧಿ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "ಒಂದು ವಿರಾಮವನ್ನು ಹೇರುವ ಮೊದಲಿನ ಕೆಲಸದ ಕಾಲಾವಧಿ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "Fast"
 msgstr "ವೇಗ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "ಕೀಲಿಯನ್ನು ಒತ್ತಿ ಹಿಡಿದಾಗ ಕೀಲಿಗಳ ಒತ್ತುವಿಕೆಯನ್ನು ಪುನರಾವರ್ತಿಸು(_r)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳು"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "ಕೀಲಿಮಣೆ ಮಾದರಿ(_m):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "ಲೇಔಟ್‍ಗಳು"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2503,118 +2576,118 @@ msgstr ""
 "ಪುನರಾವರ್ತಿತ ಕೀಲಮಣೆ ಬಳಕೆಯಿಂದ ಉಂಟಾಗುವ ಹಾನಿಯನ್ನು ತಪ್ಪಿಸುವ ಸಲುವಾಗಿ ನಿರ್ದಿಷ್ಟ ಕಾಲಾವಧಿಯ "
 "ನಂತರ ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡು"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "ಉದ್ದ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "ಮೌಸ್ ಕೀಲಿಗಳು"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr "ಕೆಳಗೆ ಚಲಿಸು(_U)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr "ಮೇಲೆ ಜರುಗಿಸು (_U)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "ಪುನರಾವರ್ತನಾ ಕೀಲಿಗಳು"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "ಪುನರಾವರ್ತನೆಯ ಕೀಲಿಗಳ ವೇಗ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತಕ್ಕೆ ಮರುಹೊಂದಿಸು(_f)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "ವೇಗ(_p):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Short"
 msgstr "ಸಣ್ಣ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "ನಿಧಾನ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "ಟೈಪಿಂಗ್ ವಿರಾಮ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "ವೇಗವರ್ಧನೆ(_A):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr ""
 "ನಿಲುಕಣಾ ಸವಲತ್ತುಗಳನ್ನು ಕೀಲಿಮಣೆ ಶಾರ್ಟ್-ಕಟ್‌ಗಳನ್ನು ಉಪಯೋಗಿಸಿಕೊಂಡು ಟಾಗಲ್ ಮಾಡಬಹುದು(_A)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "ವಿರಾಮದ ಕಾಲಾವಧಿಯ ತೀರುವಿಕೆ(_B):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "ವಿಳಂಬ (_D):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "ವೇಗವಾದ ನಕಲಿ ಕೀಲಿಒತ್ತುವಿಕೆಗಳನ್ನು ಆಲಕ್ಷಿಸು(_I)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "ನಮೂದಿಸುವ ವಿರಾಮವನ್ನು ಹೇರಲು ತೆರೆಯನ್ನು ಲಾಕ್ ಮಾಡು(_L)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "ಕೇವಲ ಹೆಚ್ಚು ಸಮಯದ ಕೀಲಿ ಒತ್ತುವಿಕೆಯನ್ನು ಮಾತ್ರ ಅನುಮತಿಸು(_O)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "ಆಯ್ಕೆಗಳು(_O)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "ಕೀಲಿಮಣೆಯನ್ನು ಬಳಸಿಕೊಂಡು ಸೂಚಕವನ್ನು ನಿಯಂತ್ರಿಸುಬಹುದು (_P)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 #, fuzzy
 msgid "_Separate layout for each window"
 msgstr "ಪ್ರತಿ ವಿಂಡೋಗಳಿಗೂ ಪ್ರತ್ಯೇಕ ಲೇಔಟ್(_l)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "ಒಂದರ ನಂತರ ಇನ್ನೊಂದು ಕೀಲಿ ಒತ್ತುವಿಕೆಗಳನ್ನು ಸಿಮುಲೇಟ್ ಮಾಡು (_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "ವೇಗ(_S):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "ಸಿದ್ಧತೆಗಳನ್ನು ಪರೀಕ್ಷಿಸಲು ಬಗೆ(_T):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "ಕೆಲಸದ ಅವಧಿಯ ತೀರುವಿಕೆ(_W):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "ನಿಮಿಷಗಳು"
 
@@ -2683,13 +2756,13 @@ msgstr "ಮಾದರಿಗಳು"
 msgid "Default"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತ"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "ಕೀಲಿಮಣೆ"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "ನಿಮ್ಮ ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr ""
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2722,11 +2795,11 @@ msgid "gesture|Disabled"
 msgstr "ಅಶಕ್ತಗೊಂಡ"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "ತೋರಿಸಲು ಪುಟದ ಹೆಸರನ್ನು ಸೂಚಿಸಿ"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME ಮೌಸ್‌ ಆದ್ಯತೆಗಳು"
 
@@ -2888,6 +2961,11 @@ msgstr "ಮೌಸ್"
 msgid "Set your mouse preferences"
 msgstr "ನಿಮ್ಮ ಮೌಸ್‍ನ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ"
 
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿ"
+
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
@@ -2906,104 +2984,258 @@ msgid "Set your network proxy preferences"
 msgstr "ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿಯ ಆದ್ಯತೆಗಳನ್ನು ಹೊಂದಿಸಿ"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>ನೇರ ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕ(_r)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>ಸ್ವಯಂಚಾಲಿತ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ(_A)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>ಹಸ್ತಮುಖೇಯನ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ(_A)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>ದೃಢೀಕರಣವನ್ನು ಬಳಸು(_U)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "ಸ್ವಯಂಸಂರಚನಾ _URL:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "ರಚಿಸು(_r)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "ಹೊಸ ಸ್ಥಳವನ್ನು ರಚಿಸು"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>ನೇರ ಅಂತರ್ಜಾಲ ಸಂಪರ್ಕ(_r)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP ಪ್ರಾಕ್ಸಿ ವಿವರಗಳು"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "H_TTP ಪ್ರಾಕ್ಸಿ:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "ಅತಿಥೇಯ ಪಟ್ಟಿಯನ್ನು ಆಲಕ್ಷಿಸು"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "ಅಲಕ್ಷಿಸಲಾದ ಅತಿಥೇಯಗಳು"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "ಸ್ಥಳ:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "ಜಾಲಬಂಧ ಪ್ರಾಕ್ಸಿ ಆದ್ಯತೆಗಳು"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "ಸಂಪರ್ಕ ಸ್ಥಾನ:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "ಸಾಕ್ಸ್‌ ಅತಿಥೇಯ(_o):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "ಸ್ಥಳವು ಈಗಾಗಲೆ ಅಸ್ತಿತ್ವದಲ್ಲಿದೆ."
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "ಬಳಕೆದಾರಹೆಸರು(_s):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>ಸ್ವಯಂಚಾಲಿತ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ(_A)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "ಸ್ಥಳವನ್ನು ಅಳಿಸು(_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "ವಿವರಗಳು(_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "_FTP ಪ್ರಾಕ್ಸಿ:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "ಸ್ಥಳದ ಹೆಸರು(_L):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>ಹಸ್ತಮುಖೇಯನ ಪ್ರಾಕ್ಸಿ ಸಂರಚನೆ(_A)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "ಗುಪ್ತಪದ(_P):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "ಸುರಕ್ಷಿತ HTTP ಪ್ರಾಕ್ಸಿ (_S):"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>ದೃಢೀಕರಣವನ್ನು ಬಳಸು(_U)</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "ಇದೆ ಪ್ರಾಕ್ಸಿಯನ್ನು ಎಲ್ಲಾ ಪ್ರೊಟೋಕಾಲ್‍ಗೂ ಬಳಸಿ(_U)"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "ನಿಮಿಷಗಳು"
+msgstr[1] "ನಿಮಿಷಗಳು"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "ಗುಪ್ತಪದವು ಬಹಳ ಸರಳವಾಗಿದೆ."
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "ನಿಮ್ಮ ಗುಪ್ತಪದವು ಬದಲಾಯಿಸಲ್ಪಟ್ಟಿದೆ."
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "ಆ ಗುಪ್ತಪದವು ಸರಿಯಲ್ಲ."
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "ದೃಢೀಕರಿಸಲಾಗಿದೆ!"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "ಗುಪ್ತಪದವು ಬಹಳ ಚಿಕ್ಕದಾಗಿದೆ."
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "ಗುಪ್ತಪದವು ಬಹಳ ಸರಳವಾಗಿದೆ."
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "ಹೊಸ ಹಾಗು ಹಳೆಯ ಗುಪ್ತಪದಗಳು ಒಂದನ್ನೊಂದು ಬಹಳ ಹೋಲುತ್ತವೆ."
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಒಂದು ಅಂಕೆ ಅಥವ ವಿಶೇಷ ಅಕ್ಷರವನ್ನು(ಗಳನ್ನು) ಹೊಂದಿರಲೇಬೇಕು."
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "ಹೊಸ ಹಾಗು ಹಳೆಯ ಗುಪ್ತಪದಗಳು ಒಂದೇ ಆಗಿವೆ."
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"ನಿಮ್ಮ ಗುಪ್ತಪದವನ್ನು ನೀವು ಆರಂಭದಲ್ಲಿ ದೃಢೀಕರಿಸಿದ ನಂತರ ಬದಲಾಯಿಸಲ್ಪಟ್ಟಿದೆ! ದಯವಿಟ್ಟು ಪುನಃ "
+"ದೃಢೀಕರಿಸಿ."
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವು ಒಂದು ಅಂಕೆ ಅಥವ ವಿಶೇಷ ಅಕ್ಷರವನ್ನು(ಗಳನ್ನು) ಹೊಂದಿರಲೇಬೇಕು."
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "ಗೊತ್ತಿರದ"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಪುನಃ ನಮೂದಿಸಿ(_R):"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "ಈಗಿನ ಗುಪ್ತಪದ(_p):"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "ಹೊಸ ಗುಪ್ತಪದ(_N):"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "ಹೊಸ ಗುಪ್ತಪದವನ್ನು ಪುನಃ ನಮೂದಿಸಿ(_R):"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "ಗುಪ್ತಪದವನ್ನು ಬದಲಾಯಿಸು"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3103,32 +3335,6 @@ msgstr "ಉರುಳಿಸು"
 msgid "None"
 msgstr "ಯಾವುದೂ ಇಲ್ಲ"
 
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "ಕೀಲಿಯು ಕಂಡು ಬಂದಿಲ್ಲ [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "ಆರಂಭದಲ್ಲಿ ಅಡಗಿಸು (ಶೆಲ್‌ ಅನ್ನು ಮೊದಲೆ ಲೋಡ್ ಮಾಡಲು ಸಹಾಯಕವಾಗುತ್ತದೆ)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "ಶೋಧಕ(Filter)"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "ಸಮೂಹಗಳು"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "ಮಾಮೂಲಿ ಕಾರ್ಯಗಳು"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "ನಿಯಂತ್ರಣ ಕೇಂದ್ರ"
-
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
 msgstr "ಕಾರ್ಯವು ಸಕ್ರಿಯಗೊಂಡಾಗ ನಿಯಂತ್ರಣ ಕೇಂದ್ರವನ್ನು ಮುಚ್ಚು"
@@ -3202,9 +3408,21 @@ msgstr ""
 "true ಆದರೆ (ನಿಜವೆಂದಾದರೆ), \"ಸಾಮಾನ್ಯ ಕಾರ್ಯ\"ವು ಸಕ್ರಿಯಗೊಳಿಸಲ್ಪಟ್ಟಾಗ ನಿಯಂತ್ರಣ-ಕೇಂದ್ರವು "
 "ಮುಚ್ಚಲ್ಪಡುತ್ತದೆ."
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "ನಿಯಂತ್ರಣ ಕೇಂದ್ರ"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "GNOME ಸಂರಚನಾ ಉಪಕರಣ"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr ""
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3590,6 +3808,24 @@ msgstr "<b>%s ಅನ್ನು ತೆರೆ</b>"
 msgid "Remove from System Items"
 msgstr "ಗಣಕ ಅಂಶಗಳಿಂದ ತೆಗೆದು ಹಾಕು"
 
+#~ msgid "Span"
+#~ msgstr "ಸ್ಪ್ಯಾನ್"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "ಕೀಲಿಯು ಕಂಡು ಬಂದಿಲ್ಲ [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "ಆರಂಭದಲ್ಲಿ ಅಡಗಿಸು (ಶೆಲ್‌ ಅನ್ನು ಮೊದಲೆ ಲೋಡ್ ಮಾಡಲು ಸಹಾಯಕವಾಗುತ್ತದೆ)"
+
+#~ msgid "Filter"
+#~ msgstr "ಶೋಧಕ(Filter)"
+
+#~ msgid "Groups"
+#~ msgstr "ಸಮೂಹಗಳು"
+
+#~ msgid "Common Tasks"
+#~ msgstr "ಮಾಮೂಲಿ ಕಾರ್ಯಗಳು"
+
 #~ msgid "_XMPP:"
 #~ msgstr "_XMPP:"
 
@@ -3634,9 +3870,6 @@ msgstr "ಗಣಕ ಅಂಶಗಳಿಂದ ತೆಗೆದು ಹಾಕು"
 
 #~ msgid "Change screen resolution"
 #~ msgstr "ತೆರೆಯ ರೆಸಲ್ಯೂಶನ್ ಅನ್ನು ಬದಲಾಯಿಸು"
-
-#~ msgid "Display"
-#~ msgstr "ಪ್ರದರ್ಶಕ"
 
 #~ msgid "A_cceleration:"
 #~ msgstr "ವೇಗವರ್ಧನೆ(_c):"

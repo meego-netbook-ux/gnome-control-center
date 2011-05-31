@@ -8,12 +8,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.HEAD.lv\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug."
-"cgi?product=gnome-control-center&component=general\n"
-"POT-Creation-Date: 2010-03-23 18:29+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-04-21 12:59+0300\n"
 "Last-Translator: Anita Reitere <nitalynx@gmail.com>\n"
 "Language-Team: Latviešu <kde-i18n-doc@kde.org>\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -22,12 +22,10 @@ msgstr ""
 "2);\n"
 
 #: ../gnome-control-center.schemas.in.h:1
-#| msgid "Create New Location"
 msgid "Current network location"
 msgstr "Pašreizējā tīkla vieta"
 
 #: ../gnome-control-center.schemas.in.h:2
-#| msgid "Save _background image"
 msgid "More backgrounds URL"
 msgstr "URL papildu fona attēliem"
 
@@ -221,7 +219,7 @@ msgid "No Image"
 msgstr "Nav attēla"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr " Attēli"
 
@@ -305,7 +303,6 @@ msgid "Disable _Fingerprint Login..."
 msgstr "Atslēgt pieteikšanos ar _pirkstu nospiedumu..."
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:15
-#| msgid "Small"
 msgid "Email"
 msgstr "E-pasts"
 
@@ -333,7 +330,6 @@ msgid "IC_Q:"
 msgstr "IC_Q:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
-#| msgid "<b>Instant Messaging</b>"
 msgid "Instant Messaging"
 msgstr "Tūlītēja ziņojumapmaiņa"
 
@@ -366,7 +362,6 @@ msgid "State/Pro_vince:"
 msgstr "Ra_jons:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:31
-#| msgid "<b>Telephone</b>"
 msgid "Telephone"
 msgstr "Tālrunis"
 
@@ -387,7 +382,6 @@ msgid "Wor_k:"
 msgstr "_Darbs:"
 
 #: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
-#| msgid "Wor_k:"
 msgid "Work"
 msgstr "Darbs"
 
@@ -552,17 +546,14 @@ msgid "Left index finger"
 msgstr "Kreisais rādītājpirksts"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:4
-#| msgid "Select finger"
 msgid "Left little finger"
 msgstr "Kreisais mazais pirkstiņš"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:5
-#| msgid "Select finger"
 msgid "Left middle finger"
 msgstr "Kreisais vidējais pirksts"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:6
-#| msgid "Select finger"
 msgid "Left ring finger"
 msgstr "Kreisais zeltnesis"
 
@@ -591,7 +582,6 @@ msgid "Right ring finger"
 msgstr "Labais zeltnesis"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:13
-#| msgid "Right"
 msgid "Right thumb"
 msgstr "Labais īkšķis"
 
@@ -633,7 +623,7 @@ msgstr "Autorizēts!"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
@@ -644,72 +634,72 @@ msgstr ""
 msgid "That password was incorrect."
 msgstr "Šī parole ir nepareiza."
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "Jūsu parole ir izmainīta."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "Sistēmas kļūda: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr "Parole ir par īsu."
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "Parole ir pārāk vienkārša."
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr "Jaunā un vecā parole ir pārāk līdzīgas."
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr "Jaunajai parolei jāsatur arī cipari vai īpašās rakstzīmes."
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr "Jaunā un vecā parole ir vienādas."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "Neizdevās palaist %s: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr "Neizdevās palaist aizmuguri"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr "Gadījās sistēmas kļūda"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr "Pārbauda paroli..."
 
 # vai jātulko arī vidējais expressions?
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "Spiediet <b>Mainīt paroli</b>, lai mainītu savu paroli."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "Ierakstiet savu jauno paroli laukā <b>Jaunā parole</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
 msgid ""
 "Please type your password again in the <b>Retype new password</b> field."
 msgstr "Ierakstiet jauno paroli vēlreiz laukā <b>Apstiprinājums</b>."
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "Abas paroles nav vienādas."
 
@@ -718,11 +708,11 @@ msgid "Change pa_ssword"
 msgstr "Mainīt _paroli"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "Mainīt paroli"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:3
-#| msgid "Change password"
 msgid "Change your password"
 msgstr "Nomainīt jūsu paroli"
 
@@ -737,8 +727,8 @@ msgid ""
 "After you have authenticated, enter your new password, retype it for "
 "verification and click <b>Change password</b>."
 msgstr ""
-"Lai mainītu savu paroli, ievadiet savu pašreizējo paroli un klikšķiniet <b>"
-"Autorizēties</b>.\n"
+"Lai mainītu savu paroli, ievadiet savu pašreizējo paroli un klikšķiniet "
+"<b>Autorizēties</b>.\n"
 "Kad autorizācija notikusi, ievadiet jauno paroli, atkārtojiet to "
 "apstiprināšanai un klikšķiniet <b>Mainīt paroli</b>."
 
@@ -795,7 +785,6 @@ msgid "Jump to the Mouse Accessibility dialog"
 msgstr "Pāriet uz Peles pieejamības logu"
 
 #: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:10
-#| msgid "/_Preferences"
 msgid "Preferences"
 msgstr "Iestatījumi"
 
@@ -821,11 +810,11 @@ msgstr ""
 "Izvēlieties, kādas pieejamības iespējas aktivizēt, kad jūs pieslēdzaties "
 "sistēmai"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Pievienot tapeti"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Visi faili"
 
@@ -848,8 +837,8 @@ msgstr[0] ""
 "Izvēlētais fonts ir %d punktu liels, tas varētu apgrūtināt datora lietošanu. "
 "Labāk izvēlēties izmēru zem %d."
 msgstr[1] ""
-"Izvēlētais fonts ir %d punktus liels, tas varētu apgrūtināt datora lietošanu."
-" Labāk izvēlēties izmēru zem %d."
+"Izvēlētais fonts ir %d punktus liels, tas varētu apgrūtināt datora "
+"lietošanu. Labāk izvēlēties izmēru zem %d."
 msgstr[2] ""
 "Izvēlētais fonts ir %d punktu liels, tas varētu apgrūtināt datora lietošanu. "
 "Labāk izvēlēties izmēru zem %d."
@@ -869,8 +858,8 @@ msgstr[0] ""
 "Izvēlētais fonts ir %d punktu liels, tas varētu apgrūtināt datora lietošanu. "
 "Labāk izvēlēties mazāku fontu."
 msgstr[1] ""
-"Izvēlētais fonts ir %d punktus liels, tas varētu apgrūtināt datora lietošanu."
-" Labāk izvēlēties mazāku fontu."
+"Izvēlētais fonts ir %d punktus liels, tas varētu apgrūtināt datora "
+"lietošanu. Labāk izvēlēties mazāku fontu."
 msgstr[2] ""
 "Izvēlētais fonts ir %d punktu liels, tas varētu apgrūtināt datora lietošanu. "
 "Labāk izvēlēties mazāku fontu."
@@ -884,8 +873,13 @@ msgid "Use selected font"
 msgstr "Lietot izvēlēto fontu"
 
 #: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
-#| msgid "Could not load the main interface"
 msgid "Could not load user interface file: %s"
 msgstr "Neizdevās ielādēt saskarnes failu: %s"
 
@@ -904,7 +898,7 @@ msgstr "Norādiet, kuru lapu rādīt (theme|background|fonts|interface)"
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "lapa"
 
@@ -1002,7 +996,6 @@ msgid "Best co_ntrast"
 msgstr "Labākais ko_ntrasts"
 
 #: ../capplets/appearance/data/appearance.ui.h:5
-#| msgid "Colors"
 msgid "C_olors:"
 msgstr "_Krāsas:"
 
@@ -1011,7 +1004,6 @@ msgid "C_ustomize..."
 msgstr "Pielā_got..."
 
 #: ../capplets/appearance/data/appearance.ui.h:7
-#| msgid "Pointer"
 msgid "Center"
 msgstr "Centrēt"
 
@@ -1048,7 +1040,6 @@ msgid "Fonts"
 msgstr "Fonti"
 
 #: ../capplets/appearance/data/appearance.ui.h:16
-#| msgid "Save _background image"
 msgid "Get more backgrounds online"
 msgstr "Iegūt vairāk fona attēlu tīmeklī"
 
@@ -1062,7 +1053,6 @@ msgstr "_Pelēktoņu"
 
 #. font hinting
 #: ../capplets/appearance/data/appearance.ui.h:20
-#| msgid "<b>Hinting</b>"
 msgid "Hinting"
 msgstr "Instruēšana"
 
@@ -1075,7 +1065,6 @@ msgid "Icons"
 msgstr "Ikonas"
 
 #: ../capplets/appearance/data/appearance.ui.h:23
-#| msgid "Icons"
 msgid "Icons only"
 msgstr "Tikai ikonas"
 
@@ -1101,7 +1090,6 @@ msgid "R_esolution:"
 msgstr "_Izšķirtspēja:"
 
 #: ../capplets/appearance/data/appearance.ui.h:29
-#| msgid "<b>Rendering</b>"
 msgid "Rendering"
 msgstr "Attēlošana"
 
@@ -1118,7 +1106,6 @@ msgid "Save _background image"
 msgstr "Saglabāt _fona attēlu"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
-#| msgid "Small"
 msgid "Scale"
 msgstr "Mērogot"
 
@@ -1128,7 +1115,6 @@ msgid "Small"
 msgstr "Mazs"
 
 #: ../capplets/appearance/data/appearance.ui.h:35
-#| msgid "<b>Smoothing</b>"
 msgid "Smoothing"
 msgstr "Izlīdzināšana"
 
@@ -1137,176 +1123,169 @@ msgid "Solid color"
 msgstr "Viena krāsa"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "Sadalīt"
-
-#: ../capplets/appearance/data/appearance.ui.h:38
-#| msgid "Search"
 msgid "Stretch"
 msgstr "Izstiept"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "Sub_pikseļu (LCD monitoriem)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Sub_pikseļu izlīdzināšana (LCD)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
-#| msgid "<b>Subpixel Order</b>"
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "Subpikseļu secība"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "Teksts"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "Teksts apakšā"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
-#| msgid "_Selected items:"
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "Teksts blakus"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
-#| msgid "Text"
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "Tikai teksts"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "Aktīvā vadīklu tēma neatbalsta krāsu shēmas."
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "Tēma"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
-#| msgid "_Title:"
+#: ../capplets/appearance/data/appearance.ui.h:47
 msgid "Tile"
 msgstr "Atkārtot"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "Vertikāla krāsu pāreja"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "Loga apdare"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "Tuvināt"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "_Pievienot..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "_Lietotņu fonts:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "_Apraksts:"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "_Dokumentu fonts:"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "_Fiksēta platuma fonts:"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "_Pilns"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "_Ievada lauki:"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "_Instalēt..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "_Vidēja"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "_Melnbalta"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "_Nosaukums:"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "_Nekāda"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "_Atjaunot uz noklusētajiem"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "_Izvēlētās vienības:"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "_Izmērs:"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "_Viegla"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "_Stils:"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "_Paskaidres:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "_Loga virsraksta fonts:"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "_Logi:"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "punkti collā"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "Izskats"
@@ -1331,28 +1310,26 @@ msgstr "Gnome tēmas pakotne"
 msgid "No Desktop Background"
 msgstr "Bez fona attēla"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Slīdrāde"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
-#| msgid "Images"
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "Attēls"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "vairāki izmēri"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, c-format
-#| msgid "%b %d %Y"
 msgid "%d %s by %d %s"
 msgstr "%d %s × %d %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "pikselis"
@@ -1363,12 +1340,8 @@ msgstr[2] "pikseļu"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
-#| msgid ""
-#| "<b>%s</b>\n"
-#| "%s, %d %s by %d %s\n"
-#| "Folder: %s"
 msgid ""
 "<b>%s</b>\n"
 "%s, %s\n"
@@ -1382,12 +1355,8 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
-#| msgid ""
-#| "<b>%s</b>\n"
-#| "%s, %d %s by %d %s\n"
-#| "Folder: %s"
 msgid ""
 "<b>%s</b>\n"
 "%s\n"
@@ -1397,8 +1366,7 @@ msgstr ""
 "%s\n"
 "Mape: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
-#| msgid "Images"
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "Nav attēla"
 
@@ -1517,12 +1485,6 @@ msgid "Could not install theme engine"
 msgstr "Neizdevās instalēt tēmu dzinēju"
 
 #: ../capplets/common/activate-settings-daemon.c:16
-#| msgid ""
-#| "Unable to start the settings manager 'gnome-settings-daemon'.\n"
-#| "Without the GNOME settings manager running, some preferences may not take "
-#| "effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. "
-#| "KDE) settings manager may already be active and conflicting with the "
-#| "GNOME settings manager."
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
@@ -1535,7 +1497,7 @@ msgstr ""
 "spēkā. Tā varētu būt DBus problēma, vai arī konflikts ar jau strādājošu citu "
 "(piemēram, KDE) iestatījumu pārvaldnieku."
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "Neizdevās ielādēt ikonu '%s'\n"
@@ -1621,76 +1583,76 @@ msgstr "Izlai_st"
 msgid "Overwrite _All"
 msgstr "Pārr_akstīt visus"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "Atslēga"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "Gconf atslēga, kurai pievienots īpašību redaktors"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "Atzvanīšana"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "Veikt šo atzvanīšanu, kad atslēgas vērtība tiek mainīta"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "Mainīt kopu"
 
-#: ../capplets/common/gconf-property-editor.c:148
+#: ../capplets/common/gconf-property-editor.c:150
 msgid ""
 "GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr ""
 "GConf izmaiņu kopa, kas satur datus, kurus pārsūtīt gconf klientam pie "
 "pielietošanas"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "Pārveide par logdaļas atzvanīšanu"
 
-#: ../capplets/common/gconf-property-editor.c:154
+#: ../capplets/common/gconf-property-editor.c:156
 msgid ""
 "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "Atzvanīšana, kad dati jākonvertē no GConf uz logdaļu"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "Pārveide no logdaļas atzvanīšanas"
 
-#: ../capplets/common/gconf-property-editor.c:160
+#: ../capplets/common/gconf-property-editor.c:162
 msgid ""
 "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "Atzvanīšana, kad dati jākonvertē uz GConf no logdaļas"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "UI vadīkla"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "Objekts, kas kontrolē īpašību (parasti logdaļa)"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "Īpašību redaktora objekta dati"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "Dati, kuri nepieciešami konkrētajam rekvizītu redaktoram"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "Atzvanīšana rekvizītu redaktora datu atbrīvošanai"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr "Atzvanīšana, kad rekvizītu redaktora objekta dati ir jāatbrīvo"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1703,7 +1665,7 @@ msgstr ""
 "Lūdzu, pārliecinieties, ka tas eksistē, un mēģiniet vēlreiz, vai arī "
 "izvēlieties citu fona attēlu."
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1716,11 +1678,11 @@ msgstr ""
 "\n"
 "Lūdzu, izvēlieties citu attēlu."
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "Lūdzu, izvēlieties attēlu."
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "_Izvēlēties"
 
@@ -1836,6 +1798,7 @@ msgstr "Visi %s tiks aizvietoti ar reālo saiti"
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "K_omanda:"
 
@@ -1848,12 +1811,10 @@ msgid "E_xecute flag:"
 msgstr "I_zpildes iezīme:"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:7
-#| msgid "<b>Image Viewer</b>"
 msgid "Image Viewer"
 msgstr "Attēlu skatītājs"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:8
-#| msgid "<b>Instant Messenger</b>"
 msgid "Instant Messenger"
 msgstr "Tūlītējās ziņojumapmaiņas klients"
 
@@ -1862,12 +1823,10 @@ msgid "Internet"
 msgstr "Internets"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:10
-#| msgid "<b>Mail Reader</b>"
 msgid "Mail Reader"
 msgstr "Pasta lasītājs"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:11
-#| msgid "<b>Mobility</b>"
 msgid "Mobility"
 msgstr "Mobilitāte"
 
@@ -1876,7 +1835,6 @@ msgid "Multimedia"
 msgstr "Multimediji"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:13
-#| msgid "<b>Multimedia Player</b>"
 msgid "Multimedia Player"
 msgstr "Multimediju atskaņotājs"
 
@@ -1905,27 +1863,22 @@ msgid "System"
 msgstr "Sistēma"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:21
-#| msgid "<b>Terminal Emulator</b>"
 msgid "Terminal Emulator"
 msgstr "Termināļa emulators"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:22
-#| msgid "<b>Text Editor</b>"
 msgid "Text Editor"
 msgstr "Teksta redaktors"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:23
-#| msgid "<b>Video Player</b>"
 msgid "Video Player"
 msgstr "Video atskaņotājs"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:24
-#| msgid "<b>Visual</b>"
 msgid "Visual"
 msgstr "Vizuālā"
 
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:25
-#| msgid "<b>Web Browser</b>"
 msgid "Web Browser"
 msgstr "Tīmekļa pārlūks"
 
@@ -2142,6 +2095,49 @@ msgstr "Totem filmu atskaņotājs"
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "Neizdevās saglabāt monitora konfigurāciju"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "Neizdevās iegūt sesijas kopni, pielietojot ekrāna konfigurāciju"
+
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "Neizdevās iegūt ekrāna informāciju"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr "Ekrāns"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "Iekļaut _paneli"
@@ -2153,12 +2149,10 @@ msgstr "Pa kreisi"
 
 #: ../capplets/display/display-capplet.ui.h:3
 #: ../capplets/display/xrandr-capplet.c:508
-#| msgid "<b>Monitor</b>"
 msgid "Monitor"
 msgstr "Monitors"
 
 #: ../capplets/display/display-capplet.ui.h:4
-#| msgid "Mouse Preferences"
 msgid "Monitor Preferences"
 msgstr "Monitora iestatījumi"
 
@@ -2177,7 +2171,6 @@ msgid "On"
 msgstr "Ieslēgts"
 
 #: ../capplets/display/display-capplet.ui.h:8
-#| msgid "<b>Panel icon</b>"
 msgid "Panel icon"
 msgstr "Paneļa ikona"
 
@@ -2199,12 +2192,10 @@ msgid "Sa_me image in all monitors"
 msgstr "_Viens attēls visos monitoros"
 
 #: ../capplets/display/display-capplet.ui.h:13
-#| msgid "Upside Down"
 msgid "Upside-down"
 msgstr "Otrādi"
 
 #: ../capplets/display/display-capplet.ui.h:14
-#| msgid "_Detect Monitors"
 msgid "_Detect monitors"
 msgstr "_Noteikt monitorus"
 
@@ -2213,7 +2204,6 @@ msgid "_Resolution:"
 msgstr "_Izšķirtspēja:"
 
 #: ../capplets/display/display-capplet.ui.h:16
-#| msgid "_Show displays in panel"
 msgid "_Show monitors in panel"
 msgstr "Rādīt monitoru_s panelī"
 
@@ -2222,7 +2212,6 @@ msgid "Change resolution and position of monitors"
 msgstr "Mainīt monitoru izšķirtspēju un izvietojumu"
 
 #: ../capplets/display/display-properties.desktop.in.in.h:2
-#| msgid "_Detect Monitors"
 msgid "Monitors"
 msgstr "Monitori"
 
@@ -2247,7 +2236,6 @@ msgstr "Spoguļekrāni"
 
 #: ../capplets/display/xrandr-capplet.c:499
 #, c-format
-#| msgid "<b>Monitor: %s</b>"
 msgid "Monitor: %s"
 msgstr "Monitors: %s"
 
@@ -2263,78 +2251,84 @@ msgid ""
 msgstr ""
 "Izvēlēties monitoru, lai mainītu tā īpašības; velciet, lai to pārvietotu."
 
-#: ../capplets/display/xrandr-capplet.c:2061
-msgid "Could not save the monitor configuration"
-msgstr "Neizdevās saglabāt monitora konfigurāciju"
-
-#: ../capplets/display/xrandr-capplet.c:2072
-msgid "Could not get session bus while applying display configuration"
-msgstr "Neizdevās iegūt sesijas kopni, pielietojot ekrāna konfigurāciju"
-
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
 msgstr "Neizdevās noteikt displejus"
 
-#: ../capplets/display/xrandr-capplet.c:2329
-msgid "Could not get screen information"
-msgstr "Neizdevās iegūt ekrāna informāciju"
-
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "Skaņa"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "Darbvirsma"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "Jauna saīsne..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "Paātrinājumtaustiņš"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "Paātrinātāja modifikatori"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "Paātrinātāja taustiņkods"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "Paātrināšanas režīms"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "Paātrinātāja tips."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "Atslēgts"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<Nezināma darbība>"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "Pielāgotas saīsnes"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "Kļūda, saglabājot jauno saīsni"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2346,6 +2340,7 @@ msgstr ""
 "Shift."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2355,42 +2350,51 @@ msgstr ""
 " \"%s\""
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "Ja pārdefinēsiet saīsni par \"%s\", saīsne \"%s\" tiks deaktivizēta."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "Pā_rdefinēt"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "Kļūda, noņemot paātrinātāja konfigurāciju datubāzē: %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "Pārāk daudz pielāgoto saīsņu"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "Darbība"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "Saīsne"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "Pielāgota saīsne"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "Tastatūras saīsnes"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2402,23 +2406,34 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "Piesaistīt komandām saīsņu taustiņus"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "Tastatūra"
+
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "Izkārtojumi"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "Tikai pielietot iestatījumus un iziet (savietojamības dēļ; tagad to pārvalda "
 "dēmons)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "Atvērt darba pārtraukuma iestatījumi lapu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "Atvērt pieejamības iestatījumu lapu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "- GNOME tastatūras iestatījumi"
 
@@ -2452,7 +2467,6 @@ msgstr "Pīkstēt, ja taustiņš netiek _pieņemts"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:8
 #: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:4
-#| msgid "Mouse Keys"
 msgid "Bounce Keys"
 msgstr "Atlecošie taustiņi"
 
@@ -2465,7 +2479,7 @@ msgid "Flash entire _screen"
 msgstr "Zibsnis pa vi_su ekrānu"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "Vispārēji"
@@ -2479,19 +2493,16 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "Rādīt _vizuālu indikatoru trauksmes skaņai"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
-#| msgid "<b>Slow Keys</b>"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "Lēnie taustiņi"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
-#| msgid "<b>Sticky Keys</b>"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "Lipīgie taustiņi"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:16
-#| msgid "<b>Visual cues for sounds</b>"
 msgid "Visual cues for sounds"
 msgstr "Vizuālās norādes skaņām"
 
@@ -2503,64 +2514,58 @@ msgstr "Atļaut pārtraukumu at_likšanu"
 msgid "Audio _Feedback..."
 msgstr "Skaņas at_griezeniskā saite..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "Atzīmējiet, ja pārtraukumus drīkst atlikt"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
-#| msgid "<b>Cursor Blinking</b>"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "Kursora mirgošana"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "Kursors _mirgo teksta laukos"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "Kursora mirgošanas ātrums"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "Aiztur_e:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "Atslēgt lipī_gos taustiņus, ja divi taustiņi nospiesti reizē"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "Pārtraukuma ilgums, kurā nav atļauta drukāšana"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "Nepārtraukta darba ilgums pirms uzspiestā pārtraukuma"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
-#| msgid "_Paste"
 msgid "Fast"
 msgstr "Ātri"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "Kad taustiņu tu_r nospiestu, atkārtot darbību"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "Tastatūras iestatījumi"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "Tastatūras _modelis:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "Izkārtojumi"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2568,120 +2573,116 @@ msgstr ""
 "Pēc zināma laika noslēgt ekrānu, lai saudzētu veselību un izvairītos no "
 "nepārtraukta darba traumām"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "Ilga"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "Peles taustiņi"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr "Uz _leju"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr "Uz _augšu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr "Jauniem logiem lietot a_ktīvā loga izkārtojumu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
-#| msgid "<b>Repeat Keys</b>"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "Atkārtot taustiņus"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "Taustiņu atkārtošanās ātrums"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "A_tjaunot uz noklusētajiem"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "Āt_rums:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
-#| msgid "Shortcut"
 msgid "Short"
 msgstr "Īsa"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "Lēni"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "Drukāšanas pārtraukums"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "_Paātrinājums:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "Pieejamības iespējas var pārslēgt ar kl_aviatūras saīsnēm"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "_Pauzes intervāls ilgst:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "Aizt_ure:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "_Ignorēt ātrus taustiņu atkārtojumus"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "S_lēgt ekrānu, lai uzspiestu darba pārtraukumu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "Ņemt vērā _tikai ilgi nospiestus taustiņus"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
-#| msgid "Layout _Options..."
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "_Opcijas..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "Kursoru var kontrolēt ar _papildtastatūras bultiņām"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
-#| msgid "Separate _layout for each window"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
 msgstr "Savs izkārtojums katram _logam"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "_Simulēt vienlaicīgu taustiņu nospiešanu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "Ā_trums:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "Vieta ies_tatījumu pārbaudei:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "_Darba intervāls ilgst:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "minūtes"
 
@@ -2750,13 +2751,13 @@ msgstr "Modeļi"
 msgid "Default"
 msgstr "Noklusētais"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "Tastatūra"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "Mainīt tastatūras iestatījumus"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr ""
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2789,11 +2790,11 @@ msgid "gesture|Disabled"
 msgstr "Atslēgts"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Norādiet parādāmās lapas nosaukumu (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME peles iestatījumi"
 
@@ -2818,17 +2819,14 @@ msgid "Disable _touchpad while typing"
 msgstr "Atslēgt skārienpaliktni, kad raksta"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:9
-#| msgid "<b>Double-Click Timeout</b>"
 msgid "Double-Click Timeout"
 msgstr "Dubultklikšķa noildze"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:10
-#| msgid "<b>Drag and Drop</b>"
 msgid "Drag and Drop"
 msgstr "Vilkt un nomest"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:11
-#| msgid "<b>Dwell Click</b>"
 msgid "Dwell Click"
 msgstr "Apstājas klikšķis"
 
@@ -2841,12 +2839,10 @@ msgid "Enable h_orizontal scrolling"
 msgstr "Ieslēgt h_orizontālo ritināšanu"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:16
-#| msgid "Right"
 msgid "High"
 msgstr "Augsta"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:18
-#| msgid "Large Pointer"
 msgid "Locate Pointer"
 msgstr "Rādīt kursoru"
 
@@ -2855,7 +2851,6 @@ msgid "Low"
 msgstr "Zema"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:21
-#| msgid "<b>Mouse Orientation</b>"
 msgid "Mouse Orientation"
 msgstr "Peles orientācija"
 
@@ -2864,7 +2859,6 @@ msgid "Mouse Preferences"
 msgstr "Peles iestatījumi"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:23
-#| msgid "<b>Pointer Speed</b>"
 msgid "Pointer Speed"
 msgstr "Kursora ātrums"
 
@@ -2885,7 +2879,6 @@ msgid "Show click type _window"
 msgstr "Rādīt klikšķa tipa _logu"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:29
-#| msgid "<b>Simulated Secondary Click</b>"
 msgid "Simulated Secondary Click"
 msgstr "Simulēt sekundāro klikšķi"
 
@@ -2894,9 +2887,6 @@ msgid "Thr_eshold:"
 msgstr "Sli_eksnis:"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-#| msgid ""
-#| "<i>To test your double-click settings, try to double-click on the light "
-#| "bulb.</i>"
 msgid ""
 "To test your double-click settings, try to double-click on the light bulb."
 msgstr ""
@@ -2915,7 +2905,6 @@ msgid "You can also use the Dwell Click panel applet to choose the click type."
 msgstr "Klikšķa tipu var izvēlēties arī ar Apstājas klikšķa paneļa sīkrīku"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:39
-#| msgid "Disabled"
 msgid "_Disabled"
 msgstr "_Atslēgts"
 
@@ -2963,6 +2952,11 @@ msgstr "Pele"
 msgid "Set your mouse preferences"
 msgstr "Mainīt peles iestatījumus"
 
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "Tīkla starpniekserveris"
+
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
@@ -2981,105 +2975,258 @@ msgid "Set your network proxy preferences"
 msgstr "Mainīt tīkla starpniekservera iestatījumus"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>Tiešs Inte_rnet pieslēgums</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>_Automātiska starpniekservera konfigurācija</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>_Pašrocīga starpniekservera konfigurācija</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>_Lietot autentifikāciju</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "Autokonfigurācijas _URL:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "Iz_veidot"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "Izveidot jaunu vietu"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>Tiešs Inte_rnet pieslēgums</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP starpniekservera detaļas"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "H_TTP starpniekserveris:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
-#| msgid "Ignored Hosts"
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "Ignorējamo datoru saraksts"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "Ignorētie datori"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "Atrašanās vieta:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "Tīkla starpniekservera iestatījumi"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "Ports:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "Starpniekservera konfigurācija"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "S_ocks serveris:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "Atrašanās vieta jau eksistē."
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "Lietotāj_vārds:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>_Automātiska starpniekservera konfigurācija</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "_Dzēst vietu"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "_Detaļas"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "_FTP starpserveris:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "_Vietas nosaukums:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>_Pašrocīga starpniekservera konfigurācija</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "Pa_role:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "_Drošā HTTP starpserveris:"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>_Lietot autentifikāciju</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Lietot vienu starpniekserveri visiem protokoliem"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "minūtes"
+msgstr[1] "minūtes"
+msgstr[2] "minūtes"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "Parole ir pārāk vienkārša."
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "Jūsu parole ir izmainīta."
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "Šī parole ir nepareiza."
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Autorizēts!"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "Parole ir par īsu."
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "Parole ir pārāk vienkārša."
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Jaunā un vecā parole ir pārāk līdzīgas."
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "Jaunajai parolei jāsatur arī cipari vai īpašās rakstzīmes."
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "Jaunā un vecā parole ir vienādas."
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"Jūsu parole ir mainīta kopš jūsu autorizācijas! Lūdzu autorizēties vēlreiz."
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "Jaunajai parolei jāsatur arī cipari vai īpašās rakstzīmes."
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Nezināms"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "Jaunā parole _vēlreiz:"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "Pašreizējā _parole:"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "_Jaunā parole:"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "Jaunā parole _vēlreiz:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "Mainīt paroli"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3102,12 +3249,10 @@ msgid "_Meta"
 msgstr "_Meta"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:1
-#| msgid "<b>Movement Key</b>"
 msgid "Movement Key"
 msgstr "Pārvietošanas taustiņš"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:2
-#| msgid "<b>Titlebar Action</b>"
 msgid "Titlebar Action"
 msgstr "Virsraksta joslas darbība"
 
@@ -3120,7 +3265,6 @@ msgid "Window Preferences"
 msgstr "Loga iestatījumi"
 
 #: ../capplets/windows/gnome-window-properties.ui.h:5
-#| msgid "<b>Window Selection</b>"
 msgid "Window Selection"
 msgstr "Logu izvēle"
 
@@ -3180,32 +3324,6 @@ msgstr "Uzrullēt"
 #: ../libwindow-settings/metacity-window-manager.c:409
 msgid "None"
 msgstr "Neko"
-
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "atslēga nav atrasta [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "Sākumā paslēpt (noder, lai ielādētu čaulu iepriekš)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "Filtrs"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "Grupas"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "Ierastie uzdevumi"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Kontroles centrs"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3277,9 +3395,21 @@ msgid ""
 msgstr ""
 "ja izvēlēts, kontroles centrs aizvērsies, aktivizējot \"Ierasto uzdevumu\"."
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Kontroles centrs"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "GNOME konfigurācijas rīks"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr ""
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3290,7 +3420,6 @@ msgid "Take a break!"
 msgstr "Laiks atpūtai!"
 
 #: ../typing-break/drwright.c:116
-#| msgid "/_Take a Break"
 msgid "_Take a Break"
 msgstr "Laiks a_tpūtai"
 
@@ -3328,9 +3457,7 @@ msgstr "Datora pārtraukuma atgādinātājs."
 
 #: ../typing-break/drwright.c:555
 msgid "translator-credits"
-msgstr ""
-"Raivis Dejus <orvils@gmail.com> "
-"Anita Reitere <nitalynx@gmail.com>"
+msgstr "Raivis Dejus <orvils@gmail.com> Anita Reitere <nitalynx@gmail.com>"
 
 #: ../typing-break/main.c:61
 msgid "Enable debugging code"
@@ -3458,12 +3585,10 @@ msgid "Description:"
 msgstr "Apraksts:"
 
 #: ../font-viewer/font-view.c:441
-#| msgid "Install"
 msgid "Installed"
 msgstr "Instalēts"
 
 #: ../font-viewer/font-view.c:444
-#| msgid "Install"
 msgid "Install Failed"
 msgstr "Instalēšana neizdevās"
 
@@ -3473,7 +3598,6 @@ msgid "usage: %s fontfile\n"
 msgstr "pielietojums: %s fonta_fails\n"
 
 #: ../font-viewer/font-view.c:591
-#| msgid "Install"
 msgid "I_nstall Font"
 msgstr "I_nstalēt fontu"
 
@@ -3526,7 +3650,6 @@ msgstr "Cita"
 #. make start action
 #: ../libslab/application-tile.c:374
 #, c-format
-#| msgid "<b>Start %s</b>"
 msgid "Start %s"
 msgstr "Palaist %s"
 
@@ -3619,7 +3742,6 @@ msgstr "Ja izdzēsīsiet šo vienību, tā tiks neatgriezeniski zaudēta."
 
 #: ../libslab/document-tile.c:193
 #, c-format
-#| msgid "<b>Open with \"%s\"</b>"
 msgid "Open with \"%s\""
 msgstr "Atvērt ar \"%s\""
 
@@ -3672,6 +3794,24 @@ msgstr "<b>Atvērt %s</b>"
 #, c-format
 msgid "Remove from System Items"
 msgstr "Aizvākt no sistēmas vienībām"
+
+#~ msgid "Span"
+#~ msgstr "Sadalīt"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "atslēga nav atrasta [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "Sākumā paslēpt (noder, lai ielādētu čaulu iepriekš)"
+
+#~ msgid "Filter"
+#~ msgstr "Filtrs"
+
+#~ msgid "Groups"
+#~ msgstr "Grupas"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Ierastie uzdevumi"
 
 #~ msgid "Unknown login ID, the user database might be corrupted"
 #~ msgstr "Neatpazīts logina ID, lietotāju datubāze var būt bojāta"
@@ -3825,9 +3965,6 @@ msgstr "Aizvākt no sistēmas vienībām"
 
 #~ msgid "Change screen resolution"
 #~ msgstr "Mainīt ekrāna izšķirtspēju"
-
-#~ msgid "Display"
-#~ msgstr "Ekrāns"
 
 #~ msgid "Could not apply the selected configuration"
 #~ msgstr "Nevar pielietot izvēlēto konfigurāciju"

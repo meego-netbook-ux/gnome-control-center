@@ -7,15 +7,48 @@ msgid ""
 msgstr ""
 "Project-Id-Version: control-center\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2009-02-25 23:01+0200\n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2009-02-25 23:01+0200\n"
 "Last-Translator: Alaksandar Navicki <zolak@lacinka.org>\n"
 "Language-Team: Polish <pl@li.org>\n"
+"Language: pl\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=3; plural=(n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 "
 "|| n%100>=20) ? 1 : 2);\n"
+
+#: ../gnome-control-center.schemas.in.h:1
+#, fuzzy
+msgid "Current network location"
+msgstr "Stvary novaje pałažeńnie"
+
+#: ../gnome-control-center.schemas.in.h:2
+#, fuzzy
+msgid "More backgrounds URL"
+msgstr "Zapišy _fonavuju vyjavu"
+
+#: ../gnome-control-center.schemas.in.h:3
+msgid "More themes URL"
+msgstr ""
+
+#: ../gnome-control-center.schemas.in.h:4
+msgid ""
+"Set this to your current location name. This is used to determine the "
+"appropriate network proxy configuration."
+msgstr ""
+
+#: ../gnome-control-center.schemas.in.h:5
+msgid ""
+"URL for where to get more desktop backgrounds. If set to an empty string the "
+"link will not appear."
+msgstr ""
+
+#: ../gnome-control-center.schemas.in.h:6
+msgid ""
+"URL for where to get more desktop themes. If set to an empty string the link "
+"will not appear."
+msgstr ""
 
 #: ../capplets/about-me/eel-alert-dialog.c:114
 msgid "Image/label border"
@@ -170,25 +203,25 @@ msgstr "Tvoj palec nie zasiarodžany na čytniku, paŭtary prociah jašče"
 msgid "Remove your finger, and try swiping your finger again"
 msgstr "Prybiary palec i paŭtary prociah jašče"
 
-#: ../capplets/about-me/gnome-about-me.c:776
+#: ../capplets/about-me/gnome-about-me.c:716
 msgid "Select Image"
 msgstr "Abiary vyjavu"
 
-#: ../capplets/about-me/gnome-about-me.c:778
+#: ../capplets/about-me/gnome-about-me.c:718
 msgid "No Image"
 msgstr "Biez vyjavy"
 
-#: ../capplets/about-me/gnome-about-me.c:806
-#: ../capplets/appearance/appearance-desktop.c:660
+#: ../capplets/about-me/gnome-about-me.c:746
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "Vyjavy"
 
-#: ../capplets/about-me/gnome-about-me.c:810
-#: ../capplets/appearance/theme-installer.c:695
+#: ../capplets/about-me/gnome-about-me.c:750
+#: ../capplets/appearance/theme-installer.c:766
 msgid "All Files"
 msgstr "Usie fajły"
 
-#: ../capplets/about-me/gnome-about-me.c:956
+#: ../capplets/about-me/gnome-about-me.c:890
 msgid ""
 "There was an error while trying to get the addressbook information\n"
 "Evolution Data Server can't handle the protocol"
@@ -196,63 +229,251 @@ msgstr ""
 "Pry sprobie atrymańnia infarmacyi ab adrasnaj knizie adbyłasia pamyłka\n"
 "Server danych Evolution nia moža absłužyć pratakoł"
 
-#: ../capplets/about-me/gnome-about-me.c:977
+#: ../capplets/about-me/gnome-about-me.c:911
 msgid "Unable to open address book"
 msgstr "Niemahčyma adčynić adrasnuju knihu"
 
-#: ../capplets/about-me/gnome-about-me.c:991
-msgid "Unknown login ID, the user database might be corrupted"
-msgstr "Niaviadomaje ID aŭtaryzacyi, baza karystalnika moža być paškodžanaja"
-
-#: ../capplets/about-me/gnome-about-me.c:1021
-#: ../capplets/about-me/gnome-about-me.c:1023
+#: ../capplets/about-me/gnome-about-me.c:934
 #, c-format
 msgid "About %s"
 msgstr "Pra %s"
 
-#: ../capplets/about-me/gnome-about-me.c:1041
-#: ../capplets/about-me/gnome-about-me.glade.h:26
-msgid "Enable _Fingerprint Login..."
-msgstr "Uklučy ŭvachod z _adbitkam palca..."
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:1
+msgid "A_IM/iChat:"
+msgstr "A_IM/iChat:"
 
-#: ../capplets/about-me/gnome-about-me.c:1044
-#: ../capplets/about-me/gnome-about-me.glade.h:25
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:2
+msgid "A_ddress:"
+msgstr "A_dras:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:3
+msgid "A_ssistant:"
+msgstr "A_systent:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:4
+#: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
+msgid "About Me"
+msgstr "Pra mianie"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:5
+msgid "Address"
+msgstr "Adras"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:6
+msgid "C_ity:"
+msgstr "H_orad:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:7
+msgid "C_ompany:"
+msgstr "_Firma:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:8
+msgid "Cale_ndar:"
+msgstr "_Kalandar:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:9
+msgid "Change Passwo_rd..."
+msgstr "Źmiani _parol..."
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:10
+msgid "Ci_ty:"
+msgstr "H_orad:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:11
+msgid "Co_untry:"
+msgstr "K_raina:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:12
+msgid "Contact"
+msgstr "Kantakt"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:13
+msgid "Cou_ntry:"
+msgstr "_Kraina:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:14
 msgid "Disable _Fingerprint Login..."
 msgstr "Vyklučy ŭvachod z _adbitkam palca..."
 
-#: ../capplets/about-me/gnome-about-me.desktop.in.in.h:1
-#: ../capplets/about-me/gnome-about-me.glade.h:12
-msgid "About Me"
-msgstr "Pra mianie"
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:15
+msgid "Email"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:16
+msgid "Enable _Fingerprint Login..."
+msgstr "Uklučy ŭvachod z _adbitkam palca..."
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:17
+msgid "Full Name"
+msgstr "Imia j proźvišča"
+
+#. Home vs Work (phone)
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:19
+msgid "Hom_e:"
+msgstr "Do_m:"
+
+#. Home vs Work (address)
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:21
+#: ../libslab/bookmark-agent.c:1135
+msgid "Home"
+msgstr "Dom"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:22
+msgid "IC_Q:"
+msgstr "IC_Q:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:23
+#, fuzzy
+msgid "Instant Messaging"
+msgstr "<b>Kamunikatary</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:24
+msgid "Job"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:25
+msgid "M_SN:"
+msgstr "M_SN:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:26
+msgid "P.O. _box:"
+msgstr "_Paštovaja skrynka:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:27
+msgid "P._O. box:"
+msgstr "Pašt_ovaja skrynka:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:28
+msgid "Personal Info"
+msgstr "Persanalnyja źviestki"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:29
+msgid "Select your photo"
+msgstr "Abiary fatahrafiju"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:30
+msgid "State/Pro_vince:"
+msgstr "R_ehijon:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:31
+#, fuzzy
+msgid "Telephone"
+msgstr "<b>Telefon</b>"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:32
+msgid "User name:"
+msgstr "Nazva karystalnika:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:33
+msgid "Web"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:34
+msgid "Web _log:"
+msgstr "B_log:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:35
+msgid "Wor_k:"
+msgstr "Pra_ca:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:36
+#, fuzzy
+msgid "Work"
+msgstr "_Praca:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:37
+msgid "Work _fax:"
+msgstr "_Faks na pracy:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:38
+msgid "Zip/_Postal code:"
+msgstr "Paštovy _indeks:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:39
+msgid "_Address:"
+msgstr "_Adras:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:40
+msgid "_Department:"
+msgstr "_Addzieł:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:41
+msgid "_Groupwise:"
+msgstr "_Groupwise:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:42
+msgid "_Home page:"
+msgstr "_Chatniaja staronka:"
+
+#. Home vs Work (email)
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:44
+msgid "_Home:"
+msgstr "Do_m:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:45
+msgid "_Jabber:"
+msgstr "_Jabber:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:46
+msgid "_Manager:"
+msgstr "_Kiraŭnik:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:47
+msgid "_Mobile:"
+msgstr "M_abilny telefon:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:48
+msgid "_Profession:"
+msgstr "_Prafesija:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:49
+msgid "_State/Province:"
+msgstr "Rehijo_n:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:50
+msgid "_Title:"
+msgstr "P_asada:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:51
+msgid "_Work:"
+msgstr "_Praca:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:52
+msgid "_Yahoo:"
+msgstr "_Yahoo:"
+
+#: ../capplets/about-me/gnome-about-me-dialog.ui.h:53
+msgid "_Zip/Postal code:"
+msgstr "Paštovy _indeks:"
 
 #: ../capplets/about-me/gnome-about-me.desktop.in.in.h:2
 msgid "Set your personal information"
 msgstr "Naładžvaj asabistyja źviestki"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:99
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:97
 msgid ""
 "You are not allowed to access the device. Contact your system administrator."
 msgstr ""
 "Tabie nie dazvolena karystacca hetaj pryładaj. Źviarnisia da administratara "
 "hetaj systemy."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:101
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid "The device is already in use."
 msgstr "Pryłada ŭžo zaniataja."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:103
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:101
 msgid "An internal error occured"
 msgstr "Adbyłasia ŭnutranaja pamyłka"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:220
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:218
 msgid "Delete registered fingerprints?"
 msgstr "Vydalić zarehistravanyja adbitki palcaŭ?"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:223
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:221
 msgid "_Delete Fingerprints"
 msgstr "_Vydali adbitki palcaŭ"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:230
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:228
 msgid ""
 "Do you want to delete your registered fingerprints so fingerprint login is "
 "disabled?"
@@ -260,16 +481,16 @@ msgstr ""
 "Chočaš vydalić zarehistravanyja adbitki palcaŭ, što vyklučyć mahčymaść "
 "uvachodu takim sposabam aŭtaryzacyi?"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:343
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:583
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:356
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:1
 msgid "Done!"
 msgstr "Zroblena!"
 
 #. translators:
 #. * The variable is the name of the device, for example:
 #. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:388
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:410
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:402
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:424
 #, c-format
 msgid "Could not access '%s' device"
 msgstr "Nie ŭdałosia dastupicca da pryłady \"%s\""
@@ -277,32 +498,29 @@ msgstr "Nie ŭdałosia dastupicca da pryłady \"%s\""
 #. translators:
 #. * The variable is the name of the device, for example:
 #. * "Could you not access "Digital Persona U.are.U 4000/4000B" device
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:444
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:473
 #, c-format
 msgid "Could not start finger capture on '%s' device"
 msgstr "Nie ŭdałosia raspačać zapaminańnie adbitkaŭ dla pryłady \"%s\""
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:491
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:520
 msgid "Could not access any fingerprint readers"
 msgstr "Nie ŭdałosia dastupicca da budź-jakoha čytnika adbitkaŭ palcaŭ"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:492
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:521
 msgid "Please contact your system administrator for help."
 msgstr "Źviarnisia da administratara tvajoj systemy pa dapamohu."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:518
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:551
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:2
 msgid "Enable Fingerprint Login"
 msgstr "Uklučy ŭvachod z adbitkam palca"
-
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:534
-msgid "Select finger"
-msgstr "Abiary palec"
 
 #. translators:
 #. * The variable is the name of the device, for example:
 #. * "To enable fingerprint login, you need to save one of your fingerprints, using the
 #. * 'Digital Persona U.are.U 4000/4000B' device."
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:555
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:581
 #, c-format
 msgid ""
 "To enable fingerprint login, you need to save one of your fingerprints, "
@@ -311,47 +529,70 @@ msgstr ""
 "Kab uklučyć mahčymaść uvachodu z adbitkam palca, treba zapisać adbitak "
 "tvajho palca z dapamohaj pryłady \"%s\"."
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:568
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:590
 msgid "Swipe finger on reader"
 msgstr "Paciahni palcam pa čytniku"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.c:570
+#: ../capplets/about-me/gnome-about-me-fingerprint.c:592
 msgid "Place finger on reader"
 msgstr "Pakładzi palec na čytnik"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:1
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:3
 msgid "Left index finger"
 msgstr "Levy pakazalnik"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:2
-msgid ""
-"Left thumb\n"
-"Left middle finger\n"
-"Left ring finger\n"
-"Left little finger\n"
-"Right thumb\n"
-"Right middle finger\n"
-"Right ring finger\n"
-"Right little finger"
-msgstr ""
-"Levy adziniec\n"
-"Levy siarednik\n"
-"Levy pierścianiec\n"
-"Levy mieziniec\n"
-"Pravy adziniec\n"
-"Pravy siarednik\n"
-"Pravy pierścianiec\n"
-"Pravy mieziniec"
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:4
+#, fuzzy
+msgid "Left little finger"
+msgstr "Levy pakazalnik"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:10
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:5
+#, fuzzy
+msgid "Left middle finger"
+msgstr "Levy pakazalnik"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:6
+#, fuzzy
+msgid "Left ring finger"
+msgstr "Levy pakazalnik"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:7
+msgid "Left thumb"
+msgstr ""
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:8
 msgid "Other finger: "
 msgstr "Inšy palec: "
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:11
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:9
 msgid "Right index finger"
 msgstr "Pravy pakazalnik"
 
-#: ../capplets/about-me/gnome-about-me-fingerprint.glade.h:12
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:10
+#, fuzzy
+msgid "Right little finger"
+msgstr "Pravy pakazalnik"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:11
+#, fuzzy
+msgid "Right middle finger"
+msgstr "Pravy pakazalnik"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:12
+#, fuzzy
+msgid "Right ring finger"
+msgstr "Pravy pakazalnik"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:13
+#, fuzzy
+msgid "Right thumb"
+msgstr "Uprava"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:14
+msgid "Select finger"
+msgstr "Abiary palec"
+
+#: ../capplets/about-me/gnome-about-me-fingerprint.ui.h:15
 msgid ""
 "Your fingerprint was successfully saved. You should now be able to log in "
 "using your fingerprint reader."
@@ -359,141 +600,130 @@ msgstr ""
 "Adbitak tvajho palca zapisany. Ciapier ty zmožaš uvajści ŭ systemu z "
 "dapamohaj čytnika."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:1
-msgid "<b>Email</b>"
-msgstr "<b>E-mail</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:161
+msgid "Child exited unexpectedly"
+msgstr "Praces naščadka niečakana zakončyŭsia"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:2
-msgid "<b>Home</b>"
-msgstr "<b>Dom</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:296
+#, c-format
+msgid "Could not shutdown backend_stdin IO channel: %s"
+msgstr "Niamahčyma začynić kanał I/O backend_stdin: %s"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:3
-msgid "<b>Instant Messaging</b>"
-msgstr "<b>Kamunikatary</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:309
+#, c-format
+msgid "Could not shutdown backend_stdout IO channel: %s"
+msgstr "Niemahčyma začynić kanał I/O backend_stdout: %s"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:4
-msgid "<b>Job</b>"
-msgstr "<b>Praca</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:408
+msgid "Authenticated!"
+msgstr "Aŭtaryzacyja ŭdałasia!"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:5
-msgid "<b>Telephone</b>"
-msgstr "<b>Telefon</b>"
+#. This is a re-auth, and it failed.
+#. * The password must have been changed in the meantime!
+#. * Ask the user to re-authenticate
+#.
+#. Update status message and auth state
+#. Authentication failure
+#: ../capplets/about-me/gnome-about-me-password.c:474
+#: ../capplets/about-me/gnome-about-me-password.c:554
+msgid ""
+"Your password has been changed since you initially authenticated! Please re-"
+"authenticate."
+msgstr ""
+"Tvoj parol byŭ źmienieny paśla pačatkovaj aŭtaryzacyi! Kali łaska, paŭtary "
+"aŭtaryzacyju."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:6
-msgid "<b>Web</b>"
-msgstr "<b>Sieciva</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:476
+msgid "That password was incorrect."
+msgstr "Parol byŭ niapravilny."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:7
-msgid "<b>Work</b>"
-msgstr "<b>Praca</b>"
+#: ../capplets/about-me/gnome-about-me-password.c:525
+msgid "Your password has been changed."
+msgstr "Tvoj parol byŭ źmienieny."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:8
-msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
-msgstr "<span size=\"larger\" weight=\"bold\">Źmiani parol</span>"
+#. What does this indicate?
+#. * "Authentication information cannot be recovered?" from libpam?
+#: ../capplets/about-me/gnome-about-me-password.c:535
+#, c-format
+msgid "System error: %s."
+msgstr "Systemnaja pamyłka: %s."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:9
-msgid "A_IM/iChat:"
-msgstr "A_IM/iChat:"
+#: ../capplets/about-me/gnome-about-me-password.c:538
+msgid "The password is too short."
+msgstr "Hety parol nadta karotki."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:10
-msgid "A_ddress:"
-msgstr "A_dras:"
+#: ../capplets/about-me/gnome-about-me-password.c:542
+msgid "The password is too simple."
+msgstr "Hety parol nadta prosty."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:11
-msgid "A_ssistant:"
-msgstr "A_systent:"
+#: ../capplets/about-me/gnome-about-me-password.c:546
+msgid "The old and new passwords are too similar."
+msgstr "Novy parol nadta padobny da staroha."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:13
-msgid "Address"
-msgstr "Adras"
+#: ../capplets/about-me/gnome-about-me-password.c:548
+msgid "The new password must contain numeric or special character(s)."
+msgstr "U novym paroli musiać być ličby albo admysłovyja znaki."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:14
-msgid "C_ity:"
-msgstr "H_orad:"
+#: ../capplets/about-me/gnome-about-me-password.c:551
+msgid "The old and new passwords are the same."
+msgstr "Novy parol taki ž, jak i stary."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:15
-msgid "C_ompany:"
-msgstr "_Firma:"
+#. translators: Unable to launch <program>: <error message>
+#: ../capplets/about-me/gnome-about-me-password.c:822
+#, c-format
+msgid "Unable to launch %s: %s"
+msgstr "Niemahčyma ŭruchomić %s: %s"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:16
-msgid "Cale_ndar:"
-msgstr "_Kalandar:"
+#: ../capplets/about-me/gnome-about-me-password.c:826
+msgid "Unable to launch backend"
+msgstr "Niemahčyma ŭruchomić padtrymku"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:17
-msgid "Change Passwo_rd..."
-msgstr "Źmiani _parol..."
+#: ../capplets/about-me/gnome-about-me-password.c:827
+msgid "A system error has occurred"
+msgstr "Adbyłasia systemnaja pamyłka"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:18
-msgid "Change pa_ssword"
-msgstr "Źmiani pa_rol"
+#. Update status message
+#: ../capplets/about-me/gnome-about-me-password.c:847
+msgid "Checking password..."
+msgstr "Pravierka parolu..."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:19
-msgid "Change password"
-msgstr "Źmiani parol"
+#: ../capplets/about-me/gnome-about-me-password.c:934
+msgid "Click <b>Change password</b> to change your password."
+msgstr "Klikni na <b>Źmiani parol</b>, kab źmianić jaho."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:20
-msgid "Ci_ty:"
-msgstr "H_orad:"
+#: ../capplets/about-me/gnome-about-me-password.c:937
+msgid "Please type your password in the <b>New password</b> field."
+msgstr "Uviadzi parol u poli <b>Novy parol</b>."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:21
-msgid "Co_untry:"
-msgstr "K_raina:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:22
-msgid "Contact"
-msgstr "Kantakt"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:23
-msgid "Cou_ntry:"
-msgstr "_Kraina:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:24
-msgid "Current _password:"
-msgstr "Dziejny _parol:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:27
-msgid "Full Name"
-msgstr "Imia j proźvišča"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:28
-msgid "Hom_e:"
-msgstr "Do_m:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:29
-msgid "IC_Q:"
-msgstr "IC_Q:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:30
-msgid "M_SN:"
-msgstr "M_SN:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:31
-msgid "P.O. _box:"
-msgstr "_Paštovaja skrynka:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:32
-msgid "P._O. box:"
-msgstr "Pašt_ovaja skrynka:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:33
-msgid "Personal Info"
-msgstr "Persanalnyja źviestki"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:34
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
+#: ../capplets/about-me/gnome-about-me-password.ui.h:5
 msgid ""
 "Please type your password again in the <b>Retype new password</b> field."
 msgstr "Uviadzi svoj parol jašče raz u poli <b>Uviadzi parol znoŭ</b>."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:35
-msgid "Select your photo"
-msgstr "Abiary fatahrafiju"
+#: ../capplets/about-me/gnome-about-me-password.c:943
+msgid "The two passwords are not equal."
+msgstr "Paroli roźniacca miž saboj."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:36
-msgid "State/Pro_vince:"
-msgstr "R_ehijon:"
+#: ../capplets/about-me/gnome-about-me-password.ui.h:1
+msgid "Change pa_ssword"
+msgstr "Źmiani pa_rol"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:37
+#: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
+msgid "Change password"
+msgstr "Źmiani parol"
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:3
+#, fuzzy
+msgid "Change your password"
+msgstr "Źmiani parol"
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:4
+msgid "Current _password:"
+msgstr "Dziejny _parol:"
+
+#: ../capplets/about-me/gnome-about-me-password.ui.h:6
 msgid ""
 "To change your password, enter your current password in the field below and "
 "click <b>Authenticate</b>.\n"
@@ -505,210 +735,32 @@ msgstr ""
 "Paśla aŭtaryzacyi ŭviadzi novy parol, uviadzi jaho znoŭ dziela veryfikacyi i "
 "klikni <b>Źmiani parol</b>."
 
-#: ../capplets/about-me/gnome-about-me.glade.h:39
-msgid "User name:"
-msgstr "Nazva karystalnika:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:40
-msgid "Web _log:"
-msgstr "B_log:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:41
-msgid "Wor_k:"
-msgstr "Pra_ca:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:42
-msgid "Work _fax:"
-msgstr "_Faks na pracy:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:43
-msgid "Zip/_Postal code:"
-msgstr "Paštovy _indeks:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:44
-msgid "_Address:"
-msgstr "_Adras:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:45
+#: ../capplets/about-me/gnome-about-me-password.ui.h:8
 msgid "_Authenticate"
 msgstr "_Aŭtaryzuj"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:46
-msgid "_Department:"
-msgstr "_Addzieł:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:47
-msgid "_Groupwise:"
-msgstr "_Groupwise:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:48
-msgid "_Home page:"
-msgstr "_Chatniaja staronka:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:49
-msgid "_Home:"
-msgstr "Do_m:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:50
-msgid "_Jabber:"
-msgstr "_Jabber:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:51
-msgid "_Manager:"
-msgstr "_Kiraŭnik:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:52
-msgid "_Mobile:"
-msgstr "M_abilny telefon:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:53
+#: ../capplets/about-me/gnome-about-me-password.ui.h:9
 msgid "_New password:"
 msgstr "_Novy parol:"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:54
-msgid "_Profession:"
-msgstr "_Prafesija:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:55
+#: ../capplets/about-me/gnome-about-me-password.ui.h:10
 msgid "_Retype new password:"
 msgstr "_Uviadzi parol jašče raz:"
 
-#: ../capplets/about-me/gnome-about-me.glade.h:56
-msgid "_State/Province:"
-msgstr "Rehijo_n:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:57
-msgid "_Title:"
-msgstr "P_asada:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:58
-msgid "_Work:"
-msgstr "_Praca:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:59
-msgid "_Yahoo:"
-msgstr "_Yahoo:"
-
-#: ../capplets/about-me/gnome-about-me.glade.h:60
-msgid "_Zip/Postal code:"
-msgstr "Paštovy _indeks:"
-
-#: ../capplets/about-me/gnome-about-me-password.c:162
-msgid "Child exited unexpectedly"
-msgstr "Praces naščadka niečakana zakončyŭsia"
-
-#: ../capplets/about-me/gnome-about-me-password.c:297
-#, c-format
-msgid "Could not shutdown backend_stdin IO channel: %s"
-msgstr "Niamahčyma začynić kanał I/O backend_stdin: %s"
-
-#: ../capplets/about-me/gnome-about-me-password.c:310
-#, c-format
-msgid "Could not shutdown backend_stdout IO channel: %s"
-msgstr "Niemahčyma začynić kanał I/O backend_stdout: %s"
-
-#: ../capplets/about-me/gnome-about-me-password.c:409
-msgid "Authenticated!"
-msgstr "Aŭtaryzacyja ŭdałasia!"
-
-#. This is a re-auth, and it failed.
-#. * The password must have been changed in the meantime!
-#. * Ask the user to re-authenticate
-#.
-#. Update status message and auth state
-#. Authentication failure
-#: ../capplets/about-me/gnome-about-me-password.c:475
-#: ../capplets/about-me/gnome-about-me-password.c:551
-msgid ""
-"Your password has been changed since you initially authenticated! Please re-"
-"authenticate."
-msgstr ""
-"Tvoj parol byŭ źmienieny paśla pačatkovaj aŭtaryzacyi! Kali łaska, paŭtary "
-"aŭtaryzacyju."
-
-#: ../capplets/about-me/gnome-about-me-password.c:477
-msgid "That password was incorrect."
-msgstr "Parol byŭ niapravilny."
-
-#: ../capplets/about-me/gnome-about-me-password.c:524
-msgid "Your password has been changed."
-msgstr "Tvoj parol byŭ źmienieny."
-
-#. What does this indicate?
-#. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
-#, c-format
-msgid "System error: %s."
-msgstr "Systemnaja pamyłka: %s."
-
-#: ../capplets/about-me/gnome-about-me-password.c:537
-msgid "The password is too short."
-msgstr "Hety parol nadta karotki."
-
-#: ../capplets/about-me/gnome-about-me-password.c:540
-msgid "The password is too simple."
-msgstr "Hety parol nadta prosty."
-
-#: ../capplets/about-me/gnome-about-me-password.c:543
-msgid "The old and new passwords are too similar."
-msgstr "Novy parol nadta padobny da staroha."
-
-#: ../capplets/about-me/gnome-about-me-password.c:545
-msgid "The new password must contain numeric or special character(s)."
-msgstr "U novym paroli musiać być ličby albo admysłovyja znaki."
-
-#: ../capplets/about-me/gnome-about-me-password.c:548
-msgid "The old and new passwords are the same."
-msgstr "Novy parol taki ž, jak i stary."
-
-#. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
-#, c-format
-msgid "Unable to launch %s: %s"
-msgstr "Niemahčyma ŭruchomić %s: %s"
-
-#: ../capplets/about-me/gnome-about-me-password.c:824
-msgid "Unable to launch backend"
-msgstr "Niemahčyma ŭruchomić padtrymku"
-
-#: ../capplets/about-me/gnome-about-me-password.c:825
-msgid "A system error has occurred"
-msgstr "Adbyłasia systemnaja pamyłka"
-
-#. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
-msgid "Checking password..."
-msgstr "Pravierka parolu..."
-
-#: ../capplets/about-me/gnome-about-me-password.c:932
-msgid "Click <b>Change password</b> to change your password."
-msgstr "Klikni na <b>Źmiani parol</b>, kab źmianić jaho."
-
-#: ../capplets/about-me/gnome-about-me-password.c:935
-msgid "Please type your password in the <b>New password</b> field."
-msgstr "Uviadzi parol u poli <b>Novy parol</b>."
-
-#: ../capplets/about-me/gnome-about-me-password.c:941
-msgid "The two passwords are not equal."
-msgstr "Paroli roźniacca miž saboj."
-
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:1
-msgid "<b>Assistive Technologies</b>"
-msgstr "<b>Technalohii dastupnaści</b>"
-
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:2
-msgid "<b>Preferences</b>"
-msgstr "<b>Nałady</b>"
-
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:3
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:1
 msgid "Accessible Lo_gin"
 msgstr "_Dastupny ŭvachod"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:4
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:2
+#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
+msgid "Assistive Technologies"
+msgstr "Technalohii dastupnaści"
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:3
 msgid "Assistive Technologies Preferences"
 msgstr "Nałady technalohij dastupnaści"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:5
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:4
 msgid ""
 "Changes to enable assistive technologies will not take effect until your "
 "next log in."
@@ -716,45 +768,46 @@ msgstr ""
 "Źmieny dla ŭklučeńnia technalohij dastupnaści nie paŭpłyvajuć na dziejnyja "
 "nałady da nastupnaj tvajoj aŭtaryzacyi ŭ systemie."
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:6
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:5
 msgid "Close and _Log Out"
 msgstr "Začyni j vy_jdzi"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:7
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:6
 msgid "Jump to Preferred Applications dialog"
 msgstr "Pieraskoč da vakna \"Pažadanyja aplikacyi\""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:8
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:7
 msgid "Jump to the Accessible Login dialog"
 msgstr "Pieraskoč da vakna \"Dastupny ŭvachod\""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:9
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:8
 msgid "Jump to the Keyboard Accessibility dialog"
 msgstr "Pieraskoč da vakna \"Dastupnaść klavijatury\""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:10
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:9
 msgid "Jump to the Mouse Accessibility dialog"
 msgstr "Pieraskoč da vakna \"Dastupnaść myšy\""
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:11
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:10
+#, fuzzy
+msgid "Preferences"
+msgstr "/_Nałady"
+
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:11
 msgid "_Enable assistive technologies"
 msgstr "Uklučy technalohii dastupnaści"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:12
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:12
 msgid "_Keyboard Accessibility"
 msgstr "Dastupnaść _klavijatury"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:13
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:13
 msgid "_Mouse Accessibility"
 msgstr "Dastupnaść _myšy"
 
-#: ../capplets/accessibility/at-properties/at-enable-dialog.glade.h:14
+#: ../capplets/accessibility/at-properties/at-enable-dialog.ui.h:14
 msgid "_Preferred Applications"
 msgstr "_Pažadanyja aplikacyi"
-
-#: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:1
-msgid "Assistive Technologies"
-msgstr "Technalohii dastupnaści"
 
 #: ../capplets/accessibility/at-properties/at-properties.desktop.in.in.h:2
 msgid "Choose which accessibility features to enable when you log in"
@@ -762,11 +815,11 @@ msgstr ""
 "Vybiery, jakija technalohii dastupnaśći treba ŭklučyć pry ŭvachodzie ŭ "
 "systemu"
 
-#: ../capplets/appearance/appearance-desktop.c:628
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "Dadaj špaleru"
 
-#: ../capplets/appearance/appearance-desktop.c:664
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "Usie fajły"
 
@@ -822,44 +875,55 @@ msgstr "Užyj papiaredni šryft"
 msgid "Use selected font"
 msgstr "Užyj zaznačany šryft"
 
-#: ../capplets/appearance/appearance-main.c:124
+#: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
+#, fuzzy, c-format
+msgid "Could not load user interface file: %s"
+msgstr "Niemahčyma zahruzić hałoŭny interfejs."
+
+#: ../capplets/appearance/appearance-main.c:135
 msgid "Specify the filename of a theme to install"
 msgstr "Akreśl nazvu fajłu matyvu, jaki treba zainstalavać"
 
-#: ../capplets/appearance/appearance-main.c:125
+#: ../capplets/appearance/appearance-main.c:136
 msgid "filename"
 msgstr "nazva fajłu"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/appearance/appearance-main.c:132
+#: ../capplets/appearance/appearance-main.c:143
 msgid "Specify the name of the page to show (theme|background|fonts|interface)"
 msgstr ""
 "Akreśl nazvu staronki, jakuju treba pakazać (theme|background|fonts|"
 "interface)"
 
-#: ../capplets/appearance/appearance-main.c:133
-#: ../capplets/default-applications/gnome-da-capplet.c:897
-#: ../capplets/mouse/gnome-mouse-properties.c:442
+#: ../capplets/appearance/appearance-main.c:144
+#: ../capplets/default-applications/gnome-da-capplet.c:960
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "staronka"
 
-#: ../capplets/appearance/appearance-main.c:140
+#: ../capplets/appearance/appearance-main.c:151
 msgid "[WALLPAPER...]"
 msgstr "[ŠPALERA...]"
 
-#: ../capplets/appearance/appearance-style.c:173
-#: ../capplets/common/gnome-theme-info.c:445
-#: ../capplets/common/gnome-theme-info.c:637
+#: ../capplets/appearance/appearance-style.c:172
+#: ../capplets/common/gnome-theme-info.c:446
+#: ../capplets/common/gnome-theme-info.c:638
 msgid "Default Pointer"
 msgstr "Zmoŭčany kursor"
 
 #: ../capplets/appearance/appearance-style.c:235
-#: ../capplets/appearance/appearance-themes.c:687
+#: ../capplets/appearance/appearance-themes.c:685
 msgid "Install"
 msgstr "Zainstaluj"
 
-#: ../capplets/appearance/appearance-style.c:255
-#: ../capplets/common/gnome-theme-info.c:1647
+#: ../capplets/appearance/appearance-style.c:256
+#: ../capplets/common/gnome-theme-info.c:1646
 #, c-format
 msgid ""
 "This theme will not look as intended because the required GTK+ theme engine "
@@ -868,19 +932,19 @@ msgstr ""
 "Hety matyŭ nia budzie vyhladać, jak naležyć, bo nie zainstalavana patrebnaha "
 "ruchavika matyvaŭ GTK+ \"%s\"."
 
-#: ../capplets/appearance/appearance-themes.c:675
+#: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
 msgstr "Užyj fon"
 
-#: ../capplets/appearance/appearance-themes.c:679
+#: ../capplets/appearance/appearance-themes.c:677
 msgid "Apply Font"
 msgstr "Užyj šryft"
 
-#: ../capplets/appearance/appearance-themes.c:683
+#: ../capplets/appearance/appearance-themes.c:681
 msgid "Revert Font"
 msgstr "Viarni šryft"
 
-#: ../capplets/appearance/appearance-themes.c:713
+#: ../capplets/appearance/appearance-themes.c:712
 msgid ""
 "The current theme suggests a background and a font. Also, the last applied "
 "font suggestion can be reverted."
@@ -888,403 +952,357 @@ msgstr ""
 "Dziejny matyŭ raić peŭny fon i šryft. Zaŭsiody možna viarnuć papiaredni "
 "šryft."
 
-#: ../capplets/appearance/appearance-themes.c:715
+#: ../capplets/appearance/appearance-themes.c:714
 msgid ""
 "The current theme suggests a background. Also, the last applied font "
 "suggestion can be reverted."
 msgstr "Dziejny matyŭ raić peŭny fon. Zaŭsiody možna viarnuć papiaredni šryft."
 
-#: ../capplets/appearance/appearance-themes.c:717
+#: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
 msgstr "Dziejny matyŭ raić peŭny fon i šryft."
 
-#: ../capplets/appearance/appearance-themes.c:719
+#: ../capplets/appearance/appearance-themes.c:718
 msgid ""
 "The current theme suggests a font. Also, the last applied font suggestion "
 "can be reverted."
 msgstr "Dziejny matyŭ raić peŭny šryft. Zaŭsiody možna viarnuć papiaredni."
 
-#: ../capplets/appearance/appearance-themes.c:721
+#: ../capplets/appearance/appearance-themes.c:720
 msgid "The current theme suggests a background."
 msgstr "Dziejny matyŭ raić peŭny fon."
 
-#: ../capplets/appearance/appearance-themes.c:723
+#: ../capplets/appearance/appearance-themes.c:722
 msgid "The last applied font suggestion can be reverted."
 msgstr "Zaŭsiody možna viarnuć papiaredni šryft."
 
-#: ../capplets/appearance/appearance-themes.c:725
+#: ../capplets/appearance/appearance-themes.c:724
 msgid "The current theme suggests a font."
 msgstr "Dziejny matyŭ raić peŭny šryft."
 
 #: ../capplets/appearance/appearance-themes.c:1046
-#: ../capplets/default-applications/gnome-da-capplet.c:648
+#: ../capplets/default-applications/gnome-da-capplet.c:691
 msgid "Custom"
 msgstr "Admysłovy"
 
-#: ../capplets/appearance/data/appearance.glade.h:1
-msgid "<b>C_olors</b>"
-msgstr "<b>K_olery</b>"
-
-# Mechanizm papraŭleńnia jakaści druku na aparatury ź nizkaj padzielnaj zdolnaściu. Adpaviednika niama, pakinuŭ jak jość. Prapanuju heta pryniać tak jak i widget.
-#. font hinting
-#: ../capplets/appearance/data/appearance.glade.h:3
-msgid "<b>Hinting</b>"
-msgstr "<b>Hinting</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:4
-msgid "<b>Menus and Toolbars</b>"
-msgstr "<b>Paneli menu j pryładździa</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:5
-msgid "<b>Preview</b>"
-msgstr "<b>Pieradahlad</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:6
-msgid "<b>Rendering</b>"
-msgstr "<b>Vyjaŭleńnie</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:7
-msgid "<b>Smoothing</b>"
-msgstr "<b>Vyhładžvańnie</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:8
-msgid "<b>Subpixel Order</b>"
-msgstr "<b>Čarhovaść subpikselaŭ</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:9
-msgid "<b>_Desktop Background</b>"
-msgstr "<b>_Fon stała</b>"
-
-#: ../capplets/appearance/data/appearance.glade.h:10
+#: ../capplets/appearance/data/appearance.ui.h:1
 msgid "Appearance Preferences"
 msgstr "Nałady vyhladu"
 
-#: ../capplets/appearance/data/appearance.glade.h:11
+#: ../capplets/appearance/data/appearance.ui.h:2
 msgid "Background"
 msgstr "Fon"
 
-#: ../capplets/appearance/data/appearance.glade.h:12
+#: ../capplets/appearance/data/appearance.ui.h:3
 msgid "Best _shapes"
 msgstr "_Najlepšyja kštałty"
 
-#: ../capplets/appearance/data/appearance.glade.h:13
+#: ../capplets/appearance/data/appearance.ui.h:4
 msgid "Best co_ntrast"
 msgstr "Najlepšy _kantrast"
 
-#: ../capplets/appearance/data/appearance.glade.h:14
+#: ../capplets/appearance/data/appearance.ui.h:5
+#, fuzzy
+msgid "C_olors:"
+msgstr "Kolery"
+
+#: ../capplets/appearance/data/appearance.ui.h:6
 msgid "C_ustomize..."
 msgstr "_Źmiani..."
 
-#: ../capplets/appearance/data/appearance.glade.h:15
-msgid "C_ut"
-msgstr "_Vytni"
+#: ../capplets/appearance/data/appearance.ui.h:7
+#, fuzzy
+msgid "Center"
+msgstr "Kursor"
 
-#: ../capplets/appearance/data/appearance.glade.h:16
+#: ../capplets/appearance/data/appearance.ui.h:8
 msgid "Changing your cursor theme takes effect the next time you log in."
 msgstr "Źmiena matyvu kursora paŭpłyvaje paśla nastupnaha ŭvachodu."
 
-#: ../capplets/appearance/data/appearance.glade.h:17
+#: ../capplets/appearance/data/appearance.ui.h:9
 msgid "Colors"
 msgstr "Kolery"
 
-#: ../capplets/appearance/data/appearance.glade.h:18
+#: ../capplets/appearance/data/appearance.ui.h:10
 msgid "Controls"
 msgstr "Elementy kiravańnia"
 
-#: ../capplets/appearance/data/appearance.glade.h:19
+#: ../capplets/appearance/data/appearance.ui.h:11
 msgid "Customize Theme"
 msgstr "Źmiani matyŭ"
 
-#: ../capplets/appearance/data/appearance.glade.h:20
+#: ../capplets/appearance/data/appearance.ui.h:12
 msgid "D_etails..."
 msgstr "_Detali..."
 
-#: ../capplets/appearance/data/appearance.glade.h:21
+#: ../capplets/appearance/data/appearance.ui.h:13
 msgid "Des_ktop font:"
 msgstr "Šryft dla _stała:"
 
-#: ../capplets/appearance/data/appearance.glade.h:22
-msgid "Edit"
-msgstr "Redahuj"
-
-#: ../capplets/appearance/data/appearance.glade.h:23
+#: ../capplets/appearance/data/appearance.ui.h:14
 msgid "Font Rendering Details"
 msgstr "Detali vyjaŭleńnia šryftoŭ"
 
-#: ../capplets/appearance/data/appearance.glade.h:24
+#: ../capplets/appearance/data/appearance.ui.h:15
 msgid "Fonts"
 msgstr "Šryfty"
 
-#: ../capplets/appearance/data/appearance.glade.h:25
+#: ../capplets/appearance/data/appearance.ui.h:16
+#, fuzzy
+msgid "Get more backgrounds online"
+msgstr "Zapišy _fonavuju vyjavu"
+
+#: ../capplets/appearance/data/appearance.ui.h:17
+msgid "Get more themes online"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:18
 msgid "Gra_yscale"
 msgstr "Adcieńni _šeraha"
 
-#: ../capplets/appearance/data/appearance.glade.h:26
+# Mechanizm papraŭleńnia jakaści druku na aparatury ź nizkaj padzielnaj zdolnaściu. Adpaviednika niama, pakinuŭ jak jość. Prapanuju heta pryniać tak jak i widget.
+#. font hinting
+#: ../capplets/appearance/data/appearance.ui.h:20
+#, fuzzy
+msgid "Hinting"
+msgstr "<b>Hinting</b>"
+
+#: ../capplets/appearance/data/appearance.ui.h:21
+msgid "Horizontal gradient"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:22
 msgid "Icons"
 msgstr "Ikony"
 
-#: ../capplets/appearance/data/appearance.glade.h:27
-msgid "Interface"
-msgstr "Interfejs"
+#: ../capplets/appearance/data/appearance.ui.h:23
+#, fuzzy
+msgid "Icons only"
+msgstr "Ikony"
 
-#: ../capplets/appearance/data/appearance.glade.h:28
+#: ../capplets/appearance/data/appearance.ui.h:24
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:17
 msgid "Large"
 msgstr "Vialiki"
 
-#: ../capplets/appearance/data/appearance.glade.h:29
+#: ../capplets/appearance/data/appearance.ui.h:25
 msgid "N_one"
 msgstr "_Niama"
 
-#: ../capplets/appearance/data/appearance.glade.h:30
-msgid "New File"
-msgstr "Novy fajł"
-
-#: ../capplets/appearance/data/appearance.glade.h:31
-msgid "Open File"
-msgstr "Adčyni fajł"
-
-#: ../capplets/appearance/data/appearance.glade.h:32
+#: ../capplets/appearance/data/appearance.ui.h:26
 msgid "Open a dialog to specify the color"
 msgstr "Adčyni vakno vybaru koleru"
 
-#: ../capplets/appearance/data/appearance.glade.h:33
+#: ../capplets/appearance/data/appearance.ui.h:27
 msgid "Pointer"
 msgstr "Kursor"
 
-#: ../capplets/appearance/data/appearance.glade.h:34
+#: ../capplets/appearance/data/appearance.ui.h:28
 msgid "R_esolution:"
 msgstr "Pa_miery:"
 
-#: ../capplets/appearance/data/appearance.glade.h:35
-msgid "Save File"
-msgstr "Zapišy fajł"
+#: ../capplets/appearance/data/appearance.ui.h:29
+#, fuzzy
+msgid "Rendering"
+msgstr "<b>Vyjaŭleńnie</b>"
 
-#: ../capplets/appearance/data/appearance.glade.h:36
+#: ../capplets/appearance/data/appearance.ui.h:30
 msgid "Save Theme As..."
 msgstr "Za_pišy matyŭ jak..."
 
-#: ../capplets/appearance/data/appearance.glade.h:37
+#: ../capplets/appearance/data/appearance.ui.h:31
 msgid "Save _As..."
 msgstr "Za_pišy jak..."
 
-#: ../capplets/appearance/data/appearance.glade.h:38
+#: ../capplets/appearance/data/appearance.ui.h:32
 msgid "Save _background image"
 msgstr "Zapišy _fonavuju vyjavu"
 
-#: ../capplets/appearance/data/appearance.glade.h:39
-msgid "Show _icons in menus"
-msgstr "Pakazvaj _ikony ŭ menu"
+#: ../capplets/appearance/data/appearance.ui.h:33
+msgid "Scale"
+msgstr ""
 
-#: ../capplets/appearance/data/appearance.glade.h:40
+#: ../capplets/appearance/data/appearance.ui.h:34
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:31
 msgid "Small"
 msgstr "Mały"
 
-#: ../capplets/appearance/data/appearance.glade.h:41
-msgid ""
-"Solid color\n"
-"Horizontal gradient\n"
-"Vertical gradient"
-msgstr ""
-"Adnastajny koler\n"
-"Haryzantalny hradyjent\n"
-"Vertykalny hradyjent"
+#: ../capplets/appearance/data/appearance.ui.h:35
+#, fuzzy
+msgid "Smoothing"
+msgstr "<b>Vyhładžvańnie</b>"
 
-#: ../capplets/appearance/data/appearance.glade.h:44
+#: ../capplets/appearance/data/appearance.ui.h:36
+msgid "Solid color"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:37
+msgid "Stretch"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "_Subpikselnaje (ekrany LCD)"
 
-#: ../capplets/appearance/data/appearance.glade.h:45
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "Sub_pikselnaje vyhładžvańnie (ekrany LCD)"
 
-#: ../capplets/appearance/data/appearance.glade.h:46
+#: ../capplets/appearance/data/appearance.ui.h:40
+#, fuzzy
+msgid "Subpixel Order"
+msgstr "<b>Čarhovaść subpikselaŭ</b>"
+
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "Tekst"
 
-#: ../capplets/appearance/data/appearance.glade.h:47
-msgid ""
-"Text below items\n"
-"Text beside items\n"
-"Icons only\n"
-"Text only"
+#: ../capplets/appearance/data/appearance.ui.h:42
+msgid "Text below items"
 msgstr ""
-"Tekst nižej elementaŭ\n"
-"Tekst pobač z elementami\n"
-"Tolki ikony\n"
-"Tolki tekst"
 
-#: ../capplets/appearance/data/appearance.glade.h:51
+#: ../capplets/appearance/data/appearance.ui.h:43
+#, fuzzy
+msgid "Text beside items"
+msgstr "_Zaznačanyja elementy:"
+
+#: ../capplets/appearance/data/appearance.ui.h:44
+#, fuzzy
+msgid "Text only"
+msgstr "Tekst"
+
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "Dziejny matyŭ elementaŭ kiravańnia nie absłuhoŭvaje schiemaŭ koleraŭ."
 
-#: ../capplets/appearance/data/appearance.glade.h:52
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "Matyŭ"
 
-#: ../capplets/appearance/data/appearance.glade.h:53
-msgid ""
-"Tiled\n"
-"Zoom\n"
-"Centered\n"
-"Scaled\n"
-"Fill screen"
+#: ../capplets/appearance/data/appearance.ui.h:47
+msgid "Tile"
 msgstr ""
-"Pa susiedztvie\n"
-"Maštabavany\n"
-"Centravany\n"
-"Źmienieny pamier\n"
-"Zapaŭnieńnie ekranu"
-
-#: ../capplets/appearance/data/appearance.glade.h:58
-msgid "Toolbar _button labels:"
-msgstr "_Podpisy dla knopak paneli pryładździa:"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.glade.h:60
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.glade.h:61
+#: ../capplets/appearance/data/appearance.ui.h:50
+msgid "Vertical gradient"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "Kraj vakna"
 
-#: ../capplets/appearance/data/appearance.glade.h:62
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:54
+#: ../capplets/appearance/data/appearance.ui.h:52
+msgid "Zoom"
+msgstr ""
+
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "_Dadaj..."
 
-#: ../capplets/appearance/data/appearance.glade.h:63
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "Šryft _aplikacyj:"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.glade.h:65
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.glade.h:66
-msgid "_Copy"
-msgstr "S_kapijuj"
-
-#: ../capplets/appearance/data/appearance.glade.h:67
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "_Apisańnie:"
 
-#: ../capplets/appearance/data/appearance.glade.h:68
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "Šryft _dakumentaŭ:"
 
-#: ../capplets/appearance/data/appearance.glade.h:69
-msgid "_Editable menu shortcut keys"
-msgstr "_Źmianialnyja klavišy skarotaŭ menu"
-
-#: ../capplets/appearance/data/appearance.glade.h:70
-msgid "_File"
-msgstr "_Fajł"
-
-#: ../capplets/appearance/data/appearance.glade.h:71
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "Šryft s_tałaj šyryni:"
 
-#: ../capplets/appearance/data/appearance.glade.h:72
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "_Poŭny"
 
-#: ../capplets/appearance/data/appearance.glade.h:73
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "_Pali ŭvodu:"
 
-#: ../capplets/appearance/data/appearance.glade.h:74
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "Za_instaluj..."
 
-#: ../capplets/appearance/data/appearance.glade.h:75
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "Siar_edni"
 
-#: ../capplets/appearance/data/appearance.glade.h:76
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "_Monachromnaje"
 
-#: ../capplets/appearance/data/appearance.glade.h:77
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:5
+#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "_Nazva:"
 
-#: ../capplets/appearance/data/appearance.glade.h:78
-msgid "_New"
-msgstr "_Novy"
-
-#: ../capplets/appearance/data/appearance.glade.h:79
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "_Niama"
 
-#: ../capplets/appearance/data/appearance.glade.h:80
-msgid "_Open"
-msgstr "_Adčyni"
-
-#: ../capplets/appearance/data/appearance.glade.h:81
-msgid "_Paste"
-msgstr "Uk_lej"
-
-#: ../capplets/appearance/data/appearance.glade.h:82
-msgid "_Print"
-msgstr "Vy_drukuj"
-
-#: ../capplets/appearance/data/appearance.glade.h:83
-msgid "_Quit"
-msgstr "_Vyjdzi"
-
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.glade.h:85
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
-#: ../capplets/appearance/data/appearance.glade.h:86
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "V_iarni zmoŭčanaje"
 
-#: ../capplets/appearance/data/appearance.glade.h:87
-msgid "_Save"
-msgstr "_Zapišy"
-
-#: ../capplets/appearance/data/appearance.glade.h:88
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "_Zaznačanyja elementy:"
 
-#: ../capplets/appearance/data/appearance.glade.h:89
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "_Pamier:"
 
-#: ../capplets/appearance/data/appearance.glade.h:90
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "_Lohki"
 
-#: ../capplets/appearance/data/appearance.glade.h:91
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "_Styl:"
 
-#: ../capplets/appearance/data/appearance.glade.h:92
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "_Padkazki:"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.glade.h:94
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.glade.h:95
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "_Šryft zahałoŭku vakna:"
 
-#: ../capplets/appearance/data/appearance.glade.h:96
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "Vo_kny:"
 
-#: ../capplets/appearance/data/appearance.glade.h:97
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "punktaŭ na cal"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "Vyhlad"
@@ -1309,57 +1327,92 @@ msgstr "Pakunak matyvu GNOME"
 msgid "No Desktop Background"
 msgstr "Biaz fonu stała"
 
-#: ../capplets/appearance/gnome-wp-item.c:208
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "Slideshow"
 
-#. translators: <b>wallpaper name</b>
-#. * mime type, x pixel(s) by y pixel(s)
-#. * Folder: /path/to/file
-#.
-#: ../capplets/appearance/gnome-wp-item.c:216
-#, c-format
-msgid ""
-"<b>%s</b>\n"
-"%s, %d %s by %d %s\n"
-"Folder: %s"
-msgstr ""
-"<b>%s</b>\n"
-"%s, %d %s na %d %s\n"
-"Kataloh: %s"
+#: ../capplets/appearance/gnome-wp-item.c:266
+#, fuzzy
+msgid "Image"
+msgstr "Vyjavy"
 
-#: ../capplets/appearance/gnome-wp-item.c:222
-#: ../capplets/appearance/gnome-wp-item.c:224
+#: ../capplets/appearance/gnome-wp-item.c:272
+msgid "multiple sizes"
+msgstr ""
+
+#. translators: x pixel(s) by y pixel(s)
+#: ../capplets/appearance/gnome-wp-item.c:275
+#, fuzzy, c-format
+msgid "%d %s by %d %s"
+msgstr "%b %d %Y"
+
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "piksel"
 msgstr[1] "pikseli"
 msgstr[2] "pikselaŭ"
 
-#: ../capplets/appearance/theme-installer.c:174
-#: ../capplets/appearance/theme-installer.c:224
+#. translators: <b>wallpaper name</b>
+#. * mime type, size
+#. * Folder: /path/to/file
+#.
+#: ../capplets/appearance/gnome-wp-item.c:287
+#, fuzzy, c-format
+msgid ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"Folder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s, %d %s na %d %s\n"
+"Kataloh: %s"
+
+#. translators: <b>wallpaper name</b>
+#. * Image missing
+#. * Folder: /path/to/file
+#.
+#: ../capplets/appearance/gnome-wp-item.c:299
+#, fuzzy, c-format
+msgid ""
+"<b>%s</b>\n"
+"%s\n"
+"Folder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s, %d %s na %d %s\n"
+"Kataloh: %s"
+
+#: ../capplets/appearance/gnome-wp-item.c:303
+#, fuzzy
+msgid "Image missing"
+msgstr "Vyjavy"
+
+#: ../capplets/appearance/theme-installer.c:178
+#: ../capplets/appearance/theme-installer.c:234
 msgid "Cannot install theme"
 msgstr "Niemahčyma zainstalavać matyŭ"
 
-#: ../capplets/appearance/theme-installer.c:176
+#: ../capplets/appearance/theme-installer.c:180
 #, c-format
 msgid "The %s utility is not installed."
 msgstr "Pryłada %s nie zainstalavanaja."
 
-#: ../capplets/appearance/theme-installer.c:226
+#: ../capplets/appearance/theme-installer.c:236
 msgid "There was a problem while extracting the theme."
 msgstr "Uźnikła prablema ŭ časie raspakoŭvańnia matyvu."
 
-#: ../capplets/appearance/theme-installer.c:249
+#: ../capplets/appearance/theme-installer.c:264
 msgid "There was an error installing the selected file"
 msgstr "U časie instalavańnia zaznačanaha fajłu ŭźnikła pamyłka"
 
-#: ../capplets/appearance/theme-installer.c:250
+#: ../capplets/appearance/theme-installer.c:265
 #, c-format
 msgid "\"%s\" does not appear to be a valid theme."
 msgstr "\"%s\" nie padobny na pravilny matyŭ."
 
-#: ../capplets/appearance/theme-installer.c:251
+#: ../capplets/appearance/theme-installer.c:266
 #, c-format
 msgid ""
 "\"%s\" does not appear to be a valid theme. It may be a theme engine which "
@@ -1368,46 +1421,46 @@ msgstr ""
 "\"%s\" nie padobny na pravilny matyŭ. Heta moža być prahramny matyŭ, jaki "
 "treba skampilavać."
 
-#: ../capplets/appearance/theme-installer.c:354
+#: ../capplets/appearance/theme-installer.c:372
 #, c-format
 msgid "Installation for theme \"%s\" failed."
 msgstr "Pamyłka instalacyi matyvu \"%s\"."
 
-#: ../capplets/appearance/theme-installer.c:393
+#: ../capplets/appearance/theme-installer.c:411
 #, c-format
 msgid "The theme \"%s\" has been installed."
 msgstr "Matyŭ \"%s\" zainstalavany."
 
-#: ../capplets/appearance/theme-installer.c:398
+#: ../capplets/appearance/theme-installer.c:421
 msgid "Would you like to apply it now, or keep your current theme?"
 msgstr "Ty chočaš užyć matyŭ ciapier ci pakinuć dziejny matyŭ?"
 
-#: ../capplets/appearance/theme-installer.c:400
+#: ../capplets/appearance/theme-installer.c:424
 msgid "Keep Current Theme"
 msgstr "Pakiń dziejny matyŭ"
 
-#: ../capplets/appearance/theme-installer.c:402
+#: ../capplets/appearance/theme-installer.c:427
 msgid "Apply New Theme"
 msgstr "Užyj novy matyŭ"
 
-#: ../capplets/appearance/theme-installer.c:446
+#: ../capplets/appearance/theme-installer.c:471
 #, c-format
 msgid "GNOME Theme %s correctly installed"
 msgstr "Matyŭ GNOME %s pravilna zainstalavany"
 
-#: ../capplets/appearance/theme-installer.c:505
+#: ../capplets/appearance/theme-installer.c:533
 msgid "Failed to create temporary directory"
 msgstr "Niemahčyma stvaryć časovy kataloh"
 
-#: ../capplets/appearance/theme-installer.c:568
+#: ../capplets/appearance/theme-installer.c:596
 msgid "New themes have been successfully installed."
 msgstr "Novyja matyvy paśpiachova zainstalavanyja."
 
-#: ../capplets/appearance/theme-installer.c:593
+#: ../capplets/appearance/theme-installer.c:646
 msgid "No theme file location specified to install"
 msgstr "Nie padadziena pałažeńnia fajłu matyvu, jaki treba zainstalavać"
 
-#: ../capplets/appearance/theme-installer.c:614
+#: ../capplets/appearance/theme-installer.c:670
 #, c-format
 msgid ""
 "Insufficient permissions to install the theme in:\n"
@@ -1416,11 +1469,11 @@ msgstr ""
 "Niedastatkova dazvołu, kab zainstalavać matyŭ u:\n"
 "%s"
 
-#: ../capplets/appearance/theme-installer.c:684
+#: ../capplets/appearance/theme-installer.c:748
 msgid "Select Theme"
 msgstr "Abiary matyŭ"
 
-#: ../capplets/appearance/theme-installer.c:688
+#: ../capplets/appearance/theme-installer.c:759
 msgid "Theme Packages"
 msgstr "Pakunki matyvaŭ"
 
@@ -1451,10 +1504,11 @@ msgid "Could not install theme engine"
 msgstr "Niemahčyma zainstalavać matyŭ"
 
 #: ../capplets/common/activate-settings-daemon.c:16
+#, fuzzy
 msgid ""
 "Unable to start the settings manager 'gnome-settings-daemon'.\n"
 "Without the GNOME settings manager running, some preferences may not take "
-"effect. This could indicate a problem with Bonobo, or a non-GNOME (e.g. KDE) "
+"effect. This could indicate a problem with DBus, or a non-GNOME (e.g. KDE) "
 "settings manager may already be active and conflicting with the GNOME "
 "settings manager."
 msgstr ""
@@ -1463,7 +1517,7 @@ msgstr ""
 "Heta moža śviedčyć ab prablemie z Bonobo albo ź inšym kiraŭnikom naładaŭ "
 "(napr. KDE), jaki kanfliktuje z kiraŭnikom GNOME."
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "Niemahčyma zahruzić standartnuju ikonu '%s'\n"
@@ -1549,81 +1603,81 @@ msgstr "_Prapuści"
 msgid "Overwrite _All"
 msgstr "Zamiani _ŭsio"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "Kluč"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "Kluč GConfa, da jakoha dałučany hety redaktar ułaścivaściaŭ"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "Advarotny vyklik"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr ""
 "Funkcyja, vyklikanaja, kali budzie źmienienaja vartaść, źviazanaja z hetym "
 "klučom"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "Nabor źmienaŭ"
 
-#: ../capplets/common/gconf-property-editor.c:148
+#: ../capplets/common/gconf-property-editor.c:150
 msgid ""
 "GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr ""
 "Nabor źmienaŭ GConfa, u jakim źmieščanyja źviestki, dasyłanyja klijentu "
 "GConfa padčas prymianieńnia"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "Vyklikanaja funkcyja kanversii na widget"
 
-#: ../capplets/common/gconf-property-editor.c:154
+#: ../capplets/common/gconf-property-editor.c:156
 msgid ""
 "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "Funkcyja, vyklikanaja pierad kanversijaj źviestak z GConfa na widget"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "Vyklikanaja funkcyja kanversii z widgetu"
 
-#: ../capplets/common/gconf-property-editor.c:160
+#: ../capplets/common/gconf-property-editor.c:162
 msgid ""
 "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "Funkcyja, vyklikanaja pierad kanversijaj źviestak z widgetu na GConf"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "Kiravańnie UI"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "Abjekt, jaki kantraluje ŭłaścivaść (zvyčajna widget)"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "Źviestki abjektu redaktara ŭłaścivaściaŭ"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "Asablivyja źviestki, vymahanyja admysłovym redaktaram ułaścivaściaŭ"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr ""
 "Funkcyja, vyklikanaja dziela vyzvaleńnia źviestak redaktara ŭłaścivaściaŭ"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr ""
 "Funkcyja, vyklikanaja pierad vyzvaleńniem źviestak ad abjektu redaktara "
 "ŭłaścivaściaŭ"
 
-#: ../capplets/common/gconf-property-editor.c:1404
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1636,7 +1690,7 @@ msgstr ""
 "Pierakanajsia, što fajł isnuje, i pasprabuj znoŭ, albo abiary inšuju "
 "fonavuju vyjavu."
 
-#: ../capplets/common/gconf-property-editor.c:1412
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1649,43 +1703,43 @@ msgstr ""
 "\n"
 "Abiary inšy fajł vyjavy."
 
-#: ../capplets/common/gconf-property-editor.c:1532
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "Abiary vyjavu."
 
-#: ../capplets/common/gconf-property-editor.c:1537
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "_Abiary"
 
-#: ../capplets/common/gnome-theme-info.c:638
+#: ../capplets/common/gnome-theme-info.c:639
 msgid "Default Pointer - Current"
 msgstr "Zmoŭčany kursor – dziejny"
 
-#: ../capplets/common/gnome-theme-info.c:642
+#: ../capplets/common/gnome-theme-info.c:643
 msgid "White Pointer"
 msgstr "Bieły kursor"
 
-#: ../capplets/common/gnome-theme-info.c:643
+#: ../capplets/common/gnome-theme-info.c:644
 msgid "White Pointer - Current"
 msgstr "Bieły kursor – dziejny"
 
-#: ../capplets/common/gnome-theme-info.c:647
+#: ../capplets/common/gnome-theme-info.c:648
 msgid "Large Pointer"
 msgstr "Vialiki kursor"
 
-#: ../capplets/common/gnome-theme-info.c:648
+#: ../capplets/common/gnome-theme-info.c:649
 msgid "Large Pointer - Current"
 msgstr "Vialiki kursor – dziejny"
 
-#: ../capplets/common/gnome-theme-info.c:652
+#: ../capplets/common/gnome-theme-info.c:653
 msgid "Large White Pointer - Current"
 msgstr "Vialiki bieły kursor – dziejny"
 
-#: ../capplets/common/gnome-theme-info.c:653
+#: ../capplets/common/gnome-theme-info.c:654
 msgid "Large White Pointer"
 msgstr "Vialiki bieły kursor"
 
-#: ../capplets/common/gnome-theme-info.c:1623
+#: ../capplets/common/gnome-theme-info.c:1622
 #, c-format
 msgid ""
 "This theme will not look as intended because the required GTK+ theme '%s' is "
@@ -1694,7 +1748,7 @@ msgstr ""
 "Hety matyŭ nia budzie vyhladać, jak naležyć, bo patrebny matyŭ GTK+ \"%s\" "
 "nie zainstalavany."
 
-#: ../capplets/common/gnome-theme-info.c:1631
+#: ../capplets/common/gnome-theme-info.c:1630
 #, c-format
 msgid ""
 "This theme will not look as intended because the required window manager "
@@ -1703,7 +1757,7 @@ msgstr ""
 "Hety matyŭ nia budzie vyhladać, jak naležyć, bo patrebny matyŭ kiraŭnika "
 "voknaŭ \"%s\" nie zainstalavany."
 
-#: ../capplets/common/gnome-theme-info.c:1638
+#: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
 msgid ""
 "This theme will not look as intended because the required icon theme '%s' is "
@@ -1713,7 +1767,7 @@ msgstr ""
 "nie zainstalavany."
 
 #: ../capplets/default-applications/default-applications.desktop.in.in.h:1
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:22
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:17
 msgid "Preferred Applications"
 msgstr "Pažadanyja aplikacyi"
 
@@ -1736,121 +1790,136 @@ msgstr "Vizualnaja dastupnaść"
 msgid "Error saving configuration: %s"
 msgstr "Pry zapisie kanfihuracyi adbyłasia pamyłka: %s"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:668
+#: ../capplets/default-applications/gnome-da-capplet.c:722
 msgid "Could not load the main interface"
 msgstr "Niemahčyma zahruzić hałoŭny interfejs."
 
-#: ../capplets/default-applications/gnome-da-capplet.c:670
+#: ../capplets/default-applications/gnome-da-capplet.c:724
 msgid "Please make sure that the applet is properly installed"
 msgstr "Upeŭnisia, ci pravilna zainstalavany hety aplet."
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/default-applications/gnome-da-capplet.c:896
+#: ../capplets/default-applications/gnome-da-capplet.c:959
 msgid "Specify the name of the page to show (internet|multimedia|system|a11y)"
 msgstr ""
 "Akreśli nazvu staronki, jakuju treba pakazać (internet|multimedia|system|"
 "a11y)"
 
-#: ../capplets/default-applications/gnome-da-capplet.c:901
+#: ../capplets/default-applications/gnome-da-capplet.c:964
 msgid "- GNOME Default Applications"
 msgstr "- Zmoŭčanyja aplikacyi GNOME"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:1
-msgid "<b>Image Viewer</b>"
-msgstr "<b>Prahladalnik hrafiki</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:2
-msgid "<b>Instant Messenger</b>"
-msgstr "<b>Kamunikatar</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:3
-msgid "<b>Mail Reader</b>"
-msgstr "<b>Paštovy čytač</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:4
-msgid "<b>Mobility</b>"
-msgstr "<b>Mabilnaść</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:5
-msgid "<b>Multimedia Player</b>"
-msgstr "<b>Multymedyja-player</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:6
-msgid "<b>Terminal Emulator</b>"
-msgstr "<b>Emulatar terminału</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:7
-msgid "<b>Text Editor</b>"
-msgstr "<b>Tekstavy redaktar</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:8
-msgid "<b>Video Player</b>"
-msgstr "<b>Videa-player</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:9
-msgid "<b>Visual</b>"
-msgstr "<b>Vizualny</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:10
-msgid "<b>Web Browser</b>"
-msgstr "<b>Web-hartač</b>"
-
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:13
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:28
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:1
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:1
 msgid "Accessibility"
 msgstr "Dastupnaść"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:13
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:3
 #, no-c-format
 msgid "All %s occurrences will be replaced with actual link"
 msgstr "Va ŭsich miescach %s buduć zamienienyja na dziejnuju spasyłku"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:14
+#.
+#. * vim: sw=2 ts=8 cindent noai bs=2
+#.
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "_Zahad:"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:15
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:5
 msgid "Co_mmand:"
 msgstr "_Zahad:"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:16
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:6
 msgid "E_xecute flag:"
 msgstr "Opcyja vy_kanańnia:"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:17
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:7
+#, fuzzy
+msgid "Image Viewer"
+msgstr "<b>Prahladalnik hrafiki</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:8
+#, fuzzy
+msgid "Instant Messenger"
+msgstr "<b>Kamunikatar</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:9
 msgid "Internet"
 msgstr "Internet"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:18
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:10
+#, fuzzy
+msgid "Mail Reader"
+msgstr "<b>Paštovy čytač</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:11
+#, fuzzy
+msgid "Mobility"
+msgstr "<b>Mabilnaść</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:12
 msgid "Multimedia"
 msgstr "Multymedyja"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:19
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:13
+#, fuzzy
+msgid "Multimedia Player"
+msgstr "<b>Multymedyja-player</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:14
 msgid "Open link in new _tab"
 msgstr "Adčyniaj spasyłki ŭ novaj _kartcy"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:20
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:15
 msgid "Open link in new _window"
 msgstr "Adčyniaj spasyłki ŭ novym _аknie"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:21
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:16
 msgid "Open link with web browser _default"
 msgstr "Adčyniaj spasyłki sa _zmoŭčanymi naładami hartača"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:23
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:18
 msgid "Run at st_art"
 msgstr "Uruchom pry _ŭvachodzie"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:24
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:19
 msgid "Run in t_erminal"
 msgstr "Uruchom u t_erminale"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:25
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:20
 msgid "System"
 msgstr "Systemа"
 
-#: ../capplets/default-applications/gnome-default-applications-properties.glade.h:26
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:21
+#, fuzzy
+msgid "Terminal Emulator"
+msgstr "<b>Emulatar terminału</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:22
+#, fuzzy
+msgid "Text Editor"
+msgstr "<b>Tekstavy redaktar</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:23
+#, fuzzy
+msgid "Video Player"
+msgstr "<b>Videa-player</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:24
+#, fuzzy
+msgid "Visual"
+msgstr "Vizualnaja tryvoha"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:25
+#, fuzzy
+msgid "Web Browser"
+msgstr "<b>Web-hartač</b>"
+
+#: ../capplets/default-applications/gnome-default-applications-properties.ui.h:26
 msgid "_Run at start"
 msgstr "_Vykanaj pry ŭruchamleńni"
 
@@ -2062,204 +2131,246 @@ msgstr "Player filmaŭ Totem"
 msgid "aterm"
 msgstr "aterm"
 
-#: ../capplets/display/display-capplet.glade.h:1
-#: ../capplets/display/xrandr-capplet.c:460
-msgid "<b>Monitor</b>"
-msgstr "<b>Manitor</b>"
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "Nie ŭdałosia zapisać nałady manitora"
 
-#: ../capplets/display/display-capplet.glade.h:2
-msgid "<b>Panel icon</b>"
-msgstr "<b>Ikona paneli</b>"
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "Nie ŭdałosia atrymać šynu sesii pry ŭžyćci naładaŭ ekranu"
 
-#: ../capplets/display/display-capplet.glade.h:3
-msgid "<i>Drag the monitors to set their place</i>"
-msgstr "<i>Pieraciahvaj manitory, kab uparadkavać ich</i>"
-
-#: ../capplets/display/display-capplet.glade.h:4
-msgid "Display Preferences"
-msgstr "Nałady ekranu"
-
-#: ../capplets/display/display-capplet.glade.h:5
-msgid "Include _panel"
-msgstr "Ułučy _panel"
-
-#: ../capplets/display/display-capplet.glade.h:6
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
 msgid ""
-"Normal\n"
-"Left\n"
-"Right\n"
-"Upside-down\n"
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
 msgstr ""
-"Zvyčajna\n"
-"Uleva\n"
-"Uprava\n"
-"Dahary nahami\n"
 
-#: ../capplets/display/display-capplet.glade.h:11
-msgid "Off"
-msgstr "Vyklučany"
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
 
-#: ../capplets/display/display-capplet.glade.h:12
-msgid "On"
-msgstr "Uklučany"
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
 
-#: ../capplets/display/display-capplet.glade.h:13
-msgid "R_otation:"
-msgstr "_Abaročvańnie:"
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "Nie ŭdałosia atrymać źviestki ekranu"
 
-#: ../capplets/display/display-capplet.glade.h:14
-msgid "Re_fresh rate:"
-msgstr "C_hutkaść aktualizacyi:"
-
-#: ../capplets/display/display-capplet.glade.h:15
-msgid "_Detect Monitors"
-msgstr "_Paznavaj manitory"
-
-#: ../capplets/display/display-capplet.glade.h:16
-msgid "_Mirror screens"
-msgstr "_Adlustroŭvaj ekrany"
-
-#: ../capplets/display/display-capplet.glade.h:17
-msgid "_Resolution:"
-msgstr "_Pamiery:"
-
-#: ../capplets/display/display-capplet.glade.h:18
-msgid "_Show displays in panel"
-msgstr "_Pakazvaj ekrany na paneli"
-
-#: ../capplets/display/display-properties.desktop.in.in.h:1
-msgid "Change screen resolution"
-msgstr "Źmiani pamiery ekranu"
-
-#: ../capplets/display/display-properties.desktop.in.in.h:2
+#: ../capplets/display/cc-display-panel.c:121
 msgid "Display"
 msgstr "Ekran"
 
-#: ../capplets/display/xrandr-capplet.c:327
-#: ../capplets/display/xrandr-capplet.c:366
-msgid "Normal"
-msgstr "Narmalna"
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
 
-#: ../capplets/display/xrandr-capplet.c:328
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:1
+msgid "Include _panel"
+msgstr "Ułučy _panel"
+
+#: ../capplets/display/display-capplet.ui.h:2
+#: ../capplets/display/xrandr-capplet.c:305
 msgid "Left"
 msgstr "Uleva"
 
-#: ../capplets/display/xrandr-capplet.c:329
+#: ../capplets/display/display-capplet.ui.h:3
+#: ../capplets/display/xrandr-capplet.c:508
+#, fuzzy
+msgid "Monitor"
+msgstr "<b>Manitor</b>"
+
+#: ../capplets/display/display-capplet.ui.h:4
+#, fuzzy
+msgid "Monitor Preferences"
+msgstr "Nałady myšy"
+
+#: ../capplets/display/display-capplet.ui.h:5
+#: ../capplets/display/xrandr-capplet.c:304
+#: ../capplets/display/xrandr-capplet.c:343
+msgid "Normal"
+msgstr "Narmalna"
+
+#: ../capplets/display/display-capplet.ui.h:6
+msgid "Off"
+msgstr "Vyklučany"
+
+#: ../capplets/display/display-capplet.ui.h:7
+msgid "On"
+msgstr "Uklučany"
+
+#: ../capplets/display/display-capplet.ui.h:8
+#, fuzzy
+msgid "Panel icon"
+msgstr "<b>Ikona paneli</b>"
+
+#: ../capplets/display/display-capplet.ui.h:9
+msgid "R_otation:"
+msgstr "_Abaročvańnie:"
+
+#: ../capplets/display/display-capplet.ui.h:10
+msgid "Re_fresh rate:"
+msgstr "C_hutkaść aktualizacyi:"
+
+#: ../capplets/display/display-capplet.ui.h:11
+#: ../capplets/display/xrandr-capplet.c:306
 msgid "Right"
 msgstr "Uprava"
 
-#: ../capplets/display/xrandr-capplet.c:330
+#: ../capplets/display/display-capplet.ui.h:12
+msgid "Sa_me image in all monitors"
+msgstr ""
+
+#: ../capplets/display/display-capplet.ui.h:13
+#, fuzzy
+msgid "Upside-down"
+msgstr "Dahary nahami"
+
+#: ../capplets/display/display-capplet.ui.h:14
+#, fuzzy
+msgid "_Detect monitors"
+msgstr "_Paznavaj manitory"
+
+#: ../capplets/display/display-capplet.ui.h:15
+msgid "_Resolution:"
+msgstr "_Pamiery:"
+
+#: ../capplets/display/display-capplet.ui.h:16
+#, fuzzy
+msgid "_Show monitors in panel"
+msgstr "_Pakazvaj ekrany na paneli"
+
+#: ../capplets/display/display-properties.desktop.in.in.h:1
+msgid "Change resolution and position of monitors"
+msgstr ""
+
+#: ../capplets/display/display-properties.desktop.in.in.h:2
+#, fuzzy
+msgid "Monitors"
+msgstr "_Paznavaj manitory"
+
+#: ../capplets/display/xrandr-capplet.c:307
 msgid "Upside Down"
 msgstr "Dahary nahami"
 
-#: ../capplets/display/xrandr-capplet.c:403
-#: ../capplets/display/xrandr-capplet.c:411
-#: ../capplets/display/xrandr-capplet.c:412
+#: ../capplets/display/xrandr-capplet.c:349
 #, c-format
 msgid "%d Hz"
 msgstr "%d Hz"
-
-#: ../capplets/display/xrandr-capplet.c:453
-#, c-format
-msgid "<b>Monitor: %s</b>"
-msgstr "<b>Manitor: %s</b>"
-
-#: ../capplets/display/xrandr-capplet.c:545
-#: ../capplets/display/xrandr-capplet.c:555
-#: ../capplets/display/xrandr-capplet.c:563
-#, c-format
-msgid "%d x %d"
-msgstr "%d x %d"
 
 #. Translators:  this is the feature where what you see on your laptop's
 #. * screen is the same as your external monitor.  Here, "Mirror" is being
 #. * used as an adjective, not as a verb.  For example, the Spanish
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
-#: ../capplets/display/xrandr-capplet.c:1410
+#: ../capplets/display/xrandr-capplet.c:497
+#: ../capplets/display/xrandr-capplet.c:1643
 msgid "Mirror Screens"
 msgstr "Adlustruj ekrany"
 
-#: ../capplets/display/xrandr-capplet.c:1729
-msgid "Could not apply the selected configuration"
-msgstr "Nie ŭdałosia ŭžyć vybranyja nałady"
+#: ../capplets/display/xrandr-capplet.c:499
+#, fuzzy, c-format
+msgid "Monitor: %s"
+msgstr "<b>Manitor: %s</b>"
 
-#: ../capplets/display/xrandr-capplet.c:1756
-msgid "Could not save the monitor configuration"
-msgstr "Nie ŭdałosia zapisać nałady manitora"
+#: ../capplets/display/xrandr-capplet.c:577
+#, c-format
+msgid "%d x %d"
+msgstr "%d x %d"
 
-#: ../capplets/display/xrandr-capplet.c:1767
-msgid "Could not get session bus while applying display configuration"
-msgstr "Nie ŭdałosia atrymać šynu sesii pry ŭžyćci naładaŭ ekranu"
+#: ../capplets/display/xrandr-capplet.c:1499
+msgid ""
+"Select a monitor to change its properties; drag it to rearrange its "
+"placement."
+msgstr ""
 
-#: ../capplets/display/xrandr-capplet.c:1777
-msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
-msgstr "Nie ŭdałosia atrymać \"org.gnome.SettingsDaemon.XRANDR\""
-
-#: ../capplets/display/xrandr-capplet.c:1823
+#: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
 msgstr "Nie ŭdałosia paznać ekrany"
 
-#: ../capplets/display/xrandr-capplet.c:2021
-msgid "Could not get screen information"
-msgstr "Nie ŭdałosia atrymać źviestki ekranu"
-
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "Huk"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "Stoł"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "Novy skarot..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "Klaviša akseleratara"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "Madyfikatary akseleratara"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "Kod klavišy akseleratara"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "Režym akseleratara"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "Typ akseleratara."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
-#: ../capplets/keybindings/gnome-keybinding-properties.c:103
-#: ../typing-break/drwright.c:479
+#: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
+#: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "Nieaktyŭny"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:184
+#: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<Nieviadomaje dziejańnie>"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:925
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1548
+#: ../capplets/keybindings/gnome-keybinding-properties.c:950
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "Asablivyja skaroty"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1064
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "Pamyłka zachavańnia novaha klavijaturnaha skarotu"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1143
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2270,7 +2381,8 @@ msgstr ""
 "vykarystoŭvajučy hetuju klavišu.\n"
 "Pasprabuj u spałučeńni z takimi klavišami, jak Control, Alt albo Shift."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1173
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2279,7 +2391,8 @@ msgstr ""
 "Klavijaturny skarot \"%s\" užo vykarystoŭvajecca dla\n"
 "\"%s\""
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1179
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
@@ -2287,41 +2400,46 @@ msgstr ""
 "Kali ty pieraaznačyš klavijaturny skarot na \"%s\", tady skarot \"%s\" "
 "budzie vyklučany."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1187
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "_Pieraaznač"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1307
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr ""
 "Pry ačystcy akseleratara ŭ bazie źviestak kanfihuracyi adbyłasia pamyłka: %s"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1503
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "Zašmat ułasnych skarotaŭ"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1788
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "Dziejańnie"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.c:1810
+#: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "Skarot"
 
-#.
-#. * vim: sw=2 ts=8 cindent noai bs=2
-#.
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:1
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "Ułasny skarot"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:2
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "Klavijaturnyja skaroty"
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:3
+#: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2330,214 +2448,175 @@ msgstr ""
 "klavijaturnaje spałučeńnie albo naciśni klavišu \"Backspace\", kab vyčyścić "
 "dziejnaje."
 
-#: ../capplets/keybindings/gnome-keybinding-properties.glade.h:4
-msgid "_Command:"
-msgstr "_Zahad:"
-
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:1
 msgid "Assign shortcut keys to commands"
 msgstr "Pryviažy klavijaturnyja skaroty da zahadaŭ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:209
-#: ../capplets/keyboard/gnome-keyboard-properties.c:214
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "Klavijatura"
+
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "Raskładki"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "Tolki ŭžyj nałady j vyjdzi (tolki dziela zhodnaści, ciapier heta "
 "absłuhoŭvaje deman)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:219
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "Adčyni staronku ŭłaścivaściaŭ pierapynku ŭ pisańni na klavijatury"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:224
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "Pačynaj staronku, pakazvajučy nałady dastupnaści"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:230
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "– Nałady klavijatury GNOME"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:1
-msgid "<b>Bounce Keys</b>"
-msgstr "<b>Spružynistyja klavišy</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:2
-msgid "<b>Cursor Blinking</b>"
-msgstr "<b>Mirhańnie kursora</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:3
-msgid "<b>General</b>"
-msgstr "<b>Ahulnaje</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:4
-msgid "<b>Repeat Keys</b>"
-msgstr "<b>Paŭtor klavišaŭ</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:5
-msgid "<b>Slow Keys</b>"
-msgstr "<b>Pavolnyja klavišy</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:6
-msgid "<b>Sticky Keys</b>"
-msgstr "<b>_Tryvałyja klavišy</b>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:7
-msgid "<b>Visual cues for sounds</b>"
-msgstr "<b>Vizualnyja syhnały dla hukaŭ</b>"
-
-#. fast acceleration
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:8
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:13
-msgid "<small><i>Fast</i></small>"
-msgstr "<small><i>Chutka</i></small>"
-
-#. long delay
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:9
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:19
-msgid "<small><i>Long</i></small>"
-msgstr "<small><i>Doŭha</i></small>"
-
-#. short delay
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:10
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:23
-msgid "<small><i>Short</i></small>"
-msgstr "<small><i>Karotka</i></small>"
-
-#. slow acceleration
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:11
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:25
-msgid "<small><i>Slow</i></small>"
-msgstr "<small><i>Pavolna</i></small>"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:12
-msgid "A_cceleration:"
-msgstr "_Akseleracyja:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:14
-msgid "All_ow postponing of breaks"
-msgstr "Dazvol adter_minoŭku pierapynkaŭ"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:15
-msgid "Audio _Feedback..."
-msgstr "Hukavaja _reakcyja..."
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:1
 msgid "Beep when _accessibility features are turned on or off"
 msgstr "Hukavy _syhnał pry ŭklučeńni/vyklučeńni mahčymaściaŭ dastupnaści"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:2
 msgid "Beep when a _modifier key is pressed"
 msgstr "Hukavy syhnał, kali nacisnuty _madyfikatar"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:18
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:3
 msgid "Beep when a _toggle key is pressed"
 msgstr "Hukavy syhnał, kali nacisnutaja klaviša _pieraklučeńnia"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:4
 msgid "Beep when a key is pr_essed"
 msgstr "Hukavy syhnał, kali nacisnutaja klaviša"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:5
 msgid "Beep when a key is reje_cted"
 msgstr "Hukavy syhnał, kali adch_ilenaja klaviša"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:6
 msgid "Beep when key is _accepted"
 msgstr "Hukavy syhnał, kali p_ryniataja klaviša"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:7
 msgid "Beep when key is _rejected"
 msgstr "Hukavy syhnał, kali adch_ilenaja klaviša"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:23
-msgid "By _country"
-msgstr "Pavodle _krainy"
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:4
+#, fuzzy
+msgid "Bounce Keys"
+msgstr "Klavišy myšy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:24
-msgid "By _language"
-msgstr "Pavodle _movy"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:25
-msgid "Check if breaks are allowed to be postponed"
-msgstr "Pravier, ci možna adterminoŭvać pierapynki"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:26
-msgid "Choose a Keyboard Model"
-msgstr "Abiary madel klavijatury"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:27
-msgid "Choose a Layout"
-msgstr "Abiary raskładku"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:28
-msgid "Cursor _blinks in text fields"
-msgstr "Kursor _mirhaje ŭ tekstavych paloch"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:29
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:31
-msgid "Cursor blinks speed"
-msgstr "Chutkaść mirhańnia kursora"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:30
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:32
-msgid "D_elay:"
-msgstr "_Spaźnieńnie:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:31
-msgid "Disa_ble sticky keys if two keys are pressed together"
-msgstr "_Vyklučaj tryvałyja klavišy, kali razam nacisnutyja dźvie klavišy"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:32
-msgid "Duration of the break when typing is disallowed"
-msgstr "Praciahłaść pierapynku, kali zabaronienaje pisańnie"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:33
-msgid "Duration of work before forcing a break"
-msgstr "Praciahłaść pracy pierad vymušanym pierapynkam"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:9
 msgid "Flash _window titlebar"
 msgstr "Mirhaj _zahałoŭkam akna"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:10
 msgid "Flash entire _screen"
 msgstr "Mirhaj _usim ekranam"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:36
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:36
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "Ahulnaje"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:37
-msgid "Key presses _repeat when key is held down"
-msgstr "_Paŭtor nacisku klavišy pry jaje ŭtrymańni"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:12
 msgid "Keyboard Accessibility Audio Feedback"
 msgstr "Hukavaja reakcyja na klavijaturu"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:39
-msgid "Keyboard Layout Options"
-msgstr "Opcyi raskładki klavijatury"
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:13
+msgid "Show _visual feedback for the alert sound"
+msgstr "Pakazvaj _vizualnyja syhnały dla tryvožnych hukaŭ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#, fuzzy
+msgid "Slow Keys"
+msgstr "<b>Pavolnyja klavišy</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#, fuzzy
+msgid "Sticky Keys"
+msgstr "<b>_Tryvałyja klavišy</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:16
+#, fuzzy
+msgid "Visual cues for sounds"
+msgstr "<b>Vizualnyja syhnały dla hukaŭ</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:2
+msgid "All_ow postponing of breaks"
+msgstr "Dazvol adter_minoŭku pierapynkaŭ"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:3
+msgid "Audio _Feedback..."
+msgstr "Hukavaja _reakcyja..."
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+msgid "Check if breaks are allowed to be postponed"
+msgstr "Pravier, ci možna adterminoŭvać pierapynki"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#, fuzzy
+msgid "Cursor Blinking"
+msgstr "<b>Mirhańnie kursora</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+msgid "Cursor _blinks in text fields"
+msgstr "Kursor _mirhaje ŭ tekstavych paloch"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:4
+msgid "Cursor blinks speed"
+msgstr "Chutkaść mirhańnia kursora"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:5
+msgid "D_elay:"
+msgstr "_Spaźnieńnie:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+msgid "Disa_ble sticky keys if two keys are pressed together"
+msgstr "_Vyklučaj tryvałyja klavišy, kali razam nacisnutyja dźvie klavišy"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+msgid "Duration of the break when typing is disallowed"
+msgstr "Praciahłaść pierapynku, kali zabaronienaje pisańnie"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+msgid "Duration of work before forcing a break"
+msgstr "Praciahłaść pracy pierad vymušanym pierapynkam"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:14
+msgid "Fast"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+msgid "Key presses _repeat when key is held down"
+msgstr "_Paŭtor nacisku klavišy pry jaje ŭtrymańni"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "Nałady klavijatury"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "_Madel klavijatury:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:42
-msgid "Layout _Options..."
-msgstr "_Opcyi raskładki..."
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:43
-msgid "Layouts"
-msgstr "Raskładki"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2545,313 +2624,389 @@ msgstr ""
 "Blakuj ekran paśla akreślenaha času, kab papiaredzić traŭmy, źviazanyja z "
 "praciahłym pisańniem na klavijatury"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:19
+msgid "Long"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "Klavišy myšy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:46
-msgid "Preview:"
-msgstr "Pieradahlad:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+msgid "Move _Down"
+msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+msgid "Move _Up"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+msgid "New windows u_se active window's layout"
+msgstr ""
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#, fuzzy
+msgid "Repeat Keys"
+msgstr "<b>Paŭtor klavišaŭ</b>"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "Chutkaść paŭtoru klavišaŭ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "V_iarni zmoŭčanaje"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "Ch_utkaść:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:50
-msgid "Separate _layout for each window"
-msgstr "Asobnaja _raskładka dla kožnaha vakna"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:27
+#, fuzzy
+msgid "Short"
+msgstr "Skarot"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:51
-msgid "Show _visual feedback for the alert sound"
-msgstr "Pakazvaj _vizualnyja syhnały dla tryvožnych hukaŭ"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:30
+msgid "Slow"
+msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:52
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "Pierapynak u pisańni"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:37
+msgid "_Acceleration:"
+msgstr "_Akseleracyja:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "_Mahčymaści dastupnaści možna ŭklučać klavijaturnymi skarotami"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:55
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "_Praciahłaść pierapynku:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:56
-msgid "_Country:"
-msgstr "_Kraina:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:57
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "_Čas:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:58
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "_Ihnaruj chutkija paŭtornyja naciski klavišaŭ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:59
-msgid "_Language:"
-msgstr "_Mova:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:60
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "_Blakuj ekran, kab prymusić zrabić pierapynak padčas pisańnia"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:61
-msgid "_Models:"
-msgstr "_Madeli:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:62
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "_Pryjmaj tolki daŭhija naciski klavišaŭ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:63
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#, fuzzy
+msgid "_Options..."
+msgstr "Opcyi"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "_Dazvol kiravać kursoram z dapamohaj klavijatury"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:64
-msgid "_Selected layouts:"
-msgstr "Vybranyja _raskładki:"
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#, fuzzy
+msgid "_Separate layout for each window"
+msgstr "Asobnaja _raskładka dla kožnaha vakna"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:65
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "_Imituj adnačasovyja naciski klavišaŭ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:66
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "_Chutkaść:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:67
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "_Napišy tekst, kab pravieryć nałady:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:68
-msgid "_Variants:"
-msgstr "_Varyjanty:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:69
-msgid "_Vendors:"
-msgstr "_Vytvorca:"
-
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:70
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "Praciahłaść času p_racy:"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.glade.h:71
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "chvilin"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:1
+msgid "By _country"
+msgstr "Pavodle _krainy"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:2
+msgid "By _language"
+msgstr "Pavodle _movy"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:3
+msgid "Choose a Layout"
+msgstr "Abiary raskładku"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:4
+msgid "Preview:"
+msgstr "Pieradahlad:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:5
+msgid "_Country:"
+msgstr "_Kraina:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:6
+msgid "_Language:"
+msgstr "_Mova:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-layout-chooser.ui.h:7
+msgid "_Variants:"
+msgstr "_Varyjanty:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:1
+msgid "Choose a Keyboard Model"
+msgstr "Abiary madel klavijatury"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:2
+msgid "_Models:"
+msgstr "_Madeli:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-model-chooser.ui.h:3
+msgid "_Vendors:"
+msgstr "_Vytvorca:"
+
+#: ../capplets/keyboard/gnome-keyboard-properties-options-dialog.ui.h:1
+msgid "Keyboard Layout Options"
+msgstr "Opcyi raskładki klavijatury"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-xkb.c:82
 msgid "Unknown"
 msgstr "Nieviadomy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:215
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:235
-#: ../capplets/network/gnome-network-properties.c:561
-msgid "Default"
-msgstr "Zmoŭčanaja"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:333
+#: ../capplets/keyboard/gnome-keyboard-properties-xkblt.c:241
 msgid "Layout"
 msgstr "Raskładka"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:169
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:168
 msgid "Vendors"
 msgstr "Vytvorcy"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:235
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbmc.c:234
 msgid "Models"
 msgstr "Madeli"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "Klavijatura"
+#: ../capplets/keyboard/gnome-keyboard-properties-xkbot.c:234
+#: ../capplets/network/gnome-network-properties.c:583
+msgid "Default"
+msgstr "Zmoŭčanaja"
 
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "Abiary nałady klavijatury"
 
+#: ../capplets/mouse/cc-pointer-panel.c:102
+#, fuzzy
+msgid "Pointing Devices"
+msgstr "Pryłady"
+
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:90
+#: ../capplets/mouse/gnome-mouse-accessibility.c:89
 msgid "gesture|Move left"
 msgstr "Ruch lavej"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:95
+#: ../capplets/mouse/gnome-mouse-accessibility.c:94
 msgid "gesture|Move right"
 msgstr "Ruch praviej"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:100
+#: ../capplets/mouse/gnome-mouse-accessibility.c:99
 msgid "gesture|Move up"
 msgstr "Ruch vyšej"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:105
+#: ../capplets/mouse/gnome-mouse-accessibility.c:104
 msgid "gesture|Move down"
 msgstr "Ruch nižej"
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
-#: ../capplets/mouse/gnome-mouse-accessibility.c:110
+#: ../capplets/mouse/gnome-mouse-accessibility.c:109
 msgid "gesture|Disabled"
 msgstr "Vyklučana"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:441
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "Akreśli nazvu staronki, jakuju treba pakazać (general|accessibility)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:446
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "– Nałady myšy dla GNOME"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:1
-msgid "<b>Double-Click Timeout</b>"
-msgstr "<b>Spaźnieńnie dvukliku</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:2
-msgid "<b>Drag and Drop</b>"
-msgstr "<b>Pieraciahvańnie j puščańnie</b>"
-
-#. Dwell Click = Clicking without hardware buttons (by letting the pointer sit on the click target for a certain amount of time)
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:4
-msgid "<b>Dwell Click</b>"
-msgstr "<b>Klik zatrymkaj</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:5
-msgid "<b>Locate Pointer</b>"
-msgstr "<b>Raspałažy kursor</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:6
-msgid "<b>Mouse Orientation</b>"
-msgstr "<b>Aryjentacyja myšy</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:7
-msgid "<b>Pointer Speed</b>"
-msgstr "<b>Chutkaść kursora</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:8
-msgid "<b>Simulated Secondary Click</b>"
-msgstr "<b>Symulavany druhi klik</b>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:9
-msgid ""
-"<i>To test your double-click settings, try to double-click on the light bulb."
-"</i>"
-msgstr "<i>Kab pravieryć nałady dvuklika, možaš paklikać na lampačku.</i>"
-
-#. Dwell Click = Clicking without hardware buttons (by letting the pointer sit on the click target for a certain amount of time)
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:11
-msgid ""
-"<i>You can also use the Dwell Click panel applet to choose the click type.</"
-"i>"
-msgstr ""
-"<i>Ty možaš abrać typ kliku z dapamohaj apleta paneli \"Klik zatrymkaj\".</i>"
-
-#. high sensitivity
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:15
-msgid "<small><i>High</i></small>"
-msgstr "<small><i>Vysokaja</i></small>"
-
-#. large threshold
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:17
-msgid "<small><i>Large</i></small>"
-msgstr "<small><i>Vialiki</i></small>"
-
-#. low sensitivity
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:21
-msgid "<small><i>Low</i></small>"
-msgstr "<small><i>Nizkaja</i></small>"
-
-#. small threshold
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:27
-msgid "<small><i>Small</i></small>"
-msgstr "<small><i>Mały</i></small>"
-
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:29
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:2
 msgid "Choose type of click _beforehand"
 msgstr "Abiary typ _zaŭčasnaha kliku"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:30
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:3
 msgid "Choose type of click with mo_use gestures"
 msgstr "Abiary typ kliku, ruchajčy myššu"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:33
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:6
 msgid "D_ouble click:"
 msgstr "_Dvuklik:"
 
-#. click to initiate drag-and-drop (like normally click and hold)
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:35
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:7
 msgid "D_rag click:"
 msgstr "_Pieraciahvalny klik:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:37
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:8
+msgid "Disable _touchpad while typing"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:9
+#, fuzzy
+msgid "Double-Click Timeout"
+msgstr "<b>Spaźnieńnie dvukliku</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:10
+#, fuzzy
+msgid "Drag and Drop"
+msgstr "<b>Pieraciahvańnie j puščańnie</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:11
+#, fuzzy
+msgid "Dwell Click"
+msgstr "<b>Klik zatrymkaj</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:12
+msgid "Enable _mouse clicks with touchpad"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:13
+msgid "Enable h_orizontal scrolling"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:16
+msgid "High"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:18
+#, fuzzy
+msgid "Locate Pointer"
+msgstr "Vialiki kursor"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:20
+msgid "Low"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:21
+#, fuzzy
+msgid "Mouse Orientation"
+msgstr "<b>Aryjentacyja myšy</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:22
 msgid "Mouse Preferences"
 msgstr "Nałady myšy"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:38
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:23
+#, fuzzy
+msgid "Pointer Speed"
+msgstr "<b>Chutkaść kursora</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:24
+msgid "Scrolling"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:25
 msgid "Seco_ndary click:"
 msgstr "_Druhi klik:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:39
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:26
 msgid "Sh_ow position of pointer when the Control key is pressed"
 msgstr "_Pakazvaj pałažeńnie kursora, kali nacisnutaja klaviša Control"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:40
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:28
 msgid "Show click type _window"
 msgstr "Pakažy _vakno vybaru typu klika"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:41
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:29
+#, fuzzy
+msgid "Simulated Secondary Click"
+msgstr "<b>Symulavany druhi klik</b>"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:32
 msgid "Thr_eshold:"
 msgstr "_Parohavaja vartaść:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:42
-msgid "_Acceleration:"
-msgstr "_Akseleracyja:"
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:33
+#, fuzzy
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
+msgstr "<i>Kab pravieryć nałady dvuklika, možaš paklikać na lampačku.</i>"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:44
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:34
+msgid "Touchpad"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:35
+msgid "Two-_finger scrolling"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:36
+#, fuzzy
+msgid "You can also use the Dwell Click panel applet to choose the click type."
+msgstr ""
+"<i>Ty možaš abrać typ kliku z dapamohaj apleta paneli \"Klik zatrymkaj\".</i>"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:39
+#, fuzzy
+msgid "_Disabled"
+msgstr "Nieaktyŭny"
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:40
+msgid "_Edge scrolling"
+msgstr ""
+
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:41
 msgid "_Initiate click when stopping pointer movement"
 msgstr "_Inicyjuj klik, kali spyniajecca kursor"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:45
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:42
 msgid "_Left-handed"
 msgstr "Dla _leŭšunoŭ"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:46
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:43
 msgid "_Motion threshold:"
 msgstr "_Parohavy zruch:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:47
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:44
 msgid "_Right-handed"
 msgstr "Dla _praŭšunoŭ"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:48
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:45
 msgid "_Sensitivity:"
 msgstr "_Čułaść:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:49
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:46
 msgid "_Single click:"
 msgstr "_Adzin klik:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:50
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:47
 msgid "_Timeout:"
 msgstr "_Spaźnieńnie:"
 
-#: ../capplets/mouse/gnome-mouse-properties.glade.h:51
+#: ../capplets/mouse/gnome-mouse-properties.ui.h:48
 msgid "_Trigger secondary click by holding down the primary button"
 msgstr "_Inicyjuj druhi klik, kali ŭtrymlivajecca pieršaja klaviša"
 
@@ -2863,12 +3018,17 @@ msgstr "Myš"
 msgid "Set your mouse preferences"
 msgstr "Abiary nałady myšy"
 
-#: ../capplets/network/gnome-network-properties.c:677
-#: ../capplets/network/gnome-network-properties.c:816
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "Sietkavy proxy"
+
+#: ../capplets/network/gnome-network-properties.c:701
+#: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
 msgstr "_Novaje pałažeńnie..."
 
-#: ../capplets/network/gnome-network-properties.c:782
+#: ../capplets/network/gnome-network-properties.c:818
 msgid "Location already exists"
 msgstr "Takoje pałažeńnie ŭžo isnuje"
 
@@ -2880,170 +3040,324 @@ msgstr "Sietkavy proxy"
 msgid "Set your network proxy preferences"
 msgstr "Abiary nałady sietkavaha proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>_Pramoje internetnaje spałučeńnie</b>"
-
-#: ../capplets/network/gnome-network-properties.glade.h:2
-msgid "<b>Ignore Host List</b>"
-msgstr "<b>Śpis ihnaravanych hostaŭ</b>"
-
-#: ../capplets/network/gnome-network-properties.glade.h:3
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>_Autamatyčnaja kanfihuracyja proxy</b>"
-
-#: ../capplets/network/gnome-network-properties.glade.h:4
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>_Ručnaja kanfihuracyja proxy</b>"
-
-#: ../capplets/network/gnome-network-properties.glade.h:5
-msgid "<b>_Use authentication</b>"
-msgstr "<b>_Užyvaj aŭtaryzacyju</b>"
-
-#: ../capplets/network/gnome-network-properties.glade.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:1
 msgid "Autoconfiguration _URL:"
 msgstr "_URL aŭtamatyčnaj kanfihuracyi:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "_Stvary"
 
-#: ../capplets/network/gnome-network-properties.glade.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "Stvary novaje pałažeńnie"
 
-#: ../capplets/network/gnome-network-properties.glade.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>_Pramoje internetnaje spałučeńnie</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "Detali HTTP-proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "_HTTP-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:7
+#, fuzzy
+msgid "Ignore Host List"
+msgstr "Śpis ihnaravanych hostaŭ"
+
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "Śpis ihnaravanych hostaŭ"
 
-#: ../capplets/network/gnome-network-properties.glade.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "Pałažeńnie:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "Nałady sietkavaha proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "Port:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "Kanfihuracyja proxy"
 
-#: ../capplets/network/gnome-network-properties.glade.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "S_ocks-host:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "Takoje pałažeńnie ŭžo isnuje."
 
-#: ../capplets/network/gnome-network-properties.glade.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "Nazva _karystalnika:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>_Autamatyčnaja kanfihuracyja proxy</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "_Vydali pałažeńnie"
 
-#: ../capplets/network/gnome-network-properties.glade.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "_Detali"
 
-#: ../capplets/network/gnome-network-properties.glade.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "_FTP-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "_Nazva pałažeńnia:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>_Ručnaja kanfihuracyja proxy</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "_Parol:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "_Biaśpiečny HTTP-proxy:"
 
-#: ../capplets/network/gnome-network-properties.glade.h:25
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>_Užyvaj aŭtaryzacyju</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "_Užyj adzin i toj ža proxy dla ŭsich pratakołaŭ"
 
-#: ../capplets/windows/gnome-window-properties.c:346
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "chvilin"
+msgstr[1] "chvilin"
+msgstr[2] "chvilin"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "Hety parol nadta prosty."
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "Tvoj parol byŭ źmienieny."
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "Parol byŭ niapravilny."
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "Aŭtaryzacyja ŭdałasia!"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "Hety parol nadta karotki."
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "Hety parol nadta prosty."
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "Novy parol nadta padobny da staroha."
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "U novym paroli musiać być ličby albo admysłovyja znaki."
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "Novy parol taki ž, jak i stary."
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"Tvoj parol byŭ źmienieny paśla pačatkovaj aŭtaryzacyi! Kali łaska, paŭtary "
+"aŭtaryzacyju."
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "U novym paroli musiać być ličby albo admysłovyja znaki."
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "Nieviadomy"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "_Uviadzi parol jašče raz:"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "Dziejny _parol:"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "_Novy parol:"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "_Uviadzi parol jašče raz:"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "Źmiani parol"
+
+#: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
 msgstr "Niemahčyma ŭruchomić kanfihuracyjnuju aplikacyju dla kiraŭnika voknaŭ"
 
-#. translators: this is the Control key
-#: ../capplets/windows/gnome-window-properties.c:600
-msgid "C_ontrol"
-msgstr "C_ontrol"
-
-#: ../capplets/windows/gnome-window-properties.c:605
+#: ../capplets/windows/gnome-window-properties.c:604
 msgid "_Alt"
 msgstr "_Alt"
 
-#: ../capplets/windows/gnome-window-properties.c:611
+#: ../capplets/windows/gnome-window-properties.c:610
 msgid "H_yper"
 msgstr "H_yper"
 
-#: ../capplets/windows/gnome-window-properties.c:618
+#: ../capplets/windows/gnome-window-properties.c:617
 msgid "S_uper (or \"Windows logo\")"
 msgstr "S_uper (albo \"klaviša Windows\")"
 
-#: ../capplets/windows/gnome-window-properties.c:625
+#: ../capplets/windows/gnome-window-properties.c:624
 msgid "_Meta"
 msgstr "_Meta"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:1
-msgid "<b>Movement Key</b>"
+#: ../capplets/windows/gnome-window-properties.ui.h:1
+#, fuzzy
+msgid "Movement Key"
 msgstr "<b>Klaviša ruchu</b>"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:2
-msgid "<b>Titlebar Action</b>"
+#: ../capplets/windows/gnome-window-properties.ui.h:2
+#, fuzzy
+msgid "Titlebar Action"
 msgstr "<b>Pavodziny zahałoŭku vakna</b>"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:3
-msgid "<b>Window Selection</b>"
-msgstr "<b>Vybar akna</b>"
-
-#: ../capplets/windows/gnome-window-properties.glade.h:4
+#: ../capplets/windows/gnome-window-properties.ui.h:3
 msgid "To move a window, press-and-hold this key then grab the window:"
 msgstr ""
 "Kab pierasunuć akno, naciśni j prytrymaj hetuju klavišu, a potym schapi "
 "vakno:"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:5
+#: ../capplets/windows/gnome-window-properties.ui.h:4
 msgid "Window Preferences"
 msgstr "Nałady voknaŭ"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:6
+#: ../capplets/windows/gnome-window-properties.ui.h:5
+#, fuzzy
+msgid "Window Selection"
+msgstr "<b>Vybar akna</b>"
+
+#: ../capplets/windows/gnome-window-properties.ui.h:6
 msgid "_Double-click titlebar to perform this action:"
 msgstr "Ap_eracyja paśla dvukliku zahałoŭku:"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:7
+#: ../capplets/windows/gnome-window-properties.ui.h:7
 msgid "_Interval before raising:"
 msgstr "Ča_s pierad vysoŭvańniem:"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:8
+#: ../capplets/windows/gnome-window-properties.ui.h:8
 msgid "_Raise selected windows after an interval"
 msgstr "_Vysoŭvaj abranyja vokny praź niekatory čas"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:9
+#: ../capplets/windows/gnome-window-properties.ui.h:9
 msgid "_Select windows when the mouse moves over them"
 msgstr "_Zaznačaj vokny paśla raźmiaščeńnia nad imi kursora"
 
-#: ../capplets/windows/gnome-window-properties.glade.h:10
+#: ../capplets/windows/gnome-window-properties.ui.h:10
 msgid "seconds"
 msgstr "sekundaŭ"
 
@@ -3054,173 +3368,6 @@ msgstr "Kanfihuruj ułaścivaści voknaŭ"
 #: ../capplets/windows/window-properties.desktop.in.in.h:2
 msgid "Windows"
 msgstr "Vokny"
-
-#. make start action
-#: ../libslab/application-tile.c:372
-#, c-format
-msgid "<b>Start %s</b>"
-msgstr "<b>Uklučy %s</b>"
-
-#: ../libslab/application-tile.c:391
-msgid "Help"
-msgstr "Dapamoha"
-
-#: ../libslab/application-tile.c:438
-msgid "Upgrade"
-msgstr "Aktualizuj"
-
-#: ../libslab/application-tile.c:453
-msgid "Uninstall"
-msgstr "Adinstaluj"
-
-#: ../libslab/application-tile.c:780 ../libslab/document-tile.c:715
-msgid "Remove from Favorites"
-msgstr "Vydal z ulubionych"
-
-#: ../libslab/application-tile.c:782 ../libslab/document-tile.c:717
-msgid "Add to Favorites"
-msgstr "Dadaj da ŭlubionych"
-
-#: ../libslab/application-tile.c:867
-msgid "Remove from Startup Programs"
-msgstr "Vydal sa startavych prahramaŭ"
-
-#: ../libslab/application-tile.c:869
-msgid "Add to Startup Programs"
-msgstr "Dadaj da startavych prahramaŭ"
-
-#: ../libslab/app-shell.c:753
-#, c-format
-msgid ""
-"<span size=\"large\"><b>No matches found.</b> </span><span>\n"
-"\n"
-" Your filter \"<b>%s</b>\" does not match any items.</span>"
-msgstr ""
-"<span size=\"large\"><b>Niama adpaviednikaŭ.</b> </span><span>\n"
-"\n"
-" Filter \"<b>%s</b>\" nie pasuje ni da adnaho z elementaŭ.</span>"
-
-#: ../libslab/app-shell.c:903
-msgid "Other"
-msgstr "Inšaje"
-
-#: ../libslab/bookmark-agent.c:1077
-msgid "New Spreadsheet"
-msgstr "Novy raźlikovy arkuš"
-
-#: ../libslab/bookmark-agent.c:1082
-msgid "New Document"
-msgstr "Novy dakument"
-
-#: ../libslab/bookmark-agent.c:1135
-msgid "Home"
-msgstr "Dom"
-
-#: ../libslab/bookmark-agent.c:1140
-msgid "Documents"
-msgstr "Dakumenty"
-
-#: ../libslab/bookmark-agent.c:1153
-msgid "File System"
-msgstr "Fajłavaja systemа"
-
-#: ../libslab/bookmark-agent.c:1157
-msgid "Network Servers"
-msgstr "Sietkavyja servery"
-
-#: ../libslab/bookmark-agent.c:1186
-msgid "Search"
-msgstr "Šukaj"
-
-#. make open with default action
-#: ../libslab/directory-tile.c:171
-#, c-format
-msgid "<b>Open</b>"
-msgstr "<b>Adčyni</b>"
-
-#. make rename action
-#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:231
-msgid "Rename..."
-msgstr "Źmiani nazvu..."
-
-#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
-#: ../libslab/document-tile.c:245 ../libslab/document-tile.c:254
-msgid "Send To..."
-msgstr "Vyšli da..."
-
-#. make move to trash action
-#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:280
-msgid "Move to Trash"
-msgstr "Pieraniasi ŭ śmietnicu"
-
-#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
-#: ../libslab/document-tile.c:290 ../libslab/document-tile.c:831
-msgid "Delete"
-msgstr "Vydal"
-
-#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:979
-#, c-format
-msgid "Are you sure you want to permanently delete \"%s\"?"
-msgstr "Ty sapraŭdy chočaš nazaŭždy vydalić \"%s\"?"
-
-#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:980
-msgid "If you delete an item, it is permanently lost."
-msgstr "Vydaleny elementy budzie stračany nazaŭždy."
-
-#: ../libslab/document-tile.c:192
-#, c-format
-msgid "<b>Open with \"%s\"</b>"
-msgstr "<b>Adčyni pry dapamozie \"%s\"</b>"
-
-#: ../libslab/document-tile.c:204
-msgid "Open with Default Application"
-msgstr "Adčyni pry dapamozie zmoŭčanaj aplikacyi"
-
-#: ../libslab/document-tile.c:215
-msgid "Open in File Manager"
-msgstr "Adčyni ŭ kiraŭniku fajłaŭ"
-
-#: ../libslab/document-tile.c:611
-msgid "?"
-msgstr "?"
-
-#: ../libslab/document-tile.c:618
-msgid "%l:%M %p"
-msgstr "%l:%M %p"
-
-#: ../libslab/document-tile.c:626
-msgid "Today %l:%M %p"
-msgstr "Siońnia %l:%M %p"
-
-#: ../libslab/document-tile.c:636
-msgid "Yesterday %l:%M %p"
-msgstr "Učora %l:%M %p"
-
-#: ../libslab/document-tile.c:648
-msgid "%a %l:%M %p"
-msgstr "%a %l:%M %p"
-
-#: ../libslab/document-tile.c:656
-msgid "%b %d %l:%M %p"
-msgstr "%b %d %l:%M %p"
-
-#: ../libslab/document-tile.c:658
-msgid "%b %d %Y"
-msgstr "%b %d %Y"
-
-#: ../libslab/search-bar.c:255
-msgid "Find Now"
-msgstr "Znajdzi ciapier"
-
-#: ../libslab/system-tile.c:128
-#, c-format
-msgid "<b>Open %s</b>"
-msgstr "<b>Adčyni %s</b>"
-
-#: ../libslab/system-tile.c:141
-#, c-format
-msgid "Remove from System Items"
-msgstr "Vydal z systemnych elementaŭ"
 
 #: ../libwindow-settings/gnome-wm-manager.c:316
 #, c-format
@@ -3250,28 +3397,6 @@ msgstr "Razharni"
 #: ../libwindow-settings/metacity-window-manager.c:409
 msgid "None"
 msgstr "Niama"
-
-#: ../shell/control-center.c:54
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "nia znojdzieny kluč [%s]\n"
-
-#: ../shell/control-center.c:151
-msgid "Filter"
-msgstr "Filter"
-
-#: ../shell/control-center.c:151
-msgid "Groups"
-msgstr "Hrupy"
-
-#: ../shell/control-center.c:151
-msgid "Common Tasks"
-msgstr "Typovyja zadačy"
-
-#: ../shell/control-center.c:155 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "Centar kiravańnia"
 
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
@@ -3343,33 +3468,38 @@ msgstr ""
 "Kali ŭklučana, center kiravańnia budzie začynieny pry ŭklučeńni \"Typovaj "
 "zadačy\"."
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "Centar kiravańnia"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "Pryłada kanfihuracyi GNOME"
 
-#: ../typing-break/drw-break-window.c:193
+#: ../shell/shell.ui.h:1
+#, fuzzy
+msgid "Settings"
+msgstr "Zmoŭčanyja nałady"
+
+#: ../shell/shell.ui.h:2
+#, fuzzy
+msgid "_All Settings"
+msgstr "Zmoŭčanyja nałady"
+
+#: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
 msgstr "A_dterminuj pierapynak"
 
-#: ../typing-break/drw-break-window.c:249
+#: ../typing-break/drw-break-window.c:250
 msgid "Take a break!"
 msgstr "Zrabi pierapynak!"
 
-#. { N_("/_Enabled"),      NULL, GIF_CB (popup_enabled_cb),     POPUP_ITEM_ENABLED, "<ToggleItem>", NULL },
-#. translators: keep the initial "/"
-#: ../typing-break/drwright.c:129
-msgid "/_Preferences"
-msgstr "/_Nałady"
-
-#: ../typing-break/drwright.c:130
-msgid "/_About"
-msgstr "/_Pra"
-
-#: ../typing-break/drwright.c:132
-msgid "/_Take a Break"
+#: ../typing-break/drwright.c:116
+#, fuzzy
+msgid "_Take a Break"
 msgstr "/Z_rabi pierapynak"
 
-#: ../typing-break/drwright.c:488
+#: ../typing-break/drwright.c:440
 #, c-format
 msgid "%d minute until the next break"
 msgid_plural "%d minutes until the next break"
@@ -3377,12 +3507,12 @@ msgstr[0] "%d chvilina da pierapynku"
 msgstr[1] "%d chviliny da pierapynku"
 msgstr[2] "%d chvilin da pierapynku"
 
-#: ../typing-break/drwright.c:492
+#: ../typing-break/drwright.c:444
 #, c-format
 msgid "Less than one minute until the next break"
 msgstr "Da nastupnaha pierapynku mienš za chvilinu"
 
-#: ../typing-break/drwright.c:579
+#: ../typing-break/drwright.c:526
 #, c-format
 msgid ""
 "Unable to bring up the typing break properties dialog with the following "
@@ -3391,19 +3521,19 @@ msgstr ""
 "Niemahčyma pakazać akno ŭłaścivaściaŭ pierapynkaŭ u pisańni z-za nastupnaj "
 "pamyłki: %s"
 
-#: ../typing-break/drwright.c:598
+#: ../typing-break/drwright.c:543
 msgid "Written by Richard Hult <richard@imendio.com>"
 msgstr "Napisaŭ Richard Hult <richard@imendio.com>"
 
-#: ../typing-break/drwright.c:599
+#: ../typing-break/drwright.c:544
 msgid "Eye candy added by Anders Carlsson"
 msgstr "Aŭtarskaja hrafika ad Anders Carlsson"
 
-#: ../typing-break/drwright.c:608
+#: ../typing-break/drwright.c:553
 msgid "A computer break reminder."
 msgstr "Prahrama nahadvańnia ab pierapynkach padčas pracy z kamputaram."
 
-#: ../typing-break/drwright.c:610
+#: ../typing-break/drwright.c:555
 msgid "translator-credits"
 msgstr ""
 "Łacinka.org\n"
@@ -3503,42 +3633,53 @@ msgstr "Ci treba stvarać minijatury dla šryftoŭ TrueType"
 msgid "Whether to thumbnail Type1 fonts"
 msgstr "Ci treba stvarać minijatury dla šryftoŭ Type1"
 
-#: ../font-viewer/font-view.c:113
-msgid "The quick brown fox jumps over the lazy dog. 0123456789"
-msgstr "Kiń źluku ŭściaž łaščyć. ŃŁŬŚŠČŹŽ 0123456789"
-
-#: ../font-viewer/font-view.c:275
+#: ../font-viewer/font-view.c:289
 msgid "Name:"
 msgstr "Nazva:"
 
-#: ../font-viewer/font-view.c:278
+#: ../font-viewer/font-view.c:292
 msgid "Style:"
 msgstr "Styl:"
 
-#: ../font-viewer/font-view.c:291
+#: ../font-viewer/font-view.c:305
 msgid "Type:"
 msgstr "Typ:"
 
-#: ../font-viewer/font-view.c:295
+#: ../font-viewer/font-view.c:309
 msgid "Size:"
 msgstr "Pamier:"
 
-#: ../font-viewer/font-view.c:339 ../font-viewer/font-view.c:352
+#: ../font-viewer/font-view.c:353 ../font-viewer/font-view.c:366
 msgid "Version:"
 msgstr "Versija:"
 
-#: ../font-viewer/font-view.c:343 ../font-viewer/font-view.c:354
+#: ../font-viewer/font-view.c:357 ../font-viewer/font-view.c:368
 msgid "Copyright:"
 msgstr "Aŭtarskija pravy:"
 
-#: ../font-viewer/font-view.c:347
+#: ../font-viewer/font-view.c:361
 msgid "Description:"
 msgstr "Apisańnie:"
 
-#: ../font-viewer/font-view.c:437
+#: ../font-viewer/font-view.c:441
+#, fuzzy
+msgid "Installed"
+msgstr "Zainstaluj"
+
+#: ../font-viewer/font-view.c:444
+#, fuzzy
+msgid "Install Failed"
+msgstr "Zainstaluj"
+
+#: ../font-viewer/font-view.c:516
 #, c-format
 msgid "usage: %s fontfile\n"
 msgstr "užyćcio: %s fajł_šryftu\n"
+
+#: ../font-viewer/font-view.c:591
+#, fuzzy
+msgid "I_nstall Font"
+msgstr "Zainstaluj"
 
 #: ../font-viewer/gnome-font-viewer.desktop.in.in.h:1
 msgid "Font Viewer"
@@ -3548,31 +3689,446 @@ msgstr "Prahladalnik šryftoŭ"
 msgid "Preview fonts"
 msgstr "Pieradahlad šryftoŭ"
 
-#: ../font-viewer/font-thumbnailer.c:243
+#: ../font-viewer/font-thumbnailer.c:245
 msgid "Text to thumbnail (default: Aa)"
 msgstr "Tekst minijatury (zmoŭčana: Aa)"
 
-#: ../font-viewer/font-thumbnailer.c:243
+#: ../font-viewer/font-thumbnailer.c:245
 msgid "TEXT"
 msgstr "TEKST"
 
-#: ../font-viewer/font-thumbnailer.c:245
+#: ../font-viewer/font-thumbnailer.c:247
 msgid "Font size (default: 64)"
 msgstr "Pamier šryftu (zmoŭčana: 64)"
 
-#: ../font-viewer/font-thumbnailer.c:245
+#: ../font-viewer/font-thumbnailer.c:247
 msgid "SIZE"
 msgstr "PAMIER"
 
 # #FIXME Vychadny ci vyjścievy?
-#: ../font-viewer/font-thumbnailer.c:247
+#: ../font-viewer/font-thumbnailer.c:249
 msgid "FONT-FILE OUTPUT-FILE"
 msgstr "FAJŁ-ŠRYFTU VYCHADNY-FAJŁ"
 
-#: ../font-viewer/font-thumbnailer.c:265
+#: ../font-viewer/font-thumbnailer.c:268
 #, c-format
 msgid "Error parsing arguments: %s\n"
 msgstr "Pamyłka padčas razboru arhumentaŭ: %s\n"
+
+#: ../libslab/app-shell.c:754
+#, c-format
+msgid "Your filter \"%s\" does not match any items."
+msgstr ""
+
+#: ../libslab/app-shell.c:756
+#, fuzzy
+msgid "No matches found."
+msgstr "Biaz huku"
+
+#: ../libslab/app-shell.c:905
+msgid "Other"
+msgstr "Inšaje"
+
+#. make start action
+#: ../libslab/application-tile.c:374
+#, fuzzy, c-format
+msgid "Start %s"
+msgstr "<b>Uklučy %s</b>"
+
+#: ../libslab/application-tile.c:395
+msgid "Help"
+msgstr "Dapamoha"
+
+#: ../libslab/application-tile.c:442
+msgid "Upgrade"
+msgstr "Aktualizuj"
+
+#: ../libslab/application-tile.c:457
+msgid "Uninstall"
+msgstr "Adinstaluj"
+
+#: ../libslab/application-tile.c:784 ../libslab/document-tile.c:721
+msgid "Remove from Favorites"
+msgstr "Vydal z ulubionych"
+
+#: ../libslab/application-tile.c:786 ../libslab/document-tile.c:723
+msgid "Add to Favorites"
+msgstr "Dadaj da ŭlubionych"
+
+#: ../libslab/application-tile.c:871
+msgid "Remove from Startup Programs"
+msgstr "Vydal sa startavych prahramaŭ"
+
+#: ../libslab/application-tile.c:873
+msgid "Add to Startup Programs"
+msgstr "Dadaj da startavych prahramaŭ"
+
+#: ../libslab/bookmark-agent.c:1077
+msgid "New Spreadsheet"
+msgstr "Novy raźlikovy arkuš"
+
+#: ../libslab/bookmark-agent.c:1082
+msgid "New Document"
+msgstr "Novy dakument"
+
+#: ../libslab/bookmark-agent.c:1140
+msgid "Documents"
+msgstr "Dakumenty"
+
+#: ../libslab/bookmark-agent.c:1153
+msgid "File System"
+msgstr "Fajłavaja systemа"
+
+#: ../libslab/bookmark-agent.c:1157
+msgid "Network Servers"
+msgstr "Sietkavyja servery"
+
+#: ../libslab/bookmark-agent.c:1186
+msgid "Search"
+msgstr "Šukaj"
+
+#. make open with default action
+#: ../libslab/directory-tile.c:171
+#, c-format
+msgid "<b>Open</b>"
+msgstr "<b>Adčyni</b>"
+
+#. make rename action
+#: ../libslab/directory-tile.c:190 ../libslab/document-tile.c:234
+msgid "Rename..."
+msgstr "Źmiani nazvu..."
+
+#: ../libslab/directory-tile.c:204 ../libslab/directory-tile.c:213
+#: ../libslab/document-tile.c:248 ../libslab/document-tile.c:257
+msgid "Send To..."
+msgstr "Vyšli da..."
+
+#. make move to trash action
+#: ../libslab/directory-tile.c:228 ../libslab/document-tile.c:283
+msgid "Move to Trash"
+msgstr "Pieraniasi ŭ śmietnicu"
+
+#: ../libslab/directory-tile.c:238 ../libslab/directory-tile.c:457
+#: ../libslab/document-tile.c:293 ../libslab/document-tile.c:837
+msgid "Delete"
+msgstr "Vydal"
+
+#: ../libslab/directory-tile.c:533 ../libslab/document-tile.c:985
+#, c-format
+msgid "Are you sure you want to permanently delete \"%s\"?"
+msgstr "Ty sapraŭdy chočaš nazaŭždy vydalić \"%s\"?"
+
+#: ../libslab/directory-tile.c:534 ../libslab/document-tile.c:986
+msgid "If you delete an item, it is permanently lost."
+msgstr "Vydaleny elementy budzie stračany nazaŭždy."
+
+#: ../libslab/document-tile.c:193
+#, fuzzy, c-format
+msgid "Open with \"%s\""
+msgstr "<b>Adčyni pry dapamozie \"%s\"</b>"
+
+#: ../libslab/document-tile.c:207
+msgid "Open with Default Application"
+msgstr "Adčyni pry dapamozie zmoŭčanaj aplikacyi"
+
+#: ../libslab/document-tile.c:218
+msgid "Open in File Manager"
+msgstr "Adčyni ŭ kiraŭniku fajłaŭ"
+
+#: ../libslab/document-tile.c:617
+msgid "?"
+msgstr "?"
+
+#: ../libslab/document-tile.c:624
+msgid "%l:%M %p"
+msgstr "%l:%M %p"
+
+#: ../libslab/document-tile.c:632
+msgid "Today %l:%M %p"
+msgstr "Siońnia %l:%M %p"
+
+#: ../libslab/document-tile.c:642
+msgid "Yesterday %l:%M %p"
+msgstr "Učora %l:%M %p"
+
+#: ../libslab/document-tile.c:654
+msgid "%a %l:%M %p"
+msgstr "%a %l:%M %p"
+
+#: ../libslab/document-tile.c:662
+msgid "%b %d %l:%M %p"
+msgstr "%b %d %l:%M %p"
+
+#: ../libslab/document-tile.c:664
+msgid "%b %d %Y"
+msgstr "%b %d %Y"
+
+#: ../libslab/search-bar.c:255
+msgid "Find Now"
+msgstr "Znajdzi ciapier"
+
+#: ../libslab/system-tile.c:127
+#, c-format
+msgid "<b>Open %s</b>"
+msgstr "<b>Adčyni %s</b>"
+
+#: ../libslab/system-tile.c:140
+#, c-format
+msgid "Remove from System Items"
+msgstr "Vydal z systemnych elementaŭ"
+
+#~ msgid "Unknown login ID, the user database might be corrupted"
+#~ msgstr ""
+#~ "Niaviadomaje ID aŭtaryzacyi, baza karystalnika moža być paškodžanaja"
+
+#~ msgid ""
+#~ "Left thumb\n"
+#~ "Left middle finger\n"
+#~ "Left ring finger\n"
+#~ "Left little finger\n"
+#~ "Right thumb\n"
+#~ "Right middle finger\n"
+#~ "Right ring finger\n"
+#~ "Right little finger"
+#~ msgstr ""
+#~ "Levy adziniec\n"
+#~ "Levy siarednik\n"
+#~ "Levy pierścianiec\n"
+#~ "Levy mieziniec\n"
+#~ "Pravy adziniec\n"
+#~ "Pravy siarednik\n"
+#~ "Pravy pierścianiec\n"
+#~ "Pravy mieziniec"
+
+#~ msgid "<b>Email</b>"
+#~ msgstr "<b>E-mail</b>"
+
+#~ msgid "<b>Home</b>"
+#~ msgstr "<b>Dom</b>"
+
+#~ msgid "<b>Job</b>"
+#~ msgstr "<b>Praca</b>"
+
+#~ msgid "<b>Web</b>"
+#~ msgstr "<b>Sieciva</b>"
+
+#~ msgid "<b>Work</b>"
+#~ msgstr "<b>Praca</b>"
+
+#~ msgid "<span size=\"larger\" weight=\"bold\">Change your password</span>"
+#~ msgstr "<span size=\"larger\" weight=\"bold\">Źmiani parol</span>"
+
+#~ msgid "<b>Assistive Technologies</b>"
+#~ msgstr "<b>Technalohii dastupnaści</b>"
+
+#~ msgid "<b>Preferences</b>"
+#~ msgstr "<b>Nałady</b>"
+
+#~ msgid "<b>C_olors</b>"
+#~ msgstr "<b>K_olery</b>"
+
+#~ msgid "<b>Menus and Toolbars</b>"
+#~ msgstr "<b>Paneli menu j pryładździa</b>"
+
+#~ msgid "<b>Preview</b>"
+#~ msgstr "<b>Pieradahlad</b>"
+
+#~ msgid "<b>_Desktop Background</b>"
+#~ msgstr "<b>_Fon stała</b>"
+
+#~ msgid "C_ut"
+#~ msgstr "_Vytni"
+
+#~ msgid "Edit"
+#~ msgstr "Redahuj"
+
+#~ msgid "Interface"
+#~ msgstr "Interfejs"
+
+#~ msgid "New File"
+#~ msgstr "Novy fajł"
+
+#~ msgid "Open File"
+#~ msgstr "Adčyni fajł"
+
+#~ msgid "Save File"
+#~ msgstr "Zapišy fajł"
+
+#~ msgid "Show _icons in menus"
+#~ msgstr "Pakazvaj _ikony ŭ menu"
+
+#~ msgid ""
+#~ "Solid color\n"
+#~ "Horizontal gradient\n"
+#~ "Vertical gradient"
+#~ msgstr ""
+#~ "Adnastajny koler\n"
+#~ "Haryzantalny hradyjent\n"
+#~ "Vertykalny hradyjent"
+
+#~ msgid ""
+#~ "Text below items\n"
+#~ "Text beside items\n"
+#~ "Icons only\n"
+#~ "Text only"
+#~ msgstr ""
+#~ "Tekst nižej elementaŭ\n"
+#~ "Tekst pobač z elementami\n"
+#~ "Tolki ikony\n"
+#~ "Tolki tekst"
+
+#~ msgid ""
+#~ "Tiled\n"
+#~ "Zoom\n"
+#~ "Centered\n"
+#~ "Scaled\n"
+#~ "Fill screen"
+#~ msgstr ""
+#~ "Pa susiedztvie\n"
+#~ "Maštabavany\n"
+#~ "Centravany\n"
+#~ "Źmienieny pamier\n"
+#~ "Zapaŭnieńnie ekranu"
+
+#~ msgid "Toolbar _button labels:"
+#~ msgstr "_Podpisy dla knopak paneli pryładździa:"
+
+#~ msgid "_Copy"
+#~ msgstr "S_kapijuj"
+
+#~ msgid "_Editable menu shortcut keys"
+#~ msgstr "_Źmianialnyja klavišy skarotaŭ menu"
+
+#~ msgid "_File"
+#~ msgstr "_Fajł"
+
+#~ msgid "_New"
+#~ msgstr "_Novy"
+
+#~ msgid "_Open"
+#~ msgstr "_Adčyni"
+
+#~ msgid "_Paste"
+#~ msgstr "Uk_lej"
+
+#~ msgid "_Print"
+#~ msgstr "Vy_drukuj"
+
+#~ msgid "_Quit"
+#~ msgstr "_Vyjdzi"
+
+#~ msgid "_Save"
+#~ msgstr "_Zapišy"
+
+#~ msgid "<b>Visual</b>"
+#~ msgstr "<b>Vizualny</b>"
+
+#~ msgid "<i>Drag the monitors to set their place</i>"
+#~ msgstr "<i>Pieraciahvaj manitory, kab uparadkavać ich</i>"
+
+#~ msgid "Display Preferences"
+#~ msgstr "Nałady ekranu"
+
+#~ msgid ""
+#~ "Normal\n"
+#~ "Left\n"
+#~ "Right\n"
+#~ "Upside-down\n"
+#~ msgstr ""
+#~ "Zvyčajna\n"
+#~ "Uleva\n"
+#~ "Uprava\n"
+#~ "Dahary nahami\n"
+
+#~ msgid "_Mirror screens"
+#~ msgstr "_Adlustroŭvaj ekrany"
+
+#~ msgid "Change screen resolution"
+#~ msgstr "Źmiani pamiery ekranu"
+
+#~ msgid "Could not apply the selected configuration"
+#~ msgstr "Nie ŭdałosia ŭžyć vybranyja nałady"
+
+#~ msgid "Could not get org.gnome.SettingsDaemon.XRANDR"
+#~ msgstr "Nie ŭdałosia atrymać \"org.gnome.SettingsDaemon.XRANDR\""
+
+#~ msgid "_Command:"
+#~ msgstr "_Zahad:"
+
+#~ msgid "<b>Bounce Keys</b>"
+#~ msgstr "<b>Spružynistyja klavišy</b>"
+
+#~ msgid "<b>General</b>"
+#~ msgstr "<b>Ahulnaje</b>"
+
+#~ msgid "<small><i>Fast</i></small>"
+#~ msgstr "<small><i>Chutka</i></small>"
+
+#~ msgid "<small><i>Long</i></small>"
+#~ msgstr "<small><i>Doŭha</i></small>"
+
+#~ msgid "<small><i>Short</i></small>"
+#~ msgstr "<small><i>Karotka</i></small>"
+
+#~ msgid "<small><i>Slow</i></small>"
+#~ msgstr "<small><i>Pavolna</i></small>"
+
+#~ msgid "A_cceleration:"
+#~ msgstr "_Akseleracyja:"
+
+#~ msgid "Layout _Options..."
+#~ msgstr "_Opcyi raskładki..."
+
+#~ msgid "_Selected layouts:"
+#~ msgstr "Vybranyja _raskładki:"
+
+#~ msgid "<b>Locate Pointer</b>"
+#~ msgstr "<b>Raspałažy kursor</b>"
+
+#~ msgid "<small><i>High</i></small>"
+#~ msgstr "<small><i>Vysokaja</i></small>"
+
+#~ msgid "<small><i>Large</i></small>"
+#~ msgstr "<small><i>Vialiki</i></small>"
+
+#~ msgid "<small><i>Low</i></small>"
+#~ msgstr "<small><i>Nizkaja</i></small>"
+
+#~ msgid "<small><i>Small</i></small>"
+#~ msgstr "<small><i>Mały</i></small>"
+
+#~ msgid "<b>Ignore Host List</b>"
+#~ msgstr "<b>Śpis ihnaravanych hostaŭ</b>"
+
+#~ msgid "C_ontrol"
+#~ msgstr "C_ontrol"
+
+#~ msgid ""
+#~ "<span size=\"large\"><b>No matches found.</b> </span><span>\n"
+#~ "\n"
+#~ " Your filter \"<b>%s</b>\" does not match any items.</span>"
+#~ msgstr ""
+#~ "<span size=\"large\"><b>Niama adpaviednikaŭ.</b> </span><span>\n"
+#~ "\n"
+#~ " Filter \"<b>%s</b>\" nie pasuje ni da adnaho z elementaŭ.</span>"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "nia znojdzieny kluč [%s]\n"
+
+#~ msgid "Filter"
+#~ msgstr "Filter"
+
+#~ msgid "Groups"
+#~ msgstr "Hrupy"
+
+#~ msgid "Common Tasks"
+#~ msgstr "Typovyja zadačy"
+
+#~ msgid "/_About"
+#~ msgstr "/_Pra"
+
+#~ msgid "The quick brown fox jumps over the lazy dog. 0123456789"
+#~ msgstr "Kiń źluku ŭściaž łaščyć. ŃŁŬŚŠČŹŽ 0123456789"
 
 #~ msgid "Enable support for GNOME assistive technologies at login"
 #~ msgstr "Uklučaj padtrymku technalohij dastupnaści GNOME pry aŭtaryzacyi"
@@ -3670,9 +4226,6 @@ msgstr "Pamyłka padčas razboru arhumentaŭ: %s\n"
 #~ msgid "Click OK to finish."
 #~ msgstr "Klikni \"OK\", kab skončyć."
 
-#~ msgid "Devices"
-#~ msgstr "Pryłady"
-
 #~ msgid "Play _alert sound"
 #~ msgstr "_Padaj tryvožny syhnał"
 
@@ -3719,9 +4272,6 @@ msgstr "Pamyłka padčas razboru arhumentaŭ: %s\n"
 
 #~ msgid "Alert sound"
 #~ msgstr "Tryvožny syhnał"
-
-#~ msgid "Visual alert"
-#~ msgstr "Vizualnaja tryvoha"
 
 #~ msgid "Windows and Buttons"
 #~ msgstr "Vokny j knopki"
@@ -3833,9 +4383,6 @@ msgstr "Pamyłka padčas razboru arhumentaŭ: %s\n"
 #~ msgid "Inverted"
 #~ msgstr "Invertavana"
 
-#~ msgid "Default Settings"
-#~ msgstr "Zmoŭčanyja nałady"
-
 #~ msgid "Screen %d Settings\n"
 #~ msgstr "Nałady ekranu %d\n"
 
@@ -3844,9 +4391,6 @@ msgstr "Pamyłka padčas razboru arhumentaŭ: %s\n"
 
 #~ msgid "_Make default for this computer (%s) only"
 #~ msgstr "_Zrabi zmoŭčanym tolki dla hetaha kamputara (%s)"
-
-#~ msgid "Options"
-#~ msgstr "Opcyi"
 
 #~ msgid ""
 #~ "Testing the new settings. If you don't respond in %d second the previous "
@@ -3918,9 +4462,6 @@ msgstr "Pamyłka padčas razboru arhumentaŭ: %s\n"
 
 #~ msgid "Beep"
 #~ msgstr "Zvanočak"
-
-#~ msgid "No sound"
-#~ msgstr "Biaz huku"
 
 #~ msgid "Sound not set for this event."
 #~ msgstr "Nie akreśleny huk dla hetaj padziei."

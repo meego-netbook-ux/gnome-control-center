@@ -8,16 +8,16 @@
 # Maruf Ovee <maruf@ankur.org.bd>, 2009.
 # Sadia Afroz <sadia@ankur.org.bd>, 2010.
 # Israt Jahan <israt@ankur.org.bd>, 2010.
-#
+# 
 msgid ""
 msgstr ""
 "Project-Id-Version: bn\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-"
-"control-center&component=general\n"
-"POT-Creation-Date: 2010-03-10 12:25+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-03-23 16:02+0600\n"
 "Last-Translator: Israt Jahan <israt@ankur.org.bd>\n"
 "Language-Team: Bengali <ankur-bd-l10n@googlegroups.com>\n"
+"Language: bn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -226,7 +226,7 @@ msgid "No Image"
 msgstr "কোন ছবি নেই"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "ছবি"
 
@@ -644,7 +644,7 @@ msgstr "অনুমোদিত!"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
@@ -656,72 +656,72 @@ msgstr ""
 msgid "That password was incorrect."
 msgstr "পাসওয়ার্ড সঠিক নয়।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "আপনার পাসওয়ার্ড পরিবর্তিত হয়েছে।"
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "সিস্টেম সংক্রান্ত সমস্যা: %s।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr "পাসওয়ার্ড অত্যন্ত ছোট।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "পাসওয়ার্ড অত্যন্ত সরল।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr "পুরনো ও নতুন পাসওয়ার্ডের গঠন অতিমাত্রায় অনুরূপ।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr "নতুন পাসওয়ার্ডের মধ্যে সংখ্য ও বিশেষ অক্ষরের উপস্থিতি বাঞ্ছনীয়।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr "পুরোনো ও নতুন পাসওয়ার্ড অনুরূপ।"
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "%1$s আরম্ভ করতে ব্যর্থ: %2$s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr "ব্যাক-এন্ড চালু করা যায় নি"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr "সিস্টেম সংক্রান্ত সমস্যা হয়েছে"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr "পাসওয়ার্ড পরীক্ষা..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "পাসওয়ার্ড পরিবর্তনের জন্য <b>পাসওয়ার্ড পরিবর্তন</b> এ ক্লিক করুন।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "অনুগ্রহ করে <b>নতুন পাসওয়ার্ড</b> শীর্ষক ক্ষেত্রে পাসওয়ার্ড লিখুন।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
 msgid ""
 "Please type your password again in the <b>Retype new password</b> field."
 msgstr ""
 "অনুগ্রহ করে <b>নতুন পাসওয়ার্ড পুনরায় লিখুন</b> শীর্ষক ক্ষেত্রে পাসওয়ার্ড পুনরায় লিখুন।"
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "উল্লেখিত পাসওয়ার্ড দুটি এক নয়।"
 
@@ -730,6 +730,7 @@ msgid "Change pa_ssword"
 msgstr "পাসওয়ার্ড পরিবর্তন (_s)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "পাসওয়ার্ড পরিবর্তন"
 
@@ -832,11 +833,11 @@ msgid "Choose which accessibility features to enable when you log in"
 msgstr ""
 "লগ-ইন করার সময়, বিশেষ ব্যবহারের কোনো ব্যবস্থাগুলি সক্রিয় করা হবে তা নির্বাচন করুন"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "ওয়াল-পেপার যোগ করুন"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "সর্বধরনের ফাইল"
 
@@ -887,6 +888,12 @@ msgid "Use selected font"
 msgstr "নির্বাচিত ফন্ট ব্যবহার করা হবে"
 
 #: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "ব্যবহারকারী ইন্টারফেস ফাইল লোড করা যায় নি: %s"
@@ -906,7 +913,7 @@ msgstr "প্রদর্শনযোগ্য পৃষ্ঠার নাম 
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "পৃষ্ঠা"
 
@@ -1143,176 +1150,174 @@ msgstr "মসৃণকরণ"
 msgid "Solid color"
 msgstr "নিরেট রং"
 
-#: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr "স্প্যান"
-
 # Translated by sadia
-#: ../capplets/appearance/data/appearance.ui.h:38
+#: ../capplets/appearance/data/appearance.ui.h:37
 msgid "Stretch"
 msgstr "প্রসারিত করুন"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "সাবপিক্সেল (LCD) (_p)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "সাবপিক্সেল মসৃণকরণ (LCD) (_p)"
 
 # Translated by sadia
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "সাবপিক্সেলের ধারা "
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "লেখা"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "আইটেমের নিচের টেক্সট"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "আইটেমের পাশের টেক্সট"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "শুধুমাত্র টেক্সট"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "বর্তমান নিয়ন্ত্রণের থিমগুলো দ্বারা রং এর সংকলন সমর্থিত হয় না।"
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "থিম"
 
 # Translated by sadia
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
 msgid "Tile"
 msgstr "টালি "
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VB_GR"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "উল্লম্ব গ্রেডিয়েন্ট"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "উইন্ডোর সীমানা"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "বড় আকারে প্রদর্শন"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "যোগ করুন... (_A)"
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "অ্যাপলিকেশনে ব্যবহৃত ফন্ট (_A):"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "_BGR"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "বর্ণনা (_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "ডকুমেন্ট-এ ব্যবহৃত ফন্ট (_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "নির্দিষ্ট প্রস্থবিশিষ্ট ফন্ট (_F):"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "সম্পূর্ণ (_F)"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "ইনপুট বাক্স: (_I)"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "ইনস্টল করুন...(_I)"
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "মাঝারি (_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "সাদা-কালো (_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "নাম (_N):"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "শূণ্য (_N)"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "_RGB"
 
 # FIXME
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "ডিফল্ট মান পুনরায় স্থাপন (_R)"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "নির্বাচিত আইটেম (_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "আকার (_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "স্বল্প (_S)"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "বিন্যাস (_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "টুল-টিপ (_T):"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "_VRGB"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "উইন্ডোর শিরোনামে ব্যবহৃত ফন্ট (_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "উইন্ডোজ (_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "প্রতি ইঞ্চিতে ডটের সংখ্যা"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "উপস্থিতি"
@@ -1337,28 +1342,28 @@ msgstr "Gnome থিম প্যাকেজ"
 msgid "No Desktop Background"
 msgstr "ডেস্কটপের কোনো পটভূমি প্রয়োগ করা হবে না"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "স্লাইড-শো"
 
 # Translated by sadia
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "ছবি"
 
 # Translated by sadia
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "বিভিন্ন আকার"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
-#| msgid "%b %d %Y"
+#: ../capplets/appearance/gnome-wp-item.c:275
+#, c-format
 msgid "%d %s by %d %s"
 msgstr "%d %s, %d %s দ্বারা"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "পিক্সেল"
@@ -1369,28 +1374,34 @@ msgstr[1] "পিক্সেল"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
 "%s, %s\n"
 "Folder: %s"
-msgstr "<b>%s</b>\n%s, %s\nFolder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s, %s\n"
+"Folder: %s"
 
 # Translated by sadia
 #. translators: <b>wallpaper name</b>
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, c-format
 msgid ""
 "<b>%s</b>\n"
 "%s\n"
 "Folder: %s"
-msgstr "<b>%s</b>\n%s\nFolder: %s"
+msgstr ""
+"<b>%s</b>\n"
+"%s\n"
+"Folder: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 msgid "Image missing"
 msgstr "ছবি অনুপস্থিত"
 
@@ -1522,7 +1533,7 @@ msgstr ""
 "(উদাহরণস্বরূপ কেডিই) এরকম কোন বৈশিষ্ট্য নির্ধারণী ব্যবস্থাপক হয়ত ইতিমধ্যেই সক্রিয় আছে "
 "এবং জিনোম বৈশিষ্ট্য নির্ধারণী ব্যবস্থাপকের সাথে বিরোধ দেখাচ্ছে।"
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "স্টক আইকন '%s' লোড করা যায় নি\n"
@@ -1609,76 +1620,76 @@ msgstr "উপেক্ষা করুন (_S)"
 msgid "Overwrite _All"
 msgstr "সমস্ত নতুন করে লেখা হবে (_A)"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "কী"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "এই বৈশিষ্ট্যনির্ধারণী এডিটরটি যে GConf কী এর সাথে যুক্ত আছে"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "কলব্যাক"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "কী-এর সাথে যুক্ত মান পরিবর্তিত হলে এই কল-ব্যাক উৎপন্ন হবে"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "সংকলন পরিবর্তন করুন"
 
-#: ../capplets/common/gconf-property-editor.c:148
+#: ../capplets/common/gconf-property-editor.c:150
 msgid ""
 "GConf change set containing data to be forwarded to the gconf client on apply"
 msgstr "GConf কোন পরিবর্তন করা হলে তা GConf ক্লায়েন্টকে জানান"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "উইজেট কলব্যাকে রূপান্তর"
 
-#: ../capplets/common/gconf-property-editor.c:154
+#: ../capplets/common/gconf-property-editor.c:156
 msgid ""
 "Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "তথ্যকে GConf থেকে উইজেটে রূপান্তরের সময় যে কলব্যাকটি ব্যবহৃত হবে"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "উইজেট কলব্যাক থেকে রূপান্তর"
 
-#: ../capplets/common/gconf-property-editor.c:160
+#: ../capplets/common/gconf-property-editor.c:162
 msgid ""
 "Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "তথ্যকে উইজেট থেকে GConf এ রূপান্তরের সময় যে কলব্যাকটি ব্যবহৃত হবে"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "UI নিয়ন্ত্রণ"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "বৈশিষ্ট্য নির্ধারণী অবজেক্ট (সাধারণত এটি একটি উইজেট)"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "বৈশিষ্ট্য নির্ধারণী সম্পাদকের অবজেক্টবিষয়ক তথ্য"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "বৈশিষ্ট্য নির্ধারণী সম্পাদকের প্রয়োজনীয় স্বনির্বাচিত তথ্য"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "বৈশিষ্ট্য নির্ধারণী সম্পাদকের তথ্য কলব্যাকের ওপর থেকে নিয়ন্ত্রণ প্রত্যাহার করছে"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr ""
 "বৈশিষ্ট্য নির্ধারণী সম্পাদকের অবজেক্টবিষয়ক তথ্যের ওপর থেকে নিয়ন্ত্রণ প্রত্যাহারের সময় "
 "যে কলব্যাকটি ব্যবহৃত হবে"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1691,7 +1702,7 @@ msgstr ""
 "দয়া করে নিশ্চিত হোন যে ফাইলটি আসলেই আছে কিনা এবং তারপর আবার চেষ্টা করুন, অথবা "
 "পটভূমির জন্য অন্য কোন ছবি বেছে নিন।"
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1704,11 +1715,11 @@ msgstr ""
 "\n"
 "অনুগ্রহপূর্বক অন্য একটি ছবি বেছে নিন।"
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "অনুগ্রহপূর্বক একটি ছবি বেছে নিন।"
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "নির্বাচন (_S)"
 
@@ -1825,6 +1836,7 @@ msgstr "%s-টির সবগুলোকেই প্রকৃত লিঙ্
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "কমান্ড: (_o)"
 
@@ -2131,6 +2143,49 @@ msgstr "টটেম চলচ্চিত্র বাদন ব্যবস্
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "মনিটর সংক্রান্ত কনফিগারেশন সংরক্ষণ করতে ব্যর্থ"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "ডিসপ্লে কনফিগারেশন প্রয়োগ করার সময় সেশন বাস পাওয়া যায়নি"
+
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "পর্দা সংক্রান্ত পরিবর্তন প্রাপ্ত করতে ব্যর্থ"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr "প্রদর্শন"
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "প্যানেল অন্তর্ভুক্ত করা হবে (_p)"
@@ -2147,7 +2202,6 @@ msgid "Monitor"
 msgstr "মনিটর "
 
 #: ../capplets/display/display-capplet.ui.h:4
-#| msgid "Mouse Preferences"
 msgid "Monitor Preferences"
 msgstr "মনিটর সম্পর্কিত পছন্দ"
 
@@ -2192,7 +2246,6 @@ msgid "Upside-down"
 msgstr "উল্টো"
 
 #: ../capplets/display/display-capplet.ui.h:14
-#| msgid "_Detect Monitors"
 msgid "_Detect monitors"
 msgstr "মনিটর সনাক্তকরণ (_D)"
 
@@ -2201,7 +2254,6 @@ msgid "_Resolution:"
 msgstr "রেজল্যুশন (_R):"
 
 #: ../capplets/display/display-capplet.ui.h:16
-#| msgid "_Show displays in panel"
 msgid "_Show monitors in panel"
 msgstr "প্যানেলের মধ্যে মনিটর প্রদর্শন করা হবে (_S)"
 
@@ -2211,7 +2263,6 @@ msgstr "মনিটরের রেজল্যুশন এবং অবস্
 
 # Translated by sadia
 #: ../capplets/display/display-properties.desktop.in.in.h:2
-#| msgid "Monitor"
 msgid "Monitors"
 msgstr "মনিটর"
 
@@ -2231,7 +2282,7 @@ msgstr "%d হার্জ"
 #. * translation could be "Pantallas en Espejo", *not* "Espejar Pantallas".
 #.
 #: ../capplets/display/xrandr-capplet.c:497
-#: ../capplets/display/xrandr-capplet.c:1628
+#: ../capplets/display/xrandr-capplet.c:1643
 msgid "Mirror Screens"
 msgstr "প্রতিফলিত পর্দা"
 
@@ -2246,87 +2297,93 @@ msgstr "মনিটর: %s "
 msgid "%d x %d"
 msgstr "%d x %d"
 
-#: ../capplets/display/xrandr-capplet.c:2046
-msgid "Could not save the monitor configuration"
-msgstr "মনিটর সংক্রান্ত কনফিগারেশন সংরক্ষণ করতে ব্যর্থ"
-
-#: ../capplets/display/xrandr-capplet.c:2057
-msgid "Could not get session bus while applying display configuration"
-msgstr "ডিসপ্লে কনফিগারেশন প্রয়োগ করার সময় সেশন বাস পাওয়া যায়নি"
-
-#: ../capplets/display/xrandr-capplet.c:2099
-msgid "Could not detect displays"
-msgstr "ডিসপ্লে সনাক্ত করতে ব্যর্থ"
-
-#: ../capplets/display/xrandr-capplet.c:2314
-msgid "Could not get screen information"
-msgstr "পর্দা সংক্রান্ত পরিবর্তন প্রাপ্ত করতে ব্যর্থ"
-
-#: ../capplets/display/xrandr-capplet.c:2385
+#: ../capplets/display/xrandr-capplet.c:1499
 msgid ""
 "Select a monitor to change its properties; drag it to rearrange its "
 "placement."
 msgstr ""
-"মনিটরের বৈশিষ্ট্য পরিবর্তন করতে নির্বাচন করুন; এর অবস্থান পুনরায় নির্ধারণ "
-"করতে টেনে আনুন।"
+"মনিটরের বৈশিষ্ট্য পরিবর্তন করতে নির্বাচন করুন; এর অবস্থান পুনরায় নির্ধারণ করতে টেনে "
+"আনুন।"
+
+#: ../capplets/display/xrandr-capplet.c:2114
+msgid "Could not detect displays"
+msgstr "ডিসপ্লে সনাক্ত করতে ব্যর্থ"
 
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "শব্দ"
 
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "ডেস্কটপ"
 
 # FIXME
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "নতুন শর্টকাট..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "চটপট কী (key)"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "চটপট পরিবর্তক (modifiers)"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "চটপট কীকোড (Keycode)"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "চটপট মোড"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "চটপট কী-এর ধরন।"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "নিষ্ক্রিয়"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "<অজানা কাজ>"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "স্বনির্ধারিত শর্ট-কাট"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "নতুন শর্ট-কাট সংরক্ষণে সমস্যা"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2338,6 +2395,7 @@ msgstr ""
 "অনুগ্রহ করে Control, Alt বা Shift কী-এর একসাথে ব্যবহারের প্রচেষ্টা করুন।"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2347,42 +2405,51 @@ msgstr ""
 " \"%s\"-র জন্য ব্যবহৃত হচ্ছে"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
 msgid ""
 "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "\"%s\"-এ শর্ট-কাট স্থাপন করা হলে, \"%s\" শর্ট-কাটটি নিষ্ক্রিয় করা হবে।"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "পুনরায় নির্ধারণ (_R)"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "কনফিগারেশন ডাটাবেসের মধ্যে অ্যাকসেলেরেটরের মান বাতিল করতে ত্রুটি: %s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "অত্যাধিক স্বনির্ধারিত শর্ট-কাট"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "কাজ"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "শর্টকাট"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "স্বনির্ধারিত শর্ট-কাট"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "কি-বোর্ড শর্টকাট"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2394,23 +2461,34 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "বিভিন্ন কমান্ডের জন্য শর্টকাট নির্ধারণ করুন"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "কীবোর্ড"
+
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "বিন্যাস"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
 msgid ""
 "Just apply settings and quit (compatibility only; now handled by daemon)"
 msgstr ""
 "এই মানগুলোকে কার্যকর করুন এবং তারপর প্রোগ্রামটি বন্ধ করে দিন (শুধুমাত্র সঙ্গতির জন্য; "
 "এখন এটি ডেইমনের নিয়ন্ত্রণাধীন)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "পৃষ্ঠাটির প্রদর্শন আরম্ভ করার সময় টাইপিং বিরতির বৈশিষ্ট্য দেখান"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "বিশেষ ব্যবহারের বৈশিষ্ট্য প্রদর্শন করে পৃষ্ঠা আরম্ভ করা হবে"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "- GNOME কিবোর্ড সংক্রান্ত পছন্দ"
 
@@ -2457,7 +2535,7 @@ msgid "Flash entire _screen"
 msgstr "সম্পূর্ণ পর্দা ঝলকানো হবে (_s)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "সাধারণ"
@@ -2472,13 +2550,13 @@ msgstr "সতর্কধ্বনির জন্য ভিজুয়্যা�
 
 # Translated by sadia
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "ধীর গতির কী "
 
 # Translated by sadia
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "স্টিকি কী "
 
@@ -2495,65 +2573,61 @@ msgstr "বিরতি মুলতুবির প্রক্রিয়া স
 msgid "Audio _Feedback..."
 msgstr "অডিও প্রতিক্রিয়া...(_F)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "বিরতি বাতিল করা যায় কিনা তা যাচাই করুন"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "কার্সার জ্বলছে-নিভছে "
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "টেক্সট লেখার ক্ষেত্রে কার্সার ঝলকাবে (_b)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "কার্সার জ্বলানেভার হার"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "বিলম্ব: (_e)"
 
 # FIXME
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "একযোগে দুটি কি চাপা হলে স্টিকি-কী নিষ্ক্রিয় করা হবে (_b)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "টাইপিং বিরতির দৈর্ঘ্য"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "যতক্ষণ কাজ করার পর বিরতি দেওয়া হবে"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "Fast"
 msgstr "দ্রুত"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "কী চেপে ধরে রাখলে অনবরত লেখা হবে (_r)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "কীবোর্ড সম্পর্কিত পছন্দ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "কীবোর্ডের মডেল (_m):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "বিন্যাস"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
@@ -2561,126 +2635,126 @@ msgstr ""
 "অনবরত কীবোর্ড ব্যবহারজনিত দৈহিক ক্ষতি প্রতিরোধ করার জন্য স্ক্রিন লক (Lock) করা হবে"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "দীর্ঘ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "মাউস কী (key)"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr "নিচে নামুন (_D) "
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr "উপরে যান (_U)"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr "নতুন উইন্ডোজ সক্রিয় উইন্ডোর লেআউট ব্যবহার করে (_s)"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "পুনরাবৃত্তি কী "
 
 # FIXME
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "কী পুনরাবৃত্তির হার"
 
 # FIXME
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "ডিফল্ট মান পুনরায় স্থাপন করুন (_f)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "গতি (_p):"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Short"
 msgstr "ছোট"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "ধীর"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "টাইপিং বিরতি"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "গতিবৃদ্ধি (_A):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "কী-বোর্ড শর্ট-কাট সহযোগে বিশেষ ব্যবহারের বৈশিষ্ট্য টগল করা যাবে (_A)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "বিরতির দৈর্ঘ্য (_B):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "বিলম্ব (_D):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "দ্রুত গতিতে দুইবার কী চাপা হলে তা উপেক্ষা করা হবে (_I)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "টাইপের মধ্যে বাধ্যতামূলক বিরতি ধার্য করার জন্য পর্দা লক করা হবে (_L)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "শুধুমাত্র দীর্ঘ সময় অবধি চাপা কী-এর মান গণ্য করা হবে (_O)"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 msgid "_Options..."
 msgstr "অপশন... (_O)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "কী-প্যাড সহযোগে পয়েন্টার নিয়ন্ত্রণ করা যাবে (_P)"
 
 # Translated by sadia
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 msgid "_Separate layout for each window"
 msgstr "প্রতিটি উইন্ডোর জন্য পৃথক বহির্বিন্যাস (_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "একযোগে কী চাপার কাজের অনুকরণ করা হবে (_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "গতি (_S):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "এই মানগুলো পরীক্ষা করার জন্য কিছু লিখুন (_T):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "কাজ চলাকালীন বিরতির দৈর্ঘ্য (_W):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "মিনিট"
 
@@ -2749,13 +2823,13 @@ msgstr "মডেল"
 msgid "Default"
 msgstr "ডিফল্ট"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "কীবোর্ড"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "কীবোর্ড সম্পর্কিত পছন্দ নির্ধারণ করুন"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr ""
 
 # fix me- confused with the appropriate meaning of gesture.
 #. Translators: this is the gesture to trigger/choose the click type.
@@ -2789,11 +2863,11 @@ msgid "gesture|Disabled"
 msgstr "কাজ|নিষ্ক্রিয়"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "প্রদর্শনযোগ্য পৃষ্ঠার নাম উল্লেখ করুন (সাধারণ|প্রবেশ্যতা)"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- GNOME মাউস সংক্রান্ত পছন্দ"
 
@@ -2814,7 +2888,6 @@ msgid "D_rag click:"
 msgstr "টেনে এনে ক্লিক করুন (_r):"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:8
-#| msgid "_Disable touchpad while typing"
 msgid "Disable _touchpad while typing"
 msgstr "টাইপ করার সময় টাচপ্যাড নিস্ক্রিয় করুন (_t)"
 
@@ -2834,12 +2907,10 @@ msgid "Dwell Click"
 msgstr "ডুয়েল ক্লিক "
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
-#| msgid "Enable mouse _clicks with touchpad"
 msgid "Enable _mouse clicks with touchpad"
 msgstr "টাচপ্যাডের মাধ্যমে মাউস ক্লিক সক্রিয় করুন (_m)"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:13
-#| msgid "Enable _horizontal scrolling"
 msgid "Enable h_orizontal scrolling"
 msgstr "অনুভূমিক স্ক্রলিং সক্রিয় করুন (_o)"
 
@@ -2968,6 +3039,11 @@ msgstr "মাউস"
 msgid "Set your mouse preferences"
 msgstr "মাউস সম্পর্কিত পছন্দ নির্ধারণ করুন"
 
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "নেটওয়ার্ক প্রক্সি"
+
 # FIXME
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
@@ -2987,105 +3063,259 @@ msgid "Set your network proxy preferences"
 msgstr "নেটওয়ার্ক প্রক্সি সম্পর্কিত পছন্দ নির্ধারণ করুন"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>সরাসরি ইন্টারনেট সংযোগ (_r)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>স্বয়ংক্রিয় প্রক্সি কনফিগারেশন (_A)<b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>নিজহাতে প্রক্সি কনফিগারেশন (_M)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>অনুমোদন ব্যবস্থা ব্যবহার করা হবে (_U)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "স্বয়ংক্রিয় কনফিগারেশনের URL (_U):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "নির্মাণ করুন (_r)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "নতুন অবস্থান নির্মাণ করুন"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>সরাসরি ইন্টারনেট সংযোগ (_r)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP প্রক্সি সংক্রান্ত বিবরণ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "HTTP প্রক্সি (_T):"
 
 # Translated by sadia
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "হোস্টের তালিকা উপেক্ষা করা হবে"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "উপেক্ষিত হোস্ট"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "অবস্থান:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "নেটওয়ার্ক প্রক্সি সম্পর্কিত পছন্দ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "পোর্ট:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "প্রক্সি কনফিগারেশন"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "Socks হোস্ট (_o):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "অবস্থান বর্তমানে উপস্থিত।"
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "ব্যবহারকারীর-নাম (_s):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>স্বয়ংক্রিয় প্রক্সি কনফিগারেশন (_A)<b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "অবস্থান মুছে ফেলুন (_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "বিবরণ (_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "FTP প্রক্সি (_F):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "অবস্থানের নাম (_L):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>নিজহাতে প্রক্সি কনফিগারেশন (_M)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "পাসওয়ার্ড (_P):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "নিরাপদ HTTP প্রক্সি: (_S)"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>অনুমোদন ব্যবস্থা ব্যবহার করা হবে (_U)</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "সব প্রোটোকলের জন্য এক প্রক্সি ব্যবহার করা হবে (_U)"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "মিনিট"
+msgstr[1] "মিনিট"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "পাসওয়ার্ড অত্যন্ত সরল।"
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "আপনার পাসওয়ার্ড পরিবর্তিত হয়েছে।"
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "পাসওয়ার্ড সঠিক নয়।"
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "অনুমোদিত!"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "পাসওয়ার্ড অত্যন্ত ছোট।"
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "পাসওয়ার্ড অত্যন্ত সরল।"
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "পুরনো ও নতুন পাসওয়ার্ডের গঠন অতিমাত্রায় অনুরূপ।"
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "নতুন পাসওয়ার্ডের মধ্যে সংখ্য ও বিশেষ অক্ষরের উপস্থিতি বাঞ্ছনীয়।"
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "পুরোনো ও নতুন পাসওয়ার্ড অনুরূপ।"
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"প্রারম্ভে আপনার পরিচয় অনুমোদিত হওয়ার ফলে আপনার পাসওয়ার্ড পরিবর্তিত হয়েছে! অনুগ্রহ "
+"করে পুনরায় নিজের পরিচয় যাচাই করুন।"
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "নতুন পাসওয়ার্ডের মধ্যে সংখ্য ও বিশেষ অক্ষরের উপস্থিতি বাঞ্ছনীয়।"
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "অজ্ঞাত"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "নতুন পাসওয়ার্ডটি পুনরায় লিখুন (_R):"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "বর্তমান পাসওয়ার্ড (_p):"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "নতুন পাসওয়ার্ড (_N):"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "নতুন পাসওয়ার্ডটি পুনরায় লিখুন (_R):"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "পাসওয়ার্ড পরিবর্তন"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3187,33 +3417,6 @@ msgstr "গুটিয়ে ফেলা"
 msgid "None"
 msgstr "একটিও না"
 
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "কী পাওয়া যায়নি [%s]\n"
-
-# Translated by sadia
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "শুরু করার সময় লুকিয়ে রাখা হবে (শেলটি প্রিলোড করতে প্রয়োজন)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "পরিশোধক"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "দল"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "সাধারণ কাজ"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "নিয়ন্ত্রণ কেন্দ্র"
-
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
 msgstr "কাজ আরম্ভ হলে নিয়ন্ত্রণ-কেন্দ্র বন্ধ করা হবে"
@@ -3286,9 +3489,21 @@ msgstr ""
 "মান true (সত্য) হলে, কোনো \"সাধারণ কর্ম\" সক্রিয় করা হলে control-center বন্ধ করা "
 "হবে।"
 
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "নিয়ন্ত্রণ কেন্দ্র"
+
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "GNOME কনফিগারেশন প্রক্রিয়া"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr ""
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3682,6 +3897,25 @@ msgstr "<b>%s খুলুন</b>"
 msgid "Remove from System Items"
 msgstr "সিস্টেমের আইটেম থেকে মুছে ফেলুন"
 
+#~ msgid "Span"
+#~ msgstr "স্প্যান"
+
+#~ msgid "key not found [%s]\n"
+#~ msgstr "কী পাওয়া যায়নি [%s]\n"
+
+# Translated by sadia
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "শুরু করার সময় লুকিয়ে রাখা হবে (শেলটি প্রিলোড করতে প্রয়োজন)"
+
+#~ msgid "Filter"
+#~ msgstr "পরিশোধক"
+
+#~ msgid "Groups"
+#~ msgstr "দল"
+
+#~ msgid "Common Tasks"
+#~ msgstr "সাধারণ কাজ"
+
 #~ msgid "Display Preferences"
 #~ msgstr "প্রদর্শন সম্পর্কিত পছন্দ"
 
@@ -3694,9 +3928,6 @@ msgstr "সিস্টেমের আইটেম থেকে মুছে �
 
 #~ msgid "Change screen resolution"
 #~ msgstr "পর্দার রেজল্যুশন পরিবর্তন করুন"
-
-#~ msgid "Display"
-#~ msgstr "প্রদর্শন"
 
 #~ msgid "Edit"
 #~ msgstr "সম্পাদনা"

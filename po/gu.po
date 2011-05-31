@@ -5,11 +5,12 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: gnome-control-center.master.gu\n"
-"Report-Msgid-Bugs-To: http://bugzilla.gnome.org/enter_bug.cgi?product=gnome-control-center&component=general\n"
-"POT-Creation-Date: 2010-03-23 18:29+0000\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-05-31 17:20+0100\n"
 "PO-Revision-Date: 2010-03-31 11:06+0530\n"
 "Last-Translator: Sweta Kothari <swkothar@redhat.com>\n"
 "Language-Team: Gujarati\n"
+"Language: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -249,7 +250,7 @@ msgid "No Image"
 msgstr "કોઈ ઈમેજ નથી"
 
 #: ../capplets/about-me/gnome-about-me.c:746
-#: ../capplets/appearance/appearance-desktop.c:658
+#: ../capplets/appearance/appearance-desktop.c:661
 msgid "Images"
 msgstr "ચિત્રો"
 
@@ -487,8 +488,10 @@ msgid "Set your personal information"
 msgstr "તમારી ખાનગી જાણકારી સુયોજિત કરો"
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:97
-msgid "You are not allowed to access the device. Contact your system administrator."
-msgstr "તમને ઉપકરણ ને દાખલ કરવા માટે પરવાનગી આપેલ નથી. તમારા સિસ્ટમ વહીવટકર્તાને સંપર્ક કરો."
+msgid ""
+"You are not allowed to access the device. Contact your system administrator."
+msgstr ""
+"તમને ઉપકરણ ને દાખલ કરવા માટે પરવાનગી આપેલ નથી. તમારા સિસ્ટમ વહીવટકર્તાને સંપર્ક કરો."
 
 #: ../capplets/about-me/gnome-about-me-fingerprint.c:99
 msgid "The device is already in use."
@@ -651,7 +654,7 @@ msgstr "સત્તાધિકારીત!"
 #. Update status message and auth state
 #. Authentication failure
 #: ../capplets/about-me/gnome-about-me-password.c:474
-#: ../capplets/about-me/gnome-about-me-password.c:552
+#: ../capplets/about-me/gnome-about-me-password.c:554
 msgid ""
 "Your password has been changed since you initially authenticated! Please re-"
 "authenticate."
@@ -663,70 +666,71 @@ msgstr ""
 msgid "That password was incorrect."
 msgstr "તે પાસવર્ડ ખોટો હતો."
 
-#: ../capplets/about-me/gnome-about-me-password.c:524
+#: ../capplets/about-me/gnome-about-me-password.c:525
 msgid "Your password has been changed."
 msgstr "તમારો પાસવર્ડ બદલાઈ ગયેલ છે."
 
 #. What does this indicate?
 #. * "Authentication information cannot be recovered?" from libpam?
-#: ../capplets/about-me/gnome-about-me-password.c:534
+#: ../capplets/about-me/gnome-about-me-password.c:535
 #, c-format
 msgid "System error: %s."
 msgstr "સિસ્ટમ ભૂલ: %s."
 
-#: ../capplets/about-me/gnome-about-me-password.c:537
+#: ../capplets/about-me/gnome-about-me-password.c:538
 msgid "The password is too short."
 msgstr "પાસવર્ડ ખૂબ ટૂંકો છે."
 
-#: ../capplets/about-me/gnome-about-me-password.c:541
+#: ../capplets/about-me/gnome-about-me-password.c:542
 msgid "The password is too simple."
 msgstr "પાસવર્ડ ખૂબ સરળ છે."
 
-#: ../capplets/about-me/gnome-about-me-password.c:544
+#: ../capplets/about-me/gnome-about-me-password.c:546
 msgid "The old and new passwords are too similar."
 msgstr "જૂના અને નવા પાસવર્ડો એકદમ સરખા છે."
 
-#: ../capplets/about-me/gnome-about-me-password.c:546
+#: ../capplets/about-me/gnome-about-me-password.c:548
 msgid "The new password must contain numeric or special character(s)."
 msgstr "નવો પાસવર્ડ આંકડા અને વિશિષ્ટ અક્ષરો સમાવતો હોવો જ જોઈએ."
 
-#: ../capplets/about-me/gnome-about-me-password.c:549
+#: ../capplets/about-me/gnome-about-me-password.c:551
 msgid "The old and new passwords are the same."
 msgstr "નવા અને જૂના પાસવર્ડો સરખા છે."
 
 #. translators: Unable to launch <program>: <error message>
-#: ../capplets/about-me/gnome-about-me-password.c:820
+#: ../capplets/about-me/gnome-about-me-password.c:822
 #, c-format
 msgid "Unable to launch %s: %s"
 msgstr "%s લાવવામાં અસમર્થ: %s"
 
-#: ../capplets/about-me/gnome-about-me-password.c:824
+#: ../capplets/about-me/gnome-about-me-password.c:826
 msgid "Unable to launch backend"
 msgstr "બેકેન્ડ લોન્ચ કરવામાં અસમર્થ"
 
-#: ../capplets/about-me/gnome-about-me-password.c:825
+#: ../capplets/about-me/gnome-about-me-password.c:827
 msgid "A system error has occurred"
 msgstr "સિસ્ટમ ભૂલ ઉદ્દભવી હતી"
 
 #. Update status message
-#: ../capplets/about-me/gnome-about-me-password.c:845
+#: ../capplets/about-me/gnome-about-me-password.c:847
 msgid "Checking password..."
 msgstr "પાસવર્ડ ચકાસી રહ્યા છીએ..."
 
-#: ../capplets/about-me/gnome-about-me-password.c:932
+#: ../capplets/about-me/gnome-about-me-password.c:934
 msgid "Click <b>Change password</b> to change your password."
 msgstr "તમારો પાસવર્ડ બદલવા માટે <b>પાસવર્ડ બદલો</b> ક્લિક કરો."
 
-#: ../capplets/about-me/gnome-about-me-password.c:935
+#: ../capplets/about-me/gnome-about-me-password.c:937
 msgid "Please type your password in the <b>New password</b> field."
 msgstr "મહેરબાની કરીને <b>નવો પાસવર્ડ</b> ક્ષેત્રમાં તમારો પાસવર્ડ લખો."
 
-#: ../capplets/about-me/gnome-about-me-password.c:938
+#: ../capplets/about-me/gnome-about-me-password.c:940
 #: ../capplets/about-me/gnome-about-me-password.ui.h:5
-msgid "Please type your password again in the <b>Retype new password</b> field."
+msgid ""
+"Please type your password again in the <b>Retype new password</b> field."
 msgstr "મહેરબાની કરીને <b>નવો પાસવર્ડ પાછો લખો</b> ક્ષેત્રમાં તમારો પાસવર્ડ ફરીથી લખો."
 
-#: ../capplets/about-me/gnome-about-me-password.c:941
+#: ../capplets/about-me/gnome-about-me-password.c:943
 msgid "The two passwords are not equal."
 msgstr "બે પાસવર્ડો સરખા નથી."
 
@@ -735,6 +739,7 @@ msgid "Change pa_ssword"
 msgstr "પાસવર્ડ બદલો (_s)"
 
 #: ../capplets/about-me/gnome-about-me-password.ui.h:2
+#: ../capplets/security/security.ui.h:1
 msgid "Change password"
 msgstr "પાસવર્ડ બદલો"
 
@@ -835,11 +840,11 @@ msgstr "પ્રાધાન્યવાળા કાર્યક્રમો (
 msgid "Choose which accessibility features to enable when you log in"
 msgstr "જ્યારે તમે પ્રવેશો છે ત્યારે ક્યાં સુલભ લક્ષણોને સક્રિય કરવા માટે પસંદ કરો"
 
-#: ../capplets/appearance/appearance-desktop.c:627
+#: ../capplets/appearance/appearance-desktop.c:630
 msgid "Add Wallpaper"
 msgstr "વોલપેપર ઉમેરો"
 
-#: ../capplets/appearance/appearance-desktop.c:662
+#: ../capplets/appearance/appearance-desktop.c:665
 msgid "All files"
 msgstr "બધી ફાઈલો"
 
@@ -890,6 +895,12 @@ msgid "Use selected font"
 msgstr "પસંદ કરેલ ફોન્ટ વાપરો"
 
 #: ../capplets/appearance/appearance-main.c:56
+#: ../capplets/appearance/cc-appearance-panel.c:89
+#: ../capplets/display/cc-display-minimal-page.c:632
+#: ../capplets/keyboard/cc-keyboard-page.c:129
+#: ../capplets/keyboard/cc-layout-page.c:101
+#: ../capplets/keyboard/cc-shortcuts-page.c:1844
+#: ../capplets/power/cc-power-panel.c:374
 #, c-format
 msgid "Could not load user interface file: %s"
 msgstr "વપરાશકર્તા ઇન્ટરફેસ ફાઇલ ને લોડ કરી શકાયુ નહિં: %s"
@@ -909,7 +920,7 @@ msgstr "બતાવવા માટેના પાનાંનુ નામ �
 
 #: ../capplets/appearance/appearance-main.c:144
 #: ../capplets/default-applications/gnome-da-capplet.c:960
-#: ../capplets/mouse/gnome-mouse-properties.c:591
+#: ../capplets/mouse/gnome-mouse-properties.c:614
 msgid "page"
 msgstr "પાનું"
 
@@ -934,7 +945,8 @@ msgstr "સ્થાપન કરો"
 msgid ""
 "This theme will not look as intended because the required GTK+ theme engine "
 "'%s' is not installed."
-msgstr "આ થીમ નિયત રીતે જોવાશે નહિં કારણ કે જરૂરી GTK+ થીમ એંજિન '%s' સ્થાપિત થયેલ નથી."
+msgstr ""
+"આ થીમ નિયત રીતે જોવાશે નહિં કારણ કે જરૂરી GTK+ થીમ એંજિન '%s' સ્થાપિત થયેલ નથી."
 
 #: ../capplets/appearance/appearance-themes.c:673
 msgid "Apply Background"
@@ -960,7 +972,8 @@ msgstr ""
 msgid ""
 "The current theme suggests a background. Also, the last applied font "
 "suggestion can be reverted."
-msgstr "વર્તમાન થીમ પાશ્વ ભાગનું સૂચન કરે છે. પણ, છેલ્લે લાગુ પડેલ ફોન્ટ સૂચન પાછા મેળવી શકાય છે."
+msgstr ""
+"વર્તમાન થીમ પાશ્વ ભાગનું સૂચન કરે છે. પણ, છેલ્લે લાગુ પડેલ ફોન્ટ સૂચન પાછા મેળવી શકાય છે."
 
 #: ../capplets/appearance/appearance-themes.c:716
 msgid "The current theme suggests a background and a font."
@@ -1023,7 +1036,6 @@ msgstr "વૈવિધ્યપૂર્ણ બનાવો (_u)..."
 
 #: ../capplets/appearance/data/appearance.ui.h:7
 #, fuzzy
-#| msgid "Centered"
 msgid "Center"
 msgstr "કેન્દ્રિત"
 
@@ -1135,7 +1147,6 @@ msgstr "પાશ્વ ભાગ ચિત્ર સંગ્રહો (_b)"
 
 #: ../capplets/appearance/data/appearance.ui.h:33
 #, fuzzy
-#| msgid "Scaled"
 msgid "Scale"
 msgstr "માપ થયેલ"
 
@@ -1153,175 +1164,171 @@ msgid "Solid color"
 msgstr "ઘટ્ટ રંગ"
 
 #: ../capplets/appearance/data/appearance.ui.h:37
-msgid "Span"
-msgstr ""
-
-#: ../capplets/appearance/data/appearance.ui.h:38
 #, fuzzy
-#| msgid "Search"
 msgid "Stretch"
 msgstr "શોધો"
 
-#: ../capplets/appearance/data/appearance.ui.h:39
+#: ../capplets/appearance/data/appearance.ui.h:38
 msgid "Sub_pixel (LCDs)"
 msgstr "ઉપપિક્સેલ (LCDs) (_p)"
 
-#: ../capplets/appearance/data/appearance.ui.h:40
+#: ../capplets/appearance/data/appearance.ui.h:39
 msgid "Sub_pixel smoothing (LCDs)"
 msgstr "ઉપપિક્સેલ લીસા બનાવો (LCDs) (_p)"
 
-#: ../capplets/appearance/data/appearance.ui.h:41
+#: ../capplets/appearance/data/appearance.ui.h:40
 msgid "Subpixel Order"
 msgstr "ઉપપિક્સેલ ક્રમ"
 
-#: ../capplets/appearance/data/appearance.ui.h:42
+#: ../capplets/appearance/data/appearance.ui.h:41
 msgid "Text"
 msgstr "લખાણ"
 
-#: ../capplets/appearance/data/appearance.ui.h:43
+#: ../capplets/appearance/data/appearance.ui.h:42
 msgid "Text below items"
 msgstr "વસ્તુઓ હેઠળ લખાણ"
 
-#: ../capplets/appearance/data/appearance.ui.h:44
+#: ../capplets/appearance/data/appearance.ui.h:43
 msgid "Text beside items"
 msgstr "વસ્તુઓ ની નજીક લખાણ"
 
-#: ../capplets/appearance/data/appearance.ui.h:45
+#: ../capplets/appearance/data/appearance.ui.h:44
 msgid "Text only"
 msgstr "લખાણ ફક્ત"
 
-#: ../capplets/appearance/data/appearance.ui.h:46
+#: ../capplets/appearance/data/appearance.ui.h:45
 msgid "The current controls theme does not support color schemes."
 msgstr "વર્તમાન નિયંત્રણો થીમ રંગ પદ્ધતિઓને આધાર આપતી નથી."
 
-#: ../capplets/appearance/data/appearance.ui.h:47
+#: ../capplets/appearance/data/appearance.ui.h:46
 msgid "Theme"
 msgstr "થીમ"
 
-#: ../capplets/appearance/data/appearance.ui.h:48
+#: ../capplets/appearance/data/appearance.ui.h:47
 #, fuzzy
-#| msgid "Tiled"
 msgid "Tile"
 msgstr "લાદી"
 
 #. vertical hinting, pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:50
+#: ../capplets/appearance/data/appearance.ui.h:49
 msgid "VB_GR"
 msgstr "VBGR (_G)"
 
-#: ../capplets/appearance/data/appearance.ui.h:51
+#: ../capplets/appearance/data/appearance.ui.h:50
 msgid "Vertical gradient"
 msgstr "ઊભો ઢાળ"
 
-#: ../capplets/appearance/data/appearance.ui.h:52
+#: ../capplets/appearance/data/appearance.ui.h:51
 msgid "Window Border"
 msgstr "વિન્ડોની કિનારી"
 
-#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/appearance/data/appearance.ui.h:52
 msgid "Zoom"
 msgstr "નાનુ મોટુ કરો"
 
-#: ../capplets/appearance/data/appearance.ui.h:54
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
+#: ../capplets/appearance/data/appearance.ui.h:53
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
 msgid "_Add..."
 msgstr "ઉમેરો (_A)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:55
+#: ../capplets/appearance/data/appearance.ui.h:54
 msgid "_Application font:"
 msgstr "કાર્યક્રમ ફોન્ટ (_A):"
 
 #. pixel order blue, green, red
-#: ../capplets/appearance/data/appearance.ui.h:57
+#: ../capplets/appearance/data/appearance.ui.h:56
 msgid "_BGR"
 msgstr "BGR (_B)"
 
-#: ../capplets/appearance/data/appearance.ui.h:58
+#: ../capplets/appearance/data/appearance.ui.h:57
 msgid "_Description:"
 msgstr "વર્ણન (_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:59
+#: ../capplets/appearance/data/appearance.ui.h:58
 msgid "_Document font:"
 msgstr "દસ્તાવેજ ફોન્ટ (_D):"
 
-#: ../capplets/appearance/data/appearance.ui.h:60
+#: ../capplets/appearance/data/appearance.ui.h:59
 msgid "_Fixed width font:"
 msgstr "નિયત પહોળાઈ ફોન્ટ (_F):"
 
-#: ../capplets/appearance/data/appearance.ui.h:61
+#: ../capplets/appearance/data/appearance.ui.h:60
 msgid "_Full"
 msgstr "પૂર્ણ (_F)"
 
-#: ../capplets/appearance/data/appearance.ui.h:62
+#: ../capplets/appearance/data/appearance.ui.h:61
 msgid "_Input boxes:"
 msgstr "ઈનપુટ બોક્સ (_I):"
 
-#: ../capplets/appearance/data/appearance.ui.h:63
+#: ../capplets/appearance/data/appearance.ui.h:62
 msgid "_Install..."
 msgstr "સ્થાપન કરો (_I)..."
 
-#: ../capplets/appearance/data/appearance.ui.h:64
+#: ../capplets/appearance/data/appearance.ui.h:63
 msgid "_Medium"
 msgstr "સાધારણ (_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:65
+#: ../capplets/appearance/data/appearance.ui.h:64
 msgid "_Monochrome"
 msgstr "મોનોક્રોમ (_M)"
 
-#: ../capplets/appearance/data/appearance.ui.h:66
+#: ../capplets/appearance/data/appearance.ui.h:65
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
 msgid "_Name:"
 msgstr "નામ (_N):"
 
-#: ../capplets/appearance/data/appearance.ui.h:67
+#: ../capplets/appearance/data/appearance.ui.h:66
 msgid "_None"
 msgstr "કંઈ જ નહિં (_N)"
 
 #. pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:69
+#: ../capplets/appearance/data/appearance.ui.h:68
 msgid "_RGB"
 msgstr "RGB (_R)"
 
-#: ../capplets/appearance/data/appearance.ui.h:70
+#: ../capplets/appearance/data/appearance.ui.h:69
 msgid "_Reset to Defaults"
 msgstr "મૂળભૂતોમાં પુનઃસુયોજિત કરો (_R)"
 
-#: ../capplets/appearance/data/appearance.ui.h:71
+#: ../capplets/appearance/data/appearance.ui.h:70
 msgid "_Selected items:"
 msgstr "પસંદિત વસ્તુઓ (_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:72
+#: ../capplets/appearance/data/appearance.ui.h:71
 msgid "_Size:"
 msgstr "માપ (_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:73
+#: ../capplets/appearance/data/appearance.ui.h:72
 msgid "_Slight"
 msgstr "થોડું જ (_S)"
 
-#: ../capplets/appearance/data/appearance.ui.h:74
+#: ../capplets/appearance/data/appearance.ui.h:73
 msgid "_Style:"
 msgstr "શૈલી (_S):"
 
-#: ../capplets/appearance/data/appearance.ui.h:75
+#: ../capplets/appearance/data/appearance.ui.h:74
 msgid "_Tooltips:"
 msgstr "સાધનમદદો (_T):"
 
 #. vertical hinting, pixel order red, green, blue
-#: ../capplets/appearance/data/appearance.ui.h:77
+#: ../capplets/appearance/data/appearance.ui.h:76
 msgid "_VRGB"
 msgstr "VRGB (_V)"
 
-#: ../capplets/appearance/data/appearance.ui.h:78
+#: ../capplets/appearance/data/appearance.ui.h:77
 msgid "_Window title font:"
 msgstr "વિન્ડો શીર્ષકના ફોન્ટ (_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:79
+#: ../capplets/appearance/data/appearance.ui.h:78
 msgid "_Windows:"
 msgstr "વિન્ડો (_W):"
 
-#: ../capplets/appearance/data/appearance.ui.h:80
+#: ../capplets/appearance/data/appearance.ui.h:79
 msgid "dots per inch"
 msgstr "રીઝોલ્યુશન (બિંદુ પ્રતિ ઈંચ) (_d)"
 
+#: ../capplets/appearance/cc-appearance-panel.c:129
 #: ../capplets/appearance/data/gnome-appearance-properties.desktop.in.in.h:1
 msgid "Appearance"
 msgstr "દેખાવ"
@@ -1346,27 +1353,26 @@ msgstr "જીનોમ થીમ પેકેજ"
 msgid "No Desktop Background"
 msgstr "ડેસ્કટોપ પાશ્વ ભાગ નથી"
 
-#: ../capplets/appearance/gnome-wp-item.c:261
+#: ../capplets/appearance/gnome-wp-item.c:264
 msgid "Slide Show"
 msgstr "સ્લાઇડ બતાવો"
 
-#: ../capplets/appearance/gnome-wp-item.c:263
+#: ../capplets/appearance/gnome-wp-item.c:266
 msgid "Image"
 msgstr "ચિત્ર"
 
-#: ../capplets/appearance/gnome-wp-item.c:269
+#: ../capplets/appearance/gnome-wp-item.c:272
 msgid "multiple sizes"
 msgstr "ઘણાબધા માપો"
 
 #. translators: x pixel(s) by y pixel(s)
-#: ../capplets/appearance/gnome-wp-item.c:272
+#: ../capplets/appearance/gnome-wp-item.c:275
 #, fuzzy, c-format
-#| msgid "%b %d %Y"
 msgid "%d %s by %d %s"
 msgstr "%b %d %Y"
 
-#: ../capplets/appearance/gnome-wp-item.c:274
-#: ../capplets/appearance/gnome-wp-item.c:276
+#: ../capplets/appearance/gnome-wp-item.c:277
+#: ../capplets/appearance/gnome-wp-item.c:279
 msgid "pixel"
 msgid_plural "pixels"
 msgstr[0] "પિક્સેલ"
@@ -1376,7 +1382,7 @@ msgstr[1] "પિક્સેલો"
 #. * mime type, size
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:284
+#: ../capplets/appearance/gnome-wp-item.c:287
 #, c-format
 msgid ""
 "<b>%s</b>\n"
@@ -1391,12 +1397,8 @@ msgstr ""
 #. * Image missing
 #. * Folder: /path/to/file
 #.
-#: ../capplets/appearance/gnome-wp-item.c:296
+#: ../capplets/appearance/gnome-wp-item.c:299
 #, fuzzy, c-format
-#| msgid ""
-#| "<b>%s</b>\n"
-#| "%s, %s\n"
-#| "Folder: %s"
 msgid ""
 "<b>%s</b>\n"
 "%s\n"
@@ -1406,9 +1408,8 @@ msgstr ""
 "%s, %s\n"
 "ફોલ્ડર: %s"
 
-#: ../capplets/appearance/gnome-wp-item.c:300
+#: ../capplets/appearance/gnome-wp-item.c:303
 #, fuzzy
-#| msgid "Images"
 msgid "Image missing"
 msgstr "ચિત્રો"
 
@@ -1539,7 +1540,7 @@ msgstr ""
 "સમસ્યા હશે, અથવા GNOME વગરનું (દા.ત. KDE) સુયોજનો વ્યવસ્થાપક પહેલેથી જ કાર્યરત હશે અને "
 "GNOME સુયોજનો વ્યવસ્થાપક સાથે મતભેદ થાય."
 
-#: ../capplets/common/capplet-stock-icons.c:66
+#: ../capplets/common/capplet-stock-icons.c:67
 #, c-format
 msgid "Unable to load stock icon '%s'\n"
 msgstr "સ્ટોક ચિહ્ન '%s' લાવવામાં અસમર્થ\n"
@@ -1625,71 +1626,75 @@ msgstr "છોડી દો (_S)"
 msgid "Overwrite _All"
 msgstr "બધા પર ફરીથી લખો (_A)"
 
-#: ../capplets/common/gconf-property-editor.c:134
+#: ../capplets/common/gconf-property-editor.c:136
 msgid "Key"
 msgstr "કી"
 
-#: ../capplets/common/gconf-property-editor.c:135
+#: ../capplets/common/gconf-property-editor.c:137
 msgid "GConf key to which this property editor is attached"
 msgstr "જીકોન્ફ કી કે જેની સાથે આ ગુણધર્મ સંપાદક સંકળાયેલ છે"
 
-#: ../capplets/common/gconf-property-editor.c:141
+#: ../capplets/common/gconf-property-editor.c:143
 msgid "Callback"
 msgstr "કોલબેક"
 
-#: ../capplets/common/gconf-property-editor.c:142
+#: ../capplets/common/gconf-property-editor.c:144
 msgid "Issue this callback when the value associated with key gets changed"
 msgstr "જ્યારે આ કીને સંબંધિત કિંમત બદલાય ત્યારે કોલબેક ચાલુ કરો"
 
-#: ../capplets/common/gconf-property-editor.c:147
+#: ../capplets/common/gconf-property-editor.c:149
 msgid "Change set"
 msgstr "બદલનાર સમૂહ"
 
-#: ../capplets/common/gconf-property-editor.c:148
-msgid "GConf change set containing data to be forwarded to the gconf client on apply"
-msgstr "જીકોન્ફ બદલનાર સમૂહ પાસે માહિતી હોય છે જે અમલમાં મૂકતાં જીકોન્ફ ક્લાયન્ટને મોકલાય છે"
+#: ../capplets/common/gconf-property-editor.c:150
+msgid ""
+"GConf change set containing data to be forwarded to the gconf client on apply"
+msgstr ""
+"જીકોન્ફ બદલનાર સમૂહ પાસે માહિતી હોય છે જે અમલમાં મૂકતાં જીકોન્ફ ક્લાયન્ટને મોકલાય છે"
 
-#: ../capplets/common/gconf-property-editor.c:153
+#: ../capplets/common/gconf-property-editor.c:155
 msgid "Conversion to widget callback"
 msgstr "વિજેટ કોલબેકમાં ફેરવો"
 
-#: ../capplets/common/gconf-property-editor.c:154
-msgid "Callback to be issued when data are to be converted from GConf to the widget"
+#: ../capplets/common/gconf-property-editor.c:156
+msgid ""
+"Callback to be issued when data are to be converted from GConf to the widget"
 msgstr "જ્યારે માહિતી જીકોન્ફમાંથી વિજેટમાં ફેરવાય છે ત્યારે કોલબેક અપાય છે"
 
-#: ../capplets/common/gconf-property-editor.c:159
+#: ../capplets/common/gconf-property-editor.c:161
 msgid "Conversion from widget callback"
 msgstr "વિજેટ કોલબેકમાંથી ફેરવો"
 
-#: ../capplets/common/gconf-property-editor.c:160
-msgid "Callback to be issued when data are to be converted to GConf from the widget"
+#: ../capplets/common/gconf-property-editor.c:162
+msgid ""
+"Callback to be issued when data are to be converted to GConf from the widget"
 msgstr "જ્યારે માહિતી વિજેટમાંથી જીકોન્ફમાં ફેરવાય છે ત્યારે કોલબેક અપાય છે"
 
-#: ../capplets/common/gconf-property-editor.c:165
+#: ../capplets/common/gconf-property-editor.c:167
 msgid "UI Control"
 msgstr "UI નિયંત્રણ"
 
-#: ../capplets/common/gconf-property-editor.c:166
+#: ../capplets/common/gconf-property-editor.c:168
 msgid "Object that controls the property (normally a widget)"
 msgstr "ઓબ્જેક્ટ કે જે ગુણધર્મનું નિયંત્રણ કરે છે (સામાન્ય રીતે વિજેટ)"
 
-#: ../capplets/common/gconf-property-editor.c:181
+#: ../capplets/common/gconf-property-editor.c:183
 msgid "Property editor object data"
 msgstr "ઓબ્જેક્ટની માહિતીનો ગુણધર્મ સંપાદક"
 
-#: ../capplets/common/gconf-property-editor.c:182
+#: ../capplets/common/gconf-property-editor.c:184
 msgid "Custom data required by the specific property editor"
 msgstr "વિશિષ્ટ ગુણધર્મ સંપાદકને કસ્ટમ માહિતી જોઈએ છે"
 
-#: ../capplets/common/gconf-property-editor.c:188
+#: ../capplets/common/gconf-property-editor.c:190
 msgid "Property editor data freeing callback"
 msgstr "ગુણધર્મ સંપાદક માહિતી મુક્ત કરે છે કોલબેક"
 
-#: ../capplets/common/gconf-property-editor.c:189
+#: ../capplets/common/gconf-property-editor.c:191
 msgid "Callback to be issued when property editor object data is to be freed"
 msgstr "ગુણધર્મ સંપાદક ઓબ્જેક્ટની માહિતી જ્યારે મુક્ત થાય ત્યારે કોલબેક અપાય છે"
 
-#: ../capplets/common/gconf-property-editor.c:1405
+#: ../capplets/common/gconf-property-editor.c:1407
 #, c-format
 msgid ""
 "Couldn't find the file '%s'.\n"
@@ -1701,7 +1706,7 @@ msgstr ""
 "મહેરબાની કરી ખાતરી કરો કે તે અસ્તિત્વમાં છે કે તે  ચકાસો, \n"
 "અથવા અલગ જ પાશ્વ ભાગનું ચિત્ર પસંદ કરો."
 
-#: ../capplets/common/gconf-property-editor.c:1413
+#: ../capplets/common/gconf-property-editor.c:1415
 #, c-format
 msgid ""
 "I don't know how to open the file '%s'.\n"
@@ -1714,11 +1719,11 @@ msgstr ""
 "\n"
 "મહેરબાની કરીને એના બદલામાં બીજુ ચિત્ર પસંદ કરો."
 
-#: ../capplets/common/gconf-property-editor.c:1533
+#: ../capplets/common/gconf-property-editor.c:1535
 msgid "Please select an image."
 msgstr "મહેરબાની કરીને ચિત્ર પસંદ કરો."
 
-#: ../capplets/common/gconf-property-editor.c:1538
+#: ../capplets/common/gconf-property-editor.c:1540
 msgid "_Select"
 msgstr "પસંદ કરો (_S)"
 
@@ -1762,7 +1767,8 @@ msgstr "આ થીમ નિયત રીતે જોવાશે નહિં 
 msgid ""
 "This theme will not look as intended because the required window manager "
 "theme '%s' is not installed."
-msgstr "આ થીમ નિયત રીતે જોવાશે નહિં કારણ કે જરૂરી વિન્ડો વ્યવસ્થાપક થીમ '%s' સ્થાપિત થયેલ નથી."
+msgstr ""
+"આ થીમ નિયત રીતે જોવાશે નહિં કારણ કે જરૂરી વિન્ડો વ્યવસ્થાપક થીમ '%s' સ્થાપિત થયેલ નથી."
 
 #: ../capplets/common/gnome-theme-info.c:1637
 #, c-format
@@ -1828,6 +1834,7 @@ msgstr "બધા %s વારાઓ વાસ્તવિક કડીથી �
 #.
 #: ../capplets/default-applications/gnome-default-applications-properties.ui.h:4
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:1
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
 msgid "C_ommand:"
 msgstr "આદેશ (_o):"
 
@@ -2123,6 +2130,49 @@ msgstr "Totem મુવી પ્લેયર"
 msgid "aterm"
 msgstr "aterm"
 
+#: ../capplets/display/cc-display-minimal-page.c:331
+#: ../capplets/display/xrandr-capplet.c:2061
+msgid "Could not save the monitor configuration"
+msgstr "મોનિટર રૂપરેખાંકનને સંગ્રહ કરી શકાયુ નહિં"
+
+#: ../capplets/display/cc-display-minimal-page.c:344
+#: ../capplets/display/xrandr-capplet.c:2072
+msgid "Could not get session bus while applying display configuration"
+msgstr "જ્યારે રૂપરેખાંકનને દર્શાવવાનું અમલમાં કરી રહ્યા હોય ત્યારે સત્ર બસ ને મેળવી શકાયુ નહિં"
+
+#: ../capplets/display/cc-display-minimal-page.c:479
+#: ../capplets/display/cc-display-minimal-page.c:489
+msgid ""
+"You are only showing your desktop on your computer's screen. Plug in another "
+"display to share your view and then turn display sharing on above."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:499
+msgid "You are showing your desktop on an external monitor or projector."
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:676
+#: ../capplets/display/display-minimal.ui.h:1
+msgid "Displays and projectors"
+msgstr ""
+
+#: ../capplets/display/cc-display-minimal-page.c:696
+#: ../capplets/display/xrandr-capplet.c:2329
+msgid "Could not get screen information"
+msgstr "સ્ક્રીન જાણકારી ને મેળવી શકાયુ નહિં"
+
+#: ../capplets/display/cc-display-panel.c:121
+msgid "Display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:2
+msgid "External display"
+msgstr ""
+
+#: ../capplets/display/display-minimal.ui.h:3
+msgid "External display resolution"
+msgstr ""
+
 #: ../capplets/display/display-capplet.ui.h:1
 msgid "Include _panel"
 msgstr "પેનલને સમાવો (_P)"
@@ -2139,7 +2189,6 @@ msgstr "મોનિટર"
 
 #: ../capplets/display/display-capplet.ui.h:4
 #, fuzzy
-#| msgid "Mouse Preferences"
 msgid "Monitor Preferences"
 msgstr "માઉસની પસંદગીઓ"
 
@@ -2184,7 +2233,6 @@ msgstr "અસ્તવ્યસ્ત"
 
 #: ../capplets/display/display-capplet.ui.h:14
 #, fuzzy
-#| msgid "_Detect Monitors"
 msgid "_Detect monitors"
 msgstr "મોનિટરો ને શોધો (_D)"
 
@@ -2194,7 +2242,6 @@ msgstr "રીઝોલ્યુશન (_R):"
 
 #: ../capplets/display/display-capplet.ui.h:16
 #, fuzzy
-#| msgid "_Show displays in panel"
 msgid "_Show monitors in panel"
 msgstr "પેનલમાં દર્શાવોને બતાવો (_S)"
 
@@ -2204,7 +2251,6 @@ msgstr ""
 
 #: ../capplets/display/display-properties.desktop.in.in.h:2
 #, fuzzy
-#| msgid "Monitor"
 msgid "Monitors"
 msgstr "મોનિટર"
 
@@ -2243,60 +2289,59 @@ msgid ""
 "placement."
 msgstr ""
 
-#: ../capplets/display/xrandr-capplet.c:2061
-msgid "Could not save the monitor configuration"
-msgstr "મોનિટર રૂપરેખાંકનને સંગ્રહ કરી શકાયુ નહિં"
-
-#: ../capplets/display/xrandr-capplet.c:2072
-msgid "Could not get session bus while applying display configuration"
-msgstr "જ્યારે રૂપરેખાંકનને દર્શાવવાનું અમલમાં કરી રહ્યા હોય ત્યારે સત્ર બસ ને મેળવી શકાયુ નહિં"
-
 #: ../capplets/display/xrandr-capplet.c:2114
 msgid "Could not detect displays"
 msgstr "દર્શાવોને શોધી શકાયુ નહિં"
-
-#: ../capplets/display/xrandr-capplet.c:2329
-msgid "Could not get screen information"
-msgstr "સ્ક્રીન જાણકારી ને મેળવી શકાયુ નહિં"
 
 # #-#-#-#-#  gnome-icon-theme.gnome-2-2.hi.po (gnome-icon theme 2.2)  #-#-#-#-#
 # 48x48/emblems/emblem-sound.icon.in.h:1
 # 48x48/emblems/emblem-sound.icon.in.h:1
 #: ../capplets/keybindings/00-multimedia-key.xml.in.h:1
+#: ../capplets/keyboard/00-multimedia-key.xml.in.h:1
 msgid "Sound"
 msgstr "ધ્વનિ"
 
 # #-#-#-#-#  gnome-panel.gnome-2-2.hi.po (gnome-panel 2.2)  #-#-#-#-#
 # gnome-session/splash.c:72
 #: ../capplets/keybindings/01-desktop-key.xml.in.h:1
+#: ../capplets/keyboard/01-desktop-key.xml.in.h:1
 #: ../libslab/bookmark-agent.c:1146
 msgid "Desktop"
 msgstr "ડેસ્કટોપ"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:21
+#: ../capplets/keyboard/eggcellrendererkeys.c:21
 msgid "New shortcut..."
 msgstr "નવાં ટુંકાણો..."
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:163
 #: ../capplets/keybindings/eggcellrendererkeys.c:164
+#: ../capplets/keyboard/eggcellrendererkeys.c:163
+#: ../capplets/keyboard/eggcellrendererkeys.c:164
 msgid "Accelerator key"
 msgstr "પ્રવેગક કી"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:173
 #: ../capplets/keybindings/eggcellrendererkeys.c:174
+#: ../capplets/keyboard/eggcellrendererkeys.c:173
+#: ../capplets/keyboard/eggcellrendererkeys.c:174
 msgid "Accelerator modifiers"
 msgstr "પ્રવેગ બદલનાર"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:182
 #: ../capplets/keybindings/eggcellrendererkeys.c:183
+#: ../capplets/keyboard/eggcellrendererkeys.c:182
+#: ../capplets/keyboard/eggcellrendererkeys.c:183
 msgid "Accelerator keycode"
 msgstr "પ્રવેગક કી કોડ"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:193
+#: ../capplets/keyboard/eggcellrendererkeys.c:193
 msgid "Accel Mode"
 msgstr "એક્સેલ સ્થિતિ"
 
 #: ../capplets/keybindings/eggcellrendererkeys.c:194
+#: ../capplets/keyboard/eggcellrendererkeys.c:194
 msgid "The type of accelerator."
 msgstr "પ્રવેગનો પ્રકાર."
 
@@ -2304,24 +2349,31 @@ msgstr "પ્રવેગનો પ્રકાર."
 # gtk/gtkinputdialog.c:238
 #: ../capplets/keybindings/eggcellrendererkeys.c:242
 #: ../capplets/keybindings/gnome-keybinding-properties.c:119
+#: ../capplets/keyboard/cc-shortcuts-page.c:133
+#: ../capplets/keyboard/eggcellrendererkeys.c:242
 #: ../typing-break/drwright.c:431
 msgid "Disabled"
 msgstr "નિષ્ક્રિય"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:200
+#: ../capplets/keyboard/cc-shortcuts-page.c:213
 msgid "<Unknown Action>"
 msgstr "&lt;Unknown Action&gt;"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:950
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1581
+#: ../capplets/keyboard/cc-shortcuts-page.c:953
+#: ../capplets/keyboard/cc-shortcuts-page.c:1588
 msgid "Custom Shortcuts"
 msgstr "વૈવિધ્યપૂર્ણ ટુંકાણો"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1092
+#: ../capplets/keyboard/cc-shortcuts-page.c:1093
 msgid "Error saving the new shortcut"
 msgstr "નવા ટુંકાણોનો સંગ્રહ કરવા દરમિયાન ભૂલ"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1171
+#: ../capplets/keyboard/cc-shortcuts-page.c:1172
 #, c-format
 msgid ""
 "The shortcut \"%s\" cannot be used because it will become impossible to type "
@@ -2332,6 +2384,7 @@ msgstr ""
 "Control, Alt અથવા Shift જેવી કીને એક જ સમયે વાપરવાનો પ્રયાસ કરી જુઓ."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1201
+#: ../capplets/keyboard/cc-shortcuts-page.c:1201
 #, c-format
 msgid ""
 "The shortcut \"%s\" is already used for\n"
@@ -2341,43 +2394,53 @@ msgstr ""
 "છે"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1207
+#: ../capplets/keyboard/cc-shortcuts-page.c:1208
 #, c-format
-msgid "If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
+msgid ""
+"If you reassign the shortcut to \"%s\", the \"%s\" shortcut will be disabled."
 msgstr "જો \"%s\" ને ટુંકાણોમાં ફરીથી નિશ્ચત કરો તો, \"%s\" ટુંકાણો નિષ્ક્રિય થયેલ હશે."
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1215
+#: ../capplets/keyboard/cc-shortcuts-page.c:1216
 msgid "_Reassign"
 msgstr "પુન:નિશ્ચત કરો (_R)"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1335
+#: ../capplets/keyboard/cc-shortcuts-page.c:1329
 #, c-format
 msgid "Error unsetting accelerator in configuration database: %s"
 msgstr "ંકન ડેટાબેઝમાં પ્રવેગક સુયોજીત ન કરવા દરમિયાન ભૂલ :%s"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1536
+#: ../capplets/keyboard/cc-shortcuts-page.c:1544
 msgid "Too many custom shortcuts"
 msgstr "ઘણાબધા વૈવિધ્યપૂર્ણ ટુંકાણો"
 
 # #-#-#-#-#  gnome-session.gnome-2-2.hi.po (gnome-session VERSION)  #-#-#-#-#
 # gnome-session/logout.c:266
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1832
+#: ../capplets/keyboard/cc-shortcuts-page.c:1882
 msgid "Action"
 msgstr "ક્રિયા"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.c:1854
+#: ../capplets/keyboard/cc-shortcuts-page.c:1910
 msgid "Shortcut"
 msgstr "ટુંકાણ"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:2
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
 msgid "Custom Shortcut"
 msgstr "વૈવિધ્યપૂર્ણ ટુંકાણો"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:3
 #: ../capplets/keybindings/keybinding.desktop.in.in.h:2
+#: ../capplets/keyboard/cc-shortcuts-page.c:1989
 msgid "Keyboard Shortcuts"
 msgstr "કીબોર્ડ ટૂંકાણો"
 
 #: ../capplets/keybindings/gnome-keybinding-properties.ui.h:4
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
 msgid ""
 "To edit a shortcut key, click on the corresponding row and type a new key "
 "combination, or press backspace to clear."
@@ -2389,20 +2452,33 @@ msgstr ""
 msgid "Assign shortcut keys to commands"
 msgstr "આદેશો માટે ટુંકાણ કી સુયોજીત કરો"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:205
-#: ../capplets/keyboard/gnome-keyboard-properties.c:210
-msgid "Just apply settings and quit (compatibility only; now handled by daemon)"
-msgstr "સુયોજનાઓ અમલમાં મૂકો અને બહાર નીકળો (સુગમતા ખાતર; હમણા ડીમન દ્વારા નિયંત્રિત થાય છે)"
+#: ../capplets/keyboard/cc-keyboard-page.c:203
+#: ../capplets/keyboard/cc-keyboard-panel.c:181
+#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
+msgid "Keyboard"
+msgstr "કીબોર્ડ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:215
+#: ../capplets/keyboard/cc-layout-page.c:131
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+msgid "Layouts"
+msgstr "દેખાવો"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:206
+#: ../capplets/keyboard/gnome-keyboard-properties.c:211
+msgid ""
+"Just apply settings and quit (compatibility only; now handled by daemon)"
+msgstr ""
+"સુયોજનાઓ અમલમાં મૂકો અને બહાર નીકળો (સુગમતા ખાતર; હમણા ડીમન દ્વારા નિયંત્રિત થાય છે)"
+
+#: ../capplets/keyboard/gnome-keyboard-properties.c:216
 msgid "Start the page with the typing break settings showing"
 msgstr "લખવાની બ્રેક સુયોજના બતાવતા પાના સાથે શરુ કરો"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:220
+#: ../capplets/keyboard/gnome-keyboard-properties.c:221
 msgid "Start the page with the accessibility settings showing"
 msgstr "સુલભ સુયોજના બતાવતા પાના સાથે શરુ કરો"
 
-#: ../capplets/keyboard/gnome-keyboard-properties.c:226
+#: ../capplets/keyboard/gnome-keyboard-properties.c:227
 msgid "- GNOME Keyboard Preferences"
 msgstr "- જીનોમ કીબોર્ડ પસંદગીઓ"
 
@@ -2448,7 +2524,7 @@ msgid "Flash entire _screen"
 msgstr "આખી સ્ક્રીન ઝબકાવો (_s)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:11
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:15
 msgid "General"
 msgstr "સામાન્ય"
@@ -2462,12 +2538,12 @@ msgid "Show _visual feedback for the alert sound"
 msgstr "ચેતવણી ધ્વનિ માટે દેખીતો અભિપ્રાય બતાવો (_v)"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:14
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
 msgid "Slow Keys"
 msgstr "ધીમી કીઓ"
 
 #: ../capplets/keyboard/gnome-keyboard-properties-a11y-notifications.ui.h:15
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
 msgid "Sticky Keys"
 msgstr "સ્ટીકી કીઓ"
 
@@ -2483,183 +2559,177 @@ msgstr "અટકણોને મુલતવી રાખવાની પરવ
 msgid "Audio _Feedback..."
 msgstr "ઓડિયો ફીડબેક (_F)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:5
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
 msgid "Check if breaks are allowed to be postponed"
 msgstr "તપાસો કે બ્રેકોને મુલતવી રહેવાની પરવાનગી છે કે નહિં"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:6
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
 msgid "Cursor Blinking"
 msgstr "કર્સર ઝબૂકે છે"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:7
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
 msgid "Cursor _blinks in text fields"
 msgstr "કર્સર લખાણ ક્ષેત્રોમાં ઝબૂકે છે (_b)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:8
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:4
 msgid "Cursor blinks speed"
 msgstr "કર્સર ઝબૂકવાની ઝડપ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:9
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:5
 msgid "D_elay:"
 msgstr "વિલંબ (_e):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:10
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
 msgid "Disa_ble sticky keys if two keys are pressed together"
 msgstr "જો બે કી એકસાથે દબાવાય તો sticky કીઓ ને નિષ્ક્રિય કરો (_b)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:11
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
 msgid "Duration of the break when typing is disallowed"
 msgstr "જ્યારે લખવાની પરવાનગી ના હાેય ત્યારે બ્રેકને લાગતો સમય"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:12
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:14
 msgid "Duration of work before forcing a break"
 msgstr "અટકણો લગાવવા પહેલાં કામ કરતાં લાગતો સમય"
 
 # #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
 # libgnomeui/gnome-app-helper.c:166
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:13
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:14
 msgid "Fast"
 msgstr "ઝડપી"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:15
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
 msgid "Key presses _repeat when key is held down"
 msgstr "જ્યારે કી દબાવી રાખી હોય ત્યારે પુનરાવર્તિત કી દબાણ. (_r)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:16
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
 msgid "Keyboard Preferences"
 msgstr "કીબોર્ડની પસંદગીઓ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:17
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
 msgid "Keyboard _model:"
 msgstr "કીબોર્ડ મોડેલ (_m):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:18
-msgid "Layouts"
-msgstr "દેખાવો"
-
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:19
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
 msgid ""
 "Lock screen after a certain duration to help prevent repetitive keyboard use "
 "injuries"
 msgstr "કીબોર્ડના પુનરાવર્તનથી થતા નુકશાનથી બચવા માટે અમુક સમય પછી સ્ક્રીનને તાળુ લગાવો"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:20
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:19
 msgid "Long"
 msgstr "લાંબુ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:21
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
 msgid "Mouse Keys"
 msgstr "માઉસ કી"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:22
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
 msgid "Move _Down"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:23
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
 msgid "Move _Up"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:24
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
 msgid "New windows u_se active window's layout"
 msgstr ""
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:25
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
 msgid "Repeat Keys"
 msgstr "પુનરાવર્તિત કીઓ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:26
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
 msgid "Repeat keys speed"
 msgstr "પુનરાવર્તન કીઓની ઝડપ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:27
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
 msgid "Reset to De_faults"
 msgstr "મૂળભૂતોમાં પુનઃસુયોજિત કરો (_f)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:28
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
 msgid "S_peed:"
 msgstr "ઝડપ (_p):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:29
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:31
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:27
 msgid "Short"
 msgstr "ટુંકાણ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:30
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:32
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:30
 msgid "Slow"
 msgstr "ધીમુ"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:33
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:36
 msgid "Typing Break"
 msgstr "લખવાનો બ્રેક"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:34
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:37
 msgid "_Acceleration:"
 msgstr "પ્રવેગ (_A):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:35
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
 msgid "_Accessibility features can be toggled with keyboard shortcuts"
 msgstr "કિબોર્ડ ટુંકાણો સાથે સુલભ લક્ષણો ટોગલ થઇ શકે છે (_A)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:37
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
 msgid "_Break interval lasts:"
 msgstr "ચાલુ અટકણ સમયાંતરો (_B):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:38
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:38
 msgid "_Delay:"
 msgstr "વિલંબ (_D):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:39
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
 msgid "_Ignore fast duplicate keypresses"
 msgstr "આમાં ઝડપી નકલી કી દબાણ અવગણો (_I)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:40
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
 msgid "_Lock screen to enforce typing break"
 msgstr "લખાણ બ્રેક માટે સ્ક્રીનને તાળુ લગાવો (_L)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:41
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
 msgid "_Only accept long keypresses"
 msgstr "ફક્ત લાંબી કી દબાવવાનું સ્વીકારો (_O)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:42
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
 #, fuzzy
-#| msgid "Layout _Options..."
 msgid "_Options..."
 msgstr "દેખાવના વિકલ્પો (_O)..."
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:43
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
 msgid "_Pointer can be controlled using the keypad"
 msgstr "કીપેડની મદદથી પોઇંટર ને નિયંત્રીત કરી શકાય છે (_P)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:44
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
 #, fuzzy
-#| msgid "Separate _layout for each window"
 msgid "_Separate layout for each window"
 msgstr "દરેક વિન્ડો માટે લેઆઉટ અલગ કરો (_l)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:45
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
 msgid "_Simulate simultaneous keypresses"
 msgstr "એક સાથે કી દબાવવાનું દર્શાવો (_S)"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:46
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:50
 msgid "_Speed:"
 msgstr "ઝડપ (_S):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:47
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:51
 msgid "_Type to test settings:"
 msgstr "સુયોજના ચકાસણી માટેનાં પ્રકાર (_T):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:48
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:52
 msgid "_Work interval lasts:"
 msgstr "ચાલુ કાર્ય સમયાંતરો (_W):"
 
-#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:49
+#: ../capplets/keyboard/gnome-keyboard-properties-dialog.ui.h:53
 msgid "minutes"
 msgstr "મિનિટો"
 
@@ -2732,13 +2802,13 @@ msgstr "મોડેલો"
 msgid "Default"
 msgstr "મૂળભૂત"
 
-#: ../capplets/keyboard/keyboard.desktop.in.in.h:1
-msgid "Keyboard"
-msgstr "કીબોર્ડ"
-
 #: ../capplets/keyboard/keyboard.desktop.in.in.h:2
 msgid "Set your keyboard preferences"
 msgstr "તમારા કીબોર્ડની પસંદગીઓ ગોઠવો"
+
+#: ../capplets/mouse/cc-pointer-panel.c:102
+msgid "Pointing Devices"
+msgstr ""
 
 #. Translators: this is the gesture to trigger/choose the click type.
 #. Don't include the prefix "gesture|" in the translation.
@@ -2773,11 +2843,11 @@ msgid "gesture|Disabled"
 msgstr "નિષ્ક્રિય થયેલ"
 
 #. TRANSLATORS: don't translate the terms in brackets
-#: ../capplets/mouse/gnome-mouse-properties.c:590
+#: ../capplets/mouse/gnome-mouse-properties.c:613
 msgid "Specify the name of the page to show (general|accessibility)"
 msgstr "બતાવવા માટેના પાનાંનુ નામ સ્પષ્ટ કરો"
 
-#: ../capplets/mouse/gnome-mouse-properties.c:595
+#: ../capplets/mouse/gnome-mouse-properties.c:618
 msgid "- GNOME Mouse Preferences"
 msgstr "- જીનોમ માઉસ પસંદગીઓ"
 
@@ -2799,7 +2869,6 @@ msgstr "ક્લિકને ખેંચો (_r):"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:8
 #, fuzzy
-#| msgid "_Disable touchpad while typing"
 msgid "Disable _touchpad while typing"
 msgstr "જ્યારે ટાઇપ કરી રહ્યા હોય ત્યારે ટચપેડને નિષ્ક્રિય કરો (_D)"
 
@@ -2817,13 +2886,11 @@ msgstr "Dwell ક્લિક"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:12
 #, fuzzy
-#| msgid "Enable mouse _clicks with touchpad"
 msgid "Enable _mouse clicks with touchpad"
 msgstr "ટચપેડ સાથે માઉસ ક્લિકોને સક્રિય કરો (_c)"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:13
 #, fuzzy
-#| msgid "Enable _horizontal scrolling"
 msgid "Enable h_orizontal scrolling"
 msgstr "આડુ સ્ક્રોલીંગ ને સક્રિય કરો (_h)"
 
@@ -2876,7 +2943,8 @@ msgid "Thr_eshold:"
 msgstr "થ્રેશોલ્ડ (_e):"
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:33
-msgid "To test your double-click settings, try to double-click on the light bulb."
+msgid ""
+"To test your double-click settings, try to double-click on the light bulb."
 msgstr "તમારી ડબલ-ક્લિક સુયોજનોને ચકાસો, લાઇટ બલ્બ પર ડબલ-ક્લિક નો પ્રયત્ન કરો."
 
 #: ../capplets/mouse/gnome-mouse-properties.ui.h:34
@@ -2941,6 +3009,11 @@ msgstr "માઉસ"
 msgid "Set your mouse preferences"
 msgstr "તમારા માઉસની પસંદગીઓ ગોઠવો"
 
+#: ../capplets/network/cc-network-panel.c:109
+#, fuzzy
+msgid "Network"
+msgstr "નેટવર્ક પ્રોક્સી"
+
 #: ../capplets/network/gnome-network-properties.c:701
 #: ../capplets/network/gnome-network-properties.c:852
 msgid "New Location..."
@@ -2959,108 +3032,262 @@ msgid "Set your network proxy preferences"
 msgstr "તમારા નેટવર્ક પ્રોક્સીની પસંદગીઓ સુયોજિત કરો"
 
 #: ../capplets/network/gnome-network-properties.ui.h:1
-msgid "<b>Di_rect internet connection</b>"
-msgstr "<b>સીધું ઈન્ટરનેટ જોડાણ (_r)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:2
-msgid "<b>_Automatic proxy configuration</b>"
-msgstr "<b>સ્વયંસંચાલિત પ્રોક્સીની રૂપરેખા (_A)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:3
-msgid "<b>_Manual proxy configuration</b>"
-msgstr "<b>જાતે ગોઠવેલી પ્રોક્સીની રૂપરેખા (_M)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:4
-msgid "<b>_Use authentication</b>"
-msgstr "<b>સત્તાધીકરણ વાપરો (_U)</b>"
-
-#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "Autoconfiguration _URL:"
 msgstr "સ્વયંરૂપરેખાંકિત _URL:"
 
 # #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
 # libgnomeui/gnome-app-helper.c:166
-#: ../capplets/network/gnome-network-properties.ui.h:6
+#: ../capplets/network/gnome-network-properties.ui.h:2
 msgid "C_reate"
 msgstr "બનાવો (_r)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:7
+#: ../capplets/network/gnome-network-properties.ui.h:3
 msgid "Create New Location"
 msgstr "નવા સ્થાન ને બનાવો"
 
-#: ../capplets/network/gnome-network-properties.ui.h:8
+#: ../capplets/network/gnome-network-properties.ui.h:4
+#, fuzzy
+msgid "Di_rect internet connection"
+msgstr "<b>સીધું ઈન્ટરનેટ જોડાણ (_r)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:5
 msgid "HTTP Proxy Details"
 msgstr "HTTP પ્રોક્સીની વિગતો"
 
-#: ../capplets/network/gnome-network-properties.ui.h:9
+#: ../capplets/network/gnome-network-properties.ui.h:6
 msgid "H_TTP proxy:"
 msgstr "H_TTP પ્રોક્સી:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:10
+#: ../capplets/network/gnome-network-properties.ui.h:7
 msgid "Ignore Host List"
 msgstr "યજમાન યાદીને અવગણો"
 
-#: ../capplets/network/gnome-network-properties.ui.h:11
+#: ../capplets/network/gnome-network-properties.ui.h:8
 msgid "Ignored Hosts"
 msgstr "યજમાનો ને અવગણો"
 
-#: ../capplets/network/gnome-network-properties.ui.h:12
+#: ../capplets/network/gnome-network-properties.ui.h:9
 msgid "Location:"
 msgstr "સ્થાન:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:13
+#: ../capplets/network/gnome-network-properties.ui.h:10
 msgid "Network Proxy Preferences"
 msgstr "નેટવર્ક પ્રોક્સી પસંદગીઓ"
 
-#: ../capplets/network/gnome-network-properties.ui.h:14
+#: ../capplets/network/gnome-network-properties.ui.h:11
 msgid "Port:"
 msgstr "પોર્ટ:"
 
-#: ../capplets/network/gnome-network-properties.ui.h:15
+#: ../capplets/network/gnome-network-properties.ui.h:12
 msgid "Proxy Configuration"
 msgstr "પ્રોક્સી રૂપરેખાંકન"
 
-#: ../capplets/network/gnome-network-properties.ui.h:16
+#: ../capplets/network/gnome-network-properties.ui.h:13
 msgid "S_ocks host:"
 msgstr "Socks યજમાન (_o):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:17
+#: ../capplets/network/gnome-network-properties.ui.h:14
 msgid "The location already exists."
 msgstr "સ્થાન પહેલેથી જ અસ્તિત્વ ધરાવે છે."
 
-#: ../capplets/network/gnome-network-properties.ui.h:18
+#: ../capplets/network/gnome-network-properties.ui.h:15
 msgid "U_sername:"
 msgstr "વપરાશકર્તાનું નામ (_s):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:19
+#: ../capplets/network/gnome-network-properties.ui.h:16
+#, fuzzy
+msgid "_Automatic proxy configuration"
+msgstr "<b>સ્વયંસંચાલિત પ્રોક્સીની રૂપરેખા (_A)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:17
 msgid "_Delete Location"
 msgstr "સ્થાનને કાઢી નાંખો (_D)"
 
 # #-#-#-#-#  libgnomeui.gnome-2-2.hi.po (libgnomeui HEAD)  #-#-#-#-#
 # libgnomeui/gnome-gconf-ui.c:96
-#: ../capplets/network/gnome-network-properties.ui.h:20
+#: ../capplets/network/gnome-network-properties.ui.h:18
 msgid "_Details"
 msgstr "વિગતો (_D)"
 
-#: ../capplets/network/gnome-network-properties.ui.h:21
+#: ../capplets/network/gnome-network-properties.ui.h:19
 msgid "_FTP proxy:"
 msgstr "FTP પ્રોક્સી (_F):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:22
+#: ../capplets/network/gnome-network-properties.ui.h:20
 msgid "_Location name:"
 msgstr "સ્થાન નામ (_L):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:23
+#: ../capplets/network/gnome-network-properties.ui.h:21
+#, fuzzy
+msgid "_Manual proxy configuration"
+msgstr "<b>જાતે ગોઠવેલી પ્રોક્સીની રૂપરેખા (_M)</b>"
+
+#: ../capplets/network/gnome-network-properties.ui.h:22
 msgid "_Password:"
 msgstr "પાસવર્ડ (_P):"
 
-#: ../capplets/network/gnome-network-properties.ui.h:24
+#: ../capplets/network/gnome-network-properties.ui.h:23
 msgid "_Secure HTTP proxy:"
 msgstr "સુરક્ષિત HTTP પ્રોક્સી (_S):"
+
+#: ../capplets/network/gnome-network-properties.ui.h:24
+#, fuzzy
+msgid "_Use authentication"
+msgstr "<b>સત્તાધીકરણ વાપરો (_U)</b>"
 
 #: ../capplets/network/gnome-network-properties.ui.h:25
 msgid "_Use the same proxy for all protocols"
 msgstr "બધા પ્રોટોકોલો માટે એક જ પ્રોક્સી વાપરો (_U)"
+
+#. TRANSLATORS: texts below idle/sleep scales
+#: ../capplets/power/cc-power-panel.c:97
+#, fuzzy, c-format
+msgid "%d minute"
+msgid_plural "%d minutes"
+msgstr[0] "મિનિટો"
+msgstr[1] "મિનિટો"
+
+#: ../capplets/power/cc-power-panel.c:102
+msgid "Never"
+msgstr ""
+
+#: ../capplets/power/cc-power-panel.c:455
+#: ../capplets/power/power-properties.desktop.in.in.h:1
+msgid "Power and brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:1
+msgid "Brightness"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:2
+msgid "Put computer to sleep when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:3
+msgid "Set computer as idle when inactive for:"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:4
+msgid "Sleep"
+msgstr ""
+
+#: ../capplets/power/power.ui.h:5
+msgid "This will blank the screen and set your messaging state to 'away'."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:6
+msgid ""
+"This will suspend everything on your computer. It'll wake up in just the "
+"same state as it was before."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:7
+msgid "To change your brightness, you can use the keys on your computer."
+msgstr ""
+
+#: ../capplets/power/power.ui.h:8
+msgid "ldle"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:154
+msgid "Sorry, the passwords do not match"
+msgstr ""
+
+#: ../capplets/security/cc-security-panel.c:179
+#, fuzzy
+msgid "The new password is now saved"
+msgstr "પાસવર્ડ ખૂબ સરળ છે."
+
+#: ../capplets/security/cc-security-panel.c:210
+#, fuzzy
+msgid "Sorry, the password could not be changed"
+msgstr "તમારો પાસવર્ડ બદલાઈ ગયેલ છે."
+
+#: ../capplets/security/cc-security-panel.c:445
+#, fuzzy
+msgid "Sorry, that password is incorrect"
+msgstr "તે પાસવર્ડ ખોટો હતો."
+
+#: ../capplets/security/cc-security-panel.c:500
+msgid "Security"
+msgstr ""
+
+#: ../capplets/security/run-passwd.c:427
+#, fuzzy
+msgid "Authentication failed"
+msgstr "સત્તાધિકારીત!"
+
+#: ../capplets/security/run-passwd.c:503
+#, fuzzy, c-format
+msgid "The new password is too short"
+msgstr "પાસવર્ડ ખૂબ ટૂંકો છે."
+
+#: ../capplets/security/run-passwd.c:508
+#, fuzzy, c-format
+msgid "The new password is too simple"
+msgstr "પાસવર્ડ ખૂબ સરળ છે."
+
+#: ../capplets/security/run-passwd.c:512
+#, fuzzy, c-format
+msgid "The old and new passwords are too similar"
+msgstr "જૂના અને નવા પાસવર્ડો એકદમ સરખા છે."
+
+#: ../capplets/security/run-passwd.c:515
+#, fuzzy, c-format
+msgid "The new password must contain numeric or special characters"
+msgstr "નવો પાસવર્ડ આંકડા અને વિશિષ્ટ અક્ષરો સમાવતો હોવો જ જોઈએ."
+
+#: ../capplets/security/run-passwd.c:519
+#, fuzzy, c-format
+msgid "The old and new passwords are the same"
+msgstr "નવા અને જૂના પાસવર્ડો સરખા છે."
+
+#: ../capplets/security/run-passwd.c:523
+#, fuzzy, c-format
+msgid "Your password has been changed since you initially authenticated!"
+msgstr ""
+"તમારો પાસવર્ડ બદલાઈ ગયેલ છે કારણ કે તમે શરૂઆતમાં સત્તાધિકારીત થઈ ગયેલ છો! મહેરબાની "
+"કરીને પુનઃ-સત્તાધિકારીત કરો."
+
+#: ../capplets/security/run-passwd.c:527
+#, fuzzy, c-format
+msgid "The new password does not contain enough different characters"
+msgstr "નવો પાસવર્ડ આંકડા અને વિશિષ્ટ અક્ષરો સમાવતો હોવો જ જોઈએ."
+
+#: ../capplets/security/run-passwd.c:531
+#, fuzzy, c-format
+msgid "Unknown error"
+msgstr "અજ્ઞાત"
+
+#: ../capplets/security/security.desktop.in.in.h:1
+#, fuzzy
+msgid "Security and passwords"
+msgstr "નવો પાસવર્ડ પાછો લખો (_R):"
+
+#: ../capplets/security/security.ui.h:2
+#, fuzzy
+msgid "Current password:"
+msgstr "વર્તમાન પાસવર્ડ (_p):"
+
+#: ../capplets/security/security.ui.h:3
+#, fuzzy
+msgid "New password:"
+msgstr "નવો પાસવર્ડ (_N):"
+
+#: ../capplets/security/security.ui.h:4
+#, fuzzy
+msgid "Repeat password:"
+msgstr "નવો પાસવર્ડ પાછો લખો (_R):"
+
+#: ../capplets/security/security.ui.h:5
+msgid "Require a password to turn on or wake up my computer"
+msgstr ""
+
+#: ../capplets/security/security.ui.h:6
+#, fuzzy
+msgid "Save new password"
+msgstr "પાસવર્ડ બદલો"
 
 #: ../capplets/windows/gnome-window-properties.c:344
 msgid "Cannot start the preferences application for your window manager"
@@ -3159,32 +3386,6 @@ msgstr "વીંટી લો"
 msgid "None"
 msgstr "કંઈ જ નહિં"
 
-#: ../shell/control-center.c:49
-#, c-format
-msgid "key not found [%s]\n"
-msgstr "કી મળી નહિં [%s]\n"
-
-#: ../shell/control-center.c:143
-msgid "Hide on start (useful to preload the shell)"
-msgstr "શરૂ કરવા પર છુપાડો (શેલને પુન:લોડ કરવાનું ઉપયોગી)"
-
-#: ../shell/control-center.c:182
-msgid "Filter"
-msgstr "ગાળક"
-
-#: ../shell/control-center.c:182
-msgid "Groups"
-msgstr "જૂથો"
-
-#: ../shell/control-center.c:182
-msgid "Common Tasks"
-msgstr "સામાન્ય ક્રિયાઓ"
-
-#: ../shell/control-center.c:185 ../shell/gnomecc.desktop.in.in.h:1
-#: ../shell/gnomecc.directory.in.h:1
-msgid "Control Center"
-msgstr "નિયંત્રણ કેન્દ્ર"
-
 #: ../shell/control-center.schemas.in.h:1
 msgid "Close the control-center when a task is activated"
 msgstr "જ્યારે ક્રિયા સક્રિયકૃત થઈ જાય ત્યારે નિયંત્રણ-કેન્દ્ર બંધ કરો"
@@ -3223,7 +3424,8 @@ msgstr "જ્યારે ઉમેરો અથવા દૂર કરો ક�
 msgid ""
 "Indicates whether to close the shell when an upgrade or uninstall action is "
 "performed."
-msgstr "જ્યારે સુધારો કે વિસ્થાપિત કરો ક્રિયા કરવામાં આવે ત્યારે શું શેલ બંધ કરવું કે નહિં તે સૂચવે છે."
+msgstr ""
+"જ્યારે સુધારો કે વિસ્થાપિત કરો ક્રિયા કરવામાં આવે ત્યારે શું શેલ બંધ કરવું કે નહિં તે સૂચવે છે."
 
 #: ../shell/control-center.schemas.in.h:10
 msgid "Task names and associated .desktop files"
@@ -3248,12 +3450,26 @@ msgstr ""
 "applications.desktop,પ્રિન્ટરને ઉમેરો;gnome-cups-manager.desktop]"
 
 #: ../shell/control-center.schemas.in.h:14
-msgid "if true, the control-center will close when a \"Common Task\" is activated."
-msgstr "જો true હોય, તો નિયંત્રણ-કેન્દ્ર બંધ થઈ જશે જ્યારે \"સામાન્ય ક્રિયા\" સક્રિય થઈ જાય."
+msgid ""
+"if true, the control-center will close when a \"Common Task\" is activated."
+msgstr ""
+"જો true હોય, તો નિયંત્રણ-કેન્દ્ર બંધ થઈ જશે જ્યારે \"સામાન્ય ક્રિયા\" સક્રિય થઈ જાય."
+
+#: ../shell/gnomecc.desktop.in.in.h:1 ../shell/gnomecc.directory.in.h:1
+msgid "Control Center"
+msgstr "નિયંત્રણ કેન્દ્ર"
 
 #: ../shell/gnomecc.desktop.in.in.h:2
 msgid "The GNOME configuration tool"
 msgstr "જીનોમ રૂપરેખાનું સાધન"
+
+#: ../shell/shell.ui.h:1
+msgid "Settings"
+msgstr ""
+
+#: ../shell/shell.ui.h:2
+msgid "_All Settings"
+msgstr ""
 
 #: ../typing-break/drw-break-window.c:194
 msgid "_Postpone Break"
@@ -3342,16 +3558,20 @@ msgid "If set to true, then Type1 fonts will be thumbnailed."
 msgstr "જો true તરીકે સુયોજિત કરેલ હોય તો, પછી Type1 ફોન્ટો એ થમ્બનેઇલ થયેલ હશે."
 
 #: ../font-viewer/fontilus.schemas.in.h:5
-msgid "Set this key to the command used to create thumbnails for OpenType fonts."
-msgstr "OpenType ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો."
+msgid ""
+"Set this key to the command used to create thumbnails for OpenType fonts."
+msgstr ""
+"OpenType ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો."
 
 #: ../font-viewer/fontilus.schemas.in.h:6
 msgid "Set this key to the command used to create thumbnails for PCF fonts."
 msgstr "PCF ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો."
 
 #: ../font-viewer/fontilus.schemas.in.h:7
-msgid "Set this key to the command used to create thumbnails for TrueType fonts."
-msgstr "TrueType ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો."
+msgid ""
+"Set this key to the command used to create thumbnails for TrueType fonts."
+msgstr ""
+"TrueType ફોન્ટો માટે થમ્બનેઇલ ને બનાવવા માટે વપરાયેલ આદેશ માટે આ કી ને સુયોજિત કરો."
 
 #: ../font-viewer/fontilus.schemas.in.h:8
 msgid "Set this key to the command used to create thumbnails for Type1 fonts."
@@ -3628,3 +3848,17 @@ msgstr "<b>%s ખોલો</b>"
 msgid "Remove from System Items"
 msgstr "સિસ્ટમ વસ્તુઓમાંથી દૂર કરો"
 
+#~ msgid "key not found [%s]\n"
+#~ msgstr "કી મળી નહિં [%s]\n"
+
+#~ msgid "Hide on start (useful to preload the shell)"
+#~ msgstr "શરૂ કરવા પર છુપાડો (શેલને પુન:લોડ કરવાનું ઉપયોગી)"
+
+#~ msgid "Filter"
+#~ msgstr "ગાળક"
+
+#~ msgid "Groups"
+#~ msgstr "જૂથો"
+
+#~ msgid "Common Tasks"
+#~ msgstr "સામાન્ય ક્રિયાઓ"
