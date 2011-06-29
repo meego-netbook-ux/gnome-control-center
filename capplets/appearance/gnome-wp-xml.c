@@ -396,7 +396,6 @@ void gnome_wp_xml_save_list (AppearanceData *data) {
 
   g_hash_table_foreach (data->wp_hash,
 			(GHFunc) gnome_wp_list_flatten, &list);
-  g_hash_table_destroy (data->wp_hash);
   list = g_slist_reverse (list);
 
   wpfile = g_build_filename (g_get_home_dir (),
@@ -443,7 +442,6 @@ void gnome_wp_xml_save_list (AppearanceData *data) {
     g_free (filename);
 
     list = g_slist_delete_link (list, list);
-    gnome_wp_item_free (wpitem);
   }
   xmlSaveFormatFile (wpfile, wplist, 1);
   xmlFreeDoc (wplist);

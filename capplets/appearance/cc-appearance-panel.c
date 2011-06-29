@@ -89,14 +89,13 @@ setup_panel (CcAppearancePanel *panel,
                         g_warning (_("Could not load user interface file: %s"), err->message);
                         g_error_free (err);
                         g_object_unref (ui);
+                        return;
                 }
-                else
-                {
-                        data = g_new (AppearanceData, 1);
-                        data->client = gconf_client_get_default ();
-                        data->ui = ui;
-                        data->thumb_factory = gnome_desktop_thumbnail_factory_new (GNOME_DESKTOP_THUMBNAIL_SIZE_NORMAL);
-                }
+
+                panel->priv->data = data = g_new (AppearanceData, 1);
+                data->client = gconf_client_get_default ();
+                data->ui = ui;
+                data->thumb_factory = gnome_desktop_thumbnail_factory_new (GNOME_DESKTOP_THUMBNAIL_SIZE_NORMAL);
 
                 /* init tabs */
                 desktop_init (data, NULL);
@@ -111,6 +110,11 @@ setup_panel (CcAppearancePanel *panel,
                 gtk_widget_destroy (w);
 
                 setup_done = TRUE;
+        }
+
+        if (setup_done && !is_active)
+        {
+                gnome_wp_xml_save_list (panel->priv->data);
         }
 }
 

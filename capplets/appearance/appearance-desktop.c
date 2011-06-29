@@ -1387,10 +1387,21 @@ desktop_init (AppearanceData *data,
 
 }
 
+static void gnome_wp_list_free_item (const gchar *key, GnomeWPItem *item,
+				     gpointer data)
+{
+  g_free (item);
+}
+
 void
 desktop_shutdown (AppearanceData *data)
 {
   gnome_wp_xml_save_list (data);
+
+  g_hash_table_foreach (data->wp_hash,
+			(GHFunc) gnome_wp_list_free_item, NULL);
+  g_hash_table_destroy (data->wp_hash);
+  data->wp_hash = NULL;
 
   if (data->screen_monitors_handler > 0) {
     g_signal_handler_disconnect (gtk_widget_get_screen (GTK_WIDGET (data->wp_view)),
