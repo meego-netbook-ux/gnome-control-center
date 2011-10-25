@@ -6,6 +6,7 @@ SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
+	network-setup		\
 	power			\
 	printing		\
 	date			\
@@ -20,6 +21,7 @@ DIST_SUBDIRS = \
 	keyboard		\
 	mouse			\
 	network			\
+	network-setup		\
 	power			\
 	printing		\
 	security		\

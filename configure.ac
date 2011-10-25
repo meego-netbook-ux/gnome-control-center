@@ -405,6 +405,7 @@ capplets/mouse/Makefile
 capplets/mouse/gnome-settings-mouse.desktop.in
 capplets/network/Makefile
 capplets/network/gnome-network-properties.desktop.in
+capplets/network-setup/Makefile
 capplets/power/Makefile
 capplets/power/power-properties.desktop.in
 capplets/printing/Makefile
