@@ -30,11 +30,18 @@
 #include "capplet-stock-icons.h"
 
 static GtkIconSize mouse_capplet_dblclck_icon_size = 0;
+static GtkIconSize display_capplet_monitor_icon_size = 0;
 
 GtkIconSize
 mouse_capplet_dblclck_icon_get_size (void)
 {
 	return mouse_capplet_dblclck_icon_size;
+}
+
+GtkIconSize
+display_capplet_monitor_icon_get_size (void)
+{
+  return display_capplet_monitor_icon_size;
 }
 
 typedef struct
@@ -98,5 +105,10 @@ capplet_init_stock_icons (void)
 	mouse_capplet_dblclck_icon_size = gtk_icon_size_register ("mouse-capplet-dblclck-icon",
 								   MOUSE_CAPPLET_DBLCLCK_ICON_SIZE,
 								   MOUSE_CAPPLET_DBLCLCK_ICON_SIZE);
+        display_capplet_monitor_icon_size = gtk_icon_size_register ("display-capplet-monitor-icon",
+                                                                    DISPLAY_CAPPLET_MONITOR_ICON_SIZE,
+                                                                    DISPLAY_CAPPLET_MONITOR_ICON_SIZE);
+
+
 	g_object_unref (factory);
 }

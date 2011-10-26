@@ -66,6 +66,8 @@ desktopdir = $(datadir)/applications
 Desktop_in_files = display-properties.desktop.in
 desktop_DATA = $(Desktop_in_files:.desktop.in=.desktop)
 
+pixmapdir = $(pkgdatadir)/pixmaps
+
 INCLUDES   = $(DISPLAY_CAPPLET_CFLAGS) \
              $(GNOMECC_CAPPLETS_CFLAGS) \
 	     -DUIDIR="\"$(uidir)\"" \

@@ -34,6 +34,7 @@
 #include <gdk/gdkx.h>
 #include <X11/Xlib.h>
 
+#include "capplet-stock-icons.h"
 #include "cc-display-page.h"
 #include "mux-label.h"
 
@@ -472,6 +473,7 @@ static void
 update_ui (CcDisplayPage *page, OutputMode mode)
 {
         switch (mode) {
+        default:
         case INTERNAL:
                 gtk_widget_set_sensitive (page->priv->toggle, FALSE);
                 mx_gtk_light_switch_set_active (MX_GTK_LIGHT_SWITCH (page->priv->toggle), FALSE);
@@ -479,7 +481,9 @@ update_ui (CcDisplayPage *page, OutputMode mode)
                                     _("You are only showing your desktop on your computer's screen. "
                                       "Plug in another display to share your view and then turn display sharing on above."));
                 gtk_widget_hide (page->priv->resolution_box);
-                gtk_image_set_from_file (GTK_IMAGE (page->priv->monitor_icon), PIXMAPDIR "/display-netbook-only.png");
+                gtk_image_set_from_icon_name (GTK_IMAGE (page->priv->monitor_icon),
+                                              "display-netbook-only",
+                                              display_capplet_monitor_icon_get_size ());
                 gtk_widget_set_sensitive (page->priv->apply_button, FALSE);
                 break;
         case INTERNAL_EXTERNAL_PRESENT:
@@ -489,7 +493,9 @@ update_ui (CcDisplayPage *page, OutputMode mode)
                                     _("You are only showing your desktop on your computer's screen. "
                                       "Plug in another display to share your view and then turn display sharing on above."));
                 gtk_widget_hide (page->priv->resolution_box);
-                gtk_image_set_from_file (GTK_IMAGE (page->priv->monitor_icon), PIXMAPDIR "/display-netbook-only.png");
+                gtk_image_set_from_icon_name (GTK_IMAGE (page->priv->monitor_icon),
+                                              "display-netbook-only",
+                                              display_capplet_monitor_icon_get_size ());
                 gtk_widget_set_sensitive (page->priv->apply_button, TRUE);
                 break;
         case EXTERNAL:
@@ -498,7 +504,9 @@ update_ui (CcDisplayPage *page, OutputMode mode)
                 mux_label_set_text (MUX_LABEL (page->priv->state_label),
                                     _("You are showing your desktop on an external monitor or projector."));
                 gtk_widget_show (page->priv->resolution_box);
-                gtk_image_set_from_file (GTK_IMAGE (page->priv->monitor_icon), PIXMAPDIR "/display-netbook-and-external.png");
+                gtk_image_set_from_icon_name (GTK_IMAGE (page->priv->monitor_icon),
+                                              "display-netbook-and-external",
+                                              display_capplet_monitor_icon_get_size ());
                 gtk_widget_set_sensitive (page->priv->apply_button, TRUE);
 
                 update_resolutions (page);
@@ -551,6 +559,8 @@ on_screen_changed (GnomeRRScreen *scr,
                 update_ui (page, INTERNAL_EXTERNAL_PRESENT);
         else if (page->priv->external_output)
                 update_ui (page, EXTERNAL);
+        else
+                update_ui (page, INTERNAL);
 }
 
 static void

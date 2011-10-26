@@ -35,12 +35,13 @@ G_BEGIN_DECLS
 #define MOUSE_CAPPLET_DEFAULT_WIDTH		120
 #define MOUSE_CAPPLET_DEFAULT_HEIGHT		100
 #define MOUSE_CAPPLET_DBLCLCK_ICON_SIZE		100
+#define DISPLAY_CAPPLET_MONITOR_ICON_SIZE       128
 
 /* stock icons */
 #define KEYBOARD_REPEAT			"keyboard-repeat"
 #define KEYBOARD_CURSOR			"keyboard-cursor"
 #define KEYBOARD_VOLUME			"keyboard-volume"
-#define KEYBOARD_BELL			"keyboard-bell" 
+#define KEYBOARD_BELL			"keyboard-bell"
 #define ACCESSX_KEYBOARD_BOUNCE 	"accessibility-keyboard-bouncekey"
 #define ACCESSX_KEYBOARD_SLOW 		"accessibility-keyboard-slowkey"
 #define ACCESSX_KEYBOARD_MOUSE 		"accessibility-keyboard-mousekey"
@@ -56,6 +57,7 @@ void        capplet_init_stock_icons			(void);
 GtkIconSize keyboard_capplet_icon_get_size		(void);
 GtkIconSize mouse_capplet_icon_get_size			(void);
 GtkIconSize mouse_capplet_dblclck_icon_get_size		(void);
+GtkIconSize display_capplet_monitor_icon_get_size       (void);
 
 G_END_DECLS
 
